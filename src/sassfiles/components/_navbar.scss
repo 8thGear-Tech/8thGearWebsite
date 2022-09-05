@@ -1,0 +1,17 @@
+@use "../components/buttons" as *;
+
+@mixin NavBar {
+  font-size: 18px;
+  width: 100%;
+  // margin-top: 10px;
+}
+
+.NavBar {
+  background-color: #00a495;
+  --bs-gutter-x: 0 !important;
+  @include NavBar;
+}
+
+.JointheStudioBtn:hover {
+  background-color: #821e6b;
+}

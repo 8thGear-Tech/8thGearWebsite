@@ -14,3 +14,13 @@
 //LetUsKnowBtn
 // EventsViewMoreBtn
 //GetYourTicket
+
+const JointheStudioBtn = () => {
+  return (
+    <button className="JointheStudioBtn" type="sumbit">
+      Join the Studio
+    </button>
+  );
+};
+
+export default JointheStudioBtn;
