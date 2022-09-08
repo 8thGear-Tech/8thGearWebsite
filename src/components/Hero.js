@@ -1,9 +1,0 @@
-//AnimationVideoHero
-//EventPageHero
-//ManagedServicesHero
-//GalleryPageHero
-//CoWorkingPageHero
-//IndividualManagedServicesHero
-//ProjectDeliveryPageHero
-//OurModelPageHero
-//PortfoliosandTeamPageHero
