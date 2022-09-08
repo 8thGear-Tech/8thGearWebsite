@@ -1,0 +1,47 @@
+{
+  "galleryGIZ": [
+    {
+      "id": 1,
+      "image": "./images/galleryimagecardsGIZ/1GalleryGIZ.jpg"
+    },
+
+    {
+      "id": 2,
+      "image": "./images/galleryimagecardsGIZ/2GalleryGIZ.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./images/galleryimagecardsGIZ/3GalleryGIZ.jpg"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/galleryimagecardsGIZ/4GalleryGIZ.jpg"
+    },
+    {
+      "id": 5,
+      "image": "./images/galleryimagecardsGIZ/5GalleryGIZ.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryimagecardsGIZ/6GalleryGIZ.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/galleryimagecardsGIZ/7GalleryGIZ.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/galleryimagecardsGIZ/8GalleryGIZ.jpg"
+    },
+    {
+      "id": 9,
+      "image": "./images/galleryimagecardsGIZ/9GalleryGIZ.jpg"
+    },
+
+    {
+      "id": 10,
+      "image": "./images/galleryimagecardsGIZ/10GalleryGIZ.jpg"
+    }
+  ]
+}

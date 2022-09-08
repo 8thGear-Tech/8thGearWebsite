@@ -1,0 +1,32 @@
+.LinkedInBtn {
+  background-color: rgb(12, 97, 191);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 10.8125rem;
+  height: 2.8125rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.InstagramBtn {
+  background-color: rgb(216, 43, 117);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 10.8125rem;
+  height: 2.8125rem;
+}
+
+.ShareBtn {
+  background-color: rgb(183, 255, 65);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 10.8125rem;
+  height: 2.8125rem;
+}
+
+.gallerys4IMG_ {
+  width: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

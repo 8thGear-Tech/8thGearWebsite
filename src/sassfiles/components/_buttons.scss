@@ -1,0 +1,28 @@
+@use "../colors" as *;
+
+@mixin LinkedInBtn {
+  border-radius: 2.1875rem;
+  color: white;
+  width: 10.8125rem;
+  height: 2.8125rem;
+}
+
+.LinkedInBtn {
+  background-color: $linkedinbtncolor;
+  @include LinkedInBtn;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.InstagramBtn {
+  background-color: $InstagramBtn;
+
+  @include LinkedInBtn;
+}
+
+.ShareBtn {
+  background-color: $ShareBtn;
+  @include LinkedInBtn;
+}
