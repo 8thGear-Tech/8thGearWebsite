@@ -1,0 +1,26 @@
+@use "../colors" as *;
+
+.SuggestAnEventBtn {
+  border: 3px solid $btncolor;
+  color: $prybgcolor;
+  border-radius: 35px;
+}
+
+.LetUsKnowBtn {
+  border-radius: 118.57853698730469px;
+  border: 270px 603px 2078.42138671875px $btncolor;
+  color: $prytextcolor;
+  background-color: $prybgcolor;
+}
+
+.EventsViewMoreBtn {
+  border: 70px 232px 640px 3228px $btncolor;
+  border-radius: 35px;
+  background-color: $prybgcolor;
+  //   color: $prytextcolor;
+}
+.GetYourTicketBtn {
+  border: 333px 70px 1087px 2864px;
+  border-radius: 35px;
+  background-color: $btncolor;
+}
