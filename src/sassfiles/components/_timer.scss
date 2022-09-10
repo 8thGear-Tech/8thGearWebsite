@@ -1,82 +1,3 @@
-.navbarShadow {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.icons {
-  position: fixed;
-}
-
-.SuggestAnEventBtn {
-  border: 3px solid #821e6b;
-  color: #ffffff;
-  border-radius: 35px;
-}
-
-.LetUsKnowBtn {
-  border-radius: 118.5785369873px;
-  border: 270px 603px 2078.4213867188px #821e6b;
-  color: #000;
-  background-color: #ffffff;
-}
-
-.EventsViewMoreBtn {
-  border: 70px 232px 640px 3228px #821e6b;
-  border-radius: 35px;
-  background-color: #ffffff;
-}
-
-.GetYourTicketBtn {
-  border: 333px 70px 1087px 2864px;
-  border-radius: 35px;
-  background-color: #821e6b;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: var(--white);
-}
-
-h2 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-h4 {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-h5 {
-  font-weight: 300;
-}
-
-p {
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--white);
-  line-height: 1.75rem;
-}
-
-.navbar {
-  margin: 8px;
-  color: #ffffff;
-}
-
-.constructionpage {
-  max-width: 100%;
-  width: fit;
-}
-
-.backsoon {
-  color: #821e6b;
-}
-
 .App {
   text-align: center;
 }
@@ -88,10 +9,10 @@ p {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -105,15 +26,6 @@ p {
 
 .App-link {
   color: #61dafb;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes App-logo-spin {
@@ -182,4 +94,3 @@ p {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-/*# sourceMappingURL=styles.css.map */
