@@ -1,19 +1,21 @@
-
 import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import BlogPage from "./pages/blog";
+import ManagedServicesPage from "./pages/managedServices";
 import Home from "./pages/home";
-
+import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 function App() {
   return (
-    <BrowserRouter> 
-    
-      {/* <h1>Welcome to React Router!</h1> */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-
-    </BrowserRouter>
-   
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<BlogPage />} />
+          {/* <Route path="/" element={<ManagedServicesPage />} /> */}
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

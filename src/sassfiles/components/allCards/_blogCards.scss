@@ -1,0 +1,25 @@
+.sidecard {
+  border: none;
+  max-width: 26rem;
+}
+
+.blogarticle {
+  width: 100%;
+  width: fit-content;
+  block-size: fit-content;
+}
+
+.MainCard {
+  width: 100%;
+  // width: fit-content;
+  block-size: fit-content;
+  padding: 20px;
+  position: absolute;
+}
+.blogCategory {
+  position: fixed;
+  width: 100%;
+}
+.blogtext {
+  font-size: 1.5vw;
+}
