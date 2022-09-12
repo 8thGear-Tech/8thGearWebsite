@@ -188,4 +188,33 @@ p {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
+.PreviousBtn {
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #821E6B;
+  border-radius: 30px;
+}
+
+.NextBtn {
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #821E6B;
+  border-radius: 35px;
+}
+
+.ManagedServicesRequestBtn {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #821E6B;
+  border-radius: 35px;
+}
 /*# sourceMappingURL=styles.css.map */

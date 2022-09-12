@@ -2,6 +2,9 @@ import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Constructionpage from "./pages/constructionpage";
+import {ManagedServicesRequestBtn} from "./components/Buttons/ServicesBtn"
+import {PreviousBtn} from "./components/Buttons/PortfolioBtn"
+import {NextBtn} from "./components/Buttons/PortfolioBtn"
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -16,6 +19,9 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* <Route path="teamcard" element={<Teamcard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
+        <Route path="request" element={<ManagedServicesRequestBtn />} />
+        <Route path="prev" element={<PreviousBtn />} />
+        <Route path="next" element={<NextBtn />} />
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
 
