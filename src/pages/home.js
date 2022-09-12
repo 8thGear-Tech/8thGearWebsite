@@ -10,11 +10,11 @@ const Home = () => {
 };
 const SectionOne = () => {
   return (
-    <div className="container-fluid p-5">
+    <div className="container-fluid p-5 ">
       <h3 className="text-center pb-4">
         8thGear is a Venture Studio & Project Delivery Company
       </h3>
-      <div className="row justify-content-center">
+      <div className="row ">
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
           <h3 className="pb-4 ">We are builders funding the next generation</h3>
         </div>
@@ -46,15 +46,24 @@ const SectionOne = () => {
 };
 const SectionTwo = () => {
   return (
-    <div className="container-fluid px-5">
-      <div className="row justify-content-evenly ">
-        <h4 className="text-center my-5">Team</h4>
+    <div className="container-fluid text-center px-5">
+      {" "}
+      <h4 className="">Our Business Creation Platform</h4>
+      <p>
+        The next wave of venture capital is more than just investing, it's
+        business creation. Our collaborative platform has three components.
+      </p>
+      <div className="row justify-content-evenly mt-5">
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           <div className="card mb-5">
             {/* <img src={madamwunmi} className="card-img-top p-3" alt="..." /> */}
             <div className="card-body">
-              <h5 className="card-title">Omowunmi Obidairo</h5>
-              <p className="card-text">Lead Instructor/Co-Founder</p>
+              <h5 className="card-title">GEAR UP</h5>
+              <p className="card-text">
+                {" "}
+                it's business creation. Our collaborative platform has three
+                components
+              </p>
             </div>
           </div>
         </div>
@@ -67,8 +76,11 @@ const SectionTwo = () => {
             </div>
 
             <div className="card-body">
-              <h5 className="card-title">Afolayan Samuel</h5>
-              <p className="card-text">Content Manager</p>
+              <h5 className="card-title">EVOLVE</h5>
+              <p className="card-text">
+                it's business creation. Our collaborative platform has three
+                components
+              </p>
             </div>
           </div>
         </div>
@@ -81,22 +93,11 @@ const SectionTwo = () => {
             </div>
 
             <div className="card-body">
-              <h5 className="card-title">Adaramaja Omotola</h5>
-              <p className="card-text">Chief Operating officer</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            <div>
-              {" "}
-              {/* <img src={sarah} className="card-img-top p-3" alt="..." /> */}
-            </div>
-
-            <div className="card-body">
-              <h5 className="card-title">Akinehin Sarah</h5>
-              <p className="card-text">Tech Instructor</p>
+              <h5 className="card-title">ENGAGE</h5>
+              <p className="card-text">
+                it's business creation. Our collaborative platform has three
+                components
+              </p>
             </div>
           </div>
         </div>
