@@ -7,19 +7,31 @@ import { LinkedInBtn } from "./components/Buttons/BlogBtn";
 import { ShareBtn } from "./components/Buttons/BlogBtn";
 import { MediaCards } from "./components/AllCards/MediaCards";
 import { GalleryGizCards } from "./components/AllCards/MediaCards";
-import { galleryusadf } from "./components/AllCards/MediaCards";
+import { UsadfCards } from "./components/AllCards/MediaCards";
+import { FutaCards } from "./components/AllCards/MediaCards";
+import { LsetfvisitCards } from "./components/AllCards/MediaCards";
+import { LsetfCards } from "./components/AllCards/MediaCards";
+import { FounderCards } from "./components/AllCards/MediaCards";
+import { ProjectCards } from "./components/AllCards/MediaCards";
+import { DemodayCards } from "./components/AllCards/MediaCards";
 
 function App() {
   return (
     <BrowserRouter>
       {/* <h1>Welcome to React Router!</h1> */}
       <Routes>{/* <Route path="/" element={<InstagramBtn />} /> */}</Routes>
-      <InstagramBtn />
-      <LinkedInBtn />
-      <ShareBtn />
-      <MediaCards />
-      <GalleryGizCards />
-      <galleryusadf />
+      {/* <InstagramBtn /> */}
+      {/* <LinkedInBtn /> */}
+      {/* <ShareBtn /> */}
+      {/* <MediaCards /> */}
+      {/* <GalleryGizCards /> */}
+      {/* <UsadfCards /> */}
+      {/* <FutaCards /> */}
+      {/* <LsetfvisitCards /> */}
+      {/* <LsetfCards /> */}
+      {/* <FounderCards /> */}
+      {/* <ProjectCards /> */}
+      <DemodayCards />
     </BrowserRouter>
   );
 }

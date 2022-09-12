@@ -1,5 +1,5 @@
 {
-  "galleryGIZ": [
+  "projectdelivery": [
     {
       "id": 1,
       "image": "./images/projectdelivery/projectgallery1.jpg"
@@ -48,7 +48,27 @@
     },
 
     {
-      "id": 12,
+      "id": 13,
+      "image": "./images/projectdelivery/projectgallery12.jpg"
+    },
+    {
+      "id": 14,
+      "image": "./images/projectdelivery/projectgallery12.jpg"
+    },
+    {
+      "id": 15,
+      "image": "./images/projectdelivery/projectgallery12.jpg"
+    },
+    {
+      "id": 16,
+      "image": "./images/projectdelivery/projectgallery12.jpg"
+    },
+    {
+      "id": 17,
+      "image": "./images/projectdelivery/projectgallery12.jpg"
+    },
+    {
+      "id": 18,
       "image": "./images/projectdelivery/projectgallery12.jpg"
     }
   ]

@@ -1,0 +1,94 @@
+{
+  "gallerycards": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallerycard1.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallerycard2.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallerycard3.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallerycard4.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 5,
+      "image": "./images/gallerycards/gallerycard5.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 6,
+      "image": "./images/gallerycards/gallerycard6.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 7,
+      "image": "./images/gallerycards/gallerycard7.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 8,
+      "image": "./images/gallerycards/gallerycard8.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 9,
+      "image": "./images/gallerycards/gallerycard9.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 10,
+      "image": "./images/gallerycards/gallerycard10.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 11,
+      "image": "./images/gallerycards/gallerycard11.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 12,
+      "image": "./images/gallerycards/gallerycard12.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 13,
+      "image": "./images/gallerycards/gallerycard13.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 14,
+      "image": "./images/gallerycards/gallerycard14.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 15,
+      "image": "./images/gallerycards/gallerycard15.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 16,
+      "image": "./images/gallerycards/gallerycard16.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 17,
+      "image": "./images/gallerycards/gallerycard17.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 18,
+      "image": "./images/gallerycards/gallerycard18.jpg",
+      "text": "photo session from founders meetup program"
+    }
+  ]
+}

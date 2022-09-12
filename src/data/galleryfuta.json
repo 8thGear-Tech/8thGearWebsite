@@ -1,0 +1,43 @@
+{
+  "galleryfuta": [
+    {
+      "id": 1,
+      "image": "./images/galleryfuta/1Futa.jpg"
+    },
+
+    {
+      "id": 2,
+      "image": "./images/galleryfuta/2Futa.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./images/galleryfuta/3Futa.jpg"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/galleryfuta/4Futa.jpg"
+    },
+    {
+      "id": 5,
+      "image": "./images/galleryfuta/5Futa.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryfuta/6Futa.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/galleryfuta/7Futa.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/galleryfuta/8Futa.jpg"
+    },
+
+    {
+      "id": 9,
+      "image": "./images/galleryfuta/9Futa.jpg"
+    }
+  ]
+}
