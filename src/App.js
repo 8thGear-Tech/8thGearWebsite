@@ -10,7 +10,7 @@ import OurModelPage from "./pages/Studio/ourModel";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
-import Portfolios from "./pages/portfolios";
+import Portfolios from "./pages/Studio/individualPortfolio";
 import { BookNowBtn } from "./components/Buttons/ServicesBtn";
 import { BookaSessionBtn } from "./components/Buttons/ServicesBtn";
 import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
