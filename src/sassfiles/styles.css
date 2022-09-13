@@ -7,7 +7,6 @@
 }
 
 .SuggestAnEventBtn {
-  border: 3px solid #821e6b;
   color: #ffffff;
   border-radius: 35px;
 }
@@ -20,7 +19,6 @@
 }
 
 .EventsViewMoreBtn {
-  border: 70px 232px 640px 3228px #821e6b;
   border-radius: 35px;
   background-color: #ffffff;
 }
@@ -28,7 +26,6 @@
 .GetYourTicketBtn {
   border: 333px 70px 1087px 2864px;
   border-radius: 35px;
-  background-color: #821e6b;
 }
 
 h1 {
@@ -77,10 +74,6 @@ p {
 .constructionpage {
   max-width: 100%;
   width: fit;
-}
-
-.backsoon {
-  color: #821e6b;
 }
 
 .App {
@@ -187,5 +180,13 @@ p {
   text-transform: uppercase;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.sectionTwoBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.cardBg {
+  background-color: rgba(0, 164, 149, 0.07);
 }
 /*# sourceMappingURL=styles.css.map */
