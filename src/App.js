@@ -12,12 +12,19 @@ import IndividualPortfolioPage from "./pages/Studio/individualPortfolio";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
 import Portfolios from "./pages/Studio/individualPortfolio";
+// import Portfolios from "./pages/portfolios";
 import { BookNowBtn } from "./components/Buttons/ServicesBtn";
 import { BookaSessionBtn } from "./components/Buttons/ServicesBtn";
 import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
 import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
 import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
+import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+// import { useCountdown } from "./components/AllCards/UseCountdown";
+// import Teamcard from "./components/AllCards/TeamCard";
+// import Eventsbutton from "./components/Buttons/EventsBtn";
+// import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
+// import { TeamCard } from "./components/AllCards/TeamCard";
 
 function App() {
   return (
@@ -34,8 +41,8 @@ function App() {
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
         <Route path="portfolios" element={<Portfolios />} />
+        {/* <Route path="portfolios" element={<Portfolios />} /> */}
         <Route path="button1" element={<BookNowBtn />} />
-        <Route path="button2" element={<BookaSessionBtn />} />
         <Route path="button3" element={<BookaFreeSessionBtn />} />
         <Route path="button4" element={<OnHoverReadMoreBtn />} />
         <Route path="button5" element={<AllPortfoliosLogoCard />} />
@@ -43,7 +50,13 @@ function App() {
           path="button6"
           element={<ProjectDeliveryManagedServicesCard />}
         />
+        <Route path="button7" element={<ManagedServicesRequestForm />} />
       </Routes>
+      {/* <UnderconstructionNavbar /> */}
+      {/* <Route path="teamcard" element={<Teamcard />} /> */}
+
+      {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
+
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
     </BrowserRouter>
