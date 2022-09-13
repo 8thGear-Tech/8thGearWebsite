@@ -1,6 +1,6 @@
 //External import
 import React from "react";
-
+import { OurImpactIcon } from "../../components/Icons";
 const ProjectDeliveryPage = () => {
   return (
     <>
@@ -11,12 +11,12 @@ const ProjectDeliveryPage = () => {
 
 const OurImpact = () => {
   return (
-    <div className="container-fluid text-center px-5">
+    <div className="container-fluid text-center px-5 ourImpactBg">
       <div className="row justify-content-evenly ">
         <h4 className="text-center my-5">OUR IMPACT</h4>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          <div className="card mb-5">
-            {/* <img src={madamwunmi} className="card-img-top p-3" alt="..." /> */}
+        <div className="col-lg-4 col-md-4 col-sm-10 px-5 ">
+          <div className="card mb-5 ourImpactCardBg">
+            <OurImpactIcon />
             <div className="card-body">
               <h5 className="card-title">20,000</h5>
               <p className="card-text"> BUSINESS IN-HOUSE</p>
@@ -25,10 +25,10 @@ const OurImpact = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           {" "}
-          <div className="card mb-5">
+          <div className="card mb-5 ourImpactCardBg">
             <div>
               {" "}
-              {/* <img src={samuel} className="card-img-top p-3" alt="..." /> */}
+              <OurImpactIcon />
             </div>
 
             <div className="card-body">
@@ -39,10 +39,10 @@ const OurImpact = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           {" "}
-          <div className="card mb-5">
+          <div className="card mb-5 ourImpactCardBg">
             <div>
               {" "}
-              {/* <img src={omotola} className="card-img-top p-3" alt="..." /> */}
+              <OurImpactIcon />
             </div>
 
             <div className="card-body">
@@ -53,10 +53,10 @@ const OurImpact = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           {" "}
-          <div className="card mb-5">
+          <div className="card mb-5 ourImpactCardBg">
             <div>
               {" "}
-              {/* <img src={sarah} className="card-img-top p-3" alt="..." /> */}
+              <OurImpactIcon />
             </div>
 
             <div className="card-body">
@@ -67,10 +67,10 @@ const OurImpact = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           {" "}
-          <div className="card mb-5">
+          <div className="card mb-5 ourImpactCardBg">
             <div>
               {" "}
-              {/* <img src={sarah} className="card-img-top p-3" alt="..." /> */}
+              <OurImpactIcon />
             </div>
 
             <div className="card-body">
@@ -82,8 +82,8 @@ const OurImpact = () => {
 
         <div className="col-lg-4 col-md-4 col-sm-10 px-5">
           {" "}
-          <div className="card mb-5">
-            {/* <img src={olamide} className="card-img-top p-3" alt="..." /> */}
+          <div className="card mb-5 ourImpactCardBg">
+            <OurImpactIcon />
             <div className="card-body">
               <h5 className="card-title">20,000</h5>
               <p className="card-text">START-UP SUPPORTED</p>

@@ -39,8 +39,8 @@ const SectionOne = () => {
         Company
       </p>
       {/* <div className="border-end"></div> */}
-      <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
+      <div className="row ">
+        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center ">
           <h3 className="pb-4 ">We are builders funding the next generation</h3>
         </div>
         <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto ">
@@ -78,7 +78,7 @@ const SectionOne = () => {
 };
 const SectionTwo = () => {
   return (
-    <div className="container-fluid text-center p-5 sectionTwoBg">
+    <div className="container-fluid text-center p-5 SectionTwoBg">
       {" "}
       <h4 className="">Our Business Creation Platform</h4>
       <p className="">

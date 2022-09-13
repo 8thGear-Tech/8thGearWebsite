@@ -1,7 +1,14 @@
-export const BookIcon = () => {
+export const WhatWeDoIcon = () => {
   return (
     <div>
-      <i className="bi bi-journals iconCol" style={{ fontSize: "28px" }}></i>
+      <i class="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
+    </div>
+  );
+};
+export const OurImpactIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-bag-check" style={{ fontSize: "60px" }}></i>
     </div>
   );
 };

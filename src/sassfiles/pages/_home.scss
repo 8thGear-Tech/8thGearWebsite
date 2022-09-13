@@ -1,11 +1,11 @@
 @use "../colors" as *;
 
-.sectionTwoBg {
+.SectionTwoBg {
   background-color: $lightgreenbg;
 }
 @mixin CardBg {
   background-color: $lightgreenbg;
-  //   border: 3px solid $bordercolor;
+  border: 3px solid $bordercolor;
 }
 .cardBg {
   @include CardBg;
