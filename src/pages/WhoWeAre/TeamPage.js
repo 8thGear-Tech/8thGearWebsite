@@ -1,32 +1,32 @@
-// // import * as React from "react";
-// // import TeamsCard from "../components/AllCards/TeamCard";
-// import data from "../../data/8thGerains.json";
-// import { TeamCard } from "../../components/AllCards/TeamCard";
+// import * as React from "react";
+// import TeamsCard from "../components/AllCards/TeamCard";
+import data from "../../data/8thGerains.json";
+import { TeamCard } from "../../components/AllCards/TeamCard";
 
-// const TeamPage = () => {
-//   return (
-//     <>
-//       <Gerians />
-//     </>
-//   );
-// };
+const TeamPage = () => {
+  return (
+    <>
+      <Gerians />
+    </>
+  );
+};
 
-// const Gerians = () => {
-//   return (
-//     <div className="container ">
-//       <div className="row ">
-//         {data.teamcard.map((card) => {
-//           return (
-//             <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
-//               <TeamCard {...card}></TeamCard>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
-// export default TeamPage;
+const Gerians = () => {
+  return (
+    <div className="container ">
+      <div className="row ">
+        {data.teamcard.map((card) => {
+          return (
+            <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
+              <TeamCard {...card}></TeamCard>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export default TeamPage;
 
 // // ,
 // //     {

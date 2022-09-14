@@ -11,7 +11,7 @@ import PortfolioPage from "./pages/Studio/portfolios";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
-import { Gerians } from "./components/AllCards/TeamCard";
+// import { Gerians } from "./components/AllCards/TeamCard";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -45,13 +45,14 @@ function App() {
         <Route path="portfolios" element={<PortfolioPage />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="foundersmeetup" element={<FounderMeetupPage />} />
+        <Route path="team" element={<TeamPage />} />
         <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
         />
         {/* <Route path="teamcard" element={<TeamCard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
-        <Route path="team" element={<Gerians />} />
+        {/* <Route path="team" element={<Gerians />} /> */}
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}

@@ -43,18 +43,18 @@ export const TeamCard = (props) => {
   );
 };
 
-export const Gerians = () => {
-  return (
-    <div className="container ">
-      <div className="row ">
-        {data.teamcard.map((card) => {
-          return (
-            <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
-              <TeamCard {...card}></TeamCard>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
+// export const Gerians = () => {
+//   return (
+//     <div className="container ">
+//       <div className="row ">
+//         {data.teamcard.map((card) => {
+//           return (
+//             <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
+//               <TeamCard {...card}></TeamCard>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
