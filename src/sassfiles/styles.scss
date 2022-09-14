@@ -14,8 +14,9 @@
 @use "../sassfiles/components/individualPortfolioInfo";
 @use "../sassfiles/pages/studio/ourModel";
 @use "../sassfiles/pages/projectdelivery/projectDelivery";
-@use "../sassfiles/pages//services/managedServices";
-@use "../sassfiles//pages//events/events";
+@use "../sassfiles/pages/services/managedServices";
+@use "../sassfiles//pages/events/events";
+@use "../sassfiles/pages/services/GaaS";
 @use "./components/forms/servicesForms";
 @use "./components/navbar" as *;
 // @use "./components/buttons" as *;

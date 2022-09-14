@@ -1,7 +1,7 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-// import TeamPage from "./pages/Who We Are/TeamPage";
+import TeamPage from "./pages/WhoWeAre/TeamPage";
 import BlogPage from "./pages/Insights/blog";
 import Home from "./pages/home";
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
@@ -16,6 +16,7 @@ import PortfolioPage from "./pages/Studio/portfolios";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
+import GrowthAsAservice from "./pages/Services/GaaS";
 // import { Gerians } from "./components/AllCards/TeamCard";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
@@ -52,7 +53,8 @@ function App() {
         <Route path="events" element={<EventsPage />} />
         <Route path="foundersmeetup" element={<FounderMeetupPage />} />
         <Route path="blog" element={<BlogPage />} />
-        {/* <Route path="team" element={<TeamPage />} /> */}
+        <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+        <Route path="team" element={<TeamPage />} />
         <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}

@@ -429,6 +429,16 @@ p {
   border: 3px solid #00a495;
 }
 
+.whyChooseUsBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.whyChooseUsCardBg {
+  border: 3px solid #00a495;
+  border-radius: 60px;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
 .center {
   text-align: center;
   width: auto;
@@ -443,6 +453,20 @@ p {
   color: #ef00c0;
   text-align: center;
   line-height: 3px;
+}
+
+.card {
+  height: 200px;
+  width: 280px;
+  left: 50px;
+  right: 50px;
+}
+
+.card-body {
+  border-radius: 0px;
+  border-bottom: 5px solid #00a495 !important;
+  border-right: 5px solid #00a495 !important;
+  border-left: 5px solid #00a495 !important;
 }
 
 .Teampic {
