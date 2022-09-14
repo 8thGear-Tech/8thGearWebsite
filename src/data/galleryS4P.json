@@ -20,11 +20,35 @@
     },
     {
       "id": 5,
+      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryImageCardsS4P/3GalleryS4.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/galleryImageCardsS4P/5GalleryS4.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/galleryImageCardsS4P/2GalleryS4.jpg"
+    },
+    {
+      "id": 9,
+      "image": "./images/galleryImageCardsS4P/5GalleryS4.jpg"
+    },
+    {
+      "id": 10,
+      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+    },
+    {
+      "id": 11,
       "image": "./images/galleryImageCardsS4P/5GalleryS4.jpg"
     },
 
     {
-      "id": 6,
+      "id": 12,
       "image": "./images/galleryImageCardsS4P/6GalleryS4.jpg"
     }
   ]

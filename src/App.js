@@ -14,6 +14,8 @@ import { LsetfCards } from "./components/AllCards/MediaCards";
 import { FounderCards } from "./components/AllCards/MediaCards";
 import { ProjectCards } from "./components/AllCards/MediaCards";
 import { DemodayCards } from "./components/AllCards/MediaCards";
+import { GalleryCards } from "./components/AllCards/MediaCards";
+import { GalleryVideoCards } from "./components/AllCards/MediaCards";
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <LsetfCards /> */}
       {/* <FounderCards /> */}
       {/* <ProjectCards /> */}
-      <DemodayCards />
+      {/* <DemodayCards /> */}
+      <GalleryCards />
+      <GalleryVideoCards />
     </BrowserRouter>
   );
 }

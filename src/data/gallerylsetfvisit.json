@@ -42,9 +42,13 @@
       "id": 10,
       "image": "./images/gallerylsetfvisit/10lsetfvisit.jpg"
     },
-
     {
       "id": 11,
+      "image": "./images/gallerylsetfvisit/10lsetfvisit.jpg"
+    },
+
+    {
+      "id": 12,
       "image": "./images/gallerylsetfvisit/11lsetfvisit.jpg"
     }
   ]

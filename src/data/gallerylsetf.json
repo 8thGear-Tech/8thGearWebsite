@@ -42,9 +42,13 @@
       "id": 10,
       "image": "./images/gallerylsetf/Lsetfcard10.jpg"
     },
-
     {
       "id": 11,
+      "image": "./images/gallerylsetf/Lsetfcard10.jpg"
+    },
+
+    {
+      "id": 12,
       "image": "./images/gallerylsetf/Lsetfcard11.jpg"
     }
   ]

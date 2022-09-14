@@ -38,9 +38,17 @@
       "id": 9,
       "image": "./images/galleryusadf/usadf9.jpg"
     },
-
     {
       "id": 10,
+      "image": "./images/galleryusadf/usadf9.jpg"
+    },
+    {
+      "id": 11,
+      "image": "./images/galleryusadf/usadf9.jpg"
+    },
+
+    {
+      "id": 12,
       "image": "./images/galleryusadf/usadf10.jpg"
     }
   ]

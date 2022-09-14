@@ -95,7 +95,7 @@ p {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-    animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -187,5 +187,13 @@ p {
   text-transform: uppercase;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.gallerys4IMG_ {
+  width: 1rem;
+}
+
+.projectCardsimg {
+  height: 12.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

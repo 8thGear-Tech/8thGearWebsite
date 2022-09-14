@@ -38,9 +38,17 @@
       "id": 9,
       "image": "./images/galleryimagecardsGIZ/9GalleryGIZ.jpg"
     },
-
     {
       "id": 10,
+      "image": "./images/galleryimagecardsGIZ/9GalleryGIZ.jpg"
+    },
+    {
+      "id": 11,
+      "image": "./images/galleryimagecardsGIZ/9GalleryGIZ.jpg"
+    },
+
+    {
+      "id": 12,
       "image": "./images/galleryimagecardsGIZ/10GalleryGIZ.jpg"
     }
   ]
