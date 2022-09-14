@@ -66,6 +66,6 @@ export const OnHoverCard = () => {
 </div>; */
 }
 //ProjectDeliveryPopUpCard
-//8thgeriansPopUpCard
+//8thgeariansPopUpCard
 //EIRDataPopUpCard
 //AdvisoryBoardOnHoverCard

@@ -1,0 +1,50 @@
+@use "../../colors" as *;
+@use "../../font" as *;
+
+.BookNowBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaFreeSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+@mixin JointheTeamBtn {
+  border: 2.5px solid $btncolor;
+  border-radius: 1.1875rem;
+  color: $prytextcolor;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ffff;
+  padding: 0.4rem 1.5rem;
+}
+
+.JointheTeamBtn {
+  @include JointheTeamBtn;
+}
+
+.SubmitFormBtn {
+  @include JointheTeamBtn;
+}

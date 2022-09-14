@@ -1,6 +1,7 @@
 //JointheStudioBtn
 //JointheTeamBtn
 //SubmitFormBtn
+<<<<<<< HEAD
 
 export const JointheTeamBtn = () => {
   return (
@@ -17,3 +18,5 @@ export const SubmitFormBtn = () => {
     </button>
   );
 };
+=======
+>>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
