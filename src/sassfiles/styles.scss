@@ -1,5 +1,3 @@
-@use "../sassfiles/components/hero";
-@use "../sassfiles/components/buttons";
 @use "../sassfiles/components/allCards/MediaCards";
 @use "./components/navbar";
 @use "./components/buttons//eventsBtn";
@@ -12,4 +10,5 @@
 @use "../sassfiles/pages/studio/ourModel";
 @use "../sassfiles/pages/projectdelivery/projectDelivery";
 @use "../sassfiles/pages//services/managedServices";
+@use "../sassfiles//pages//events/events";
 @use "./components/forms/servicesForms";

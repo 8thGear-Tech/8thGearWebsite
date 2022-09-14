@@ -1,5 +1,5 @@
 //BlogReadMoreBtn
-// BlogReadMoreLinkBtn
+//BlogReadMoreLinkBtn
 //SubmitCommentBtn
 //FacebookBtn
 //InstagramBtn

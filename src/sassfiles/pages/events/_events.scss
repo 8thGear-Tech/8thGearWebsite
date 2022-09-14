@@ -1,0 +1,12 @@
+@use "../../colors" as *;
+
+.sectionOneBg {
+  background-color: $lightgreenbg;
+}
+@mixin EventsCardBg {
+  background-color: $lightgreenbg;
+  border: 3px solid $bordercolor;
+}
+.eventsCardBg {
+  @include EventsCardBg;
+}

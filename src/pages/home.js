@@ -11,13 +11,14 @@ const Home = () => {
     <>
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </>
   );
 };
 const SectionOne = () => {
   return (
     <div className="container-fluid p-5 ">
-      <p className="text-center pb-4">
+      <p className="text-center ">
         8thGear is a
         <Link
           to="/"
@@ -39,14 +40,20 @@ const SectionOne = () => {
         Company
       </p>
       {/* <div className="border-end"></div> */}
+    </div>
+  );
+};
+const SectionTwo = () => {
+  return (
+    <div className="container p-5 d-flex justify-content-center">
+      {/* <div className="border-end"></div> */}
       <div className="row ">
-        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center ">
-          <h3 className="pb-4 ">We are builders funding the next generation</h3>
+        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
+          <h3 className="pb-4">We are builders funding the next generation</h3>
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto ">
-          <div className="col d-lg-flex d-md-flex mb-5 ">
+        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+          <div className="col d-lg-flex d-md-flex mb-5 float-end">
             <div className="col">
-              {/* <BookIcon /> */}
               <img
                 src={venturestudioicon}
                 alt=""
@@ -58,7 +65,7 @@ const SectionOne = () => {
               <p>We build at 8thGear We build at 8thGear We build at 8thGear</p>
             </div>
           </div>
-          <div className="col d-lg-flex d-md-flex ">
+          <div className="col d-lg-flex d-md-flex float-end">
             <div className="col">
               <img
                 src={projectdeliveryicon}
@@ -76,7 +83,7 @@ const SectionOne = () => {
     </div>
   );
 };
-const SectionTwo = () => {
+const SectionThree = () => {
   return (
     <div className="container-fluid text-center p-5 SectionTwoBg">
       {" "}
