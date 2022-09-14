@@ -1,4 +1,5 @@
-@use "./components/navbar";
-@use "./components/buttons";
-@use "./components/constructionpage";
-@use "./components/timer";
+@use "./components/navbar" as *;
+@use "./components/buttons" as *;
+@use "./components/constructionpage" as *;
+@use "./components/timer" as *;
+@use "./components/asllCards/teamCards" as *;
