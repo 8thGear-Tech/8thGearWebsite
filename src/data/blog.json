@@ -1,58 +1,102 @@
-[
+{
+  "mainCard": [
     {
-        "id": 1,
-        "logo": "images/8thgearlogo.png",
-        "image": "images/Genetics.jpg",
-        "text": "ENTERPRISE SUPPORT"
-    },
-    {
-        "id": 2,
-        "logo": "images/8thgearlogo.png",
-        "image": "images/Physiology2.jpg",
-        "text": "ECOSYSTEM EVENTS"
-    },
-    {
-        "id": 3,
-        "logo": "images/8thgearlogo.png",
-        "image": "images/Plantpathology1.jpg",
-        "text": "TRAINING"
-    },
-    {
-        "id": 4,
-        "logo": "images/8thgearlogo.png",
-        "image": "images/Genetics.jpg",
-        "text": "Zoology4"
-    },
-    {
-        "id": 5,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 6,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 7,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 8,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 9,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 10,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 11,
-        "logo": "images/8thgearlogo.png"
-    },
-    {
-        "id": 12,
-        "logo": "images/8thgearlogo.png"
+      "id": 1,
+      "image": "./images/blogCardImg/blogcard.jpg",
+      "title": "Lorem ipsum dolor sit amet consectetur adip  labore et dolore magna aliqua",
+      "date": "14 MARCH 2022",
+      "text": "dolor in reprehenderit in voluptate velit esse, cillum dolore eu fugiat nulla dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla reprehenderit in voluptate velit esse"
     }
-]
+  ],
+
+  "subCards": [
+    {
+      "id": 1,
+      "image": "./images/blogCardImg/main1.jpg",
+      "title": "Lorem ipsum dolor sit amet ",
+      "text": "dolor in reprehenderit in voluptate velit esse, cillum dolore eu fugiat nulla dolor."
+    },
+
+    {
+      "id": 2,
+      "image": "./images/blogCardImg/main2.jpg",
+      "title": "Lorem ipsum dolor sit amet ",
+      "text": "dolor in reprehenderit in voluptate velit esse, cillum dolore eu fugiat nulla dolor."
+    },
+
+    {
+      "id": 3,
+      "image": "./images/blogCardImg/main3.jpg",
+      "title": "Lorem ipsum dolor sit amet ",
+      "text": "dolor in reprehenderit in voluptate velit esse, cillum dolore eu fugiat nulla dolor."
+    },
+
+    {
+      "id": 4,
+      "image": "./images/blogCardImg/main4.jpg",
+      "title": "Lorem ipsum dolor sit amet ",
+      "text": "dolor in reprehenderit in voluptate velit esse, cillum dolore eu fugiat nulla dolor."
+    }
+  ],
+
+  "sideCrads": [
+    {
+      "id": 1,
+      "image": "./images/blogCardImg/sidecard1.jpg",
+      "date": "24 may 2022",
+      "text": "laboris nisi utaliquip ex ea commodo sint occaecat cupidatat non"
+    },
+    {
+      "id": 2,
+      "image": "./images/blogCardImg/sidecard2.jpg",
+      "date": "19 may 2022",
+      "text": "laboris nisi utaliquip ex ea commodo sint occaecat cupidatat non"
+    },
+
+    {
+      "id": 3,
+      "image": "./images/blogCardImg/sidecard3.jpg",
+      "date": "14 may 2022",
+      "text": "laboris nisi utaliquip ex ea commodo sint occaecat cupidatat non"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/blogCardImg/sidecard4.jpg",
+      "date": "10 may 2022",
+      "text": "laboris nisi utaliquip ex ea commodo sint occaecat cupidatat non"
+    },
+
+    {
+      "id": 5,
+      "image": "./images/blogCardImg/sidecard1.jpg",
+      "date": "10 may 2022",
+      "text": "laboris nisi utaliquip ex ea commodo sint occaecat cupidatat non"
+    }
+  ],
+
+  "manageServiceData": [
+    {
+      "id": 1,
+      "image": "./images/manageServicesImage/Mserviceimg1.jpg",
+      "title": "Digital Marketing"
+    },
+    {
+      "id": 2,
+      "image": "./images/manageServicesImage/Mserviceimg2.jpg",
+      "title": "Legal"
+    },
+
+    {
+      "id": 3,
+      "image": "./images/manageServicesImage/Mserviceimg3.jpg",
+      "title": "Accounting"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/manageServicesImage/Mserviceimg4.jpg",
+      "title": "Tech"
+    }
+  ]
+}

@@ -1,7 +1,12 @@
 import * as React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+// import TeamPage from "./pages/Who We Are/TeamPage";
+import BlogPage from "./pages/Insights/blog";
 import Home from "./pages/home";
-import TeamPage from "./pages/WhoWeAre/TeamPage";
+import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import Constructionpage from "./pages/constructionpage";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -31,6 +36,7 @@ import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -45,12 +51,17 @@ function App() {
         <Route path="portfolios" element={<PortfolioPage />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="foundersmeetup" element={<FounderMeetupPage />} />
-        <Route path="team" element={<TeamPage />} />
+        <Route path="blog" element={<BlogPage />} />
+        {/* <Route path="team" element={<TeamPage />} /> */}
         <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
         />
         {/* <Route path="teamcard" element={<TeamCard />} /> */}
+        {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/" element={<BlogPage />} /> */}
+        {/* <Route path="/" element={<ManagedServicesPage />} /> */}
+        {/* <Route path="teamcard" element={<Teamcard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
         {/* <Route path="team" element={<Gerians />} /> */}
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
@@ -75,6 +86,9 @@ function App() {
 
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
+      <footer>
+        <Footer />
+      </footer>
     </BrowserRouter>
   );
 }

@@ -1,4 +1,9 @@
 @use "../sassfiles/components/allCards/MediaCards";
+@use "./components/allCards/blogCards";
+@use "./components/allCards/managedServicesCards";
+@use "./reset";
+@use "./font";
+@use "./components/buttons";
 @use "./components/navbar";
 @use "./components/buttons/eventsBtn";
 @use "./components/constructionpage";
@@ -17,3 +22,4 @@
 @use "./components/constructionpage" as *;
 @use "./components/timer" as *;
 @use "./components/allCards/teamCards" as *;
+@use "../sassfiles/components/footer";

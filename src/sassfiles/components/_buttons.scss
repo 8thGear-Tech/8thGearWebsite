@@ -1,15 +1,5 @@
-@use "../../colors" as *;
-@use "../../font" as *;
-
-.OnHoverReadMoreBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
-}
+@use "../colors" as *;
+@use "../font" as *;
 
 @mixin LearnMoreBtn {
   border: 2.5px solid $btncolor;

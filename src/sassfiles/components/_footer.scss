@@ -1,0 +1,29 @@
+@use "../colors" as *;
+
+.ul_top_hypers {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.text-fluid {
+  font-size: 1.1vw;
+}
+#iconsize {
+  font-size: 2vw;
+  color: $darkgreenbg;
+}
+.mobile-icon {
+  list-style-type: none;
+}
+.ul_for_footer {
+  list-style-type: none;
+}
+.md-footer-line {
+  width: 100vw;
+}
+.newsLetterUnderline {
+  width: 13vw;
+}
+.text-fluid1 {
+  font-size: 1.7vw;
+}
