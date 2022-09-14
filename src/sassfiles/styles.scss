@@ -1,6 +1,6 @@
 @use "../sassfiles/components/allCards/MediaCards";
 @use "./components/navbar";
-@use "./components/buttons//eventsBtn";
+@use "./components/buttons/eventsBtn";
 @use "./components/constructionpage";
 @use "./components/timer";
 @use "./pages/home";
@@ -12,3 +12,8 @@
 @use "../sassfiles/pages//services/managedServices";
 @use "../sassfiles//pages//events/events";
 @use "./components/forms/servicesForms";
+@use "./components/navbar" as *;
+// @use "./components/buttons" as *;
+@use "./components/constructionpage" as *;
+@use "./components/timer" as *;
+@use "./components/allCards/teamCards" as *;

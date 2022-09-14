@@ -12,3 +12,10 @@ export const OurImpactIcon = () => {
     </div>
   );
 };
+export const ArrowRightIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-arrow-right"></i>
+    </div>
+  );
+};

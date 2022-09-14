@@ -1,6 +1,7 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
+import TeamPage from "./pages/WhoWeAre/TeamPage";
 import Constructionpage from "./pages/constructionpage";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -10,6 +11,7 @@ import PortfolioPage from "./pages/Studio/portfolios";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
+import { Gerians } from "./components/AllCards/TeamCard";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -25,7 +27,7 @@ import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
-// import Teamcard from "./components/AllCards/TeamCard";
+// import TeamCard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
@@ -47,8 +49,10 @@ function App() {
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
         />
-        {/* <Route path="teamcard" element={<Teamcard />} /> */}
+        {/* <Route path="teamcard" element={<TeamCard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
+        <Route path="team" element={<Gerians />} />
+        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
         <Route path="portfolios" element={<Portfolios />} />
