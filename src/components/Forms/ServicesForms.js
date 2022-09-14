@@ -60,7 +60,7 @@ const Request = () => {
     </div>
     </div>
     <div className="sub">
-<button type="button" className="submit">Submit</button>
+<input type="submit" className="submit" value="Submit"/>
     </div>
 </form>
 

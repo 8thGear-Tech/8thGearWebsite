@@ -6,8 +6,8 @@ import {ManagedServicesRequestBtn} from "./components/Buttons/ServicesBtn"
 import {PreviousBtn} from "./components/Buttons/PortfolioBtn"
 import {NextBtn} from "./components/Buttons/PortfolioBtn"
 import {EightgeariansPopUpCard} from "./components/AllCards/TriggeredCards"
-import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
-import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
+//import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
+//import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
 import Request from "./components/Forms/ServicesForms";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
@@ -26,9 +26,9 @@ function App() {
         <Route path="request" element={<ManagedServicesRequestBtn />} />
         <Route path="prev" element={<PreviousBtn />} />
         <Route path="next" element={<NextBtn />} />
-        <Route path="8thcard" element={<EightgeariansPopUpCard />} />
-        <Route path="Eir" element={<EIRDataPopUpCard />} />
-        <Route path="Advi" element={<AdvisoryBoardOnHoverCard />} />
+        <Route path="8thcard" element={<EightgeariansPopUpCard/>} />
+        {/* <Route path="Eir" element={<EIRDataPopUpCard />} /> */}
+        {/* <Route path="Advi" element={<AdvisoryBoardOnHoverCard />} /> */}
         <Route path="req" element={<Request />} />
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}

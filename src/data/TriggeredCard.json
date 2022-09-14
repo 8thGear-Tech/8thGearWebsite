@@ -1,8 +1,29 @@
 {
-    "TriggeredCard": [
+    "teamPopupCard": [
         {
-            "id": 1,
-            "images": "./"
+           "id": 1,
+           "image":"./images/8thgearlogo.png",
+           "fullname":" Damilola Obidiaro",
+           "position": "Co-Founder",
+           "info": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+        },
+        {
+           "id": 2,
+           "image":"./images/Constructionpage.png",
+           "name":"Omowumi Adekoya",
+           "position": "Managing Partner ",
+           "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+        },
+        {
+           "id": 3,
+           "image":"./images/TeamImage.jpg",
+           "name":" Husseni Sanni",
+           "position": "Digital Marketing Analyst ",
+           "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
         }
-    ]
+       
+   ]
+       
+       
+      
 }
