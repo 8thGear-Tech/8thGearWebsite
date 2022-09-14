@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import TeamPage from "./pages/WhoWeAre/TeamPage";
@@ -29,8 +30,8 @@ import { BookNowBtn } from "./components/Buttons/ServicesBtn";
 import { BookaSessionBtn } from "./components/Buttons/ServicesBtn";
 import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
 import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
-import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
-import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
+// import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
+// import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import TeamCard from "./components/AllCards/TeamCard";
@@ -38,6 +39,20 @@ import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
 import Footer from "./components/Footer";
+import { InstagramBtn } from "./components/Buttons/BlogBtn";
+import { LinkedInBtn } from "./components/Buttons/BlogBtn";
+import { ShareBtn } from "./components/Buttons/BlogBtn";
+import { MediaCards } from "./components/AllCards/MediaCards";
+import { GalleryGizCards } from "./components/AllCards/MediaCards";
+import { UsadfCards } from "./components/AllCards/MediaCards";
+import { FutaCards } from "./components/AllCards/MediaCards";
+import { LsetfvisitCards } from "./components/AllCards/MediaCards";
+import { LsetfCards } from "./components/AllCards/MediaCards";
+import { FounderCards } from "./components/AllCards/MediaCards";
+import { ProjectCards } from "./components/AllCards/MediaCards";
+import { DemodayCards } from "./components/AllCards/MediaCards";
+import { GalleryCards } from "./components/AllCards/MediaCards";
+import { GalleryVideoCards } from "./components/AllCards/MediaCards";
 
 function App() {
   return (
@@ -45,8 +60,8 @@ function App() {
       {/* <h1>Welcome to React Router!</h1> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
-        <Route path="managedservices" element={<ManagedServicesPage />} />
+        {/* <Route path="projectdelivery" element={<ProjectDeliveryPage />} /> */}
+        {/* <Route path="managedservices" element={<ManagedServicesPage />} /> */}
         <Route path="ourmodel" element={<OurModelPage />} />
         <Route path="portfolio" element={<IndividualPortfolioPage />} />
         <Route path="portfolios" element={<PortfolioPage />} />
@@ -74,11 +89,11 @@ function App() {
         <Route path="button1" element={<BookNowBtn />} />
         <Route path="button3" element={<BookaFreeSessionBtn />} />
         <Route path="button4" element={<OnHoverReadMoreBtn />} />
-        <Route path="button5" element={<AllPortfoliosLogoCard />} />
+        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
         <Route
           path="button6"
           element={<ProjectDeliveryManagedServicesCard />}
-        />
+        /> */}
         <Route path="button7" element={<ManagedServicesRequestForm />} />
       </Routes>
       {/* <UnderconstructionNavbar /> */}
@@ -91,6 +106,21 @@ function App() {
       <footer>
         <Footer />
       </footer>
+      <Routes>{/* <Route path="/" element={<InstagramBtn />} /> */}</Routes>
+      {/* <InstagramBtn /> */}
+      {/* <LinkedInBtn /> */}
+      {/* <ShareBtn /> */}
+      {/* <MediaCards /> */}
+      {/* <GalleryGizCards /> */}
+      {/* <UsadfCards /> */}
+      {/* <FutaCards /> */}
+      {/* <LsetfvisitCards /> */}
+      {/* <LsetfCards /> */}
+      {/* <FounderCards /> */}
+      {/* <ProjectCards /> */}
+      {/* <DemodayCards /> */}
+      <GalleryCards />
+      <GalleryVideoCards />
     </BrowserRouter>
   );
 }

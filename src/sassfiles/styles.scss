@@ -1,4 +1,4 @@
-@use "../sassfiles/components/allCards/MediaCards";
+// @use "../sassfiles/components/allCards/MediaCards";
 @use "./components/allCards/blogCards";
 @use "./components/allCards/managedServicesCards";
 @use "./reset";
@@ -24,3 +24,4 @@
 @use "./components/timer" as *;
 @use "./components/allCards/teamCards" as *;
 @use "../sassfiles/components/footer";
+@use "./components/allCards/MediaCards";

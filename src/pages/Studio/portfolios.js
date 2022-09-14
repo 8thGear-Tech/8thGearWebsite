@@ -1,11 +1,11 @@
-import { AllPortfoliosLogoCard } from "../../components/AllCards/MediaCards";
+// import { AllPortfoliosLogoCard } from "../../components/AllCards/MediaCards";
 
-const PortfolioPage = () => {
-  return (
-    <>
-      <AllPortfoliosLogoCard />
-    </>
-  );
-};
+// const PortfolioPage = () => {
+//   return (
+//     <>
+//       <AllPortfoliosLogoCard />
+//     </>
+//   );
+// };
 
-export default PortfolioPage;
+// export default PortfolioPage;

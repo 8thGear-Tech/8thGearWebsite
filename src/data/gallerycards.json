@@ -1,0 +1,98 @@
+{
+  "gallerycards": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallerycard1.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallerycard2.jpg",
+      "text": "photo session from demoday"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallerycard3.jpg",
+      "text": "photo session from futa"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallerycard4.jpg",
+      "text": "photo session from GIZ"
+    },
+    {
+      "id": 5,
+      "image": "./images/gallerycards/gallerycard2.jpg",
+      "text": "photo session from LSETFVisit"
+    },
+    {
+      "id": 6,
+      "image": "./images/gallerycards/gallerycard1.jpg",
+      "text": "photo session from LSETF"
+    },
+    {
+      "id": 7,
+      "image": "./images/gallerycards/gallerycard7.jpg",
+      "text": "photo session from S4P"
+    },
+    {
+      "id": 8,
+      "image": "./images/gallerycards/gallerycard8.jpg",
+      "text": "photo session from USADF"
+    },
+    {
+      "id": 9,
+      "image": "./images/gallerycards/gallerycard9.jpg",
+      "text": "photo session from Projectdelivery"
+    },
+    {
+      "id": 10,
+      "image": "./images/gallerycards/gallerycard10.jpg",
+      "text": "photo session from meeting"
+    },
+    {
+      "id": 11,
+      "image": "./images/gallerycards/gallerycard11.jpg",
+      "text": "photo session from meetup "
+    },
+    {
+      "id": 12,
+      "image": "./images/gallerycards/gallerycard12.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 13,
+      "image": "./images/gallerycards/gallerycard13.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 14,
+      "image": "./images/gallerycards/gallerycard14.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 18,
+      "image": "./images/gallerycards/gallerycard18.jpg",
+      "text": "photo session from founders meetup program"
+    }
+  ],
+
+  "galleryvideocards": [
+    {
+      "id": 15,
+      "video": " https://www.youtube.com/embed/watch?v=PEnuHN-Mqvg",
+      "text": "Video session from founders meetup program"
+    },
+
+    {
+      "id": 16,
+      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 17,
+      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
+      "text": "video session from meeting"
+    }
+  ]
+}
