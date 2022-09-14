@@ -15,7 +15,7 @@ export const BigBlogCard = () => {
               </div>
               <div className="col-10"> */}
 
-            <div className="card1 card ">
+            <div className="card1 card mx-3 ">
               <img src={image} className="card-img-top" alt={"img"} />
               <div className="card-body">
                 <h3 className="card-title">{title}</h3>
@@ -67,8 +67,12 @@ export const SingleMainBlogCard = (items) => {
   const { image, title, text } = items;
   return (
     <>
-      <div className="card">
-        <img src={image} className="card-img-top  img-responsive" alt={"img"} />
+      <div className="card mx-3 my-3">
+        <img
+          src={image}
+          className="card-img-top  img-responsive h-100"
+          alt={"img"}
+        />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p>{text}</p>
@@ -102,15 +106,15 @@ export const SingleSideBlogCard = (items) => {
   const { image, text, date } = items;
   return (
     <>
-      <div className=" card sidecard mb-3">
-        <div className="row g-0 align-item-center">
+      <div className="card    sidecard mb-3 img-fluid">
+        <div className="row g-0 ">
           <div className="col-5">
             <img src={image} className="sideimg  img-fluid" alt={"img"} />
           </div>
           <div className="col-7">
-            <h6 className="card-title ">{date}</h6>
-            <p className="card-text">{text}</p>
-            <a href="#" className="btn-primary ">
+            <h6 className="card-title  text-fluid1">{date}</h6>
+            <p className="card-text text-fluid2">{text}</p>
+            <a href="#" className="btn-primary text-fluid3 ">
               Read More
             </a>
           </div>

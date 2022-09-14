@@ -1,6 +1,6 @@
 .sidecard {
-  border: none;
-  max-width: 26rem;
+  // border: none;
+  width: 100vw;
 }
 
 .blogarticle {
@@ -22,4 +22,19 @@
 }
 .blogtext {
   font-size: 1.5vw;
+}
+.blogPagE {
+  width: fit-content;
+}
+
+.card1 {
+  // width: 30rem;
+}
+.text-fluid1 {
+  font-size: 1vw;
+}
+
+.sideimg {
+  width: 100%;
+  width: fit-content;
 }

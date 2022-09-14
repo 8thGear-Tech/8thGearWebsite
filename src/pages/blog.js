@@ -11,7 +11,7 @@ import Line2 from "../assets/images/Line2.jpg";
 function BlogPage() {
   return (
     <>
-      <section className="  container-fluid my-4 mx-5">
+      <section className="  container-fluid my-4 ">
         <div className="row g-3   d-flex justify-content-end ">
           {/* displaying on a large screen */}
           <div className="col-md-2 col-lg-2   blogCategory  	d-none d-md-block d-lg-block">

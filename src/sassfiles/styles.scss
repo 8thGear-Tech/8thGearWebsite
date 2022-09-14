@@ -3,3 +3,8 @@
 @use "./reset";
 @use "./font";
 @use "./components/buttons";
+@use "./components/navbar";
+@use "./components/buttons//eventsBtn";
+@use "./components/constructionpage";
+@use "./components/timer";
+@use "../sassfiles/components/footer";
