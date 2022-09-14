@@ -7,9 +7,6 @@ import gearupicon from "../assets/images/gearupicon.png";
 import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
 const Home = () => {
-<<<<<<< HEAD
-  return <h1 className="mt-5">8thGear Project</h1>;
-=======
   return (
     <>
       <SectionOne />
@@ -152,7 +149,6 @@ const SectionTwo = () => {
       {/* <LetUsKnowBtn /> */}
     </div>
   );
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 };
 
 export default Home;

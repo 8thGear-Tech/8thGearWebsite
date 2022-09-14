@@ -1,8 +1,50 @@
-<<<<<<< HEAD
+.BookNowBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaFreeSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
 .JointheStudioBtn {
   border: 3px solid #821e6b;
-  color: #000;
+  color: #000 !important;
   border-radius: 15px;
+}
+
+.NavBar {
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  height: 4.6875rem !important;
+  font-size: 18px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.JointheStudioBtn:hover {
+  background-color: #821e6b;
 }
 
 .BlogReadMoreBtn {
@@ -33,104 +75,34 @@
   border: 3px solid #001d87;
 }
 
-.NavBar {
-  background-color: #ffffff;
-  box-sizing: border-box;
-  box-shadow: #ffffff;
-  font-size: 18px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.JointheStudioBtn:hover {
-  background-color: #821e6b;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  height: 1.5em;
-  vertical-align: middle;
-  width: 1.5em;
-  font-size: 1.25rem;
-  line-height: 1;
-  padding: 0.25rem 0.75rem;
-  transition: box-shadow 0.15s ease-in-out;
-=======
-.navbarShadow {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.icons {
-  position: fixed;
-}
-
-.SuggestAnEventBtn {
-  color: #ffffff;
-  border-radius: 35px;
-}
-
-.LetUsKnowBtn {
-  border-radius: 118.5785369873px;
-  border: 270px 603px 2078.4213867188px #821e6b;
-  color: #000;
-  background-color: #ffffff;
-}
-
-.EventsViewMoreBtn {
-  border-radius: 35px;
-  background-color: #ffffff;
-}
-
-.GetYourTicketBtn {
-  border: 333px 70px 1087px 2864px;
-  border-radius: 35px;
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
-}
-
 h1 {
   font-size: 2.5rem;
   font-weight: 600;
   color: var(--white);
-<<<<<<< HEAD
-=======
   font-family: "Rubik", sans-serif;
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 600;
-<<<<<<< HEAD
-=======
   font-family: "Rubik", sans-serif;
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
-<<<<<<< HEAD
-=======
   font-family: "Rubik", sans-serif;
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
 
 h4 {
   font-size: 1.3rem;
   font-weight: 600;
-<<<<<<< HEAD
-}
-
-h5 {
-  font-weight: 500;
-=======
   font-family: "Rubik", sans-serif;
 }
 
 h5 {
   font-weight: 300;
   font-family: "Rubik", sans-serif;
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
 
 p {
@@ -138,7 +110,7 @@ p {
   font-weight: 300;
   color: var(--white);
   line-height: 1.75rem;
-<<<<<<< HEAD
+  font-family: "Open Sans", sans-serif;
 }
 
 .ManagedServicesPageTestimonialCard {
@@ -263,8 +235,28 @@ article h4 {
 
 .line {
   border: 2px solid #821e6b !important;
-=======
-  font-family: "Open Sans", sans-serif;
+}
+
+.SuggestAnEventBtn {
+  color: #ffffff;
+  border-radius: 35px;
+}
+
+.LetUsKnowBtn {
+  border-radius: 118.5785369873px;
+  border: 270px 603px 2078.4213867188px #821e6b;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.EventsViewMoreBtn {
+  border-radius: 35px;
+  background-color: #ffffff;
+}
+
+.GetYourTicketBtn {
+  border: 333px 70px 1087px 2864px;
+  border-radius: 35px;
 }
 
 .navbar {
@@ -392,36 +384,6 @@ article h4 {
   border: 3px solid #00a495;
 }
 
-.BookNowBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
-}
-
-.BookaSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
-}
-
-.BookaFreeSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
-}
-
 .BorderOf1px {
   padding: 1px;
   border: 1px solid black;
@@ -516,6 +478,5 @@ article h4 {
 
 .howItWorksBg {
   background-color: rgba(0, 164, 149, 0.07);
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
 /*# sourceMappingURL=styles.css.map */

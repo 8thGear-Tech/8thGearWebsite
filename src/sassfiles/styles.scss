@@ -1,18 +1,16 @@
-@use "./components/navbar";
-<<<<<<< HEAD
-@use "./components/buttons";
+@use "../sassfiles/components/navbar";
+@use "../sassfiles/components/buttons/blogBtn";
+@use "../sassfiles/components/buttons/contactBtn";
 @use "./font";
 @use "./components/allCards/testimonialCards";
-=======
-@use "./components/buttons//eventsBtn";
+@use "./components/buttons/eventsBtn";
 @use "./components/constructionpage";
 @use "./components/timer";
 @use "./pages/home";
 @use "../sassfiles/components/hero/bgColorandTextHero";
-@use "../sassfiles/components/buttons/contactBtn";
+
 @use "../sassfiles/components/allCards/MediaCards";
 @use "../sassfiles/components/individualPortfolioInfo";
 @use "../sassfiles/pages/studio/ourModel";
 @use "../sassfiles/pages/projectdelivery/projectDelivery";
 @use "../sassfiles/pages//services/managedServices";
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48

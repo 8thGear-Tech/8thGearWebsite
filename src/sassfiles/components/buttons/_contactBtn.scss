@@ -1,3 +1,4 @@
+@use "../../colors" as *;
 .BookNowBtn {
   width: auto;
   height: 30px;
@@ -26,4 +27,10 @@
   font-size: 14px;
   border-radius: 35px;
   border: none;
+}
+
+.JointheStudioBtn {
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 15px;
 }

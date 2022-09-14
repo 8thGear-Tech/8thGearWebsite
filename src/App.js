@@ -1,13 +1,11 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-<<<<<<< HEAD
-import NavBar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
 // import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { AboutUs } from "./components/AllCards/TestimonialCards";
-=======
 import Constructionpage from "./pages/constructionpage";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -25,21 +23,16 @@ import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
 import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
 import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 
 function App() {
   return (
     <BrowserRouter>
-<<<<<<< HEAD
-      <NavBar />
+      <Navbar />
       {/* <ManagedServicesPageTestimonialCard /> */}
       {/* <Lad /> */}
       {/* <CoWorkingPageTestimonialCard /> */}
       {/* <AboutUs /> */}
 
-=======
-      {/* <h1>Welcome to React Router!</h1> */}
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
@@ -61,11 +54,8 @@ function App() {
           element={<ProjectDeliveryManagedServicesCard />}
         />
       </Routes>
-<<<<<<< HEAD
-=======
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
->>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
     </BrowserRouter>
   );
 }
