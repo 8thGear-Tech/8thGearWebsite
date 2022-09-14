@@ -3,44 +3,45 @@
 //AllPortfoliosLogoCard
 //ProjectDeliveryManagedServicesCard
 
-import Record from "../../data/blog.json"
-import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json"
+// import Record from "../../data/blog.json"
 
 
-export const AllPortfoliosLogoCard = () =>{
+
+// export const AllPortfoliosLogoCard = (props) =>{
+//     const image = props.image;
+//     return(
+//         <div className="container-fluid">
+//         <div style={{borderTop: "1px solid #dee2e6",borderLeft: "1px solid #dee2e6",}} className="row TextAlignCenter border-bottom-0">
+//             {
+
+//             Record && Record.map(record => {
+//                 return(
+//                     <div style={{borderRight: "1px solid #dee2e6",borderBottom: "1px solid #dee2e6",paddingLeft: "20px", paddingRight: "20px",}} className="col-lg-3 col-md-4 col-sm-6 col-6 px-4" key={record.id}>
+//                         <img className="my-5" src={ image } alt="Logos" style={{maxWidth: "100%", maxHeigt: "40%",}} height={70}/>
+//                     </div>
+//                 )
+//             })
+// }
+// </div>
+//       </div>
+//     )
+// };
+
+export const AllPortfoliosLogoCard = (props) => {
+    const {logo} = props;
     return(
-        <div className="container-fluid">
-        <div className="row TextAlignCenter">
-            {
-
-            Record && Record.map(record => {
-                return(
-                    <div style={{border: "0.5px solid black",}} className="col-lg-3 col-md-4 col-sm-6 col-6" key={record.id}>
-                        <img src={ record.logo } alt="Logos" height={300}/>
-                    </div>
-                )
-            })
-}
-</div>
-      </div>
+        <div>
+                         <img className="my-5" src={ logo } alt="Logos" style={{maxWidth: "100%", maxHeigt: "40%",}} height={70}/>
+                     </div>
     )
 };
 
-export const ProjectDeliveryManagedServicesCard = () =>{
-    return(
-        <div className="container-fluid">
-        <div className='row'>
-
-{
-
-Data && Data.map(data => {
-    return(                                                                                                              
-            <div key={data.id} className="bg-pic1 col-lg-3 col-md-6 col-sm-12" style={{backgroundImage: "url(" + data.image + ")",}}> <p className='ProjectDeliveryManagedServicesCardText TextAlignCenter'>{data.text}</p> </div>
-    )
-})
-}
-       </div>
-       </div>
+export const ProjectDeliveryManagedServicesCard = (props) =>{
+    const {image, text, id} = props;
+    return(                             
+            <div key={id} className="col-lg-3 col-md-6 col-sm-12" style={{height: "400px",backgroundSize: "cover",backgroundImage: "url(" + image + ")",}}>
+                 <p className='ProjectDeliveryManagedServicesCardText TextAlignCenter'>{text}</p> 
+                 </div>
         )
 };
 

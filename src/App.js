@@ -10,6 +10,9 @@ import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
 import Constructionpage from "./pages/constructionpage";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+import PortfolioPage from "./pages/Studio/portfolios"
+import ManagedServicesPage from "./pages/Services/managedServices"
+import ProjectDeliveryPage from "./pages/Project Delivery/projectDelivery"
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -27,8 +30,13 @@ function App() {
         <Route path="button3" element={<BookaFreeSessionBtn />} />
         <Route path="button4" element={<OnHoverReadMoreBtn />} />
         <Route path="button5" element={<AllPortfoliosLogoCard />} />
-        <Route path="button6" element={<ProjectDeliveryManagedServicesCard />} />
-        <Route path="button7" element={<ManagedServicesRequestForm />} />
+        <Route path="button6" element={<PortfolioPage />} />
+        <Route path="button7" element={<ProjectDeliveryManagedServicesCard />} />
+        <Route path="button8" element={<ManagedServicesPage />} />
+        <Route path="button9" element={<ProjectDeliveryPage />} />
+        <Route path="button10" element={<ManagedServicesRequestForm />} />
+        
+
         <Route path="constructionpage" element={<Constructionpage />} />
       </Routes>
         {/* <Route path="teamcard" element={<Teamcard />} /> */}
