@@ -8,8 +8,8 @@ const NavBar = (props) => {
   const { heading } = props;
   return (
     <>
-      <section className="  NavBar">
-        <div className="containter-fluid">
+      <section className="">
+        <div className="containter-fluid NavBar">
           <div className="d-flex">
             <img
               src={logos}
@@ -27,10 +27,13 @@ const NavBar = (props) => {
                 role="hamburger"
                 aria-controls="offcanvasExample"
               >
-                <h1>
+                <div className="">
                   {" "}
-                  <i className="bi bi-list text-dark"></i>
-                </h1>
+                  <i
+                    className="bi bi-list text-dark"
+                    style={{ fontSize: "40px" }}
+                  ></i>
+                </div>
               </a>
             </div>
           </div>
@@ -71,10 +74,10 @@ const NavBar = (props) => {
           >
             Studio
           </a>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          {/* <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li>
               <a className="dropdown-item" href="#">
-                My Model
+                Our Model
               </a>
             </li>
             <li>
@@ -82,12 +85,12 @@ const NavBar = (props) => {
                 Portfolios
               </a>
             </li>
-          </ul>
+          </ul> */}
 
           <br />
 
           <a className=" nav-link  mx-3" type="button" aria-expanded="false">
-            Project Management
+            Project Delivery
           </a>
 
           <br />
@@ -114,7 +117,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Growth-as-a-services
+                Growth-as-a-Service
               </a>
             </li>
           </ul>
@@ -138,7 +141,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                8th Gearians
+                8thGearians
               </a>
             </li>
           </ul>

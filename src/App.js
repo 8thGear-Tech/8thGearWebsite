@@ -5,17 +5,14 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import BlogPage from "./pages/Insights/blog";
 import Home from "./pages/home";
-<<<<<<< HEAD
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-=======
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
 // import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { AboutUs } from "./components/AllCards/TestimonialCards";
->>>>>>> 3418484d6809c9cfc9f38729b6ba306fc45ef6a7
 import Constructionpage from "./pages/constructionpage";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -65,7 +62,7 @@ import { GalleryVideoCards } from "./components/AllCards/MediaCards";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <ManagedServicesPageTestimonialCard /> */}
       {/* <Lad /> */}
       {/* <CoWorkingPageTestimonialCard /> */}
@@ -132,8 +129,8 @@ function App() {
       {/* <FounderCards /> */}
       {/* <ProjectCards /> */}
       {/* <DemodayCards /> */}
-      <GalleryCards />
-      <GalleryVideoCards />
+      {/* <GalleryCards />
+      <GalleryVideoCards /> */}
     </BrowserRouter>
   );
 }

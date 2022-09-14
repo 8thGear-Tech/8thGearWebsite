@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { BookIcon } from "../components/Icons";
 import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
+import { Navbar } from "../components/Navbar";
 import venturestudioicon from "../assets/images/venturestudioicon.png";
 import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
 import gearupicon from "../assets/images/gearupicon.png";
@@ -9,16 +10,19 @@ import engageicon from "../assets/images/engageicon.png";
 const Home = () => {
   return (
     <>
+      <Navbar />
       <SectionOne />
+      <Line />
       <SectionTwo />
+      <Line />
       <SectionThree />
     </>
   );
 };
 const SectionOne = () => {
   return (
-    <div className="container-fluid p-5 ">
-      <p className="text-center ">
+    <div className="container-fluid py-4 ">
+      <p className="text-center homePageText">
         8thGear is a
         <Link
           to="/"
@@ -43,15 +47,30 @@ const SectionOne = () => {
     </div>
   );
 };
+
+const Line = () => {
+  return (
+    <>
+      <div className="container">
+        <div className="border-top">{/* <hr /> */}</div>
+      </div>
+    </>
+  );
+};
 const SectionTwo = () => {
   return (
     <div className="container p-5 d-flex justify-content-center">
       {/* <div className="border-end"></div> */}
       <div className="row ">
-        <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
-          <h3 className="pb-4">We are builders funding the next generation</h3>
+        <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 d-flex align-items-center">
+          <h1 className="pb-4 d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            We are builders funding the next generation
+          </h1>
+          <h2 className="pb-4 d-xs-block d-sm-block d-md-block d-lg-none">
+            We are builders funding the next generation
+          </h2>
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+        <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
           <div className="col d-lg-flex d-md-flex mb-5 float-end">
             <div className="col">
               <img
@@ -85,7 +104,7 @@ const SectionTwo = () => {
 };
 const SectionThree = () => {
   return (
-    <div className="container-fluid text-center p-5 SectionTwoBg">
+    <div className="container-fluid text-center p-5 SectionTwoBg mt-5">
       {" "}
       <h4 className="">Our Business Creation Platform</h4>
       <p className="">
@@ -93,7 +112,7 @@ const SectionThree = () => {
         business creation. Our collaborative platform has three components.
       </p>
       <div className="row justify-content-evenly mt-5">
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
           <div className="card mb-5 py-5 cardBg">
             <img
               src={gearupicon}
@@ -112,7 +131,7 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
           {" "}
           <div className="card mb-5 py-5 cardBg">
             <img
@@ -132,7 +151,7 @@ const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
           {" "}
           <div className="card mb-5 py-5 cardBg">
             <img

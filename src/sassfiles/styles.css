@@ -409,6 +409,10 @@ article h4 {
   border: 3px solid #00a495;
 }
 
+.homePageText {
+  font-size: 1.2rem;
+}
+
 .BookNowBtn {
   width: auto;
   height: 30px;
@@ -507,7 +511,6 @@ article h4 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   height: 4.6875rem !important;
   font-size: 18px;
-  width: 100%;
   margin-top: 10px;
 }
 
@@ -519,20 +522,6 @@ article h4 {
   color: #ef00c0;
   text-align: center;
   line-height: 3px;
-}
-
-.card {
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
-}
-
-.card-body {
-  border-radius: 0px;
-  border-bottom: 5px solid #00a495 !important;
-  border-right: 5px solid #00a495 !important;
-  border-left: 5px solid #00a495 !important;
 }
 
 .Teampic {
@@ -565,10 +554,6 @@ article h4 {
 
 .ul_for_footer {
   list-style-type: none;
-}
-
-.md-footer-line {
-  width: 100vw;
 }
 
 .newsLetterUnderline {
