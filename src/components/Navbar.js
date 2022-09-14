@@ -3,7 +3,7 @@ import logos from "../assets/images/logos.png";
 import React from "react";
 import { JointheStudioBtn } from "./Buttons/ContactBtn";
 
-const NavBar = () => {
+export const NavBar = () => {
   return (
     <>
       <section className="  NavBar">
@@ -19,12 +19,14 @@ const NavBar = () => {
             <h1 className="h5 mt-4">8th Gear Venture Studio</h1>
             <div className="ms-auto mb-2 mb-lg-0 mx-5 mt-4">
               <a
-                className=" bg-dark  navbar-toggler-icon  "
+                className=" "
                 data-bs-toggle="offcanvas"
                 href="#offcanvasExample"
                 role="hamburger"
                 aria-controls="offcanvasExample"
-              ></a>
+              >
+                <i class="bi bi-justify"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -199,42 +201,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      Navbar
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">
-          Home
-        </a>
-        <a class="nav-link" href="#">
-          Features
-        </a>
-        <a class="nav-link" href="#">
-          Pricing
-        </a>
-        <a
-          class="nav-link disabled"
-          href="#"
-          tabindex="-1"
-          aria-disabled="true"
-        >
-          Disabled
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>;

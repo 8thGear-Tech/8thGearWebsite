@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "logo": "images/8thgearlogo.png",
+        "image": "images/Genetics.jpg",
+        "text": "ENTERPRISE SUPPORT"
+    },
+    {
+        "id": 2,
+        "logo": "images/8thgearlogo.png",
+        "image": "images/Physiology2.jpg",
+        "text": "ECOSYSTEM EVENTS"
+    },
+    {
+        "id": 3,
+        "logo": "images/8thgearlogo.png",
+        "image": "images/Plantpathology1.jpg",
+        "text": "TRAINING"
+    },
+    {
+        "id": 4,
+        "logo": "images/8thgearlogo.png",
+        "image": "images/Genetics.jpg",
+        "text": "Zoology4"
+    },
+    {
+        "id": 5,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 6,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 7,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 8,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 9,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 10,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 11,
+        "logo": "images/8thgearlogo.png"
+    },
+    {
+        "id": 12,
+        "logo": "images/8thgearlogo.png"
+    }
+]

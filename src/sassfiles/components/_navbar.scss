@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @use "../components/buttons" as *;
 
 @mixin NavBar {
@@ -26,4 +27,11 @@
   line-height: 1;
   padding: 0.25rem 0.75rem;
   transition: box-shadow 0.15s ease-in-out;
+=======
+.navbarShadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.icons {
+  position: fixed;
+>>>>>>> 1181c7562d4b829eb77abecd9aeecf9c3d73df48
 }
