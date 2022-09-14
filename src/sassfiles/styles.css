@@ -214,7 +214,7 @@ p {
   text-align: center;
   width: 100px;
   height: 30px;
-  border: 1px solid #821E6B;
+  border: 1.5px solid #821E6B;
   border-radius: 35px;
 }
 
@@ -244,13 +244,9 @@ p {
   text-align: center;
   box-sizing: border-box;
   width: 200px;
-  height: 50px;
+  height: 30px;
   background: #FFFFFF;
   border: 1px solid #821E6B;
   border-radius: 30px;
-}
-
-.background {
-  background-color: #821E6B;
 }
 /*# sourceMappingURL=styles.css.map */
