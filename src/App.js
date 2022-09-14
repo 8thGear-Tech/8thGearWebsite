@@ -18,6 +18,7 @@ import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
 import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
 import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
+import { JoinTheStudioForm } from "../src/components/Forms";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           path="button6"
           element={<ProjectDeliveryManagedServicesCard />}
         />
+        <Route path="JoinTheStudioForm" element={<JoinTheStudioForm />} />
       </Routes>
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
