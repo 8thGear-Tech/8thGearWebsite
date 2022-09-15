@@ -5,7 +5,7 @@ import Constructionpage from "./pages/constructionpage";
 import {ManagedServicesRequestBtn} from "./components/Buttons/ServicesBtn"
 import {PreviousBtn} from "./components/Buttons/PortfolioBtn"
 import {NextBtn} from "./components/Buttons/PortfolioBtn"
-import {EightgeariansPopUpCard} from "./components/AllCards/TriggeredCards"
+import {EightgeariansPopUpCard1} from "./components/AllCards/TriggeredCards"
 //import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
 //import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
 import Request from "./components/Forms/ServicesForms";
@@ -14,6 +14,8 @@ import Request from "./components/Forms/ServicesForms";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
+import TeamsPage from "./pages/Who We Are/TeamPage"
+import AboutUs from "./pages/Who We Are/aboutUs"
 
 function App() {
   return (
@@ -26,12 +28,14 @@ function App() {
         <Route path="request" element={<ManagedServicesRequestBtn />} />
         <Route path="prev" element={<PreviousBtn />} />
         <Route path="next" element={<NextBtn />} />
-        <Route path="8thcard" element={<EightgeariansPopUpCard/>} />
+        <Route path="8thcard" element={<EightgeariansPopUpCard1/>} />
         {/* <Route path="Eir" element={<EIRDataPopUpCard />} /> */}
         {/* <Route path="Advi" element={<AdvisoryBoardOnHoverCard />} /> */}
         <Route path="req" element={<Request />} />
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
+        <Route path="abt" element={<AboutUs />} />
+        <Route path="team" element={<TeamsPage />} />
 
         {/* <UnderconstructionNavbar /> */}
       </Routes>
