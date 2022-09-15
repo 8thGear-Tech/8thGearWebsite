@@ -1,0 +1,49 @@
+.AnimationVideoHero {
+  width: 100%;
+  overflow: hidden;
+  height: 50% !important;
+  // object-fit: cover;
+}
+.play-button-centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: 0%;
+  bottom: 0%;
+  color: #c1c1c1;
+  transform: translate(-50%, -50%);
+}
+
+// play-button-centered on small screen start
+@media screen and (max-width: 576px) {
+  .play-button-centered {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    right: 0%;
+    bottom: 0%;
+    color: #c1c1c1;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// play-button-centered on medium screen start
+@media screen and (max-width: 768px) {
+  .play-button-centered {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    right: 0%;
+    bottom: 0%;
+    color: #c1c1c1;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+  }
+}
+.hello {
+  color: red;
+  font-weight: 900;
+}

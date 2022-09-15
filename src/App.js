@@ -21,7 +21,7 @@ import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
 import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
 import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
 import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
-import PortfolioPage from "./pages/Studio/portfolios";
+import PortfolioPage from "./pages/Studio/portfolio";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
@@ -32,6 +32,11 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 // import Constructionpage from "./pages/constructionpage";
 import Events from "../src/pages/Events/events";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
+// import Constructionpage from "./pages/constructionpage";
+// import AnimationVideoHero from "./components/Hero/VideoHero";
+// import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
+// import { Servicehero } from "./components/Hero/BGColorandTextHero";
+import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -86,7 +91,7 @@ function App() {
         <Route path="haven" element={<HavenPortfolioPage />} />
         {/* <Route path="mindafrik" element={<MindAfrikPortfolioPage />} /> */}
         <Route path="easesoiless" element={<EaseSoilessPortfolioPage />} />
-        <Route path="portfolios" element={<PortfolioPage />} />
+        <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="foundersmeetup" element={<FounderMeetupPage />} />
         <Route path="blog" element={<BlogPage />} />
