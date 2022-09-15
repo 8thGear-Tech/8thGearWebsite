@@ -24,7 +24,7 @@
 @use "../sassfiles/pages/studio/ourModel";
 @use "../sassfiles/pages/projectdelivery/projectDelivery";
 @use "../sassfiles/pages/services/managedServices";
-@use "../sassfiles//pages/events/events";
+@use "../sassfiles/pages/events/events";
 @use "../sassfiles/pages/services/GaaS";
 @use "./components/forms/servicesForms";
 @use "./components/navbar" as *;
@@ -32,3 +32,5 @@
 @use "./components/constructionpage" as *;
 @use "./components/timer" as *;
 @use "./components/allCards/teamCards" as *;
+// @use "./pages/events/events";
+@use "./components/hero/imageandTextHero";

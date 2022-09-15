@@ -41,3 +41,18 @@ export const GetYourTicketBtn = () => {
     </button>
   );
 };
+
+export const FoundersMeetupReadMoreBtn = () => {
+  return (
+    <button className="BlogReadMoreBtn" type="sumbit">
+      Read More
+    </button>
+  );
+};
+export const DemoDayReadMoreBtn = () => {
+  return (
+    <button className="BlogReadMoreBtn" type="sumbit">
+      Read More
+    </button>
+  );
+};

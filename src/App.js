@@ -14,7 +14,7 @@ import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDelivery
 // import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { AboutUs } from "./components/AllCards/TestimonialCards";
 import Constructionpage from "./pages/constructionpage";
-import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
+// import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
 import OurModelPage from "./pages/Studio/ourModel";
 import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
@@ -29,6 +29,9 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 // import { Gerians } from "./components/AllCards/TeamCard";
 // import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 
+// import Constructionpage from "./pages/constructionpage";
+import Events from "../src/pages/Events/events";
+import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -100,6 +103,11 @@ function App() {
         {/* <Route path="teamcard" element={<Teamcard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
         {/* <Route path="team" element={<Gerians />} /> */}
+        {/* <Route path="events" element={<Events />} /> */}
+
+        {/* <Route path="teamcard" element={<Teamcard />} /> */}
+
+        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
         {/* <Route path="Eventsbutton" element={<Eventsbutton />} /> */}
         {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}

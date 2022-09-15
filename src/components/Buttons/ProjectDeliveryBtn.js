@@ -15,7 +15,7 @@ export const LearnMoreBtn = () => {
 export const RequestForProposalBtn = () => {
   return (
     <>
-      <button className="RequestForProposalBtn" type="requestProposal">
+      <button className="RequestForProposalBtn" type="submit">
         Request for a Proposal
       </button>
     </>
@@ -26,7 +26,7 @@ export const RequestForProposalBtn = () => {
 export const ProjectDeliveryViewMoreBtn = () => {
   return (
     <>
-      <button className="ProjectDeliveryViewMoreBtn" type="viewnMore">
+      <button className="ProjectDeliveryViewMoreBtn" type="submit">
         view more
       </button>
     </>
