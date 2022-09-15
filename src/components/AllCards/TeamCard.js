@@ -4,18 +4,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import TeamImage from "../../assets/images/Teamone.png";
 import data from "../../data/8thGerains.json";
+import field from "../../data/advisory.json";
 
 const TeamCard = (props) => {
   const { image, name, title, text } = props;
   return (
-    <div className="card-deck">
-      <div class="card">
+    <div className="card-deck Team">
+      <div class="card teamcard">
         <img src={image} class="card-img-top Teampic " alt="Teamimage" />
-        <div class="card-body ">
+        <div class="card-body teamcardbody">
           <figure class="text-center">
-            {/* <blockquote class="blockquote"> */}
             <p className="Text mb-3">{name}</p>
-            {/* </blockquote> */}
+
             <figcaption class="card-text mt-1">{title}</figcaption>
           </figure>
           <a href="#" class="nav-link active link">
@@ -39,6 +39,7 @@ const TeamCard = (props) => {
     </div>
   );
 };
+
 export const Gerians = () => {
   return (
     <div className="container">
@@ -47,6 +48,32 @@ export const Gerians = () => {
           return (
             <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
               <TeamCard {...card}></TeamCard>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+const AdvisoryBoardCard = (props) => {
+  const { image } = props;
+  return (
+    // <div className="card-deck">
+    <div class="card advisorcard">
+      <img src={image} class=" img-fluid Boardimage" alt="Teamimage" />
+    </div>
+    // </div>
+  );
+};
+export const AdvisoryTeamPic = () => {
+  return (
+    <div className="container mt-5">
+      <div className="row">
+        {field.advisoryimage.map((card) => {
+          return (
+            <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
+              <AdvisoryBoardCard {...card}></AdvisoryBoardCard>
             </div>
           );
         })}

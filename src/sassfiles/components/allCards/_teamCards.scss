@@ -6,7 +6,7 @@
   text-align: center;
   line-height: 3px;
 }
-.card {
+.teamcard {
   height: 200px;
   width: 280px;
   left: 50px;
@@ -14,7 +14,7 @@
   //   top: 100px;
   //   bottom: 50px;
 }
-.card-body {
+.teamcardbody {
   border-radius: 0px;
   border-bottom: 5px solid $darkgreenbg !important;
   border-right: 5px solid $darkgreenbg !important;
@@ -26,5 +26,20 @@
   width: 100%;
 }
 .Text {
-  line-height: 2px;
+  line-height: 1px;
 }
+.Team {
+  margin-top: 50%;
+}
+.advisorcard {
+  margin-top: 80%;
+  margin-right: auto;
+  height: 200px;
+  width: 280px;
+  left: 50px;
+  right: 50px;
+}
+// .Boardimage {
+//   display: block;
+//   width: 100%;
+// }
