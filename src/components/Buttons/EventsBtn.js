@@ -11,7 +11,7 @@ export const SuggestAnEventBtn = () => {
     </button>
   );
 };
-export default SuggestAnEventBtn;
+// export default SuggestAnEventBtn;
 
 export const LetUsKnowBtn = () => {
   return (
