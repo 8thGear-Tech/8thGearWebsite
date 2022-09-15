@@ -133,9 +133,9 @@ function App() {
 
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
       <Routes>{/* <Route path="/" element={<InstagramBtn />} /> */}</Routes>
       {/* <InstagramBtn /> */}
       {/* <LinkedInBtn /> */}

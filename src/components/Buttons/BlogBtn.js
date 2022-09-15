@@ -103,7 +103,7 @@ export const SubmitCommentBtn = () => {
   return (
     <>
       <button className="SubmitCommentBtn" type="sumbit">
-        SubmitCommentBtn
+        Submit Comment
       </button>
     </>
   );

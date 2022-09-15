@@ -1,17 +1,6 @@
 import { Link } from "react-router-dom";
 import { BookIcon } from "../components/Icons";
 import { JointheStudioBtn } from "../components/Buttons/ContactBtn";
-import { SuggestAnEventBtn } from "../components/Buttons/EventsBtn";
-import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
-import { EventsViewMoreBtn } from "../components/Buttons/EventsBtn";
-import { GetYourTicketBtn } from "../components/Buttons/EventsBtn";
-import { LearnMoreBtn } from "../components/Buttons/ProjectDeliveryBtn";
-import { RequestForProposalBtn } from "../components/Buttons/ProjectDeliveryBtn";
-import { ProjectDeliveryViewMoreBtn } from "../components/Buttons/ProjectDeliveryBtn";
-import { BookNowBtn } from "../components/Buttons/ServicesBtn";
-import { BookaSessionBtn } from "../components/Buttons/ServicesBtn";
-import { BookaFreeSessionBtn } from "../components/Buttons/ServicesBtn";
-import { OnHoverReadMoreBtn } from "../components/Buttons/ServicesBtn";
 import venturestudioicon from "../assets/images/venturestudioicon.png";
 import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
 import gearupicon from "../assets/images/gearupicon.png";
@@ -92,7 +81,10 @@ const SectionTwo = () => {
                 className="mb-3"
               />
               <h3>VENTURE STUDIO</h3>
-              <p>We build at 8thGear We build at 8thGear We build at 8thGear</p>
+              <p>
+                Turning ideas either ours or yours into sustainable businesses
+                is what we do best.
+              </p>
             </div>
           </div>
           <div className="col d-lg-flex d-md-flex float-end">
@@ -105,7 +97,10 @@ const SectionTwo = () => {
                 className="mb-3"
               />
               <h3>PROJECT DELIVERY</h3>
-              <p>We build at 8thGearWe build at 8thGear We build at 8thGear</p>
+              <p>
+                {" "}
+                Executing impact and self sustaining initiatives is our forte.
+              </p>
             </div>
           </div>
         </div>
@@ -136,8 +131,8 @@ const SectionThree = () => {
               <h4 className="card-title">GEAR UP</h4>
               <p className="card-text">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation.
+                Mentally and physically prepare for the journey ahead. Bringing
+                ideas to live is no small feat but it is a laudable one.
               </p>
             </div>
           </div>
@@ -156,8 +151,8 @@ const SectionThree = () => {
               <h4 className="card-title">EVOLVE</h4>
               <p className="card-text">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation.
+                Be fluid and dynamic, ready to adjust to market demands while
+                offering value.
               </p>
             </div>
           </div>
@@ -176,25 +171,14 @@ const SectionThree = () => {
               <h4 className="card-title">ENGAGE</h4>
               <p className="card-text">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation.
+                Don't keep that idea under the bushel, actively engage customers
+                for feedback while shouting about it on the rooftop.
               </p>
             </div>
           </div>
         </div>
       </div>
       <JointheStudioBtn />
-      {/* <SuggestAnEventBtn /> */}
-      {/* <EventsViewMoreBtn />
-      <LetUsKnowBtn />
-      <GetYourTicketBtn /> */}
-      {/* <LearnMoreBtn /> */}
-      {/* <RequestForProposalBtn />
-      <ProjectDeliveryViewMoreBtn /> */}
-      {/* <BookNowBtn /> */}
-      {/* <BookaSessionBtn /> */}
-      {/* <BookaFreeSessionBtn /> */}
-      {/* <OnHoverReadMoreBtn /> */}
     </div>
   );
 };

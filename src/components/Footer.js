@@ -28,49 +28,49 @@ const Footer = () => {
             <div className="row mt-5">
               <ul className="ul_top_hypers text-end ">
                 <li className="mx-4 text-fluid">
-                  <Link
+                  {/* <Link
                     to="/"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    HOME
-                  </Link>
+                  > */}
+                  HOME
+                  {/* </Link> */}
                 </li>
                 <li className="mx-4  text-fluid">
-                  <Link
+                  {/* <Link
                     to="ourmodel"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    OUR MODEL
-                  </Link>
+                  > */}
+                  OUR MODEL
+                  {/* </Link> */}
                 </li>
                 <li className="mx-4 text-fluid">
-                  <Link
+                  {/* <Link
                     to="/portfolios"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    PORTFOLIO
-                  </Link>
+                  > */}
+                  PORTFOLIO
+                  {/* </Link> */}
                 </li>
                 <li className="mx-4 text-fluid">
-                  <Link
+                  {/* <Link
                     to="/projectdelivery"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    PROJECT DELIVERY
-                  </Link>
+                  > */}
+                  PROJECT DELIVERY
+                  {/* </Link> */}
                 </li>
                 <li className="mx-4 text-fluid">
-                  <Link
+                  {/* <Link
                     to="/managedservices"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    MANAGED SERVICES
-                  </Link>
+                  > */}
+                  MANAGED SERVICES
+                  {/* </Link> */}
                 </li>
               </ul>
               <hr className="" style={{ width: "" }}></hr>
@@ -79,26 +79,26 @@ const Footer = () => {
               <ul className="ul_top_hypers text-end ">
                 <li className="mx-4 text-fluid">COWORKING</li>
                 <li className="mx-4 text-center text-fluid text-nowrap">
-                  <Link
+                  {/* <Link
                     to="/growth-as-a-service"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    GROWTH-AS-A-SERVICE
-                  </Link>
+                  > */}
+                  GROWTH-AS-A-SERVICE
+                  {/* </Link> */}
                 </li>
                 <li className="mx-4 text-fluid">ABOUT</li>
                 <li className="mx-4 text-fluid">8THGEARIANS</li>
                 <li className="mx-4 text-fluid">BLOG</li>
                 <li className="mx-4 text-fluid">FAQ</li>
                 <li className="mx-4 text-fluid">
-                  <Link
+                  {/* <Link
                     to="/events"
                     // className="text-reset"
                     style={{ textDecoration: "none", color: "#000" }}
-                  >
-                    EVENTS
-                  </Link>
+                  > */}
+                  EVENTS
+                  {/* </Link> */}
                 </li>
               </ul>
             </div>
