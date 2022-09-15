@@ -7,28 +7,42 @@
 }
 
 .SuggestAnEventBtn {
-  border: 3px solid #821e6b;
-  color: #ffffff;
-  border-radius: 35px;
+  border: 2px solid #821e6b;
+  border-radius: 50px;
+  border-width: 2px;
+  margin: 3px;
+  background-color: #ffffff;
 }
 
 .LetUsKnowBtn {
-  border-radius: 118.5785369873px;
-  border: 270px 603px 2078.4213867188px #821e6b;
-  color: #000;
+  border: 2px solid #821e6b;
+  border-radius: 50px;
+  margin: 5px;
   background-color: #ffffff;
 }
 
-.EventsViewMoreBtn {
-  border: 70px 232px 640px 3228px #821e6b;
-  border-radius: 35px;
+.EventViewMoreBtn {
+  border: 2px solid #821e6b;
+  border-radius: 50px;
   background-color: #ffffff;
+  margin: 5px;
 }
 
 .GetYourTicketBtn {
-  border: 333px 70px 1087px 2864px;
-  border-radius: 35px;
+  border: none;
+  border-width: 2px;
+  border-radius: 50px;
   background-color: #821e6b;
+  margin: 5px;
+}
+
+.textbtn {
+  color: white;
+  margin: 5px;
+}
+
+.textbutton {
+  margin: 5px;
 }
 
 h1 {
@@ -189,13 +203,6 @@ p {
   line-height: 3px;
 }
 
-.teamcard {
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
-}
-
 .teamcardbody {
   border-radius: 0px;
   border-bottom: 5px solid #00a495 !important;
@@ -210,17 +217,4 @@ p {
 
 .Text {
   line-height: 1px;
-}
-
-.Team {
-  margin-top: 50%;
-}
-
-.advisorcard {
-  margin-top: 80%;
-  margin-right: auto;
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
 }/*# sourceMappingURL=styles.css.map */
