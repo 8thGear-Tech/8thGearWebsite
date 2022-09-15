@@ -12,12 +12,13 @@ import { BookNowBtn } from "../components/Buttons/ServicesBtn";
 import { BookaSessionBtn } from "../components/Buttons/ServicesBtn";
 import { BookaFreeSessionBtn } from "../components/Buttons/ServicesBtn";
 import { OnHoverReadMoreBtn } from "../components/Buttons/ServicesBtn";
-import { Navbar } from "../components/Navbar";
 import venturestudioicon from "../assets/images/venturestudioicon.png";
 import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
 import gearupicon from "../assets/images/gearupicon.png";
 import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
+import { Navbar } from "../components/Navbar";
+
 const Home = () => {
   return (
     <>
@@ -43,7 +44,6 @@ const SectionOne = () => {
         >
           Venture Studio
         </Link>
-        &
         <Link
           to="/"
           className=" mx-2"
