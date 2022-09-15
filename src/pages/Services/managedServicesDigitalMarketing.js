@@ -1,8 +1,10 @@
 import { WhatWeDoIcon } from "../../components/Icons";
+import { Navbar5 } from "../../components/Navbar";
 
 const ManagedServicesDigitalMarketing = () => {
   return (
     <>
+      <Navbar5 />
       <DigitalMarketing />
       <OurOffers />
     </>

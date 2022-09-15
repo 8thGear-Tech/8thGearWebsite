@@ -4,9 +4,11 @@
 // import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.png";
+import { Navbar14 } from "../../components/Navbar";
 const EventsPage = () => {
   return (
     <>
+      <Navbar14 />
       <Events />
       <SuggestAnEvent />
     </>

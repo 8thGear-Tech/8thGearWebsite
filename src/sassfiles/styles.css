@@ -108,36 +108,6 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.LearnMoreBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
-  font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
-
-.RequestForProposalBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
-  font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
-
-.ProjectDeliveryViewMoreBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
-  font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
-
 .ManagedServicesPageTestimonialCard {
   background-color: #404040 !important;
   justify-items: right !important;
@@ -268,20 +238,39 @@ article h4 {
 }
 
 .LetUsKnowBtn {
-  border-radius: 118.5785369873px;
-  border: 270px 603px 2078.4213867188px #821e6b;
-  color: #000;
-  background-color: #ffffff;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 9rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.EventsViewMoreBtn {
-  border-radius: 35px;
-  background-color: #ffffff;
+.EventViewMoreBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .GetYourTicketBtn {
-  border: 333px 70px 1087px 2864px;
-  border-radius: 35px;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .navbar {
@@ -414,39 +403,51 @@ article h4 {
 }
 
 .BookNowBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .BookaSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .BookaFreeSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 18.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .JointheStudioBtn {
   border: 3px solid #821e6b;
   color: #000 !important;
-  border-radius: 15px;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .TractionsBg {

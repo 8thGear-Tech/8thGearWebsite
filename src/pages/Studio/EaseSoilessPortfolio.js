@@ -3,10 +3,12 @@ import EaseSoilessPortfolioInfo from "../../data/IndividualPortfolioInfo.json";
 import EaseSoilessPortfolioTractions from "../../data/IndividualPortfolioInfo.json";
 import { AboutStartup } from "../../components/IndividualPortfolioInfo";
 import { Tractions } from "../../components/IndividualPortfolioInfo";
+import { Navbar1 } from "../../components/Navbar";
 
 const EaseSoilessPortfolioPage = () => {
   return (
     <>
+      <Navbar1 />
       <AboutEaseSoilessSection />
       <EaseSoilessTractions />
     </>

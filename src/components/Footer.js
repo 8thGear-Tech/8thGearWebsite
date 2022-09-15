@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import logo from "./../assets/images/logo.png";
 
@@ -26,11 +27,51 @@ const Footer = () => {
             </div>
             <div className="row mt-5">
               <ul className="ul_top_hypers text-end ">
-                <li className="mx-4 text-fluid">HOME</li>
-                <li className="mx-4  text-fluid">OUR MODEL</li>
-                <li className="mx-4 text-fluid">PORTFOLIO</li>
-                <li className="mx-4 text-fluid">PROJECT DELIVERY</li>
-                <li className="mx-4 text-fluid">MANAGED SERVICES</li>
+                <li className="mx-4 text-fluid">
+                  <Link
+                    to="/"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    HOME
+                  </Link>
+                </li>
+                <li className="mx-4  text-fluid">
+                  <Link
+                    to="ourmodel"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    OUR MODEL
+                  </Link>
+                </li>
+                <li className="mx-4 text-fluid">
+                  <Link
+                    to="/portfolios"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    PORTFOLIO
+                  </Link>
+                </li>
+                <li className="mx-4 text-fluid">
+                  <Link
+                    to="/projectdelivery"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    PROJECT DELIVERY
+                  </Link>
+                </li>
+                <li className="mx-4 text-fluid">
+                  <Link
+                    to="/managedservices"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    MANAGED SERVICES
+                  </Link>
+                </li>
               </ul>
               <hr className="" style={{ width: "" }}></hr>
             </div>
@@ -38,13 +79,27 @@ const Footer = () => {
               <ul className="ul_top_hypers text-end ">
                 <li className="mx-4 text-fluid">COWORKING</li>
                 <li className="mx-4 text-center text-fluid text-nowrap">
-                  GROWTH-AS-A-SERVICE
+                  <Link
+                    to="/growth-as-a-service"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    GROWTH-AS-A-SERVICE
+                  </Link>
                 </li>
                 <li className="mx-4 text-fluid">ABOUT</li>
                 <li className="mx-4 text-fluid">8THGEARIANS</li>
                 <li className="mx-4 text-fluid">BLOG</li>
-                <li className="mx-4 text-fluid">FAG</li>
-                <li className="mx-4 text-fluid">EVENTS</li>
+                <li className="mx-4 text-fluid">FAQ</li>
+                <li className="mx-4 text-fluid">
+                  <Link
+                    to="/events"
+                    // className="text-reset"
+                    style={{ textDecoration: "none", color: "#000" }}
+                  >
+                    EVENTS
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className=" row ">

@@ -7,10 +7,12 @@ import { BigBlogCard } from "../../components/AllCards/Blogcards";
 import { MainBlogCard } from "../../components/AllCards/Blogcards";
 import { SideBlogCard } from "../../components/AllCards/Blogcards";
 import Line2 from "../../assets/images/Line2.jpg";
+import { Navbar12 } from "../../components/Navbar";
 
 const BlogPage = () => {
   return (
     <>
+      <Navbar12 />
       <section className="  container-fluid my-4 ">
         <div className="row g-3   d-flex justify-content-end ">
           {/* displaying on a large screen */}

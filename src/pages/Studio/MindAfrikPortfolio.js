@@ -3,10 +3,12 @@ import MindAfrikPortfolioInfo from "../../data/IndividualPortfolioInfo.json";
 import MindAfrikPortfolioTractions from "../../data/IndividualPortfolioInfo.json";
 import { AboutStartup } from "../../components/IndividualPortfolioInfo";
 import { Tractions } from "../../components/IndividualPortfolioInfo";
+import { Navbar1 } from "../../components/Navbar";
 
 const MindAfrikPortfolioPage = () => {
   return (
     <>
+      <Navbar1 />
       <AboutMindAfrikSection />
       <MindAfrikTractions />
     </>

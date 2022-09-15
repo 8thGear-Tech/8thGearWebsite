@@ -3,10 +3,12 @@ import HavenPortfolioInfo from "../../data/IndividualPortfolioInfo.json";
 import HavenPortfolioTractions from "../../data/IndividualPortfolioInfo.json";
 import { AboutStartup } from "../../components/IndividualPortfolioInfo";
 import { Tractions } from "../../components/IndividualPortfolioInfo";
+import { Navbar1 } from "../../components/Navbar";
 
 const HavenPortfolioPage = () => {
   return (
     <>
+      <Navbar1 />
       <AboutHavenSection />
       <HavenTractions />
     </>

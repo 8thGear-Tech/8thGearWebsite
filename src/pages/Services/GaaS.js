@@ -1,9 +1,11 @@
 import { OurImpactIcon } from "../../components/Icons";
 import { WhatWeDoIcon } from "../../components/Icons";
+import { Navbar9 } from "../../components/Navbar";
 
 const GrowthAsAservice = () => {
   return (
     <>
+      <Navbar9 />
       <WhyChooseUs />
       <HowWeWork />
     </>

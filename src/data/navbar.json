@@ -23,7 +23,7 @@
   "projectdelivery": [
     {
       "id": 1,
-      "heading": "Our Model"
+      "heading": "Project Delivery"
     }
   ],
 
@@ -54,10 +54,23 @@
       "heading": "Tech"
     }
   ],
+
+  "accounting": [
+    {
+      "id": 1,
+      "heading": "Accounting"
+    }
+  ],
   "coworkingspace": [
     {
       "id": 1,
       "heading": "Co-working Space"
+    }
+  ],
+  "ourmodel": [
+    {
+      "id": 1,
+      "heading": "Our Model"
     }
   ],
   "growthasaservices": [

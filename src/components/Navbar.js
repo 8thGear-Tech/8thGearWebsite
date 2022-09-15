@@ -74,7 +74,7 @@ const NavBar = (props) => {
           >
             Studio
           </a>
-          {/* <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li>
               <a className="dropdown-item" href="#">
                 Our Model
@@ -85,7 +85,7 @@ const NavBar = (props) => {
                 Portfolios
               </a>
             </li>
-          </ul> */}
+          </ul>
 
           <br />
 
@@ -481,6 +481,36 @@ export const Navbar18 = () => {
     <div className="container">
       <div className="row">
         {text.eventgallery.map((navbar) => {
+          return (
+            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar19 = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        {text.ourmodel.map((navbar) => {
+          return (
+            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar20 = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        {text.accounting.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>

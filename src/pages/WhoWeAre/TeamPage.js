@@ -2,10 +2,12 @@
 // import TeamsCard from "../components/AllCards/TeamCard";
 import data from "../../data/8thGerains.json";
 import { TeamCard } from "../../components/AllCards/TeamCard";
+import { Navbar11 } from "../../components/Navbar";
 
 const TeamPage = () => {
   return (
     <>
+      <Navbar11 />
       <Gerians />
     </>
   );

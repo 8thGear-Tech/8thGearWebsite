@@ -1,26 +1,26 @@
-@use "../colors" as *;
-@use "../font" as *;
+// @use "../colors" as *;
+// @use "../font" as *;
 
-@mixin LearnMoreBtn {
-  border: 2.5px solid $btncolor;
-  color: $prytextcolor;
-  font-size: 25px;
-  font-weight: 500;
-  background-color: #fff;
-}
-.LearnMoreBtn {
-  @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
+// @mixin LearnMoreBtn {
+//   border: 2.5px solid $btncolor;
+//   color: $prytextcolor;
+//   font-size: 25px;
+//   font-weight: 500;
+//   background-color: #fff;
+// }
+// .LearnMoreBtn {
+//   @include LearnMoreBtn;
+//   border-radius: 2.187rem;
+//   padding: 0.4rem 1.5rem;
+// }
 
-.RequestForProposalBtn {
-  @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
-.ProjectDeliveryViewMoreBtn {
-  @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
-}
+// .RequestForProposalBtn {
+//   @include LearnMoreBtn;
+//   border-radius: 2.187rem;
+//   padding: 0.4rem 1.5rem;
+// }
+// .ProjectDeliveryViewMoreBtn {
+//   @include LearnMoreBtn;
+//   border-radius: 2.187rem;
+//   padding: 0.4rem 1.5rem;
+// }

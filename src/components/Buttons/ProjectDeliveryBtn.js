@@ -4,7 +4,7 @@ import React from "react";
 export const LearnMoreBtn = () => {
   return (
     <>
-      <button className="LearnMoreBtn" type="learnMore">
+      <button className="LearnMoreBtn" type="submit">
         Learn more
       </button>
     </>

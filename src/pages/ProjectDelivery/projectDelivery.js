@@ -1,6 +1,7 @@
 //External import
 import React from "react";
 import { OurImpact } from "../../components/Tractions";
+import { Navbar3 } from "../../components/Navbar";
 
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 // import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
@@ -10,6 +11,7 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 const ProjectDeliveryPage = () => {
   return (
     <>
+      <Navbar3 />
       <Competencies />
       <OurImpact />
     </>

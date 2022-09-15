@@ -1,7 +1,16 @@
 import { AllPortfoliosLogoCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/PortfolioLogos.json";
+import { Navbar1 } from "../../components/Navbar";
 
 const PortfolioPage = () => {
+  return (
+    <>
+      <Navbar1 />
+      <PortfolioSection />
+    </>
+  );
+};
+const PortfolioSection = () => {
   return (
     <div className="container-fluid">
       <div

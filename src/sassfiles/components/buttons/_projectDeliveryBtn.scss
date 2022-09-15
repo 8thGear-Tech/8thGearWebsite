@@ -12,16 +12,25 @@
 }
 
 @mixin LearnMoreBtn {
-  border: 2.5px solid $btncolor;
-  color: $prytextcolor;
-  font-size: 25px;
+  // border: 2.5px solid $btncolor;
+  // color: $prytextcolor;
+  // font-size: 25px;
+  // font-weight: 500;
+  // background-color: #fff;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
   font-weight: 500;
-  background-color: #fff;
+  font-size: 20px;
 }
 .LearnMoreBtn {
   @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  // border-radius: 2.187rem;
+  // padding: 0.4rem 1.5rem;
 }
 
 .RequestForProposalBtn {
