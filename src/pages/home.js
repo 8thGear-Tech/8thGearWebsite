@@ -6,9 +6,12 @@ import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
 import gearupicon from "../assets/images/gearupicon.png";
 import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
+import { Navbar } from "../components/Navbar";
+
 const Home = () => {
   return (
     <>
+      <Navbar />
       <SectionOne />
       <SectionTwo />
     </>
@@ -27,7 +30,6 @@ const SectionOne = () => {
         >
           Venture Studio
         </Link>
-        &
         <Link
           to="/"
           className=" mx-2"

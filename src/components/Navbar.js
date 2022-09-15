@@ -3,6 +3,24 @@ import logos from "../assets/images/logos.png";
 import React from "react";
 import { JointheStudioBtn } from "./Buttons/ContactBtn";
 import text from "../data/navbar.json";
+import textone from "../data/navbar.json";
+import texttwo from "../data/navbar.json";
+import textthree from "../data/navbar.json";
+import textfour from "../data/navbar.json";
+import textfive from "../data/navbar.json";
+import textsix from "../data/navbar.json";
+import textseven from "../data/navbar.json";
+import texteight from "../data/navbar.json";
+import textnine from "../data/navbar.json";
+import textten from "../data/navbar.json";
+import texteleven from "../data/navbar.json";
+import texttwelve from "../data/navbar.json";
+import textthirteen from "../data/navbar.json";
+import textfourteen from "../data/navbar.json";
+import textfifteen from "../data/navbar.json";
+import textsixteen from "../data/navbar.json";
+import textseventeen from "../data/navbar.json";
+import texteighteen from "../data/navbar.json";
 
 const NavBar = (props) => {
   const { heading } = props;
@@ -10,16 +28,10 @@ const NavBar = (props) => {
     <>
       <section className="  NavBar">
         <div className="containter-fluid">
-          <div className="d-flex">
-            <img
-              src={logos}
-              alt=""
-              width={60}
-              height={70}
-              className="d-inline-block align-text-top mx-5 "
-            />
-            <h1 className="h6  mt-4 ">{heading}</h1>
-            <div className="ms-auto mb-2 mb-lg-0 mx-5 mt-4">
+          <div className="d-flex me-auto mb-2 mb-lg-0 mt-4">
+            <img src={logos} alt="" width={60} height={70} className="  " />
+            <h1 className="h6  mt-4 mx-5">{heading}</h1>
+            <div className="ms-auto mb-2 mb-lg-0 mt-4">
               <a
                 className=" "
                 data-bs-toggle="offcanvas"
@@ -61,28 +73,30 @@ const NavBar = (props) => {
           ></button>
         </div>
 
-        <div className="offcanvas-body">
-          <a
-            className=" nav-link dropdown-toggle mx-3"
-            type="button"
-            id="navbarDarkdropdownMenuLink"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Studio
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li>
-              <a className="dropdown-item" href="#">
-                My Model
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Portfolios
-              </a>
-            </li>
-          </ul>
+        <div>
+          <div className="offcanvas-body">
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Studio
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a className="dropdown-item" href="#">
+                  My Model
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Portfolios
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <br />
 
@@ -92,80 +106,83 @@ const NavBar = (props) => {
 
           <br />
 
-          <a
-            className=" nav-link dropdown-toggle mx-3"
-            type="button"
-            id="navbarDarkdropdownMenuLink"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Services
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li>
-              <a className="dropdown-item" href="#">
-                Managed Services
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Coworking
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Growth-as-a-services
-              </a>
-            </li>
-          </ul>
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Managed Services
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Coworking
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  Growth-as-a-services
+                </a>
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Who we are
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a className="dropdown-item" href="#">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  8th Gearians
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <br />
-
-          <a
-            className=" nav-link dropdown-toggle mx-3"
-            type="button"
-            id="navbarDarkdropdownMenuLink"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Who we are
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li>
-              <a className="dropdown-item" href="#">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                8th Gearians
-              </a>
-            </li>
-          </ul>
-
-          <br />
-
-          <a
-            className=" nav-link dropdown-toggle mx-3"
-            type="button"
-            id="navbarDarkdropdownMenuLink"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Insights
-          </a>
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li>
-              <a className="dropdown-item" href="#">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                FAQ
-              </a>
-            </li>
-          </ul>
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Insights
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <a className="dropdown-item" href="#">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a className="dropdown-item" href="#">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <br />
           <br />
@@ -201,11 +218,11 @@ export const Navbar = () => {
   );
 };
 
-export const Navbar1 = () => {
+export const Navbarone = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.portfolio.map((navbar) => {
+        {textone.portfolio.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -217,11 +234,11 @@ export const Navbar1 = () => {
   );
 };
 
-export const Navbar2 = () => {
+export const Navbartwo = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.portfolios.map((navbar) => {
+        {texttwo.portfolios.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -233,11 +250,11 @@ export const Navbar2 = () => {
   );
 };
 
-export const Navbar3 = () => {
+export const Navbarthree = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.projectdelivery.map((navbar) => {
+        {textthree.projectdelivery.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -249,11 +266,11 @@ export const Navbar3 = () => {
   );
 };
 
-export const Navbar4 = () => {
+export const Navbarfour = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.managedservices.map((navbar) => {
+        {textfour.managedservices.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -265,11 +282,11 @@ export const Navbar4 = () => {
   );
 };
 
-export const Navbar5 = () => {
+export const Navbarfive = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.digitalmarketing.map((navbar) => {
+        {textfive.digitalmarketing.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -281,11 +298,11 @@ export const Navbar5 = () => {
   );
 };
 
-export const Navbar6 = () => {
+export const Navbarsix = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.legal.map((navbar) => {
+        {textsix.legal.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -297,11 +314,11 @@ export const Navbar6 = () => {
   );
 };
 
-export const Navbar7 = () => {
+export const Navbarseven = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.tech.map((navbar) => {
+        {textseven.tech.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -313,11 +330,11 @@ export const Navbar7 = () => {
   );
 };
 
-export const Navbar8 = () => {
+export const Navbareight = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.coworkingspace.map((navbar) => {
+        {texteight.coworkingspace.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -329,11 +346,11 @@ export const Navbar8 = () => {
   );
 };
 
-export const Navbar9 = () => {
+export const Navbarnine = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.growthasaservices.map((navbar) => {
+        {textnine.growthasaservices.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -345,11 +362,11 @@ export const Navbar9 = () => {
   );
 };
 
-export const Navbar10 = () => {
+export const Navbarten = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.about.map((navbar) => {
+        {textten.about.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -361,11 +378,11 @@ export const Navbar10 = () => {
   );
 };
 
-export const Navbar11 = () => {
+export const Navbareleven = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.ourteam.map((navbar) => {
+        {texteleven.ourteam.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -377,11 +394,11 @@ export const Navbar11 = () => {
   );
 };
 
-export const Navbar12 = () => {
+export const Navbartwelve = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.blog.map((navbar) => {
+        {texttwelve.blog.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -393,11 +410,11 @@ export const Navbar12 = () => {
   );
 };
 
-export const Navbar13 = () => {
+export const Navbarthirteen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.faq.map((navbar) => {
+        {textthirteen.faq.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -409,11 +426,11 @@ export const Navbar13 = () => {
   );
 };
 
-export const Navbar14 = () => {
+export const Navbarfourteen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.events.map((navbar) => {
+        {textfourteen.events.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -425,11 +442,11 @@ export const Navbar14 = () => {
   );
 };
 
-export const Navbar15 = () => {
+export const Navbarfifteen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.foundermeetup.map((navbar) => {
+        {textfifteen.foundermeetup.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -441,11 +458,11 @@ export const Navbar15 = () => {
   );
 };
 
-export const Navbar16 = () => {
+export const Navbarsixteen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.demoday.map((navbar) => {
+        {textsixteen.demoday.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -457,11 +474,11 @@ export const Navbar16 = () => {
   );
 };
 
-export const Navbar17 = () => {
+export const Navbarseventeen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.projectdeliverygallery.map((navbar) => {
+        {textseventeen.projectdeliverygallery.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
@@ -473,11 +490,11 @@ export const Navbar17 = () => {
   );
 };
 
-export const Navbar18 = () => {
+export const Navbareighteen = () => {
   return (
     <div className="container">
       <div className="row">
-        {text.eventgallery.map((navbar) => {
+        {texteighteen.eventgallery.map((navbar) => {
           return (
             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
