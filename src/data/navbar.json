@@ -1,0 +1,123 @@
+{
+  "landingpage": [
+    {
+      "id": 1,
+      "heading": "8thGear Venture Studio"
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "heading": "Portfolios"
+    }
+  ],
+
+  "portfolios": [
+    {
+      "id": 1,
+      "heading": "Portfolios"
+    }
+  ],
+
+  "projectdelivery": [
+    {
+      "id": 1,
+      "heading": "Our Model"
+    }
+  ],
+
+  "managedservices": [
+    {
+      "id": 1,
+      "heading": "Managed Services"
+    }
+  ],
+
+  "digitalmarketing": [
+    {
+      "id": 1,
+      "heading": "Digital Marketing"
+    }
+  ],
+
+  "legal": [
+    {
+      "id": 1,
+      "heading": "Legal"
+    }
+  ],
+
+  "tech": [
+    {
+      "id": 1,
+      "heading": "Tech"
+    }
+  ],
+  "coworkingspace": [
+    {
+      "id": 1,
+      "heading": "Co-working Space"
+    }
+  ],
+  "growthasaservices": [
+    {
+      "id": 1,
+      "heading": "Growth-as-a-Service"
+    }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "heading": "About"
+    }
+  ],
+  "ourteam": [
+    {
+      "id": 1,
+      "heading": "Our Team"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "heading": "Blog"
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "heading": "FAQ"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "heading": "Events"
+    }
+  ],
+  "foundermeetup": [
+    {
+      "id": 1,
+      "heading": "Founder Meetup"
+    }
+  ],
+  "demoday": [
+    {
+      "id": 1,
+      "heading": "Demo Day"
+    }
+  ],
+  "projectdeliverygallery": [
+    {
+      "id": 1,
+      "heading": "Demo Day"
+    }
+  ],
+  "eventgallery": [
+    {
+      "id": 1,
+      "heading": "Event Gallery"
+    }
+  ]
+}

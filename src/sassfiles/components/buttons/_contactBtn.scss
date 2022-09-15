@@ -1,0 +1,36 @@
+@use "../../colors" as *;
+.BookNowBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.BookaFreeSessionBtn {
+  width: auto;
+  height: 30px;
+  background-color: #821e6b;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.JointheStudioBtn {
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 15px;
+}

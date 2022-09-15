@@ -15,9 +15,14 @@ export default SuggestAnEventBtn;
 
 export const LetUsKnowBtn = () => {
   return (
-    <button className="LetUsKnowBtn" type="sumbit">
-      Let us Know
-    </button>
+    <a href="#" rel="noreferrer">
+      <button type="button" class="LetUsKnowBtn">
+        Let Us Know
+      </button>
+    </a>
+    // <button className="LetUsKnowBtn" type="sumbit">
+    //   Let us Know
+    // </button>
   );
 };
 

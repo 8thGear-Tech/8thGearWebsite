@@ -1,0 +1,67 @@
+{
+  "galleryFoundermeetup": [
+    {
+      "id": 1,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup1.jpg"
+    },
+
+    {
+      "id": 2,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup3.jpg"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup5.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup6.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup7.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup8.jpg"
+    },
+    {
+      "id": 9,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup9.jpg"
+    },
+    {
+      "id": 10,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup10.jpg"
+    },
+    {
+      "id": 11,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup10.jpg"
+    },
+    {
+      "id": 12,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup10.jpg"
+    },
+    {
+      "id": 13,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup10.jpg"
+    },
+    {
+      "id": 14,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup10.jpg"
+    },
+
+    {
+      "id": 15,
+      "image": "./images/galleryFoundermeetup/galleryFoundermeetup11.jpg"
+    }
+  ]
+}
