@@ -4,8 +4,8 @@ import Home from "./pages/home";
 // import Constructionpage from "./pages/constructionpage";
 // import AnimationVideoHero from "./components/Hero/VideoHero";
 // import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
-import { Servicehero } from "./components/Hero/BGColorandTextHero";
-// import ManagedServicesHero from "./components/Hero/BGColorandTextHero";
+// import { Servicehero } from "./components/Hero/BGColorandTextHero";
+import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -15,8 +15,8 @@ import { Servicehero } from "./components/Hero/BGColorandTextHero";
 function App() {
   return (
     <div>
-      <Servicehero />
-      {/* <ManagedServicesHero /> */}
+      <PortfolioHero />
+      {/* <Servicehero /> */}
       {/* <AnimationVideoHero /> */}
       {/* <JoinTheTeamForm /> */}
       <BrowserRouter>

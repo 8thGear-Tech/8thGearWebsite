@@ -74,69 +74,28 @@
   border-radius: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-  .ManagedServicesHeroText {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 150px 100px 0px 100px;
-  }
+.ManagedServicesHeroText {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 1.8em;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 150px 100px 0px 100px;
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 500px) {
-  .ManagedServicesHeroText {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 120px 100px 0px 100px;
-    font-size: 1.2em;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .ManagedServicesHeroText {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 150px 100px 0px 100px;
-    font-size: 1.5em;
-  }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .ManagedServicesHeroText {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 150px 100px 0px 100px;
-  }
-}
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .ManagedServicesHeroText {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 1.8em;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 150px 100px 0px 100px;
-  }
+
+.PortfolioHeroText {
+  color: #ffffff !important;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 397px;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 1.8em;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 120px 100px 0px 100px;
+  font-size: 1.2em;
 }/*# sourceMappingURL=styles.css.map */
