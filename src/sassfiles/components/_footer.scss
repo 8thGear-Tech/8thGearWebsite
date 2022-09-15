@@ -11,6 +11,7 @@
 #iconsize {
   font-size: 2vw;
   color: $darkgreenbg;
+  position: fixed;
 }
 .mobile-icon {
   list-style-type: none;
@@ -26,4 +27,7 @@
 }
 .text-fluid1 {
   font-size: 1.7vw;
+}
+.footerLogo {
+  width: auto;
 }

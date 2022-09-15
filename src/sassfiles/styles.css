@@ -304,6 +304,7 @@ p {
 #iconsize {
   font-size: 2vw;
   color: #00a495;
+  position: fixed;
 }
 
 .mobile-icon {
@@ -320,5 +321,9 @@ p {
 
 .text-fluid1 {
   font-size: 1.7vw;
+}
+
+.footerLogo {
+  width: auto;
 }
 /*# sourceMappingURL=styles.css.map */
