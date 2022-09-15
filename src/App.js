@@ -28,6 +28,7 @@ function App() {
         {/* <Route path="portfolios" element={<Portfolios />} /> */}
         <Route path="button1" element={<BookNowBtn />} />
         <Route path="button3" element={<BookaFreeSessionBtn />} />
+        <Route path="button2" element={<BookaSessionBtn />} />
         <Route path="button4" element={<OnHoverReadMoreBtn />} />
         <Route path="button5" element={<AllPortfoliosLogoCard />} />
         <Route path="button6" element={<PortfolioPage />} />
@@ -35,6 +36,7 @@ function App() {
         <Route path="button8" element={<ManagedServicesPage />} />
         <Route path="button9" element={<ProjectDeliveryPage />} />
         <Route path="button10" element={<ManagedServicesRequestForm />} />
+        
         
 
         <Route path="constructionpage" element={<Constructionpage />} />

@@ -59,7 +59,7 @@ export const ManagedServicesRequestForm =() =>{
                 <div className="form-group my-4">
                     <input type="email" className="form-control" id="email" name="email" onChange={(e) => setFormData({...formData, email: e.target.value})} value={formData.email} placeholder="Enter email"></input>
                 </div>
-        <div style={{backgroundImage: "url("+logo+")", opacity: "50%", backgroundSize: "200px",}}>       
+        <div className="div1" style={{position: "relative"}}>       
                 <div className="form-group my-4">
                     <input type="text" className="form-control" id="phonenumber" name="phoneNumber" onChange={(e) => setFormData({...formData, phoneNumber: e.target.value})} value={formData.phoneNumber} placeholder="Phone Number"></input>
                 </div>
@@ -79,11 +79,12 @@ export const ManagedServicesRequestForm =() =>{
                         <option value="Service2">Service 2</option>
                         <option value="Service3">Service 3</option>
                     </select>
-        </div>             
+                     
                 </div>
                 <div class="form-group my-4">
                     <textarea type="text" className="form-control" id="addressOfUser" name="addressOfUser" onChange={(e) => setFormData({...formData, addressOfUser: e.target.value})} value={formData.addressOfUser} placeholder="Address Of User" rows="3"></textarea>
                 </div>
+        </div> 
                 <div className="input-group">
                     <div className="input-group-prepend col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="input-group-text">Optional Add-ons Plan</div>

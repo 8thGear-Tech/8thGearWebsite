@@ -8,6 +8,18 @@
     margin: auto;
 }
 
+.div1::before{
+    content: "";
+    background-image: url(../assets/images/logo.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 50%;
+}
+
 // .ManagedServicesRequestForm-Text{
 //     margin-bottom: 50px;
 // }
