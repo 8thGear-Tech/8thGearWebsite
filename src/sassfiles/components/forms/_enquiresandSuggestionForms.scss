@@ -1,0 +1,30 @@
+@use "../../colors" as *;
+
+.contactUsTitle {
+  text-align: center;
+  color: $btncolor;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}

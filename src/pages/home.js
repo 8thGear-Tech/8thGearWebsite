@@ -12,7 +12,7 @@ const SectionOne = () => {
   return (
     <div className="container-fluid p-5">
       <h3 className="text-center pb-4">
-        8thGear is a Venture Studio & Project Delivery Company
+        8thGear is a Venture Studio and Project Delivery Company
       </h3>
       <div className="row justify-content-center">
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 d-flex align-items-center">
@@ -116,4 +116,4 @@ const SectionTwo = () => {
   );
 };
 
-export default Home;
+// export default Home;

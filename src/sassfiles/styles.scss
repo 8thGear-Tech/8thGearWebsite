@@ -1,4 +1,7 @@
-@use "./components/navbar";
-@use "./components/buttons//eventsBtn";
-@use "./components/constructionpage";
-@use "./components/timer";
+// @use "./components/navbar" as;
+// @use "./components/buttons//eventsBtn" as;
+// @use "./components/constructionpage";
+// @use "./components/timer";
+@use "./components/hero/videoHero";
+@use "./components/forms/enquiresandSuggestionForms";
+@use "./components/hero/bgColorandTextHero";
