@@ -38,8 +38,8 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center mt-5">
-        <div className="col-lg-2 col-md-6 col-sm-12">
+      <div className="row d-flex justify-content-center mt-5">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -47,7 +47,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -55,33 +55,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
-          <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row justify-content-center mt-5">
-        <div className="col-lg-2 col-md-6 col-sm-12">
-          <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
-          <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -91,7 +65,7 @@ const WhatWeDo = () => {
         </div>
       </div>
       <div className="row justify-content-center mt-5">
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -99,7 +73,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -107,7 +81,33 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Data Science</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-center mt-5">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Data Science</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Data Science</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
@@ -140,7 +140,7 @@ const HowWeDoIt = () => {
             </div>
           </div>
         </div>
-        <div className="row py-5 d-flex justify-content-around">
+        <div className="row py-3 d-flex justify-content-around">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <img
               src={steponeicon}
@@ -168,7 +168,7 @@ const HowWeDoIt = () => {
             </div>
           </div>
         </div>
-        <div className="row py-5">
+        <div className="row py-3">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 m-auto ">
             <div className="col d-lg-flex d-md-flex">
               <div className="col">
@@ -196,7 +196,7 @@ const HowWeDoIt = () => {
             />
           </div>
         </div>
-        <div className="row py-5">
+        <div className="row py-3">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 m-auto ">
             <img
               src={steponeicon}
@@ -224,7 +224,7 @@ const HowWeDoIt = () => {
             </div>
           </div>
         </div>
-        <div className="row py-5">
+        <div className="row py-3">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 m-auto ">
             <div className="col d-lg-flex d-md-flex">
               <div className="col">

@@ -624,4 +624,12 @@ article h4 {
   background-size: cover;
   border: 1px solid black;
 }
+
+.TextAlignCenter {
+  text-align: center;
+}
+
+.AllPortfoliosLogoCard {
+  border: none;
+}
 /*# sourceMappingURL=styles.css.map */

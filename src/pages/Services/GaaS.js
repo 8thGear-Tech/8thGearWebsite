@@ -15,7 +15,7 @@ const WhyChooseUs = () => {
     <div className="container-fluid text-center px-5 whyChooseUsBg">
       <div className="row justify-content-evenly ">
         <h4 className="text-center my-5">Why Choose Us</h4>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5 mt-5">
+        <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5">
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <OurImpactIcon />
             <div className="card-body">
@@ -28,7 +28,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5 ">
+        <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5">
           {" "}
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5">
           {" "}
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>
@@ -74,7 +74,7 @@ const HowWeWork = () => {
     <div className="container-fluid px-5 py-3">
       {" "}
       <h4 className="text-center my-5">How we Work</h4>
-      <div className="row justify-content-center my-5">
+      <div className="row justify-content-center my-lg-5 my-sm-2">
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />

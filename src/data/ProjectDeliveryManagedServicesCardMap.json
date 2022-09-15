@@ -1,22 +1,46 @@
-[
+{
+    "ManagedServicesImages":[
     {
         "id": 1,
-        "image": "images/Genetics.jpg",
+        "image": "images/Enterprise_support.jpg",
         "text": "ENTERPRISE SUPPORT"
     },
     {
         "id": 2,
-        "image": "images/Physiology2.jpg",
+        "image": "images/Ecosystem_Events.jpg",
         "text": "ECOSYSTEM EVENTS"
     },
     {
         "id": 3,
-        "image": "images/Plantpathology1.jpg",
+        "image": "images/Training.jpg",
         "text": "TRAINING"
     },
     {
         "id": 4,
-        "image": "images/Genetics.jpg",
-        "text": "Zoology4"
+        "image": "images/Employability.jpg",
+        "text": "EMPLOYABILITY"
+    }
+],
+    "ProjectDeliveryImages":[
+    {
+        "id": 1,
+        "image": "images/Digital_Marketing.jpg",
+        "text": "DIGITAL MARKETING"
+    },
+    {
+        "id": 2,
+        "image": "images/Legal.jpg",
+        "text": "LEGAL"
+    },
+    {
+        "id": 3,
+        "image": "images/Accounting.jpg",
+        "text": "ACCOUNTING"
+    },
+    {
+        "id": 4,
+        "image": "images/Tech.jpg",
+        "text": "TECH"
     }
 ]
+}

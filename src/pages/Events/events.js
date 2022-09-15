@@ -18,7 +18,7 @@ const Events = () => {
       {" "}
       <h4 className="">Exclusive to the portfolio</h4>
       <div className="row justify-content-center mt-5">
-        <div className="col-lg-5 col-md-4 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-5 col-md-6 col-sm-10 px-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
@@ -30,7 +30,7 @@ const Events = () => {
                 // height="70px"
                 alt="..."
               />
-              <p className="card-text">
+              <p className="card-text mx-3">
                 {" "}
                 It's business creation. Our collaborative platform has three
                 components. It's business creation. It's business creation. Our
@@ -40,7 +40,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5 col-md-4 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-5 col-md-6 col-sm-10 px-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
@@ -52,7 +52,7 @@ const Events = () => {
                 // height="70px"
                 alt="..."
               />
-              <p className="card-text">
+              <p className="card-text mx-3">
                 {" "}
                 It's business creation. Our collaborative platform has three
                 components. It's business creation. It's business creation. Our
@@ -71,7 +71,7 @@ const SuggestAnEvent = () => {
   return (
     <div className="container-fluid text-center p-5">
       {" "}
-      <h4 className="">Suggest an event or speaker</h4>
+      <h4 className="mt-5">Suggest an event or speaker</h4>
       <p>
         If you have a suggestion for an event or potential speaker, we would
         love to hear from you.

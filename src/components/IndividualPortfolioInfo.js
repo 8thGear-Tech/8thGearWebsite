@@ -30,7 +30,7 @@ export const AboutStartup = (props) => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center my-5 g-0">
+      <div className="row justify-content-center text-center my-3 g-0">
         <div className="col-lg-2 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">

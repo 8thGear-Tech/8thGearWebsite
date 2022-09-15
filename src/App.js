@@ -17,19 +17,24 @@ import Constructionpage from "./pages/constructionpage";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ManagedServicesPage from "./pages/Services/managedServices";
 import OurModelPage from "./pages/Studio/ourModel";
-import IndividualPortfolioPage from "./pages/Studio/individualPortfolio";
+import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
+import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
+import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
+import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import PortfolioPage from "./pages/Studio/portfolios";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
 import GrowthAsAservice from "./pages/Services/GaaS";
 // import { Gerians } from "./components/AllCards/TeamCard";
+// import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
-import Portfolios from "./pages/Studio/individualPortfolio";
+import Portfolios from "./pages/Studio/InnkeeperPortfolio";
 // import Portfolios from "./pages/portfolios";
 import { BookNowBtn } from "./components/Buttons/ServicesBtn";
 import { BookaSessionBtn } from "./components/Buttons/ServicesBtn";
@@ -70,10 +75,14 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="projectdelivery" element={<ProjectDeliveryPage />} /> */}
-        {/* <Route path="managedservices" element={<ManagedServicesPage />} /> */}
+        <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
+        <Route path="managedservices" element={<ManagedServicesPage />} />
         <Route path="ourmodel" element={<OurModelPage />} />
-        <Route path="portfolio" element={<IndividualPortfolioPage />} />
+        <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
+        <Route path="mindafrik" element={<MindAfrikPortfolioPage />} />
+        <Route path="haven" element={<HavenPortfolioPage />} />
+        {/* <Route path="mindafrik" element={<MindAfrikPortfolioPage />} /> */}
+        <Route path="easesoiless" element={<EaseSoilessPortfolioPage />} />
         <Route path="portfolios" element={<PortfolioPage />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="foundersmeetup" element={<FounderMeetupPage />} />
@@ -104,7 +113,18 @@ function App() {
           path="button6"
           element={<ProjectDeliveryManagedServicesCard />}
         /> */}
-        <Route path="button7" element={<ManagedServicesRequestForm />} />
+        {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
+        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
+        {/* <Route path="button6" element={<PortfolioPage />} /> */}
+        {/* <Route
+          path="button7"
+          element={<ProjectDeliveryManagedServicesCard />}
+        /> */}
+        <Route path="button8" element={<ManagedServicesPage />} />
+        <Route path="button9" element={<ProjectDeliveryPage />} />
+        <Route path="button10" element={<ManagedServicesRequestForm />} />
+
+        <Route path="constructionpage" element={<Constructionpage />} />
       </Routes>
       {/* <UnderconstructionNavbar /> */}
       {/* <Route path="teamcard" element={<Teamcard />} /> */}
