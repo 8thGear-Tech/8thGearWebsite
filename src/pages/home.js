@@ -7,11 +7,14 @@ import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
 import gearupicon from "../assets/images/gearupicon.png";
 import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
+import { AboutUs } from "../components/AllCards/TestimonialCards";
+
 const Home = () => {
   return (
     <>
       <Navbar />
       <SectionOne />
+      <AboutUs />
       <Line />
       <SectionTwo />
       <Line />

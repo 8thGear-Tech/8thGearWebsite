@@ -186,7 +186,7 @@ export function ManagedServicesPageTestimonialCard() {
 //   );
 // };
 
-const CoWorkingPageTestimonialCard = (props) => {
+export const CoWorkingPageTestimonialCard = (props) => {
   const { image, name, position, text } = props;
   return (
     <div className="card w-100 mx-auto">

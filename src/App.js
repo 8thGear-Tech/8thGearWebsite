@@ -67,11 +67,11 @@ import { GalleryVideoCards } from "./components/AllCards/MediaCards";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
       {/* <ManagedServicesPageTestimonialCard /> */}
       {/* <Lad /> */}
       {/* <CoWorkingPageTestimonialCard /> */}
       {/* <AboutUs /> */}
+      {/* <Navbr /> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
