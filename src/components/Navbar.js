@@ -537,3 +537,33 @@ export const Navbar18 = () => {
     </div>
   );
 };
+export const Navbar19 = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        {text.ourmodel.map((navbar) => {
+          return (
+            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar20 = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        {text.accounting.map((navbar) => {
+          return (
+            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

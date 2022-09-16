@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import { WhatWeDoIcon } from "../../components/Icons";
 import steponeicon from "../../assets/images/steponeicon.png";
 import { OurModelTractions } from "../../components/Tractions";
+import { Navbar19 } from "../../components/Navbar";
 
 const OurModelPage = () => {
   return (
     <>
+      <Navbar19 />
       <WhatWeDo />
       <HowWeDoIt />
       <OurModelTractions />

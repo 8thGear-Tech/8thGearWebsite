@@ -3,10 +3,12 @@ import allPortfolioInfo from "../../data/IndividualPortfolioInfo.json";
 import allPortfolioTractions from "../../data/IndividualPortfolioInfo.json";
 import { AboutStartup } from "../../components/IndividualPortfolioInfo";
 import { Tractions } from "../../components/IndividualPortfolioInfo";
+import { Navbar1 } from "../../components/Navbar";
 
 const InnkeeperPortfolioPage = () => {
   return (
     <>
+      <Navbar1 />
       <AboutStartupSection />
       <StartupsTractions />
     </>

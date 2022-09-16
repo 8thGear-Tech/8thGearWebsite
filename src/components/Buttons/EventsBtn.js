@@ -11,7 +11,7 @@ export const SuggestAnEventBtn = () => {
     </button>
   );
 };
-export default SuggestAnEventBtn;
+// export default SuggestAnEventBtn;
 
 export const LetUsKnowBtn = () => {
   return (
@@ -38,6 +38,21 @@ export const GetYourTicketBtn = () => {
   return (
     <button className="GetYourTicketBtn" type="sumbit">
       Get Your Ticket
+    </button>
+  );
+};
+
+export const FoundersMeetupReadMoreBtn = () => {
+  return (
+    <button className="BlogReadMoreBtn" type="sumbit">
+      Read More
+    </button>
+  );
+};
+export const DemoDayReadMoreBtn = () => {
+  return (
+    <button className="BlogReadMoreBtn" type="sumbit">
+      Read More
     </button>
   );
 };

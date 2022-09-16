@@ -1,9 +1,12 @@
 import { OurImpactIcon } from "../../components/Icons";
 import { WhatWeDoIcon } from "../../components/Icons";
+import { Navbar9 } from "../../components/Navbar";
+import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
 
 const GrowthAsAservice = () => {
   return (
     <>
+      <Navbar9 />
       <WhyChooseUs />
       <HowWeWork />
     </>
@@ -128,6 +131,9 @@ const HowWeWork = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="py-5 d-flex justify-content-center">
+          <BookaFreeSessionBtn />
         </div>
       </div>
     </div>
