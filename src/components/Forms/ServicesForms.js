@@ -59,33 +59,43 @@ export const ManagedServicesRequestForm =() =>{
                 <div className="form-group my-4">
                     <input type="email" className="form-control" id="email" name="email" onChange={(e) => setFormData({...formData, email: e.target.value})} value={formData.email} placeholder="Enter email"></input>
                 </div>
-        <div className="div1" style={{position: "relative"}}>       
-                <div className="form-group my-4">
+        <div className="div1 TextAlignCenter" style={{position: "relative"}}>       
+                <div className="form-group my-4 input-group">
                     <input type="text" className="form-control" id="phonenumber" name="phoneNumber" onChange={(e) => setFormData({...formData, phoneNumber: e.target.value})} value={formData.phoneNumber} placeholder="Phone Number"></input>
                 </div>
-                <div className="form-group my-4">
+                <div className="form-group my-4 input-group">
                     <input type="text" className="form-control" id="nameOfBusiness" name="nameOfBusiness" onChange={(e) => setFormData({...formData, nameOfBusiness: e.target.value})} value={formData.nameOfBusiness} placeholder="Name Of Business"></input>
                 </div>
-                <div className="form-group my-4">
+                <div className="form-group my-4 input-group">
                     <input type="text" className="form-control" id="natureOfBusiness" name="natureOfBusiness" onChange={(e) => setFormData({...formData, natureOfBusiness: e.target.value})} value={formData.natureOfBusiness} placeholder="Nature Of Business"></input>
                 </div>
-                <div className="input-group">
+                {/* <div className="input-group">
                     <div className="input-group-prepend col-lg-6 col-md-6 col-sm-5 col-12">
-                        <div className="input-group-text">Service of Interest:</div>
+                        <div style={{backgroundColor: "white", borderTopRightRadius: "0px", borderBottomRightRadius:"0px", borderRight: "0px solid black",}} className="input-group-text">Service of Interest:</div>
                     </div>
-                    <select  type="text" className="form-select" id="serviceOfInterest" name="serviceOfInterest" onChange={(e) => setFormData({...formData, serviceOfInterest: e.target.value})} value={formData.serviceOfInterest}>
+                    <select style={{borderLeft: "0px solid black",}} type="text" className="form-select" id="serviceOfInterest" name="serviceOfInterest" onChange={(e) => setFormData({...formData, serviceOfInterest: e.target.value})} value={formData.serviceOfInterest}>
                         <option> </option>
                         <option value="Service1">Service 1</option>
                         <option value="Service2">Service 2</option>
                         <option value="Service3">Service 3</option>
                     </select>
                      
+                </div> */}
+
+                <div>
+                <select type="text" className="form-select input-group" id="serviceOfInterest" name="serviceOfInterest" onChange={(e) => setFormData({...formData, serviceOfInterest: e.target.value})} value={formData.serviceOfInterest}>
+                        <option selected>Service of Interest...... </option>
+                        <option> </option>
+                        <option value="Service1">Service 1</option>
+                        <option value="Service2">Service 2</option>
+                        <option value="Service3">Service 3</option>
+                    </select>
                 </div>
-                <div class="form-group my-4">
+                <div class="form-group my-4 input-group">
                     <textarea type="text" className="form-control" id="addressOfUser" name="addressOfUser" onChange={(e) => setFormData({...formData, addressOfUser: e.target.value})} value={formData.addressOfUser} placeholder="Address Of User" rows="3"></textarea>
                 </div>
         </div> 
-                <div className="input-group">
+                {/* <div className="input-group">
                     <div className="input-group-prepend col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="input-group-text">Optional Add-ons Plan</div>
                     </div>
@@ -95,10 +105,19 @@ export const ManagedServicesRequestForm =() =>{
                         <option value="Optional Addons Plan 2">Optional Addons Plan 1</option>
                         <option value="Optional Addons Plan 3">Optional Addons Plan 1</option>
                     </select>
-                </div>
+                </div> */}
+                <div className="input-group">
+                <select type="text" className="form-select" id="optionalAddonsPlan" name="optionalAddonsPlan" onChange={(e) => setFormData({...formData, optionalAddonsPlan: e.target.value})} value={formData.optionalAddonsPlan}>
+                        <option selected>Optional Add-ons Plan...... </option>
+                        <option> </option>
+                        <option value="Optional Addons Plan 1">Optional Addons Plan 1</option>
+                        <option value="Optional Addons Plan 2">Optional Addons Plan 1</option>
+                        <option value="Optional Addons Plan 3">Optional Addons Plan 1</option>
+                    </select>
+                </div>  
 
     </div>       
-                <div className="custom-control custom-checkbox my-1 mr-sm-2">
+                <div className="custom-control custom-checkbox my-3 mr-sm-2">
                     <input type="checkbox" className="custom-control-input text-left"></input>
                     <label className="custom-control-label mx-1">Click to subscribe to our News Letter</label>
                 </div>
