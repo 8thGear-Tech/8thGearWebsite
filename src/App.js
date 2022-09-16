@@ -71,6 +71,7 @@ import { ProjectCards } from "./components/AllCards/MediaCards";
 import { DemodayCards } from "./components/AllCards/MediaCards";
 import { GalleryCards } from "./components/AllCards/MediaCards";
 import { GalleryVideoCards } from "./components/AllCards/MediaCards";
+import FAQ from "./pages/Insights/FAQ";
 
 function App() {
   return (
@@ -107,6 +108,7 @@ function App() {
         {/* <Route path="/" element={<ManagedServicesPage />} /> */}
         {/* <Route path="teamcard" element={<Teamcard />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
+        <Route path="faq" element={<FAQ />} />
         {/* <Route path="team" element={<Gerians />} /> */}
         {/* <Route path="events" element={<Events />} /> */}
 

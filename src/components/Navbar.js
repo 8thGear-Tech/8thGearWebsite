@@ -11,13 +11,15 @@ const NavBar = (props) => {
       <section className="">
         <div className="containter-fluid NavBar">
           <div className="d-flex">
-            <img
-              src={logos}
-              alt=""
-              width={60}
-              height={70}
-              className="d-inline-block align-text-top mx-5 "
-            />
+            <Link to="/">
+              <img
+                src={logos}
+                alt=""
+                width={60}
+                height={70}
+                className="d-inline-block align-text-top mx-5 "
+              />
+            </Link>
             <h1 className="h6  mt-4 ">{heading}</h1>
             <div className="ms-auto mb-2 mb-lg-0 mx-5 mt-1">
               <a
