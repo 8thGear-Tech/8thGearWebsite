@@ -5,6 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { ArrowRightIcon } from "../Icons";
 import data from "../../data/8thGerains.json";
+import EIRdata from "../../data/8thGerains.json";
 // import TeamImage from "../../assets/images/Teamone.png";
 import field from "../../data/advisory.json";
 
@@ -12,8 +13,8 @@ export const TeamCard = (props) => {
   const { image, name, title, text } = props;
   return (
     <>
-      <div className="card-deck Team  ">
-        <div class="card teamcard">
+      <div className="card-deck Team">
+        <div class="card w-75 mx-auto ">
           <img src={image} class="card-img-top Teampic " alt="Teamimage" />
           <div class="card-body teamcardbody">
             <figure class="text-center">
@@ -48,9 +49,32 @@ export const Gerians = () => {
   return (
     <div className="container ">
       <div className="row ">
+        <h4 className="text-center py-5">8THGEARIANS</h4>
         {data.teamcard.map((card) => {
           return (
-            <div className="col-sm-12 col-md-6 col-lg-4 mb-5 " key={card.id}>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-items-stretch"
+              key={card.id}
+            >
+              <TeamCard {...card}></TeamCard>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const EIR = () => {
+  return (
+    <div className="container ">
+      <div className="row ">
+        <h4 className="text-center py-5">ENTERPRENEURS IN RESIDENCE</h4>
+        {EIRdata.EIRcard.map((card) => {
+          return (
+            <div
+              className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-items-stretch"
+              key={card.id}
+            >
               <TeamCard {...card}></TeamCard>
             </div>
           );
@@ -60,11 +84,12 @@ export const Gerians = () => {
   );
 };
 
+<br></br>;
 const AdvisoryBoardCard = (props) => {
   const { image } = props;
   return (
     // <div className="card-deck">
-    <div class="card advisorcard">
+    <div class="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
       <img src={image} class=" img-fluid Boardimage" alt="Teamimage" />
     </div>
     // </div>
@@ -72,11 +97,15 @@ const AdvisoryBoardCard = (props) => {
 };
 export const AdvisoryTeamPic = () => {
   return (
-    <div className="container mt-5">
-      <div className="row">
+    <div className="container d-flex justify-content-center">
+      <div className="row text-center py-5">
+        <h4>ADVISORY BOARD</h4>
         {field.advisoryimage.map((card) => {
           return (
-            <div className="col-sm-12 col-md-6 col-lg-4 mb-5" key={card.id}>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4 mt-3 mb-5 "
+              key={card.id}
+            >
               <AdvisoryBoardCard {...card}></AdvisoryBoardCard>
             </div>
           );

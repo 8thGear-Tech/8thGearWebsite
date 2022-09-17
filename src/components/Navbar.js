@@ -155,7 +155,7 @@ const NavBar = (props) => {
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/8thgearians">
+                <Link className="dropdown-item" to="/team">
                   8thGearians
                 </Link>
               </li>

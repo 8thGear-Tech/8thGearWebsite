@@ -602,6 +602,18 @@ article h4 {
   font-size: 20px;
 }
 
+.JointheTeamBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .TractionsBg {
   background-color: #00a495;
 }
@@ -723,13 +735,6 @@ article h4 {
   line-height: 3px;
 }
 
-.teamcard {
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
-}
-
 .teamcardbody {
   border-radius: 0px;
   border-bottom: 5px solid #00a495 !important;
@@ -744,19 +749,6 @@ article h4 {
 
 .Text {
   line-height: 1px;
-}
-
-.Team {
-  margin-top: 70%;
-}
-
-.advisorcard {
-  margin-top: 80%;
-  margin-right: auto;
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
 }
 
 .bgImg {

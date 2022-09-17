@@ -19,7 +19,7 @@ import ManagedServicesPage from "./pages/Services/managedServices";
 // import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
 import GrowthAsAservice from "./pages/Services/GaaS";
 
-// import TeamPage from "./pages/WhoWeAre/TeamPage";
+import TeamPage from "./pages/WhoWeAre/TeamPage";
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -95,7 +95,7 @@ function App() {
           element={<ManagedServicesDigitalMarketing />}
         /> */}
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        {/* <Route path="team" element={<TeamPage />} /> */}
+        <Route path="team" element={<TeamPage />} />
         <Route path="blog" element={<BlogPage />} />
         {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />

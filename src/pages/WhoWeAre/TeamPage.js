@@ -4,32 +4,24 @@ import data from "../../data/8thGerains.json";
 import { TeamCard } from "../../components/AllCards/TeamCard";
 import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
 import { Navbar11 } from "../../components/Navbar";
+import { Gerians } from "../../components/AllCards/TeamCard";
+import { EIR } from "../../components/AllCards/TeamCard";
+import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 
 const TeamPage = () => {
   return (
     <>
       <Navbar11 />
       <Gerians />
+      <EIR />
       <AdvisoryTeamPic />
+      <div className="d-flex justify-content-center">
+        <JointheTeamBtn />
+      </div>
     </>
   );
 };
 
-const Gerians = () => {
-  return (
-    <div className="container pb-5">
-      <div className="row ">
-        {data.teamcard.map((card) => {
-          return (
-            <div className="col-sm-12 col-md-6 col-lg-4" key={card.id}>
-              <TeamCard {...card}></TeamCard>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-};
 export default TeamPage;
 
 // // ,
