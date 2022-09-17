@@ -26,7 +26,7 @@ import BlogPage from "./pages/Insights/blog";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 // import FAQ from "./pages/Insights/FAQ";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
@@ -84,20 +84,20 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="our-model" element={<OurModelPage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
-        <Route path="easesoiless" element={<EaseSoilessPortfolioPage />} />
+        <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
         <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
-        <Route path="mindafrik" element={<MindAfrikPortfolioPage />} />
+        <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
         <Route path="haven" element={<HavenPortfolioPage />} />
         <Route path="project-delivery" element={<ProjectDeliveryPage />} />
         <Route path="managed-services" element={<ManagedServicesPage />} />
-        <Route
+        {/* <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
-        />
+        /> */}
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        <Route path="team" element={<TeamPage />} />
+        {/* <Route path="team" element={<TeamPage />} /> */}
         <Route path="blog" element={<BlogPage />} />
-        <Route path="faq" element={<FAQ />} />
+        {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />
         <Route path="founders-meetup" element={<FounderMeetupPage />} />
 

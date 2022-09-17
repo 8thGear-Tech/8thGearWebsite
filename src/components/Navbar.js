@@ -85,7 +85,7 @@ const NavBar = (props) => {
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/portfolios">
+                <Link className="dropdown-item" to="/portfolio">
                   Portfolio
                 </Link>
               </li>
@@ -541,11 +541,11 @@ export const Navbar18 = () => {
 };
 export const Navbar19 = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         {text.ourmodel.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );

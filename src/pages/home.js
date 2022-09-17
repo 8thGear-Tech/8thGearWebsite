@@ -33,6 +33,7 @@ const SectionOne = () => {
         >
           Venture Studio
         </Link>
+        &
         <Link
           to="/"
           className=" mx-2"
