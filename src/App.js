@@ -25,6 +25,7 @@ import BlogPage from "./pages/Insights/blog";
 //Events
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
+import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
 import Footer from "./components/Footer";
 
@@ -102,6 +103,7 @@ function App() {
         <Route path="events" element={<EventsPage />} />
         <Route path="founders-meetup" element={<FounderMeetupPage />} />
         <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
+        <Route path="media" element={<GalleryCards />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}

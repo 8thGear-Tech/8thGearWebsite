@@ -15,6 +15,40 @@ import gallerycardsData from "../../data/gallerycards.json";
 // //AllPortfoliosLogoCard
 // //ProjectDeliveryManagedServicesCard
 
+export const AllPortfoliosLogoCard = (props) => {
+  const { logo } = props;
+  return (
+    <div>
+      <img
+        className="my-5"
+        src={logo}
+        alt="Logos"
+        style={{ maxWidth: "100%", maxHeigt: "100%" }}
+        height={70}
+      />
+    </div>
+  );
+};
+
+export const ProjectDeliveryManagedServicesCard = (props) => {
+  const { image, text, id } = props;
+  return (
+    <div
+      key={id}
+      className="col-lg-3 col-md-6 col-sm-12"
+      style={{
+        height: "400px",
+        backgroundSize: "cover",
+        backgroundImage: "url(" + image + ")",
+      }}
+    >
+      <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
+        {text}
+      </p>
+    </div>
+  );
+};
+
 // export const SingleMediaCards = (props) => {
 //   const { image, id } = props;
 //   return (
@@ -47,19 +81,6 @@ import gallerycardsData from "../../data/gallerycards.json";
 //   );
 // };
 
-// export const SingleGalleryGizCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-
 // export const AllPortfoliosLogoCard = (props) =>{
 //     const image = props.image;
 //     return(
@@ -80,40 +101,21 @@ import gallerycardsData from "../../data/gallerycards.json";
 //     )
 // };
 
-export const AllPortfoliosLogoCard = (props) => {
-  const { logo } = props;
-  return (
-    <div>
-      <img
-        className="my-5"
-        src={logo}
-        alt="Logos"
-        style={{ maxWidth: "100%", maxHeigt: "100%" }}
-        height={70}
-      />
-    </div>
-  );
-};
+//Project Delivery
 
-export const ProjectDeliveryManagedServicesCard = (props) => {
-  const { image, text, id } = props;
-  return (
-    <div
-      key={id}
-      className="col-lg-3 col-md-6 col-sm-12 "
-      style={{
-        height: "400px",
-        backgroundSize: "cover",
-        backgroundImage: "url(" + image + ")",
-      }}
-    >
-      <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
-        {text}
-      </p>
-    </div>
-  );
-};
-
+// export const SingleGalleryGizCards = (props) => {
+//   const { image, id } = props;
+//   return (
+//     <>
+//       <img
+//         className="my-4 px-6 img-fluid"
+//         style={{ width: 358.8 }}
+//         src={image}
+//         alt={id}
+//       />
+//     </>
+//   );
+// };
 // export const GalleryGizCards = () => {
 //   return (
 //     <>
@@ -132,29 +134,29 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SingleUsadfCards = (props) => {
-//   const { image, id } = props;
+// export const SingleProjectCards = (props) => {
+//   const { image, id, text } = props;
 //   return (
 //     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
+//       <div className="card" style={{ width: 250 }}>
+//         <img src={image} className="card-img-top projectCardsimg" alt="..." />
+//         <div className="card-body ">
+//           <p className="card-text">{text}</p>
+//         </div>
+//       </div>
 //     </>
 //   );
 // };
 
-// export const UsadfCards = () => {
+// export const ProjectCards = () => {
 //   return (
 //     <>
-//       <div className="row justify-content-center m-5 p-4">
-//         {galleryusadfData.galleryusadf.map((items) => {
+//       <div className="row justify-content-center m-3 p-5">
+//         {galleryprojectData.projectdelivery.map((items) => {
 //           return (
 //             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleUsadfCards {...items} />
+//               <div className="col-lg-4 col-md-4 my-3" key={items.id}>
+//                 <SingleProjectCards {...items} />
 //               </div>
 //             </>
 //           );
@@ -196,38 +198,6 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SingleLsetfvisitCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
-
-// export const LsetfvisitCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-2 p-5">
-//         {gallerylsetfvisitData.gallerylseftvisit.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleLsetfvisitCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
-
 // export const SingleLsetfCards = (props) => {
 //   const { image, id } = props;
 //   return (
@@ -251,6 +221,72 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //             <>
 //               <div className="col-md-4" key={items.id}>
 //                 <SingleLsetfCards {...items} />
+//               </div>
+//             </>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// };
+
+//Events
+
+// export const SingleUsadfCards = (props) => {
+//   const { image, id } = props;
+//   return (
+//     <>
+//       <img
+//         className="my-4 px-6 img-fluid"
+//         style={{ width: 358.8 }}
+//         src={image}
+//         alt={id}
+//       />
+//     </>
+//   );
+// };
+
+// export const UsadfCards = () => {
+//   return (
+//     <>
+//       <div className="row justify-content-center m-5 p-4">
+//         {galleryusadfData.galleryusadf.map((items) => {
+//           return (
+//             <>
+//               <div className="col-md-4" key={items.id}>
+//                 <SingleUsadfCards {...items} />
+//               </div>
+//             </>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// };
+
+// export const SingleLsetfvisitCards = (props) => {
+//   const { image, id } = props;
+//   return (
+//     <>
+//       <img
+//         className="my-4 px-6 img-fluid"
+//         style={{ width: 358.8 }}
+//         src={image}
+//         alt={id}
+//       />
+//     </>
+//   );
+// };
+
+// export const LsetfvisitCards = () => {
+//   return (
+//     <>
+//       <div className="row justify-content-center m-2 p-5">
+//         {gallerylsetfvisitData.gallerylseftvisit.map((items) => {
+//           return (
+//             <>
+//               <div className="col-md-4" key={items.id}>
+//                 <SingleLsetfvisitCards {...items} />
 //               </div>
 //             </>
 //           );
@@ -290,38 +326,6 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SingleProjectCards = (props) => {
-//   const { image, id, text } = props;
-//   return (
-//     <>
-//       <div className="card" style={{ width: 250 }}>
-//         <img src={image} className="card-img-top projectCardsimg" alt="..." />
-//         <div className="card-body ">
-//           <p className="card-text">{text}</p>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export const ProjectCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-3 p-5">
-//         {galleryprojectData.projectdelivery.map((items) => {
-//           return (
-//             <>
-//               <div className="col-lg-4 col-md-4 my-3" key={items.id}>
-//                 <SingleProjectCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
-
 // export const SingleDemodayCards = (props) => {
 //   const { image, id } = props;
 //   return (
@@ -354,37 +358,37 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SinglegalleryCards = (props) => {
-//   const { image, id, text } = props;
-//   return (
-//     <>
-//       <div className="card">
-//         <img src={image} className="card-img-top" alt="..." />
-//         <div className="card-body">
-//           <p className="card-text">{text}</p>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
+export const SinglegalleryCards = (props) => {
+  const { image, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <img src={image} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">{text}</p>
+        </div>
+      </div>
+    </>
+  );
+};
 
-// export const GalleryCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-5 p-5">
-//         {gallerycardsData.gallerycards.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4 my-4" key={items.id}>
-//                 <SinglegalleryCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
+export const GalleryCards = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-5 p-5">
+        {gallerycardsData.gallerycards.map((items) => {
+          return (
+            <>
+              <div className="col-md-4 my-4" key={items.id}>
+                <SinglegalleryCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 // export const SinglegalleryVideoCards = (props) => {
 //   const { video, id, text } = props;
