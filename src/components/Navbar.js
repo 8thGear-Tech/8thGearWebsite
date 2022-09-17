@@ -187,6 +187,18 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
+          <br />
+
+          <div>
+            <Link
+              className=" nav-link  mx-3"
+              type="button"
+              aria-expanded="false"
+              to="/events"
+            >
+              Events
+            </Link>
+          </div>
 
           <br />
           <br />

@@ -31,6 +31,7 @@ import Footer from "./components/Footer";
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import Navbar from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
@@ -100,6 +101,7 @@ function App() {
         {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />
         <Route path="founders-meetup" element={<FounderMeetupPage />} />
+        <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}
