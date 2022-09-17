@@ -83,13 +83,13 @@ import gallerycardsData from "../../data/gallerycards.json";
 export const AllPortfoliosLogoCard = (props) => {
   const { logo } = props;
   return (
-    <div className="d-flex justify-content-center">
+    <div>
       <img
         className="my-5"
         src={logo}
         alt="Logos"
-        style={{ maxWidth: "100%", maxHeigt: "40%" }}
-        height={120}
+        style={{ maxWidth: "100%", maxHeigt: "100%" }}
+        height={70}
       />
     </div>
   );
@@ -100,14 +100,14 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
   return (
     <div
       key={id}
-      className="col-lg-3 col-md-6 col-sm-12"
+      className="col-lg-3 col-md-6 col-sm-12 "
       style={{
         height: "400px",
         backgroundSize: "cover",
         backgroundImage: "url(" + image + ")",
       }}
     >
-      <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter">
+      <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
         {text}
       </p>
     </div>

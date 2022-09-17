@@ -6,7 +6,7 @@ import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
 const GrowthAsAservice = () => {
   return (
     <>
-      {/* <Navbar9 /> */}
+      <Navbar9 />
       <WhyChooseUs />
       <HowWeWork />
     </>
