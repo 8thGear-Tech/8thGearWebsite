@@ -3,7 +3,7 @@
 //EventsViewMoreBtn
 //GetYourTicketBtn
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const SuggestAnEventBtn = () => {
   return (
     <button className="SuggestAnEventBtn" type="sumbit">
@@ -29,7 +29,10 @@ export const LetUsKnowBtn = () => {
 export const EventsViewMoreBtn = () => {
   return (
     <button className="EventViewMoreBtn" type="sumbit">
-      <div className="textbutton">view more</div>
+      <Link to="/events-gallery" className="textbutton">
+        {" "}
+        <div className="textbutton">view more</div>
+      </Link>
     </button>
   );
 };

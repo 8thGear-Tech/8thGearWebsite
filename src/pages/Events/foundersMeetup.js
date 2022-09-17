@@ -1,6 +1,8 @@
+import { Navbar15 } from "../../components/Navbar";
 const FounderMeetupPage = () => {
   return (
     <>
+      <Navbar15 />
       <AboutFounderMeetup />
     </>
   );

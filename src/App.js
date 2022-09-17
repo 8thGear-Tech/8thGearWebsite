@@ -13,6 +13,13 @@ import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 
 //Project Delivery
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
+import ProjectDeliveryGalleryPage from "./pages/ProjectDelivery/projectDeliveryGallery";
+import GIZPage from "./pages/ProjectDelivery/GIZgallery";
+import S4PPage from "./pages/ProjectDelivery/S4Pgallery";
+import LSETFPage from "./pages/ProjectDelivery/lsetfGallery";
+import FUTAPage from "./pages/ProjectDelivery/FUTAgallery";
+import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
+import USADFGalleryPage from "./pages/Events/usadfGallery";
 
 //Managed Services
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -24,8 +31,12 @@ import BlogPage from "./pages/Insights/blog";
 
 //Events
 import EventsPage from "./pages/Events/events";
+import EventsGalleryPage from "./pages/Events/eventsGallery";
+import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
-import { GalleryCards } from "./components/AllCards/MediaCards";
+import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
+import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
+// import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
 import Footer from "./components/Footer";
 
@@ -44,7 +55,7 @@ import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 
 // import Constructionpage from "./pages/constructionpage";
-// import Events from "../src/pages/Events/events";
+
 // import Constructionpage from "./pages/constructionpage";
 // import AnimationVideoHero from "./components/Hero/VideoHero";
 // import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
@@ -91,6 +102,14 @@ function App() {
         <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
         <Route path="haven" element={<HavenPortfolioPage />} />
         <Route path="project-delivery" element={<ProjectDeliveryPage />} />
+        <Route
+          path="project-delivery-gallery"
+          element={<ProjectDeliveryGalleryPage />}
+        />
+        <Route path="GIZ-gallery" element={<GIZPage />} />
+        <Route path="S4P-gallery" element={<S4PPage />} />
+        <Route path="LSETF-gallery" element={<LSETFPage />} />
+        <Route path="FUTA-gallery" element={<FUTAPage />} />
         <Route path="managed-services" element={<ManagedServicesPage />} />
         {/* <Route
           path="digitalmarketing"
@@ -101,9 +120,18 @@ function App() {
         <Route path="blog" element={<BlogPage />} />
         {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />
+        <Route path="events-gallery" element={<EventsGalleryPage />} />
+        <Route path="demo-day" element={<DemoDayPage />} />
         <Route path="founders-meetup" element={<FounderMeetupPage />} />
+        <Route
+          path="founders-meetup-gallery"
+          element={<FoundersMeetupGalleryPage />}
+        />
+        <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+        <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
+        <Route path="USADF-gallery" element={<USADFGalleryPage />} />
         <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
-        <Route path="media" element={<GalleryCards />} />
+        {/* <Route path="media" element={<GalleryCards />} /> */}
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}

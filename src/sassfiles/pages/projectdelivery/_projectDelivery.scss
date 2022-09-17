@@ -9,3 +9,6 @@
 .ourImpactCardBg {
   @include OurImpactCardBg();
 }
+.successStoryBg {
+  background-color: $lightgreenbg;
+}

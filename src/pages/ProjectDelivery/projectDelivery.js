@@ -3,6 +3,9 @@ import React from "react";
 import { OurImpact } from "../../components/Tractions";
 import { Navbar3 } from "../../components/Navbar";
 import { RequestForProposalBtn } from "../../components/Buttons/ProjectDeliveryBtn";
+import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
+import successStoryGalleryCard from "../../data/gallerycards.json";
+import { ProjectDeliveryViewMoreBtn } from "../../components/Buttons/ProjectDeliveryBtn";
 // import ProjectDeliveryPageHero from "../../components/Hero/ImageandTextHero";
 
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
@@ -17,6 +20,7 @@ const ProjectDeliveryPage = () => {
       {/* <ProjectDeliveryPageHero /> */}
       <Competencies />
       <OurImpact />
+      <SuccessStoryCards />
     </>
   );
 };
@@ -53,4 +57,29 @@ const Competencies = () => {
     </div>
   );
 };
+const SuccessStoryCards = () => {
+  return (
+    <>
+      <div className="container-fluid successStoryBg">
+        {" "}
+        <div className="row justify-content-center m-5 p-5 ">
+          <h4 className="text-center">SUCCESS STORY</h4>
+          {successStoryGalleryCard.successStory.map((items) => {
+            return (
+              <>
+                <div className="col-md-4 my-4" key={items.id}>
+                  <SinglegalleryCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
+        <div className="d-flex justify-content-center">
+          <ProjectDeliveryViewMoreBtn />
+        </div>
+      </div>
+    </>
+  );
+};
+
 export default ProjectDeliveryPage;

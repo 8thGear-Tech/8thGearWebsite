@@ -1,25 +1,25 @@
-import galleryData from "../../data/galleryusadf.json";
-import { SingleUsadfCards } from "../../components/AllCards/MediaCards";
+import galleryData from "../../data/gallerylsetfvisit.json";
+import { SingleLsetfvisitCards } from "../../components/AllCards/MediaCards";
 import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
 
-const USADFGalleryPage = () => {
+const LSETFGalleryPage = () => {
   return (
     <>
       <Navbar17 />
-      <USADFPictureCards />
-      <USADFVideoCards />
+      <LSETFPictureCards />
+      <LSETFVideoCards />
     </>
   );
 };
-const USADFPictureCards = () => {
+const LSETFPictureCards = () => {
   return (
     <div className="row justify-content-center m-5 p-4">
-      {galleryData.galleryusadf.map((items) => {
+      {galleryData.gallerylseftvisit.map((items) => {
         return (
           <>
             <div className="col-md-4" key={items.id}>
-              <SingleUsadfCards {...items} />
+              <SingleLsetfvisitCards {...items} />
             </div>
           </>
         );
@@ -28,11 +28,11 @@ const USADFPictureCards = () => {
   );
 };
 
-const USADFVideoCards = () => {
+const LSETFVideoCards = () => {
   return (
     <>
       <div className="container-fluid row justify-content-center p-5 m-6">
-        {galleryData.UsadfVideo.map((items) => {
+        {galleryData.Lsetfvisit.map((items) => {
           return (
             <>
               <div className="col-md-4" key={items.id}>
@@ -46,4 +46,4 @@ const USADFVideoCards = () => {
   );
 };
 
-export default USADFGalleryPage;
+export default LSETFGalleryPage;

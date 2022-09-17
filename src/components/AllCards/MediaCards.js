@@ -103,37 +103,19 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 
 //Project Delivery
 
-// export const SingleGalleryGizCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
-// export const GalleryGizCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-5">
-//         {gallerypictures.galleryGIZ.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleGalleryGizCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
-
+export const SingleGalleryGizCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 // export const SingleProjectCards = (props) => {
 //   const { image, id, text } = props;
 //   return (
@@ -166,85 +148,63 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SingleFutaCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
+export const SingleFUTACards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
-// export const FutaCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-4 p-5">
-//         {galleryfutaData.galleryfuta.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleFutaCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
+export const SingleS4PCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
-// export const SingleLsetfCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
-
-// export const LsetfCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-5">
-//         {gallerylsetfData.gallerylseft.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleLsetfCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
+export const SingleLsetfCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
 //Events
 
-// export const SingleUsadfCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
+export const SingleUsadfCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
 // export const UsadfCards = () => {
 //   return (
@@ -264,99 +224,47 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
 //   );
 // };
 
-// export const SingleLsetfvisitCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
+export const SingleLsetfvisitCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
-// export const LsetfvisitCards = () => {
-//   return (
-//     <>
-//       <div className="row justify-content-center m-2 p-5">
-//         {gallerylsetfvisitData.gallerylseftvisit.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleLsetfvisitCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
+export const SingleGalleryFounderCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
-// export const SingleGalleryFounderCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-4 px-6 img-fluid"
-//         style={{ width: 358.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
-
-// export const FounderCards = () => {
-//   return (
-//     <div className="row justify-content-center m-5 p-4">
-//       {galleryfounderData.galleryFoundermeetup.map((items) => {
-//         return (
-//           <>
-//             <div className="col-md-4" key={items.id}>
-//               <SingleGalleryFounderCards {...items} />
-//             </div>
-//           </>
-//         );
-//       })}
-//     </div>
-//   );
-// };
-
-// export const SingleDemodayCards = (props) => {
-//   const { image, id } = props;
-//   return (
-//     <>
-//       <img
-//         className="my-3 px-5 img-fluid"
-//         style={{ width: 368.8 }}
-//         src={image}
-//         alt={id}
-//       />
-//     </>
-//   );
-// };
-
-// export const DemodayCards = () => {
-//   return (
-//     <>
-//       <div className="container-fluid row justify-content-center p-5 m-6">
-//         {gallerydemodayData.gallerydemoday.map((items) => {
-//           return (
-//             <>
-//               <div className="col-md-4" key={items.id}>
-//                 <SingleDemodayCards {...items} />
-//               </div>
-//             </>
-//           );
-//         })}
-//       </div>
-//     </>
-//   );
-// };
+export const SingleDemodayCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-3 px-5 img-fluid"
+        style={{ width: 368.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
 
 export const SinglegalleryCards = (props) => {
   const { image, id, text } = props;
@@ -372,37 +280,37 @@ export const SinglegalleryCards = (props) => {
   );
 };
 
-export const GalleryCards = () => {
-  return (
-    <>
-      <div className="row justify-content-center m-5 p-5">
-        {gallerycardsData.gallerycards.map((items) => {
-          return (
-            <>
-              <div className="col-md-4 my-4" key={items.id}>
-                <SinglegalleryCards {...items} />
-              </div>
-            </>
-          );
-        })}
-      </div>
-    </>
-  );
-};
-
-// export const SinglegalleryVideoCards = (props) => {
-//   const { video, id, text } = props;
+// export const GalleryCards = () => {
 //   return (
 //     <>
-//       <div className="card">
-//         <iframe src={video} className="card-img-top" alt="..." />
-//         <div className="card-body">
-//           <p className="card-text">{text}</p>
-//         </div>
+//       <div className="row justify-content-center m-5 p-5">
+//         {gallerycardsData.gallerycards.map((items) => {
+//           return (
+//             <>
+//               <div className="col-md-4 my-4" key={items.id}>
+//                 <SinglegalleryCards {...items} />
+//               </div>
+//             </>
+//           );
+//         })}
 //       </div>
 //     </>
 //   );
 // };
+
+export const SinglegalleryVideoCards = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe src={video} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">{text}</p>
+        </div>
+      </div>
+    </>
+  );
+};
 
 // export const GalleryVideoCards = () => {
 //   return (
@@ -421,3 +329,14 @@ export const GalleryCards = () => {
 //     </>
 //   );
 // };
+
+export const SinglegalleryVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe src={video} className="card-img-top" alt="..." />
+      </div>
+    </>
+  );
+};

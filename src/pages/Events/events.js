@@ -15,12 +15,17 @@ import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.png";
 import { Navbar14 } from "../../components/Navbar";
+import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
+import eventsGallery from "../../data/gallerycards.json";
+import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
+
 const EventsPage = () => {
   return (
     <>
       <Navbar14 />
       <Events />
       <SuggestAnEvent />
+      <EventsGallery />
     </>
   );
 };
@@ -98,6 +103,30 @@ const SuggestAnEvent = () => {
   );
 };
 
+const EventsGallery = () => {
+  return (
+    <>
+      <div className="container-fluid successStoryBg">
+        {" "}
+        <div className="row justify-content-center m-5 p-5 ">
+          <h4 className="text-center">Gallery</h4>
+          {eventsGallery.eventsGallerySection.map((items) => {
+            return (
+              <>
+                <div className="col-md-4 my-4" key={items.id}>
+                  <SinglegalleryCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
+        <div className="d-flex justify-content-center">
+          <EventsViewMoreBtn />
+        </div>
+      </div>
+    </>
+  );
+};
 // const Events = () => {
 //   return (
 //     <>
