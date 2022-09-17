@@ -38,18 +38,22 @@
       "id": 9,
       "image": "./images/galleryusadf/usadf9.jpg"
     },
-    {
-      "id": 10,
-      "image": "./images/galleryusadf/usadf9.jpg"
-    },
-    {
-      "id": 11,
-      "image": "./images/galleryusadf/usadf9.jpg"
-    },
 
     {
-      "id": 12,
+      "id": 10,
       "image": "./images/galleryusadf/usadf10.jpg"
+    }
+  ],
+  "UsadfVideo": [
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
+    },
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
     }
   ]
 }

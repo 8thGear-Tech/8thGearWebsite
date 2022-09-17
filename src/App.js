@@ -16,6 +16,15 @@ import { ProjectCards } from "./components/AllCards/MediaCards";
 import { DemodayCards } from "./components/AllCards/MediaCards";
 import { GalleryCards } from "./components/AllCards/MediaCards";
 import { GalleryVideoCards } from "./components/AllCards/MediaCards";
+import { VideoCards } from "./components/AllCards/MediaCards";
+import { FutaVideo } from "./components/AllCards/MediaCards";
+import { VideoLsetf } from "./components/AllCards/MediaCards";
+import { VideoLsetfvisit } from "./components/AllCards/MediaCards";
+import { DemoVideo } from "./components/AllCards/MediaCards";
+import { UsadfVideo } from "./components/AllCards/MediaCards";
+import { S4pVideo } from "./components/AllCards/MediaCards";
+import { ProjectVideo } from "./components/AllCards/MediaCards";
+import { GIZVideo } from "./components/AllCards/MediaCards";
 
 function App() {
   return (
@@ -25,17 +34,26 @@ function App() {
       {/* <InstagramBtn /> */}
       {/* <LinkedInBtn /> */}
       {/* <ShareBtn /> */}
-      {/* <MediaCards /> */}
+      <MediaCards />
+      <S4pVideo />
       {/* <GalleryGizCards /> */}
+      {/* <GIZVideo /> */}
       {/* <UsadfCards /> */}
+      {/* <UsadfVideo /> */}
       {/* <FutaCards /> */}
+      {/* <FutaVideo /> */}
       {/* <LsetfvisitCards /> */}
+      {/* <VideoLsetfvisit /> */}
       {/* <LsetfCards /> */}
+      {/* <VideoLsetf /> */}
       {/* <FounderCards /> */}
+      {/* <VideoCards /> */}
       {/* <ProjectCards /> */}
+      {/* <ProjectVideo /> */}
       {/* <DemodayCards /> */}
-      <GalleryCards />
-      <GalleryVideoCards />
+      {/* <DemoVideo /> */}
+      {/* <GalleryCards /> */}
+      {/* <GalleryVideoCards /> */}
     </BrowserRouter>
   );
 }

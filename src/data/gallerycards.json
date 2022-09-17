@@ -2,81 +2,80 @@
   "gallerycards": [
     {
       "id": 1,
-      "image": "./images/gallerycards/gallerycard1.jpg",
-      "text": "photo session from founders meetup program"
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from founders program"
     },
     {
       "id": 2,
-      "image": "./images/gallerycards/gallerycard2.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from demoday"
     },
     {
       "id": 3,
-      "image": "./images/gallerycards/gallerycard3.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from futa"
     },
     {
       "id": 4,
-      "image": "./images/gallerycards/gallerycard4.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from GIZ"
     },
     {
       "id": 5,
-      "image": "./images/gallerycards/gallerycard2.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from LSETFVisit"
     },
     {
       "id": 6,
-      "image": "./images/gallerycards/gallerycard1.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from LSETF"
     },
     {
       "id": 7,
-      "image": "./images/gallerycards/gallerycard7.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from S4P"
     },
     {
       "id": 8,
-      "image": "./images/gallerycards/gallerycard8.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from USADF"
     },
     {
       "id": 9,
-      "image": "./images/gallerycards/gallerycard9.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from Projectdelivery"
     },
     {
       "id": 10,
-      "image": "./images/gallerycards/gallerycard10.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from meeting"
     },
     {
       "id": 11,
-      "image": "./images/gallerycards/gallerycard11.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from meetup "
     },
     {
       "id": 12,
-      "image": "./images/gallerycards/gallerycard12.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from founders meetup program"
     },
     {
       "id": 13,
-      "image": "./images/gallerycards/gallerycard13.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from founders meetup program"
     },
     {
       "id": 14,
-      "image": "./images/gallerycards/gallerycard14.jpg",
+      "image": "./images/gallerycards/gallery1.jpg",
       "text": "photo session from founders meetup program"
     },
     {
       "id": 18,
-      "image": "./images/gallerycards/gallerycard18.jpg",
+      "image": "./images/gallerycards/gallery2.jpg",
       "text": "photo session from founders meetup program"
     }
   ],
-
   "galleryvideocards": [
     {
       "id": 15,

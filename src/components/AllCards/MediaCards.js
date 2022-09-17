@@ -10,6 +10,15 @@ import galleryfounderData from "../../data/galleryFoundermeetup.json";
 import galleryprojectData from "../../data/projectdelivery.json";
 import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
+import data from "../../data/galleryFoundermeetup.json";
+import futaData from "../../data/galleryfuta.json";
+import LsetfVideo from "../../data/gallerylsetf.json";
+import LsetfvisitVideo from "../../data/gallerylsetfvisit.json";
+import Demodata from "../../data/gallerydemoday.json";
+import UsadfData from "../../data/galleryusadf.json";
+import S4pData from "../../data/galleryS4P.json";
+import Projectdata from "../../data/projectdelivery.json";
+import GIZData from "../../data/galleryGIZ.json";
 
 export const SingleMediaCards = (props) => {
   const { image, id } = props;
@@ -34,6 +43,43 @@ export const MediaCards = () => {
             <>
               <div className="col-md-4" key={items.id}>
                 <SingleMediaCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export const SingleS4PVideo = (props) => {
+  const { video, id } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="350"
+          height="200"
+          src={video}
+          title="Youtube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="card-body"></div>
+      </div>
+    </>
+  );
+};
+export const S4pVideo = () => {
+  return (
+    <>
+      <div className="row justify-content m-4 p-4">
+        {S4pData.S4pVideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items}>
+                <SingleS4PVideo {...items} />
               </div>
             </>
           );
@@ -75,6 +121,45 @@ export const GalleryGizCards = () => {
   );
 };
 
+export const SingleGizVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="Youtube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const GIZVideo = () => {
+  return (
+    <>
+      <div className="row justify-content m-4 p-4">
+        {GIZData.GIZVideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items}>
+                <SingleGizVideo {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
 export const SingleUsadfCards = (props) => {
   const { image, id } = props;
   return (
@@ -98,6 +183,45 @@ export const UsadfCards = () => {
             <>
               <div className="col-md-4" key={items.id}>
                 <SingleUsadfCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export const SingleUsadfVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="Youtube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const UsadfVideo = () => {
+  return (
+    <>
+      <div className="row justify-content m-4 p-4">
+        {UsadfData.UsadfVideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items}>
+                <SingleUsadfVideo {...items} />
               </div>
             </>
           );
@@ -139,6 +263,45 @@ export const FutaCards = () => {
   );
 };
 
+export const SingleFutaVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="Youtube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const FutaVideo = () => {
+  return (
+    <>
+      <div className="row justify-content m-4 p-4">
+        {futaData.futaVideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items}>
+                <SingleFutaVideo {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
 export const SingleLsetfvisitCards = (props) => {
   const { image, id } = props;
   return (
@@ -162,6 +325,44 @@ export const LsetfvisitCards = () => {
             <>
               <div className="col-md-4" key={items.id}>
                 <SingleLsetfvisitCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+export const SingleVideoLsetfvisit = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const VideoLsetfvisit = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-4 p-4 ">
+        {LsetfvisitVideo.Lsetfvisit.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items.id}>
+                <SingleVideoLsetfvisit {...items} />
               </div>
             </>
           );
@@ -202,6 +403,44 @@ export const LsetfCards = () => {
     </>
   );
 };
+export const SingleVideoLsetf = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const VideoLsetf = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-4 p-4 ">
+        {LsetfVideo.galleryvideocards.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items.id}>
+                <SingleVideoLsetf {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 export const SingleGalleryFounderCards = (props) => {
   const { image, id } = props;
@@ -233,7 +472,46 @@ export const FounderCards = () => {
   );
 };
 
-export const SingleProjectCards = (props) => {
+export const SingleVideoCards = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="315"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+export const VideoCards = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-4 p-4 ">
+        {data.galleryvideocards.map((items) => {
+          return (
+            <>
+              <div className="col-md-4" key={items.id}>
+                <SingleVideoCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+const SingleProjectCards = (props) => {
   const { image, id, text } = props;
   return (
     <>
@@ -246,6 +524,7 @@ export const SingleProjectCards = (props) => {
     </>
   );
 };
+export default SingleProjectCards;
 
 export const ProjectCards = () => {
   return (
@@ -256,6 +535,46 @@ export const ProjectCards = () => {
             <>
               <div className="col-lg-4 col-md-4 my-3" key={items.id}>
                 <SingleProjectCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export const SingleProjectVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="200"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const ProjectVideo = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-4 p-4">
+        {Projectdata.ProjectVideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4 my-3" key={items.id}>
+                <SingleProjectVideo {...items} />
               </div>
             </>
           );
@@ -288,6 +607,46 @@ export const DemodayCards = () => {
             <>
               <div className="col-md-4" key={items.id}>
                 <SingleDemodayCards {...items} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export const SingleDemoVideo = (props) => {
+  const { video, id, text } = props;
+  return (
+    <>
+      <div className="card">
+        <iframe
+          width="560"
+          height="200"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div className="card-body">
+          <p className="card-text">{text} </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const DemoVideo = () => {
+  return (
+    <>
+      <div className="row justify-content-center m-4 p-4">
+        {Demodata.Demovideo.map((items) => {
+          return (
+            <>
+              <div className="col-md-4 my-3" key={items.id}>
+                <SingleDemoVideo {...items} />
               </div>
             </>
           );
@@ -334,9 +693,17 @@ export const SinglegalleryVideoCards = (props) => {
   return (
     <>
       <div className="card">
-        <iframe src={video} className="card-img-top" alt="..." />
+        <iframe
+          width="560"
+          height="200"
+          src={video}
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
         <div className="card-body">
-          <p className="card-text">{text}</p>
+          <p className="card-text">{text} </p>
         </div>
       </div>
     </>
@@ -346,11 +713,11 @@ export const SinglegalleryVideoCards = (props) => {
 export const GalleryVideoCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-3 p-4">
+      <div className="row justify-content-center m-4 p-4">
         {gallerycardsData.galleryvideocards.map((items) => {
           return (
             <>
-              <div className="col-md-4 my-6" key={items.id}>
+              <div className="col-md-4 my-3" key={items.id}>
                 <SinglegalleryVideoCards {...items} />
               </div>
             </>
