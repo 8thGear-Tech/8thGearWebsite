@@ -15,7 +15,7 @@ const ProjectDeliveryPage = () => {
     <>
       <Navbar3 />
       {/* <ProjectDeliveryPageHero /> */}
-      <Competencies />
+      {/* <Competencies /> */}
       <OurImpact />
     </>
   );
@@ -34,20 +34,20 @@ const ProjectDeliveryPage = () => {
 //     </div>
 //   );
 // };
-const Competencies = () => {
-  return (
-    <div className="container-fluid">
-      <div className="row">
-        {Data.ManagedServicesImages.map((ManagedServicesImage) => {
-          return (
-            <ProjectDeliveryManagedServicesCard {...ManagedServicesImage} />
-          );
-        })}
-      </div>
-      <div className="py-5 d-flex justify-content-center">
-        <RequestForProposalBtn />
-      </div>
-    </div>
-  );
-};
+// const Competencies = () => {
+//   return (
+//     <div className="container-fluid">
+//       <div className="row">
+//         {Data.ManagedServicesImages.map((ManagedServicesImage) => {
+//           return (
+//             <ProjectDeliveryManagedServicesCard {...ManagedServicesImage} />
+//           );
+//         })}
+//       </div>
+//       <div className="py-5 d-flex justify-content-center">
+//         <RequestForProposalBtn />
+//       </div>
+//     </div>
+//   );
+// };
 export default ProjectDeliveryPage;

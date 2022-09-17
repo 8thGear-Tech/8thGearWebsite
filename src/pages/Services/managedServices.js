@@ -8,7 +8,7 @@ const ManagedServicesPage = () => {
   return (
     <>
       <Navbar4 />
-      <Services />
+      {/* <Services /> */}
       <HowItWorks />
     </>
   );
@@ -57,18 +57,18 @@ const HowItWorks = () => {
   );
 };
 
-const Services = () => {
-  return (
-    <div className="container-fluid text-center  pt-5">
-      <div className="row">
-        <h3 className="mb-5">Services</h3>
-        {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
-          return (
-            <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
-          );
-        })}
-      </div>
-    </div>
-  );
-};
+// const Services = () => {
+//   return (
+//     <div className="container-fluid text-center  pt-5">
+//       <div className="row">
+//         <h3 className="mb-5">Services</h3>
+//         {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
+//           return (
+//             <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
 export default ManagedServicesPage;

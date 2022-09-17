@@ -86,7 +86,7 @@ const NavBar = (props) => {
               </li>
               <li>
                 <Link className="dropdown-item" to="/portfolios">
-                  Portfolios
+                  Portfolio
                 </Link>
               </li>
             </ul>
@@ -236,7 +236,7 @@ const NavBar = (props) => {
   );
 };
 
-export const Navbar = () => {
+export const Navbar0 = () => {
   return (
     <div className="container-fluid">
       <div className="row">
