@@ -3,17 +3,23 @@
     {
       "id": 1,
       "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
-    },
+    }
+  ],
+  "ourTeam": [
     {
-      "id": 2,
+      "id": 1,
       "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum fuga facilis optio officiis obcaecati reiciendis, vitae distinctio voluptates nostrum ut"
-    },
+    }
+  ],
+  "founderMeetup": [
     {
-      "id": 3,
+      "id": 1,
       "text": "Join us today by 3pm - Fireside Chat & Startup Corner for founder meetup"
-    },
+    }
+  ],
+  "demoDay": [
     {
-      "id": 4,
+      "id": 1,
       "text": "Join us today by 3pm - Fireside Chat & Startup Corner for demo day"
     }
   ]

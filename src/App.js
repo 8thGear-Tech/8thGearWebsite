@@ -1,11 +1,16 @@
 import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
+// import Home from "./pages/home";
 // import Constructionpage from "./pages/constructionpage";
-// import AnimationVideoHero from "./components/Hero/VideoHero";
+import { AnimationVideoHero } from "./components/Hero/VideoHero";
+import { AboutPageHero } from "./components/Hero/VideoHero";
 // import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
-// import { Servicehero } from "./components/Hero/BGColorandTextHero";
+import { ManageServicesDigitalMarketingHero } from "./components/Hero/ImageandTextHero";
+import { ManagedServicesHero } from "./components/Hero/BGColorandTextHero";
 import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
+// import { FounderMeetup } from "./components/Hero/BGColorandTextHero";
+// import { Demoday } from "./components/Hero/BGColorandTextHero";
+import { OurTeam } from "./components/Hero/BGColorandTextHero";
 // import { useCountdown } from "./components/AllCards/UseCountdown";
 // import Teamcard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
@@ -15,8 +20,13 @@ import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
 function App() {
   return (
     <div>
-      <PortfolioHero />
-      {/* <Servicehero /> */}
+      <ManageServicesDigitalMarketingHero />
+      {/* <PortfolioHero /> */}
+      {/* <AboutPageHero /> */}
+      {/* <FounderMeetup /> */}
+      {/* <Demoday /> */}
+      {/* <OurTeam /> */}
+      {/* <ManagedServicesHero /> */}
       {/* <AnimationVideoHero /> */}
       {/* <JoinTheTeamForm /> */}
       <BrowserRouter>

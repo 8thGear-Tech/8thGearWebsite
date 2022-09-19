@@ -116,4 +116,4 @@ const SectionTwo = () => {
   );
 };
 
-// export default Home;
+export default Home;
