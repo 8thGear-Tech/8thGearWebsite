@@ -217,4 +217,9 @@ p {
 
 .Text {
   line-height: 1px;
+}
+
+.background {
+  background-image: url(https://www.viewsonic.com/library/wp-content/uploads/2019/04/Small-Conference-Room-Called-Huddle-Space-6-c.jpg) !important;
+  height: 700px;
 }/*# sourceMappingURL=styles.css.map */

@@ -14,8 +14,7 @@ const TeamCard = (props) => {
         <img src={image} class="card-img-top Teampic " alt="Teamimage" />
         <div class="card-body teamcardbody">
           <figure class="text-center">
-            <p className="Text mb-3">{name}</p>
-
+            <p className="mb-3 Text">{name}</p>
             <figcaption class="card-text mt-1">{title}</figcaption>
           </figure>
           <a href="#" class="nav-link active link">
@@ -47,7 +46,7 @@ export const Gerians = () => {
         {data.teamcard.map((card) => {
           return (
             <div
-              className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center d-flex align-items-center"
+              className="col-sm-12 col-md-4 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-self-md-stretch"
               key={card.id}
             >
               <TeamCard {...card}></TeamCard>

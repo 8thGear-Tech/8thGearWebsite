@@ -3,10 +3,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import TeamsPage from "./pages/TeamPage";
 import Events from "./pages/events";
-// import Constructionpage from "./pages/constructionpage";
-// import { useCountdown } from "./components/AllCards/UseCountdown";
-// import TeamCard from "./components/AllCards/TeamCard";
-// import { TeamCard } from "./components/AllCards/TeamCard";
+import Constructionpage from "./pages/constructionpage";
+import CoWorking from "./pages/coWorking";
 
 function App() {
   return (
@@ -16,11 +14,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="teampage" element={<TeamsPage />} />
         <Route path="events" element={<Events />} />
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-
-        {/* <UnderconstructionNavbar /> */}
+        <Route path="constructionpage" element={<Constructionpage />} />
+        <Route path="coworking" element={<CoWorking />} />
       </Routes>
-      {/* <TeamCard /> */}
     </BrowserRouter>
   );
 }

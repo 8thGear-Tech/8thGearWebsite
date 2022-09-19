@@ -7,6 +7,7 @@ const Home = () => {
         8thGear<Link to="constructionpage"> Project</Link>
         8thGear<Link to="teampage"> Project</Link>
         8thGear<Link to="events"> Project</Link>
+        8thGear<Link to="coworking"> Coworking</Link>
       </h1>
     </div>
   );
