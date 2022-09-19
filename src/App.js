@@ -19,13 +19,14 @@ import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
 import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
 import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
 import { JoinTheStudioForm } from "../src/components/Forms";
+import { OnHoverCard } from "../src/components/AllCards/TriggeredCards";
 
 function App() {
   return (
     <BrowserRouter>
       {/* <h1>Welcome to React Router!</h1> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
         <Route path="managedservices" element={<ManagedServicesPage />} />
         <Route path="ourmodel" element={<OurModelPage />} />
@@ -46,6 +47,7 @@ function App() {
         />
         <Route path="JoinTheStudioForm" element={<JoinTheStudioForm />} />
       </Routes>
+      <OnHoverCard />
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
     </BrowserRouter>

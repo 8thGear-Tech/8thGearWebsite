@@ -1,6 +1,7 @@
 //ProjectDeliveryManagedServicesOnHoverCard
 import hoverData from "../../data/triggeredCards.json";
-export const SingleOnhoverCard = (props) => {
+import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
+const SingleOnhoverCard = (props) => {
   const { id, text } = props;
 
   return (
@@ -66,6 +67,7 @@ export const OnHoverCard = () => {
 </div>; */
 }
 //ProjectDeliveryPopUpCard
+
 //8thgeariansPopUpCard
 //EIRDataPopUpCard
 //AdvisoryBoardOnHoverCard

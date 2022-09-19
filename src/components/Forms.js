@@ -49,7 +49,7 @@ export const JoinTheStudioForm = () => {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-sm">
+        <div class="modal-dialog modal-md">
           <div class="modal-content">
             <div class="modal-header m-2">
               <img
