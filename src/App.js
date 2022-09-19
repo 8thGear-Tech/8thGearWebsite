@@ -57,7 +57,8 @@ import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import Constructionpage from "./pages/constructionpage";
 
 // import Constructionpage from "./pages/constructionpage";
-// import AnimationVideoHero from "./components/Hero/VideoHero";
+import { AnimationVideoHero } from "./components/Hero/VideoHero";
+import { AboutPageHero } from "./components/Hero/VideoHero";
 // import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
 // import { Servicehero } from "./components/Hero/BGColorandTextHero";
 // import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
