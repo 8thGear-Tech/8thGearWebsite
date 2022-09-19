@@ -1,13 +1,11 @@
 import * as React from "react";
-import { Component } from "react";
+// import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
-<<<<<<< HEAD
-import TeamsPage from "./pages/TeamPage";
-import Events from "./pages/events";
+// import TeamsPage from "./pages/WhoWeAre/TeamPage";
+// import Events from "./pages/Events/events";
 import Constructionpage from "./pages/constructionpage";
 import CoWorking from "./pages/coWorking";
-=======
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -44,11 +42,11 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
-import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
-import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+// import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+// import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
+// import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import Navbar from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
@@ -95,91 +93,87 @@ import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import { DemodayCards } from "./components/AllCards/MediaCards";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import { GalleryVideoCards } from "./components/AllCards/MediaCards";
->>>>>>> e124369327fd721790b1f472bcd6b5ff3672d53a
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-<<<<<<< HEAD
-        <Route path="teampage" element={<TeamsPage />} />
-        <Route path="events" element={<Events />} />
+        {/* <Route path="teampage" element={<TeamsPage />} /> */}
+        {/* <Route path="events" element={<Events />} /> */}
         <Route path="constructionpage" element={<Constructionpage />} />
         <Route path="coworking" element={<CoWorking />} />
       </Routes>
-=======
-        <Route path="our-model" element={<OurModelPage />} />
-        <Route path="portfolio" element={<PortfolioPage />} />
-        <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
-        <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
-        <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
-        <Route path="haven" element={<HavenPortfolioPage />} />
-        <Route path="project-delivery" element={<ProjectDeliveryPage />} />
-        <Route
-          path="project-delivery-gallery"
-          element={<ProjectDeliveryGalleryPage />}
-        />
-        <Route path="GIZ-gallery" element={<GIZPage />} />
-        <Route path="S4P-gallery" element={<S4PPage />} />
-        <Route path="LSETF-gallery" element={<LSETFPage />} />
-        <Route path="FUTA-gallery" element={<FUTAPage />} />
-        <Route path="managed-services" element={<ManagedServicesPage />} />
-        {/* <Route
+      <Route path="our-model" element={<OurModelPage />} />
+      <Route path="portfolio" element={<PortfolioPage />} />
+      <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
+      <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
+      <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
+      <Route path="haven" element={<HavenPortfolioPage />} />
+      <Route path="project-delivery" element={<ProjectDeliveryPage />} />
+      <Route
+        path="project-delivery-gallery"
+        element={<ProjectDeliveryGalleryPage />}
+      />
+      <Route path="GIZ-gallery" element={<GIZPage />} />
+      <Route path="S4P-gallery" element={<S4PPage />} />
+      <Route path="LSETF-gallery" element={<LSETFPage />} />
+      <Route path="FUTA-gallery" element={<FUTAPage />} />
+      <Route path="managed-services" element={<ManagedServicesPage />} />
+      {/* <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
         /> */}
-        <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        <Route path="team" element={<TeamPage />} />
-        <Route path="blog" element={<BlogPage />} />
-        {/* <Route path="faq" element={<FAQ />} /> */}
-        <Route path="events" element={<EventsPage />} />
-        <Route path="events-gallery" element={<EventsGalleryPage />} />
-        <Route path="demo-day" element={<DemoDayPage />} />
-        <Route path="founders-meetup" element={<FounderMeetupPage />} />
-        <Route
-          path="founders-meetup-gallery"
-          element={<FoundersMeetupGalleryPage />}
-        />
-        <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
-        <Route path="USADF-gallery" element={<USADFGalleryPage />} />
-        <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
-        {/* <Route path="media" element={<GalleryCards />} /> */}
+      <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+      <Route path="team" element={<TeamPage />} />
+      <Route path="blog" element={<BlogPage />} />
+      {/* <Route path="faq" element={<FAQ />} /> */}
+      <Route path="events" element={<EventsPage />} />
+      <Route path="events-gallery" element={<EventsGalleryPage />} />
+      <Route path="demo-day" element={<DemoDayPage />} />
+      <Route path="founders-meetup" element={<FounderMeetupPage />} />
+      <Route
+        path="founders-meetup-gallery"
+        element={<FoundersMeetupGalleryPage />}
+      />
+      <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+      <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
+      <Route path="USADF-gallery" element={<USADFGalleryPage />} />
+      <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
+      {/* <Route path="media" element={<GalleryCards />} /> */}
 
-        {/* <Route path="constructionpage" element={<Constructionpage />} />
-         */}
+      {/* <Route path="constructionpage" element={<Constructionpage />} />
+       */}
 
-        {/* <Route path="events" element={<Events />} /> */}
+      {/* <Route path="events" element={<Events />} /> */}
 
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-        {/* <Route path="button1" element={<BookNowBtn />} />
+      {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
+      {/* <Route path="button1" element={<BookNowBtn />} />
         <Route path="button3" element={<BookaFreeSessionBtn />} />
         <Route path="button4" element={<OnHoverReadMoreBtn />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
+      {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
         <Route
           path="button6"
           element={<ProjectDeliveryManagedServicesCard />}
         /> */}
-        {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
-        {/* <Route path="button6" element={<PortfolioPage />} /> */}
-        {/* <Route
+      {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
+      {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
+      {/* <Route path="button6" element={<PortfolioPage />} /> */}
+      {/* <Route
           path="button7"
           element={<ProjectDeliveryManagedServicesCard />}
         /> */}
-        {/* <Route path="button8" element={<ManagedServicesPage />} />
+      {/* <Route path="button8" element={<ManagedServicesPage />} />
         <Route path="button9" element={<ProjectDeliveryPage />} /> */}
-        {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
+      {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
 
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-      </Routes>
+      {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
+      {/* </Routes> */}
       {/* <UnderconstructionNavbar /> */}
 
       {/* <footer>
         <Footer />
       </footer> */}
->>>>>>> e124369327fd721790b1f472bcd6b5ff3672d53a
     </BrowserRouter>
   );
 }

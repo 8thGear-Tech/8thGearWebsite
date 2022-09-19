@@ -1,7 +1,7 @@
 // import * as React from "react";
+// import { TeamCard } from "../../components/AllCards/TeamCard";
 // import TeamsCard from "../components/AllCards/TeamCard";
 import data from "../../data/8thGerains.json";
-import { TeamCard } from "../../components/AllCards/TeamCard";
 import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
 import { Navbar11 } from "../../components/Navbar";
 import { Gerians } from "../../components/AllCards/TeamCard";

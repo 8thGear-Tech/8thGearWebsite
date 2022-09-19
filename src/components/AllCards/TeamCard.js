@@ -6,38 +6,12 @@ import ReactDOM from "react-dom";
 import { ArrowRightIcon } from "../Icons";
 import data from "../../data/8thGerains.json";
 import EIRdata from "../../data/8thGerains.json";
-// import TeamImage from "../../assets/images/Teamone.png";
+import TeamImage from "../../assets/images/Teamone.png";
 import field from "../../data/advisory.json";
 
 export const TeamCard = (props) => {
   const { image, name, title, text } = props;
   return (
-<<<<<<< HEAD
-    <div className="card-deck Team">
-      <div class="card w-75 mx-auto">
-        <img src={image} class="card-img-top Teampic " alt="Teamimage" />
-        <div class="card-body teamcardbody">
-          <figure class="text-center">
-            <p className="mb-3 Text">{name}</p>
-            <figcaption class="card-text mt-1">{title}</figcaption>
-          </figure>
-          <a href="#" class="nav-link active link">
-            {text}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-arrow-right"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-              />
-            </svg>
-          </a>
-=======
     <>
       <div className="card-deck Team">
         <div class="card w-75 mx-auto ">
@@ -65,7 +39,6 @@ export const TeamCard = (props) => {
               </svg>
             </a>
           </div>
->>>>>>> e124369327fd721790b1f472bcd6b5ff3672d53a
         </div>
       </div>
     </>
@@ -80,9 +53,6 @@ export const Gerians = () => {
         {data.teamcard.map((card) => {
           return (
             <div
-<<<<<<< HEAD
-              className="col-sm-12 col-md-4 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-self-md-stretch"
-=======
               className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-items-stretch"
               key={card.id}
             >
@@ -103,7 +73,6 @@ export const EIR = () => {
           return (
             <div
               className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-items-stretch"
->>>>>>> e124369327fd721790b1f472bcd6b5ff3672d53a
               key={card.id}
             >
               <TeamCard {...card}></TeamCard>

@@ -26,16 +26,15 @@ const SectionOne = () => {
       <p className="text-center homePageText">
         8thGear is a
         <Link
-          to="/"
+          to="teampage"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
         >
           Venture Studio
         </Link>
-        &
         <Link
-          to="/"
+          to="constructionpage"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
