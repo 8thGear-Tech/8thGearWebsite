@@ -1,0 +1,21 @@
+@use "../colors" as *;
+
+.SectionTwoBg {
+  background-color: $lightgreenbg;
+}
+@mixin CardBg {
+  background-color: $lightgreenbg;
+  border: 3px solid $bordercolor;
+}
+.cardBg {
+  @include CardBg;
+}
+
+.homePageText {
+  font-size: 1.2rem;
+  // font-weight: 600;
+}
+
+// .borderLine {
+//   border: 3px solid black;
+// }

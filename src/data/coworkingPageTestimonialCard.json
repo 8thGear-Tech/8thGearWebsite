@@ -1,0 +1,25 @@
+{
+  "cardData": [
+    {
+      "id": 1,
+      "image": "./images/testimonialCard/ijeoma.jpg",
+      "name": "HAFUSAT SHINKARI",
+      "position": "CEO, eye protection service",
+      "text": "We at 8thGear are helpmates to your business and because we believe in the uniqueness of every individual and business, we tailor our solutions to suit"
+    },
+    {
+      "id": 2,
+      "image": "./images/testimonialCard/ijeoma.jpg",
+      "name": "HAFUSAT SHINKARI",
+      "position": "CEO, eye protection service",
+      "text": "We at 8thGear are helpmates to your business and because we believe in the uniqueness of every individual and business, we tailor our solutions to suit"
+    },
+    {
+      "id": 3,
+      "image": "./images/testimonialCard/ijeoma.jpg",
+      "name": "HAFUSAT SHINKARI",
+      "position": "CEO, eye protection service",
+      "text": "We at 8thGear are helpmates to your business and because we believe in the uniqueness of every individual and business, we tailor our solutions to suit"
+    }
+  ]
+}

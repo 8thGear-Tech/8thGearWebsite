@@ -1,0 +1,63 @@
+{
+  "gallerys4p": [
+    {
+      "id": 1,
+      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+    },
+
+    {
+      "id": 2,
+      "image": "./images/galleryImageCardsS4P/2GalleryS4.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./images/galleryImageCardsS4P/3GalleryS4.Jpg"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/galleryImageCardsS4P/4GalleryS4.jPg"
+    },
+    {
+      "id": 5,
+      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryImageCardsS4P/3GalleryS4.jpg"
+    }
+  ],
+  "S4pVideo": [
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from founders meetup program"
+    },
+
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 6,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
+    }
+  ]
+}
