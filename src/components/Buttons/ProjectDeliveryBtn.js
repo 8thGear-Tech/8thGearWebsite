@@ -15,7 +15,13 @@ export const LearnMoreBtn = () => {
 export const RequestForProposalBtn = () => {
   return (
     <>
-      <button className="RequestForProposalBtn" type="submit">
+      <button
+        className="RequestForProposalBtn"
+        // type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        type="button"
+      >
         Request for a Proposal
       </button>
     </>

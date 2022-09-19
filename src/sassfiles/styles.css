@@ -68,7 +68,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   overflow: visible !important;
 }
 
@@ -554,10 +554,11 @@ article h4 {
   font-size: 20px;
 }
 .JointheStudioBtn:hover {
+  background-color: #821e6b;
   color: #fff;
 }
 .JointheStudioBtn:focus {
-  background: #821e6b;
+  background-color: #821e6b;
   color: #ffffff;
 }
 
@@ -624,6 +625,75 @@ article h4 {
 .textbutton {
   text-decoration: none !important;
   color: #000;
+}
+
+.BorderOf1px {
+  padding: 1px;
+  border: 1px solid black;
+  width: 106px;
+}
+
+.ProjectDeliveryManagedServicesCardText {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  margin-top: 100px;
+}
+
+.bg-pic1 {
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic2 {
+  background-image: url(../assets/images/Physiology2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic3 {
+  background-image: url(../assets/images/Genetics.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic4 {
+  background-image: url(../assets/images/Plantpathology1.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-logo1 {
+  height: 300px;
+}
+
+.bg-logo2 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo3 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo4 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.TextAlignCenter {
+  text-align: center;
+}
+
+.AllPortfoliosLogoCard {
+  border: none;
 }
 
 .TractionsBg {

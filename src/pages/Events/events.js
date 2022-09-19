@@ -7,7 +7,6 @@ import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
 // import EventPageHero from "../../components/Hero/CarouselHero";
 import CoWorkingPageHero from "../../components/Hero/CarouselHero";
-import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
@@ -18,6 +17,7 @@ import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";
 import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
+import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
 
 const EventsPage = () => {
   return (
@@ -97,7 +97,8 @@ const SuggestAnEvent = () => {
       </p>
       <div className="py-2">
         {" "}
-        <LetUsKnowBtn />
+        {/* <LetUsKnowBtn /> */}
+        <SuggestAnEventForm />
       </div>
     </div>
   );

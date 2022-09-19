@@ -7,6 +7,7 @@ import { Navbar11 } from "../../components/Navbar";
 import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
+// <EightgeariansPopUpCard1 />;
 
 const TeamPage = () => {
   return (

@@ -4,6 +4,7 @@
 
 import { useState } from "react";
 import logo from "../../assets/images/logo.png";
+import { LetUsKnowBtn } from "../Buttons/EventsBtn";
 
 const SuggestAnEventForm = () => {
   const [formData, setFormData] = useState({
@@ -23,15 +24,15 @@ const SuggestAnEventForm = () => {
 
   return (
     <>
-      <button
+      {/* <button
         type="button"
         className="prop"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
         Suggest an Event
-      </button>
-
+      </button> */}
+      <LetUsKnowBtn />
       <div
         class="modal fade"
         id="staticBackdrop"

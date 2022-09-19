@@ -18,16 +18,16 @@ export const AboutStartup = (props) => {
         <div className="row justify-content-center">
           <div className="d-flex justify-content-center pt-5">
             {" "}
-            <Link to={link}>
+            <a href="" to={link}>
               {" "}
               <img
                 src={img}
                 className=""
-                //   // width="70px"
-                //   height="40px"
+                width="70px"
+                height="40px"
                 alt="..."
               />
-            </Link>
+            </a>
           </div>
           <div className="col-lg-8 col-md-12 col-sm-12 pt-4 ">
             <p className="d-flex text-center mx-2">{about}</p>

@@ -6,19 +6,21 @@
 
 import logo from "../../assets/images/logo.png";
 import link from "../../assets/images/LinkedIn_icon.png";
+import { JointheTeamBtn } from "../Buttons/ContactBtn";
 
 export const EightgeariansPopUpCard1 = (props) => {
   const { image, name, position, text, id } = props;
   return (
     <>
-      <button
+      <JointheTeamBtn />
+      {/* <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
         8thgerian1
-      </button>
+      </button> */}
       <div
         className="modal fade"
         id="staticBackdrop1"
