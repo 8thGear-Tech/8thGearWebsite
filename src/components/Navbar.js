@@ -32,7 +32,7 @@ const NavBar = (props) => {
                 <div className="">
                   {" "}
                   <i
-                    className="bi bi-list text-dark"
+                    className="bi bi-list text-dark mx-5"
                     style={{ fontSize: "40px" }}
                   ></i>
                 </div>
@@ -238,11 +238,11 @@ const NavBar = (props) => {
 
 export const Navbar = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.landingpage.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -254,11 +254,11 @@ export const Navbar = () => {
 
 export const Navbar1 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.portfolio.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -270,11 +270,11 @@ export const Navbar1 = () => {
 
 export const Navbar2 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.portfolios.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -286,11 +286,11 @@ export const Navbar2 = () => {
 
 export const Navbar3 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.projectdelivery.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -302,11 +302,11 @@ export const Navbar3 = () => {
 
 export const Navbar4 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.managedservices.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -318,11 +318,11 @@ export const Navbar4 = () => {
 
 export const Navbar5 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.digitalmarketing.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -334,11 +334,11 @@ export const Navbar5 = () => {
 
 export const Navbar6 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.legal.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -350,11 +350,11 @@ export const Navbar6 = () => {
 
 export const Navbar7 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.tech.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -366,11 +366,11 @@ export const Navbar7 = () => {
 
 export const Navbar8 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.coworkingspace.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -382,11 +382,11 @@ export const Navbar8 = () => {
 
 export const Navbar9 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.growthasaservices.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -398,11 +398,11 @@ export const Navbar9 = () => {
 
 export const Navbar10 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.about.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -414,11 +414,11 @@ export const Navbar10 = () => {
 
 export const Navbar11 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.ourteam.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -430,11 +430,11 @@ export const Navbar11 = () => {
 
 export const Navbar12 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.blog.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -446,11 +446,11 @@ export const Navbar12 = () => {
 
 export const Navbar13 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.faq.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -462,11 +462,11 @@ export const Navbar13 = () => {
 
 export const Navbar14 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.events.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -478,11 +478,11 @@ export const Navbar14 = () => {
 
 export const Navbar15 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.foundermeetup.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -494,11 +494,11 @@ export const Navbar15 = () => {
 
 export const Navbar16 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.demoday.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -510,11 +510,11 @@ export const Navbar16 = () => {
 
 export const Navbar17 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.projectdeliverygallery.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -526,11 +526,11 @@ export const Navbar17 = () => {
 
 export const Navbar18 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.eventgallery.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 " key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );
@@ -541,7 +541,7 @@ export const Navbar18 = () => {
 };
 export const Navbar19 = () => {
   return (
-    <div className="container">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.ourmodel.map((navbar) => {
           return (
@@ -556,7 +556,7 @@ export const Navbar19 = () => {
 };
 export const Navbar20 = () => {
   return (
-    <div className="container">
+    <div className="container-fluid p-0">
       <div className="row">
         {text.accounting.map((navbar) => {
           return (
