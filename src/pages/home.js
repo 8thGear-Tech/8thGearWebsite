@@ -7,6 +7,7 @@ import gearupicon from "../assets/images/gearupicon.png";
 import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
 import { Navbar0 } from "../components/Navbar";
+import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
 
 const Home = () => {
   return (
@@ -179,7 +180,8 @@ const SectionThree = () => {
           </div>
         </div>
       </div>
-      <JointheStudioBtn />
+      <JoinTheStudioForm />
+      {/* <JointheStudioBtn /> */}
     </div>
   );
 };

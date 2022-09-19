@@ -1,4 +1,6 @@
 @use "../../colors" as *;
+@use "../../font" as *;
+
 .BookNowBtn {
   // width: auto;
   // height: 30px;
@@ -86,4 +88,22 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+
+@mixin JointheTeamBtn {
+  border: 2.5px solid $btncolor;
+  border-radius: 1.1875rem;
+  color: $prytextcolor;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ffff;
+  padding: 0.4rem 1.5rem;
+}
+
+.JointheTeamBtn {
+  @include JointheTeamBtn;
+}
+
+.SubmitFormBtn {
+  @include JointheTeamBtn;
 }

@@ -5,7 +5,13 @@
 
 export const JointheStudioBtn = () => {
   return (
-    <button className="JointheStudioBtn" type="sumbit">
+    <button
+      className="JointheStudioBtn"
+      type="button"
+      // className="prop"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
       Join the Studio
     </button>
   );
@@ -42,5 +48,13 @@ export const MemberOneViewBioBtn = () => {
       View Bio
       {/* </a> */}
     </>
+  );
+};
+
+export const SubmitFormBtn = () => {
+  return (
+    <button className="SubmitFormBtn" type="submit">
+      Submit
+    </button>
   );
 };
