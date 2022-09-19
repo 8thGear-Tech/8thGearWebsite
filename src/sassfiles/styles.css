@@ -69,7 +69,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: auto !important;
 }
 
 .LinkedInBtn {
@@ -258,7 +258,6 @@ p {
   text-align: center;
   position: relative;
   display: flex;
-  overflow: hidden;
 }
 
 .img-fluid rounded-start {
@@ -350,54 +349,6 @@ article h4 {
 
 .line {
   border: 2px solid #821e6b !important;
-}
-
-.SuggestAnEventBtn {
-  border: 3px solid #821e6b;
-  color: #000 !important;
-  border-radius: 20px;
-  width: 13rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.LetUsKnowBtn {
-  border: 3px solid #821e6b;
-  color: #000 !important;
-  border-radius: 20px;
-  width: 9rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.EventViewMoreBtn {
-  border: 3px solid #821e6b;
-  color: #000 !important;
-  border-radius: 20px;
-  width: 8rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.GetYourTicketBtn {
-  border: 3px solid #821e6b;
-  color: #000 !important;
-  border-radius: 20px;
-  width: 11rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
 }
 
 .navbar {
@@ -602,6 +553,78 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.JointheStudioBtn:hover {
+  color: #fff;
+}
+.JointheStudioBtn:focus {
+  background: #821e6b;
+  color: #ffffff;
+}
+
+.JointheTeamBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.SuggestAnEventBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 13rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.LetUsKnowBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 9rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.EventViewMoreBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.GetYourTicketBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.textbutton {
+  text-decoration: none !important;
+  color: #000;
+}
 
 .TractionsBg {
   background-color: #00a495;
@@ -625,6 +648,10 @@ article h4 {
 .ourImpactCardBg {
   border: 3px solid rgba(0, 0, 0, 0.9);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.successStoryBg {
+  background-color: rgba(0, 164, 149, 0.07);
 }
 
 .howItWorksBg {
@@ -693,6 +720,48 @@ article h4 {
   margin: auto;
 }
 
+.div1::before {
+  content: "";
+  background-image: url(../assets/images/logo.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 20%;
+  background-position: center;
+}
+
+.request {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
 .NavBar {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   padding-right: 0% !important;
@@ -712,13 +781,6 @@ article h4 {
   line-height: 3px;
 }
 
-.teamcard {
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
-}
-
 .teamcardbody {
   border-radius: 0px;
   border-bottom: 5px solid #00a495 !important;
@@ -733,19 +795,6 @@ article h4 {
 
 .Text {
   line-height: 1px;
-}
-
-.Team {
-  margin-top: 70%;
-}
-
-.advisorcard {
-  margin-top: 80%;
-  margin-right: auto;
-  height: 200px;
-  width: 280px;
-  left: 50px;
-  right: 50px;
 }
 
 .bgImg {
@@ -769,7 +818,6 @@ article h4 {
 
 .AnimationVideoHero {
   width: 100%;
-  overflow: hidden;
   height: 50% !important;
 }
 

@@ -85,8 +85,8 @@ const NavBar = (props) => {
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/portfolios">
-                  Portfolios
+                <Link className="dropdown-item" to="/portfolio">
+                  Portfolio
                 </Link>
               </li>
             </ul>
@@ -155,7 +155,7 @@ const NavBar = (props) => {
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/8thgearians">
+                <Link className="dropdown-item" to="/team">
                   8thGearians
                 </Link>
               </li>
@@ -186,6 +186,18 @@ const NavBar = (props) => {
                 </Link>
               </li>
             </ul>
+          </div>
+          <br />
+
+          <div>
+            <Link
+              className=" nav-link  mx-3"
+              type="button"
+              aria-expanded="false"
+              to="/events"
+            >
+              Events
+            </Link>
           </div>
 
           <br />
@@ -236,7 +248,7 @@ const NavBar = (props) => {
   );
 };
 
-export const Navbar = () => {
+export const Navbar0 = () => {
   return (
     <div className="container-fluid p-0">
       <div className="row">
@@ -541,11 +553,11 @@ export const Navbar18 = () => {
 };
 export const Navbar19 = () => {
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid">
       <div className="row">
         {text.ourmodel.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );

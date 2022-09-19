@@ -42,14 +42,17 @@
       "id": 10,
       "image": "./images/gallerylsetfvisit/10lsetfvisit.jpg"
     },
-    {
-      "id": 11,
-      "image": "./images/gallerylsetfvisit/10lsetfvisit.jpg"
-    },
 
     {
       "id": 12,
       "image": "./images/gallerylsetfvisit/11lsetfvisit.jpg"
+    }
+  ],
+  "Lsetfvisit": [
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
     }
   ]
 }

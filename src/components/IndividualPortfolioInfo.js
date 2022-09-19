@@ -1,4 +1,5 @@
 import innkeeperlogo from "../assets/images/innkeeperlogo.png";
+import { Link } from "react-router-dom";
 
 const IndividualPortfolioInfo = () => {
   return (
@@ -10,20 +11,23 @@ const IndividualPortfolioInfo = () => {
 };
 
 export const AboutStartup = (props) => {
-  const { img, about, role, fullname, year, website } = props;
+  const { link, img, about, role, fullname, year, website } = props;
   return (
     <>
       <div className="container-fluid ">
         <div className="row justify-content-center">
           <div className="d-flex justify-content-center pt-5">
             {" "}
-            <img
-              src={img}
-              className=""
-              //   // width="70px"
-              //   height="40px"
-              alt="..."
-            />
+            <Link to={link}>
+              {" "}
+              <img
+                src={img}
+                className=""
+                //   // width="70px"
+                //   height="40px"
+                alt="..."
+              />
+            </Link>
           </div>
           <div className="col-lg-8 col-md-12 col-sm-12 pt-4 ">
             <p className="d-flex text-center mx-2">{about}</p>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
+import { ManagedServicesTractions } from "../../components/Tractions";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
@@ -10,6 +11,7 @@ const ManagedServicesPage = () => {
       <Navbar4 />
       <Services />
       <HowItWorks />
+      <ManagedServicesTractions />
     </>
   );
 };

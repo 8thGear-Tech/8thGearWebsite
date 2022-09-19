@@ -10,3 +10,10 @@ export const JointheStudioBtn = () => {
     </button>
   );
 };
+export const JointheTeamBtn = () => {
+  return (
+    <button className="JointheTeamBtn" type="sumbit">
+      Join the Team
+    </button>
+  );
+};

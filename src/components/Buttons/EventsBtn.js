@@ -3,11 +3,11 @@
 //EventsViewMoreBtn
 //GetYourTicketBtn
 import React from "react";
-
+import { Link } from "react-router-dom";
 export const SuggestAnEventBtn = () => {
   return (
     <button className="SuggestAnEventBtn" type="sumbit">
-      Suggest An Event
+      <div className="textbutton">SUBMIT</div>
     </button>
   );
 };
@@ -29,7 +29,10 @@ export const LetUsKnowBtn = () => {
 export const EventsViewMoreBtn = () => {
   return (
     <button className="EventViewMoreBtn" type="sumbit">
-      View More
+      <Link to="/events-gallery" className="textbutton">
+        {" "}
+        <div className="textbutton">view more</div>
+      </Link>
     </button>
   );
 };
@@ -37,7 +40,7 @@ export const EventsViewMoreBtn = () => {
 export const GetYourTicketBtn = () => {
   return (
     <button className="GetYourTicketBtn" type="sumbit">
-      Get Your Ticket
+      <div className="textbtn">GET YOUR TICKET</div>
     </button>
   );
 };

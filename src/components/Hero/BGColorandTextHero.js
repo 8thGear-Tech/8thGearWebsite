@@ -41,10 +41,10 @@ const PortfolioHeroSingle = (props) => {
   const { text } = props;
   return (
     <div>
-      <div className="PortfolioHeroText d-lg-block d-md-none d-sm-none d-xs-none">
+      <div className="PortfolioHeroText d-none d-lg-block d-md-none d-sm-none d-xs-none">
         <h3>{text}</h3>
       </div>
-      <div className="PortfolioHeroText d-lg-none d-md-none d-sm-block d-xs-block">
+      <div className="PortfolioHeroText d-lg-none d-md-block d-sm-block d-xs-block">
         <h4>{text}</h4>
       </div>
     </div>
