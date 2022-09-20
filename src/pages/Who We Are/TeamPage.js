@@ -2,6 +2,8 @@
 import {TeamCard} from "../../components/AllCards/TeamCard";
 import Data from "../../data/TriggeredCard.json";
 import Intel from "../../data/EirPopUp.json";
+import Info from "../../data/Advisory.json";
+
 import {EightgeariansPopUpCard1} from "../../components/AllCards/TriggeredCards";
 import {EightgeariansPopUpCard2} from "../../components/AllCards/TriggeredCards";
 import {EightgeariansPopUpCard3} from "../../components/AllCards/TriggeredCards";
@@ -16,6 +18,12 @@ import {EIRDataPopUpCard4} from "../../components/AllCards/TriggeredCards";
 import {EIRDataPopUpCard5} from "../../components/AllCards/TriggeredCards";
 import {EIRDataPopUpCard6} from "../../components/AllCards/TriggeredCards";
 
+import {AdvisoryBoardOnHoverCard1} from "../../components/AllCards/TriggeredCards";
+import {AdvisoryBoardOnHoverCard2} from "../../components/AllCards/TriggeredCards";
+import {AdvisoryBoardOnHoverCard3} from "../../components/AllCards/TriggeredCards";
+import {AdvisoryBoardOnHoverCard4} from "../../components/AllCards/TriggeredCards";
+import {AdvisoryBoardOnHoverCard5} from "../../components/AllCards/TriggeredCards";
+import {AdvisoryBoardOnHoverCard6} from "../../components/AllCards/TriggeredCards";
 const TeamsPage = () => {
   return (
     <>
@@ -92,7 +100,44 @@ const TeamsPage = () => {
           <EIRDataPopUpCard6 {...sixthEirPopUpFile} />
         )
       })}
+
+{Info.FirstHoverCard.map((firstHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard1 {...firstHoverCard}/>
+  )
+})}
+
+{Info.SecondHoverCard.map((secondHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard2 {...secondHoverCard}/>
+  )
+})}
+
+{Info.ThirdHoverCard.map((thirdHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard3 {...thirdHoverCard}/>
+  )
+})}
+
+{Info.FourthHoverCard.map((fourthHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard4 {...fourthHoverCard}/>
+  )
+})}
+
+{Info.FifthHoverCard.map((fifthHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard5 {...fifthHoverCard}/>
+  )
+})}
+
+{Info.SixthHoverCard.map((sixthHoverCard) => {
+  return (
+    <AdvisoryBoardOnHoverCard6 {...sixthHoverCard}/>
+  )
+})}
     </>
   );
 };
+
 export default TeamsPage;

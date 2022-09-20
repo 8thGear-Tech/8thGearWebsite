@@ -7,6 +7,8 @@
 
 import logo from "../../assets/images/logo.png"
 import link from "../../assets/images/LinkedIn_icon.png"
+//import img from "../../assets/images/TeamImage.jpg"
+import din from "../../assets/images/Vector.png"
 
  export const EightgeariansPopUpCard1 = (props) => {
   const { image, name, position, text, id } = props;
@@ -447,18 +449,109 @@ EIR6
 }
 
 
-export const AdvisoryBoardOnHoverCard = () => {
+export const AdvisoryBoardOnHoverCard1 = (props) => {
+  const { image, name, position, id } = props;
   return (
     <>
-{/* <div class="view overlay">
-    <img src={Image} class="img-fluid " alt=""/>
-    <div class="mask flex-center rgba-red-strong">
-        <p class="white-text">Strong overlay</p>
+    <div className="containerm" key={id}>
+    <div className="row1">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
     </div>
-</div> */}
+</div>
+      </>
+    )
+}
 
-<div className="AdvisoryBoardOnHover col-2 h-25" style={{color:"white", backgroundImage:'url('+Image+')', backgroundSize:"cover", width:"200px", height:"200px", fontSize:"30px",}}>
-Strong overlay
+export const AdvisoryBoardOnHoverCard2 = (props) => {
+  const { image, name, position, id } = props;
+  return (
+    <>
+    <div className="containerm" key={id}>
+    <div className="row2">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
+    </div>
+</div>
+      </>
+    )
+}
+
+export const AdvisoryBoardOnHoverCard3 = (props) => {
+  const { image, name, position, id } = props;
+  return (
+    <>
+    <div className="containerm" key={id}>
+    <div className="row3">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
+    </div>
+</div>
+      </>
+    )
+}
+
+export const AdvisoryBoardOnHoverCard4 = (props) => {
+  const { image, name, position, id } = props;
+  return (
+    <>
+    <div className="containerm" key={id}>
+    <div className="row4">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
+    </div>
+</div>
+      </>
+    )
+}
+
+export const AdvisoryBoardOnHoverCard5 = (props) => {
+  const { image, name, position, id } = props;
+  return (
+    <>
+    <div className="containerm" key={id}>
+    <div className="row5">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
+    </div>
+</div>
+      </>
+    )
+}
+
+export const AdvisoryBoardOnHoverCard6 = (props) => {
+  const { image, name, position, id } = props;
+  return (
+    <>
+    <div className="containerm" key={id}>
+    <div className="row6">
+        <div className="col-md-4">
+            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
+            <j className="fa fa-search fa-3x">{position}</j><br/> 
+            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+        </div>
+      </div>
+    </div>
 </div>
       </>
     )
