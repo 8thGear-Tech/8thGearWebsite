@@ -32,11 +32,11 @@ export const JointheTeamBtn = () => {
   return (
     <button
       type="button"
-      class="JointheStudioBtn"
+      className="JointheTeamBtn"
       data-bs-toggle="modal"
-      data-bs-target="#staticBackdrop1"
+      data-bs-target="#staticBackdrop"
     >
-      Join the Studio
+      Join the Team
     </button>
   );
 };
