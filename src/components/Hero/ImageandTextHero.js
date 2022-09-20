@@ -27,7 +27,7 @@
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
-    <div className="background text-center p-5">
+    <div className="ManageServicesDigitalMarketing text-center p-5">
       <h4>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         autem corrupti vitae neque quia exercitationem voluptatibus reiciendis.

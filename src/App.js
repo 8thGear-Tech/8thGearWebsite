@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 // import Constructionpage from "./pages/constructionpage";
 // import { AnimationVideoHero } from "./components/Hero/VideoHero";
 // import { AboutPageHero } from "./components/Hero/VideoHero";
-// import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
-import { ManageServicesDigitalMarketingHero } from "./components/Hero/ImageandTextHero";
+import JoinTheTeamForm from "./components/Tractions";
+// import { ManageServicesDigitalMarketingHero } from "./components/Hero/ImageandTextHero";
 // import { ManagedServicesHero } from "./components/Hero/BGColorandTextHero";
 // import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
 // import { FounderMeetup } from "./components/Hero/BGColorandTextHero";
@@ -20,7 +20,7 @@ import { ManageServicesDigitalMarketingHero } from "./components/Hero/ImageandTe
 function App() {
   return (
     <div>
-      <ManageServicesDigitalMarketingHero />
+      {/* <ManageServicesDigitalMarketingHero /> */}
       {/* <PortfolioHero /> */}
       {/* <AboutPageHero /> */}
       {/* <FounderMeetup /> */}
@@ -28,7 +28,7 @@ function App() {
       {/* <OurTeam /> */}
       {/* <ManagedServicesHero /> */}
       {/* <AnimationVideoHero /> */}
-      {/* <JoinTheTeamForm /> */}
+      <JoinTheTeamForm />
       <BrowserRouter>
         {/* <h1>Welcome to React Router!</h1> */}
         <Routes>
