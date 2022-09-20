@@ -540,35 +540,77 @@ article h4 {
 }
 
 .text-fluid {
-  font-size: 1.1vw;
+  font-size: 1.2vw;
+}
+
+.text-fluid2 {
+  font-size: 1.6vw;
 }
 
 #iconsize {
-  font-size: 2vw;
   color: #00a495;
   position: fixed;
+}
+
+#iconsize2 {
+  font-size: 1.4rem;
+  color: #00a495;
 }
 
 .mobile-icon {
   list-style-type: none;
 }
 
-.ul_for_footer {
-  list-style-type: none;
+.md-footer-line {
+  width: 98vw;
 }
 
 .newsLetterUnderline {
-  width: 13vw;
+  width: 15vw;
 }
 
 .text-fluid1 {
   font-size: 1.7vw;
 }
 
-<<<<<<< HEAD
 .footerLogo {
-  width: auto;
-=======
+  width: 4.2vw;
+}
+
+.footerLogo2 {
+  width: 4.7vw;
+}
+
+.footerText {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+
+.icons-for-footer {
+  display: flex;
+}
+
+.footerIcon {
+  list-style-type: none;
+}
+
+.footerFormField {
+  outline: none;
+}
+
+.hrForBigScreen {
+  width: 17vw;
+}
+
+.firstSignUp {
+  font-size: 1.3vw;
+}
+
+.secondSignUp {
+  font-size: 1.8vw;
+}
+
 .BorderOf1px {
   padding: 1px;
   border: 1px solid black;
@@ -636,6 +678,13 @@ article h4 {
 
 .AllPortfoliosLogoCard {
   border: none;
->>>>>>> 9c43d5f9b5b6a8427d73bf19420d9da5b1e4efaa
+}
+
+.DigitalMarketingSection {
+  border: 3px solid #03a062;
+}
+
+.managedServicesSection {
+  background-color: rgb(250, 248, 248);
 }
 /*# sourceMappingURL=styles.css.map */

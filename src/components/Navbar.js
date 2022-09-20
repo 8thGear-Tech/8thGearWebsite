@@ -74,7 +74,7 @@ const NavBar = (props) => {
           >
             Studio
           </a>
-          {/* <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <li>
               <a className="dropdown-item" href="#">
                 Our Model
@@ -85,7 +85,7 @@ const NavBar = (props) => {
                 Portfolios
               </a>
             </li>
-          </ul> */}
+          </ul>
 
           <br />
 

@@ -8,7 +8,7 @@ import Home from "./pages/home";
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-// import Navbar from "./components/Navbar";
+// import { Navbar } from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
 // import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
@@ -24,8 +24,12 @@ import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import PortfolioPage from "./pages/Studio/portfolios";
 import EventsPage from "./pages/Events/events";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
-import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
 import GrowthAsAservice from "./pages/Services/GaaS";
+import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
+import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
+import ManagedServicesTech from "./pages/Services/managedServicesTech";
+import ManagedServicesAccounting from "./pages/Services/managedServicesAccounting";
+
 // import { Gerians } from "./components/AllCards/TeamCard";
 // import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 
@@ -48,7 +52,7 @@ import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
 // import { TeamCard } from "./components/AllCards/TeamCard";
-import Footer from "./components/Footer";
+import { Footer } from "./components/Footer";
 import { InstagramBtn } from "./components/Buttons/BlogBtn";
 import { LinkedInBtn } from "./components/Buttons/BlogBtn";
 import { ShareBtn } from "./components/Buttons/BlogBtn";
@@ -72,9 +76,8 @@ function App() {
       {/* <Lad /> */}
       {/* <CoWorkingPageTestimonialCard /> */}
       {/* <AboutUs /> */}
-
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
         <Route path="managedservices" element={<ManagedServicesPage />} />
         <Route path="ourmodel" element={<OurModelPage />} />
@@ -128,14 +131,13 @@ function App() {
       </Routes>
       {/* <UnderconstructionNavbar /> */}
       {/* <Route path="teamcard" element={<Teamcard />} /> */}
-
       {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
-
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
       <footer>
         <Footer />
       </footer>
+
       <Routes>{/* <Route path="/" element={<InstagramBtn />} /> */}</Routes>
       {/* <InstagramBtn /> */}
       {/* <LinkedInBtn /> */}
