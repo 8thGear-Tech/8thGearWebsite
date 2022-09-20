@@ -4,11 +4,13 @@ import { ManagedServicesTractions } from "../../components/Tractions";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
+import { ManagedServicesHero } from "../../components/Hero/BGColorandTextHero";
 
 const ManagedServicesPage = () => {
   return (
     <>
       <Navbar4 />
+      <ManagedServicesHero />
       <Services />
       <HowItWorks />
       <ManagedServicesTractions />
@@ -61,7 +63,7 @@ const HowItWorks = () => {
 
 const Services = () => {
   return (
-    <div className="container-fluid text-center  pt-5">
+    <div className="container-fluid text-center">
       <div className="row">
         <h3 className="mb-5">Services</h3>
         {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {

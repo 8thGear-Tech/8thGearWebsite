@@ -6,13 +6,15 @@ import data from "../../data/portfolioHero.json";
 export const ManagedServicesHero = () => {
   return (
     <div className="container-fluid py-5">
-      <div className="row">
+      <div className="row m-5">
         <div className="text-center">
           <h3 className="">The Venture Studio Model</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
             fuga facilis optio officiis obcaecati reiciendis, vitae distinctio
-            voluptates nostrum ut
+            voluptates nostrum ut. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Voluptatum fuga facilis optio officiis obcaecati
+            reiciendis, vitae distinctio voluptates nostrum ut
           </p>
         </div>
       </div>
@@ -51,7 +53,7 @@ export const PortfolioHero = () => {
     </div>
   );
 };
-export const FounderMeetup = () => {
+export const FoundersMeetupHero = () => {
   return (
     <div className="PortfolioHero">
       {data.founderMeetup.map((portFolio) => {
@@ -77,7 +79,7 @@ export const Demoday = () => {
     </div>
   );
 };
-export const OurTeam = () => {
+export const OurTeamHero = () => {
   return (
     <div className="PortfolioHero">
       {data.ourTeam.map((portFolio) => {

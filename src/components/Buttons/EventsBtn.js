@@ -67,15 +67,19 @@ export const GetYourTicketBtn = () => {
 
 export const FoundersMeetupReadMoreBtn = () => {
   return (
-    <button className="BlogReadMoreBtn" type="sumbit">
-      Read More
-    </button>
+    <Link to="/founders-meetup">
+      <button className="BlogReadMoreBtn" type="sumbit">
+        Read More
+      </button>
+    </Link>
   );
 };
 export const DemoDayReadMoreBtn = () => {
   return (
-    <button className="BlogReadMoreBtn" type="sumbit">
-      Read More
-    </button>
+    <Link to="/demo-day">
+      <button className="BlogReadMoreBtn" type="sumbit">
+        Read More
+      </button>
+    </Link>
   );
 };
