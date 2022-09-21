@@ -1,6 +1,6 @@
 //GalleryCard
 
-import galleryData from "../../data/galleryS4P.json";
+import galleryData from "../../data/gallerypiggerytraining.json";
 import gallerypictures from "../../data/galleryGIZ.json";
 import galleryusadfData from "../../data/galleryusadf.json";
 import galleryfutaData from "../../data/galleryfuta.json";
@@ -23,8 +23,8 @@ export const AllPortfoliosLogoCard = (props) => {
         className="my-5"
         src={logo}
         alt="Logos"
-        style={{ maxWidth: "100%", maxHeigt: "100%" }}
-        // height={70}
+        style={{ maxWidth: "100%" }}
+        height={150}
       />
     </div>
   );
@@ -162,7 +162,7 @@ export const SingleFUTACards = (props) => {
   );
 };
 
-export const SingleS4PCards = (props) => {
+export const SinglePiggeryTrainingCards = (props) => {
   const { image, id } = props;
   return (
     <>
@@ -270,7 +270,7 @@ export const SinglegalleryCards = (props) => {
   const { image, id, text } = props;
   return (
     <>
-      <div className="card">
+      <div className="card successStoryCardBg">
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
           <p className="card-text">{text}</p>
@@ -302,7 +302,7 @@ export const SinglegalleryVideoCards = (props) => {
   const { video, id, text } = props;
   return (
     <>
-      <div className="card">
+      <div className="card ">
         <iframe src={video} className="card-img-top" alt="..." />
         <div className="card-body">
           <p className="card-text">{text}</p>

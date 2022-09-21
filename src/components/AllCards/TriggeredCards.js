@@ -4,6 +4,8 @@ import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
 import logo from "../../assets/images/logo.png";
 import link from "../../assets/images/LinkedIn_icon.png";
 import { JointheTeamBtn } from "../Buttons/ContactBtn";
+import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
+import { MemberTwoViewBioBtn } from "../Buttons/ContactBtn";
 
 const SingleOnhoverCard = (props) => {
   const { id, text } = props;
@@ -80,7 +82,8 @@ export const EightgeariansPopUpCard1 = (props) => {
   const { image, name, position, text, id } = props;
   return (
     <>
-      <JointheTeamBtn />
+      {/* <JointheTeamBtn /> */}
+      <MemberOneViewBioBtn />
       {/* <button
         type="button"
         class="btn btn-primary"
@@ -130,14 +133,15 @@ export const EightgeariansPopUpCard2 = (props) => {
   const { image, name, position, text, id } = props;
   return (
     <>
-      <button
+      <MemberTwoViewBioBtn />
+      {/* <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
         8thgerian2
-      </button>
+      </button> */}
       <div
         className="modal fade"
         id="staticBackdrop2"

@@ -15,7 +15,8 @@ import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ProjectDeliveryGalleryPage from "./pages/ProjectDelivery/projectDeliveryGallery";
 import GIZPage from "./pages/ProjectDelivery/GIZgallery";
-import S4PPage from "./pages/ProjectDelivery/S4Pgallery";
+
+import PiggeryTrainingPage from "./pages/ProjectDelivery/piggeryTrainingGallery";
 import LSETFPage from "./pages/ProjectDelivery/lsetfGallery";
 import FUTAPage from "./pages/ProjectDelivery/FUTAgallery";
 import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
@@ -26,7 +27,9 @@ import ManagedServicesPage from "./pages/Services/managedServices";
 // import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
 import GrowthAsAservice from "./pages/Services/GaaS";
 
+//WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
+import AboutUs from "./pages/WhoWeAre/aboutUs";
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -108,7 +111,10 @@ function App() {
           element={<ProjectDeliveryGalleryPage />}
         />
         <Route path="GIZ-gallery" element={<GIZPage />} />
-        <Route path="S4P-gallery" element={<S4PPage />} />
+        <Route
+          path="piggery-training-gallery"
+          element={<PiggeryTrainingPage />}
+        />
         <Route path="LSETF-gallery" element={<LSETFPage />} />
         <Route path="FUTA-gallery" element={<FUTAPage />} />
         <Route path="managed-services" element={<ManagedServicesPage />} />
@@ -117,6 +123,8 @@ function App() {
           element={<ManagedServicesDigitalMarketing />}
         /> */}
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+
+        <Route path="about" element={<AboutUs />} />
         <Route path="team" element={<TeamPage />} />
         <Route path="blog" element={<BlogPage />} />
         {/* <Route path="faq" element={<FAQ />} /> */}
@@ -164,9 +172,9 @@ function App() {
       {/* <OnHoverCard /> */}
       {/* <UnderconstructionNavbar /> */}
 
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </BrowserRouter>
   );
 }

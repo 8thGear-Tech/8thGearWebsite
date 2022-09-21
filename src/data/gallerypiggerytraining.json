@@ -1,56 +1,56 @@
 {
-  "gallerys4p": [
+  "gallerypiggery": [
     {
       "id": 1,
-      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining1.jpg"
     },
 
     {
       "id": 2,
-      "image": "./images/galleryImageCardsS4P/2GalleryS4.jpg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining2.jpg"
     },
     {
       "id": 3,
-      "image": "./images/galleryImageCardsS4P/3GalleryS4.Jpg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining3.Jpg"
     },
 
     {
       "id": 4,
-      "image": "./images/galleryImageCardsS4P/4GalleryS4.jPg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining4.jPg"
     },
     {
       "id": 5,
-      "image": "./images/galleryImageCardsS4P/1GalleryS4.jpg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining5.jpg"
     },
     {
       "id": 6,
-      "image": "./images/galleryImageCardsS4P/3GalleryS4.jpg"
+      "image": "./images/galleryImageCardsPiggery/piggerytraining6.jpg"
     }
   ],
   "S4pVideo": [
     {
-      "id": 2,
+      "id": 1,
       "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
       "text": "Video session from founders meetup program"
     },
 
     {
-      "id": 1,
+      "id": 2,
       "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
       "text": "Video session from demoday"
     },
     {
-      "id": 1,
+      "id": 3,
       "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
       "text": "Video session from demoday"
     },
     {
-      "id": 1,
+      "id": 4,
       "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
       "text": "Video session from demoday"
     },
     {
-      "id": 1,
+      "id": 5,
       "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
       "text": "Video session from demoday"
     },

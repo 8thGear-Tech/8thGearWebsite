@@ -1,6 +1,7 @@
 // @use "../sassfiles/components/allCards/MediaCards";
 @use "./components/allCards/blogCards";
 @use "./components/allCards/managedServicesCards";
+@use "../sassfiles/pages/whoweare/aboutUs";
 @use "./reset";
 // @use "./font";
 // @use "./components/navbar";
@@ -39,6 +40,7 @@
 // @use "./components/timer";
 @use "./components/hero/videoHero";
 @use "./components/forms/enquiresandSuggestionForms";
+@use "./components/buttons/servicesBtn";
 // @use "./components/hero/bgColorandTextHero";
 // @use "./components/buttons/portfolioBtn";
 // @use "./components/buttons/servicesBtn";

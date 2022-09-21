@@ -66,7 +66,7 @@ const SuccessStoryCards = () => {
     <>
       <div className="container-fluid successStoryBg">
         {" "}
-        <div className="row justify-content-center m-5 p-5 ">
+        <div className="row justify-content-center m-5 p-5 align-items-stretch">
           <h4 className="text-center">SUCCESS STORY</h4>
           {successStoryGalleryCard.successStory.map((items) => {
             return (

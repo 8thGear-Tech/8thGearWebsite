@@ -3,22 +3,27 @@
     {
       "id": 1,
       "image": "./images/gallerycards/gallery1.jpg",
-      "text": "Photo session from s4p program"
+      "text": "Piggery Training GIZ"
     },
     {
       "id": 2,
       "image": "./images/gallerycards/gallery2.jpg",
-      "text": "Photo session from GIZ program"
+      "text": "Employability 2022  GIZ"
     },
     {
       "id": 3,
-      "image": "./images/gallerycards/gallery2.jpg",
-      "text": "Photo session from LSETF program"
+      "image": "./images/gallerycards/successstory3.jpg",
+      "text": "USADF/LSETF Training"
     },
     {
       "id": 4,
       "image": "./images/gallerycards/gallery1.jpg",
-      "text": "Photo session from FUTA program"
+      "text": "Innkeeper Hackathon 2022"
+    },
+    {
+      "id": 5,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "ITF Training 2022"
     }
   ],
   "projectDeliveryPictures": [

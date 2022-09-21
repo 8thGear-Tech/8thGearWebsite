@@ -8,6 +8,7 @@ import data from "../../data/8thGerains.json";
 import EIRdata from "../../data/8thGerains.json";
 // import TeamImage from "../../assets/images/Teamone.png";
 import field from "../../data/advisory.json";
+import { EightgeariansPopUpCard1 } from "./TriggeredCards";
 import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
 
 export const TeamCard = (props) => {
@@ -23,6 +24,8 @@ export const TeamCard = (props) => {
 
               <figcaption class="card-text mt-1">{title}</figcaption>
             </figure>
+            <EightgeariansPopUpCard1 />
+
             {/* <a href="">
               <MemberOneViewBioBtn />
             </a> */}

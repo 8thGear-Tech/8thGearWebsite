@@ -42,7 +42,12 @@ export const OnHoverReadMoreBtn = () => {
 export const ManagedServicesRequestBtn = () => {
   return (
     <>
-      <button type="button" className="ManagedServicesRequestBtn">
+      <button
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+        className="ManagedServicesRequestBtn"
+      >
         Request
       </button>
     </>
