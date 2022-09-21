@@ -67,6 +67,7 @@ const NavBar = (props) => {
           ></button>
         </div>
 
+<<<<<<< HEAD
         <div className="offcanvas-body h5">
           <div>
             <a
@@ -91,6 +92,30 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
+=======
+        <div className="offcanvas-body">
+          <a
+            className=" nav-link dropdown-toggle mx-3"
+            type="button"
+            id="navbarDarkdropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Studio
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li>
+              <a className="dropdown-item" href="#">
+                Our Model
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Portfolios
+              </a>
+            </li>
+          </ul>
+>>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
 
           <br />
 

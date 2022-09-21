@@ -797,105 +797,158 @@ article h4 {
   line-height: 1px;
 }
 
-.bgImg {
-  width: 100%;
-  height: 500px;
-  background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.ul_top_hypers {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
-.bgtext {
-  color: rgb(255, 255, 255);
+.text-fluid {
+  font-size: 1.2vw;
 }
 
-.bgimage h5 {
-  color: white;
-  text-shadow: 2px 2px #333;
+.text-fluid2 {
+  font-size: 1.6vw;
 }
 
-.AnimationVideoHero {
-  width: 100%;
-  height: 50% !important;
+#iconsize {
+  color: #00a495;
+  position: fixed;
 }
 
-.play-button-centered {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  right: 0%;
-  bottom: 0%;
-  color: #c1c1c1;
-  transform: translate(-50%, -50%);
+#iconsize2 {
+  font-size: 1.4rem;
+  color: #00a495;
 }
 
-@media screen and (max-width: 576px) {
-  .play-button-centered {
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    right: 0%;
-    bottom: 0%;
-    color: #c1c1c1;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .play-button-centered {
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    right: 0%;
-    bottom: 0%;
-    color: #c1c1c1;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
-  }
-}
-.hello {
-  color: red;
-  font-weight: 900;
+.mobile-icon {
+  list-style-type: none;
 }
 
-.contactUsTitle {
-  text-align: center;
-  color: #821e6b;
+.md-footer-line {
+  width: 98vw;
 }
 
-.submit {
-  text-align: center;
-  box-sizing: border-box;
-  width: 100px;
-  height: 30px;
-  background: #ffffff;
-  border: 1px solid #821e6b;
-  border-radius: 30px;
+.newsLetterUnderline {
+  width: 15vw;
 }
 
-.sub {
-  text-align: center;
+.text-fluid1 {
+  font-size: 1.7vw;
 }
 
-.prop {
-  text-align: center;
-  box-sizing: border-box;
-  width: 200px;
-  height: 50px;
-  background: #ffffff;
-  border: 1px solid #821e6b;
-  border-radius: 30px;
+.footerLogo {
+  width: 4.2vw;
 }
 
-.faq {
-  background-color: #00a495;
+.footerLogo2 {
+  width: 4.7vw;
 }
 
-.Acc {
+.footerText {
+  text-decoration: none;
   color: black;
+  font-weight: 100;
+}
+
+.icons-for-footer {
+  display: flex;
+}
+
+.footerIcon {
+  list-style-type: none;
+}
+
+.footerFormField {
+  outline: none;
+}
+
+.hrForBigScreen {
+  width: 17vw;
+}
+
+.firstSignUp {
+  font-size: 1.3vw;
+}
+
+.secondSignUp {
+  font-size: 1.8vw;
+}
+
+.BorderOf1px {
+  padding: 1px;
+  border: 1px solid black;
+  width: 106px;
+}
+
+.ProjectDeliveryManagedServicesCardText {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  margin-top: 100px;
+}
+
+.bg-pic1 {
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic2 {
+  background-image: url(../assets/images/Physiology2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic3 {
+  background-image: url(../assets/images/Genetics.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic4 {
+  background-image: url(../assets/images/Plantpathology1.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-logo1 {
+  height: 300px;
+}
+
+.bg-logo2 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo3 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo4 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.TextAlignCenter {
+  text-align: center;
+}
+
+.AllPortfoliosLogoCard {
+  border: none;
+}
+
+.DigitalMarketingSection {
+  border: 3px solid #03a062;
+}
+
+.managedServicesSection {
+  background-color: rgb(250, 248, 248);
 }
 /*# sourceMappingURL=styles.css.map */
