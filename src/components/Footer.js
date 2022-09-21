@@ -555,13 +555,6 @@ export function Modal({ closeModal }) {
     <>
       <div className="container  text-start" style={{ width: 400 }}>
         <div className="d-flex justify-content-around">
-          <img
-            className="mt-2"
-            src={logo}
-            width={28}
-            height={33}
-            id="staticBackdropLabel"
-          />
           <button
             className=" px-5 btn  btn-primary"
             onClick={() => closeModal(false)}
@@ -569,6 +562,13 @@ export function Modal({ closeModal }) {
             {/* <i class="bi bi-x-square" style={{ fontSize: 25 }}></i> */}
             Close
           </button>
+          <img
+            className="mt-2"
+            src={logo}
+            width={28}
+            height={33}
+            id="staticBackdropLabel"
+          />
         </div>
         <div className="title">
           <div className="row d-flex justify-content-center ">
