@@ -27,14 +27,14 @@ const WhatWeDo = () => {
               ></i> */}
               <h3 className="">What We Do</h3>
               <p>
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding.The Venture Studio model for
-                entrepreneurship, combining comapny building with venture
-                funding.The Venture Studio model for entrepreneurship, combining
-                comapny building with venture funding. The Venture Studio model
-                for entrepreneurship, combining comapny building with venture
-                funding.The Venture Studio model for entrepreneurship, combining
-                comapny building with venture funding.
+                We firmly believe in creating enterprises with a sustainable
+                business strategy at our venture studio. At the beginning of the
+                business and throughout its existence, we place a high priority
+                on speaking with potential clients. Years of failing fast and
+                failing forward to create thriving businesses have helped us
+                identify the conditions required to increase the chances of an
+                idea thriving. Our in-house team of experts is on standby ready
+                to turn ideas into viable businesses.
               </p>
             </div>
           </div>
@@ -45,7 +45,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text"> Concept Validation </p>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text">Market Research</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,33 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text">Product Management</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-center mt-5">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Go-To-Market</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Visual & UX Design</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+          <div className="d-flex align-items-center">
+            <WhatWeDoIcon />
+            <div className="card-body ms-3">
+              <p className="card-text">Engineering </p>
             </div>
           </div>
         </div>
@@ -79,7 +105,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text">Company Formation</p>
             </div>
           </div>
         </div>
@@ -87,7 +113,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text"> Finance</p>
             </div>
           </div>
         </div>
@@ -97,7 +123,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text">Operations</p>
             </div>
           </div>
         </div>
@@ -105,7 +131,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text"> Legal & HR</p>
             </div>
           </div>
         </div>
@@ -113,7 +139,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text"> Recruiting</p>
             </div>
           </div>
         </div>

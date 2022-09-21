@@ -72,7 +72,7 @@ export const Footer = () => {
                   </li>
                   <li className="mx-4 text-fluid text-nowrap">
                     <Link className=" footerText" to="/">
-                      GROWTH AS A SERVICE
+                      GROWTH-AS-A-SERVICE
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
@@ -270,7 +270,7 @@ export const Footer = () => {
                   </li>
                   <li className="mx-4 text-fluid2">
                     <Link className=" footerText text-nowrap" to="/">
-                      GROWTH AS A SERVICE
+                      GROWTH-AS-A-SERVICE
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
@@ -363,7 +363,7 @@ export const Footer = () => {
                   <p className="my-3"></p>
                   <p className="my-3">
                     <Link className=" footerText" to="/">
-                      GROWTH AS A SERVICE
+                      GROWTH-AS-A-SERVICE
                     </Link>
                   </p>
                   <p className="my-3">

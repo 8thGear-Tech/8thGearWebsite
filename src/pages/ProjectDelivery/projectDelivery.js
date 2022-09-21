@@ -6,6 +6,10 @@ import { RequestForProposalBtn } from "../../components/Buttons/ProjectDeliveryB
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import successStoryGalleryCard from "../../data/gallerycards.json";
 import { ProjectDeliveryViewMoreBtn } from "../../components/Buttons/ProjectDeliveryBtn";
+import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
+import itflogo from "../../assets/images/projectdelivery/itflogo.png";
+import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
+import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
 // import ProjectDeliveryPageHero from "../../components/Hero/ImageandTextHero";
 
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
@@ -21,6 +25,7 @@ const ProjectDeliveryPage = () => {
       {/* <ProjectDeliveryPageHero /> */}
       <Competencies />
       <OurImpact />
+      <OurClients />
       <SuccessStoryCards />
     </>
   );
@@ -61,6 +66,49 @@ const Competencies = () => {
     </div>
   );
 };
+
+const OurClients = () => {
+  return (
+    <div className="container-fluid">
+      {" "}
+      <div className="row py-3">
+        <h3 className="mt-4 text-center mb-5">Our Partners</h3>
+        <div className="row TextAlignCenter">
+          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+            <img
+              src={gizlogo}
+              className="logo1 col-12 "
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+
+          <div className="TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+            <img
+              src={usadflogo}
+              className="logo1 col-12"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+            <img
+              src={lsetflogo}
+              className="logo1 col-12 "
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+          {/* <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+            <img
+              src={itflogo}
+              className="logo1 col-12 "
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const SuccessStoryCards = () => {
   return (
     <>

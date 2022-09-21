@@ -2,8 +2,8 @@
   "teamcard": [
     {
       "id": 1,
-      "image": "./images/Teamone.png",
-      "name": "Damilola Obidiaro",
+      "image": "../../images/team/omowunmiadekoya.jpg",
+      "name": "Omowumi Adekoya",
       "title": "Co-Founder",
       "text": " View More"
     },
@@ -16,30 +16,30 @@
     },
     {
       "id": 3,
-      "image": "./images/Teamone.png",
-      "name": "Omowumi Adekoya",
-      "title": "Managing Partner",
+      "image": "../../images/team/damilolaobidairo.png",
+      "name": "Damilola Obidiaro",
+      "title": "CEO/Co-Founder",
       "text": " View More"
     },
     {
       "id": 4,
-      "image": "./images/Teamone.png",
-      "name": "Temitope Kassim",
-      "title": "People and perfomance analyst",
+      "image": "../../images/team/temitopekazeem.jpg",
+      "name": "Temitope Kazeem",
+      "title": "Lead, HR & Operations",
       "text": " View More"
     },
     {
       "id": 5,
       "image": "./images/Teamone.png",
       "name": "Opeyemi Bioku",
-      "title": "Tech Lead",
+      "title": "Lead, Developer Team",
       "text": " View More"
     },
     {
       "id": 6,
-      "image": "./images/Teamone.png",
+      "image": "../../images/team/titilayo.jpg",
       "name": "Titilayo Ekundayo",
-      "title": "Head,Venture Studio",
+      "title": "Lead,Venture Studio",
       "text": " View More"
     }
   ],

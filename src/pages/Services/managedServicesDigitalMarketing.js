@@ -2,6 +2,14 @@ import { WhatWeDoIcon } from "../../components/Icons";
 import { Navbar5 } from "../../components/Navbar";
 import servicesData from "../../data/managedServices.json";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ContentMarketingIcon } from "../../components/Icons";
+import { CopyWritingIcon } from "../../components/Icons";
+import { EmailMarketingIcon } from "../../components/Icons";
+import { InfluencerMarketingIcon } from "../../components/Icons";
+import { SearchEngineMarketingIcon } from "../../components/Icons";
+import { SearchEngineOptimizationIcon } from "../../components/Icons";
+import { SocialMediaMarketingIcon } from "../../components/Icons";
+
 const managedServicesDigitalMarketing = () => {
   return (
     <>
@@ -26,44 +34,44 @@ const managedServicesDigitalMarketing = () => {
               <div className="row d-flex  ">
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <ContentMarketingIcon />
+                  <p className="text-wrap">Content Marketing</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <CopyWritingIcon />
+                  <p className="text-wrap">Copy Writing</p>
                 </div>
                 {/* icon3 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <EmailMarketingIcon />
+                  <p className="text-wrap">Email Marketing</p>
                 </div>
                 {/* icon4 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <InfluencerMarketingIcon />
+                  <p className="text-wrap">Influencer Marketing</p>
                 </div>
                 {/* icon5 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <SearchEngineMarketingIcon />
+                  <p className="text-wrap"> Search Engine Marketing</p>
                 </div>
                 {/* icon6 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <SearchEngineOptimizationIcon />
+                  <p className="text-wrap"> Search Engine Optimization</p>
                 </div>
                 {/* icon7 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <SocialMediaMarketingIcon />
+                  <p className="text-wrap">Social Media Marketing</p>
                 </div>
                 {/*  icon8*/}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
+                {/* <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
+                    <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
+                    <p className="text-wrap">media Management</p>
+                  </div> */}
               </div>
 
               {/* button */}

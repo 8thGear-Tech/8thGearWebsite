@@ -5,6 +5,7 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
 import { ManagedServicesHero } from "../../components/Hero/BGColorandTextHero";
+import { HowItWorksIcon } from "../../components/Icons";
 
 const ManagedServicesPage = () => {
   return (
@@ -20,19 +21,20 @@ const ManagedServicesPage = () => {
 
 const HowItWorks = () => {
   return (
-    <div className="container-fluid py-5 pe-3 howItWorksBg">
+    <div className="container-fluid py-5 pe-3 howItWorksBg ">
       <div className="row mx-5">
         <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12 m-auto ">
-          <div className="col d-lg-flex d-md-flex">
-            <div className="col">
-              {/* <i
+          {/* <div className="col d-lg-flex d-md-flex"> */}
+          {/* <div className="col"> */}
+          {/* <i
                 className="bi bi-book iconCol"
                 style={{ fontSize: "28px" }}
               ></i> */}
-              <p>How It Works</p>
-              <h2 className="">We are builders funding the next generation</h2>
-            </div>
-          </div>
+          <h3>How It Works</h3>
+          <HowItWorksIcon />
+          {/* <h2 className="">We are builders funding the next generation</h2> */}
+          {/* </div> */}
+          {/* </div> */}
           {/* <div className="col d-lg-flex d-md-flex ">
             <div className="col">
               <i

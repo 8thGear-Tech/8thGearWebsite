@@ -2,27 +2,27 @@
   "advisoryimage": [
     {
       "id": 1,
-      "image": "./images/Strategy 1.png"
+      "image": "../../images/team/seyibioku.png"
     },
     {
       "id": 2,
-      "image": "./images/Strategy 2.png"
+      "image": "../../images/team/abimbolaadebakin.png"
     },
     {
       "id": 3,
-      "image": "./images/Strategy Advisor.png"
+      "image": "../../images/team/yinkaogunleye.png"
     },
     {
       "id": 4,
-      "image": "./images/Strategy 1.png"
+      "image": "../../images/team/morenikejibuari.png"
     },
     {
       "id": 5,
-      "image": "./images/Strategy 2.png"
+      "image": "../../images/team/labisioyedotun.png"
     },
     {
       "id": 6,
-      "image": "./images/Strategy Advisor.png"
+      "image": "../../images/team/temitayo.png"
     }
   ]
 }

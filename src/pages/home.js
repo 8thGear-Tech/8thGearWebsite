@@ -114,10 +114,10 @@ const SectionThree = () => {
   return (
     <div className="container-fluid text-center p-5 SectionTwoBg mt-5">
       {" "}
-      <h4 className="">Our Business Creation Platform</h4>
+      {/* <h4 className="">Our Business Creation Platform</h4> */}
       <p className="">
-        The next wave of venture capital is more than just investing, it's
-        business creation. Our collaborative platform has three components.
+        On these three pillars, we are creating an Africa of value creators by
+        delving deep to cultivate the most innovative startups.
       </p>
       <div className="row justify-content-evenly mt-5">
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
