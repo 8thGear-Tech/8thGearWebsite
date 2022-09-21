@@ -68,7 +68,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   overflow: auto !important;
 }
 
@@ -889,5 +889,13 @@ article h4 {
   background: #ffffff;
   border: 1px solid #821e6b;
   border-radius: 30px;
+}
+
+.faq {
+  background-color: #00a495;
+}
+
+.Acc {
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
