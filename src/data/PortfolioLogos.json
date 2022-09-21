@@ -1,0 +1,20 @@
+{
+  "PortfolioLogos": [
+    {
+      "id": 1,
+      "logo": "images/newinnkeeperlogo.png"
+    },
+    {
+      "id": 2,
+      "logo": "images/haven.png"
+    },
+    {
+      "id": 3,
+      "logo": "images/mindafrik.png"
+    },
+    {
+      "id": 4,
+      "logo": "images/easesoiless.jpg"
+    }
+  ]
+}

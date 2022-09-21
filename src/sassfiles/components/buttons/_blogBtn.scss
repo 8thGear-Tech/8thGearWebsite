@@ -1,0 +1,88 @@
+@use "../../colors" as *;
+
+@mixin LinkedInBtn {
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+}
+
+.LinkedInBtn {
+  background-color: $linkedinbtncolor;
+  @include LinkedInBtn;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.InstagramBtn {
+  background-color: $InstagramBtn;
+
+  @include LinkedInBtn;
+}
+
+.ShareBtn {
+  background-color: $ShareBtn;
+  @include LinkedInBtn;
+}
+.BlogReadMoreBtn {
+  //   border: 3px solid $btncolor;
+  //   color: $prytextcolor;
+  //   border-radius: 0.938rem;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@mixin BlogReadMoreLinkBtn {
+  // font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.129rem;
+  line-height: 1.313rem;
+  text-transform: capitalize;
+
+  color: none;
+}
+
+.BlogReadMoreLinkBtn a {
+  color: #821e6b !important;
+  @include BlogReadMoreLinkBtn;
+}
+
+@mixin SubmitCommentBtn {
+  //   background: #ffffff;
+  //   border: 3px solid $btncolor;
+  //   border-radius: 2.188rem;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 12rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.SubmitCommentBtn {
+  @include SubmitCommentBtn;
+}
+
+@mixin FacebookBtn {
+  @include LinkedInBtn;
+  background-color: $facebookcolorbtn;
+  border-radius: 2.188rem;
+  //   border: 3px solid #001d87;
+}
+
+.FacebookBtn {
+  @include FacebookBtn;
+}
