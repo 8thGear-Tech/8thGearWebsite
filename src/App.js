@@ -25,6 +25,9 @@ import { UsadfVideo } from "./components/AllCards/MediaCards";
 import { S4pVideo } from "./components/AllCards/MediaCards";
 import { ProjectVideo } from "./components/AllCards/MediaCards";
 import { GIZVideo } from "./components/AllCards/MediaCards";
+import { CoworkingSpaceForm } from "./components/Forms/ServicesForms";
+import { JoinTheTeamForm } from "./components/Forms/ServicesForms";
+import { JoinTheStudioForm } from "./components/Forms/ServicesForms";
 
 function App() {
   return (
@@ -34,8 +37,8 @@ function App() {
       {/* <InstagramBtn /> */}
       {/* <LinkedInBtn /> */}
       {/* <ShareBtn /> */}
-      <MediaCards />
-      <S4pVideo />
+      {/* <MediaCards /> */}
+      {/* <S4pVideo /> */}
       {/* <GalleryGizCards /> */}
       {/* <GIZVideo /> */}
       {/* <UsadfCards /> */}
@@ -54,6 +57,9 @@ function App() {
       {/* <DemoVideo /> */}
       {/* <GalleryCards /> */}
       {/* <GalleryVideoCards /> */}
+      {/* <CoworkingSpaceForm /> */}
+      {/* <JoinTheTeamForm /> */}
+      <JoinTheStudioForm />
     </BrowserRouter>
   );
 }
