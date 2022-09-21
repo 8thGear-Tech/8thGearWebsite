@@ -31,27 +31,27 @@ export const Footer = () => {
                 <div className="col-lg-3"></div>
                 <ul className="ul_top_hypers text-end ">
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./">
                       HOME
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText text-nowrap" to="/">
+                    <Link className=" footerText text-nowrap" to="./ourmodel">
                       OUR MODEL
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="/portfolios">
                       PORTFOLIO
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./projectdelivery">
                       PROJECT DELIVERY
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./managedservices">
                       MANAGED SERVICES
                     </Link>
                   </li>
@@ -61,32 +61,32 @@ export const Footer = () => {
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./coWorking">
                       COWORKING
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid text-nowrap">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./growth-as-a-service">
                       GROWTH AS A SERVICE
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./about">
                       ABOUT
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./TeamPage ">
                       8THGEARIANS
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./blog">
                       BLOG
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="/faq">
                       FAQ
                     </Link>
                   </li>

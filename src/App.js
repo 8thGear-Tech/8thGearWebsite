@@ -77,7 +77,7 @@ function App() {
       {/* <CoWorkingPageTestimonialCard /> */}
       {/* <AboutUs /> */}
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
         <Route path="managedservices" element={<ManagedServicesPage />} />
         <Route path="ourmodel" element={<OurModelPage />} />
