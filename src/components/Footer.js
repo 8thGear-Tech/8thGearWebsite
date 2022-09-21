@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import logo from "./../assets/images/logo.png";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       <footer className="px-1 mx-2 px-2">
@@ -12,109 +12,8 @@ export const Footer = () => {
           <div className="my-5">
             <hr />
           </div>
-<<<<<<< HEAD
-
-          <div className="col-md-9">
-            <div className="row text-end">
-              {/* <i className="bi bi-arrow-up-square " id="iconsize"></i> */}
-            </div>
-            <div className="row mt-5">
-              <ul className="ul_top_hypers text-end ">
-                <li className="mx-4 text-fluid">
-                  {/* <Link
-                    to="/"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  HOME
-                  {/* </Link> */}
-                </li>
-                <li className="mx-4  text-fluid">
-                  {/* <Link
-                    to="ourmodel"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  OUR MODEL
-                  {/* </Link> */}
-                </li>
-                <li className="mx-4 text-fluid">
-                  {/* <Link
-                    to="/portfolios"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  PORTFOLIO
-                  {/* </Link> */}
-                </li>
-                <li className="mx-4 text-fluid">
-                  {/* <Link
-                    to="/projectdelivery"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  PROJECT DELIVERY
-                  {/* </Link> */}
-                </li>
-                <li className="mx-4 text-fluid">
-                  {/* <Link
-                    to="/managedservices"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  MANAGED SERVICES
-                  {/* </Link> */}
-                </li>
-              </ul>
-              <hr className="" style={{ width: "" }}></hr>
-            </div>
-            <div className=" row ">
-              <ul className="ul_top_hypers text-end ">
-                <li className="mx-4 text-fluid">COWORKING</li>
-                <li className="mx-4 text-center text-fluid text-nowrap">
-                  {/* <Link
-                    to="/growth-as-a-service"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  GROWTH-AS-A-SERVICE
-                  {/* </Link> */}
-                </li>
-                <li className="mx-4 text-fluid">ABOUT</li>
-                <li className="mx-4 text-fluid">8THGEARIANS</li>
-                <li className="mx-4 text-fluid">BLOG</li>
-                <li className="mx-4 text-fluid">FAQ</li>
-                <li className="mx-4 text-fluid">
-                  {/* <Link
-                    to="/events"
-                    // className="text-reset"
-                    style={{ textDecoration: "none", color: "#000" }}
-                  > */}
-                  EVENTS
-                  {/* </Link> */}
-                </li>
-              </ul>
-            </div>
-            <div className=" row ">
-              <ul className="ul_top_hypers text-end ">
-                <li className="mx-4 text-fluid">info@8thgearpartners.com</li>
-                <li className="mx-4 text-fluid text-nowrap  ">
-                  <i class="bi bi-facebook mx-2 text-fluid"></i>
-                  <i class="bi bi-instagram mx-2 text-fluid"></i>
-                  <i class="bi bi-linkedin mx-2 text-fluid"></i>
-                  <i class="bi bi-twitter mx-2 text-fluid"></i>
-                  <i class="bi bi-at mx-2 text-fluid1"></i>
-                </li>
-                <li className="mx-4 text-fluid text-nowrap">
-                  080 9481 8883 | 080 9481 8882
-                </li>
-                <li className="mx-4 text-fluid text-nowrap">8thGear Hub</li>
-              </ul>
-            </div>
-=======
           <div className="row text-end ">
             <i className="bi bi-arrow-up-square my-2 " id="iconsize2"></i>
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
           </div>
           <div className="row">
             <div className="col-md-3 ">
@@ -187,7 +86,7 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="/faq">
                       FAQ
                     </Link>
                   </li>
@@ -680,3 +579,5 @@ export function Modal({ closeModal }) {
     </>
   );
 }
+
+export default Footer;

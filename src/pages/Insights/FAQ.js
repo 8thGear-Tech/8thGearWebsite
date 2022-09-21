@@ -3,6 +3,7 @@ import { Navbar13 } from "../././../components/Navbar";
 import { FAQ2 } from "../../components/FAQ";
 import FAQ from "../../components/FAQ";
 import { FAQ1 } from "../../components/FAQ";
+// import Footer from "../../components/Footer";
 
 const FAQS = () => {
   return (
@@ -14,6 +15,9 @@ const FAQS = () => {
       <FAQ />
       <FAQ1 />
       <FAQ2 />
+      <br />
+      <br />
+      {/* <Footer /> */}
     </>
   );
 };

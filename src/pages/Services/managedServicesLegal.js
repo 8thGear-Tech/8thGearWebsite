@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import { Navbar6 } from "../../components/Navbar";
-
-const LegalPage = () => {
-  return (
-    <>
-      <Navbar6 />
-    </>
-  );
-};
-
-export default LegalPage;
-=======
 import servicesData from "../../data/managedServices.json";
 
 const ManagedServicesLegal = () => {
@@ -92,4 +79,3 @@ const ManagedServicesLegal = () => {
 };
 
 export default ManagedServicesLegal;
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0

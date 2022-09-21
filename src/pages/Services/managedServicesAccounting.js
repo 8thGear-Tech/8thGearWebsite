@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import { Navbar20 } from "../../components/Navbar";
-
-const AccountingPage = () => {
-  return (
-    <>
-      <Navbar20 />
-    </>
-  );
-};
-
-export default AccountingPage;
-=======
 import servicesData from "../../data/managedServices.json";
 
 const ManagedServicesAccounting = () => {
@@ -92,4 +79,3 @@ const ManagedServicesAccounting = () => {
 };
 
 export default ManagedServicesAccounting;
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0

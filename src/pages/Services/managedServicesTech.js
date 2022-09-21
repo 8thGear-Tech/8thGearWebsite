@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import { Navbar7 } from "../../components/Navbar";
-
-const TechPage = () => {
-  return (
-    <>
-      <Navbar7 />
-    </>
-  );
-};
-
-export default TechPage;
-=======
 import servicesData from "../../data/managedServices.json";
 
 const ManagedServicesTech = () => {
@@ -92,4 +79,3 @@ const ManagedServicesTech = () => {
 };
 
 export default ManagedServicesTech;
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0

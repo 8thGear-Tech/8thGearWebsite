@@ -43,36 +43,17 @@ import Footer from "./components/Footer";
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-<<<<<<< HEAD
-import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
-// import Navbar from "./components/Navbar";
-=======
 // import { Navbar } from "./components/Navbar";
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
 // import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { AboutUs } from "./components/AllCards/TestimonialCards";
-<<<<<<< HEAD
 // import Constructionpage from "./pages/constructionpage";
-=======
-import Constructionpage from "./pages/constructionpage";
-import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
-import ManagedServicesPage from "./pages/Services/managedServices";
-import OurModelPage from "./pages/Studio/ourModel";
-import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
-import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
-import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
-import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
-import PortfolioPage from "./pages/Studio/portfolios";
-import EventsPage from "./pages/Events/events";
-import FounderMeetupPage from "./pages/Events/foundersMeetup";
-import GrowthAsAservice from "./pages/Services/GaaS";
+
 import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
 import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
 import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import ManagedServicesAccounting from "./pages/Services/managedServicesAccounting";
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
 
 // import { Gerians } from "./components/AllCards/TeamCard";
 // import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
@@ -100,7 +81,6 @@ import ManagedServicesAccounting from "./pages/Services/managedServicesAccountin
 // import TeamCard from "./components/AllCards/TeamCard";
 // import Eventsbutton from "./components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
-<<<<<<< HEAD
 
 // import { MediaCards } from "./components/AllCards/MediaCards";
 // import { GalleryGizCards } from "./components/AllCards/MediaCards";
@@ -113,35 +93,10 @@ import ManagedServicesAccounting from "./pages/Services/managedServicesAccountin
 // import { DemodayCards } from "./components/AllCards/MediaCards";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import { GalleryVideoCards } from "./components/AllCards/MediaCards";
-=======
-// import { TeamCard } from "./components/AllCards/TeamCard";
-import { Footer } from "./components/Footer";
-import { InstagramBtn } from "./components/Buttons/BlogBtn";
-import { LinkedInBtn } from "./components/Buttons/BlogBtn";
-import { ShareBtn } from "./components/Buttons/BlogBtn";
-import { MediaCards } from "./components/AllCards/MediaCards";
-import { GalleryGizCards } from "./components/AllCards/MediaCards";
-import { UsadfCards } from "./components/AllCards/MediaCards";
-import { FutaCards } from "./components/AllCards/MediaCards";
-import { LsetfvisitCards } from "./components/AllCards/MediaCards";
-import { LsetfCards } from "./components/AllCards/MediaCards";
-import { FounderCards } from "./components/AllCards/MediaCards";
-import { ProjectCards } from "./components/AllCards/MediaCards";
-import { DemodayCards } from "./components/AllCards/MediaCards";
-import { GalleryCards } from "./components/AllCards/MediaCards";
-import { GalleryVideoCards } from "./components/AllCards/MediaCards";
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
 
 function App() {
   return (
     <BrowserRouter>
-<<<<<<< HEAD
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="our-model" element={<OurModelPage />} />
-        <Route path="portfolio" element={<PortfolioPage />} />
-        <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
-=======
       {/* <Navbar /> */}
       {/* <ManagedServicesPageTestimonialCard /> */}
       {/* <Lad /> */}
@@ -152,7 +107,6 @@ function App() {
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
         <Route path="managedservices" element={<ManagedServicesPage />} />
         <Route path="ourmodel" element={<OurModelPage />} />
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
         <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
         <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
         <Route path="haven" element={<HavenPortfolioPage />} />
@@ -185,7 +139,7 @@ function App() {
         <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
         <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
         <Route path="USADF-gallery" element={<USADFGalleryPage />} />
-        <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
+        {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
         {/* <Route path="media" element={<GalleryCards />} /> */}
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
@@ -216,19 +170,13 @@ function App() {
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
       </Routes>
       {/* <UnderconstructionNavbar /> */}
-<<<<<<< HEAD
-
-      {/* <footer>
-        <Footer />
-      </footer> */}
-=======
       {/* <Route path="teamcard" element={<Teamcard />} /> */}
       {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}
       {/* <UnderconstructionNavbar /> */}
       {/* <TeamCard /> */}
-      <footer>
-        <Footer />
-      </footer>
+      {/* <footer> */}
+      {/* <Footer /> */}
+      {/* </footer> */}
 
       <Routes>{/* <Route path="/" element={<InstagramBtn />} /> */}</Routes>
       {/* <InstagramBtn /> */}
@@ -245,7 +193,6 @@ function App() {
       {/* <DemodayCards /> */}
       {/* <GalleryCards />
       <GalleryVideoCards /> */}
->>>>>>> d56505b7de245441f86962cfa02d0a0f4c4969c0
     </BrowserRouter>
   );
 }
