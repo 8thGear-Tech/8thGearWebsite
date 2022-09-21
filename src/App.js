@@ -61,7 +61,8 @@ import ManagedServicesAccounting from "./pages/Services/managedServicesAccountin
 // import Constructionpage from "./pages/constructionpage";
 
 // import Constructionpage from "./pages/constructionpage";
-// import AnimationVideoHero from "./components/Hero/VideoHero";
+// import { AnimationVideoHero } from "./components/Hero/VideoHero";
+// import { AboutPageHero } from "./components/Hero/VideoHero";
 // import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
 // import { Servicehero } from "./components/Hero/BGColorandTextHero";
 // import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
@@ -169,6 +170,7 @@ function App() {
 
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
       </Routes>
+      {/* <OnHoverCard /> */}
       {/* <UnderconstructionNavbar /> */}
       {/* <Route path="teamcard" element={<Teamcard />} /> */}
       {/* <Route path="LetUsKnowBtn" element={{ LetUsKnowBtn }} */}

@@ -24,7 +24,7 @@ export const AllPortfoliosLogoCard = (props) => {
         src={logo}
         alt="Logos"
         style={{ maxWidth: "100%", maxHeigt: "100%" }}
-        height={70}
+        // height={70}
       />
     </div>
   );

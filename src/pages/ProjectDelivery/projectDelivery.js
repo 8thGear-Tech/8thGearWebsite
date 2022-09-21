@@ -12,6 +12,7 @@ import { ProjectDeliveryViewMoreBtn } from "../../components/Buttons/ProjectDeli
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
+import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 
 const ProjectDeliveryPage = () => {
   return (
@@ -51,8 +52,11 @@ const Competencies = () => {
           );
         })}
       </div>
-      <div className="py-5 d-flex justify-content-center">
+      {/* <div className="py-5 d-flex justify-content-center">
         <RequestForProposalBtn />
+      </div> */}
+      <div className="py-5 d-flex justify-content-center">
+        <ProjectDeliveryRequestForm />
       </div>
     </div>
   );

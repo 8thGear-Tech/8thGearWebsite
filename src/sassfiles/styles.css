@@ -69,7 +69,7 @@
 body {
   margin: 0;
   padding: 0 !important;
-  overflow: auto !important;
+  overflow: visible !important;
 }
 
 .LinkedInBtn {
@@ -266,7 +266,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -328,7 +328,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-.next {
+  .next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -373,7 +373,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -493,17 +493,11 @@ article h4 {
 
 .PortfolioHeroText {
   color: #ffffff !important;
+}
+
+.PortfolioHeroBg {
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0.9);
-  height: 397px;
-  color: rgba(0, 0, 0, 0.9);
-  font-family: Rubik;
-  font-weight: 500;
-  font-size: 1.8em;
-  line-height: 36px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding: 120px 100px 0px 100px;
-  font-size: 1.2em;
 }
 
 .BookNowBtn {
@@ -554,10 +548,11 @@ article h4 {
   font-size: 20px;
 }
 .JointheStudioBtn:hover {
+  background-color: #821e6b;
   color: #fff;
 }
 .JointheStudioBtn:focus {
-  background: #821e6b;
+  background-color: #821e6b;
   color: #ffffff;
 }
 
@@ -571,6 +566,26 @@ article h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+
+.JointheTeamBtn {
+  border: 2.5px solid #821e6b;
+  border-radius: 1.1875rem;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: white;
+  padding: 0.4rem 1.5rem;
+}
+
+.SubmitFormBtn {
+  border: 2.5px solid #821e6b;
+  border-radius: 1.1875rem;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: white;
+  padding: 0.4rem 1.5rem;
 }
 
 .SuggestAnEventBtn {
@@ -624,6 +639,75 @@ article h4 {
 .textbutton {
   text-decoration: none !important;
   color: #000;
+}
+
+.BorderOf1px {
+  padding: 1px;
+  border: 1px solid black;
+  width: 106px;
+}
+
+.ProjectDeliveryManagedServicesCardText {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  margin-top: 100px;
+}
+
+.bg-pic1 {
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic2 {
+  background-image: url(../assets/images/Physiology2.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic3 {
+  background-image: url(../assets/images/Genetics.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-pic4 {
+  background-image: url(../assets/images/Plantpathology1.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.bg-logo1 {
+  height: 300px;
+}
+
+.bg-logo2 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo3 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.bg-logo4 {
+  background-image: url(../assets/images/logo.png);
+  height: 300px;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.TextAlignCenter {
+  text-align: center;
+}
+
+.AllPortfoliosLogoCard {
+  border: none;
 }
 
 .TractionsBg {
@@ -811,81 +895,41 @@ article h4 {
   font-size: 1.6vw;
 }
 
-#iconsize {
-  color: #00a495;
-  position: fixed;
+.imgContainer {
+  height: 100%;
+  width: 100%;
 }
 
-#iconsize2 {
-  font-size: 1.4rem;
-  color: #00a495;
+.imageStyle {
+  height: 80vh;
+  width: 100%;
 }
 
-.mobile-icon {
-  list-style-type: none;
+.DigitalMarketingHeroText {
+  color: #ffffff;
 }
 
-.md-footer-line {
-  width: 98vw;
+.heroTextContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
 }
 
-.newsLetterUnderline {
-  width: 15vw;
+video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-}
-
-.footerLogo {
-  width: 4.2vw;
-}
-
-.footerLogo2 {
-  width: 4.7vw;
-}
-
-.footerText {
-  text-decoration: none;
-  color: black;
-  font-weight: 100;
-}
-
-.icons-for-footer {
-  display: flex;
-}
-
-.footerIcon {
-  list-style-type: none;
-}
-
-.footerFormField {
-  outline: none;
-}
-
-.hrForBigScreen {
-  width: 17vw;
-}
-
-.firstSignUp {
-  font-size: 1.3vw;
-}
-
-.secondSignUp {
-  font-size: 1.8vw;
-}
-
-.BorderOf1px {
-  padding: 1px;
-  border: 1px solid black;
-  width: 106px;
-}
-
-.ProjectDeliveryManagedServicesCardText {
-  font-size: 20px;
-  color: white;
-  font-weight: 900;
-  margin-top: 100px;
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
 }
 
 .bg-pic1 {
