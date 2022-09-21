@@ -5,7 +5,7 @@ import logo from "../../assets/images/logo.png";
 import link from "../../assets/images/LinkedIn_icon.png";
 import { JointheTeamBtn } from "../Buttons/ContactBtn";
 //import img from "../../assets/images/TeamImage.jpg"
-import din from "../../assets/images/Vector.png"
+import LinkedIn_icon from "../../assets/images/Vector.png"
 
 const SingleOnhoverCard = (props) => {
   const { id, text } = props;
@@ -84,15 +84,15 @@ export const OnHoverCard = () => {
   const { image, name, position, text, id } = props;
   return (
     <>
-      <JointheTeamBtn />
-      {/* <button
+      
+      { <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
         8thgerian1
-      </button> */}
+      </button> }
       <div
         className="modal fade"
         id="staticBackdrop1"
@@ -729,106 +729,16 @@ export const EIRDataPopUpCard6 = (props) => {
   );
 };
 
-export const AdvisoryBoardOnHoverCard1 = (props) => {
+export const AdvisoryBoardOnHoverCard = (props) => {
   const { image, name, position, id } = props;
   return (
     <>
     <div className="containerm" key={id}>
-    <div className="row1">
+    <div className="row">
         <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
-        </div>
-      </div>
-    </div>
-</div>
-      </>
-    )
-}
-
-export const AdvisoryBoardOnHoverCard2 = (props) => {
-  const { image, name, position, id } = props;
-  return (
-    <>
-    <div className="containerm" key={id}>
-    <div className="row2">
-        <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
-        </div>
-      </div>
-    </div>
-</div>
-      </>
-    )
-}
-
-export const AdvisoryBoardOnHoverCard3 = (props) => {
-  const { image, name, position, id } = props;
-  return (
-    <>
-    <div className="containerm" key={id}>
-    <div className="row3">
-        <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
-        </div>
-      </div>
-    </div>
-</div>
-      </>
-    )
-}
-
-export const AdvisoryBoardOnHoverCard4 = (props) => {
-  const { image, name, position, id } = props;
-  return (
-    <>
-    <div className="containerm" key={id}>
-    <div className="row4">
-        <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
-        </div>
-      </div>
-    </div>
-</div>
-      </>
-    )
-}
-
-export const AdvisoryBoardOnHoverCard5 = (props) => {
-  const { image, name, position, id } = props;
-  return (
-    <>
-    <div className="containerm" key={id}>
-    <div className="row5">
-        <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
-        </div>
-      </div>
-    </div>
-</div>
-      </>
-    )
-}
-
-export const AdvisoryBoardOnHoverCard6 = (props) => {
-  const { image, name, position, id } = props;
-  return (
-    <>
-    <div className="containerm" key={id}>
-    <div className="row6">
-        <div className="col-md-4">
-            <div className="image"> <img src={image} alt=""/> <i className="fa fa-search fa-3x">{name}</i><br/> 
-            <j className="fa fa-search fa-3x">{position}</j><br/> 
-            <k><a className="btn" href="#" role="button"><img src={din}/></a></k> 
+            <div className="AdvisoryImage"> <img src={image} alt=""/> <div className="AdvisoryName" >{name}</div> 
+            <div className="AdvisoryPosition">{position}</div>
+            <div className="AdvisoryLink"><a className="btn" href="#" role="button"><img className="AdvisoryIcon" src={LinkedIn_icon} width={15} height={5}/></a></div> 
         </div>
       </div>
     </div>

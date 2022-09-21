@@ -44,10 +44,11 @@ import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
-import AboutUs from "./pages/Who We Are/aboutUs";
+import AboutUs from "./pages/About/aboutUs";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
 import Footer from "./components/Footer";
+import  TeamsPage from "./pages/About/TeamPage"
 
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
@@ -142,6 +143,7 @@ function App() {
         <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
         {/* <Route path="media" element={<GalleryCards />} /> */}
         <Route path="abt" element={<AboutUs />} />
+        <Route path="teams" element={<TeamsPage />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}
