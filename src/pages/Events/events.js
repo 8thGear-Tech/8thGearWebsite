@@ -6,7 +6,7 @@
 import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
 // import EventPageHero from "../../components/Hero/CarouselHero";
-import CoWorkingPageHero from "../../components/Hero/CarouselHero";
+
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
@@ -18,11 +18,13 @@ import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";
 import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
 import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
+import { EventPageHero } from "../../components/Hero/CarouselHero";
 
 const EventsPage = () => {
   return (
     <>
       <Navbar14 />
+
       <Events />
       <SuggestAnEvent />
       <EventsGallery />

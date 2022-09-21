@@ -5,7 +5,7 @@ import Nature1 from "../../assets/images/nature1.jpg";
 import Nature2 from "../../assets/images/nature2.jpg";
 import Nature3 from "../../assets/images/nature3.jpg";
 
-const EventPageHero = () => {
+export const EventPageHero = () => {
   return (
     <div
       id="carouselExampleCaptions"
@@ -66,7 +66,7 @@ const EventPageHero = () => {
     </div>
   );
 };
-const CoWorkingPageHero = () => {
+export const CoWorkingPageHero = () => {
   return (
     <div
       id="carouselExampleCaptions"
@@ -127,6 +127,3 @@ const CoWorkingPageHero = () => {
     </div>
   );
 };
-
-// export default EventPageHero;
-export default CoWorkingPageHero;

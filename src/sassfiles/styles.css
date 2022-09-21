@@ -1005,4 +1005,90 @@ video {
   font-weight: 500;
   font-size: 20px;
 }
+
+.ul_top_hypers {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.text-fluid {
+  font-size: 1.2vw;
+}
+
+.text-fluid2 {
+  font-size: 1.6vw;
+}
+
+#iconsize {
+  color: #00a495;
+  position: fixed;
+}
+
+#iconsize2 {
+  font-size: 1.4rem;
+  color: #00a495;
+}
+
+.mobile-icon {
+  list-style-type: none;
+}
+
+.md-footer-line {
+  width: 98vw;
+}
+
+.newsLetterUnderline {
+  width: 15vw;
+}
+
+.text-fluid1 {
+  font-size: 1.7vw;
+}
+
+.footerLogo {
+  width: 4.2vw;
+}
+
+.footerLogo2 {
+  width: 4.7vw;
+}
+
+.footerText {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+
+.icons-for-footer {
+  display: flex;
+}
+
+.footerIcon {
+  list-style-type: none;
+}
+
+.footerFormField {
+  outline: none;
+}
+
+.hrForBigScreen {
+  width: 17vw;
+}
+
+.firstSignUp {
+  font-size: 1.3vw;
+}
+
+.secondSignUp {
+  font-size: 1.8vw;
+}
+
+.DigitalMarketingSection {
+  border: 3px solid #03a062;
+}
+
+.managedServicesSection {
+  background-color: rgb(250, 248, 248);
+}
 /*# sourceMappingURL=styles.css.map */

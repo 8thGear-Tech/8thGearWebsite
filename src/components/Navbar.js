@@ -566,13 +566,29 @@ export const Navbar19 = () => {
     </div>
   );
 };
+// export const Navbar20 = () => {
+//   return (
+//     <div className="container">
+//       <div className="row">
+//         {text.accounting.map((navbar) => {
+//           return (
+//             <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+//               <NavBar {...navbar}></NavBar>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
+
 export const Navbar20 = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         {text.accounting.map((navbar) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-12" key={navbar.id}>
+            <div className="col-sm-12 col-md-12 col-lg-12 p-0" key={navbar.id}>
               <NavBar {...navbar}></NavBar>
             </div>
           );

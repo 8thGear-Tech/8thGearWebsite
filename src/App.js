@@ -24,7 +24,10 @@ import USADFGalleryPage from "./pages/Events/usadfGallery";
 
 //Managed Services
 import ManagedServicesPage from "./pages/Services/managedServices";
-// import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
+import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
+import ManagedServicesAccounting from "./pages/Services/managedServicesAccounting";
+import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
+import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 
 //WhoWeAre
@@ -41,7 +44,7 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
-import Footer from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
@@ -118,10 +121,13 @@ function App() {
         <Route path="LSETF-gallery" element={<LSETFPage />} />
         <Route path="FUTA-gallery" element={<FUTAPage />} />
         <Route path="managed-services" element={<ManagedServicesPage />} />
-        {/* <Route
+        <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
-        /> */}
+        />
+        <Route path="accounting" element={<ManagedServicesAccounting />} />
+        <Route path="legal" element={<ManagedServicesLegal />} />
+        <Route path="tech" element={<ManagedServicesTech />} />
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
 
         <Route path="about" element={<AboutUs />} />
