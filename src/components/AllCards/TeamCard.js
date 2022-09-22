@@ -10,6 +10,8 @@ import EIRdata from "../../data/8thGerains.json";
 import field from "../../data/advisory.json";
 import { EightgeariansPopUpCard1 } from "./TriggeredCards";
 import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
+import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
+import Info from "../../data/advisory.json";
 
 export const TeamCard = (props) => {
   const { image, name, title, text } = props;
@@ -92,7 +94,7 @@ export const EIR = () => {
   );
 };
 
-<br></br>;
+/* <br></br>; */
 const AdvisoryBoardCard = (props) => {
   const { image } = props;
   return (
@@ -108,13 +110,13 @@ export const AdvisoryTeamPic = () => {
     <div className="container d-flex justify-content-center">
       <div className="row text-center py-5">
         <h4>ADVISORY BOARD</h4>
-        {field.advisoryimage.map((card) => {
+        {Info.FirstHoverCard.map((firstHoverCard) => {
           return (
             <div
-              className="col-sm-12 col-md-6 col-lg-4 mt-3 mb-5 "
-              key={card.id}
+              className="col-sm-12 col-md-6 col-lg-4 mt-5 mb-5 "
+              key={firstHoverCard.id}
             >
-              <AdvisoryBoardCard {...card}></AdvisoryBoardCard>
+              <AdvisoryBoardOnHoverCard {...firstHoverCard} />
             </div>
           );
         })}
@@ -122,3 +124,23 @@ export const AdvisoryTeamPic = () => {
     </div>
   );
 };
+
+// export const AdvisoryTeamPic = () => {
+//   return (
+//     <div className="container d-flex justify-content-center">
+//       <div className="row text-center py-5">
+//         <h4>ADVISORY BOARD</h4>
+//         {field.advisoryimage.map((card) => {
+//           return (
+//             <div
+//               className="col-sm-12 col-md-6 col-lg-4 mt-3 mb-5 "
+//               key={card.id}
+//             >
+//               <AdvisoryBoardCard {...card}></AdvisoryBoardCard>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };

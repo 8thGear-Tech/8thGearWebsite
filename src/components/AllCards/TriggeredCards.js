@@ -6,6 +6,8 @@ import link from "../../assets/images/LinkedIn_icon.png";
 import { JointheTeamBtn } from "../Buttons/ContactBtn";
 import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberTwoViewBioBtn } from "../Buttons/ContactBtn";
+//import img from "../../assets/images/TeamImage.jpg"
+import LinkedIn_icon from "../../assets/images/Vector.png";
 
 const SingleOnhoverCard = (props) => {
   const { id, text } = props;
@@ -134,14 +136,14 @@ export const EightgeariansPopUpCard2 = (props) => {
   return (
     <>
       <MemberTwoViewBioBtn />
-      {/* <button
+      <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
         8thgerian2
-      </button> */}
+      </button>
       <div
         className="modal fade"
         id="staticBackdrop2"
@@ -728,30 +730,36 @@ export const EIRDataPopUpCard6 = (props) => {
     </>
   );
 };
-
-export const AdvisoryBoardOnHoverCard = () => {
+{
+  /* <div class="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
+  <img src={image} class=" img-fluid Boardimage" alt="Teamimage" />
+</div>; */
+}
+export const AdvisoryBoardOnHoverCard = (props) => {
+  const { image, name, position } = props;
   return (
     <>
-      {/* <div class="view overlay">
-    <img src={Image} class="img-fluid " alt=""/>
-    <div class="mask flex-center rgba-red-strong">
-        <p class="white-text">Strong overlay</p>
-    </div>
-</div> */}
-
-      <div
-        className="AdvisoryBoardOnHover col-2 h-25"
-        style={{
-          color: "white",
-          backgroundImage: "url(" + Image + ")",
-          backgroundSize: "cover",
-          width: "200px",
-          height: "200px",
-          fontSize: "30px",
-        }}
-      >
-        Strong overlay
+      {/* <div className="containerm">
+        <div className="row"> */}
+      {/* <div className=""> */}
+      <div className="AdvisoryImage">
+        {" "}
+        <img src={image} alt="" /> <div className="AdvisoryName">{name}</div>
+        <div className="AdvisoryPosition">{position}</div>
+        <div className="AdvisoryLink">
+          <a className="btn" href="#" role="button">
+            <img
+              className="AdvisoryIcon"
+              src={LinkedIn_icon}
+              width={15}
+              height={5}
+            />
+          </a>
+        </div>
       </div>
+      {/* </div> */}
+      {/* </div>
+      </div> */}
     </>
   );
 };

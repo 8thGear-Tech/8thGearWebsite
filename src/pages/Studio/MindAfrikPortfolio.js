@@ -48,7 +48,7 @@ const MindAfrikTractions = () => {
               (portfolioTractions) => {
                 return (
                   <div
-                    className="col-lg-4 col-md-4 col-sm-10 px-5 d-flex align-items-stretch"
+                    className="col-lg-4 col-md-6 col-sm-10  px-lg-4 d-flex align-items-stretch"
                     key={portfolioTractions.id}
                   >
                     <Tractions {...portfolioTractions}></Tractions>

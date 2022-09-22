@@ -35,7 +35,7 @@ export const AboutStartup = (props) => {
         </div>
       </div>
       <div className="row justify-content-center text-center my-3 g-0">
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-2 col-md-6 col-sm-12 my-3">
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{role}</h3>
@@ -43,7 +43,7 @@ export const AboutStartup = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-2 col-md-6 col-sm-12 my-3">
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>

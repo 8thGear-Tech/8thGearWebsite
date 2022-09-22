@@ -16,31 +16,31 @@ const OurModelPage = () => {
 };
 const WhatWeDo = () => {
   return (
-    <div className="container-fluid p-5 WhatWeDoBg">
-      <div className="row ">
-        <div className="col-lg-10 col-md-6 col-sm-12 col-xs-12 m-auto ">
-          <div className="col d-lg-flex d-md-flex">
-            <div className="col">
-              {/* <i
+    <div className="container-fluid px-4 py-5 WhatWeDoBg">
+      <div className="row">
+        <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12 m-auto ">
+          {/* <div className="col d-lg-flex d-md-flex"> */}
+          {/* <div className="col"> */}
+          {/* <i
                 className="bi bi-book iconCol"
                 style={{ fontSize: "28px" }}
               ></i> */}
-              <h3 className="">What We Do</h3>
-              <p>
-                We firmly believe in creating enterprises with a sustainable
-                business strategy at our venture studio. At the beginning of the
-                business and throughout its existence, we place a high priority
-                on speaking with potential clients. Years of failing fast and
-                failing forward to create thriving businesses have helped us
-                identify the conditions required to increase the chances of an
-                idea thriving. Our in-house team of experts is on standby ready
-                to turn ideas into viable businesses.
-              </p>
-            </div>
-          </div>
+          <h3 className="">What We Do</h3>
+          <p>
+            We firmly believe in creating enterprises with a sustainable
+            business strategy at our venture studio. At the beginning of the
+            business and throughout its existence, we place a high priority on
+            speaking with potential clients. Years of failing fast and failing
+            forward to create thriving businesses have helped us identify the
+            conditions required to increase the chances of an idea thriving. Our
+            in-house team of experts is on standby ready to turn ideas into
+            viable businesses.
+          </p>
+          {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
-      <div className="row d-flex justify-content-center mt-5">
+      <div className="row d-flex justify-content-center ">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
@@ -66,7 +66,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center ">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
@@ -92,7 +92,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center ">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
@@ -118,7 +118,7 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center ">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
@@ -149,9 +149,9 @@ const WhatWeDo = () => {
 };
 const HowWeDoIt = () => {
   return (
-    <div className="container p-5 ">
+    <div className="container-fluid px-4 py-5 ">
       <div className="row ">
-        <div className="col-lg-10 col-md-6 col-sm-12 col-xs-12 m-auto ">
+        <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12 m-auto ">
           <div className="col d-lg-flex d-md-flex">
             <div className="col">
               <h3 className="">How We Do It</h3>
@@ -168,7 +168,7 @@ const HowWeDoIt = () => {
             </div>
           </div>
         </div>
-        <div className="row py-3 d-flex justify-content-around">
+        <div className="row py-3 d-flex justify-content-around ">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <img
               src={steponeicon}

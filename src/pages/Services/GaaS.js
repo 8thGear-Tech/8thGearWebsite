@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
 
 const HowWeWork = () => {
   return (
-    <div className="container-fluid px-5 py-3">
+    <div className="container-fluid py-3">
       {" "}
       <h4 className="text-center my-5">How we Work</h4>
       <div className="row justify-content-center my-lg-5 my-sm-2">
@@ -99,7 +99,7 @@ const HowWeWork = () => {
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <NetworkingIcon />
-            <div className="card-body ms-3">
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building
@@ -120,7 +120,7 @@ const HowWeWork = () => {
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <GrowthStrategyIcon />
-            <div className="card-body ms-3">
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building
@@ -131,7 +131,7 @@ const HowWeWork = () => {
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <DealManagementIcon />
-            <div className="card-body ms-3">
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building

@@ -18,13 +18,13 @@ import gallerycardsData from "../../data/gallerycards.json";
 export const AllPortfoliosLogoCard = (props) => {
   const { logo } = props;
   return (
-    <div>
+    <div className="align-items-center">
       <img
         className="my-5"
         src={logo}
         alt="Logos"
-        style={{ maxWidth: "100%" }}
-        height={150}
+        style={{ maxWidth: "100%", maxHeight: "100%" }}
+        // height={150}
       />
     </div>
   );

@@ -2,6 +2,14 @@ import * as React from "react";
 import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
+import Constructionpage from "./pages/constructionpage";
+import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
+import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
+import { NextBtn } from "./components/Buttons/PortfolioBtn";
+import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
+//import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
+// import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
+import Request from "./components/Forms/ServicesForms";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -32,6 +40,7 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
+import TeamsPage from "./pages/About/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
 import BlogPage from "./pages/Insights/blog";
 
@@ -42,6 +51,7 @@ import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
+// import AboutUs from "./pages/About/aboutUs";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
 import { Footer } from "./components/Footer";
@@ -49,7 +59,6 @@ import { Footer } from "./components/Footer";
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
 // import Navbar from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
@@ -147,6 +156,8 @@ function App() {
         <Route path="USADF-gallery" element={<USADFGalleryPage />} />
         <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
         {/* <Route path="media" element={<GalleryCards />} /> */}
+        <Route path="abt" element={<AboutUs />} />
+        <Route path="teams" element={<TeamsPage />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}

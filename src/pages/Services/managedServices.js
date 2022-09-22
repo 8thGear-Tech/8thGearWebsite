@@ -21,8 +21,8 @@ const ManagedServicesPage = () => {
 
 const HowItWorks = () => {
   return (
-    <div className="container-fluid py-5 pe-3 howItWorksBg ">
-      <div className="row mx-5">
+    <div className="container-fluid py-4 pe-3 howItWorksBg">
+      <div className="row mx-2">
         <div className="col-lg-4 col-md-5 col-sm-12 col-xs-12 m-auto ">
           {/* <div className="col d-lg-flex d-md-flex"> */}
           {/* <div className="col"> */}
@@ -47,7 +47,7 @@ const HowItWorks = () => {
           </div> */}
         </div>
         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 d-flex align-items-center">
-          <p>
+          <p className="mt-2">
             We at 8thGear are helpmates to your business and because we believe
             in the uniqueness of every individual and business, we tailor our
             solutions to suit your needs and aspirations. We are not only our
@@ -67,7 +67,7 @@ const Services = () => {
   return (
     <div className="container-fluid text-center">
       <div className="row">
-        <h3 className="mb-5">Services</h3>
+        <h3 className="mb-4">Services</h3>
         {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
           return (
             <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />

@@ -71,10 +71,10 @@ const OurClients = () => {
   return (
     <div className="container-fluid">
       {" "}
-      <div className="row py-3">
-        <h3 className="mt-4 text-center mb-5">Our Partners</h3>
-        <div className="row TextAlignCenter">
-          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+      <div className="row g-0">
+        <h3 className="mt-4 text-center mb-4">Our Partners</h3>
+        <div className="row TextAlignCenter justify-content-center">
+          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
             <img
               src={gizlogo}
               className="logo1 col-12 "
@@ -82,21 +82,21 @@ const OurClients = () => {
             ></img>
           </div>
 
-          <div className="TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+          <div className="TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
             <img
               src={usadflogo}
               className="logo1 col-12"
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </div>
-          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
             <img
               src={lsetflogo}
               className="logo1 col-12 "
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </div>
-          {/* <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-2">
+          {/* <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
             <img
               src={itflogo}
               className="logo1 col-12 "
@@ -114,19 +114,22 @@ const SuccessStoryCards = () => {
     <>
       <div className="container-fluid successStoryBg">
         {" "}
-        <div className="row justify-content-center m-5 p-5 align-items-stretch">
+        <div className="row justify-content-center mt-5 mb-2 pt-5 mx-lg-5 px-3">
           <h4 className="text-center">SUCCESS STORY</h4>
           {successStoryGalleryCard.successStory.map((items) => {
             return (
               <>
-                <div className="col-md-4 my-4" key={items.id}>
+                <div
+                  className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex align-items-stretch"
+                  key={items.id}
+                >
                   <SinglegalleryCards {...items} />
                 </div>
               </>
             );
           })}
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center pb-4">
           <ProjectDeliveryViewMoreBtn />
         </div>
       </div>
