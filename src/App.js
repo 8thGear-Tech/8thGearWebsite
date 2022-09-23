@@ -99,12 +99,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="teampage" element={<TeamsPage />} /> */}
-        {/* <Route path="events" element={<Events />} /> */}
-        <Route path="constructionpage" element={<Constructionpage />} />
+        <Route path="teampage" element={<TeamPage />} />
         <Route path="coworking" element={<CoWorking />} />
+        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
+        {/* <Route path="events" element={<Events />} /> */}
       </Routes>
-      <Route path="our-model" element={<OurModelPage />} />
+      {/* <Route path="our-model" element={<OurModelPage />} />
       <Route path="portfolio" element={<PortfolioPage />} />
       <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
       <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
@@ -113,40 +113,37 @@ function App() {
       <Route path="project-delivery" element={<ProjectDeliveryPage />} />
       <Route
         path="project-delivery-gallery"
-        element={<ProjectDeliveryGalleryPage />}
-      />
-      <Route path="GIZ-gallery" element={<GIZPage />} />
+        element={<ProjectDeliveryGalleryPage />} */}
+      {/* /> */}
+      {/* <Route path="GIZ-gallery" element={<GIZPage />} />
       <Route path="S4P-gallery" element={<S4PPage />} />
       <Route path="LSETF-gallery" element={<LSETFPage />} />
       <Route path="FUTA-gallery" element={<FUTAPage />} />
-      <Route path="managed-services" element={<ManagedServicesPage />} />
+      <Route path="managed-services" element={<ManagedServicesPage />} /> */}
       {/* <Route
           path="digitalmarketing"
           element={<ManagedServicesDigitalMarketing />}
         /> */}
-      <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+      {/* <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
       <Route path="team" element={<TeamPage />} />
-      <Route path="blog" element={<BlogPage />} />
+      <Route path="blog" element={<BlogPage />} /> */}
       {/* <Route path="faq" element={<FAQ />} /> */}
-      <Route path="events" element={<EventsPage />} />
+      {/* <Route path="events" element={<EventsPage />} />
       <Route path="events-gallery" element={<EventsGalleryPage />} />
       <Route path="demo-day" element={<DemoDayPage />} />
       <Route path="founders-meetup" element={<FounderMeetupPage />} />
       <Route
         path="founders-meetup-gallery"
         element={<FoundersMeetupGalleryPage />}
-      />
-      <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+      /> */}
+      {/* <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
       <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
       <Route path="USADF-gallery" element={<USADFGalleryPage />} />
-      <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
+      <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
       {/* <Route path="media" element={<GalleryCards />} /> */}
-
       {/* <Route path="constructionpage" element={<Constructionpage />} />
        */}
-
       {/* <Route path="events" element={<Events />} /> */}
-
       {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
       {/* <Route path="button1" element={<BookNowBtn />} />
         <Route path="button3" element={<BookaFreeSessionBtn />} />
@@ -166,11 +163,9 @@ function App() {
       {/* <Route path="button8" element={<ManagedServicesPage />} />
         <Route path="button9" element={<ProjectDeliveryPage />} /> */}
       {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
-
       {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
       {/* </Routes> */}
       {/* <UnderconstructionNavbar /> */}
-
       {/* <footer>
         <Footer />
       </footer> */}

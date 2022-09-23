@@ -34,7 +34,7 @@ const SectionOne = () => {
           Venture Studio
         </Link>
         <Link
-          to="constructionpage"
+          to="coworking"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}

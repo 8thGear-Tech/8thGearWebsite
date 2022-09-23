@@ -13,7 +13,7 @@ export const TeamCard = (props) => {
   const { image, name, title, text } = props;
   return (
     <>
-      <div className="card-deck Team">
+      <div className="card-deck">
         <div class="card w-75 mx-auto ">
           <img src={image} class="card-img-top Teampic " alt="Teamimage" />
           <div class="card-body teamcardbody">
