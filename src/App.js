@@ -38,11 +38,12 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 import FAQ from "./pages/Insights/FAQ";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
+import { About } from "./components/AllCards/TestimonialCards";
 // import { Navbar } from "./components/Navbar";
 // import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
 // import { Lad } from "./components/Forms";
@@ -54,6 +55,7 @@ import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDig
 import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
 import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import ManagedServicesAccounting from "./pages/Services/managedServicesAccounting";
+import { Footer } from "./components/Footer";
 
 // import { Gerians } from "./components/AllCards/TeamCard";
 // import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
@@ -103,11 +105,12 @@ function App() {
       {/* <Lad /> */}
       {/* <CoWorkingPageTestimonialCard /> */}
       {/* <AboutUs /> */}
+      {/* <About /> */}
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="projectdelivery" element={<ProjectDeliveryPage />} />
         <Route path="managedservices" element={<ManagedServicesPage />} />
-        <Route path="ourmodel" element={<OurModelPage />} />
+        <Route path="our-model" element={<OurModelPage />} />
         <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
         <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
         <Route path="haven" element={<HavenPortfolioPage />} />
@@ -195,6 +198,7 @@ function App() {
       {/* <DemodayCards /> */}
       {/* <GalleryCards />
       <GalleryVideoCards /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

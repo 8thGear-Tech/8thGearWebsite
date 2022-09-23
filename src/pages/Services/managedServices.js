@@ -5,6 +5,7 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
 import { ManagedServicesHero } from "../../components/Hero/BGColorandTextHero";
+import { ManagedServicesPageTestimonialCard } from "../../components/AllCards/TestimonialCards";
 
 const ManagedServicesPage = () => {
   return (
@@ -14,6 +15,7 @@ const ManagedServicesPage = () => {
       <Services />
       <HowItWorks />
       <ManagedServicesTractions />
+      <ManagedServicesPageTestimonialCard />
     </>
   );
 };
@@ -60,6 +62,8 @@ const HowItWorks = () => {
     </div>
   );
 };
+
+
 
 const Services = () => {
   return (

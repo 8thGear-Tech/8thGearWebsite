@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import logo from "./../assets/images/logo.png";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <>
       <footer className="px-1 mx-2 px-2">
@@ -579,5 +579,3 @@ export function Modal({ closeModal }) {
     </>
   );
 }
-
-export default Footer;
