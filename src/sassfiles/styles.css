@@ -1065,4 +1065,30 @@ video {
   transform: translate(-50%, -50%);
   transition-timing-function: ease;
 }
+
+header {
+  background-image: url(file:///C:/Users/samue/OneDrive/Documents/GitHub/8thGearWebsite/src/assets/images/Rectangle%202.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 1em;
+  box-sizing: border-box;
+  color: white;
+}
+
+.blogBody {
+  text-align: center;
+}
+
+.border {
+  border-radius: 20px;
+}
+
+.blogImage {
+  width: 50vh;
+}
 /*# sourceMappingURL=styles.css.map */

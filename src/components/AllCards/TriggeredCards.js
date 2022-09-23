@@ -3,7 +3,7 @@ import hoverData from "../../data/triggeredCards.json";
 import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
 import logo from "../../assets/images/logo.png";
 import link from "../../assets/images/LinkedIn_icon.png";
-import { JointheTeamBtn } from "../Buttons/ContactBtn";
+//import { JointheTeamBtn } from "../Buttons/ContactBtn";
 //import img from "../../assets/images/TeamImage.jpg"
 import LinkedIn_icon from "../../assets/images/Vector.png"
 

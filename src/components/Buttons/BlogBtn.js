@@ -71,7 +71,7 @@ export const ShareBtn = () => {
 export const BlogReadMoreLinkBtn = () => {
   return (
     <>
-      <a href="BlogReadMoreLinkBtn">Read More</a>
+      <a href="BlogReadMoreLinkBtn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Read More</a>
     </>
   );
 };

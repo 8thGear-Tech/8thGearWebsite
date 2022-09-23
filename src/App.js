@@ -10,6 +10,7 @@ import {EightgeariansPopUpCard1} from "./components/AllCards/TriggeredCards"
 //import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
 // import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
 import Request from "./components/Forms/ServicesForms";
+import {BlogPost} from "./components/BlogPost"
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -144,6 +145,7 @@ function App() {
         {/* <Route path="media" element={<GalleryCards />} /> */}
         <Route path="abt" element={<AboutUs />} />
         <Route path="teams" element={<TeamsPage />} />
+        <Route path="blogpost" element={<BlogPost />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}
