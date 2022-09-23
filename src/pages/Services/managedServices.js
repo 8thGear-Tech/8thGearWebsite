@@ -68,9 +68,9 @@ const Services = () => {
     <div className="container-fluid text-center">
       <div className="row">
         <h3 className="mb-4">Services</h3>
-        {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
+        {Data2.ManagedServicesImages.map((ManagedServicesImage) => {
           return (
-            <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
+            <ProjectDeliveryManagedServicesCard {...ManagedServicesImage} />
           );
         })}
       </div>

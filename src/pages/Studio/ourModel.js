@@ -176,8 +176,8 @@ const HowWeDoIt = () => {
             <img src={steponeicon} className="img-fluid" alt="" loading="" />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
-            <h3 className="">01- Ideation</h3>
-            <h2 className="">The idea could be ours or it could be yours.</h2>
+            <h4 className="">01- Ideation</h4>
+            <h3 className="">The idea could be ours or it could be yours.</h3>
             <p>
               When we come across a problem that we think is intriguing and
               significant, we dive right in, looking for long-term solutions.
@@ -189,11 +189,11 @@ const HowWeDoIt = () => {
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
           <div className="col-lg-6 col-md-7 col-sm-10">
-            <h3 className="">02- Validation</h3>
-            <h2 className="">
+            <h4 className="">02- Validation</h4>
+            <h3 className="">
               Speaking with potential customers from the beginning to confirm
               assumptions.
-            </h2>
+            </h3>
             <p>
               The Venture Studio model for entrepreneurship, combining comapny
               building with venture funding.The Venture Studio model for
@@ -211,8 +211,8 @@ const HowWeDoIt = () => {
             <img src={steponeicon} className="img-fluid" alt="" loading="" />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
-            <h3 className="">03- Creation</h3>
-            <h2 className="">Fail fast Fail forward</h2>
+            <h4 className="">03- Creation</h4>
+            <h3 className="">Fail fast Fail forward</h3>
             <p>
               We don't spend decades perfecting an MVP; we deploy as soon as
               possible. Taking real-time market lessons and making adjustments
@@ -225,8 +225,8 @@ const HowWeDoIt = () => {
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
           <div className="col-lg-6 col-md-7 col-sm-10">
-            <h3 className="">Step 4</h3>
-            <h2 className="">Taking real-time market lessons</h2>
+            <h4 className="">Step 4</h4>
+            <h3 className="">Taking real-time market lessons</h3>
             <p>
               The Venture Studio model for entrepreneurship, combining comapny
               building with venture funding.The Venture Studio model for

@@ -27,7 +27,7 @@ const ProjectDeliveryPage = () => {
       <Competencies />
       <OurImpact />
       <OurClients />
-      <SuccessStoryCards />
+      {/* <SuccessStoryCards /> */}
     </>
   );
 };
@@ -52,9 +52,9 @@ const Competencies = () => {
     <div className="container-fluid">
       <h4 className="py-5 text-center">COMPETENCIES</h4>
       <div className="row">
-        {Data.ManagedServicesImages.map((ManagedServicesImage) => {
+        {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
           return (
-            <ProjectDeliveryManagedServicesCard {...ManagedServicesImage} />
+            <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
           );
         })}
       </div>
