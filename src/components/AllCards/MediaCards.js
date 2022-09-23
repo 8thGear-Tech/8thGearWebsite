@@ -10,6 +10,7 @@ import galleryfounderData from "../../data/galleryFoundermeetup.json";
 import galleryprojectData from "../../data/projectdelivery.json";
 import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
+import { Link } from "react-router-dom";
 // import Record from "../../data/blog.json"
 // //GalleryMediaCards
 // //AllPortfoliosLogoCard
@@ -267,13 +268,16 @@ export const SingleDemodayCards = (props) => {
 };
 
 export const SinglegalleryCards = (props) => {
-  const { image, id, text } = props;
+  const { image, link, text } = props;
   return (
     <>
       <div className="card successStoryCardBg">
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">{text}</p>
+          <Link to={link} className="text-decoration-none text-black">
+            {" "}
+            <p className="card-text">{text}</p>
+          </Link>
         </div>
       </div>
     </>
@@ -334,8 +338,8 @@ export const SinglegalleryVideo = (props) => {
   const { video, id, text } = props;
   return (
     <>
-      <div className="card">
-        <iframe src={video} className="card-img-top" alt="..." />
+      <div className="card h-100">
+        <iframe src={video} className="" alt="..." />
       </div>
     </>
   );

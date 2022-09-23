@@ -36,3 +36,60 @@ export const ManageServicesDigitalMarketingHero = () => {
     </div>
   );
 };
+
+export const HomePageHero = () => {
+  return (
+    <div className="container-fluid d-flex align-items-center homeHeroBg">
+      <div className="row justify-content-start ms-5">
+        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
+          <h2>
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const OurModelHero = () => {
+  return (
+    <div className="container-fluid d-flex align-items-center ourModelHeroBg">
+      <div className="row justify-content-start ms-5">
+        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
+          <h2>
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const ProjectDeliveryHero = () => {
+  return (
+    <div className="container-fluid d-flex align-items-center projectDeliveryHeroBg">
+      <div className="row justify-content-start ms-5">
+        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
+          <h2>
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const DemoDayGalleryHero = () => {
+  return (
+    <div className="container-fluid d-flex align-items-center projectDeliveryHeroBg">
+      <div className="row justify-content-start ms-5">
+        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
+          <h2>
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+        </div>
+      </div>
+    </div>
+  );
+};

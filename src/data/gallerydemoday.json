@@ -2,65 +2,48 @@
   "gallerydemoday": [
     {
       "id": 1,
-      "image": "./images/gallerydemoday/1demoday.jpg"
+      "image": "./images/gallerydemoday/demoday1.jpg"
     },
     {
       "id": 2,
-      "image": "./images/gallerydemoday/2demoday.jpg"
+      "image": "./images/gallerydemoday/demoday2.jpg"
     },
     {
       "id": 3,
-      "image": "./images/gallerydemoday/3demoday.jpg"
+      "image": "./images/gallerydemoday/demoday3.jpg"
     },
 
     {
       "id": 4,
-      "image": "./images/gallerydemoday/4demoday.jpg"
+      "image": "./images/gallerydemoday/demoday4.jpg"
     },
     {
       "id": 5,
-      "image": "./images/gallerydemoday/5demoday.jpg"
+      "image": "./images/gallerydemoday/demoday5.jpg"
     },
     {
       "id": 6,
-      "image": "./images/gallerydemoday/6demoday.jpg"
+      "image": "./images/gallerydemoday/demoday6.jpg"
     },
     {
       "id": 7,
-      "image": "./images/gallerydemoday/7demoday.jpg"
+      "image": "./images/gallerydemoday/demoday7.jpg"
     },
     {
       "id": 8,
-      "image": "./images/gallerydemoday/8demoday.jpg"
-    },
-    {
-      "id": 9,
-      "image": "./images/gallerydemoday/9demoday.jpg"
-    },
-    {
-      "id": 10,
-      "image": "./images/gallerydemoday/10demoday.jpg"
-    },
-    {
-      "id": 11,
-      "image": "./images/gallerydemoday/11demoday.jpg"
-    },
-
-    {
-      "id": 12,
-      "image": "./images/gallerydemoday/15demoday.jpg"
+      "image": "./images/gallerydemoday/demoday8.jpg"
     }
   ],
   "Demovideo": [
     {
       "id": 2,
-      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "video": " https://www.youtube.com/embed/vsfp35Zt99Y",
       "text": "video session from meeting"
     },
 
     {
       "id": 2,
-      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "video": "https://www.youtube.com/embed/GoVRCH8A7zI",
       "text": "video session from meeting"
     }
   ]

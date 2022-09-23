@@ -17,12 +17,13 @@ import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
+import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
 
 const ProjectDeliveryPage = () => {
   return (
     <>
       <Navbar3 />
-      {/* <ProjectDeliveryPageHero /> */}
+      <ProjectDeliveryHero />
       <Competencies />
       <OurImpact />
       <OurClients />

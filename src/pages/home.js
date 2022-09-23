@@ -8,11 +8,13 @@ import evolveicon from "../assets/images/evolveicon.png";
 import engageicon from "../assets/images/engageicon.png";
 import { Navbar0 } from "../components/Navbar";
 import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
+import { HomePageHero } from "../components/Hero/ImageandTextHero";
 
 const Home = () => {
   return (
     <>
       <Navbar0 />
+      <HomePageHero />
       <SectionOne />
       <Line />
       <SectionTwo />

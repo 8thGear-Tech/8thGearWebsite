@@ -948,6 +948,30 @@ article h4 {
   width: 100vh;
 }
 */
+.homeHeroBg {
+  background: url(/src/assets/images/hero/homepagehero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1;
+}
+
+.ourModelHeroBg {
+  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1;
+}
+
+.projectDeliveryHeroBg {
+  background: url(/src/assets/images/hero/projectdelivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1;
+}
+
 video {
   width: 100vw;
   height: 100vh;

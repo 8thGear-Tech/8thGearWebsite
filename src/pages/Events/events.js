@@ -11,8 +11,8 @@ import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
-import demoday from "../../assets/images/events/demoday.png";
-import foundersmeetup from "../../assets/images/events/foundersmeetup.png";
+import demoday from "../../assets/images/events/demoday.JPG";
+import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
 import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";
@@ -111,7 +111,7 @@ const EventsGallery = () => {
     <>
       <div className="container-fluid successStoryBg">
         {" "}
-        <div className="row justify-content-center mt-5 mb-2 pt-5 mx-lg-5 px-3">
+        <div className="row justify-content-center mt-5 mb-2 py-5 mx-lg-5 px-3">
           <h4 className="text-center">Gallery</h4>
           {eventsGallery.eventsGallerySection.map((items) => {
             return (
@@ -126,9 +126,9 @@ const EventsGallery = () => {
             );
           })}
         </div>
-        <div className="d-flex justify-content-center pb-4">
+        {/* <div className="d-flex justify-content-center pb-4">
           <EventsViewMoreBtn />
-        </div>
+        </div> */}
       </div>
     </>
   );
