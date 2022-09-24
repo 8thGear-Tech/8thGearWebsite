@@ -2,19 +2,23 @@
   "PortfolioLogos": [
     {
       "id": 1,
-      "logo": "images/newinnkeeperlogo.png"
+      "logo": "images/newinnkeeperlogo.png",
+      "link": "/innkeeper"
     },
     {
       "id": 2,
-      "logo": "images/havenone.png"
+      "logo": "images/havenone.png",
+      "link": "/haven"
     },
     {
       "id": 3,
-      "logo": "images/mindafrikone.png"
+      "logo": "images/mindafrikone.png",
+      "link": "/mind-afrik"
     },
     {
       "id": 4,
-      "logo": "images/ease.png"
+      "logo": "images/ease.png",
+      "link": "/ease-soiless"
     }
   ]
 }

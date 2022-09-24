@@ -17,16 +17,18 @@ import { Link } from "react-router-dom";
 // //ProjectDeliveryManagedServicesCard
 
 export const AllPortfoliosLogoCard = (props) => {
-  const { logo } = props;
+  const { logo, link } = props;
   return (
     <div className="align-items-center">
-      <img
-        className="my-5"
-        src={logo}
-        alt="Logos"
-        style={{ maxWidth: "100%", maxHeight: "100%" }}
-        // height={150}
-      />
+      <Link to={link}>
+        <img
+          className="my-5"
+          src={logo}
+          alt="Logos"
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
+          // height={150}
+        />
+      </Link>
     </div>
   );
 };

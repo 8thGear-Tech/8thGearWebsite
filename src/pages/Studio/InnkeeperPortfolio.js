@@ -46,7 +46,7 @@ const StartupsTractions = () => {
               (portfolioTractions) => {
                 return (
                   <div
-                    className="col-lg-4 col-md-6 col-sm-10 px-lg-4 d-flex align-items-stretch"
+                    className="col-lg-3 col-md-6 col-sm-10 px-3 d-flex align-items-stretch"
                     key={portfolioTractions.id}
                   >
                     <Tractions {...portfolioTractions}></Tractions>

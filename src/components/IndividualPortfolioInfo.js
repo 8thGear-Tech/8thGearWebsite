@@ -18,14 +18,15 @@ export const AboutStartup = (props) => {
         <div className="row justify-content-center">
           <div className="d-flex justify-content-center pt-5">
             {" "}
-            <a href="" to={link}>
+            <a href={link}>
               {" "}
               <img
                 src={img}
-                className=""
-                width="70px"
-                height="40px"
+                className="img-fluid"
+                // width="70px"
+                // height="40px"
                 alt="..."
+                // style={{ width: "px" }}
               />
             </a>
           </div>
@@ -47,7 +48,7 @@ export const AboutStartup = (props) => {
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>
-              <a href="#" className="text-decoration-none text-black">
+              <a href={link} className="text-decoration-none text-black">
                 <p>{website}</p>
               </a>
             </div>

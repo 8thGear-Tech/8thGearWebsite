@@ -43,10 +43,7 @@ const LSETFVideoCards = () => {
           {gallerylsetfData.galleryvideocards.map((items) => {
             return (
               <>
-                <div
-                  className="col-lg-4 col-md-6 col-sm-10 my-5"
-                  key={items.id}
-                >
+                <div className="" key={items.id}>
                   <SinglegalleryVideo {...items} />
                 </div>
               </>
