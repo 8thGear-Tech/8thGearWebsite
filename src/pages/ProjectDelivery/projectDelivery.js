@@ -130,9 +130,9 @@ const SuccessStoryCards = () => {
             );
           })}
         </div>
-        <div className="d-flex justify-content-center pb-4">
+        {/* <div className="d-flex justify-content-center pb-4">
           <ProjectDeliveryViewMoreBtn />
-        </div>
+        </div> */}
       </div>
     </>
   );

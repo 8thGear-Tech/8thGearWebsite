@@ -2,11 +2,13 @@ import gallerylsetfData from "../../data/gallerylsetf.json";
 import { SingleLsetfCards } from "../../components/AllCards/MediaCards";
 import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
+import { LSETFGalleryHero } from "../../components/Hero/ImageandTextHero";
 
 const LSETFPage = () => {
   return (
     <>
       <Navbar17 />
+      <LSETFGalleryHero />
       <LSETFPictureCards />
       <LSETFVideoCards />
     </>
@@ -43,7 +45,10 @@ const LSETFVideoCards = () => {
           {gallerylsetfData.galleryvideocards.map((items) => {
             return (
               <>
-                <div className="" key={items.id}>
+                <div
+                  className="col-lg-4 col-md-4 col-sm-10 my-4"
+                  key={items.id}
+                >
                   <SinglegalleryVideo {...items} />
                 </div>
               </>

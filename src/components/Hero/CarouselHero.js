@@ -1,7 +1,9 @@
 //CoWorkingPageHero
 //EventPageHero
 
-import homepagehero from "../../assets/images/homepagehero.png";
+import demoday1 from "../../assets/images/hero/demoday1.JPG";
+import demoday2 from "../../assets/images/hero/demoday2.JPG";
+import demoday3 from "../../assets/images/hero/demoday3.jpg";
 
 export const EventPageHero = () => {
   return (
@@ -12,13 +14,13 @@ export const EventPageHero = () => {
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={homepagehero} class="d-block w-100 " alt="..." />
+          <img src={demoday1} class="d-block w-100 " alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={homepagehero} class="d-block w-100 " alt="..." />
+          <img src={demoday2} class="d-block w-100 " alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={homepagehero} class="d-block w-100 h-25" alt="..." />
+          <img src={demoday3} class="d-block w-100 h-25" alt="..." />
         </div>
       </div>
       <button
@@ -56,7 +58,7 @@ export const CoWorkingPageHero = () => {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src={homepagehero}
+            // src={homepagehero}
             class="img-fluid carouselImage d-block w-100 h-50"
             alt="..."
           />
@@ -66,7 +68,7 @@ export const CoWorkingPageHero = () => {
         </div>
         <div class="carousel-item">
           <img
-            src={homepagehero}
+            // src={homepagehero}
             class="img-fluid carouselImage d-block w-100 h-50"
             alt="..."
           />
@@ -76,7 +78,7 @@ export const CoWorkingPageHero = () => {
         </div>
         <div class="carousel-item">
           <img
-            src={homepagehero}
+            // src={homepagehero}
             class="img-fluid carouselImage d-block w-100 h-50"
             alt="..."
           />

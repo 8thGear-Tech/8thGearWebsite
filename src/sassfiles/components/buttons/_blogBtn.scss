@@ -9,6 +9,14 @@
 
 .LinkedInBtn {
   background-color: $linkedinbtncolor;
+  &:hover {
+    background-color: $linkedinbtncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $linkedinbtncolor;
+    color: $sectextcolor;
+  }
   @include LinkedInBtn;
 }
 
@@ -18,12 +26,27 @@
 
 .InstagramBtn {
   background-color: $InstagramBtn;
-
+  &:hover {
+    background-color: $InstagramBtn;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $InstagramBtn;
+    color: $sectextcolor;
+  }
   @include LinkedInBtn;
 }
 
 .ShareBtn {
   background-color: $ShareBtn;
+  &:hover {
+    background-color: $ShareBtn;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $ShareBtn;
+    color: $sectextcolor;
+  }
   @include LinkedInBtn;
 }
 .BlogReadMoreBtn {
@@ -31,7 +54,7 @@
   //   color: $prytextcolor;
   //   border-radius: 0.938rem;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -39,6 +62,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 @mixin BlogReadMoreLinkBtn {
@@ -62,7 +93,7 @@
   //   border: 3px solid $btncolor;
   //   border-radius: 2.188rem;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 12rem;
   height: 2.5rem;
@@ -70,6 +101,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 .SubmitCommentBtn {

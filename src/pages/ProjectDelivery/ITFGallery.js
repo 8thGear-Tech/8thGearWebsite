@@ -2,11 +2,13 @@ import galleryITFData from "../../data/galleryITF.json";
 import { SingleITFGalleryCards } from "../../components/AllCards/MediaCards";
 import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
+import { ITFGalleryHero } from "../../components/Hero/ImageandTextHero";
 
 const ITFGalleryPage = () => {
   return (
     <>
       <Navbar17 />
+      <ITFGalleryHero />
       <ITFGalleryPictureCards />
       {/* <InnkeeperHackathonGalleryVideoCards /> */}
     </>

@@ -24,6 +24,8 @@
 //     </div>
 //   );
 // };
+// import projectdelivery from "../../assets/images/hero/projectdeliveryhero.png";
+import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
@@ -47,13 +49,22 @@ export const ManageServicesDigitalMarketingHero = () => {
 
 export const HomePageHero = () => {
   return (
-    <div className="container-fluid d-flex align-items-center homeHeroBg">
-      <div className="row justify-content-start ms-5">
-        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
-          <h2>
+    <div className="px-4 container-fluid homeHeroBg d-flex pt-3 pb-4 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
         </div>
       </div>
     </div>
@@ -61,27 +72,94 @@ export const HomePageHero = () => {
 };
 export const OurModelHero = () => {
   return (
-    <div className="container-fluid d-flex align-items-center ourModelHeroBg">
-      <div className="row justify-content-start ms-5">
-        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
-          <h2>
+    <div className="px-4 container-fluid ourModelHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
         </div>
       </div>
     </div>
   );
 };
+// export const ProjectDeliveryHero = () => {
+//   return (
+//     <div>
+//       <img src={projectdelivery} class="d-block w-100 " alt="..." />
+//       <div className="row">
+//         <div className="col-lg-8 col-md-8 col-sm-12">
+//           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5  ">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h2>
+//           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none ">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h3>
+//         </div>
+//       </div>
+//     </div>
+//   );
 export const ProjectDeliveryHero = () => {
   return (
-    <div className="container-fluid d-flex align-items-center projectDeliveryHeroBg">
-      <div className="row justify-content-start ms-5">
-        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
-          <h2>
+    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-4 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const GaaSHero = () => {
+  return (
+    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const CoworkingHero = () => {
+  return (
+    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
         </div>
       </div>
     </div>
@@ -89,15 +167,127 @@ export const ProjectDeliveryHero = () => {
 };
 export const DemoDayGalleryHero = () => {
   return (
-    <div className="container-fluid d-flex align-items-center projectDeliveryHeroBg">
-      <div className="row justify-content-start ms-5">
-        <div className="col-lg-6 col-md-4 col-sm-10 col-xs-6">
-          <h2>
+    <div className="px-4 container-fluid demoDayHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
         </div>
       </div>
     </div>
   );
 };
+export const PiggeryTrainingGalleryHero = () => {
+  return (
+    <div className="px-4 container-fluid piggeryTrainingHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const GIZEmployabilityGalleryHero = () => {
+  return (
+    <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const LSETFGalleryHero = () => {
+  return (
+    <div className="px-4 container-fluid LSETFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const HackathonGalleryHero = () => {
+  return (
+    <div className="px-4 container-fluid hackathonHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const ITFGalleryHero = () => {
+  return (
+    <div className="px-4 container-fluid ITFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="row">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+// export const DemoDayGalleryHero = () => {
+//   return (
+//     <div className="px-4 container-fluid demoDayHeroBg d-flex pt-3 pb-4 align-items-center">
+//       <div className="row">
+//         <div className="col-lg-8 col-md-8 col-sm-12">
+//           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h2>
+//           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h3>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };

@@ -66,7 +66,7 @@ export const FoundersMeetupHero = () => {
     </div>
   );
 };
-export const Demoday = () => {
+export const DemoDayHero = () => {
   return (
     <div className="PortfolioHero">
       {data.demoDay.map((portFolio) => {

@@ -9,11 +9,13 @@ import { GrowthStrategyIcon } from "../../components/Icons";
 import { DealManagementIcon } from "../../components/Icons";
 import { Navbar9 } from "../../components/Navbar";
 import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
+import { GaaSHero } from "../../components/Hero/ImageandTextHero";
 
 const GrowthAsAservice = () => {
   return (
     <>
       <Navbar9 />
+      <GaaSHero />
       <WhyChooseUs />
       <HowWeWork />
     </>

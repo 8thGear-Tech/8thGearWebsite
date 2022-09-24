@@ -1,11 +1,13 @@
 import galleryData from "../../data/gallerypiggerytraining.json";
 import { SinglePiggeryTrainingCards } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
+import { PiggeryTrainingGalleryHero } from "../../components/Hero/ImageandTextHero";
 
 const PiggeryTrainingPage = () => {
   return (
     <>
       <Navbar17 />
+      <PiggeryTrainingGalleryHero />
       <PiggeryTrainingCards />
     </>
   );

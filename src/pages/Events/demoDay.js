@@ -1,8 +1,10 @@
 import { Navbar16 } from "../../components/Navbar";
+import { DemoDayHero } from "../../components/Hero/BGColorandTextHero";
 const DemoDayPage = () => {
   return (
     <>
       <Navbar16 />
+      <DemoDayHero />
       <AboutDemoDay />
     </>
   );
@@ -26,7 +28,6 @@ const AboutDemoDay = () => {
         <li>Address: 11B Collin onabule, Diamond Estate, Lagos. Map</li>
         <li>Time: 3pm - 5pm (No African Time, our policy for 2020)</li>
         <li>Date: 25th January.</li>
-        <li></li>
       </ul>
       <p>A few things to note:</p>
       <ol className="">

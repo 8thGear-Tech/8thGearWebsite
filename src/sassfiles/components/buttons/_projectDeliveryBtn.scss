@@ -11,7 +11,7 @@
   // border: none;
   // border: 3px solid $btncolor;
   background-color: $btncolor;
-  color: $sectextcolor !important;
+  color: $sectextcolor;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -28,7 +28,7 @@
   // font-weight: 500;
   // background-color: #fff;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 8.55rem;
   height: 2.5rem;
@@ -36,6 +36,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 .LearnMoreBtn {
   @include LearnMoreBtn;
@@ -45,7 +53,7 @@
 
 .RequestForProposalBtn {
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 15.5rem;
   height: 2.5rem;
@@ -53,10 +61,18 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 .ProjectDeliveryViewMoreBtn {
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -64,4 +80,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }

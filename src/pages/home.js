@@ -29,15 +29,16 @@ const SectionOne = () => {
       <p className="text-center homePageText">
         8thGear is a
         <Link
-          to="teampage"
+          to="/our-model"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
         >
           Venture Studio
         </Link>
+        &
         <Link
-          to="coworking"
+          to="/project-delivery"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
@@ -83,7 +84,10 @@ const SectionTwo = () => {
                 height="50px"
                 className="mb-3"
               />
-              <h3>VENTURE STUDIO</h3>
+              <Link to="/our-model" className="headerText">
+                <h3>VENTURE STUDIO</h3>
+              </Link>
+
               <p>
                 Turning ideas either ours or yours into sustainable businesses
                 is what we do best.
@@ -99,7 +103,10 @@ const SectionTwo = () => {
                 height="70px"
                 className="mb-3"
               />
-              <h3>PROJECT DELIVERY</h3>
+              <Link to="/project-delivery" className="headerText">
+                <h3>PROJECT DELIVERY</h3>
+              </Link>
+
               <p>
                 {" "}
                 Executing impact and self sustaining initiatives is our forte.
