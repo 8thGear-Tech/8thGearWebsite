@@ -6,11 +6,13 @@ import { WebDevIcon } from "../../components/Icons";
 import { AppDevIcon } from "../../components/Icons";
 import { DevOpsIcon } from "../../components/Icons";
 import { ProductDevIcon } from "../../components/Icons";
+import { ManagedServicesTechHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesTech = () => {
   return (
     <>
       <Navbar7 />
+      <ManagedServicesTechHero />
       <section className="p-5">
         {servicesData.tech.map((props) => {
           const { id, title, textLeft, textRight } = props;

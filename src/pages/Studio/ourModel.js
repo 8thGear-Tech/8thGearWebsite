@@ -194,6 +194,9 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+            <ValidationIcon />
+          </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
             <h4 className="">02- Validation</h4>
             <h3 className="">
@@ -206,9 +209,6 @@ const HowWeDoIt = () => {
               entrepreneurship, combining comapny building with venture
               funding.The Venture Studio model for entrepreneurship,
             </p>
-          </div>
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <ValidationIcon />
           </div>
         </div>
         <div className="row align-items-center justify-content-center my-4 mx-3">
@@ -230,6 +230,9 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+            <SpinOutIcon />
+          </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
             <h4 className="">04- Spinout</h4>
             <h3 className="">We spin out once proof of concept is achieved.</h3>
@@ -240,9 +243,6 @@ const HowWeDoIt = () => {
               branding, and human resources experts get to work right away,
               spinning them off as distinct firms with a strong framework.
             </p>
-          </div>
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <SpinOutIcon />
           </div>
         </div>
         <div className="row align-items-center justify-content-center my-4 mx-3">

@@ -1431,6 +1431,78 @@ article h4 {
   color: rgb(255, 255, 255);
 }
 
+.ManagedServicesLegalHero {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 1;
+}
+
+.ManagedServicesLegalHeroMobileView {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  opacity: 1;
+}
+
+.ManagedDigitalMarketServicesHero {
+  background: url(/src/assets/images/hero/digitalmarketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 1;
+}
+
+.ManagedDigitalMarketServicesHeroMobileView {
+  background: url(/src/assets/images/hero/digitalmarketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  opacity: 1;
+}
+
+.ManagedServicesTechHero {
+  background: url(/src/assets/images/hero/techhero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 1;
+}
+
+.ManagedServicesTechHeroMobileView {
+  background: url(/src/assets/images/hero/techhero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  opacity: 1;
+}
+
+.ManagedServicesAccountingHero {
+  background: url(/src/assets/images/hero/accounting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 1;
+}
+
+.ManagedServicesAccountingHeroMobileView {
+  background: url(/src/assets/images/hero/accounting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  opacity: 1;
+}
+
 video {
   width: 100vw;
   height: 100vh;

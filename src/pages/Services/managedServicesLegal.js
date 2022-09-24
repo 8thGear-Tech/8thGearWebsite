@@ -6,11 +6,13 @@ import { MediationIcon } from "../../components/Icons";
 import { ConsultationIcon } from "../../components/Icons";
 import { RepresentationIcon } from "../../components/Icons";
 import { LegalDocumentsIcon } from "../../components/Icons";
+import { ManagedServicesLegalHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesLegal = () => {
   return (
     <>
       <Navbar6 />
+      <ManagedServicesLegalHero />
       <section className="p-5">
         {servicesData.legal.map((props) => {
           const { id, title, textLeft, textRight } = props;

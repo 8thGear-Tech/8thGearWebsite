@@ -291,3 +291,132 @@ export const ITFGalleryHero = () => {
 //     </div>
 //   );
 // };
+
+export const ManagedServicesLegalHero = () => {
+  return (
+    <>
+      <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedServicesLegalHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div>
+        {/* ManagedServicesLegalHero mobile view start */}
+
+        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedServicesLegalHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* ManagedServicesLegalHero mobile view start end */}
+      </div>
+    </>
+  );
+};
+export const ManagedDigitalMarketServicesHero = () => {
+  return (
+    <>
+      <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedDigitalMarketServicesHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div>
+        {/* ManagedDigitalMarketServicesHero mobile view start */}
+
+        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedDigitalMarketServicesHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* ManagedDigitalMarketServicesHero mobile view start end */}
+      </div>
+    </>
+  );
+};
+export const ManagedServicesTechHero = () => {
+  return (
+    <>
+      <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedServicesTechHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div>
+        {/*ManagedServicesTechHero mobile view start */}
+
+        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedServicesTechHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* ManagedServicesTechHero mobile view start end */}
+      </div>
+    </>
+  );
+};
+export const ManagedServicesAccountingHero = () => {
+  return (
+    <>
+      <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedServicesAccountingHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div>
+        {/*ManagedServicesAccountingHero mobile view start */}
+
+        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        {/* ManagedServicesAccountingHero mobile view start end */}
+      </div>
+    </>
+  );
+};

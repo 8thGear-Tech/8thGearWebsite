@@ -6,11 +6,13 @@ import { ManagementAccountingIcon } from "../../components/Icons";
 import { InternalAuditIcon } from "../../components/Icons";
 import { PublicSectorIcon } from "../../components/Icons";
 import { TaxAccountingIcon } from "../../components/Icons";
+import { ManagedServicesAccountingHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesAccounting = () => {
   return (
     <>
       <Navbar20 />
+      <ManagedServicesAccountingHero />
       <section className="p-5">
         {servicesData.accounting.map((props) => {
           const { id, title, textLeft, textRight } = props;
