@@ -27,7 +27,7 @@ const ProjectDeliveryPage = () => {
       <Competencies />
       <OurImpact />
       <OurClients />
-      {/* <SuccessStoryCards /> */}
+      <SuccessStoryCards />
     </>
   );
 };
@@ -75,7 +75,7 @@ const OurClients = () => {
       <div className="row g-0">
         <h3 className="mt-4 text-center mb-4">Our Partners</h3>
         <div className="row TextAlignCenter justify-content-center">
-          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
+          <div className=" TextAlignCenter col-lg-3 col-md-4 col-sm-6 col-xs-6 my-3">
             <img
               src={gizlogo}
               className="logo1 col-12 "
@@ -83,14 +83,14 @@ const OurClients = () => {
             ></img>
           </div>
 
-          <div className="TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
+          <div className="TextAlignCenter col-lg-3 col-md-4 col-sm-6 col-xs-6 my-3">
             <img
               src={usadflogo}
               className="logo1 col-12"
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </div>
-          <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
+          <div className=" TextAlignCenter col-lg-3 col-md-4 col-sm-6 col-xs-6 my-3">
             <img
               src={lsetflogo}
               className="logo1 col-12 "
@@ -119,14 +119,14 @@ const SuccessStoryCards = () => {
           <h4 className="text-center">SUCCESS STORY</h4>
           {successStoryGalleryCard.successStory.map((items) => {
             return (
-              <>
-                <div
-                  className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex align-items-stretch"
-                  key={items.id}
-                >
-                  <SinglegalleryCards {...items} />
-                </div>
-              </>
+              // <>
+              <div
+                className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex align-items-stretch"
+                key={items.id}
+              >
+                <SinglegalleryCards {...items}></SinglegalleryCards>
+              </div>
+              // </>
             );
           })}
         </div>

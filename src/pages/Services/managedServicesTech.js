@@ -1,6 +1,11 @@
 import { Navbar7 } from "../../components/Navbar";
 import servicesData from "../../data/managedServices.json";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { UIUXIcon } from "../../components/Icons";
+import { WebDevIcon } from "../../components/Icons";
+import { AppDevIcon } from "../../components/Icons";
+import { DevOpsIcon } from "../../components/Icons";
+import { ProductDevIcon } from "../../components/Icons";
 
 const ManagedServicesTech = () => {
   return (
@@ -23,46 +28,31 @@ const ManagedServicesTech = () => {
                 </div>
               </div>
               {/* icons */}
-              <div className="row d-flex  ">
+              <div className="row d-flex justify-content-center">
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <UIUXIcon />
+                  <p className="text-wrap">UI/UX Design</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <WebDevIcon />
+                  <p className="text-wrap">Web Development</p>
                 </div>
                 {/* icon3 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <DevOpsIcon />
+                  <p className="text-wrap">DevOps</p>
                 </div>
                 {/* icon4 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <ProductDevIcon />
+                  <p className="text-wrap">Product Development</p>
                 </div>
                 {/* icon5 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/* icon6 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/* icon7 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/*  icon8*/}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <AppDevIcon />
+                  <p className="text-wrap">App Development</p>
                 </div>
               </div>
 

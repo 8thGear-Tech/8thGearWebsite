@@ -543,7 +543,7 @@ export const CoWorkingPageTestimonialCard = (props) => {
   );
 };
 
-export const AboutUs = () => {
+export const CoworkingTestimonial = () => {
   return (
     <div className="container">
       <div className="row">

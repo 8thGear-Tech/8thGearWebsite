@@ -36,6 +36,14 @@ export const ManageServicesDigitalMarketingHero = () => {
     </div>
   );
 };
+// <div className="cool w-5">
+//   <div class="container-fluid">
+//     <div class="row">
+//       <div class="bgtext mt-5 stop">
+//         <h1>
+//           Creating an enabling environment for <br />
+//           job and wealth creation in <br /> Lagos State.
+//         </h1>
 
 export const HomePageHero = () => {
   return (

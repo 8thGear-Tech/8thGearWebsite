@@ -1,0 +1,53 @@
+{
+  "galleryITF": [
+    {
+      "id": 1,
+      "image": "./images/galleryITF/ITF1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "./images/galleryITF/ITF2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./images/galleryITF/ITF3.jpg"
+    },
+
+    {
+      "id": 4,
+      "image": "./images/galleryITF/ITF4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "./images/galleryITF/ITF5.jpg"
+    },
+    {
+      "id": 6,
+      "image": "./images/galleryITF/ITF6.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./images/galleryITF/ITF7.jpg"
+    },
+    {
+      "id": 8,
+      "image": "./images/galleryITF/ITF8.jpg"
+    },
+    {
+      "id": 9,
+      "image": "./images/galleryITF/ITF9.jpg"
+    },
+    {
+      "id": 10,
+      "image": "./images/galleryITF/ITF10.jpg"
+    },
+    {
+      "id": 11,
+      "image": "./images/galleryITF/ITF11.jpg"
+    },
+    {
+      "id": 12,
+      "image": "./images/galleryITF/ITF12.jpg"
+    }
+  ]
+}

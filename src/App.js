@@ -1,14 +1,12 @@
 import * as React from "react";
-import { Component } from "react";
+// import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Constructionpage from "./pages/constructionpage";
 import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
 import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
 import { NextBtn } from "./components/Buttons/PortfolioBtn";
-import { EightgeariansPopUpCard1 } from "./components/AllCards/TriggeredCards";
-//import {EIRDataPopUpCard} from "./components/AllCards/TriggeredCards"
-// import {AdvisoryBoardOnHoverCard} from "./components/AllCards/TriggeredCards"
+
 import Request from "./components/Forms/ServicesForms";
 
 //Studio
@@ -22,13 +20,13 @@ import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 //Project Delivery
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ProjectDeliveryGalleryPage from "./pages/ProjectDelivery/projectDeliveryGallery";
-import GIZPage from "./pages/ProjectDelivery/GIZgallery";
-
+import GIZPage from "./pages/ProjectDelivery/employabilityGIZgallery";
 import PiggeryTrainingPage from "./pages/ProjectDelivery/piggeryTrainingGallery";
 import LSETFPage from "./pages/ProjectDelivery/lsetfGallery";
-import FUTAPage from "./pages/ProjectDelivery/FUTAgallery";
-import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
-import USADFGalleryPage from "./pages/Events/usadfGallery";
+import InnkeeperHackathonGalleryPage from "./pages/ProjectDelivery/innkeeperHackathonGallery";
+import ITFGalleryPage from "./pages/ProjectDelivery/ITFGallery";
+// import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
+// import USADFGalleryPage from "./pages/Events/usadfGallery";
 
 //Managed Services
 import ManagedServicesPage from "./pages/Services/managedServices";
@@ -37,6 +35,7 @@ import ManagedServicesAccounting from "./pages/Services/managedServicesAccountin
 import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
 import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
+import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
@@ -51,62 +50,10 @@ import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
-// import AboutUs from "./pages/About/aboutUs";
-// import { GalleryCards } from "./components/AllCards/MediaCards";
-// import FAQ from "./pages/Insights/FAQ";
+
 import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
 // import Footer from "./components/Footer";
-
-import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
-import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
-// import Navbar from "./components/Navbar";
-// import { ManagedServicesPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
-// import { Lad } from "./components/Forms";
-// import { CoWorkingPageTestimonialCard } from "../src/components/AllCards/TestimonialCards";
-// import { AboutUs } from "./components/AllCards/TestimonialCards";
-// import Constructionpage from "./pages/constructionpage";
-
-// import { Gerians } from "./components/AllCards/TeamCard";
-// import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
-
-// import Constructionpage from "./pages/constructionpage";
-
-// import Constructionpage from "./pages/constructionpage";
-// import { AnimationVideoHero } from "./components/Hero/VideoHero";
-// import { AboutPageHero } from "./components/Hero/VideoHero";
-// import JoinTheTeamForm from "./components/Forms/EnquiresandSuggestionForm";
-// import { Servicehero } from "./components/Hero/BGColorandTextHero";
-// import { PortfolioHero } from "./components/Hero/BGColorandTextHero";
-// import { useCountdown } from "./components/AllCards/UseCountdown";
-// import Teamcard from "./components/AllCards/TeamCard";
-// import Eventsbutton from "./components/Buttons/EventsBtn";
-// import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
-// import { TeamCard } from "./components/AllCards/TeamCard";
-// import { BookNowBtn } from "./components/Buttons/ServicesBtn";
-// import { BookaSessionBtn } from "./components/Buttons/ServicesBtn";
-// import { BookaFreeSessionBtn } from "./components/Buttons/ServicesBtn";
-// import { OnHoverReadMoreBtn } from "./components/Buttons/ServicesBtn";
-// import { AllPortfoliosLogoCard } from "./components/AllCards/MediaCards";
-// import { ProjectDeliveryManagedServicesCard } from "./components/AllCards/MediaCards";
-// import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
-// import { useCountdown } from "./components/AllCards/UseCountdown";
-// import TeamCard from "./components/AllCards/TeamCard";
-// import Eventsbutton from "./components/Buttons/EventsBtn";
-// import { LetUsKnowBtn } from "./components/Buttons/EventsBtn";
-
-// import { MediaCards } from "./components/AllCards/MediaCards";
-// import { GalleryGizCards } from "./components/AllCards/MediaCards";
-// import { UsadfCards } from "./components/AllCards/MediaCards";
-// import { FutaCards } from "./components/AllCards/MediaCards";
-// import { LsetfvisitCards } from "./components/AllCards/MediaCards";
-// import { LsetfCards } from "./components/AllCards/MediaCards";
-// import { FounderCards } from "./components/AllCards/MediaCards";
-// import { ProjectCards } from "./components/AllCards/MediaCards";
-// import { DemodayCards } from "./components/AllCards/MediaCards";
-// import { GalleryCards } from "./components/AllCards/MediaCards";
-// import { GalleryVideoCards } from "./components/AllCards/MediaCards";
 
 function App() {
   return (
@@ -124,13 +71,14 @@ function App() {
           path="project-delivery-gallery"
           element={<ProjectDeliveryGalleryPage />}
         />
-        <Route path="GIZ-gallery" element={<GIZPage />} />
-        <Route
-          path="piggery-training-gallery"
-          element={<PiggeryTrainingPage />}
-        />
+        <Route path="GIZ-employability-gallery" element={<GIZPage />} />
+        <Route path="piggery-training" element={<PiggeryTrainingPage />} />
         <Route path="LSETF-gallery" element={<LSETFPage />} />
-        <Route path="FUTA-gallery" element={<FUTAPage />} />
+        <Route
+          path="innkeeper-hackathon-gallery"
+          element={<InnkeeperHackathonGalleryPage />}
+        />
+        <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
         <Route path="managed-services" element={<ManagedServicesPage />} />
         <Route
           path="digitalmarketing"
@@ -140,6 +88,7 @@ function App() {
         <Route path="legal" element={<ManagedServicesLegal />} />
         <Route path="tech" element={<ManagedServicesTech />} />
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+        <Route path="coworking" element={<CoWorking />} />
 
         <Route path="about" element={<AboutUs />} />
         <Route path="team" element={<TeamPage />} />
@@ -154,8 +103,8 @@ function App() {
           element={<FoundersMeetupGalleryPage />}
         />
         <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
-        <Route path="USADF-gallery" element={<USADFGalleryPage />} />
+        {/* <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} /> */}
+        {/* <Route path="USADF-gallery" element={<USADFGalleryPage />} /> */}
         {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
         {/* <Route path="media" element={<GalleryCards />} /> */}
         <Route path="abt" element={<AboutUs />} />

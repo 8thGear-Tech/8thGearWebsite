@@ -2,44 +2,52 @@
   "teamcard": [
     {
       "id": 1,
-      "image": "../../images/team/omowunmiadekoya.jpg",
-      "name": "Omowumi Adekoya",
-      "title": "Co-Founder",
+      "image": "../../images/team/damilolaobidairo.png",
+      "name": "Damilola Obidiaro",
+      "title": "CEO/Co-Founder",
+
       "text": " View More"
     },
     {
       "id": 2,
-      "image": "./images/Teamone.png",
-      "name": "Husseni Sanni",
-      "title": "Digital Marketing Analyst",
+      "image": "../../images/team/madamwunmi.png",
+      "name": "Omowumi Obidairo",
+      "title": "Co-Founder",
       "text": " View More"
     },
     {
       "id": 3,
-      "image": "../../images/team/damilolaobidairo.png",
-      "name": "Damilola Obidiaro",
-      "title": "CEO/Co-Founder",
+      "image": "../../images/team/titilayoekundayo.png",
+      "name": "Titilayo Ekundayo",
+      "title": "Lead,Venture Studio",
       "text": " View More"
     },
     {
       "id": 4,
-      "image": "../../images/team/temitopekazeem.jpg",
+      "image": "../../images/team/temitopekazeem.png",
       "name": "Temitope Kazeem",
       "title": "Lead, HR & Operations",
       "text": " View More"
     },
     {
       "id": 5,
-      "image": "./images/Teamone.png",
+      "image": "../../images/team/opeyemibioku.png",
       "name": "Opeyemi Bioku",
       "title": "Lead, Developer Team",
       "text": " View More"
     },
     {
       "id": 6,
-      "image": "../../images/team/titilayo.jpg",
-      "name": "Titilayo Ekundayo",
-      "title": "Lead,Venture Studio",
+      "image": "../../images/team/adam.png",
+      "name": "Adam Yakub",
+      "title": "Finance & Accounting Associate",
+      "text": " View More"
+    },
+    {
+      "id": 7,
+      "image": "../../images/team/ifunanya.png",
+      "name": "Ifunaya Omanukwe",
+      "title": "Business Analyst",
       "text": " View More"
     }
   ],

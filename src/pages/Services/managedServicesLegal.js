@@ -1,6 +1,11 @@
 import servicesData from "../../data/managedServices.json";
 import { Navbar6 } from "../../components/Navbar";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ArbitrationIcon } from "../../components/Icons";
+import { MediationIcon } from "../../components/Icons";
+import { ConsultationIcon } from "../../components/Icons";
+import { RepresentationIcon } from "../../components/Icons";
+import { LegalDocumentsIcon } from "../../components/Icons";
 
 const ManagedServicesLegal = () => {
   return (
@@ -23,46 +28,33 @@ const ManagedServicesLegal = () => {
                 </div>
               </div>
               {/* icons */}
-              <div className="row d-flex  ">
+              <div className="row d-flex justify-content-center">
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <ArbitrationIcon />
+                  <p className="text-wrap">Arbitration</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <MediationIcon />
+                  <p className="text-wrap">Mediation</p>
                 </div>
                 {/* icon3 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <ConsultationIcon />
+                  <p className="text-wrap">Consultation</p>
                 </div>
                 {/* icon4 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <RepresentationIcon />
+                  <p className="text-wrap">
+                    Representation of clients in negotiations
+                  </p>
                 </div>
                 {/* icon5 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/* icon6 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/* icon7 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
-                </div>
-                {/*  icon8*/}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
-                  <p className="text-wrap">media Management</p>
+                  <LegalDocumentsIcon />
+                  <p className="text-wrap">Preparation of legal documents</p>
                 </div>
               </div>
 

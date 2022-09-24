@@ -150,7 +150,7 @@ const NavBar = (props) => {
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li>
                 <Link className="dropdown-item" to="/about">
-                  About
+                  About Us
                 </Link>
               </li>
               <li>
@@ -674,7 +674,7 @@ export const Navbar9 = () => {
 
 export const Navbar10 = () => {
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid ">
       <div className="row">
         {text.about.map((navbar) => {
           return (

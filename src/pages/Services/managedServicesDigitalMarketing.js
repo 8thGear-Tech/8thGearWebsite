@@ -31,7 +31,7 @@ const managedServicesDigitalMarketing = () => {
                 </div>
               </div>
               {/* icons */}
-              <div className="row d-flex  ">
+              <div className="row d-flex justify-content-center">
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
                   <ContentMarketingIcon />

@@ -2,28 +2,33 @@
   "successStory": [
     {
       "id": 1,
-      "image": "./images/gallerycards/gallery1.jpg",
-      "text": "Piggery Training GIZ"
+      "image": "./images/gallerycards/piggerytraining.jpg",
+      "text": "Piggery Training GIZ",
+      "link": "/piggery-training"
     },
     {
       "id": 2,
-      "image": "./images/gallerycards/gallery2.jpg",
-      "text": "Employability 2022  GIZ"
+      "image": "./images/gallerycards/employabilityGIZ.jpg",
+      "text": "Employability 2022  GIZ",
+      "link": "/GIZ-employability-gallery"
     },
     {
       "id": 3,
-      "image": "./images/gallerycards/successstory3.jpg",
-      "text": "USADF/LSETF Training"
+      "image": "./images/gallerycards/LSETFTraining.jpg",
+      "text": "USADF/LSETF Training",
+      "link": "/LSETF-gallery"
     },
     {
       "id": 4,
-      "image": "./images/gallerycards/gallery1.jpg",
-      "text": "Innkeeper Hackathon 2022"
+      "image": "./images/gallerycards/innkeeperhackathon.jpg",
+      "text": "Innkeeper Hackathon 2022",
+      "link": "/innkeeper-hackathon-gallery"
     },
     {
       "id": 5,
-      "image": "./images/gallerycards/gallery1.jpg",
-      "text": "ITF Training 2022"
+      "image": "./images/gallerycards/ITF.jpg",
+      "text": "ITF Training 2022",
+      "link": "/ITF-training-gallery"
     }
   ],
   "projectDeliveryPictures": [

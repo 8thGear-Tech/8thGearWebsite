@@ -29,37 +29,37 @@
     {
       "id": 1,
       "image": "../images/seyibioku.png",
-      "name": "Seyi Bioku", 
-      "position": "Legal Advisor"
+      "name": "SEYI BIOKU",
+      "position": "ADVISOR & BOARD SECRETARY"
     },
     {
       "id": 2,
       "image": "../images/mr sanni.png",
-      "name": "MRS ABIMBOLA ADEBAKIN", 
+      "name": "ABIMBOLA ADEBAKIN",
       "position": "BOARD CHAIRMAN"
     },
     {
       "id": 3,
       "image": "../images/mr dami.png",
-      "name": "MR YINKA OGUNLEYE", 
+      "name": "MR YINKA OGUNLEYE",
       "position": "STRATEGY ADVISOR"
     },
     {
       "id": 4,
       "image": "../images/mrs wunmi.png",
-      "name": "MORENIKEJI BUARI", 
+      "name": "MORENIKEJI BUARI",
       "position": "FINANCE ADVISOR"
     },
     {
       "id": 5,
       "image": "../images/Rectangle 99.png",
-      "name": "LABISI OYEDOTUN", 
+      "name": "LABISI OYEDOTUN",
       "position": "ADVISOR PARTNERSHIP"
     },
     {
       "id": 6,
       "image": "../images/Rectangle 99 (1).png",
-      "name": "TEMITAYO SAMSON-GRACE", 
+      "name": "TEMITAYO SAMSON-GRACE",
       "position": "HR CONSULTANT"
     }
   ]

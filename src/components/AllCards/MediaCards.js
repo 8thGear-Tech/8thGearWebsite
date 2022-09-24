@@ -1,9 +1,9 @@
 //GalleryCard
 
 import galleryData from "../../data/gallerypiggerytraining.json";
-import gallerypictures from "../../data/galleryGIZ.json";
+import gallerypictures from "../../data/galleryEmployabilityGIZ.json";
 import galleryusadfData from "../../data/galleryusadf.json";
-import galleryfutaData from "../../data/galleryfuta.json";
+import galleryinnkeeperData from "../../data/galleryinnkeeperhackathon.json";
 import gallerylsetfvisitData from "../../data/gallerylsetfvisit.json";
 import gallerylsetfData from "../../data/gallerylsetf.json";
 import galleryfounderData from "../../data/galleryFoundermeetup.json";
@@ -149,7 +149,21 @@ export const SingleGalleryGizCards = (props) => {
 //   );
 // };
 
-export const SingleFUTACards = (props) => {
+export const SingleInnkeeperHackathonGalleryCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img
+        className="my-4 px-6 img-fluid"
+        style={{ width: 358.8 }}
+        src={image}
+        alt={id}
+      />
+    </>
+  );
+};
+
+export const SingleITFGalleryCards = (props) => {
   const { image, id } = props;
   return (
     <>

@@ -9,6 +9,8 @@ import dealmanagement from "../assets/icons/dealmanagement.png";
 
 //Project Delivery Pictures
 import howitworks from "../assets/icons/managedservices/howitworks.png";
+
+//Digital Marketing
 import contentmarketing from "../assets/icons/managedservices/contentmarketing.png";
 import copywriting from "../assets/icons/managedservices/copywriting.png";
 import emailmarketing from "../assets/icons/managedservices/emailmarketing.png";
@@ -16,6 +18,33 @@ import influencermarketing from "../assets/icons/managedservices/influencermarke
 import searchengineoptimization from "../assets/icons/managedservices/searchengineoptimization.png";
 import searchenginemarketing from "../assets/icons/managedservices/searchenginemarketing.png";
 import socialmediamarketing from "../assets/icons/managedservices/socialmediamarketing.png";
+
+//Accounting
+import managementaccounting from "../assets/icons/managedservices/managementaccounting.png";
+import internalaudit from "../assets/icons/managedservices/internalaudit.png";
+import publicsector from "../assets/icons/managedservices/publicsector.png";
+import taxaccounting from "../assets/icons/managedservices/taxaccounting.png";
+
+//Tech
+import uiux from "../assets/icons/managedservices/uiux.png";
+import webdev from "../assets/icons/managedservices/webdevelopment.png";
+import appdev from "../assets/icons/managedservices/appdevelopment.png";
+import devops from "../assets/icons/managedservices/devops.png";
+import productdev from "../assets/icons/managedservices/productdevelopment.png";
+
+//Legal
+import arbitration from "../assets/icons/managedservices/arbitration.png";
+import mediation from "../assets/icons/managedservices/mediation.png";
+import consultation from "../assets/icons/managedservices/consultation.png";
+import representation from "../assets/icons/managedservices/representation.png";
+import legaldocuments from "../assets/icons/managedservices/legaldocuments.png";
+
+//Our Model
+import ideation from "../assets/icons/ourmodel/ideation.png";
+import validation from "../assets/icons/ourmodel/validation.png";
+import creation from "../assets/icons/ourmodel/creation.png";
+import spinout from "../assets/icons/ourmodel/spinout.png";
+import scaleup from "../assets/icons/ourmodel/scaleup.png";
 
 export const WhatWeDoIcon = () => {
   return (
@@ -133,6 +162,8 @@ export const HowItWorksIcon = () => {
     // </div>
   );
 };
+
+//Digital Marketing
 export const ContentMarketingIcon = () => {
   return (
     <img
@@ -184,5 +215,117 @@ export const SocialMediaMarketingIcon = () => {
       src={socialmediamarketing}
       style={{ maxWidth: "60%", maxHeight: "60%" }}
     ></img>
+  );
+};
+
+//Accounting
+export const ManagementAccountingIcon = () => {
+  return (
+    <img
+      src={managementaccounting}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+export const InternalAuditIcon = () => {
+  return (
+    <img
+      src={internalaudit}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+export const PublicSectorIcon = () => {
+  return (
+    <img src={publicsector} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const TaxAccountingIcon = () => {
+  return (
+    <img
+      src={taxaccounting}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+
+//Tech
+
+export const UIUXIcon = () => {
+  return <img src={uiux} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+};
+export const WebDevIcon = () => {
+  return <img src={webdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+};
+export const AppDevIcon = () => {
+  return <img src={appdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+};
+export const DevOpsIcon = () => {
+  return <img src={devops} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+};
+export const ProductDevIcon = () => {
+  return (
+    <img src={productdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+
+//Legal
+
+export const ArbitrationIcon = () => {
+  return (
+    <img src={arbitration} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const MediationIcon = () => {
+  return (
+    <img src={mediation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const ConsultationIcon = () => {
+  return (
+    <img src={consultation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const RepresentationIcon = () => {
+  return (
+    <img
+      src={representation}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+export const LegalDocumentsIcon = () => {
+  return (
+    <img
+      src={legaldocuments}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+
+//Our Model
+export const IdeationIcon = () => {
+  return (
+    <img src={ideation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const ValidationIcon = () => {
+  return (
+    <img src={validation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const CreationIcon = () => {
+  return (
+    <img src={creation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const SpinOutIcon = () => {
+  return (
+    <img src={spinout} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+  );
+};
+export const ScaleUpIcon = () => {
+  return (
+    <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
   );
 };

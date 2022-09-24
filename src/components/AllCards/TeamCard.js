@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import { ArrowRightIcon } from "../Icons";
 import data from "../../data/8thGerains.json";
 import EIRdata from "../../data/8thGerains.json";
-// import TeamImage from "../../assets/images/Teamone.png";
+import TeamImage from "../../assets/images/Teamone.png";
 import field from "../../data/advisory.json";
 import { EightgeariansPopUpCard1 } from "./TriggeredCards";
 import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
@@ -17,7 +17,7 @@ export const TeamCard = (props) => {
   const { image, name, title, text } = props;
   return (
     <>
-      <div className="card-deck Team">
+      <div className="card-deck">
         <div class="card w-75 mx-auto ">
           <img src={image} class="card-img-top Teampic " alt="Teamimage" />
           <div class="card-body teamcardbody">
@@ -58,7 +58,7 @@ export const TeamCard = (props) => {
 export const Gerians = () => {
   return (
     <div className="container ">
-      <div className="row ">
+      <div className="row justify-content-center">
         <h4 className="text-center py-5">8THGEARIANS</h4>
         {data.teamcard.map((card) => {
           return (

@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import { WhatWeDoIcon } from "../../components/Icons";
 import steponeicon from "../../assets/images/steponeicon.png";
+import { IdeationIcon } from "../../components/Icons";
+import { ValidationIcon } from "../../components/Icons";
+import { CreationIcon } from "../../components/Icons";
+import { SpinOutIcon } from "../../components/Icons";
+import { ScaleUpIcon } from "../../components/Icons";
+
 import { OurModelTractions } from "../../components/Tractions";
 import { Navbar19 } from "../../components/Navbar";
 import { OurModelHero } from "../../components/Hero/ImageandTextHero";
@@ -173,7 +179,7 @@ const HowWeDoIt = () => {
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <img src={steponeicon} className="img-fluid" alt="" loading="" />
+            <IdeationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
             <h4 className="">01- Ideation</h4>
@@ -202,13 +208,13 @@ const HowWeDoIt = () => {
             </p>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <img src={steponeicon} className="img-fluid" alt="" loading="" />
+            <ValidationIcon />
           </div>
         </div>
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <img src={steponeicon} className="img-fluid" alt="" loading="" />
+            <CreationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
             <h4 className="">03- Creation</h4>
@@ -225,17 +231,35 @@ const HowWeDoIt = () => {
         <div className="row align-items-center justify-content-center my-4 mx-3">
           {" "}
           <div className="col-lg-6 col-md-7 col-sm-10">
-            <h4 className="">Step 4</h4>
-            <h3 className="">Taking real-time market lessons</h3>
+            <h4 className="">04- Spinout</h4>
+            <h3 className="">We spin out once proof of concept is achieved.</h3>
             <p>
-              The Venture Studio model for entrepreneurship, combining comapny
-              building with venture funding.The Venture Studio model for
-              entrepreneurship, combining comapny building with venture
-              funding.The Venture Studio model for entrepreneurship,
+              Once we have a small group of raving fans who are willing to pay
+              and spread the word through referrals. It is past time to turn
+              these concepts into stand-alone enterprises. Our in-house legal,
+              branding, and human resources experts get to work right away,
+              spinning them off as distinct firms with a strong framework.
             </p>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
-            <img src={steponeicon} className="img-fluid" alt="" loading="" />
+            <SpinOutIcon />
+          </div>
+        </div>
+        <div className="row align-items-center justify-content-center my-4 mx-3">
+          {" "}
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+            <ScaleUpIcon />
+          </div>
+          <div className="col-lg-6 col-md-7 col-sm-10">
+            <h4 className="">05- Scaleup</h4>
+            <h3 className="">We spin out once proof of concept is achieved.</h3>
+            <p>
+              Once we have a small group of raving fans who are willing to pay
+              and spread the word through referrals. It is past time to turn
+              these concepts into stand-alone enterprises. Our in-house legal,
+              branding, and human resources experts get to work right away,
+              spinning them off as distinct firms with a strong framework.
+            </p>
           </div>
         </div>
       </div>
