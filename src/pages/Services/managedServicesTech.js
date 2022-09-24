@@ -1,11 +1,13 @@
 import { Navbar7 } from "../../components/Navbar";
 import servicesData from "../../data/managedServices.json";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ManagedServicesTechHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesTech = () => {
   return (
     <>
       <Navbar7 />
+      <ManagedServicesTechHero />
       <section className="p-5">
         {servicesData.tech.map((props) => {
           const { id, title, textLeft, textRight } = props;

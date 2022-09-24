@@ -2,11 +2,13 @@ import { Navbar20 } from "../../components/Navbar";
 
 import servicesData from "../../data/managedServices.json";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ManagedServicesAccountingHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesAccounting = () => {
   return (
     <>
       <Navbar20 />
+      <ManagedServicesAccountingHero />
       <section className="p-5">
         {servicesData.accounting.map((props) => {
           const { id, title, textLeft, textRight } = props;

@@ -9,11 +9,13 @@ import { InfluencerMarketingIcon } from "../../components/Icons";
 import { SearchEngineMarketingIcon } from "../../components/Icons";
 import { SearchEngineOptimizationIcon } from "../../components/Icons";
 import { SocialMediaMarketingIcon } from "../../components/Icons";
+import { ManagedDigitalMarketServicesHero } from "../../components/Hero/ImageandTextHero";
 
 const managedServicesDigitalMarketing = () => {
   return (
     <>
       <Navbar5 />
+      <ManagedDigitalMarketServicesHero />
       <section className="p-5">
         {servicesData.digitalMarketing.map((props) => {
           const { id, title, textLeft, textRight } = props;

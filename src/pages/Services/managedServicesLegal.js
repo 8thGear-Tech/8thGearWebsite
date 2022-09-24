@@ -1,11 +1,13 @@
 import servicesData from "../../data/managedServices.json";
 import { Navbar6 } from "../../components/Navbar";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ManagedServicesLegalHero } from "../../components/Hero/ImageandTextHero";
 
 const ManagedServicesLegal = () => {
   return (
     <>
       <Navbar6 />
+      <ManagedServicesLegalHero />
       <section className="p-5">
         {servicesData.legal.map((props) => {
           const { id, title, textLeft, textRight } = props;
