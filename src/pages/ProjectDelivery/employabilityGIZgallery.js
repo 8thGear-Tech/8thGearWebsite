@@ -12,19 +12,25 @@ const GIZPage = () => {
     </>
   );
 };
+
 const GizPictureCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-5">
-        {gallerypictures.galleryGIZ.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SingleGalleryGizCards {...items} />
-              </div>
-            </>
-          );
-        })}
+      <div className="container-fluid">
+        <div className="row justify-content-center mx-5 pt-5">
+          {gallerypictures.galleryGIZ.map((items) => {
+            return (
+              <>
+                <div
+                  className="col-lg-4 col-md-4 col-sm-10 my-4"
+                  key={items.id}
+                >
+                  <SingleGalleryGizCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
       </div>
     </>
   );

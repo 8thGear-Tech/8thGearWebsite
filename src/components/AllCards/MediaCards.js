@@ -109,8 +109,8 @@ export const SingleGalleryGizCards = (props) => {
   return (
     <>
       <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
+        className="img-fluid"
+        // style={{ width: 358.8 }}
         src={image}
         alt={id}
       />
@@ -153,12 +153,7 @@ export const SingleInnkeeperHackathonGalleryCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -167,12 +162,7 @@ export const SingleITFGalleryCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -182,8 +172,8 @@ export const SinglePiggeryTrainingCards = (props) => {
   return (
     <>
       <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
+        className="img-fluid w-100"
+        // style={{ width: 358.8 }}
         src={image}
         alt={id}
       />
@@ -195,12 +185,7 @@ export const SingleLsetfCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -271,12 +256,7 @@ export const SingleDemodayCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-3 px-5 img-fluid"
-        style={{ width: 368.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -352,7 +332,7 @@ export const SinglegalleryVideo = (props) => {
   const { video, id, text } = props;
   return (
     <>
-      <div className="card h-100">
+      <div className="card">
         <iframe src={video} className="" alt="..." />
       </div>
     </>

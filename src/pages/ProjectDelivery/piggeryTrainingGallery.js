@@ -13,16 +13,21 @@ const PiggeryTrainingPage = () => {
 export const PiggeryTrainingCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-4 p-5">
-        {galleryData.gallerypiggery.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SinglePiggeryTrainingCards {...items} />
-              </div>
-            </>
-          );
-        })}
+      <div className="container-fluid">
+        <div className="row justify-content-center mx-5 pt-5">
+          {galleryData.gallerypiggery.map((items) => {
+            return (
+              <>
+                <div
+                  className="col-lg-4 col-md-4 col-sm-10 my-4"
+                  key={items.id}
+                >
+                  <SinglePiggeryTrainingCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
       </div>
     </>
   );
