@@ -55,6 +55,8 @@ import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 // import { GalleryCards } from "./components/AllCards/MediaCards";
 // import FAQ from "./pages/Insights/FAQ";
 import { Footer } from "./components/Footer";
+import FAQ from "./pages/Insights/FAQ";
+// import Footer from "./components/Footer";
 
 import { LearnMoreBtn } from "./components/Buttons/ProjectDeliveryBtn";
 import { RequestForProposalBtn } from "./components/Buttons/ProjectDeliveryBtn";
@@ -142,7 +144,7 @@ function App() {
         <Route path="about" element={<AboutUs />} />
         <Route path="team" element={<TeamPage />} />
         <Route path="blog" element={<BlogPage />} />
-        {/* <Route path="faq" element={<FAQ />} /> */}
+        <Route path="faq" element={<FAQ />} />
         <Route path="events" element={<EventsPage />} />
         <Route path="events-gallery" element={<EventsGalleryPage />} />
         <Route path="demo-day" element={<DemoDayPage />} />
@@ -154,7 +156,7 @@ function App() {
         <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
         <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
         <Route path="USADF-gallery" element={<USADFGalleryPage />} />
-        <Route path="pop-up" element={<EightgeariansPopUpCard1 />} />
+        {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
         {/* <Route path="media" element={<GalleryCards />} /> */}
         <Route path="abt" element={<AboutUs />} />
         <Route path="teams" element={<TeamsPage />} />

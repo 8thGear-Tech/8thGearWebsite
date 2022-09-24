@@ -6,6 +6,7 @@ import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
 import { ManagedServicesHero } from "../../components/Hero/BGColorandTextHero";
 import { HowItWorksIcon } from "../../components/Icons";
+import { ManagedServicesPageTestimonialCard } from "../../components/AllCards/TestimonialCards";
 
 const ManagedServicesPage = () => {
   return (
@@ -15,6 +16,7 @@ const ManagedServicesPage = () => {
       <Services />
       <HowItWorks />
       <ManagedServicesTractions />
+      <ManagedServicesPageTestimonialCard />
     </>
   );
 };

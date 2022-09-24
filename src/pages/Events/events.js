@@ -24,7 +24,7 @@ const EventsPage = () => {
   return (
     <>
       <Navbar14 />
-
+      <EventPageHero />
       <Events />
       <SuggestAnEvent />
       <EventsGallery />

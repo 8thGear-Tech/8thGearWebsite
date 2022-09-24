@@ -91,7 +91,7 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="/faq">
                       FAQ
                     </Link>
                   </li>
