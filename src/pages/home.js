@@ -88,7 +88,7 @@ const SectionTwo = () => {
                 <h3>VENTURE STUDIO</h3>
               </Link>
 
-              <p>
+              <p className="textFont">
                 Turning ideas either ours or yours into sustainable businesses
                 is what we do best.
               </p>
@@ -107,7 +107,7 @@ const SectionTwo = () => {
                 <h3>PROJECT DELIVERY</h3>
               </Link>
 
-              <p>
+              <p className="textFont">
                 {" "}
                 Executing impact and self sustaining initiatives is our forte.
               </p>
@@ -123,7 +123,7 @@ const SectionThree = () => {
     <div className="container-fluid text-center p-5 SectionTwoBg mt-5">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
-      <p className="">
+      <p className="textFont">
         On these three pillars, we are creating an Africa of value creators by
         delving deep to cultivate the most innovative startups.
       </p>

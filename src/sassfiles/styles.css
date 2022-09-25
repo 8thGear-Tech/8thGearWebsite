@@ -576,6 +576,10 @@ article h4 {
   color: #000;
 }
 
+.textFont {
+  font-size: 1.1rem;
+}
+
 .ManagedServicesHeroText {
   color: rgba(0, 0, 0, 0.9);
   font-family: Rubik;
@@ -1262,12 +1266,12 @@ article h4 {
 }
 
 @media only screen and (max-width: 440px) {
-  .homeHeroBg {
+  .GaaSHeroBg {
     height: 50vh;
   }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-  .homeHeroBg {
+  .GaaSHeroBg {
     height: 60vh;
   }
 }

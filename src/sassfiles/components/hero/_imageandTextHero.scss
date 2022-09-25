@@ -72,12 +72,12 @@
   opacity: 1;
 }
 @media only screen and (max-width: 440px) {
-  .homeHeroBg {
+  .GaaSHeroBg {
     height: 50vh;
   }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-  .homeHeroBg {
+  .GaaSHeroBg {
     height: 60vh;
   }
 }
@@ -127,6 +127,7 @@
   background-position: center;
   height: 100vh;
 }
+
 @media only screen and (max-width: 440px) {
   .demoDayHeroBg {
     height: 50vh;

@@ -7,11 +7,13 @@ import lsetflogo from "../../assets/images/whoweare/lsetflogo.png";
 import usadflogo from "../../assets/images/whoweare/usadflogo.png";
 import corevalues from "../../assets/images/whoweare/corevalues.png";
 import { Navbar10 } from "../../components/Navbar";
+import { AboutPageHero } from "../../components/Hero/VideoHero";
 
 const AboutUs = () => {
   return (
     <>
       <Navbar10 />
+      <AboutPageHero />
       <CoreValues />
       <Partners />
     </>

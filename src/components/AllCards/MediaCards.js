@@ -22,7 +22,7 @@ export const AllPortfoliosLogoCard = (props) => {
     <div className="align-items-center">
       <Link to={link}>
         <img
-          className="my-5"
+          className="my-5 logoEffect"
           src={logo}
           alt="Logos"
           style={{ maxWidth: "100%", maxHeight: "100%" }}
