@@ -4,11 +4,13 @@ import inn from "../../assets/images/innkeeperdarklogo.png";
 import hev from "../../assets/images/Ellipse 4.png";
 import corevalues from "../../assets/images/whoweare/corevalues.png";
 import { Navbar10 } from "../../components/Navbar";
+import { AboutPageHero } from "../../components/Hero/VideoHero";
 
 const AboutUs = () => {
   return (
     <>
       <Navbar10 />
+      <AboutPageHero />
       <CoreValues />
       <Partners />
     </>
