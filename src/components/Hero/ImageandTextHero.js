@@ -87,6 +87,7 @@ export const ManagedServicesLegalHero = () => {
             </div>
           </div>
         </div>
+
         {/* ManagedServicesLegalHero mobile view start */}
 
         <div className="d-lg-none d-md-none d-sm-block d-xs-block">

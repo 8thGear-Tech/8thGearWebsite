@@ -70,77 +70,182 @@
 }
 
 .ManagedServicesLegalHero {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 100vh;
-  opacity: 1;
+  width: 100%;
 }
+
+.ManagedServicesLegalHero::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedServicesLegalHero h2 {
+  position: relative;
+}
+
 // ManagedServicesLegalHero mobile view style start
 .ManagedServicesLegalHeroMobileView {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 50vh;
-  opacity: 1;
+  width: 100%;
 }
+
+.ManagedServicesLegalHeroMobileView::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedServicesLegalHeroMobileView h4 {
+  position: relative;
+}
+
 // ManagedServicesLegalHero mobile view style end
 
 .ManagedDigitalMarketServicesHero {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 100vh;
-  opacity: 1;
+  width: 100%;
 }
+
+.ManagedDigitalMarketServicesHero::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedDigitalMarketServicesHero h2 {
+  position: relative;
+}
+
 // ManagedDigitalMarketServicesHero mobile view style start
 .ManagedDigitalMarketServicesHeroMobileView {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 50vh;
-  opacity: 1;
+  width: 100%;
 }
+
+.ManagedDigitalMarketServicesHeroMobileView::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedDigitalMarketServicesHeroMobileView h4 {
+  position: relative;
+}
+
 // ManagedDigitalMarketServicesHero mobile view style end
 
 .ManagedServicesTechHero {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 100vh;
-  opacity: 1;
+  width: 100%;
 }
-// ManagedDigitalMarketServicesHero mobile view style start
-.ManagedServicesTechHeroMobileView {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
+
+.ManagedServicesTechHero::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
   background-size: cover;
-  background-position: center;
-  height: 50vh;
-  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
 }
-// ManagedDigitalMarketServicesHero mobile view style end
+.ManagedServicesTechHero h2 {
+  position: relative;
+}
+
+// ManagedServicesTechHero mobile view style start
+.ManagedServicesTechHeroMobileView {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+.ManagedServicesTechHeroMobileView::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedServicesTechHeroMobileView h4 {
+  position: relative;
+}
+
+// ManagedServicesTechHero mobile view style end
 
 .ManagedServicesAccountingHero {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
   height: 100vh;
-  opacity: 1;
+  width: 100%;
 }
-// ManagedDigitalMarketServicesHero mobile view style start
-.ManagedServicesAccountingHeroMobileView {
-  background: url(/src/assets/images/hero/homepagehero.png);
-  background-repeat: no-repeat;
+
+.ManagedServicesAccountingHero::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
   background-size: cover;
-  background-position: center;
-  height: 50vh;
-  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
 }
-// ManagedDigitalMarketServicesHero mobile view style end
+.ManagedServicesAccountingHero h2 {
+  position: relative;
+}
+
+// ManagedServicesAccountingHero mobile view style start
+.ManagedServicesAccountingHeroMobileView {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+.ManagedServicesAccountingHeroMobileView::before {
+  content: "";
+  background-image: url("/src/assets/images/hero/homepagehero.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.ManagedServicesAccountingHeroMobileView h4 {
+  position: relative;
+}
+
+// ManagedServicesAccountingHero mobile view style end
