@@ -1,6 +1,10 @@
+import { Navbar15 } from "../../components/Navbar";
+import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
 const FounderMeetupPage = () => {
   return (
     <>
+      <Navbar15 />
+      <FoundersMeetupHero />
       <AboutFounderMeetup />
     </>
   );

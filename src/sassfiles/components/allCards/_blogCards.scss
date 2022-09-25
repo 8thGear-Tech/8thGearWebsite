@@ -20,21 +20,28 @@
   position: fixed;
   width: 100%;
 }
-.blogtext {
-  font-size: 1.5vw;
-}
+
 .blogPagE {
   width: fit-content;
 }
 
-.card1 {
-  // width: 30rem;
-}
 .text-fluid1 {
   font-size: 1vw;
 }
 
-.sideimg {
-  width: 100%;
-  width: fit-content;
+.sideCard {
+  min-height: 3rem;
+}
+
+.text-fluid5 {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.text-fluid6 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.3rem;
+  font-family: "Open Sans", sans-serif;
 }

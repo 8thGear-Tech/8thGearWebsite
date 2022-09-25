@@ -26,10 +26,6 @@
   width: 100%;
 }
 
-.blogtext {
-  font-size: 1.5vw;
-}
-
 .blogPagE {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -40,11 +36,29 @@
   font-size: 1vw;
 }
 
-.sideimg {
-  width: 100%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.blogtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.sideCard {
+  min-height: 3rem;
+}
+
+.text-fluid5 {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid6 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.3rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .manageSvcard {
@@ -61,6 +75,26 @@
   font-size: 2vw;
 }
 
+.partnersBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.heading {
+  text-align: center;
+}
+
+.logo1 {
+  text-align: center;
+  width: 221.21px;
+  top: 2351px;
+}
+
+.logo2 {
+  text-align: center;
+  width: 275.49px;
+  top: 2351px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Karla", Rubik;
@@ -68,7 +102,79 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+
+.LinkedInBtn {
+  background-color: rgb(12, 97, 191);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.InstagramBtn {
+  background-color: rgb(216, 43, 117);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+}
+
+.ShareBtn {
+  background-color: rgb(183, 255, 65);
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+}
+
+.BlogReadMoreBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.BlogReadMoreLinkBtn a {
+  color: #821e6b !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.129rem;
+  line-height: 1.313rem;
+  text-transform: capitalize;
+  color: none;
+}
+
+.SubmitCommentBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 12rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.FacebookBtn {
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+  background-color: #001d87;
+  border-radius: 2.188rem;
 }
 
 h1 {
@@ -108,34 +214,52 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.LearnMoreBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
+.OnHoverReadMoreBtn {
+  background-color: #821e6b;
+  color: #ffffff !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
   font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  font-size: 20px;
+}
+
+.LearnMoreBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8.55rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .RequestForProposalBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 15.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
   font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  font-size: 20px;
 }
 
 .ProjectDeliveryViewMoreBtn {
-  border: 2.5px solid #821e6b;
-  color: #000;
-  font-size: 25px;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
   font-weight: 500;
-  background-color: #fff;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  font-size: 20px;
 }
 
 .ManagedServicesPageTestimonialCard {
@@ -168,7 +292,6 @@ p {
   text-align: center;
   position: relative;
   display: flex;
-  overflow: hidden;
 }
 
 .img-fluid rounded-start {
@@ -260,28 +383,6 @@ article h4 {
 
 .line {
   border: 2px solid #821e6b !important;
-}
-
-.SuggestAnEventBtn {
-  color: #ffffff;
-  border-radius: 35px;
-}
-
-.LetUsKnowBtn {
-  border-radius: 118.5785369873px;
-  border: 270px 603px 2078.4213867188px #821e6b;
-  color: #000;
-  background-color: #ffffff;
-}
-
-.EventsViewMoreBtn {
-  border-radius: 35px;
-  background-color: #ffffff;
-}
-
-.GetYourTicketBtn {
-  border: 333px 70px 1087px 2864px;
-  border-radius: 35px;
 }
 
 .navbar {
@@ -413,202 +514,163 @@ article h4 {
   font-size: 1.2rem;
 }
 
-.BookNowBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
+.ManagedServicesHeroText {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 1.8em;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 150px 100px 0px 100px;
+}
+
+.PortfolioHeroText {
+  color: #ffffff !important;
+}
+
+.PortfolioHeroBg {
   color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.BookNowBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .BookaSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .BookaFreeSessionBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 18.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .JointheStudioBtn {
   border: 3px solid #821e6b;
   color: #000 !important;
-  border-radius: 15px;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
-
-.TractionsBg {
-  background-color: #00a495;
+.JointheStudioBtn:hover {
+  background-color: #821e6b;
+  color: #fff;
 }
-
-.tractionsCardBg {
-  background-color: #00a495;
-  border: 3px solid #ffffff;
-  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+.JointheStudioBtn:focus {
+  background-color: #821e6b;
   color: #ffffff;
 }
 
-.WhatWeDoBg {
-  background-color: rgba(0, 164, 149, 0.07);
+.JointheTeamBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.ourImpactBg {
-  background-color: rgba(0, 164, 149, 0.07);
+.JointheTeamBtn {
+  border: 2.5px solid #821e6b;
+  border-radius: 1.1875rem;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: white;
 }
 
-.ourImpactCardBg {
-  border: 3px solid rgba(0, 0, 0, 0.9);
-  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+.SubmitFormBtn {
+  border: 2.5px solid #821e6b;
+  border-radius: 1.1875rem;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: white;
 }
 
-.howItWorksBg {
-  background-color: rgba(0, 164, 149, 0.07);
+.SuggestAnEventBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 13rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.sectionOneBg {
-  background-color: rgba(0, 164, 149, 0.07);
+.LetUsKnowBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 9rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.eventsCardBg {
-  background-color: rgba(0, 164, 149, 0.07);
-  border: 3px solid #00a495;
+.EventViewMoreBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.whyChooseUsBg {
-  background-color: rgba(0, 164, 149, 0.07);
+.GetYourTicketBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 11rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.whyChooseUsCardBg {
-  border: 3px solid #00a495;
-  border-radius: 60px;
-  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
-}
-
-.center {
-  text-align: center;
-  width: auto;
-}
-
-.ManagedServicesRequestForm-Container {
-  border: 1px solid blac;
-  margin: auto;
-}
-
-.NavBar {
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-  height: 4.6875rem !important;
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.JointheStudioBtn:hover {
-  background-color: #821e6b;
-}
-
-.link {
-  color: #ef00c0;
-  text-align: center;
-  line-height: 3px;
-}
-
-.Teampic {
-  display: block;
-  width: 100%;
-}
-
-.Text {
-  line-height: 2px;
-}
-
-.ul_top_hypers {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-}
-
-.text-fluid {
-  font-size: 1.2vw;
-}
-
-.text-fluid2 {
-  font-size: 1.6vw;
-}
-
-#iconsize {
-  color: #00a495;
-  position: fixed;
-}
-
-#iconsize2 {
-  font-size: 1.4rem;
-  color: #00a495;
-}
-
-.mobile-icon {
-  list-style-type: none;
-}
-
-.md-footer-line {
-  width: 98vw;
-}
-
-.newsLetterUnderline {
-  width: 15vw;
-}
-
-.text-fluid1 {
-  font-size: 1.7vw;
-}
-
-.footerLogo {
-  width: 4.2vw;
-}
-
-.footerLogo2 {
-  width: 4.7vw;
-}
-
-.footerText {
-  text-decoration: none;
-  color: black;
-  font-weight: 100;
-}
-
-.icons-for-footer {
-  display: flex;
-}
-
-.footerIcon {
-  list-style-type: none;
-}
-
-.footerFormField {
-  outline: none;
-}
-
-.hrForBigScreen {
-  width: 17vw;
-}
-
-.firstSignUp {
-  font-size: 1.3vw;
-}
-
-.secondSignUp {
-  font-size: 1.8vw;
+.textbutton {
+  text-decoration: none !important;
+  color: #000;
 }
 
 .BorderOf1px {
@@ -678,6 +740,411 @@ article h4 {
 
 .AllPortfoliosLogoCard {
   border: none;
+}
+
+.successStoryCardBg {
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.TractionsBg {
+  background-color: #00a495;
+}
+
+.tractionsCardBg {
+  background-color: #00a495;
+  border: 3px solid #ffffff;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+.WhatWeDoBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.ourImpactBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.ourImpactCardBg {
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.successStoryBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.howItWorksBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.sectionOneBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.eventsCardBg {
+  background-color: rgba(0, 164, 149, 0.07);
+  border: 3px solid #00a495;
+}
+
+.carouselText {
+  bottom: 40%;
+  height: 500px;
+}
+
+.request {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.whyChooseUsBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.whyChooseUsCardBg {
+  border: 3px solid #00a495;
+  border-radius: 60px;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.center {
+  text-align: center;
+  width: auto;
+}
+
+.ManagedServicesRequestForm-Container {
+  border: 1px solid blac;
+  margin: auto;
+}
+
+.div1::before {
+  content: "";
+  background-image: url(../assets/images/logo.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 20%;
+  background-position: center;
+}
+
+.request {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.NavBar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  height: 4.6875rem !important;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.JointheStudioBtn:hover {
+  background-color: #821e6b;
+}
+
+.link {
+  color: #ef00c0;
+  text-align: center;
+  line-height: 3px;
+}
+
+.teamcardbody {
+  border-radius: 0px;
+  border-bottom: 5px solid #00a495 !important;
+  border-right: 5px solid #00a495 !important;
+  border-left: 5px solid #00a495 !important;
+}
+
+.Teampic {
+  display: block;
+  width: 100%;
+}
+
+.Text {
+  line-height: 1px;
+}
+
+.bgImg {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgtext {
+  color: rgb(255, 255, 255);
+}
+
+.bgimage h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+/*
+.imgContainer {
+  height: 100%;
+  width: 100%;
+}
+.imageStyle {
+  height: 80vh;
+  width: 100%;
+}
+
+.DigitalMarketingHeroText {
+  color: $prybgcolor;
+}
+.heroTextContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+*/
+/*
+.background {
+  background-image: url(/src/assets/images/digital\ marketing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100vh;
+}
+*/
+video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.contactUsTitle {
+  text-align: center;
+  color: #821e6b;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.ManagedServicesRequestBtn {
+  border: 3px solid #821e6b;
+  color: #000 !important;
+  border-radius: 20px;
+  width: 7.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.ul_top_hypers {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.iconsize {
+  font-size: 10px;
+  color: #00a495;
+  height: 100%;
+  overflow: visible;
+}
+
+#iconsize {
+  font-size: 10px;
+  color: #00a495;
+  height: 100%;
+  overflow: visible;
+}
+
+.iconsize2 {
+  font-size: 1.4rem;
+  color: #00a495;
+}
+
+.mobile-icon {
+  list-style-type: none;
+}
+
+.md-footer-line {
+  width: 98vw;
+}
+
+.newsLetterUnderline {
+  width: 15vw;
+}
+
+.footerLogo {
+  width: 4.2vw;
+}
+
+.footerLogo2 {
+  width: 4.7vw;
+}
+
+.footerText {
+  text-decoration: none;
+  color: black;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.icons-for-footer {
+  display: flex;
+}
+
+.footerIcon {
+  list-style-type: none;
+}
+
+.footerFormField {
+  outline: none;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.hrForBigScreen {
+  width: 17vw;
+}
+
+.firstSignUp {
+  font-size: 1.1vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.secondSignUp {
+  font-size: 1.5vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.thirdSignUp {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+}
+
+.text-fluid {
+  font-size: 1.1vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid1 {
+  font-size: 1.7vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid2 {
+  font-size: 1.4vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid3 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
 }
 
 .DigitalMarketingSection {

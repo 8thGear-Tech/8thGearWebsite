@@ -156,3 +156,44 @@ export const OurModelTractions = () => {
     </div>
   );
 };
+export const ManagedServicesTractions = () => {
+  return (
+    <div className="container-fluid text-center px-5">
+      <div className="row justify-content-evenly py-5">
+        {/* <h4 className="text-center my-5">OUR IMPACT</h4> */}
+        <div className="col-lg-2 col-md-4 col-sm-12">
+          <div className="align-items-center">
+            <div className="card-body ">
+              <h1 className="card-text">10</h1>
+              <p className="card-text">HAPPY CLIENTS</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-4 col-sm-12">
+          <div className="align-items-center">
+            <div className="card-body ">
+              <h1 className="card-text">10</h1>
+              <p className="card-text">EXHIBITIONS</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-4 col-sm-12">
+          <div className="align-items-center">
+            <div className="card-body ">
+              <h1 className="card-text">2</h1>
+              <p className="card-text">TALK SESSIONS</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-4 col-sm-12">
+          <div className="align-items-center">
+            <div className="card-body ">
+              <h1 className="card-text">10</h1>
+              <p className="card-text">PROJECTS DELIVERED</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

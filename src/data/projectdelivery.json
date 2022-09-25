@@ -61,37 +61,39 @@
       "id": 12,
       "image": "./images/projectdelivery/projectgallery12.jpg",
       "text": "photo session from founders meetup program"
+    }
+  ],
+  "ProjectVideo": [
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from founders meetup program"
     },
 
     {
-      "id": 13,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
     },
     {
-      "id": 14,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
     },
     {
-      "id": 15,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
+      "id": 5,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
     },
     {
-      "id": 16,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
     },
     {
-      "id": 17,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
-    },
-    {
-      "id": 18,
-      "image": "./images/projectdelivery/projectgallery12.jpg",
-      "text": "photo session from founders meetup program"
+      "id": 6,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
     }
   ]
 }

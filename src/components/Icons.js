@@ -19,3 +19,39 @@ export const ArrowRightIcon = () => {
     </div>
   );
 };
+
+export const FacebookIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-facebook"></i>
+    </div>
+  );
+};
+export const InstagramIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-instagram"></i>
+    </div>
+  );
+};
+export const LinkedInIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-linkedin"></i>
+    </div>
+  );
+};
+export const TwitterIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-twitter"></i>
+    </div>
+  );
+};
+export const MailIcon = () => {
+  return (
+    <div>
+      <i class="bi bi-at"></i>
+    </div>
+  );
+};

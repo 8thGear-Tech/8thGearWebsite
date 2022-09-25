@@ -2,35 +2,66 @@
 @use "../../font" as *;
 
 .OnHoverReadMoreBtn {
-  width: auto;
-  height: 30px;
-  background-color: #821e6b;
-  color: #ffffff;
-  font-size: 14px;
-  border-radius: 35px;
-  border: none;
+  // width: auto;
+  // height: 30px;
+  // background-color: #821e6b;
+  // color: #ffffff;
+  // font-size: 14px;
+  // border-radius: 35px;
+  // border: none;
+  // border: 3px solid $btncolor;
+  background-color: $btncolor;
+  color: $sectextcolor !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 @mixin LearnMoreBtn {
-  border: 2.5px solid $btncolor;
-  color: $prytextcolor;
-  font-size: 25px;
+  // border: 2.5px solid $btncolor;
+  // color: $prytextcolor;
+  // font-size: 25px;
+  // font-weight: 500;
+  // background-color: #fff;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 8.55rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
   font-weight: 500;
-  background-color: #fff;
+  font-size: 20px;
 }
 .LearnMoreBtn {
   @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  // border-radius: 2.187rem;
+  // padding: 0.4rem 1.5rem;
 }
 
 .RequestForProposalBtn {
-  @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 15.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 .ProjectDeliveryViewMoreBtn {
-  @include LearnMoreBtn;
-  border-radius: 2.187rem;
-  padding: 0.4rem 1.5rem;
+  border: 3px solid $btncolor;
+  color: $prytextcolor !important;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }

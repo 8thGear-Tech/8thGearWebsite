@@ -2,13 +2,32 @@
 // import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
 // import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
+// import { EventsViewMoreBtn } from "../components/Buttons/EventsBtn";
+import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
+// import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
+// import EventPageHero from "../../components/Hero/CarouselHero";
+
+import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
+import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
+import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
+import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.png";
+import { Navbar14 } from "../../components/Navbar";
+import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
+import eventsGallery from "../../data/gallerycards.json";
+import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
+import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
+import { EventPageHero } from "../../components/Hero/CarouselHero";
+
 const EventsPage = () => {
   return (
     <>
+      <Navbar14 />
+
       <Events />
       <SuggestAnEvent />
+      <EventsGallery />
     </>
   );
 };
@@ -30,13 +49,14 @@ const Events = () => {
                 // height="70px"
                 alt="..."
               />
-              <p className="card-text mx-3">
+              <p className="card-text mx-3  mt-2 mb-4">
                 {" "}
                 It's business creation. Our collaborative platform has three
                 components. It's business creation. It's business creation. Our
                 collaborative platform has three components. It's business
                 creation.
               </p>
+              <FoundersMeetupReadMoreBtn />
             </div>
           </div>
         </div>
@@ -52,13 +72,14 @@ const Events = () => {
                 // height="70px"
                 alt="..."
               />
-              <p className="card-text mx-3">
+              <p className="card-text mx-3 mt-2 mb-4">
                 {" "}
                 It's business creation. Our collaborative platform has three
                 components. It's business creation. It's business creation. Our
                 collaborative platform has three components. It's business
                 creation.
               </p>
+              <DemoDayReadMoreBtn />
             </div>
           </div>
         </div>
@@ -69,16 +90,55 @@ const Events = () => {
 };
 const SuggestAnEvent = () => {
   return (
-    <div className="container-fluid text-center p-5">
+    <div className="container-fluid text-center px-5 py-2">
       {" "}
       <h4 className="mt-5">Suggest an event or speaker</h4>
       <p>
         If you have a suggestion for an event or potential speaker, we would
         love to hear from you.
       </p>
-      {/* <LetUsKnowBtn /> */}
+      <div className="py-2">
+        {" "}
+        {/* <LetUsKnowBtn /> */}
+        <SuggestAnEventForm />
+      </div>
     </div>
   );
 };
+
+const EventsGallery = () => {
+  return (
+    <>
+      <div className="container-fluid successStoryBg">
+        {" "}
+        <div className="row justify-content-center m-5 p-5 ">
+          <h4 className="text-center">Gallery</h4>
+          {eventsGallery.eventsGallerySection.map((items) => {
+            return (
+              <>
+                <div className="col-md-4 my-4" key={items.id}>
+                  <SinglegalleryCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
+        <div className="d-flex justify-content-center">
+          <EventsViewMoreBtn />
+        </div>
+      </div>
+    </>
+  );
+};
+// const Events = () => {
+//   return (
+//     <>
+//       {/* <SuggestAnEventForm /> */}
+//       <CoWorkingPageHero />
+//       {/* <EventPageHero /> */}
+//       {/* <SuggestAnEventBtn /> */}
+//     </>
+//   );
+// };
 
 export default EventsPage;

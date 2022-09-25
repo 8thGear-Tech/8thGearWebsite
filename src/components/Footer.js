@@ -1,8 +1,17 @@
 import React from "react";
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import logo from "./../assets/images/logo.png";
+import { FacebookIcon } from "./Icons";
+import { InstagramIcon } from "./Icons";
+import { LinkedInIcon } from "./Icons";
+import { TwitterIcon } from "./Icons";
+import { MailIcon } from "./Icons";
 
 export const Footer = () => {
   return (
@@ -12,17 +21,20 @@ export const Footer = () => {
           <div className="my-5">
             <hr />
           </div>
-          <div className="row text-end ">
-            <i className="bi bi-arrow-up-square my-2 " id="iconsize2"></i>
+          <div className="row text-end iconsize2">
+            <i
+              className="bi bi-arrow-up-square my-2"
+              // id="iconsize2"
+            ></i>
           </div>
           <div className="row">
             <div className="col-md-3 ">
-              <div className="ms-4 ps-4">
+              <div className="">
                 <img className="footerLogo my-1  " src={logo} alt="" />
               </div>
               <div className="row d-flex justify-content-start">
-                <FooterModal />
-                <hr className="ms-5 hrForBigScreen"></hr>
+                <Example />
+                <hr className="ms-2 hrForBigScreen"></hr>
               </div>
             </div>
 
@@ -36,22 +48,22 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText text-nowrap" to="./ourmodel">
+                    <Link className=" footerText text-nowrap" to="./our-model">
                       OUR MODEL
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/portfolios">
+                    <Link className=" footerText" to="./portfolio">
                       PORTFOLIO
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="./projectdelivery">
+                    <Link className=" footerText" to="./project-delivery">
                       PROJECT DELIVERY
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="./managedservices">
+                    <Link className=" footerText" to="./managed-services">
                       MANAGED SERVICES
                     </Link>
                   </li>
@@ -76,7 +88,7 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="./TeamPage ">
+                    <Link className=" footerText" to="./team ">
                       8THGEARIANS
                     </Link>
                   </li>
@@ -91,7 +103,7 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./events">
                       EVENTS
                     </Link>
                   </li>
@@ -99,19 +111,23 @@ export const Footer = () => {
               </div>
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
-                  <li className="mx-1 text-fluid">
-                    <Link className=" footerText" to="/">
-                      info@8thgearpartners.com
-                    </Link>
-                  </li>
+                  <a
+                    href="mailto:info@8thgearpartners.com"
+                    className="mx-1 text-fluid  emailLink"
+                  >
+                    info@8thgearpartners.com
+                  </a>
 
                   <FooterIcon />
 
                   <li className="mx-2 text-fluid text-nowrap">
-                    <b>080 9481 8883 | 080 9481 8882</b>
+                    080 9481 8883 | 080 9481 8882
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText text-nowrap" to="/">
+                    <Link
+                      className=" footerText text-nowrap"
+                      to="./8thgear-hub"
+                    >
                       8THGEAR HUB
                     </Link>
                   </li>
@@ -220,7 +236,7 @@ export const Footer = () => {
                 <hr className="ms-5 hrForBigScreen"></hr>
               </div> */}
               <div className="row d-flex justify-content-start">
-                <FooterModal />
+                <Example />
                 <hr className="ms-5 hrForBigScreen"></hr>
               </div>
             </div>
@@ -234,17 +250,17 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText text-nowrap" to="/">
+                    <Link className=" footerText text-nowrap" to="./our-model">
                       OUR MODEL
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./portfolio">
                       PORTFOLIO
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./project-delivery">
                       PROJECT DELIVERY
                     </Link>
                   </li>
@@ -254,22 +270,25 @@ export const Footer = () => {
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./managed-service">
                       MANAGED SERVICES
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./coWorking">
                       COWORKING
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText text-nowrap" to="/">
+                    <Link
+                      className=" footerText text-nowrap"
+                      to="./growth-as-a-service"
+                    >
                       GROWTH AS A SERVICE
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./about">
                       ABOUT
                     </Link>
                   </li>
@@ -279,27 +298,27 @@ export const Footer = () => {
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./team">
                       8THGEARIANS
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./blog">
                       BLOG
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./faq">
                       FAQ
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./events">
                       EVENTS
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid2">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText" to="./8thgear-hub">
                       8THGEAR HUB
                     </Link>
                   </li>
@@ -308,14 +327,15 @@ export const Footer = () => {
 
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
-                  <li className="mx-1 text-fluid2">
-                    <Link className=" footerText" to="/">
-                      info@8thgearpartners.com
-                    </Link>
-                  </li>
+                  <a
+                    href="mailto:info@8thgearpartners.com"
+                    className="mx-1 text-fluid2  emailLink"
+                  >
+                    info@8thgearpartners.com
+                  </a>
 
                   <li className="mx-1 text-fluid2 text-nowrap">
-                    <b>080 9481 8883 | 080 9481 8882</b>
+                    080 9481 8883 | 080 9481 8882
                   </li>
                   <li className="mx-1">
                     <FooterIcon />
@@ -332,101 +352,106 @@ export const Footer = () => {
         <main className="container-fluid    d-md-none d-lg-none d-sm-block d-xs-block">
           <div className="row">
             <ul className="text-end pe-5 footerIcon">
-              <li>
+              <li className="iconsize">
                 <i
-                  className="bi bi-arrow-up-square px-1 "
+                  className="bi bi-arrow-up-square px-1  iconsize "
                   style={{ fontSize: 22 }}
                   id="iconsize"
                 ></i>
               </li>
             </ul>
-
-            <h6 className="text-center">
+            <h6 className="text-start pe-5">
               <FooterIcon />
             </h6>
-            {/* modal start for smallScreen */}
-            <div className="">
-              <FooterModal />
-            </div>
-            <hr className=" "></hr>
-            {/* modal ends for smallScreen */}
+            <h6 className="text-center">
+              <Example />
+            </h6>
           </div>
           <div className="row d-flex justify-content-center">
             <div className="row d-flex justify-content-center">
-              <div className="col-sm-4  col-xs-12 pe-5 ">
-                <ul className=" ul_for_footer text-center">
-                  <p className="my-3"></p>
-                  <p className="my-3">
-                    <Link className=" footerText" to="/">
-                      GROWTH AS A SERVICE
-                    </Link>
-                  </p>
-                  <p className="my-3">
-                    <Link className=" footerText" to="/">
-                      PROJECT DELIVERY
-                    </Link>
-                  </p>
-                  <p className="my-3">
-                    <Link className=" footerText" to="/">
-                      MANAGED SERVICES
-                    </Link>
-                  </p>
-                  <p className="my-3">
-                    <Link className=" footerText" to="/">
-                      info@8thgearpartners.com
-                    </Link>
-                  </p>
-                  <p className="my-3 text-nowrap">
-                    <b> 080 9481 8883</b> <br></br> <b>080 9481 8882</b>
-                  </p>
-                </ul>
-              </div>
               <div className="col-sm-4  col-xs-12 ps-5">
-                <ul className=" ul_for_footer text-center pe-5 footerIcon ">
+                <ul className=" ul_for_footer text-start pe-5 footerIcon  ">
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="/">
                       HOME
                     </Link>
                   </p>
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="./about">
                       ABOUT
                     </Link>
                   </p>
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="./blog">
                       BLOG
                     </Link>
                   </p>
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="./faq">
                       FAQ
                     </Link>
                   </p>
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="./events">
                       EVENT
                     </Link>
                   </p>
                   <p className="my-3 text-nowrap">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText text-fluid3" to="./our-model">
                       OUR MODEL
                     </Link>
                   </p>
                   <p className="my-3">
-                    <Link className=" footerText" to="/">
+                    <Link className=" footerText  text-fluid3" to="./portfolio">
                       PORTFOLIO
                     </Link>
                   </p>
                 </ul>
               </div>
+              <div className="col-sm-4  col-xs-12 pe-5 ">
+                <ul className=" ul_for_footer text-start">
+                  <p className="my-3"></p>
+                  <p className="my-3">
+                    <Link className=" footerText text-fluid3" to="./team">
+                      GROWTH AS A SERVICE
+                    </Link>
+                  </p>
+                  <p className="my-3">
+                    <Link
+                      className=" footerText text-fluid3"
+                      to="./project-delivery"
+                    >
+                      PROJECT DELIVERY
+                    </Link>
+                  </p>
+                  <p className="my-3">
+                    <Link
+                      className=" footerText text-fluid3"
+                      to="./managed-service"
+                    >
+                      MANAGED SERVICES
+                    </Link>
+                  </p>
+
+                  <a
+                    href="mailto:info@8thgearpartners.com"
+                    className="my-3  text-nowrap  emailLink text-fluid3"
+                  >
+                    info@8thgearpartners.com
+                  </a>
+                  <p className="my-3 text-nowrap text-fluid3">
+                    080 9481 8883 <br></br> 080 9481 8882
+                  </p>
+                </ul>
+              </div>
+
               <div className="col-5"></div>
             </div>
             <div className="row">
               <div className="col text-center">
                 <img className="" src={logo} alt="" style={{ width: 60 }} />
                 <p className="my-3">
-                  <Link className=" footerText" to="/">
+                  <Link className=" footerText text-fluid3" to="/">
                     8THGEAR HUB
                   </Link>
                 </p>
@@ -460,7 +485,7 @@ export const SubscribeForm = () => {
   };
   return (
     <>
-      <form className="form  w-75 text-center " onSubmit={handleSubmit}>
+      <form className="form  w-100 text-start " onSubmit={handleSubmit}>
         <article className="form-control my-2 text-start g-3">
           <label htmlFor="email"> </label>
           <input
@@ -490,35 +515,35 @@ export const FooterIcon = () => {
 
       <ul className=" ">
         <li className="mx-3 d-flex justify-content-center footerIcon">
-          <li className="mx-2">
-            <Link className="" to="/">
-              <i className="bi bi-facebook "></i>
-            </Link>
-          </li>
+          <div>
+            <a href="https://www.facebook.com/8thgearpartners">
+              <i className="bi bi-facebook mx-2 text-dark"></i>
+            </a>
+          </div>
 
-          <li className="mx-2 ">
-            <Link className="" to="/">
-              <i className="bi bi-instagram"></i>
-            </Link>
-          </li>
+          <div>
+            <a href="https://www.instagram.com/8thgearpartners/">
+              <i className="bi bi-instagram mx-2 text-dark"></i>
+            </a>
+          </div>
 
-          <li className="mx-2 ">
-            <Link className="" to="/">
-              <i className="bi bi-linkedin"></i>
-            </Link>
-          </li>
+          <div>
+            <a href="https://www.linkedin.com/company/8thgearpartners/">
+              <i className="bi bi-linkedin mx-2 text-dark"></i>
+            </a>
+          </div>
 
-          <li className="mx-2 ">
-            <Link className="" to="/">
-              <i className="bi bi-twitter"></i>
-            </Link>
-          </li>
+          <div>
+            <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+              <i className="bi bi-twitter mx-2 text-dark"></i>
+            </a>
+          </div>
 
-          <li className="mx-2">
-            <Link className="" to="/">
-              <i className="bi bi-at "></i>
-            </Link>
-          </li>
+          <div>
+            <a href="mailto:info@8thgearpartners.com">
+              <i class="bi bi-at text-dark"></i>
+            </a>
+          </div>
         </li>
       </ul>
     </>
@@ -545,12 +570,12 @@ export const FooterModal = () => {
           SIGN UP FOR NEWSLETTER
         </h6>
       </button>
-      {openModal && <Modal closeModal={setOpenModal} />}
+      {openModal && <Modal1 closeModal={setOpenModal} />}
     </div>
   );
 };
 
-export function Modal({ closeModal }) {
+export function Modal1({ closeModal }) {
   return (
     <>
       <div className="container  text-start" style={{ width: 400 }}>
@@ -562,6 +587,7 @@ export function Modal({ closeModal }) {
             {/* <i class="bi bi-x-square" style={{ fontSize: 25 }}></i> */}
             Close
           </button>
+          `{" "}
           <img
             className="mt-2"
             src={logo}
@@ -569,6 +595,7 @@ export function Modal({ closeModal }) {
             height={33}
             id="staticBackdropLabel"
           />
+          `
         </div>
         <div className="title">
           <div className="row d-flex justify-content-center ">
@@ -576,6 +603,66 @@ export function Modal({ closeModal }) {
           </div>
         </div>
       </div>
+    </>
+  );
+}
+
+export function Example() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+      {/* <Button onClick={handleShow}>
+        <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+        <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+        <h6 className="text-start text-nowrap   d-md-none  d-md-lg-none  d-md-sm-block     ">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+      </Button> */}
+      <button
+        className="openModalBtn btn "
+        // onClick={() => {
+        //   setOpenModal(true);
+        // }}
+        onClick={handleShow}
+      >
+        <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+        <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+        <h6 className="text-start text-nowrap  thirdSignUp  d-md-none  d-md-lg-none  d-md-sm-block     ">
+          SIGN UP FOR NEWSLETTER
+        </h6>
+      </button>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          {/* <Modal.Title>Modal heading</Modal.Title> */}
+          <img
+            className="mt-2"
+            src={logo}
+            width={28}
+            height={33}
+            id="staticBackdropLabel"
+          />
+        </Modal.Header>
+        {/* <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body> */}
+        <SubscribeForm />
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 }

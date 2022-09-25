@@ -48,19 +48,20 @@
 
     {
       "id": 12,
-      "image": "./images/gallerydemoday/12demoday.jpg"
-    },
-    {
-      "id": 13,
-      "image": "./images/gallerydemoday/13demoday.jpg"
-    },
-    {
-      "id": 14,
-      "image": "./images/gallerydemoday/14demoday.jpg"
-    },
-    {
-      "id": 15,
       "image": "./images/gallerydemoday/15demoday.jpg"
+    }
+  ],
+  "Demovideo": [
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
+    },
+
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
     }
   ]
 }

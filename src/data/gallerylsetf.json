@@ -2,16 +2,16 @@
   "gallerylseft": [
     {
       "id": 1,
-      "image": "./images/gallerylsetf/Lsetfcard1.jpg"
+      "image": "./images/gallerylsetf/lsetf1.jpg"
     },
 
     {
       "id": 2,
-      "image": "./images/gallerylsetf/Lsetfcard2.jpg"
+      "image": "./images/gallerylsetf/lsetf2.jpg"
     },
     {
       "id": 3,
-      "image": "./images/gallerylsetf/Lsetfcard3.jpg"
+      "image": "./images/gallerylsetf/lsetf3.jpg"
     },
 
     {
@@ -50,6 +50,24 @@
     {
       "id": 12,
       "image": "./images/gallerylsetf/Lsetfcard11.jpg"
+    }
+  ],
+  "galleryvideocards": [
+    {
+      "id": 1,
+      "video": "https://www.youtube.com/embed/eTQOxk3Wzqw",
+      "text": "Video session from founders meetup program"
+    },
+
+    {
+      "id": 2,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 3,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4",
+      "text": "video session from meeting"
     }
   ]
 }
