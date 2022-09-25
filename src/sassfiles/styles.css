@@ -26,10 +26,6 @@
   width: 100%;
 }
 
-.blogtext {
-  font-size: 1.5vw;
-}
-
 .blogPagE {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -40,11 +36,22 @@
   font-size: 1vw;
 }
 
-.sideimg {
-  width: 100%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.sideCard {
+  min-height: 3rem;
+}
+
+.text-fluid5 {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid6 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.3rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .manageSvcard {
@@ -1045,6 +1052,12 @@ article h4 {
   line-height: 1px;
 }
 
+.Bix {
+  display: block;
+  width: 10%;
+  height: 20%;
+}
+
 .purple {
   background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
   padding: 0 24px;
@@ -1272,6 +1285,24 @@ article h4 {
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
   .GaaSHeroBg {
+    height: 60vh;
+  }
+}
+.CoworkingHeroBg {
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 440px) {
+  .CoworkingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .CoworkingHeroBg {
     height: 60vh;
   }
 }
@@ -1579,20 +1610,21 @@ video {
   list-style-type: none;
 }
 
-.text-fluid {
-  font-size: 1.2vw;
-}
-
-.text-fluid2 {
-  font-size: 1.6vw;
+.iconsize {
+  font-size: 10px;
+  color: #00a495;
+  height: 100%;
+  overflow: visible;
 }
 
 #iconsize {
+  font-size: 10px;
   color: #00a495;
-  position: fixed;
+  height: 100%;
+  overflow: visible;
 }
 
-#iconsize2 {
+.iconsize2 {
   font-size: 1.4rem;
   color: #00a495;
 }
@@ -1609,10 +1641,6 @@ video {
   width: 15vw;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-}
-
 .footerLogo {
   width: 4.2vw;
 }
@@ -1624,7 +1652,10 @@ video {
 .footerText {
   text-decoration: none;
   color: black;
-  font-weight: 100;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .icons-for-footer {
@@ -1637,6 +1668,8 @@ video {
 
 .footerFormField {
   outline: none;
+  font-size: 13px;
+  font-weight: lighter;
 }
 
 .hrForBigScreen {
@@ -1644,11 +1677,63 @@ video {
 }
 
 .firstSignUp {
-  font-size: 1.3vw;
+  font-size: 1.1vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .secondSignUp {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.thirdSignUp {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+}
+
+.text-fluid {
+  font-size: 1.1vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid1 {
+  font-size: 1.7vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid2 {
+  font-size: 1.4vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid3 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footerTextDecoration {
+  text-decoration: none;
+  color: #000;
 }
 
 .DigitalMarketingSection {

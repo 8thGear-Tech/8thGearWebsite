@@ -25,6 +25,7 @@ export const AboutStartup = (props) => {
                 className="img-fluid"
                 // width="70px"
                 // height="40px"
+                style={{ maxWidth: "350px", maxHeight: "350px" }}
                 alt="..."
                 // style={{ width: "px" }}
               />

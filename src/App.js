@@ -50,7 +50,6 @@ import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
-
 import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
 // import Footer from "./components/Footer";

@@ -149,7 +149,7 @@ export const GaaSHero = () => {
 };
 export const CoworkingHero = () => {
   return (
-    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-4 align-items-center">
+    <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">

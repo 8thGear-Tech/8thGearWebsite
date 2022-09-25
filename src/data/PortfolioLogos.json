@@ -2,7 +2,7 @@
   "PortfolioLogos": [
     {
       "id": 1,
-      "logo": "images/newinnkeeperlogo.png",
+      "logo": "images/innkeeperlogo.png",
       "link": "/innkeeper"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "logo": "images/mindafrikone.png",
+      "logo": "images/mindafrik.png",
       "link": "/mind-afrik"
     },
     {

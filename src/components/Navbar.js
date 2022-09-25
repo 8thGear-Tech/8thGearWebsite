@@ -200,7 +200,6 @@ const NavBar = (props) => {
           </div>
 
           <br />
-          <br />
 
           <div className="mx-3">
             <JointheStudioBtn />
@@ -210,8 +209,8 @@ const NavBar = (props) => {
           <br />
           <br />
 
-          <div className="d-flex mx-5">
-            <div>
+          <div className="d-flex justify-content-center mt-5">
+            <div className="">
               <a href="https://www.facebook.com/8thgearpartners">
                 <i className="bi bi-facebook mx-2 text-dark"></i>
               </a>

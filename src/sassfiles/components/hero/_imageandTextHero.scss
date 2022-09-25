@@ -81,6 +81,23 @@
     height: 60vh;
   }
 }
+.CoworkingHeroBg {
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  opacity: 1;
+}
+@media only screen and (max-width: 440px) {
+  .CoworkingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .CoworkingHeroBg {
+    height: 60vh;
+  }
+}
 .ourModelHeroBg {
   background: url(/src/assets/images/hero/ourmodel.jpg);
   background-repeat: no-repeat;
