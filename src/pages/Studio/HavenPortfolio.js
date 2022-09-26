@@ -23,7 +23,7 @@ const AboutHavenSection = () => {
             {HavenPortfolioInfo.HavenPortfolioInfo.map((portfolioInfo) => {
               return (
                 <div
-                  className="col-lg-12 col-md-6 col-sm-12"
+                  className="col-lg-12 col-md-12 col-sm-12"
                   key={portfolioInfo.id}
                 >
                   <AboutStartup {...portfolioInfo}></AboutStartup>
