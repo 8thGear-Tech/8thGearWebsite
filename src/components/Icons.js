@@ -329,3 +329,13 @@ export const ScaleUpIcon = () => {
     <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
   );
 };
+// Team
+
+// export const LinkedInIcon = () => {
+//   return (
+//     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//     <div>
+//       <i class="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
+//     </div>
+//   );
+// };

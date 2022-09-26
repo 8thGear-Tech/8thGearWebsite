@@ -24,21 +24,25 @@
   "ManagedServicesImages": [
     {
       "id": 1,
+      "link": "/digital-marketing",
       "image": "../../images/managedservices/digitalmarketing.JPG",
       "text": "DIGITAL MARKETING"
     },
     {
       "id": 2,
+      "link": "/legal",
       "image": "../../images/managedservices/legal.JPG",
       "text": "LEGAL"
     },
     {
       "id": 3,
+      "link": "/accounting",
       "image": "../../images/managedservices/accounting.JPG",
       "text": "ACCOUNTING"
     },
     {
       "id": 4,
+      "link": "/tech",
       "image": "../../images/managedservices/tech.png",
       "text": "TECH"
     }

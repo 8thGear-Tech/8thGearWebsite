@@ -6,8 +6,8 @@ import data from "../../data/portfolioHero.json";
 export const ManagedServicesHero = () => {
   return (
     <div className="container-fluid pt-5 pb-4">
-      <div className="row mx-lg-4 mx-md-4 ">
-        <div className="text-center">
+      <div className="row mx-lg-4 mx-md-4 mt-4 justify-content-center">
+        <div className="col-lg-7 text-center">
           <h3 className="">The Venture Studio Model</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
@@ -28,12 +28,12 @@ const PortfolioHeroSingle = (props) => {
   const { text } = props;
   return (
     <div className="container-fluid PortfolioHeroBg py-5 px-lg-5 px-md-5">
-      <div className="row my-lg-5 mx-lg-3">
-        <div className=" d-none d-lg-block d-md-block d-sm-none">
-          <p className="text-center">{text}</p>
+      <div className="row my-lg-5 mx-lg-3 px-5 justify-content-center ">
+        <div className="col-lg-8 d-none d-lg-block d-md-block d-sm-none">
+          <h3 className="text-center">{text}</h3>
         </div>
-        <div className=" d-lg-none d-md-none d-sm-block d-xs-block">
-          <p className="text-center">{text}</p>
+        <div className="col-lg-7 d-lg-none d-md-none d-sm-block d-xs-block">
+          <h4 className="text-center">{text}</h4>
         </div>
       </div>
     </div>

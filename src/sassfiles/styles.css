@@ -223,7 +223,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
 
@@ -625,6 +625,14 @@ article h4 {
 .BookNowBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
+}
+
+.team-button-color {
+  color: #821e6b;
+}
+.team-button-color:hover {
+  color: #821e6b;
+  font-size: 1.1rem;
 }
 
 .BookaSessionBtn {
@@ -1050,6 +1058,11 @@ article h4 {
 
 .Text {
   line-height: 1px;
+  font-size: 0.9rem;
+}
+
+.titleText {
+  font-size: 0.9rem;
 }
 
 .Bix {
@@ -1275,6 +1288,10 @@ article h4 {
   position: relative;
 }
 
+.homeHeroBg h3 {
+  position: relative;
+}
+
 @media only screen and (max-width: 440px) {
   .homeHeroBg {
     height: 50vh;
@@ -1322,11 +1339,30 @@ article h4 {
   }
 }
 .ourModelHeroBg {
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  position: relative;
   background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ourModelHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/ourmodel.jpg);
   background-size: cover;
-  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   opacity: 1;
+}
+
+.ourModelHeroBg h2 {
+  position: relative;
+}
+
+.ourModelHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {

@@ -16,48 +16,44 @@ const AboutFounderMeetup = () => {
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <p className="">Dear Founders,</p>
+      <p className="">
+        <b>INVITATION TO FOUNDERS MEETUP</b>
+      </p>
       <p>
-        Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor
-        sit amet .Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem
-        ipsum dolor sit amet Read more about him here We will also have our
-        'Startup Corner' where we will discuss and answer all your business
-        questions. You can still purchase tickets here or at the door.
+        We realize how difficult it can be to be an entrepreneur. Bravo, we are
+        very proud of you for choosing this route; Africa will be better for it.
+        Continue to move and push, and the stars will align sooner than you
+        expect. 8thGear’s Founders Meetup was specially curated for you, we
+        couldnt agree more with the African proverb “If you want to go fast, go
+        alone. If you want to go far, go together”.
+        <p className="my-3">
+          This is an event focused on fostering a blossoming relationship
+          amongst entrepreneurs so the law of synergy can be enacted to learn,
+          to grow, to connect. The event consists of two parts. The first
+          section focuses on taking important lessons from others who have
+          already achieved success, while the second section is all about
+          networking and games.
+        </p>
+        <p className="">Please find below the meeting details</p>
       </p>
       <ul className="">
-        <li>Venue: 8thGear (Conference Room)</li>
-        <li>Address: 11B Collin onabule, Diamond Estate, Lagos. Map</li>
-        <li>Time: 3pm - 5pm (No African Time, our policy for 2020)</li>
-        <li>Date: 25th January.</li>
-        <li></li>
+        <li>FREQUENCY : Quarterly</li>
+        <li>GATE FEE: Free</li>
+        <li>TIME: 2- 3 Hours Max</li>
+        <li>VENUE : 8thGear Hub </li>
+        <li>DATE: October 15th 2022</li>
+        <li>Attendance is free but registration is compulsory.</li>
       </ul>
-      <p>A few things to note:</p>
-      <ol className="">
-        <li>Our Hashtag</li>
-        <p>
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
-          dolor sit amet .Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-          Lorem ipsum dolor sit amet
-        </p>
-        <li>Networking</li>
-        <p>Come with your business cards and be ready to network</p>
-        <li>Timeliness</li>
-        <p>
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
-          dolor sit amet .Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-          Lorem ipsum dolor sit amet
-        </p>
-        <li>Bring a friend</li>
-        <p>
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
-          dolor sit amet .Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-          Lorem ipsum dolor sit amet
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum
-          dolor sit amet .Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-          Lorem ipsum dolor sit amet
-        </p>
-      </ol>
+      <p className="my-3">
+        We are looking forward to getting to know you at the hangout. Do have a
+        productive day.
+      </p>
+      <p className="my-3">Thank you.</p>
+      <ul className="">
+        <li>Best Regards,</li>
+        <li>Titilayo Ekundayo</li>
+        <li>Head, Venture Studio.</li>
+      </ul>
     </div>
   );
 };

@@ -51,10 +51,10 @@ const Events = () => {
               />
               <p className="card-text mx-3  mt-2 mb-4">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation. It's business creation. Our
-                collaborative platform has three components. It's business
-                creation.
+                It is important to travel the lonely path of entrepreneurship
+                with like-minded individuals. Synergy is created when founders
+                collaborate, and individuals are inspired, motivated, and
+                challenged to pursue their dreams.
               </p>
               <FoundersMeetupReadMoreBtn />
             </div>
@@ -74,10 +74,11 @@ const Events = () => {
               />
               <p className="card-text mx-3 mt-2 mb-4">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation. It's business creation. Our
-                collaborative platform has three components. It's business
-                creation.
+                A value-packed day where every member of the ecosystem is
+                represented with the sole objective of witnessing the beauty of
+                the creative mind and hearing great ideas that can scale being
+                pitched. It is a quarterly event where businesses are admitted
+                into the 8thGear Venture studio
               </p>
               <DemoDayReadMoreBtn />
             </div>

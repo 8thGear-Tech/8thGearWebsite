@@ -28,6 +28,13 @@
   }
 }
 
+.team-button-color {
+  color: $btncolor;
+  &:hover {
+    color: $btncolor;
+    font-size: 1.1rem;
+  }
+}
 .BookaSessionBtn {
   // width: auto;
   // height: 30px;

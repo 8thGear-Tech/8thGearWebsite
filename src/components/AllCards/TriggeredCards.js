@@ -136,14 +136,14 @@ export const EightgeariansPopUpCard2 = (props) => {
   return (
     <>
       <MemberTwoViewBioBtn />
-      <button
+      {/* <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
         8thgerian2
-      </button>
+      </button> */}
       <div
         className="modal fade"
         id="staticBackdrop2"

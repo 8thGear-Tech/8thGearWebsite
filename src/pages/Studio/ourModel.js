@@ -252,13 +252,12 @@ const HowWeDoIt = () => {
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
             <h4 className="">05- Scaleup</h4>
-            <h3 className="">We spin out once proof of concept is achieved.</h3>
+            <h3 className="">Scale the Fundamentals </h3>
             <p>
-              Once we have a small group of raving fans who are willing to pay
-              and spread the word through referrals. It is past time to turn
-              these concepts into stand-alone enterprises. Our in-house legal,
-              branding, and human resources experts get to work right away,
-              spinning them off as distinct firms with a strong framework.
+              We allow founders focus on the core of their value offerings.
+              Ensuring that has these businesses grow and scale the fundamentals
+              is not lose sight off while we make sure everyother part of the
+              business is working as it should.
             </p>
           </div>
         </div>

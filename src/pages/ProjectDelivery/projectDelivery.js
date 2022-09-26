@@ -14,7 +14,7 @@ import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
 
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
-import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
+import { ProjectDeliveryCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
@@ -53,9 +53,7 @@ const Competencies = () => {
       <h4 className="py-5 text-center">COMPETENCIES</h4>
       <div className="row">
         {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
-          return (
-            <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
-          );
+          return <ProjectDeliveryCard {...ProjectDeliveryImage} />;
         })}
       </div>
       {/* <div className="py-5 d-flex justify-content-center">

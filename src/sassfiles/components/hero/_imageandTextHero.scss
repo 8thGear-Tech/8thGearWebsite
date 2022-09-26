@@ -104,6 +104,9 @@
 .homeHeroBg h2 {
   position: relative;
 }
+.homeHeroBg h3 {
+  position: relative;
+}
 @media only screen and (max-width: 440px) {
   .homeHeroBg {
     height: 50vh;
@@ -148,12 +151,36 @@
     height: 60vh;
   }
 }
+// .ourModelHeroBg {
+//   background: url(/src/assets/images/hero/ourmodel.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   opacity: 1;
+// }
 .ourModelHeroBg {
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  position: relative;
   background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ourModelHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/ourmodel.jpg);
   background-size: cover;
-  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   opacity: 1;
+}
+.ourModelHeroBg h2 {
+  position: relative;
+}
+.ourModelHeroBg h3 {
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
   .ourModelHeroBg {

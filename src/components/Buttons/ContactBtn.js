@@ -46,13 +46,13 @@ export const MemberOneViewBioBtn = () => {
     <>
       <a
         href=""
-        className="text-decoration-none"
+        className="text-decoration-none team-button-color"
         type="button"
         // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
-        View Bio
+        View Bio <i className="bi bi-arrow-right"></i>
       </a>
     </>
   );
@@ -62,13 +62,93 @@ export const MemberTwoViewBioBtn = () => {
     <>
       <a
         href=""
-        className="text-decoration-none"
+        className="text-decoration-none team-button-color"
         type="button"
         // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
-        View Bio
+        View Bio <i className="bi bi-arrow-right"></i>
+      </a>
+    </>
+  );
+};
+export const MemberThreeViewBioBtn = () => {
+  return (
+    <>
+      <a
+        href=""
+        className="text-decoration-none team-button-color"
+        type="button"
+        // class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop3"
+      >
+        View Bio <i className="bi bi-arrow-right"></i>
+      </a>
+    </>
+  );
+};
+export const MemberFourViewBioBtn = () => {
+  return (
+    <>
+      <a
+        href=""
+        className="text-decoration-none team-button-color"
+        type="button"
+        // class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop4"
+      >
+        View Bio <i className="bi bi-arrow-right"></i>
+      </a>
+    </>
+  );
+};
+export const MemberFiveViewBioBtn = () => {
+  return (
+    <>
+      <a
+        href=""
+        className="text-decoration-none team-button-color"
+        type="button"
+        // class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop5"
+      >
+        View Bio <i className="bi bi-arrow-right"></i>
+      </a>
+    </>
+  );
+};
+export const MemberSixViewBioBtn = () => {
+  return (
+    <>
+      <a
+        href=""
+        className="text-decoration-none team-button-color"
+        type="button"
+        // class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop6"
+      >
+        View Bio <i className="bi bi-arrow-right"></i>
+      </a>
+    </>
+  );
+};
+export const MemberSevenViewBioBtn = () => {
+  return (
+    <>
+      <a
+        href=""
+        className="text-decoration-none team-button-color"
+        type="button"
+        // class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop7"
+      >
+        View Bio <i className="bi bi-arrow-right"></i>
       </a>
     </>
   );

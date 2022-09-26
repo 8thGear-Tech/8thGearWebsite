@@ -33,7 +33,7 @@ export const AllPortfoliosLogoCard = (props) => {
   );
 };
 
-export const ProjectDeliveryManagedServicesCard = (props) => {
+export const ProjectDeliveryCard = (props) => {
   const { image, text, id } = props;
   return (
     <div
@@ -45,9 +45,31 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
         backgroundImage: "url(" + image + ")",
       }}
     >
+      {" "}
       <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
         {text}
       </p>
+    </div>
+  );
+};
+export const ManagedServicesCard = (props) => {
+  const { image, link, text, id } = props;
+  return (
+    <div
+      key={id}
+      className="col-lg-3 col-md-6 col-sm-12"
+      style={{
+        height: "400px",
+        backgroundSize: "cover",
+        backgroundImage: "url(" + image + ")",
+      }}
+    >
+      <Link to={link} className="text-decoration-none">
+        {" "}
+        <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
+          {text}
+        </p>
+      </Link>
     </div>
   );
 };

@@ -1,53 +1,86 @@
 {
-  "teamcard": [
+  "teamcardone": [
     {
-      "id": 1,
+      "image1": "../../images/team/damilolaobidairo.png",
+      "name1": "DAMILOLA OBIDAIRO",
+      "title1": "CEO/CO-FOUNDER",
+      "id": "staticBackdrop1",
       "image": "../../images/team/damilolaobidairo.png",
-      "name": "Damilola Obidiaro",
-      "title": "CEO/Co-Founder",
-      "text": " View More"
-    },
+      "name": " Damilola Obidiaro",
+      "position": "CEO/Co-Founder",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardtwo": [
     {
-      "id": 2,
+      "image1": "../../images/team/madamwunmi.png",
+      "name1": "OMOWUNMI OBIDAIRO",
+      "title1": "CO-FOUNDER",
+      "id": "staticBackdrop2",
       "image": "../../images/team/madamwunmi.png",
-      "name": "Omowumi Obidairo",
-      "title": "Co-Founder",
-      "text": " View More"
-    },
+      "name": "Omowumi Adekoya",
+      "position": "Co-Founder",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardthree": [
     {
-      "id": 3,
+      "image1": "../../images/team/titilayoekundayo.png",
+      "name1": "TITILAYO EKUNDAYO",
+      "title1": "LEAD,VENTURE STUDIO",
+      "id": "staticBackdrop3",
       "image": "../../images/team/titilayoekundayo.png",
       "name": "Titilayo Ekundayo",
-      "title": "Lead,Venture Studio",
-      "text": " View More"
-    },
+      "position": "Lead,Venture Studio",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardfour": [
     {
-      "id": 4,
+      "image1": "../../images/team/temitopekazeem.png",
+      "name1": "TEMITOPE KAZEEM",
+      "title1": "LEAD,HR & OPERATIONS",
+      "id": "staticBackdrop4",
       "image": "../../images/team/temitopekazeem.png",
       "name": "Temitope Kazeem",
-      "title": "Lead, HR & Operations",
-      "text": " View More"
-    },
+      "position": "Lead, HR & Operations",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardfive": [
     {
-      "id": 5,
+      "image1": "../../images/team/opeyemibioku.png",
+      "name1": "OPEYEMI BIOKU",
+      "title1": "LEAD,DEVELOPER TEAM",
+      "id": "staticBackdrop5",
       "image": "../../images/team/opeyemibioku.png",
       "name": "Opeyemi Bioku",
-      "title": "Lead, Developer Team",
-      "text": " View More"
-    },
+      "position": "Lead, Developer Team",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardsix": [
     {
-      "id": 6,
+      "image1": "../../images/team/adam.png",
+      "name1": "ADAM YAKUB",
+      "title1": "FINANCE & ACCOUNTING ASSOCIATE",
+      "id": "staticBackdrop6",
       "image": "../../images/team/adam.png",
       "name": "Adam Yakub",
-      "title": "Finance & Accounting Associate",
-      "text": " View More"
-    },
+      "position": "Finance & Accounting Associate",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
+    }
+  ],
+  "teamcardseven": [
     {
-      "id": 7,
+      "image1": "../../images/team/ifunanya.png",
+      "name1": "IFUNANY OMANUKWE",
+      "title1": "BUSINESS ANALYST",
+      "id": "staticBackdrop7",
       "image": "../../images/team/ifunanya.png",
       "name": "Ifunaya Omanukwe",
-      "title": "Business Analyst",
-      "text": " View More"
+      "position": "Business Analyst",
+      "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
     }
   ],
   "EIRcard": [

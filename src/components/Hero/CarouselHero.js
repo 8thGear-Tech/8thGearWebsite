@@ -23,7 +23,7 @@ export const EventPageHero = () => {
           <img src={demoday3} class="d-block w-100 h-25" alt="..." />
         </div>
       </div>
-      <button
+      {/* <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselExampleControls"
@@ -43,7 +43,7 @@ export const EventPageHero = () => {
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-      </button>
+      </button> */}
     </div>
   );
 };
