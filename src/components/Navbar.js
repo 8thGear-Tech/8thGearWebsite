@@ -200,6 +200,7 @@ const NavBar = (props) => {
           </div>
 
           <br />
+          <br />
 
           <div className="mx-3">
             <JointheStudioBtn />

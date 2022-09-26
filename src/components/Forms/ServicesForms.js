@@ -63,7 +63,7 @@ const ProjectDeliveryRequestForm = () => {
                   ></input>
                 </div>
 
-                <div className="Vessel">
+                {/* <div className="Vessel">
                   <input
                     onChange={(e) =>
                       setFormData({ ...formData, password: e.target.value })
@@ -75,7 +75,7 @@ const ProjectDeliveryRequestForm = () => {
                     className="myInput form-control"
                     placeholder="Password"
                   ></input>
-                </div>
+                </div> */}
 
                 <div className=" Vessel mb-3">
                   <label for="debrief" className="form-label"></label>

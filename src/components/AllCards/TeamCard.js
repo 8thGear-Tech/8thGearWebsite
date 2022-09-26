@@ -14,7 +14,7 @@ import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
 import Info from "../../data/advisory.json";
 
 export const TeamCard = (props) => {
-  const { image, name, title, text } = props;
+  const { image, name, title, text, popup } = props;
   return (
     <>
       <div className="card-deck">
@@ -26,11 +26,12 @@ export const TeamCard = (props) => {
 
               <figcaption class="card-text mt-1">{title}</figcaption>
             </figure>
-            <EightgeariansPopUpCard1 />
+            {/* <EightgeariansPopUpCard1 /> */}
 
-            {/* <a href="">
-              <MemberOneViewBioBtn />
-            </a> */}
+            <a href="">
+              {popup}
+              {/* <MemberOneViewBioBtn /> */}
+            </a>
 
             {/* <a href="#" class="nav-link active link">
               View More

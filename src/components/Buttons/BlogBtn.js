@@ -71,7 +71,10 @@ export const ShareBtn = () => {
 export const BlogReadMoreLinkBtn = () => {
   return (
     <>
-      <a href="BlogReadMoreLinkBtn">Read More</a>
+      
+      <a href="" className="BlogReadMoreLinkBtn">
+        Read More
+      </a>
     </>
   );
 };

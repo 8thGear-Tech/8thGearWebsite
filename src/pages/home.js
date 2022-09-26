@@ -75,44 +75,44 @@ const SectionTwo = () => {
           </h2>
         </div>
         <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
-          <div className="col d-lg-flex d-md-flex mb-5 float-end">
-            <div className="col">
-              <img
-                src={venturestudioicon}
-                alt=""
-                width="50px"
-                height="50px"
-                className="mb-3"
-              />
-              <Link to="/our-model" className="headerText">
-                <h3>VENTURE STUDIO</h3>
-              </Link>
+          {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}
+          <div className="col">
+            <img
+              src={venturestudioicon}
+              alt=""
+              width="50px"
+              height="50px"
+              className="mb-3"
+            />
+            <Link to="/our-model" className="headerText">
+              <h3>VENTURE STUDIO</h3>
+            </Link>
 
-              <p className="textFont">
-                Turning ideas either ours or yours into sustainable businesses
-                is what we do best.
-              </p>
-            </div>
+            <p className="textFont">
+              Turning ideas either ours or yours into sustainable businesses is
+              what we do best.
+            </p>
           </div>
-          <div className="col d-lg-flex d-md-flex float-end">
-            <div className="col">
-              <img
-                src={projectdeliveryicon}
-                alt=""
-                width="70px"
-                height="70px"
-                className="mb-3"
-              />
-              <Link to="/project-delivery" className="headerText">
-                <h3>PROJECT DELIVERY</h3>
-              </Link>
+          {/* </div> */}
+          {/* <div className="col d-lg-flex d-md-flex float-end"> */}
+          <div className="col">
+            <img
+              src={projectdeliveryicon}
+              alt=""
+              width="70px"
+              height="70px"
+              className="mb-3"
+            />
+            <Link to="/project-delivery" className="headerText">
+              <h3>PROJECT DELIVERY</h3>
+            </Link>
 
-              <p className="textFont">
-                {" "}
-                Executing impact and self sustaining initiatives is our forte.
-              </p>
-            </div>
+            <p className="textFont">
+              {" "}
+              Executing impact and self sustaining initiatives is our forte.
+            </p>
           </div>
+          {/* </div> */}
         </div>
       </div>
     </div>

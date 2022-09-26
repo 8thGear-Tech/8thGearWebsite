@@ -175,7 +175,7 @@ body {
   color: #ffffff;
 }
 
-.BlogReadMoreLinkBtn a {
+.BlogReadMoreLinkBtn {
   color: #821e6b !important;
   font-style: normal;
   font-weight: 700;
@@ -1253,11 +1253,26 @@ article h4 {
 }
 */
 .homeHeroBg {
-  background: url(/src/assets/images/hero/homepagehero.png);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.homeHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/home.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.homeHeroBg h2 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1271,7 +1286,7 @@ article h4 {
   }
 }
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/GaaSpagehero.png);
+  background: url(/src/assets/images/hero/gaas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -1481,7 +1496,7 @@ article h4 {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .ManagedServicesLegalHero h2 {

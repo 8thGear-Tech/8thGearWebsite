@@ -47,12 +47,62 @@
   width: 100vh;
 }
 */
+// .homeHeroBg {
+//   background: url(/src/assets/images/hero/home.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 80vh;
+//   opacity: 1;
+// }
+
+// .overlay-bg {
+//   position: absolute;
+//   height: 100vh;
+//   width: 100%;
+//   opacity: 1;
+//   top: 0;
+//   left: 0;
+// }
+// .bg-gradient-dark-slate-blue {
+//   background: url(/src/assets/images/hero/home.jpg);
+//   background-image: linear-gradient(
+//     to right,
+//     #252c3e,
+//     rgba(37, 44, 62, 0.66),
+//     rgba(37, 44, 62, 0.42),
+//     rgba(13, 22, 44, 0.1),
+//     rgba(37, 44, 62, 0)
+//   );
+// }
+
 .homeHeroBg {
-  background: url(/src/assets/images/hero/homepagehero.png);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.homeHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/home.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.homeHeroBg h2 {
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
   .homeHeroBg {
@@ -65,7 +115,7 @@
   }
 }
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/GaaSpagehero.png);
+  background: url(/src/assets/images/hero/gaas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -279,7 +329,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .ManagedServicesLegalHero h2 {
   position: relative;
