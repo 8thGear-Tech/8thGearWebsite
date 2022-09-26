@@ -5,49 +5,49 @@
       "image": "../../images/team/damilolaobidairo.png",
       "name": "Damilola Obidiaro",
       "title": "CEO/Co-Founder",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 2,
       "image": "../../images/team/madamwunmi.png",
       "name": "Omowumi Obidairo",
       "title": "Co-Founder",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 3,
       "image": "../../images/team/titilayoekundayo.png",
       "name": "Titilayo Ekundayo",
       "title": "Lead,Venture Studio",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 4,
       "image": "../../images/team/temitopekazeem.png",
       "name": "Temitope Kazeem",
       "title": "Lead, HR & Operations",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 5,
       "image": "../../images/team/opeyemibioku.png",
       "name": "Opeyemi Bioku",
       "title": "Lead, Developer Team",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 6,
       "image": "../../images/team/adam.png",
       "name": "Adam Yakub",
       "title": "Finance & Accounting Associate",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     },
     {
       "id": 7,
       "image": "../../images/team/ifunanya.png",
       "name": "Ifunaya Omanukwe",
       "title": "Business Analyst",
-      "popup": "<EightgeariansPopUpCard1 />"
+      "text": " View More"
     }
   ],
   "EIRcard": [
