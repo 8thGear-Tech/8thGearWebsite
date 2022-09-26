@@ -2,7 +2,7 @@
    "FirstTriggeredCardFile":[
      {
         "id": 1,
-        "image":"./images/Dammy.jpg",
+        "image":"./images/8thgearTriggeredCard/Dammy.jpg",
         "name":" Damilola Obidiaro",
         "position": "Co-Founder",
         "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
@@ -11,7 +11,7 @@
 "SecondTriggeredCardFile":[
      {
         "id": 2,
-        "image":"./images/Wunmi.jpg",
+        "image":"./images/8thgearTriggeredCard/Wunmi.jpg",
         "name":"Omowumi Adekoya",
         "position": "Managing Partner ",
         "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
@@ -21,7 +21,7 @@
 "ThirdTriggeredCardFile":[
    {
       "id": 3,
-      "image":"./images/Sanni.jpg",
+      "image":"./images/8thgearTriggeredCard/Sanni.jpg",
       "name":" Husseni Sanni",
       "position": "Digital Marketing Analyst ",
       "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
@@ -31,7 +31,7 @@
 "FourthTriggeredCardFile":[
    {
       "id": 4,
-      "image":"./images/Titi.jpg",
+      "image":"./images/8thgearTriggeredCard/Titi.jpg",
       "name":" TITILAYO EKUNDAYO",
       "position": "HEAD, VENTURE STUDIO",
       "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
@@ -40,7 +40,7 @@
 "FifthTriggeredCardFile":[
    {
       "id": 5,
-      "image":"./images/Ope.jpg",
+      "image":"./images/8thgearTriggeredCard/Ope.jpg",
       "name":"OPEYEMI BIOKU",
       "position": "TECH LEAD",
       "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"
@@ -49,7 +49,7 @@
 "SixthTriggeredCardFile":[
    {
       "id": 6,
-      "image":"./images/Tope.jpg",
+      "image":"./images/8thgearTriggeredCard/Tope.jpg",
       "name":"TEMITOPE KAZEEM",
       "position": "PEOPLE AND PERFORMANCE ANALYST",
       "text": "lorem lorem lorem lorem lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem"

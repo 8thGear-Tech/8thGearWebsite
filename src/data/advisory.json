@@ -28,37 +28,37 @@
   "FirstHoverCard": [
     {
       "id": 1,
-      "image": "../images/seyibioku.png",
+      "image": "../images/advisoryImage/seyibioku.png",
       "name": "Seyi Bioku", 
       "position": "Legal Advisor"
     },
     {
       "id": 2,
-      "image": "../images/mr sanni.png",
+      "image": "../images/advisoryImage/mr sanni.png",
       "name": "MRS ABIMBOLA ADEBAKIN", 
       "position": "BOARD CHAIRMAN"
     },
     {
       "id": 3,
-      "image": "../images/mr dami.png",
+      "image": "../images/advisoryImage/mr dami.png",
       "name": "MR YINKA OGUNLEYE", 
       "position": "STRATEGY ADVISOR"
     },
     {
       "id": 4,
-      "image": "../images/mrs wunmi.png",
+      "image": "../images/advisoryImage/mrs wunmi.png",
       "name": "MORENIKEJI BUARI", 
       "position": "FINANCE ADVISOR"
     },
     {
       "id": 5,
-      "image": "../images/Rectangle 99.png",
+      "image": "../images/advisoryImage/Rectangle 99.png",
       "name": "LABISI OYEDOTUN", 
       "position": "ADVISOR PARTNERSHIP"
     },
     {
       "id": 6,
-      "image": "../images/Rectangle 99 (1).png",
+      "image": "../images/advisoryImage/Rectangle 99 (1).png",
       "name": "TEMITAYO SAMSON-GRACE", 
       "position": "HR CONSULTANT"
     }

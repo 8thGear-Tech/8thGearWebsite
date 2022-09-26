@@ -1,11 +1,13 @@
 import cardData from "../../data/blog.json";
+import info from "../../data/blog.json"
+import {BlogReadMoreLinkBtn} from "../../components/Buttons/BlogBtn";
 // import Line2 from "../../assets/images/Line2.jpg";
 
 //MainBlogCard
 export const BigBlogCard = () => {
   return (
     <>
-      {cardData.mainCard.map((items) => {
+      {info.mainCard.map((items) => {
         const { image, title, text, date } = items;
         return (
           <>
@@ -21,9 +23,7 @@ export const BigBlogCard = () => {
                 <h3 className="card-title">{title}</h3>
                 <h6>{date}</h6>
                 <p>{text}</p>
-                <a href="#" className=" btn-primary">
-                  Read More
-                </a>
+                <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
               </div>
             </div>
 
@@ -90,10 +90,10 @@ export const SideBlogCard = () => {
   return (
     <div className="">
       <div className="">
-        {cardData.sideCrads.map((items) => {
+        {info.sideCrads.map((props) => {
           return (
-            <div className="" key={items.id}>
-              <SingleSideBlogCard {...items} />
+            <div className="" key={props.id}>
+              <SingleSideBlogCard {...props} />
             </div>
           );
         })}
@@ -102,8 +102,8 @@ export const SideBlogCard = () => {
   );
 };
 
-export const SingleSideBlogCard = (items) => {
-  const { image, text, date } = items;
+export const SingleSideBlogCard = (props) => {
+  const { image, text, date } = props;
   return (
     <>
       <div className="card    sidecard mb-3 img-fluid">
@@ -114,9 +114,7 @@ export const SingleSideBlogCard = (items) => {
           <div className="col-7">
             <h6 className="card-title  text-fluid1">{date}</h6>
             <p className="card-text text-fluid2">{text}</p>
-            <a href="#" className="btn-primary text-fluid3 ">
-              Read More
-            </a>
+            <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
           </div>
         </div>
       </div>

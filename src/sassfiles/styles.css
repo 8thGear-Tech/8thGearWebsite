@@ -1066,25 +1066,18 @@ video {
   transition-timing-function: ease;
 }
 
-.hero {
+header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 50vh;
-  padding: 1em;
-  box-sizing: border-box;
+  height: 29vh;
   color: white;
 }
 
 .blogBody {
   text-align: center;
-}
-
-.border {
-  border-radius: 20px;
 }
 
 .blogImage {

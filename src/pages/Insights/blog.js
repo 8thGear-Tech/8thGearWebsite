@@ -8,6 +8,9 @@ import { MainBlogCard } from "../../components/AllCards/Blogcards";
 import { SideBlogCard } from "../../components/AllCards/Blogcards";
 import Line2 from "../../assets/images/Line2.jpg";
 import { Navbar12 } from "../../components/Navbar";
+import {BlogPost} from "../../components/BlogPost"
+import { SideBlogPost } from "../../components/BlogPost";
+
 
 const BlogPage = () => {
   return (
@@ -55,10 +58,12 @@ const BlogPage = () => {
               className="mx-3  d-none d-md-block  d-lg-block   "
               alt=""
             />
+            <BlogPost/>
           </div>
 
           <div className="col-md-4 col-lg-4  ">
             <SideBlogCard />
+            <SideBlogPost/>
           </div>
         </div>
 
