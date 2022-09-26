@@ -1066,8 +1066,7 @@ video {
   transition-timing-function: ease;
 }
 
-header {
-  background-image: url(file:///C:/Users/samue/OneDrive/Documents/GitHub/8thGearWebsite/src/assets/images/Rectangle%202.png);
+.hero {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

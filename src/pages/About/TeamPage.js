@@ -3,6 +3,7 @@ import {TeamCard} from "../../components/AllCards/TeamCard";
 import Data from "../../data/TriggeredCard.json";
 import Intel from "../../data/EirPopUp.json";
 import Info from "../../data/advisory.json";
+import info from "../../data/BlogPost.json"
 
 import {EightgeariansPopUpCard1} from "../../components/AllCards/TriggeredCards";
 import {EightgeariansPopUpCard2} from "../../components/AllCards/TriggeredCards";
@@ -19,12 +20,15 @@ import {EIRDataPopUpCard5} from "../../components/AllCards/TriggeredCards";
 import {EIRDataPopUpCard6} from "../../components/AllCards/TriggeredCards";
 
 import {AdvisoryBoardOnHoverCard} from "../../components/AllCards/TriggeredCards";
+
+import {BlogPost} from "../../components/BlogPost";
+
 const TeamsPage = () => {
   return (
     <>
       <TeamCard></TeamCard>
 
-      {Data.FirstTriggeredCardFile.map((firstTriggeredCardFile) => {
+      {/* {Data.FirstTriggeredCardFile.map((firstTriggeredCardFile) => {
         return (
           <EightgeariansPopUpCard1 {...firstTriggeredCardFile} />
         )
@@ -100,8 +104,14 @@ const TeamsPage = () => {
   return (
     <AdvisoryBoardOnHoverCard {...firstHoverCard}/>
   )
-})}
+})} */}
 
+
+{info.FirstBlogPost.map((firstBlogPost)=> {
+          return (
+            <BlogPost {...firstBlogPost}/>
+          )
+        })}
     </>
   );
 };

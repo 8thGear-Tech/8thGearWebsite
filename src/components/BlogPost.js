@@ -1,4 +1,5 @@
-import blog from "../assets/images/Rectangle 9.png"
+//import blog from "../assets/images/Rectangle 9.png"
+//import data from "../data/BlogPost.json"
 import { InstagramBtn} from "../components/Buttons/BlogBtn"
 import {LinkedInBtn} from "../components/Buttons/BlogBtn"
 import {ShareBtn} from "../components/Buttons/BlogBtn"
@@ -6,7 +7,8 @@ import {FacebookBtn} from "../components/Buttons/BlogBtn"
 import {BlogReadMoreLinkBtn} from "../components/Buttons/BlogBtn"
 
 
-export const BlogPost = () => {
+export const BlogPost = (props) => {
+  const {heroImage, date, text1, text2, text3, bodyImage, text4, id } = props;
     return (
         <>
        <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
@@ -15,16 +17,16 @@ export const BlogPost = () => {
     <h5 className="offcanvas-title" id="offcanvasRightLabel">Blog</h5>
     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-<div class="offcanvas-body  d-lg">
-            <header className="hero"></header>
+<div class="offcanvas-body d-lg" key={id}>
+            <header className="hero"><img src={heroImage}/></header>
             <div className="border">
-            <h6 className="mt-4">19 may 2022</h6>
+            <h6 className="mt-4">{date}</h6>
             <div className="blogBody">
-            <h2>Lorem ipsum dolor sit amet consectetur adip  labore et dolore magna aliqua</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla. </p>
-            <p>adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel friv</p>
-            <img className="blogImage" src={blog}></img>
-            <p>lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel friv lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel friv </p>
+            <h2>{text1}</h2>
+            <p>{text2} </p>
+            <p>{text3}</p>
+            <img className="blogImage" src={bodyImage}></img>
+            <p>{text4} </p>
             <FacebookBtn></FacebookBtn>
             < InstagramBtn></InstagramBtn>
             <LinkedInBtn></LinkedInBtn>
