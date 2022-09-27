@@ -71,8 +71,13 @@ export const ShareBtn = () => {
 export const BlogReadMoreLinkBtn = () => {
   return (
     <>
-      
-      <a href="" className="BlogReadMoreLinkBtn">
+      <a
+        href="BlogReadMoreLinkBtn"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        className="linkColor"
+      >
         Read More
       </a>
     </>

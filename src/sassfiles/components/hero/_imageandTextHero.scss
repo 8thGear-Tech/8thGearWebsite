@@ -134,13 +134,38 @@
     height: 60vh;
   }
 }
+
 .CoworkingHeroBg {
-  background: url(/src/assets/images/hero/coworkinghero.png);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
 }
+
+.CoworkingHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+.CoworkingHeroBg h2 {
+  position: relative;
+}
+.CoworkingHeroBg h3 {
+  position: relative;
+}
+// .CoworkingHeroBg {
+//   background: url(/src/assets/images/hero/coworkinghero.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 80vh;
+//   opacity: 1;
+// }
 @media only screen and (max-width: 440px) {
   .CoworkingHeroBg {
     height: 50vh;

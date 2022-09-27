@@ -16,7 +16,7 @@ const managedServicesDigitalMarketing = () => {
     <>
       <Navbar5 />
       <ManagedDigitalMarketServicesHero />
-      <section className="p-5">
+      <section className="py-5 px-2">
         {servicesData.digitalMarketing.map((props) => {
           const { id, title, textLeft, textRight } = props;
           return (
