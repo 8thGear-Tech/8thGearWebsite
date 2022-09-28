@@ -48,7 +48,7 @@ const WhatWeDo = () => {
           {/* </div> */}
         </div>
       </div>
-      <div className="row d-flex justify-content-center ">
+      <div className="row d-flex justify-content-center mt-4">
         <div className="col-lg-3 col-md-3 col-sm-4 col-xs-4">
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
@@ -105,7 +105,7 @@ const WhatWeDo = () => {
           <div className="d-flex align-items-center">
             <WhatWeDoIcon />
             <div className="card-body ms-3">
-              <p className="card-text">Data Science</p>
+              <p className="card-text">Business Analytics</p>
             </div>
           </div>
         </div>
@@ -164,19 +164,16 @@ const HowWeDoIt = () => {
             <div className="col">
               <h3 className="">How We Do It</h3>
               <p>
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding.The Venture Studio model for
-                entrepreneurship, combining comapny building with venture
-                funding.The Venture Studio model for entrepreneurship, combining
-                comapny building with venture funding. The Venture Studio model
-                for entrepreneurship, combining comapny building with venture
-                funding.The Venture Studio model for entrepreneurship, combining
-                comapny building with venture funding.
+                A business's development is not a simple stroll in the park; it
+                requires a great deal of grit, guts, and resources. It is a
+                voyage that should not be attempted alone. That is why our team
+                of professionals, who have traveled this path before, has
+                devised a mechanism that works effectively to help ideas scale.
               </p>
             </div>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center my-4 mx-3">
+        <div className="row align-items-center justify-content-center mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <IdeationIcon />
@@ -192,7 +189,7 @@ const HowWeDoIt = () => {
             </p>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center my-4 mx-3">
+        <div className="row align-items-center justify-content-center mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <ValidationIcon />
@@ -204,14 +201,14 @@ const HowWeDoIt = () => {
               assumptions.
             </h3>
             <p>
-              The Venture Studio model for entrepreneurship, combining comapny
-              building with venture funding.The Venture Studio model for
-              entrepreneurship, combining comapny building with venture
-              funding.The Venture Studio model for entrepreneurship,
+              To confirm that the identified problem is actually a problem for
+              the identified customer segment and to learn how they want it
+              solved, assumptions are tested and validated by regularly engaging
+              with potential customers.
             </p>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center my-4 mx-3">
+        <div className="row align-items-center justify-content-center mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <CreationIcon />
@@ -228,7 +225,7 @@ const HowWeDoIt = () => {
             </p>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center my-4 mx-3">
+        <div className="row align-items-center justify-content-center mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <SpinOutIcon />
@@ -241,11 +238,12 @@ const HowWeDoIt = () => {
               and spread the word through referrals. It is past time to turn
               these concepts into stand-alone enterprises. Our in-house legal,
               branding, and human resources experts get to work right away,
-              spinning them off as distinct firms with a strong framework.
+              spinning them off as distinct firms with a strong commercial
+              framework.
             </p>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center my-4 mx-3">
+        <div className="row align-items-center justify-content-center mx-3">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <ScaleUpIcon />
@@ -255,7 +253,7 @@ const HowWeDoIt = () => {
             <h3 className="">Scale the Fundamentals </h3>
             <p>
               We allow founders focus on the core of their value offerings.
-              Ensuring that has these businesses grow and scale the fundamentals
+              Ensuring that as these businesses grow and scale the fundamentals
               is not lose sight off while we make sure everyother part of the
               business is working as it should.
             </p>

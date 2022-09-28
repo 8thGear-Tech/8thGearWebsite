@@ -67,12 +67,12 @@ const SectionTwo = () => {
       {/* <div className="border-end"></div> */}
       <div className="row ">
         <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 d-flex align-items-center">
-          <h1 className="pb-4 d-none d-lg-block d-md-none d-sm-none d-xs-none">
-            We are builders funding the next generation
-          </h1>
-          <h2 className="pb-4 d-xs-block d-sm-block d-md-block d-lg-none">
-            We are builders funding the next generation
+          <h2 className="pb-4 d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            We are value creators, building profitable and enduring businesses.
           </h2>
+          <h3 className="pb-4 d-xs-block d-sm-block d-md-block d-lg-none">
+            We are value creators, building profitable and enduring businesses.
+          </h3>
         </div>
         <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
           {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}

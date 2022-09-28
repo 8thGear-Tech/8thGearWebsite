@@ -41,7 +41,7 @@ const AboutFounderMeetup = () => {
         <li>GATE FEE: Free</li>
         <li>TIME: 2- 3 Hours Max</li>
         <li>VENUE : 8thGear Hub </li>
-        <li>DATE: October 15th 2022</li>
+        <li>DATE: To be communicated</li>
         <li>Attendance is free but registration is compulsory.</li>
       </ul>
       <p className="my-3">
@@ -49,11 +49,9 @@ const AboutFounderMeetup = () => {
         productive day.
       </p>
       <p className="my-3">Thank you.</p>
-      <ul className="">
-        <li>Best Regards,</li>
-        <li>Titilayo Ekundayo</li>
-        <li>Head, Venture Studio.</li>
-      </ul>
+      <p className="">Best Regards,</p>
+      <p className="">Titilayo Ekundayo</p>
+      <p className="">Head, Venture Studio.</p>
     </div>
   );
 };

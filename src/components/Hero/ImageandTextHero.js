@@ -55,6 +55,7 @@ export const HomePageHero = () => {
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
+      {/* <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -66,13 +67,14 @@ export const HomePageHero = () => {
             building with venture funding Venture Studio.
           </h3>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
 export const OurModelHero = () => {
   return (
     <div className="px-4 container-fluid ourModelHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -108,13 +110,14 @@ export const OurModelHero = () => {
 //   );
 export const ProjectDeliveryHero = () => {
   return (
-    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-4 align-items-center">
+    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-3 align-items-center">
       {/* <img
         src={projectdelivery}
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
-      <div className="row">
+      <div className="gradientBg overlayBg"></div>
+      <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
@@ -131,9 +134,39 @@ export const ProjectDeliveryHero = () => {
 };
 export const GaaSHero = () => {
   return (
-    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-4 align-items-center">
-      <div className="row justify-content-center">
+    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-3 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      <div className="gradientBg overlayBg"></div>
+      <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const EventsPageHero = () => {
+  return (
+    <div className="px-4 container-fluid EventsHeroBg d-flex pt-3 pb-3 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      <div className="gradientBg overlayBg"></div>
+      <div className="row ">
+        <div className="col-lg-7 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.

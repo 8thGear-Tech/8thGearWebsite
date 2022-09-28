@@ -659,7 +659,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 18.5rem;
+  width: 11rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -1274,7 +1274,7 @@ article h4 {
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/home.jpg);
+  background: url(/src/assets/images/hero/homehome.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1303,11 +1303,30 @@ article h4 {
   }
 }
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/gaas.jpg);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.GaaSHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/gaas.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+}
+
+.GaaSHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1317,6 +1336,43 @@ article h4 {
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
   .GaaSHeroBg {
+    height: 60vh;
+  }
+}
+.EventsHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.EventsHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demoday1.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.EventsHeroBg h2 {
+  position: relative;
+}
+
+.EventsHeroBg h3 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .EventsHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .EventsHeroBg {
     height: 60vh;
   }
 }
@@ -1399,7 +1455,29 @@ article h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
   height: 100vh;
+}
+
+.gradientBg {
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
+}
+
+.overlayBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  top: 60;
+  left: 0;
+}
+
+.projectDeliveryHeroBg h2 {
+  position: relative;
+}
+
+.projectDeliveryHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1907,6 +1985,10 @@ li {
 .footerTextDecoration {
   text-decoration: none;
   color: #000;
+}
+
+.addressText {
+  color: #821e6b;
 }
 
 .DigitalMarketingSection {

@@ -30,7 +30,7 @@ import linkedin from "../../assets/images/LinkedIn_icon.png";
 import { LinkedInIcon } from "../Icons";
 
 // persononestarts
-export const TeamCard = (props) => {
+export const TeamCardTwo = (props) => {
   const { image1, name1, title1, id, image, name, position, text, link } =
     props;
   return (
@@ -81,16 +81,16 @@ export const TeamCard = (props) => {
                   <div className="cards" key={id}>
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text ">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <h6 className="">{position}</h6>{" "}
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
                     {/* <img src={linkedin} className="mb-4" width={25} /> */}
                   </div>
                 </div>
@@ -146,7 +146,7 @@ export const TeamCard = (props) => {
 //   );
 // };
 
-export const TeamCardTwo = (props) => {
+export const TeamCard = (props) => {
   const { image1, name1, title1, id, image, name, position, text, link } =
     props;
   return (
@@ -197,15 +197,15 @@ export const TeamCardTwo = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text ">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -309,15 +309,15 @@ export const TeamCardThree = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -420,16 +420,16 @@ export const TeamCardFour = (props) => {
                   <div className="cards" key={id}>
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text ">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <h6 className="">{position}</h6>{" "}
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -532,16 +532,16 @@ export const TeamCardFive = (props) => {
                   <div className="cards" key={id}>
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <h6 className="">{position}</h6>{" "}
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -605,7 +605,7 @@ export const TeamCardSix = (props) => {
           <div class="card-body teamcardbody">
             <figure class="text-center">
               <figcaption class="card-text mt-1">{name1}</figcaption>
-              <p className=" mb-3 mt-3">{title1}</p>
+              <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <JointheTeamBtn /> */}
             <div className="text-center">
@@ -645,15 +645,15 @@ export const TeamCardSix = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -756,16 +756,16 @@ export const TeamCardSeven = (props) => {
                   <div className="cards" key={id}>
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <div className="card-body">
-                      <p className="card-text ">{text}</p>
-                    </div>
-                    <a href="">
-                      <div className="mb-3">
+                    <h6 className="">{position}</h6>{" "}
+                    <a href={link}>
+                      <div className="">
                         {" "}
                         <LinkedInIcon />
                       </div>
                     </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
                   </div>
                 </div>
               </div>

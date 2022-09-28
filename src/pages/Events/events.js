@@ -19,12 +19,13 @@ import eventsGallery from "../../data/gallerycards.json";
 import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
 import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
 import { EventPageHero } from "../../components/Hero/CarouselHero";
+import { EventsPageHero } from "../../components/Hero/ImageandTextHero";
 
 const EventsPage = () => {
   return (
     <>
       <Navbar14 />
-      <EventPageHero />
+      <EventsPageHero />
       <Events />
       <SuggestAnEvent />
       <EventsGallery />

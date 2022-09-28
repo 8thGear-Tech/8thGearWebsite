@@ -102,30 +102,30 @@ export const OurModelTractions = () => {
             <OurImpactIcon />
             <div className="card-body ">
               <h5 className="card-text">1000</h5>
-              <p className="card-text">HAPPY CLIENTS</p>
+              <p className="card-text">FUNDS RAISED</p>
             </div>
           </div>
         </div>
 
-        <div className="col-lg-2 col-md-4 col-sm-12 my-">
+        <div className="col-lg-2 col-md-4 col-sm-12 ">
           <div className="align-items-center">
             <OurImpactIcon />
             <div className="card-body ">
               <h5 className="card-text">1000</h5>
-              <p className="card-text">COMPANIES SUPPORTED</p>
+              <p className="card-text">MENTORSHIP HOURS</p>
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-12 my-">
+        <div className="col-lg-2 col-md-4 col-sm-12 ">
           <div className="align-items-center">
             <OurImpactIcon />
             <div className="card-body ">
               <h5 className="card-text">1000</h5>
-              <p className="card-text">MENTORS ENGAGED</p>
+              <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-12 my-">
+        <div className="col-lg-2 col-md-4 col-sm-12 ">
           <div className="align-items-center">
             <OurImpactIcon />
             <div className="card-body ">
@@ -134,24 +134,24 @@ export const OurModelTractions = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-12 my-">
+        {/* <div className="col-lg-2 col-md-4 col-sm-12 ">
           <div className="align-items-center">
             <OurImpactIcon />
             <div className="card-body ">
               <h5 className="card-text">1000</h5>
-              <p className="card-text">TRAINING AND MENTOR HOURS</p>
+              <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-12 my-">
+        <div className="col-lg-2 col-md-4 col-sm-12 ">
           <div className="align-items-center">
             <OurImpactIcon />
             <div className="card-body ">
               <h5 className="card-text">1000</h5>
-              <p className="card-text">CAPITALS RAISED</p>
+              <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

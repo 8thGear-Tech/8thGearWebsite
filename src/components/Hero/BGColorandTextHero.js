@@ -8,13 +8,12 @@ export const ManagedServicesHero = () => {
     <div className="container-fluid pt-5 pb-4">
       <div className="row mx-lg-4 mx-md-4 mt-4 justify-content-center">
         <div className="col-lg-7 text-center">
-          <h3 className="">The Venture Studio Model</h3>
+          <h3 className="">8thGear Hub Services</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-            fuga facilis optio officiis obcaecati reiciendis, vitae distinctio
-            voluptates nostrum ut. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Voluptatum fuga facilis optio officiis obcaecati
-            reiciendis, vitae distinctio voluptates nostrum ut
+            We at 8thGear are helpmates to your business and because we believe
+            in the uniqueness of every individual and business, we tailor our
+            solutions to suit your needs and aspirations. We are not only your
+            brand ambassadors but your biggest fan.
           </p>
         </div>
       </div>

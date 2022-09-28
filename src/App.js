@@ -8,7 +8,7 @@ import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
 import { NextBtn } from "./components/Buttons/PortfolioBtn";
 
 import Request from "./components/Forms/ServicesForms";
-import {BlogPost} from "./components/BlogPost"
+import { BlogPost } from "./components/BlogPost";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -88,12 +88,12 @@ function App() {
         <Route path="legal" element={<ManagedServicesLegal />} />
         <Route path="tech" element={<ManagedServicesTech />} />
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        <Route path="coworking" element={<CoWorking />} />
+        {/* <Route path="coworking" element={<CoWorking />} /> */}
 
         <Route path="about" element={<AboutUs />} />
         <Route path="team" element={<TeamPage />} />
         <Route path="blog" element={<BlogPage />} />
-        <Route path="faq" element={<FAQ />} />
+        {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />
         <Route path="events-gallery" element={<EventsGalleryPage />} />
         <Route path="demo-day" element={<DemoDayPage />} />

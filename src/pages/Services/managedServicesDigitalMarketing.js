@@ -37,7 +37,7 @@ const managedServicesDigitalMarketing = () => {
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
                   <ContentMarketingIcon />
-                  <p className="text-wrap">Content Marketing</p>
+                  <p className="text-wrap">Content Creation</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
@@ -67,7 +67,7 @@ const managedServicesDigitalMarketing = () => {
                 {/* icon7 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
                   <SocialMediaMarketingIcon />
-                  <p className="text-wrap">Social Media Marketing</p>
+                  <p className="text-wrap">Social Media Management</p>
                 </div>
                 {/*  icon8*/}
                 {/* <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">

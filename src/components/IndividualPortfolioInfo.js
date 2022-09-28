@@ -49,7 +49,7 @@ export const AboutStartup = (props) => {
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>
-              <a href={link} className="text-decoration-none text-black">
+              <a href={link} className="">
                 <p>{website}</p>
               </a>
             </div>

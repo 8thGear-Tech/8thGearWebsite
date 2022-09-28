@@ -5,15 +5,21 @@
 
 export const JointheStudioBtn = () => {
   return (
-    <button
-      className="JointheStudioBtn"
-      type="button"
-      // className="prop"
-      data-bs-toggle="modal"
-      data-bs-target="#staticBackdrop"
+    <a
+      href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
+      target="_blank"
     >
-      Join the Studio
-    </button>
+      {" "}
+      <button
+        className="JointheStudioBtn"
+        type="button"
+        // className="prop"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Join the Studio
+      </button>
+    </a>
   );
 };
 // export const JointheStudioBtn = () => {

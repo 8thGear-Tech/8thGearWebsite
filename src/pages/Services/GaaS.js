@@ -85,7 +85,7 @@ const HowWeWork = () => {
   return (
     <div className="container-fluid py-3">
       {" "}
-      <h4 className="text-center my-5">How we Work</h4>
+      <h4 className="text-center my-5">How We Work</h4>
       <div className="row justify-content-center my-lg-5 my-sm-2">
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">

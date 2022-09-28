@@ -122,11 +122,11 @@ const NavBar = (props) => {
                   Managed Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="dropdown-item" to="/coworking">
                   Coworking
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="dropdown-item" to="/growth-as-a-service">
                   Growth-as-a-Service
@@ -163,7 +163,7 @@ const NavBar = (props) => {
 
           <br />
 
-          <div>
+          {/* <div>
             <a
               className=" nav-link dropdown-toggle mx-3"
               type="button"
@@ -186,7 +186,7 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-          <br />
+          <br /> */}
 
           <div>
             <Link

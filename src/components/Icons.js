@@ -49,21 +49,21 @@ import scaleup from "../assets/icons/ourmodel/scaleup.png";
 export const WhatWeDoIcon = () => {
   return (
     <div>
-      <i class="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
     </div>
   );
 };
 export const OurImpactIcon = () => {
   return (
     <div>
-      <i class="bi bi-bag-check" style={{ fontSize: "60px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "60px" }}></i>
     </div>
   );
 };
 export const ArrowRightIcon = () => {
   return (
     <div>
-      <i class="bi bi-arrow-right"></i>
+      <i className="bi bi-arrow-right"></i>
     </div>
   );
 };
@@ -71,35 +71,35 @@ export const ArrowRightIcon = () => {
 export const FacebookIcon = () => {
   return (
     <div>
-      <i class="bi bi-facebook"></i>
+      <i className="bi bi-facebook"></i>
     </div>
   );
 };
 export const InstagramIcon = () => {
   return (
     <div>
-      <i class="bi bi-instagram"></i>
+      <i className="bi bi-instagram"></i>
     </div>
   );
 };
 export const LinkedInIcon = () => {
   return (
     <div>
-      <i class="bi bi-linkedin"></i>
+      <i className="bi bi-linkedin" style={{ fontSize: "20px" }}></i>
     </div>
   );
 };
 export const TwitterIcon = () => {
   return (
     <div>
-      <i class="bi bi-twitter"></i>
+      <i className="bi bi-twitter"></i>
     </div>
   );
 };
 export const MailIcon = () => {
   return (
     <div>
-      <i class="bi bi-at"></i>
+      <i className="bi bi-at"></i>
     </div>
   );
 };

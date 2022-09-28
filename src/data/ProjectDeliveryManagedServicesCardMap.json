@@ -24,7 +24,7 @@
   "ManagedServicesImages": [
     {
       "id": 1,
-      "link": "/digital-marketing",
+      "link": "/digitalmarketing",
       "image": "../../images/managedservices/digitalmarketing.JPG",
       "text": "DIGITAL MARKETING"
     },
@@ -38,13 +38,13 @@
       "id": 3,
       "link": "/accounting",
       "image": "../../images/managedservices/accounting.JPG",
-      "text": "ACCOUNTING"
+      "text": "ACCOUNTING & BOOK KEEPING"
     },
     {
       "id": 4,
       "link": "/tech",
       "image": "../../images/managedservices/tech.png",
-      "text": "TECH"
+      "text": "DIGITAL TECH"
     }
   ]
 }

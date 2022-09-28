@@ -15,15 +15,18 @@ export const LearnMoreBtn = () => {
 export const RequestForProposalBtn = () => {
   return (
     <>
-      <button
-        className="RequestForProposalBtn"
-        // type="button"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-        type="button"
-      >
-        Request for a Proposal
-      </button>
+      <a href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit">
+        {" "}
+        <button
+          className="RequestForProposalBtn"
+          // type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          type="button"
+        >
+          Request for a Proposal
+        </button>
+      </a>
     </>
   );
 };
