@@ -44,9 +44,9 @@ export const ManagedServicesRequestBtn = () => {
     <>
       <a href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit">
         <button
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#myModal"
+          // type="button"
+          // data-bs-toggle="modal"
+          // data-bs-target="#myModal"
           className="ManagedServicesRequestBtn"
         >
           Request

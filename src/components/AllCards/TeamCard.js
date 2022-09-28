@@ -821,8 +821,8 @@ export const TeamCardSeven = (props) => {
 export const Gerians = () => {
   return (
     <div className="container ">
-      <div className="row justify-content-center">
-        <h3 className="text-center mt-5">8THGEARIANS</h3>
+      <div className="row justify-content-center mt-5">
+        <h3 className="text-center ">8thGearians</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardone.map((card) => {
@@ -1028,21 +1028,38 @@ const AdvisoryBoardCard = (props) => {
 };
 export const AdvisoryTeamPic = () => {
   return (
-    <div className="container d-flex justify-content-center">
-      <div className="row text-center py-5">
-        <h4>ADVISORY BOARD</h4>
+    <div className="container ">
+      <div className="row d-flex justify-content-center mt-5">
+        <h3 className="text-center pt-5 pb-3">Advisory Board</h3>
         {Info.FirstHoverCard.map((firstHoverCard) => {
           return (
             <div
-              className="col-sm-12 col-md-6 col-lg-4 mt-5 mb-5 "
+              className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
               key={firstHoverCard.id}
             >
-              <AdvisoryBoardOnHoverCard {...firstHoverCard} />
+              <AdvisoryBoardOnHoverCard
+                {...firstHoverCard}
+              ></AdvisoryBoardOnHoverCard>
             </div>
           );
         })}
       </div>
     </div>
+    // <div className="container d-flex justify-content-center">
+    //   <div className="row text-center py-5">
+    //     <h4>ADVISORY BOARD</h4>
+    //     {Info.FirstHoverCard.map((firstHoverCard) => {
+    //       return (
+    //         <div
+    //           className="col-sm-12 col-md-6 col-lg-4 mt-5 mb-5 "
+    //           key={firstHoverCard.id}
+    //         >
+    //           <AdvisoryBoardOnHoverCard {...firstHoverCard} />
+    //         </div>
+    //       );
+    //     })}
+    //   </div>
+    // </div>
   );
 };
 

@@ -30,10 +30,10 @@ export const LetUsKnowBtn = () => {
       rel="noreferrer"
     >
       <button
-        type="button"
+        // type="button"
         className="SuggestAnEventBtn"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
+        // data-bs-toggle="modal"
+        // data-bs-target="#staticBackdrop"
       >
         Let Us Know
       </button>

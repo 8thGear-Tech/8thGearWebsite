@@ -12,10 +12,10 @@ export const JointheStudioBtn = () => {
       {" "}
       <button
         className="JointheStudioBtn"
-        type="button"
+        // type="button"
         // className="prop"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
+        // data-bs-toggle="modal"
+        // data-bs-target="#staticBackdrop"
       >
         Join the Studio
       </button>
@@ -37,10 +37,10 @@ export const JointheStudioBtn = () => {
 export const JointheTeamBtn = () => {
   return (
     <button
-      type="button"
+      // type="button"
       className="JointheTeamBtn"
-      data-bs-toggle="modal"
-      data-bs-target="#staticBackdrop"
+      // data-bs-toggle="modal"
+      // data-bs-target="#staticBackdrop"
     >
       Join the Team
     </button>

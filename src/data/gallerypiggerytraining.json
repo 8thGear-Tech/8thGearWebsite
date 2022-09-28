@@ -2,29 +2,29 @@
   "gallerypiggery": [
     {
       "id": 1,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining1.jpg"
+      "image": "../images/galleryImageCardsPiggery/piggerytraining1.jpg"
     },
 
     {
       "id": 2,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining2.jpg"
+      "image": "../../images/galleryImageCardsPiggery/piggerytraining2.jpg"
     },
     {
       "id": 3,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining3.Jpg"
+      "image": "../../images/galleryImageCardsPiggery/piggerytraining3.Jpg"
     },
 
     {
       "id": 4,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining4.jPg"
+      "image": "../../images/galleryImageCardsPiggery/piggerytraining4.jPg"
     },
     {
       "id": 5,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining5.jpg"
+      "image": "../../images/galleryImageCardsPiggery/piggerytraining5.jpg"
     },
     {
       "id": 6,
-      "image": "./images/galleryImageCardsPiggery/piggerytraining6.jpg"
+      "image": "../../images/galleryImageCardsPiggery/piggerytraining6.jpg"
     }
   ],
   "S4pVideo": [

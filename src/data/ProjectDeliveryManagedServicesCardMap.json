@@ -25,25 +25,25 @@
     {
       "id": 1,
       "link": "/digitalmarketing",
-      "image": "../../images/managedservices/digitalmarketing.JPG",
+      "image": "./../../images/managedservices/digitalmarketing.JPG",
       "text": "DIGITAL MARKETING"
     },
     {
       "id": 2,
       "link": "/legal",
-      "image": "../../images/managedservices/legal.JPG",
+      "image": "./../../images/managedservices/legal.JPG",
       "text": "LEGAL"
     },
     {
       "id": 3,
       "link": "/accounting",
-      "image": "../../images/managedservices/accounting.JPG",
+      "image": "./../../images/managedservices/accounting.JPG",
       "text": "ACCOUNTING & BOOK KEEPING"
     },
     {
       "id": 4,
       "link": "/tech",
-      "image": "../../images/managedservices/tech.png",
+      "image": "./../../images/managedservices/tech.png",
       "text": "DIGITAL TECH"
     }
   ]

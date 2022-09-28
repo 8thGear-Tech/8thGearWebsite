@@ -2,25 +2,25 @@
   "successStory": [
     {
       "id": 1,
-      "image": "./images/gallerycards/piggerytraining.jpg",
+      "image": "../../images/gallerycards/piggerytraining.jpg",
       "text": "Piggery Training GIZ",
       "link": "/piggery-training"
     },
     {
       "id": 2,
-      "image": "./images/gallerycards/employabilityGIZ.jpg",
+      "image": "../../images/gallerycards/employabilityGIZ.jpg",
       "text": "Employability 2022  GIZ",
       "link": "/GIZ-employability-gallery"
     },
     {
       "id": 3,
-      "image": "./images/gallerycards/LSETFTraining.jpg",
+      "image": "../../images/gallerycards/LSETFTraining.jpg",
       "text": "USADF/LSETF Training",
       "link": "/LSETF-gallery"
     },
     {
       "id": 4,
-      "image": "./images/gallerycards/innkeeperhackathon.jpg",
+      "image": "../../images/gallerycards/innkeeperhackathon.jpg",
       "text": "Innkeeper Hackathon 2022",
       "link": "/innkeeper-hackathon-gallery"
     },
@@ -84,7 +84,7 @@
   "eventsGallerySection": [
     {
       "id": 1,
-      "image": "./images/gallerydemoday/demoday1.jpg",
+      "image": "../../images/gallerydemoday/demoday1.jpg",
       "link": "/demo-day-gallery",
       "text": "Demo Day 2022"
     }

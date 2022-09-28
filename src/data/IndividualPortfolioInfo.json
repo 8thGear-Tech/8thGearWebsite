@@ -35,7 +35,7 @@
     {
       "id": 1,
       "link": "https://haveneduservices.com/",
-      "img": "../../images/portfoliologo/havenone.png",
+      "img": "./../../images/portfoliologo/havenone.png",
       "about": "Haven Edu-Services is an extra-curricular childhood educational organization focused on providing training content related to Technology, Languages, and Arts for children/Pre-teenagers ages 4-16.",
       "role": "CEO",
       "fullname": "Omowunmi Obidairo",

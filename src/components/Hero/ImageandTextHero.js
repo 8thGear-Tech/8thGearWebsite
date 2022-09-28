@@ -76,7 +76,7 @@ export const OurModelHero = () => {
     <div className="px-4 container-fluid ourModelHeroBg d-flex pt-3 pb-4 align-items-center">
       <div className="gradientBg overlayBg"></div>
       <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
+        <div className="col-lg-8 col-md-8 col-sm-12 ">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
@@ -219,6 +219,7 @@ export const CoworkingHero = () => {
 export const DemoDayGalleryHero = () => {
   return (
     <div className="px-4 container-fluid demoDayHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -237,6 +238,7 @@ export const DemoDayGalleryHero = () => {
 export const PiggeryTrainingGalleryHero = () => {
   return (
     <div className="px-4 container-fluid piggeryTrainingHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -255,6 +257,7 @@ export const PiggeryTrainingGalleryHero = () => {
 export const GIZEmployabilityGalleryHero = () => {
   return (
     <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -273,6 +276,7 @@ export const GIZEmployabilityGalleryHero = () => {
 export const LSETFGalleryHero = () => {
   return (
     <div className="px-4 container-fluid LSETFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -291,6 +295,7 @@ export const LSETFGalleryHero = () => {
 export const HackathonGalleryHero = () => {
   return (
     <div className="px-4 container-fluid hackathonHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -309,6 +314,7 @@ export const HackathonGalleryHero = () => {
 export const ITFGalleryHero = () => {
   return (
     <div className="px-4 container-fluid ITFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -346,7 +352,22 @@ export const ITFGalleryHero = () => {
 export const ManagedServicesLegalHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesLegalHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesLegalHero d-flex align-items-center">
             <div className="container-fluid">
@@ -356,11 +377,11 @@ export const ManagedServicesLegalHero = () => {
               </h2>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesLegalHero mobile view start */}
+      {/* ManagedServicesLegalHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesLegalHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -369,17 +390,32 @@ export const ManagedServicesLegalHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesLegalHero mobile view start end */}
-      </div>
+      {/* ManagedServicesLegalHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedDigitalMarketServicesHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedDigitalMarketServicesHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedDigitalMarketServicesHero d-flex align-items-center">
             <div className="container-fluid">
@@ -389,10 +425,10 @@ export const ManagedDigitalMarketServicesHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/* ManagedDigitalMarketServicesHero mobile view start */}
+        </div> */}
+      {/* ManagedDigitalMarketServicesHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedDigitalMarketServicesHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -401,17 +437,32 @@ export const ManagedDigitalMarketServicesHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedDigitalMarketServicesHero mobile view start end */}
-      </div>
+      {/* ManagedDigitalMarketServicesHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesTechHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesTechHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesTechHero d-flex align-items-center">
             <div className="container-fluid">
@@ -421,10 +472,10 @@ export const ManagedServicesTechHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/*ManagedServicesTechHero mobile view start */}
+        </div> */}
+      {/*ManagedServicesTechHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesTechHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -433,17 +484,32 @@ export const ManagedServicesTechHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesTechHero mobile view start end */}
-      </div>
+      {/* ManagedServicesTechHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesAccountingHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesAccountingHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building with venture funding Venture Studio.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesAccountingHero d-flex align-items-center">
             <div className="container-fluid">
@@ -453,10 +519,10 @@ export const ManagedServicesAccountingHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/*ManagedServicesAccountingHero mobile view start */}
+        </div> */}
+      {/*ManagedServicesAccountingHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -465,10 +531,10 @@ export const ManagedServicesAccountingHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesAccountingHero mobile view start end */}
-      </div>
+      {/* ManagedServicesAccountingHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };

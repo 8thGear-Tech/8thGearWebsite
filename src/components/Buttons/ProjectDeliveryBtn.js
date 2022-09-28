@@ -20,9 +20,9 @@ export const RequestForProposalBtn = () => {
         <button
           className="RequestForProposalBtn"
           // type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop"
-          type="button"
+          // data-bs-toggle="modal"
+          // data-bs-target="#staticBackdrop"
+          // type="button"
         >
           Request for a Proposal
         </button>

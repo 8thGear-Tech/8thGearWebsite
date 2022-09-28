@@ -49,14 +49,14 @@ import scaleup from "../assets/icons/ourmodel/scaleup.png";
 export const WhatWeDoIcon = () => {
   return (
     <div>
-      <i className="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "20px" }}></i>
     </div>
   );
 };
 export const OurImpactIcon = () => {
   return (
     <div>
-      <i className="bi bi-bag-check" style={{ fontSize: "60px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
     </div>
   );
 };
