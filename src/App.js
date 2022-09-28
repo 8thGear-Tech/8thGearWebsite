@@ -2,6 +2,7 @@ import * as React from "react";
 import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
+import { PrivacyAndPolicy } from "./pages/About/privacyandPolicy";
 import Constructionpage from "./pages/constructionpage";
 import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
 import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
@@ -109,8 +110,9 @@ import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDelivery
 function App() {
   return (
     <BrowserRouter>
+      <PrivacyAndPolicy />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="our-model" element={<OurModelPage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
@@ -189,9 +191,7 @@ function App() {
       {/* <OnHoverCard /> */}
       {/* <UnderconstructionNavbar /> */}
 
-      <footer>
-        <Footer />
-      </footer>
+      <footer>{/* <Footer /> */}</footer>
     </BrowserRouter>
   );
 }

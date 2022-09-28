@@ -1,5 +1,36 @@
 @use "../../colors" as *;
 
+.PrivacyAndPolicyHero {
+  color: $heroblackbg;
+  background-color: #f7f7f7;
+}
+
+.PrivacyAndPolicyP {
+  // text-align: justify !important;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+}
+.PrivacyAndPolicyP h4 {
+  line-height: 50px;
+}
+.privatePolicyBody {
+  text-align: justify;
+  // word-break: break-word;
+}
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody {
+    text-align: center;
+    // word-break: break-word;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody li {
+    text-align: left;
+    // word-break: break-word;
+  }
+}
 @mixin ManagedServicesHeroText {
   color: $heroblackbg;
   font-family: Rubik;
