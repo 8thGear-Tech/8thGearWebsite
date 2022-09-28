@@ -6,6 +6,7 @@ import { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { RequestForProposalBtn } from "../Buttons/ProjectDeliveryBtn";
 import { ManagedServicesRequestBtn } from "../Buttons/ServicesBtn";
+import { SubmitFormBtn } from "../Buttons/ContactBtn";
 
 const ProjectDeliveryRequestForm = () => {
   const [formData, setFormData] = useState({
@@ -119,25 +120,54 @@ const ProjectDeliveryRequestForm = () => {
 export default ProjectDeliveryRequestForm;
 
 export const ManagedServicesRequestForm = () => {
-  const [formData, setFormData] = useState({
-    email: "",
+  const [person, setPerson] = useState({
+    fullName: "",
     phoneNumber: "",
-    nameOfBusiness: "",
-    natureOfBusiness: "",
+    email: "",
+    nameOfBiz: "",
+    socialHandle: "",
+    companysWebsite: "",
+    describeProject: "",
+    natureOfBiznex: "",
     serviceOfInterest: "",
-    addressOfUser: "",
-    optionalAddonsPlan: "",
+    meansOfComm: "",
+    hearAboutUS: "",
   });
+  const [people, setPeople] = useState([]);
 
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setPerson({ ...person, [name]: value });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Email: " + formData.email);
-    console.log("Phone Number: " + formData.phoneNumber);
-    console.log("Name Of Business: " + formData.nameOfBusiness);
-    console.log("Nature Of Business: " + formData.natureOfBusiness);
-    console.log("Service Of Interest: " + formData.serviceOfInterest);
-    console.log("Address Of User: " + formData.addressOfUser);
-    console.log("Optional Add-ons Plan: " + formData.optionalAddonsPlan);
+    if (
+      person.fullName &&
+      person.phoneNumber &&
+      person.email &&
+      person.nameOfBiz &&
+      person.socialHandle &&
+      person.companysWebsite &&
+      person.describeProject &&
+      person.natureOfBiznex &&
+      person.serviceOfInterest &&
+      person.meansOfComm &&
+      person.hearAboutUS
+    ) {
+      console.log(person);
+      const newPerson = { ...person };
+      setPeople([...people, newPerson]);
+      setPerson({
+        fullName: "",
+        phoneNumber: "",
+        email: "",
+        nameOfBiz: "",
+        socialHandle: "",
+        companysWebsite: "",
+        describeProject: "",
+      });
+    }
   };
 
   return (
@@ -163,171 +193,167 @@ export const ManagedServicesRequestForm = () => {
                   <div className="ManagedServicesRequestForm-Container col-lg-10 col-md-10 col-sm-10 col-10">
                     <form onSubmit={handleSubmit}>
                       <div className="center">
-                        <h1 className="ManagedServicesRequestForm-Text mb-4">
-                          8thGear Hub -Request Form
-                        </h1>
-
+                        <h3 className="ManagedServicesRequestForm-Text mb-4">
+                          Managed Services
+                        </h3>
+                        <div className="form-group my-4">
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="fullName"
+                            name="fullName"
+                            onChange={handleChange}
+                            value={person.fullName}
+                            placeholder="Enter fullName"
+                          ></input>
+                        </div>
+                        <div className="form-group my-4">
+                          <input
+                            type="number"
+                            className="form-control"
+                            id="phoneNumber"
+                            name="phoneNumber"
+                            onChange={handleChange}
+                            value={person.phoneNumber}
+                            placeholder="Phone Number"
+                          ></input>
+                        </div>
                         <div className="form-group my-4">
                           <input
                             type="email"
                             className="form-control"
                             id="email"
                             name="email"
-                            onChange={(e) =>
-                              setFormData({
-                                ...formData,
-                                email: e.target.value,
-                              })
-                            }
-                            value={formData.email}
+                            onChange={handleChange}
+                            value={person.email}
                             placeholder="Enter email"
                           ></input>
                         </div>
-                        <div
-                          className="div1 TextAlignCenter"
-                          style={{ position: "relative" }}
-                        >
-                          <div className="form-group my-4 input-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              id="phonenumber"
-                              name="phoneNumber"
-                              onChange={(e) =>
-                                setFormData({
-                                  ...formData,
-                                  phoneNumber: e.target.value,
-                                })
-                              }
-                              value={formData.phoneNumber}
-                              placeholder="Phone Number"
-                            ></input>
-                          </div>
-                          <div className="form-group my-4 input-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              id="nameOfBusiness"
-                              name="nameOfBusiness"
-                              onChange={(e) =>
-                                setFormData({
-                                  ...formData,
-                                  nameOfBusiness: e.target.value,
-                                })
-                              }
-                              value={formData.nameOfBusiness}
-                              placeholder="Name Of Business"
-                            ></input>
-                          </div>
-                          <div className="form-group my-4 input-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              id="natureOfBusiness"
-                              name="natureOfBusiness"
-                              onChange={(e) =>
-                                setFormData({
-                                  ...formData,
-                                  natureOfBusiness: e.target.value,
-                                })
-                              }
-                              value={formData.natureOfBusiness}
-                              placeholder="Nature Of Business"
-                            ></input>
-                          </div>
-                          {/* <div className="input-group">
-                    <div className="input-group-prepend col-lg-6 col-md-6 col-sm-5 col-12">
-                        <div style={{backgroundColor: "white", borderTopRightRadius: "0px", borderBottomRightRadius:"0px", borderRight: "0px solid black",}} className="input-group-text">Service of Interest:</div>
-                    </div>
-                    <select style={{borderLeft: "0px solid black",}} type="text" className="form-select" id="serviceOfInterest" name="serviceOfInterest" onChange={(e) => setFormData({...formData, serviceOfInterest: e.target.value})} value={formData.serviceOfInterest}>
-                        <option> </option>
-                        <option value="Service1">Service 1</option>
-                        <option value="Service2">Service 2</option>
-                        <option value="Service3">Service 3</option>
-                    </select>
-                     
-                </div> */}
-
-                          <div>
-                            <select
-                              type="text"
-                              className="form-select input-group"
-                              id="serviceOfInterest"
-                              name="serviceOfInterest"
-                              onChange={(e) =>
-                                setFormData({
-                                  ...formData,
-                                  serviceOfInterest: e.target.value,
-                                })
-                              }
-                              value={formData.serviceOfInterest}
-                            >
-                              <option selected>
-                                Service of Interest......{" "}
-                              </option>
-                              <option> </option>
-                              <option value="Service1">Service 1</option>
-                              <option value="Service2">Service 2</option>
-                              <option value="Service3">Service 3</option>
-                            </select>
-                          </div>
-                          <div class="form-group my-4 input-group">
-                            <textarea
-                              type="text"
-                              className="form-control"
-                              id="addressOfUser"
-                              name="addressOfUser"
-                              onChange={(e) =>
-                                setFormData({
-                                  ...formData,
-                                  addressOfUser: e.target.value,
-                                })
-                              }
-                              value={formData.addressOfUser}
-                              placeholder="Address Of User"
-                              rows="3"
-                            ></textarea>
-                          </div>
+                        <div className="form-group my-4">
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="nameOfBiz"
+                            name="nameOfBiz"
+                            onChange={handleChange}
+                            value={person.nameOfBiz}
+                            placeholder="Name Of Business"
+                          ></input>
                         </div>
-                        {/* <div className="input-group">
-                    <div className="input-group-prepend col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div className="input-group-text">Optional Add-ons Plan</div>
-                    </div>
-                    <select type="text" className="form-select" id="optionalAddonsPlan" name="optionalAddonsPlan" onChange={(e) => setFormData({...formData, optionalAddonsPlan: e.target.value})} value={formData.optionalAddonsPlan}>
-                        <option> </option>
-                        <option value="Optional Addons Plan 1">Optional Addons Plan 1</option>
-                        <option value="Optional Addons Plan 2">Optional Addons Plan 1</option>
-                        <option value="Optional Addons Plan 3">Optional Addons Plan 1</option>
-                    </select>
-                </div> */}
-                        <div className="input-group">
+                        <div className="form-group my-4">
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="socialHandle"
+                            name="socialHandle"
+                            onChange={handleChange}
+                            value={person.socialHandle}
+                            placeholder="Social Media Handle"
+                          ></input>
+                        </div>
+                        <div className="form-group my-4">
+                          <input
+                            type="text"
+                            className="form-control"
+                            id="companysWebsite"
+                            name="companysWebsite"
+                            onChange={handleChange}
+                            value={person.companysWebsite}
+                            placeholder="Company's Website"
+                          ></input>
+                        </div>
+
+                        <div className="my-4">
                           <select
                             type="text"
-                            className="form-select"
-                            id="optionalAddonsPlan"
-                            name="optionalAddonsPlan"
-                            onChange={(e) =>
-                              setFormData({
-                                ...formData,
-                                optionalAddonsPlan: e.target.value,
-                              })
-                            }
-                            value={formData.optionalAddonsPlan}
+                            className="form-select input-group"
+                            id="natureOfBiznex"
+                            name="natureOfBiznex"
+                            onChange={handleChange}
+                            value={person.natureOfBiznex}
+                          >
+                            <option selected> Nature of Business?</option>
+                            <option value="Service1">Healthcare</option>
+                            <option value="Service2">Finance</option>
+                            <option value="Service4">IT</option>
+                            <option value="Service4">Agriculture</option>
+                            <option value="Service5">Education</option>
+                            <option value="Service6">Logistics</option>
+                            <option value="Service7">Hospitality</option>
+                            <option value="Service8">Fashion</option>
+                            <option value="Service9">Manufaturing</option>
+                          </select>
+                        </div>
+
+                        <div className="my-4">
+                          <select
+                            type="text"
+                            className="form-select input-group"
+                            id="serviceOfInterest"
+                            name="serviceOfInterest"
+                            onChange={handleChange}
+                            value={person.serviceOfInterest}
+                          >
+                            <option selected> Service of Interest?</option>
+                            <option value="Service1">Tech</option>
+                            <option value="Service2">Digital Marketing</option>
+                            <option value="Service3">
+                              Accounting/Bookkeeping{" "}
+                            </option>
+                            <option value="Service4">Legal</option>
+                            <option value="Service5">Others</option>
+                          </select>
+                        </div>
+
+                        <div className="my-4">
+                          <select
+                            type="text"
+                            className="form-select input-group"
+                            id="meansOfComm"
+                            name="meansOfComm"
+                            onChange={handleChange}
+                            value={person.meansOfComm}
                           >
                             <option selected>
-                              Optional Add-ons Plan......{" "}
+                              Preferred Means of Communication?
                             </option>
-                            <option> </option>
-                            <option value="Optional Addons Plan 1">
-                              Optional Addons Plan 1
-                            </option>
-                            <option value="Optional Addons Plan 2">
-                              Optional Addons Plan 1
-                            </option>
-                            <option value="Optional Addons Plan 3">
-                              Optional Addons Plan 1
-                            </option>
+                            <option value="Service1">Call</option>
+                            <option value="Service2">Email</option>
+                            <option value="Service3">Social Media</option>
                           </select>
+                        </div>
+
+                        <div className="my-4">
+                          <select
+                            type="text"
+                            className="form-select input-group"
+                            id="hearAboutUS"
+                            name="hearAboutUS"
+                            onChange={handleChange}
+                            value={person.hearAboutUS}
+                          >
+                            <option selected>How did you hear about us?</option>
+                            <option value="Service1">LinkedIn</option>
+                            <option value="Service2">Whatsapp</option>
+                            <option value="Service3">Facebook</option>
+                            <option value="Service3">Instagram</option>
+                            <option value="Service3">Twitter</option>
+                            <option value="Service3">Tiktok</option>
+                            <option value="Service3">Friends and Family</option>
+                            <option value="Service3">Others</option>
+                          </select>
+                        </div>
+
+                        <div className="form-group my-4">
+                          <input
+                            type="text"
+                            className="form-control  "
+                            id="describeProject"
+                            name="describeProject"
+                            onChange={handleChange}
+                            value={person.describeProject}
+                            placeholder="Describe your project?"
+                          ></input>
                         </div>
                       </div>
                       <div className="custom-control custom-checkbox my-3 mr-sm-2">
@@ -340,32 +366,68 @@ export const ManagedServicesRequestForm = () => {
                         </label>
                       </div>
 
-                      {/* <div className="form-group my-4">
-                <input list='Services' className="form-control" onChange={(e) => setFormData({...formData, serviceOfInterest: e.target.value})} value={formData.serviceOfInterest} type="text" name="serviceOfInterest" id="serviceOfInterest" placeholder="Service Of Interest" />
-                <datalist id="Services">
-               <option value="service1"></option>
-               <option value="service2"></option>
-               <option value="service"></option>
-               <option value="service4"></option>
-               </datalist>
-               <br/> */}
                       {/* </div> */}
 
                       <div className="center">
-                        <input type="submit" value="submit"></input>
+                        <SubmitFormBtn />
                       </div>
                     </form>
                   </div>
                 </div>
               </div>
-
-              {/* <div class="modal-footer">
-                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
-                    </div> */}
             </div>
           </div>
         </div>
       </div>
+      <article>
+        {people.map((person) => {
+          const {
+            id,
+            phoneNumber,
+            email,
+            fullName,
+            nameOfBiz,
+            socialHandle,
+            companysWebsite,
+            describeProject,
+            natureOfBiznex,
+            serviceOfInterest,
+          } = person;
+          return (
+            <div key={id} className="item">
+              <h4>{phoneNumber}</h4>
+              <p>{email}</p>
+              <p>{fullName}</p>
+              <p>{nameOfBiz}</p>
+              <p>{socialHandle}</p>
+              <p>{companysWebsite}</p>
+              <p>{companysWebsite}</p>
+              <p>{describeProject}</p>
+              <p>{natureOfBiznex}</p>
+              <p>{serviceOfInterest}</p>
+            </div>
+          );
+        })}
+      </article>
     </>
   );
 };
+
+// export const Modal = () => {
+//   return <div>Modal</div>;
+// };
+
+// export function ManagedServicesRequestForm() {
+//   const [modal, setModal] = useState(false);
+//   const Toggle = () => setModal(!modal);
+
+//   return (
+//     <div className="App">
+//       <button className="clickme " onClick={() => Toggle()}>
+//         Modalaaaaaaaaaaaaaaaaaaaaaaaa
+//       </button>
+
+//       <Modal show={modal} />
+//     </div>
+//   );
+// }

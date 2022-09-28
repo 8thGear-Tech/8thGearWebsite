@@ -18,6 +18,7 @@ import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/Me
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
+import logo from "../../assets/images/logo.png";
 
 const ProjectDeliveryPage = () => {
   return (
@@ -28,6 +29,7 @@ const ProjectDeliveryPage = () => {
       <OurImpact />
       <OurClients />
       <SuccessStoryCards />
+      <AdvisoryBoardOnHoverCard />
     </>
   );
 };
@@ -139,3 +141,20 @@ const SuccessStoryCards = () => {
 };
 
 export default ProjectDeliveryPage;
+
+export const AdvisoryBoardOnHoverCard = (props) => {
+  return (
+    <>
+      <h2>Fade in Overlay</h2>
+      <p>Hover over the image to see the effect.</p>
+
+      <div class="container11">
+        <img className="w-25" src={logo} alt="Avatar" class="image" />
+        <div class="overlay">
+          <div class="text">Hello World</div>
+          <button className=" Buttonn btn btn-primary ">addButoon</button>
+        </div>
+      </div>
+    </>
+  );
+};
