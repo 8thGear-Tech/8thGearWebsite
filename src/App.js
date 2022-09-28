@@ -110,9 +110,8 @@ import { ProjectDeliveryViewMoreBtn } from "./components/Buttons/ProjectDelivery
 function App() {
   return (
     <BrowserRouter>
-      <PrivacyAndPolicy />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="our-model" element={<OurModelPage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
@@ -160,6 +159,7 @@ function App() {
         {/* <Route path="media" element={<GalleryCards />} /> */}
         <Route path="abt" element={<AboutUs />} />
         <Route path="teams" element={<TeamsPage />} />
+        <Route path="privacyPolicy" element={<PrivacyAndPolicy />} />
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}
@@ -191,7 +191,9 @@ function App() {
       {/* <OnHoverCard /> */}
       {/* <UnderconstructionNavbar /> */}
 
-      <footer>{/* <Footer /> */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </BrowserRouter>
   );
 }
