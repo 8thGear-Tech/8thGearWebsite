@@ -8,7 +8,8 @@ const NavBar = (props) => {
   const { heading } = props;
   return (
     <>
-      <section className="  d-lg-block d-md-block d-sm-none d-xs-none">
+      <section className="  ">
+        {/* d-lg-block d-md-block d-sm-none d-xs-none */}
         <div className="containter-fluid NavBar">
           <div className="d-flex ">
             <Link to="/">
@@ -17,11 +18,11 @@ const NavBar = (props) => {
                 alt=""
                 width={60}
                 height={70}
-                className="d-inline-block align-text-top mx-5 "
+                className="d-inline-block align-text-top mx-4 "
               />
             </Link>
             <h6 className="h6  mt-4 ">{heading}</h6>
-            <div className="ms-auto mb-2 mb-lg-0 mx-5 mt-1">
+            <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
               <a
                 className=" "
                 data-bs-toggle="offcanvas"
@@ -245,7 +246,7 @@ const NavBar = (props) => {
       </div>
 
       {/* mobile start */}
-      <section className=" d-none d-lg-none d-md-none d-sm-block d-xs-block ">
+      {/* <section className=" d-none d-lg-none d-md-none d-sm-block d-xs-block ">
         <div className="containter-fluid NavBar">
           <div className="d-flex ">
             <Link to="/">
@@ -479,7 +480,7 @@ const NavBar = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* mobile ends */}
     </>
   );
