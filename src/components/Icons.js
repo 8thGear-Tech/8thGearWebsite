@@ -46,6 +46,13 @@ import creation from "../assets/icons/ourmodel/creation.png";
 import spinout from "../assets/icons/ourmodel/spinout.png";
 import scaleup from "../assets/icons/ourmodel/scaleup.png";
 
+//home
+import venturestudio from "../assets/icons/home/venturestudio.png";
+import projectdelivery from "../assets/icons/home/projectdelivery.png";
+import gearup from "../assets/icons/home/gearup.png";
+import evolve from "../assets/icons/home/evolve.png";
+import engage from "../assets/icons/home/engage.png";
+
 export const WhatWeDoIcon = () => {
   return (
     <div>
@@ -339,3 +346,30 @@ export const ScaleUpIcon = () => {
 //     </div>
 //   );
 // };
+
+//home
+export const VentureStudioIcon = () => {
+  return (
+    <img
+      src={venturestudio}
+      style={{ maxWidth: "18%", maxHeight: "18%" }}
+    ></img>
+  );
+};
+export const ProjectDeliveryIcon = () => {
+  return (
+    <img
+      src={projectdelivery}
+      style={{ maxWidth: "18%", maxHeight: "18%" }}
+    ></img>
+  );
+};
+export const GearUpIcon = () => {
+  return <img src={gearup} style={{ maxWidth: "70%", maxHeight: "70%" }}></img>;
+};
+export const EvolveIcon = () => {
+  return <img src={evolve} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+};
+export const EngageIcon = () => {
+  return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+};

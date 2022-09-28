@@ -55,19 +55,17 @@ export const HomePageHero = () => {
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
-      {/* <div className="gradientBg overlayBg"></div>
-      <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+      <div className="gradientBg overlayBg"></div>
+      <div className="row justify-content-center">
+        <div className="col-lg-12 col-md-8 col-sm-12 px-lg-5">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
@@ -119,14 +117,20 @@ export const ProjectDeliveryHero = () => {
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2>
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>
@@ -143,14 +147,20 @@ export const GaaSHero = () => {
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2>
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>
@@ -167,14 +177,20 @@ export const EventsPageHero = () => {
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-7 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2>
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>

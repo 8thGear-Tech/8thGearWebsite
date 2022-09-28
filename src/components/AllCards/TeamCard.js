@@ -43,11 +43,17 @@ export const TeamCardTwo = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/damilolaobidairo/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberOneViewBioBtn />
-            </div>
+            </div> */}
 
             {/* <button
         type="button"
@@ -159,11 +165,18 @@ export const TeamCard = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/omowunmiobidairo/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
+
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberTwoViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"
@@ -271,11 +284,17 @@ export const TeamCardThree = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/titilayo-ekundayo-833336a1/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberThreeViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"
@@ -383,11 +402,17 @@ export const TeamCardFour = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/temitopekazeem/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberFourViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"
@@ -495,11 +520,17 @@ export const TeamCardFive = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/opeyemi-bioku">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberFiveViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"
@@ -607,11 +638,17 @@ export const TeamCardSix = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/adam-yakub-aca-2848a2170/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberSixViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"
@@ -719,11 +756,17 @@ export const TeamCardSeven = (props) => {
               <figcaption class="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
+            <a href="https://www.linkedin.com/in/wgifunanya-116408159/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberSevenViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         class="btn btn-primary"

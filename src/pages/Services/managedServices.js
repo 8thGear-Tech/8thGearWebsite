@@ -60,7 +60,12 @@ const HowItWorks = () => {
           </div> */}
         </div>
         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 d-flex align-items-center">
-          <p className="mt-2"></p>
+          <p className="mt-2">
+            We at 8thGear are helpmates to your business and because we believe
+            in the uniqueness of every individual and business, we tailor our
+            solutions to suit your needs and aspirations. We are not only your
+            brand ambassadors but your biggest fan.
+          </p>
         </div>
       </div>
     </div>

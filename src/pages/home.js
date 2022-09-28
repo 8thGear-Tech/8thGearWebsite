@@ -9,6 +9,11 @@ import engageicon from "../assets/images/engageicon.png";
 import { Navbar0 } from "../components/Navbar";
 import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
 import { HomePageHero } from "../components/Hero/ImageandTextHero";
+import { VentureStudioIcon } from "../components/Icons";
+import { ProjectDeliveryIcon } from "../components/Icons";
+import { GearUpIcon } from "../components/Icons";
+import { EvolveIcon } from "../components/Icons";
+import { EngageIcon } from "../components/Icons";
 
 const Home = () => {
   return (
@@ -77,13 +82,14 @@ const SectionTwo = () => {
         <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
           {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}
           <div className="col">
-            <img
+            <VentureStudioIcon />
+            {/* <img
               src={venturestudioicon}
               alt=""
               width="50px"
               height="50px"
               className="mb-3"
-            />
+            /> */}
             <Link to="/our-model" className="headerText">
               <h3>VENTURE STUDIO</h3>
             </Link>
@@ -96,13 +102,14 @@ const SectionTwo = () => {
           {/* </div> */}
           {/* <div className="col d-lg-flex d-md-flex float-end"> */}
           <div className="col">
-            <img
+            <ProjectDeliveryIcon />
+            {/* <img
               src={projectdeliveryicon}
               alt=""
               width="70px"
               height="70px"
               className="mb-3"
-            />
+            /> */}
             <Link to="/project-delivery" className="headerText">
               <h3>PROJECT DELIVERY</h3>
             </Link>
@@ -129,14 +136,18 @@ const SectionThree = () => {
       </p>
       <div className="row justify-content-evenly mt-5">
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          <div className="card mb-5 py-5 cardBg">
-            <img
+          <div className="card mb-5 py-4 cardBg">
+            <div className="text-center">
+              <GearUpIcon />
+            </div>
+
+            {/* <img
               src={gearupicon}
               className="p-3 mx-auto w-50"
               // width="70px"
               // height="70px"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h4 className="card-title">GEAR UP</h4>
               <p className="card-text">
@@ -149,14 +160,18 @@ const SectionThree = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
           {" "}
-          <div className="card mb-5 py-5 cardBg">
-            <img
+          <div className="card mb-5 py-4 cardBg">
+            <div className="text-center">
+              <EvolveIcon />
+            </div>
+
+            {/* <img
               src={evolveicon}
               className="p-3 mx-auto w-50"
               // width="70px"
               // height="70px"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h4 className="card-title">EVOLVE</h4>
               <p className="card-text">
@@ -169,14 +184,18 @@ const SectionThree = () => {
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
           {" "}
-          <div className="card mb-5 py-5 cardBg">
-            <img
+          <div className="card mb-5 py-4 cardBg">
+            <div className="text-center">
+              <EngageIcon />
+            </div>
+
+            {/* <img
               src={engageicon}
               className="p-3 mx-auto w-50"
               // width="70px"
               // height="70px"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h4 className="card-title">ENGAGE</h4>
               <p className="card-text">

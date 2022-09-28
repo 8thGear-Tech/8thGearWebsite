@@ -1284,12 +1284,22 @@ article h4 {
   opacity: 0.6;
 }
 
+.homeHeroBg h1 {
+  position: relative;
+}
+
 .homeHeroBg h2 {
   position: relative;
 }
 
-.homeHeroBg h3 {
-  position: relative;
+.homeHeroText {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.homeHeroTextTwo {
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1321,11 +1331,11 @@ article h4 {
   opacity: 0.6;
 }
 
-.GaaSHeroBg h2 {
+.GaaSHeroBg h1 {
   position: relative;
 }
 
-.GaaSHeroBg h3 {
+.GaaSHeroBg h2 {
   position: relative;
 }
 
@@ -1358,11 +1368,11 @@ article h4 {
   opacity: 0.6;
 }
 
-.EventsHeroBg h2 {
+.EventsHeroBg h1 {
   position: relative;
 }
 
-.EventsHeroBg h3 {
+.EventsHeroBg h2 {
   position: relative;
 }
 
@@ -1472,11 +1482,11 @@ article h4 {
   left: 0;
 }
 
-.projectDeliveryHeroBg h2 {
+.projectDeliveryHeroBg h1 {
   position: relative;
 }
 
-.projectDeliveryHeroBg h3 {
+.projectDeliveryHeroBg h2 {
   position: relative;
 }
 
