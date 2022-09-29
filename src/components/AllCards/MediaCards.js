@@ -24,7 +24,7 @@ export const AllPortfoliosLogoCard = (props) => {
         <img
           className="my-5 logoEffect"
           src={logo}
-          alt="Logos"
+          alt="Logo"
           style={{ maxWidth: "100%", maxHeight: "100%" }}
           // height={150}
         />
