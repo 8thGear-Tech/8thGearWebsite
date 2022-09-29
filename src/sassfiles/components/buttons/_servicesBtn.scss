@@ -1,3 +1,4 @@
+@use "../../colors" as *;
 // .OnHoverReadMoreBtn {
 //   border: 3px solid $btncolor;
 //   color: $prytextcolor !important;
@@ -10,10 +11,21 @@
 //   font-size: 20px;
 // }
 .ManagedServicesRequestBtn {
-  box-sizing: border-box;
-  text-align: center;
-  width: 100px;
-  height: 30px;
-  border: 1.5px solid #821e6b;
-  border-radius: 35px;
+  border: 3px solid $btncolor;
+  color: $prytextcolor;
+  border-radius: 20px;
+  width: 7.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }

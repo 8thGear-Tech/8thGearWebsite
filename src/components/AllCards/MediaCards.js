@@ -1,36 +1,39 @@
 //GalleryCard
 
-import galleryData from "../../data/galleryS4P.json";
-import gallerypictures from "../../data/galleryGIZ.json";
+import galleryData from "../../data/gallerypiggerytraining.json";
+import gallerypictures from "../../data/galleryEmployabilityGIZ.json";
 import galleryusadfData from "../../data/galleryusadf.json";
-import galleryfutaData from "../../data/galleryfuta.json";
+import galleryinnkeeperData from "../../data/galleryinnkeeperhackathon.json";
 import gallerylsetfvisitData from "../../data/gallerylsetfvisit.json";
 import gallerylsetfData from "../../data/gallerylsetf.json";
 import galleryfounderData from "../../data/galleryFoundermeetup.json";
 import galleryprojectData from "../../data/projectdelivery.json";
 import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
+import { Link } from "react-router-dom";
 // import Record from "../../data/blog.json"
 // //GalleryMediaCards
 // //AllPortfoliosLogoCard
 // //ProjectDeliveryManagedServicesCard
 
 export const AllPortfoliosLogoCard = (props) => {
-  const { logo } = props;
+  const { logo, link } = props;
   return (
-    <div>
-      <img
-        className="my-5"
-        src={logo}
-        alt="Logos"
-        style={{ maxWidth: "100%", maxHeigt: "100%" }}
-        // height={70}
-      />
+    <div className="align-items-center">
+      <Link to={link}>
+        <img
+          className="my-5 logoEffect"
+          src={logo}
+          alt="Logos"
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
+          // height={150}
+        />
+      </Link>
     </div>
   );
 };
 
-export const ProjectDeliveryManagedServicesCard = (props) => {
+export const ProjectDeliveryCard = (props) => {
   const { image, text, id } = props;
   return (
     <div
@@ -42,9 +45,31 @@ export const ProjectDeliveryManagedServicesCard = (props) => {
         backgroundImage: "url(" + image + ")",
       }}
     >
+      {" "}
       <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
         {text}
       </p>
+    </div>
+  );
+};
+export const ManagedServicesCard = (props) => {
+  const { image, link, text, id } = props;
+  return (
+    <div
+      key={id}
+      className="col-lg-3 col-md-6 col-sm-12"
+      style={{
+        height: "400px",
+        backgroundSize: "cover",
+        backgroundImage: "url(" + image + ")",
+      }}
+    >
+      <Link to={link} className="text-decoration-none">
+        {" "}
+        <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
+          {text}
+        </p>
+      </Link>
     </div>
   );
 };
@@ -108,8 +133,8 @@ export const SingleGalleryGizCards = (props) => {
   return (
     <>
       <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
+        className="img-fluid"
+        // style={{ width: 358.8 }}
         src={image}
         alt={id}
       />
@@ -148,27 +173,31 @@ export const SingleGalleryGizCards = (props) => {
 //   );
 // };
 
-export const SingleFUTACards = (props) => {
+export const SingleInnkeeperHackathonGalleryCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
 
-export const SingleS4PCards = (props) => {
+export const SingleITFGalleryCards = (props) => {
+  const { image, id } = props;
+  return (
+    <>
+      <img className="img-fluid" src={image} alt={id} />
+    </>
+  );
+};
+
+export const SinglePiggeryTrainingCards = (props) => {
   const { image, id } = props;
   return (
     <>
       <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
+        className="img-fluid w-100"
+        // style={{ width: 358.8 }}
         src={image}
         alt={id}
       />
@@ -180,12 +209,7 @@ export const SingleLsetfCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-4 px-6 img-fluid"
-        style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -256,24 +280,22 @@ export const SingleDemodayCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="my-3 px-5 img-fluid"
-        style={{ width: 368.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
 
 export const SinglegalleryCards = (props) => {
-  const { image, id, text } = props;
+  const { image, link, text } = props;
   return (
     <>
-      <div className="card">
+      <div className="card successStoryCardBg">
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">{text}</p>
+          <Link to={link} className="text-decoration-none text-black">
+            {" "}
+            <p className="card-text">{text}</p>
+          </Link>
         </div>
       </div>
     </>
@@ -302,7 +324,7 @@ export const SinglegalleryVideoCards = (props) => {
   const { video, id, text } = props;
   return (
     <>
-      <div className="card">
+      <div className="card ">
         <iframe src={video} className="card-img-top" alt="..." />
         <div className="card-body">
           <p className="card-text">{text}</p>
@@ -335,7 +357,7 @@ export const SinglegalleryVideo = (props) => {
   return (
     <>
       <div className="card">
-        <iframe src={video} className="card-img-top" alt="..." />
+        <iframe src={video} className="" alt="..." />
       </div>
     </>
   );

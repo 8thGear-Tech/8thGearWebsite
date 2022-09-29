@@ -1,12 +1,21 @@
 import { OurImpactIcon } from "../../components/Icons";
 import { WhatWeDoIcon } from "../../components/Icons";
+import { StartIcon } from "../../components/Icons";
+import { BuildIcon } from "../../components/Icons";
+import { ScaleIcon } from "../../components/Icons";
+import { AdvisoryIcon } from "../../components/Icons";
+import { NetworkingIcon } from "../../components/Icons";
+import { GrowthStrategyIcon } from "../../components/Icons";
+import { DealManagementIcon } from "../../components/Icons";
 import { Navbar9 } from "../../components/Navbar";
 import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
+import { GaaSHero } from "../../components/Hero/ImageandTextHero";
 
 const GrowthAsAservice = () => {
   return (
     <>
       <Navbar9 />
+      <GaaSHero />
       <WhyChooseUs />
       <HowWeWork />
     </>
@@ -20,7 +29,7 @@ const WhyChooseUs = () => {
         <h4 className="text-center my-5">Why Choose Us</h4>
         <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5">
           <div className="card mb-5 whyChooseUsCardBg py-4">
-            <OurImpactIcon />
+            <StartIcon />
             <div className="card-body">
               <h5 className="card-title">Start</h5>
               <p className="card-text">
@@ -36,7 +45,7 @@ const WhyChooseUs = () => {
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>
               {" "}
-              <OurImpactIcon />
+              <BuildIcon />
             </div>
 
             <div className="card-body">
@@ -54,7 +63,7 @@ const WhyChooseUs = () => {
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>
               {" "}
-              <OurImpactIcon />
+              <ScaleIcon />
             </div>
 
             <div className="card-body">
@@ -74,25 +83,25 @@ const WhyChooseUs = () => {
 
 const HowWeWork = () => {
   return (
-    <div className="container-fluid px-5 py-3">
+    <div className="container-fluid py-3">
       {" "}
-      <h4 className="text-center my-5">How we Work</h4>
+      <h4 className="text-center my-5">How We Work</h4>
       <div className="row justify-content-center my-lg-5 my-sm-2">
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
-              <p className="card-text">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building
-              </p>
-            </div>
+            <AdvisoryIcon />
+            {/* <div className="card-body ms-3"> */}
+            <p className="card-text">
+              The Venture Studio model for entrepreneurship, combining comapny
+              building
+            </p>
+            {/* </div> */}
           </div>
         </div>
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
+            <NetworkingIcon />
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building
@@ -112,8 +121,8 @@ const HowWeWork = () => {
       <div className="row justify-content-center">
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
+            <GrowthStrategyIcon />
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building
@@ -123,8 +132,8 @@ const HowWeWork = () => {
         </div>
         <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
-            <WhatWeDoIcon />
-            <div className="card-body ms-3">
+            <DealManagementIcon />
+            <div className="card-body">
               <p className="card-text">
                 The Venture Studio model for entrepreneurship, combining comapny
                 building

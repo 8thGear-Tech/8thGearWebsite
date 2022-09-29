@@ -18,14 +18,16 @@ export const AboutStartup = (props) => {
         <div className="row justify-content-center">
           <div className="d-flex justify-content-center pt-5">
             {" "}
-            <a href="" to={link}>
+            <a href={link}>
               {" "}
               <img
                 src={img}
-                className=""
-                width="70px"
-                height="40px"
+                className="img-fluid"
+                // width="70px"
+                // height="40px"
+                style={{ maxWidth: "350px", maxHeight: "350px" }}
                 alt="..."
+                // style={{ width: "px" }}
               />
             </a>
           </div>
@@ -35,7 +37,7 @@ export const AboutStartup = (props) => {
         </div>
       </div>
       <div className="row justify-content-center text-center my-3 g-0">
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-2 col-md-6 col-sm-12 my-3">
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{role}</h3>
@@ -43,11 +45,11 @@ export const AboutStartup = (props) => {
             </div>
           </div>
         </div>
-        <div className="col-lg-2 col-md-6 col-sm-12">
+        <div className="col-lg-2 col-md-6 col-sm-12 my-3">
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>
-              <a href="#" className="text-decoration-none text-black">
+              <a href={link} className="">
                 <p>{website}</p>
               </a>
             </div>

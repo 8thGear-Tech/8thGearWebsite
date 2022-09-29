@@ -10,7 +10,7 @@
   // border-radius: 35px;
   // border: none;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -18,8 +18,23 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
+.team-button-color {
+  color: $btncolor;
+  &:hover {
+    color: $btncolor;
+    font-size: 1.1rem;
+  }
+}
 .BookaSessionBtn {
   // width: auto;
   // height: 30px;
@@ -29,7 +44,7 @@
   // border-radius: 35px;
   // border: none;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -37,6 +52,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 .BookaFreeSessionBtn {
@@ -48,19 +71,7 @@
   // border-radius: 35px;
   // border: none;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
-  border-radius: 20px;
-  width: 18.5rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.JointheStudioBtn {
-  border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -70,17 +81,17 @@
   font-size: 20px;
   &:hover {
     background-color: $btncolor;
-    color: #fff;
+    color: $sectextcolor;
   }
-
   &:focus {
     background-color: $btncolor;
     color: $sectextcolor;
   }
 }
-.JointheTeamBtn {
+
+.JointheStudioBtn {
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -88,22 +99,77 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
+// .JointheStudioBtn:hover {
+//   background-color: $btncolor;
+//   color: #fff;
+// }
+
+// &:focus {
+//   background-color: $btncolor;
+//   color: $sectextcolor;
+// }
+//  &:hover {
+//   background: #724598;
+//   color: #ffffff;
+// }
+
+// &:focus {
+//   background: #724598;
+//   color: #ffffff;
+// }
 
 @mixin JointheTeamBtn {
-  border: 2.5px solid $btncolor;
-  border-radius: 1.1875rem;
+  border: 3px solid $btncolor;
   color: $prytextcolor;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
-  font-weight: 400;
-  background-color: #ffff;
-  padding: 0.4rem 1.5rem;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 .JointheTeamBtn {
   @include JointheTeamBtn;
 }
+@mixin SubmitFormBtn {
+  border: 3px solid $btncolor;
+  color: $prytextcolor;
+  border-radius: 20px;
+  width: 7rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+}
 
 .SubmitFormBtn {
-  @include JointheTeamBtn;
+  @include SubmitFormBtn;
 }

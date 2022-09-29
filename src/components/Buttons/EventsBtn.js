@@ -25,12 +25,15 @@ import { Link } from "react-router-dom";
 
 export const LetUsKnowBtn = () => {
   return (
-    <a href="#" rel="noreferrer">
+    <a
+      href="https://docs.google.com/forms/d/149SdikrUqPTgtdQL5lOBKYdF9L5ZAQ4TF1Xj9y1vBIk/edit"
+      rel="noreferrer"
+    >
       <button
-        type="button"
+        // type="button"
         className="SuggestAnEventBtn"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
+        // data-bs-toggle="modal"
+        // data-bs-target="#staticBackdrop"
       >
         Let Us Know
       </button>
@@ -76,7 +79,7 @@ export const FoundersMeetupReadMoreBtn = () => {
 };
 export const DemoDayReadMoreBtn = () => {
   return (
-    <Link to="/demo-day">
+    <Link to="">
       <button className="BlogReadMoreBtn" type="sumbit">
         Read More
       </button>

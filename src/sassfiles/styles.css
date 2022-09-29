@@ -26,10 +26,6 @@
   width: 100%;
 }
 
-.blogtext {
-  font-size: 1.5vw;
-}
-
 .blogPagE {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -40,11 +36,22 @@
   font-size: 1vw;
 }
 
-.sideimg {
-  width: 100%;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.sideCard {
+  min-height: 3rem;
+}
+
+.text-fluid5 {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid6 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.3rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .manageSvcard {
@@ -65,6 +72,26 @@
   max-height: 2.5rem;
 }
 
+.partnersBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.heading {
+  text-align: center;
+}
+
+.logo1 {
+  text-align: center;
+  width: 221.21px;
+  top: 2351px;
+}
+
+.logo2 {
+  text-align: center;
+  width: 275.49px;
+  top: 2351px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Karla", Rubik;
@@ -83,6 +110,14 @@ body {
   width: 9rem;
   height: 2.8125rem;
 }
+.LinkedInBtn:hover {
+  background-color: rgb(12, 97, 191);
+  color: #ffffff;
+}
+.LinkedInBtn:focus {
+  background-color: rgb(12, 97, 191);
+  color: #ffffff;
+}
 
 .icon {
   margin-right: 0.5rem;
@@ -95,6 +130,14 @@ body {
   width: 9rem;
   height: 2.8125rem;
 }
+.InstagramBtn:hover {
+  background-color: rgb(216, 43, 117);
+  color: #ffffff;
+}
+.InstagramBtn:focus {
+  background-color: rgb(216, 43, 117);
+  color: #ffffff;
+}
 
 .ShareBtn {
   background-color: rgb(183, 255, 65);
@@ -103,10 +146,18 @@ body {
   width: 9rem;
   height: 2.8125rem;
 }
+.ShareBtn:hover {
+  background-color: rgb(183, 255, 65);
+  color: #ffffff;
+}
+.ShareBtn:focus {
+  background-color: rgb(183, 255, 65);
+  color: #ffffff;
+}
 
 .BlogReadMoreBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -115,8 +166,16 @@ body {
   font-weight: 500;
   font-size: 20px;
 }
+.BlogReadMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.BlogReadMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
-.BlogReadMoreLinkBtn a {
+.BlogReadMoreLinkBtn {
   color: #821e6b !important;
   font-style: normal;
   font-weight: 700;
@@ -128,7 +187,7 @@ body {
 
 .SubmitCommentBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 12rem;
   height: 2.5rem;
@@ -136,6 +195,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.SubmitCommentBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.SubmitCommentBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .FacebookBtn {
@@ -156,7 +223,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
 
@@ -186,7 +253,7 @@ p {
 
 .OnHoverReadMoreBtn {
   background-color: #821e6b;
-  color: #ffffff !important;
+  color: #ffffff;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -198,7 +265,7 @@ p {
 
 .LearnMoreBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 8.55rem;
   height: 2.5rem;
@@ -207,10 +274,18 @@ p {
   font-weight: 500;
   font-size: 20px;
 }
+.LearnMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.LearnMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .RequestForProposalBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 15.5rem;
   height: 2.5rem;
@@ -219,10 +294,18 @@ p {
   font-weight: 500;
   font-size: 20px;
 }
+.RequestForProposalBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.RequestForProposalBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .ProjectDeliveryViewMoreBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -230,6 +313,14 @@ p {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.ProjectDeliveryViewMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.ProjectDeliveryViewMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .ManagedServicesPageTestimonialCard {
@@ -484,6 +575,18 @@ article h4 {
   font-size: 1.2rem;
 }
 
+.headerText {
+  text-decoration: none !important;
+  color: #000;
+}
+.headerText:hover {
+  color: #000;
+}
+
+.textFont {
+  font-size: 1.1rem;
+}
+
 .ManagedServicesHeroText {
   color: rgba(0, 0, 0, 0.9);
   font-family: Rubik;
@@ -506,7 +609,7 @@ article h4 {
 
 .BookNowBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -515,10 +618,26 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.BookNowBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.BookNowBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.team-button-color {
+  color: #821e6b;
+}
+.team-button-color:hover {
+  color: #821e6b;
+  font-size: 1.1rem;
+}
 
 .BookaSessionBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -527,22 +646,38 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.BookaSessionBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.BookaSessionBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .BookaFreeSessionBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
-  width: 18.5rem;
+  width: 11rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
+.BookaFreeSessionBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.BookaFreeSessionBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .JointheStudioBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -553,7 +688,7 @@ article h4 {
 }
 .JointheStudioBtn:hover {
   background-color: #821e6b;
-  color: #fff;
+  color: #ffffff;
 }
 .JointheStudioBtn:focus {
   background-color: #821e6b;
@@ -562,39 +697,47 @@ article h4 {
 
 .JointheTeamBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
-  width: 11rem;
+  width: 10rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
-
-.JointheTeamBtn {
-  border: 2.5px solid #821e6b;
-  border-radius: 1.1875rem;
-  color: #000;
-  font-size: 20px;
-  font-weight: 400;
-  background-color: white;
-  padding: 0.4rem 1.5rem;
+.JointheTeamBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.JointheTeamBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .SubmitFormBtn {
-  border: 2.5px solid #821e6b;
-  border-radius: 1.1875rem;
+  border: 3px solid #821e6b;
   color: #000;
+  border-radius: 20px;
+  width: 7rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
-  font-weight: 400;
-  background-color: white;
-  padding: 0.4rem 1.5rem;
+}
+.SubmitFormBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.SubmitFormBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .SuggestAnEventBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 13rem;
   height: 2.5rem;
@@ -603,10 +746,18 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.SuggestAnEventBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.SuggestAnEventBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .LetUsKnowBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 9rem;
   height: 2.5rem;
@@ -615,10 +766,18 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.LetUsKnowBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.LetUsKnowBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .EventViewMoreBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -627,10 +786,18 @@ article h4 {
   font-weight: 500;
   font-size: 20px;
 }
+.EventViewMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.EventViewMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
 
 .GetYourTicketBtn {
   border: 3px solid #821e6b;
-  color: #000 !important;
+  color: #000;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;
@@ -714,6 +881,10 @@ article h4 {
   border: none;
 }
 
+.successStoryCardBg {
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
 .TractionsBg {
   background-color: #00a495;
 }
@@ -734,7 +905,7 @@ article h4 {
 }
 
 .ourImpactCardBg {
-  border: 3px solid rgba(0, 0, 0, 0.9);
+  border: 0px solid rgba(0, 0, 0, 0.9);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -867,10 +1038,6 @@ article h4 {
   margin-top: 10px;
 }
 
-.JointheStudioBtn:hover {
-  background-color: #821e6b;
-}
-
 .link {
   color: #ef00c0;
   text-align: center;
@@ -891,6 +1058,799 @@ article h4 {
 
 .Text {
   line-height: 1px;
+  font-size: 0.9rem;
+}
+
+.titleText {
+  font-size: 0.9rem;
+}
+
+.Bix {
+  display: block;
+  width: 10%;
+  height: 20%;
+}
+
+.purple {
+  background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
+  padding: 0 24px;
+  margin: 0;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all {
+  margin-top: 20px;
+  display: flex;
+  gap: 2px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(8, minmax(0, 1fr));
+  height: 43rem;
+  width: 41rem;
+  gap: 0.063rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+  height: 900px;
+  width: 200px;
+  gap: 1px;
+}
+
+.c1-element1 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: #ef00c0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.c2-element1 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: rgba(239, 0, 192, 0.5);
+  text-align: center;
+  color: #ffffff;
+}
+
+.c2-element2 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background: rgba(239, 0, 192, 0.5);
+  text-align: center;
+  color: #ffffff;
+}
+
+.c2-element3 {
+  grid-column-start: 2;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background: #ef00c0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.c3-element1 {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background: #ef00c0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.c3-element2 {
+  grid-column-start: 3;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background: rgba(239, 0, 192, 0.5);
+  text-align: center;
+  color: #ffffff;
+}
+
+.c3-element3 {
+  grid-column-start: 3;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  background: #ef00c0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.c4-element1 {
+  grid-row-start: 6;
+  grid-row-end: 8;
+  background: rgba(239, 0, 192, 0.5);
+  text-align: center;
+  color: #ffffff;
+}
+
+.change {
+  background-color: #a5009f;
+}
+
+.letter {
+  color: white;
+}
+
+.bi-check-circle {
+  color: #ef00c0;
+}
+
+.Pin {
+  border-color: #a5009f;
+  text-align: center;
+}
+
+.Pinner {
+  border: 3px solid;
+  border-bottom-color: #a5009f;
+}
+
+.finish {
+  border-right-color: black;
+  border-left-color: white;
+}
+
+.Pinish {
+  border-right-color: aliceblue;
+  border-left-color: #a5009f;
+}
+
+.pink {
+  background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
+  text-align: center;
+  height: 80vh;
+}
+
+.short {
+  color: white;
+  padding: 4rem;
+}
+
+.bgImg {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgtext {
+  color: rgb(255, 255, 255);
+}
+
+.bgimage h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+/*
+.imgContainer {
+  height: 100%;
+  width: 100%;
+}
+.imageStyle {
+  height: 80vh;
+  width: 100%;
+}
+
+.DigitalMarketingHeroText {
+  color: $prybgcolor;
+}
+.heroTextContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+*/
+/*
+.background {
+  background-image: url(/src/assets/images/digital\ marketing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100vh;
+}
+*/
+.homeHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.homeHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/homehome.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.homeHeroBg h1 {
+  position: relative;
+}
+
+.homeHeroBg h2 {
+  position: relative;
+}
+
+.homeHeroText {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.homeHeroTextTwo {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 440px) {
+  .homeHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .homeHeroBg {
+    height: 60vh;
+  }
+}
+.GaaSHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.GaaSHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/gaas.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg h1 {
+  position: relative;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .GaaSHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .GaaSHeroBg {
+    height: 60vh;
+  }
+}
+.EventsHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.EventsHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demoday1.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.EventsHeroBg h1 {
+  position: relative;
+}
+
+.EventsHeroBg h2 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .EventsHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .EventsHeroBg {
+    height: 60vh;
+  }
+}
+.CoworkingHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.CoworkingHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.CoworkingHeroBg h2 {
+  position: relative;
+}
+
+.CoworkingHeroBg h3 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .CoworkingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .CoworkingHeroBg {
+    height: 60vh;
+  }
+}
+.ourModelHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ourModelHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+}
+
+.ourModelHeroBg h2 {
+  position: relative;
+}
+
+.ourModelHeroBg h3 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .ourModelHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ourModelHeroBg {
+    height: 60vh;
+  }
+}
+.projectDeliveryHeroBg {
+  background: url(/src/assets/images/hero/projectdelivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+.gradientBg {
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
+}
+
+.overlayBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  top: 60;
+  left: 0;
+}
+
+.projectDeliveryHeroBg h1 {
+  position: relative;
+}
+
+.projectDeliveryHeroBg h2 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .projectDeliveryHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 441px) {
+  .projectDeliveryHeroBg {
+    height: 60vh;
+  }
+}
+.demoDayHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.demoDayHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.demoDayHeroBg h2 {
+  position: relative;
+}
+
+.demoDayHeroBg h3 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .demoDayHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .demoDayHeroBg {
+    height: 60vh;
+  }
+}
+.piggeryTrainingHeroBg {
+  background: url(/src/assets/images/hero/piggerytraininghero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .piggeryTrainingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .piggeryTrainingHeroBg {
+    height: 60vh;
+  }
+}
+.piggeryTrainingHeroBg h2 {
+  position: relative;
+}
+
+.piggeryTrainingHeroBg h3 {
+  position: relative;
+}
+
+.GIZHeroBg {
+  background: url(/src/assets/images/hero/GIZhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .GIZHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .GIZHeroBg {
+    height: 60vh;
+  }
+}
+.GIZHeroBg h2 {
+  position: relative;
+}
+
+.GIZHeroBg h3 {
+  position: relative;
+}
+
+.LSETFHeroBg {
+  background: url(/src/assets/images/hero/lsetfhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .LSETFHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .LSETFHeroBg {
+    height: 60vh;
+  }
+}
+.LSETFHeroBg h2 {
+  position: relative;
+}
+
+.LSETFHeroBg h3 {
+  position: relative;
+}
+
+.hackathonHeroBg {
+  background: url(/src/assets/images/hero/hackathon.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .hackathonHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .hackathonHeroBg {
+    height: 60vh;
+  }
+}
+.hackathonHeroBg h2 {
+  position: relative;
+}
+
+.hackathonHeroBg h3 {
+  position: relative;
+}
+
+.ITFHeroBg {
+  background: url(/src/assets/images/hero/ITF.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .ITFHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ITFHeroBg {
+    height: 60vh;
+  }
+}
+.ITFHeroBg h2 {
+  position: relative;
+}
+
+.ITFHeroBg h3 {
+  position: relative;
+}
+
+.heroTextColor {
+  color: #ffffff;
+}
+
+.cool {
+  width: auto;
+  height: 50vh;
+  background-image: url(https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stop {
+  color: rgb(255, 255, 255);
+}
+
+.ManagedServicesLegalHero {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .ManagedServicesLegalHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesLegalHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesLegalHero h2 {
+  position: relative;
+}
+
+.ManagedServicesLegalHero h3 {
+  position: relative;
+}
+
+.ManagedDigitalMarketServicesHero {
+  background: url(/src/assets/images/hero/digitalmarketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 60vh;
+  }
+}
+.ManagedDigitalMarketServicesHero h2 {
+  position: relative;
+}
+
+.ManagedDigitalMarketServicesHero h3 {
+  position: relative;
+}
+
+.ManagedServicesTechHero {
+  background: url(/src/assets/images/hero/techhero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .ManagedServicesTechHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesTechHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesTechHero h2 {
+  position: relative;
+}
+
+.ManagedServicesTechHero h3 {
+  position: relative;
+}
+
+.ManagedServicesAccountingHero {
+  background: url(/src/assets/images/hero/accounting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .ManagedServicesAccountingHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesAccountingHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesAccountingHero h2 {
+  position: relative;
+}
+
+.ManagedServicesAccountingHero h3 {
+  position: relative;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.contactUsTitle {
+  text-align: center;
+  color: #821e6b;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.ManagedServicesRequestBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 7.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.ManagedServicesRequestBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.ManagedServicesRequestBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .ul_top_hypers {
@@ -899,20 +1859,21 @@ article h4 {
   list-style-type: none;
 }
 
-.text-fluid {
-  font-size: 1.2vw;
-}
-
-.text-fluid2 {
-  font-size: 1.6vw;
+.iconsize {
+  font-size: 10px;
+  color: #00a495;
+  height: 100%;
+  overflow: visible;
 }
 
 #iconsize {
+  font-size: 10px;
   color: #00a495;
-  position: fixed;
+  height: 100%;
+  overflow: visible;
 }
 
-#iconsize2 {
+.iconsize2 {
   font-size: 1.4rem;
   color: #00a495;
 }
@@ -929,10 +1890,6 @@ article h4 {
   width: 15vw;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-}
-
 .footerLogo {
   width: 4.2vw;
 }
@@ -944,7 +1901,10 @@ article h4 {
 .footerText {
   text-decoration: none;
   color: black;
-  font-weight: 100;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .icons-for-footer {
@@ -957,6 +1917,8 @@ article h4 {
 
 .footerFormField {
   outline: none;
+  font-size: 13px;
+  font-weight: lighter;
 }
 
 .hrForBigScreen {
@@ -964,19 +1926,189 @@ article h4 {
 }
 
 .firstSignUp {
-  font-size: 1.3vw;
+  font-size: 1.1vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .secondSignUp {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.thirdSignUp {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: black;
+}
+
+.text-fluid {
+  font-size: 1.1vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid1 {
+  font-size: 1.7vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid2 {
+  font-size: 1.4vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid3 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footerTextDecoration {
+  text-decoration: none;
+  color: #000;
+}
+
+.addressText {
+  color: #821e6b;
 }
 
 .DigitalMarketingSection {
-  border: 3px solid #03a062;
+  border: 1px solid #03a062;
 }
 
 .managedServicesSection {
   background-color: rgb(250, 248, 248);
+}
+
+.cards {
+  text-align: center;
+}
+
+.containerm {
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdvisoryImage {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  background-color: #555;
+}
+
+.AdvisoryImage:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-140%, -50%);
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+
+.AdvisoryImage:hover:after {
+  transform: translate(-50%, -50%);
+}
+
+.AdvisoryImage:hover .AdvisoryIcon {
+  transform: translate(-50%, -50%) scale(1.3);
+}
+
+.AdvisoryIcon {
+  position: absolute;
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.8s;
+}
+
+.AdvisoryName {
+  position: absolute;
+  text-align: center;
+  line-height: 90%;
+  font-size: small;
+  font-weight: bold;
+  z-index: 2;
+  top: 75%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.AdvisoryImage:hover .AdvisoryName {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.AdvisoryPosition {
+  position: absolute;
+  text-align: center;
+  font-size: small;
+  z-index: 2;
+  top: 83%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.AdvisoryImage:hover .AdvisoryPosition {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.AdvisoryLink {
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  z-index: 2;
+  top: 92%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.AdvisoryImage:hover .AdvisoryLink {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
 }
 
 .faq {
@@ -985,6 +2117,24 @@ article h4 {
 
 .Acc {
   color: black;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 29vh;
+  color: white;
+}
+
+.blogBody {
+  text-align: center;
+}
+
+.blogImage {
+  width: 50vh;
 }
 
 .EventPageHero {

@@ -1,0 +1,21 @@
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+	flex-direction: column;
+	//justify-content: space-between;
+	height: 29vh;
+	//padding: 1em;
+	//box-sizing: border-box;
+	color: white;
+}
+
+.blogBody{
+	text-align: center;
+}
+
+
+.blogImage {
+	width: 50vh;
+}

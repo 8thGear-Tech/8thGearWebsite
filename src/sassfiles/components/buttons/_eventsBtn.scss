@@ -4,7 +4,7 @@
   // color: $prybgcolor;
   // border-radius: 35px;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 13rem;
   height: 2.5rem;
@@ -12,6 +12,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 .LetUsKnowBtn {
@@ -20,7 +28,7 @@
   // color: $prytextcolor;
   // background-color: $prybgcolor;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 9rem;
   height: 2.5rem;
@@ -28,6 +36,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
 }
 
 .EventViewMoreBtn {
@@ -35,7 +51,7 @@
   // border-radius: 35px;
   // background-color: $prybgcolor;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 8rem;
   height: 2.5rem;
@@ -43,13 +59,21 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
   //   color: $prytextcolor;
 }
 .GetYourTicketBtn {
   // border: 333px 70px 1087px 2864px;
   // border-radius: 35px;
   border: 3px solid $btncolor;
-  color: $prytextcolor !important;
+  color: $prytextcolor;
   border-radius: 20px;
   width: 11rem;
   height: 2.5rem;

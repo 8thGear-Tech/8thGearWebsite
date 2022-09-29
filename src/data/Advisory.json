@@ -1,0 +1,55 @@
+{
+    "FirstHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/Group 29.png",
+            "name":"MR SEYI BIOKU",
+            "position": "ADVISOR/BOARD SECRETARY"
+        }
+    ],
+
+    "SecondHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/Rectangle 99 (1).png",
+            "name":"MRS ABIMBOLA ADEBAKIN",
+            "position": "BOARD CHAIRMAN"
+        }
+    ],
+
+    "ThirdHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/Rectangle 99.png",
+            "name":"MR YINKA OGUNLEYE",
+            "position": "STRATEGY ADVISOR"
+        }
+    ],
+
+    "FourthHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/mrs wunmi.png",
+            "name":"MORENIKEJI BUARI",
+            "position": "FINANCE ADVISOR"
+        }
+    ],
+
+    "FifthHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/mr dami.png",
+            "name":"LABISI OYEDOTUN",
+            "position": "ADVISOR PARTNERSHIP"
+        }
+    ],
+
+    "SixthHoverCard": [
+        {
+            "id": 1,
+            "image": "./images/mr sanni.png",
+            "name":"TEMITAYO SAMSON-GRACE",
+            "position": "HR CONSULTANT"
+        }
+    ]
+}
