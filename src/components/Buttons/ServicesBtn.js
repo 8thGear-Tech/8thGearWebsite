@@ -42,7 +42,10 @@ export const OnHoverReadMoreBtn = () => {
 export const ManagedServicesRequestBtn = () => {
   return (
     <>
-      <a href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit">
+      <a
+        href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
+        target="_blank"
+      >
         <button
           // type="button"
           // data-bs-toggle="modal"

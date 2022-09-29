@@ -223,19 +223,16 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 600;
   font-family: "Rubik", sans-serif;
 }
 
 h4 {
   font-size: 1.3rem;
-  font-weight: 600;
 }
 
 h5 {
@@ -596,6 +593,16 @@ article h4 {
   letter-spacing: 0em;
   text-align: center;
   padding: 150px 100px 0px 100px;
+}
+
+.lineHeight {
+  line-height: 2.4rem;
+}
+
+.teamHeroFontSize {
+  font-size: 1.2rem;
+  color: #afafaf;
+  text-align: center;
 }
 
 .PortfolioHeroText {
@@ -1274,7 +1281,7 @@ article h4 {
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehome.jpg);
+  background: url(/src/assets/images/hero/homehero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1368,11 +1375,11 @@ article h4 {
   opacity: 0.6;
 }
 
-.EventsHeroBg h1 {
+.EventsHeroBg h2 {
   position: relative;
 }
 
-.EventsHeroBg h2 {
+.EventsHeroBg h3 {
   position: relative;
 }
 
@@ -1432,7 +1439,7 @@ article h4 {
 
 .ourModelHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;

@@ -18,9 +18,10 @@ const NavBar = (props) => {
                 alt=""
                 width={60}
                 height={70}
-                className="d-inline-block align-text-top mx-4 "
+                className="d-inline-block mx-4 "
               />
             </Link>
+            {/* align-text-top */}
             <h6 className="h6  mt-4 ">{heading}</h6>
             <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
               <a

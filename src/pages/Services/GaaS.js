@@ -83,29 +83,39 @@ const WhyChooseUs = () => {
 
 const HowWeWork = () => {
   return (
-    <div className="container-fluid py-3">
+    <div className="container py-3">
       {" "}
       <h4 className="text-center my-5">How We Work</h4>
       <div className="row justify-content-center my-lg-5 my-sm-2">
-        <div className="col-lg-5 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="d-flex align-items-center">
             <AdvisoryIcon />
             {/* <div className="card-body ms-3"> */}
-            <p className="card-text">
-              The Venture Studio model for entrepreneurship, combining comapny
-              building
-            </p>
+            <p className="card-text">Advisory</p>
             {/* </div> */}
           </div>
         </div>
-        <div className="col-lg-5 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-3 col-sm-12">
           <div className="d-flex align-items-center">
             <NetworkingIcon />
             <div className="card-body">
-              <p className="card-text">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building
-              </p>
+              <p className="card-text">Networking</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-12">
+          <div className="d-flex align-items-center">
+            <GrowthStrategyIcon />
+            <div className="card-body">
+              <p className="card-text">Growth Strategy</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-sm-12">
+          <div className="d-flex align-items-center">
+            <DealManagementIcon />
+            <div className="card-body">
+              <p className="card-text">Deal Management</p>
             </div>
           </div>
         </div>
@@ -117,16 +127,17 @@ const HowWeWork = () => {
             </div>
           </div>
         </div> */}
+        <div className="py-5 d-flex justify-content-center">
+          {" "}
+          <BookaFreeSessionBtn />
+        </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-lg-5 col-md-6 col-sm-12">
+      {/* <div className="row justify-content-center"> */}
+      {/* <div className="col-lg-5 col-md-6 col-sm-12">
           <div className="d-flex align-items-center">
             <GrowthStrategyIcon />
             <div className="card-body">
-              <p className="card-text">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building
-              </p>
+              <p className="card-text">Growth Strategy</p>
             </div>
           </div>
         </div>
@@ -134,17 +145,14 @@ const HowWeWork = () => {
           <div className="d-flex align-items-center">
             <DealManagementIcon />
             <div className="card-body">
-              <p className="card-text">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building
-              </p>
+              <p className="card-text">Deal Management</p>
             </div>
           </div>
-        </div>
-        <div className="py-5 d-flex justify-content-center">
+        </div> */}
+      {/* <div className="py-5 d-flex justify-content-center">
           <BookaFreeSessionBtn />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 };

@@ -14,7 +14,14 @@
   @include ManagedServicesHeroText;
   padding: 150px 100px 0px 100px;
 }
-
+.lineHeight {
+  line-height: 2.4rem;
+}
+.teamHeroFontSize {
+  font-size: 1.2rem;
+  color: #afafaf;
+  text-align: center;
+}
 // @media only screen and (max-width: 600px) {
 //   .ManagedServicesHeroText {
 //     @include ManagedServicesHeroText;

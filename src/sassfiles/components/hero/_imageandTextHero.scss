@@ -84,7 +84,7 @@
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehome.jpg);
+  background: url(/src/assets/images/hero/homehero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -193,10 +193,10 @@
   left: 0px;
   opacity: 0.6;
 }
-.EventsHeroBg h1 {
+.EventsHeroBg h2 {
   position: relative;
 }
-.EventsHeroBg h2 {
+.EventsHeroBg h3 {
   position: relative;
 }
 @media only screen and (max-width: 440px) {
@@ -209,7 +209,9 @@
     height: 60vh;
   }
 }
-
+// .heroFontSize {
+//   line-height: 2.2rem;
+// }
 .CoworkingHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -267,7 +269,7 @@
 
 .ourModelHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;

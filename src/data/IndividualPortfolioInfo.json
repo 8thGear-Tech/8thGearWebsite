@@ -16,26 +16,26 @@
       "id": 1,
       "number": "+300",
       "title": "Tech talent trained.",
-      "details": "In the past 16 months of Innkeeper’s existence, they have trained over 300+ young African talents for tech and tech-related roles."
+      "details": "Since February 2021, innkeepers have trained over 300+ young African talents for tech and tech-related roles."
     },
     {
       "id": 2,
       "number": "+ 80%",
       "title": "Alumni employed",
-      "details": "Innkeeper has placed over 80% of our trainees in jobs, either internships or entry roles, to enable them to progress on their tech journey and also provide a post-training community that helps them grow and creates opportunities to be mentored."
+      "details": "Innkeeper has placed over 80% of our trainees in jobs, either internships or entry roles."
     },
     {
       "id": 3,
       "number": "+40",
       "title": "Offtakers",
-      "details": "As a result of the innkeeper's impact-driven approach to support organization, they have top-notch African talents with the partnership of over 40 organizations and entrepreneurs to meet their talent needs and provide solutions to their human capital development problems."
+      "details": "Innkeeper has placed her product in top-notch partner organizations across corporate and startups globally."
     }
   ],
   "HavenPortfolioInfo": [
     {
       "id": 1,
       "link": "https://haveneduservices.com/",
-      "img": "./../../images/portfoliologo/havenone.png",
+      "img": "../../../images/portfoliologo/havenone.png",
       "about": "Haven Edu-Services is an extra-curricular childhood educational organization focused on providing training content related to Technology, Languages, and Arts for children/Pre-teenagers ages 4-16.",
       "role": "CEO",
       "fullname": "Omowunmi Obidairo",
@@ -77,21 +77,15 @@
   "MindAfrikPortfolioTractions": [
     {
       "id": 1,
-      "number": "$1.35M",
-      "title": "Customer Surveyed",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
+      "number": "+2",
+      "title": "Surveys",
+      "details": "Mind Afrik has conducted surveys to identify the core areas of interest where counseling would be required to help people improve their mental health."
     },
     {
       "id": 2,
-      "number": "$1.35M",
-      "title": "Funds Raised",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
-    },
-    {
-      "id": 3,
-      "number": "$1.35M",
-      "title": "Funds Raised",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
+      "number": "+2",
+      "title": "Consultants",
+      "details": "A team of multi-talented and professional counselors has been onboarded to attend to clients."
     }
   ],
   "EaseSoilessPortfolioInfo": [

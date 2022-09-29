@@ -40,7 +40,6 @@ import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
-import TeamsPage from "./pages/About/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
 import BlogPage from "./pages/Insights/blog";
 
@@ -107,9 +106,8 @@ function App() {
         {/* <Route path="USADF-gallery" element={<USADFGalleryPage />} /> */}
         {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
         {/* <Route path="media" element={<GalleryCards />} /> */}
-        <Route path="abt" element={<AboutUs />} />
-        <Route path="teams" element={<TeamsPage />} />
-        <Route path="blogpost" element={<BlogPost />} />
+        {/* <Route path="abt" element={<AboutUs />} />
+        <Route path="blogpost" element={<BlogPost />} /> */}
 
         {/* <Route path="constructionpage" element={<Constructionpage />} />
          */}

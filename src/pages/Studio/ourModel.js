@@ -201,10 +201,10 @@ const HowWeDoIt = () => {
               assumptions.
             </h3>
             <p>
-              To confirm that the identified problem is actually a problem for
-              the identified customer segment and to learn how they want it
-              solved, assumptions are tested and validated by regularly engaging
-              with potential customers.
+              To confirm that the problem is actually a problem for the
+              identified customer segment and to learn how they want it solved,
+              assumptions are tested and validated by regularly engaging with
+              potential customers.
             </p>
           </div>
         </div>
@@ -253,9 +253,9 @@ const HowWeDoIt = () => {
             <h3 className="">Scale the Fundamentals </h3>
             <p>
               We allow founders focus on the core of their value offerings.
-              Ensuring that as these businesses grow and scale the fundamentals
-              is not lose sight off while we make sure everyother part of the
-              business is working as it should.
+              Ensuring that as these businesses grow and scale the team does not
+              lose sight of the fundamentals while we make sure everyother part
+              of the business is working as it should
             </p>
           </div>
         </div>
