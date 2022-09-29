@@ -132,7 +132,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">GEAR UP</h4>
               <p className="card-text">
-                {" "}
                 Mentally and physically prepare for the journey ahead. Bringing
                 ideas to live is no small feat but it is a laudable one.
               </p>
@@ -140,7 +139,6 @@ const SectionThree = () => {
           </div>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          {" "}
           <div className="card mb-5 py-5 cardBg">
             <img
               src={evolveicon}
@@ -152,7 +150,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">EVOLVE</h4>
               <p className="card-text">
-                {" "}
                 Be fluid and dynamic, ready to adjust to market demands while
                 offering value.
               </p>
@@ -160,7 +157,6 @@ const SectionThree = () => {
           </div>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          {" "}
           <div className="card mb-5 py-5 cardBg">
             <img
               src={engageicon}
@@ -172,7 +168,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">ENGAGE</h4>
               <p className="card-text">
-                {" "}
                 Don't keep that idea under the bushel, actively engage customers
                 for feedback while shouting about it on the rooftop.
               </p>
