@@ -192,13 +192,12 @@ export const CoWorkingPageTestimonialCard = (props) => {
     <div className="card w-100 mx-auto">
       <div className="card-body">
         <div className="row">
-          <div className="col-lg-3">
-            <img src={image} className="img-fluid rounded-circle " alt="" />
-          </div>
-          <div className="col-lg-9 mt-3">
-            <h1 className="h6">{name}</h1>
-            <h1 className="h6">{position}</h1>
-          </div>
+          {/* <div className="d-flex"> */}
+          <img src={image} className="img-fluid rounded-circle w-25" alt="" />
+
+          <h1 className="h6">{name}</h1>
+          <h1 className="h6">{position}</h1>
+          {/* </di*v> */}
         </div>
 
         <hr className="line"></hr>
@@ -215,7 +214,7 @@ export const AboutUs = () => {
       <div className="row">
         {data.cardData.map((card) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-4" key={card.id}>
+            <div className="col-sm-12 col-md-4 col-lg-4" key={card.id}>
               <CoWorkingPageTestimonialCard
                 {...card}
               ></CoWorkingPageTestimonialCard>

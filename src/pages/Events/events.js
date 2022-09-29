@@ -26,6 +26,7 @@ const EventsPage = () => {
       <Events />
       <SuggestAnEvent />
       <EventsGallery />
+      <SuggestAnEventForm />
     </>
   );
 };

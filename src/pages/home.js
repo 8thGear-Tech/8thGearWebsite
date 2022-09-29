@@ -41,6 +41,14 @@ const SectionOne = () => {
         >
           Project Delivery
         </Link>
+        <Link
+          to="eventspage"
+          className=" mx-2"
+          // aria-current="page"
+          style={{ color: "#000" }}
+        >
+          Project Delivery
+        </Link>
         Company
       </p>
       {/* <div className="border-end"></div> */}

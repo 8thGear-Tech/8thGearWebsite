@@ -93,6 +93,200 @@
   text-align: center;
   color: $prybgcolor;
 }
+@media only screen and (max-width: 600px) {
+  .purple {
+    background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
+
+    padding: 0 24px;
+    margin: 0;
+    height: 130vh;
+    width: 50vh;
+    // color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all {
+    margin-top: 20px;
+    display: flex;
+    gap: 2px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+    height: 43rem;
+    width: 41rem;
+    gap: 0.063rem;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+    height: 900px;
+    width: 200px;
+    gap: 1px;
+  }
+  .c1-element1 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element3 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element1 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element2 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element3 {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c4-element1 {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+}
+@media (min-width: 600px) {
+  .purple {
+    background-blend-mode: overlay;
+    background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
+    padding: 0 24px;
+    margin: 0;
+    height: 130vh;
+    width: auto;
+    // color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all {
+    margin-top: 20px;
+    display: flex;
+    gap: 2px;
+  }
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+    height: 43rem;
+    width: 41rem;
+    gap: 0.063rem;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+    height: 900px;
+    width: 200px;
+    gap: 1px;
+  }
+  .c1-element1 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c2-element3 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element1 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element2 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c3-element3 {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    background: #ef00c0;
+    text-align: center;
+    color: $prybgcolor;
+  }
+  .c4-element1 {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background: rgba(239, 0, 192, 50%);
+    text-align: center;
+    color: $prybgcolor;
+  }
+}
 
 .change {
   background-color: #a5009f;

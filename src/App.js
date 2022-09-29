@@ -102,7 +102,7 @@ function App() {
         <Route path="teampage" element={<TeamPage />} />
         <Route path="coworking" element={<CoWorking />} />
         {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-        {/* <Route path="events" element={<Events />} /> */}
+        <Route path="eventspage" element={<EventsPage />} />
       </Routes>
       {/* <Route path="our-model" element={<OurModelPage />} />
       <Route path="portfolio" element={<PortfolioPage />} />
