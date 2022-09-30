@@ -2,32 +2,32 @@
   "gallerydemoday": [
     {
       "id": 1,
-      "image": "../../images/gallerydemoday/demodayeight.jpg"
+      "image": "../../images/gallerydemoday/demodayone.jpg"
     },
     {
       "id": 2,
-      "image": "../../images/gallerydemoday/demodayeight.jpg"
+      "image": "../../images/gallerydemoday/demodaytwo.jpg"
     },
     {
       "id": 3,
-      "image": "../../images/gallerydemoday/demodayeight.jpg"
+      "image": "../../images/gallerydemoday/demodaythree.jpg"
     },
 
     {
       "id": 4,
-      "image": "src/assets/demodayfour.jpg"
+      "image": "../../images/gallerydemoday/demodayfour.jpg"
     },
     {
       "id": 5,
-      "image": "src/assets/demodayfive.jpg"
+      "image": "../../images/gallerydemoday/demodayfive.jpg"
     },
     {
       "id": 6,
-      "image": "src/assets/demodaysix.jpg"
+      "image": "../../images/gallerydemoday/demodaysix.jpg"
     },
     {
       "id": 7,
-      "image": "/assets/demodayseven.jpg"
+      "image": "../../images/gallerydemoday/demodayseven.jpg"
     },
     {
       "id": 8,

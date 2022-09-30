@@ -2,52 +2,52 @@
   "galleryITF": [
     {
       "id": 1,
-      "image": "../../images/galleryITF/ITF1.jpg"
+      "image": "../../images/itfgallery/itfone.jpg"
     },
     {
       "id": 2,
-      "image": "../../images/galleryITF/ITF2.jpg"
+      "image": "../../images/itfgallery/itftwo.jpg"
     },
     {
       "id": 3,
-      "image": "../../images/galleryITF/ITF3.jpg"
+      "image": "../../images/itfgallery/itfthree.jpg"
     },
 
     {
       "id": 4,
-      "image": "../../images/galleryITF/ITF4.jpg"
+      "image": "../../images/itfgallery/itffour.jpg"
     },
     {
       "id": 5,
-      "image": "../../images/galleryITF/ITF5.jpg"
+      "image": "../../images/itfgallery/itffive.jpg"
     },
     {
       "id": 6,
-      "image": "../../images/galleryITF/ITF6.jpg"
+      "image": "../../images/itfgallery/itfsix.jpg"
     },
     {
       "id": 7,
-      "image": "../../images/galleryITF/ITF7.jpg"
+      "image": "../../images/itfgallery/itfseven.jpg"
     },
     {
       "id": 8,
-      "image": "../../images/galleryITF/ITF8.jpg"
+      "image": "../../images/itfgallery/itfeight.jpg"
     },
     {
       "id": 9,
-      "image": "../../images/galleryITF/ITF9.jpg"
+      "image": "../../images/itfgallery/itfnine.jpg"
     },
     {
       "id": 10,
-      "image": "../../images/galleryITF/ITF10.jpg"
+      "image": "../../images/itfgallery/itften.jpg"
     },
     {
       "id": 11,
-      "image": "../../images/galleryITF/ITF11.jpg"
+      "image": "../../images/itfgallery/itfeleven.jpg"
     },
     {
       "id": 12,
-      "image": "../../images/galleryITF/ITF12.jpg"
+      "image": "../../images/itfgallery/itftwelve.jpg"
     }
   ]
 }

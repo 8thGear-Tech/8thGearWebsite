@@ -84,7 +84,7 @@
   "eventsGallerySection": [
     {
       "id": 1,
-      "image": "/assets/demodaysix.jpg",
+      "image": "../../images/gallerydemoday/demodaysix.jpg",
       "link": "/demo-day-gallery",
       "text": "Demo Day 2022"
     }
