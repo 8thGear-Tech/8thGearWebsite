@@ -90,37 +90,37 @@ export const OurModelTractions = () => {
 
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
-            <OurImpactIcon />
+            {/* <OurImpactIcon /> */}
             <div className="card-body ">
-              {/* <h5 className="card-text">1000</h5> */}
-              <p className="card-text">FUND RAISED</p>
+              <h1 className="card-text">75%</h1>
+              <p className="card-text text-nowrap">HAVE FEMALE CO-FOUNDERS</p>
             </div>
           </div>
         </div>
 
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
-            <OurImpactIcon />
+            {/* <OurImpactIcon /> */}
             <div className="card-body ">
-              <h5 className="card-text"> 240</h5>
+              <h1 className="card-text"> 240</h1>
               <p className="card-text">MENTORSHIP HOURS</p>
             </div>
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-12 my-3 ">
           <div className="align-items-center">
-            <OurImpactIcon />
+            {/* <OurImpactIcon /> */}
             <div className="card-body ">
-              <h5 className="card-text">12</h5>
+              <h1 className="card-text">12</h1>
               <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
           </div>
         </div>
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
-            <OurImpactIcon />
+            {/* <OurImpactIcon /> */}
             <div className="card-body ">
-              <h5 className="card-text">20</h5>
+              <h1 className="card-text">20</h1>
               <p className="card-text">JOBS CREATED</p>
             </div>
           </div>

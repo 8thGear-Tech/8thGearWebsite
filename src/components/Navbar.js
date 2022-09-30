@@ -214,31 +214,43 @@ const NavBar = (props) => {
 
           <div className="d-flex justify-content-center mt-5">
             <div className="">
-              <a href="https://www.facebook.com/8thgearpartners">
+              <a
+                href="https://www.facebook.com/8thgearpartners"
+                target="_blank"
+              >
                 <i className="bi bi-facebook mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://www.instagram.com/8thgearpartners/">
+              <a
+                href="https://www.instagram.com/8thgearpartners/"
+                target="_blank"
+              >
                 <i className="bi bi-instagram mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/company/8thgearpartners/">
+              <a
+                href="https://www.linkedin.com/company/8thgearpartners/"
+                target="_blank"
+              >
                 <i className="bi bi-linkedin mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+              <a
+                href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+                target="_blank"
+              >
                 <i className="bi bi-twitter mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="mailto:info@8thgearpartners.com">
+              <a href="mailto:info@8thgearpartners.com" target="_blank">
                 <i className="bi bi-at text-dark"></i>
               </a>
             </div>

@@ -17,7 +17,10 @@ export const BookaSessionBtn = () => {
     <>
       <a href="https://calendly.com/inc-consults/15min?month=2021-09">
         {" "}
-        <button className="BookaSessionBtn"> Book a session</button>
+        <button className="BookaSessionBtn" target="_blank">
+          {" "}
+          Book a session
+        </button>
       </a>
     </>
   );
@@ -28,7 +31,10 @@ export const BookaFreeSessionBtn = () => {
     <>
       <a href="https://calendly.com/inc-consults/15min?month=2021-09">
         {" "}
-        <button className="BookaFreeSessionBtn"> Book a session</button>
+        <button className="BookaFreeSessionBtn" target="_blank">
+          {" "}
+          Book a session
+        </button>
       </a>
     </>
   );

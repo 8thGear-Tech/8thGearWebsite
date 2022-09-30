@@ -25,6 +25,7 @@ const AboutDemoDay = () => {
         <a
           href="https://www.youtube.com/watch?v=-5lGJLLBavI"
           className="textLinkColor"
+          target="_blank"
         >
           {" "}
           <p>8thGear Demo Day Highlights - June 2022</p>
@@ -88,6 +89,7 @@ const AboutDemoDay = () => {
         <a
           href="https://www.youtube.com/watch?v=kEVKmygbmxo&list=PLSVm1pLRDXp36d077XMaDG_Ol9ayyrpUB"
           className="textLinkColor"
+          target="_blank"
         >
           here
         </a>{" "}

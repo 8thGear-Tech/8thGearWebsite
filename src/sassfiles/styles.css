@@ -1300,7 +1300,12 @@ article h4 {
 }
 
 .homeHeroText {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.projectDeliveryHeroText {
+  font-size: 3.5rem;
   font-weight: 300;
 }
 
@@ -1369,14 +1374,13 @@ article h4 {
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/demoday1.JPG);
+  background: url(/src/assets/images/hero/eventshero.JPG);
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.6;
 }
 
 .EventsHeroBg h2 {

@@ -210,7 +210,7 @@ export const TeamCard = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -328,7 +328,7 @@ export const TeamCardThree = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -446,7 +446,7 @@ export const TeamCardFour = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -564,7 +564,7 @@ export const TeamCardFive = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -682,7 +682,7 @@ export const TeamCardSix = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -800,7 +800,7 @@ export const TeamCardSeven = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link}>
+                    <a href={link} target="_blank">
                       <div className="">
                         {" "}
                         <LinkedInIcon />

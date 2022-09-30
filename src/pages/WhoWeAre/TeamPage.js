@@ -15,7 +15,8 @@ const TeamPage = () => {
   return (
     <>
       <Navbar11 />
-      <OurTeamHero />
+      <TeamHero />
+      {/* <OurTeamHero /> */}
       <Gerians />
       {/* <EIR /> */}
       <AdvisoryTeamPic />
@@ -24,6 +25,53 @@ const TeamPage = () => {
   );
 };
 
+const TeamHero = () => {
+  return (
+    <>
+      <div className="container-fluid py-3 px-lg-5 px-md-5">
+        <div className="row mt-lg-5 mb-lg-3 mx-lg-3 px-5 justify-content-center ">
+          <div className="col-lg-8">
+            <h3 className="text-center pb-2">8thGearians</h3>
+            <p className="text-center joinTeamFontSize">
+              At 8thGear, we aspire to be Africa’s leading development and
+              enterprise support provider. To help us succeed, we’ve created an
+              unusual employee culture. You learn a lot at 8thGear working on
+              hard problems with stunning colleagues, and that increases your
+              market value.
+            </p>
+            {/* <p className="text-center joinTeamFontSize">
+              What makes 8thGear special is how much we:
+            </p>
+            <p className=" joinTeamFontSize">
+              Share information openly, broadly and deliberately
+            </p>
+            <p className=" joinTeamFontSize">
+              Communicate candidly and directly
+            </p>
+            <p className=" joinTeamFontSize">
+              Avoid rules that constrict creativity
+            </p>
+            <p className=" joinTeamFontSize">
+              Encourage decision-making by employees
+            </p>
+            <p className=" joinTeamFontSize">
+              Keep only our highly effective people.
+            </p> */}
+            {/* <ul className="list-group">
+              <li style={{ textDecoration: "dotted" }}>
+                Share information openly, broadly and deliberately
+              </li>
+              <li className="list-item">Communicate candidly and directly</li>
+              <li>Avoid rules that constrict creativity</li>
+              <li>Encourage decision-making by employees</li>
+              <li>Keep only our highly effective people.</li>
+            </ul> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 const JointheTeam = () => {
   return (
     <>

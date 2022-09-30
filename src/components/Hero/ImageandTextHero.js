@@ -58,7 +58,7 @@ export const HomePageHero = () => {
       /> */}
       <div className="gradientBg overlayBg"></div>
       <div className="row justify-content-start">
-        <div className="col-lg-10 col-md-8 col-sm-12 px-lg-5">
+        <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5">
           <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
             Great people building enduring ventures
           </h1>
@@ -118,7 +118,7 @@ export const ProjectDeliveryHero = () => {
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor projectDeliveryHeroText">
             Great people building enduring ventures
           </h1>
           <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
@@ -179,7 +179,7 @@ export const EventsPageHero = () => {
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
-      <div className="gradientBg overlayBg"></div>
+      {/* <div className="gradientBg overlayBg"></div> */}
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
           {/* <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
@@ -188,7 +188,7 @@ export const EventsPageHero = () => {
           <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
             Great people building enduring ventures
           </h2> */}
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor heroFontSize">
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor heroFontSize">
             You are setting yourself up for growth when you are a member of a
             vibrant community where people are continuously challenging and
             supporting one another.
@@ -197,7 +197,7 @@ export const EventsPageHero = () => {
             You are setting yourself up for growth when you are a member of a
             vibrant community where people are continuously challenging and
             supporting one another.
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>
