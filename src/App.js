@@ -1,7 +1,7 @@
 import * as React from "react";
 // import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/homepage";
 import Constructionpage from "./pages/constructionpage";
 import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
 import { PreviousBtn } from "./components/Buttons/PortfolioBtn";

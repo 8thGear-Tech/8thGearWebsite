@@ -7,12 +7,12 @@
     },
     {
       "id": 2,
-      "logo": "../../images/havenone.png",
+      "logo": "../../assets/images/portfoliologo/havenone.png",
       "link": "/haven"
     },
     {
       "id": 3,
-      "logo": "../../images/havenone.png",
+      "logo": "../../images/mindafrik.png",
       "link": "/mind-afrik"
     },
     {
