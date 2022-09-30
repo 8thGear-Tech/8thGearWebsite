@@ -1346,6 +1346,10 @@ article h4 {
   position: relative;
 }
 
+.callToAction {
+  position: relative;
+}
+
 @media only screen and (max-width: 440px) {
   .GaaSHeroBg {
     height: 50vh;
@@ -2142,5 +2146,9 @@ header {
 
 .blogImage {
   width: 50vh;
+}
+
+.textLinkColor {
+  color: #821e6b;
 }
 /*# sourceMappingURL=styles.css.map */

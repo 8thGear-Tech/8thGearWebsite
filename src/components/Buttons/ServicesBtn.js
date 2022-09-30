@@ -15,7 +15,10 @@ export const BookNowBtn = () => {
 export const BookaSessionBtn = () => {
   return (
     <>
-      <button className="BookaSessionBtn"> Book a session</button>
+      <a href="https://calendly.com/inc-consults/15min?month=2021-09">
+        {" "}
+        <button className="BookaSessionBtn"> Book a session</button>
+      </a>
     </>
   );
 };

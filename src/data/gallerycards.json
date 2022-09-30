@@ -26,7 +26,7 @@
     },
     {
       "id": 5,
-      "image": "./images/gallerycards/itf.JPG",
+      "image": "../../images/gallerycards/itf.JPG",
       "text": "ITF Training 2022",
       "link": "/ITF-training-gallery"
     }

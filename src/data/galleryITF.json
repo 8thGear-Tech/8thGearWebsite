@@ -2,24 +2,24 @@
   "galleryITF": [
     {
       "id": 1,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itfone.JPG"
+      "image": "../../images/itfgallery/itfone.JPG"
     },
     {
       "id": 2,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/employability1.jpg"
+      "image": "../../images/itfgallery/itftwo.JPG"
     },
     {
       "id": 3,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itfthree.JPG"
+      "image": "../../images/itfgallery/itfthree.JPG"
     },
 
     {
       "id": 4,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itffour.JPG"
+      "image": "../../images/itfgallery/itffour.JPG"
     },
     {
       "id": 5,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itffive.JPG"
+      "image": "../../images/itfgallery/itffive.JPG"
     },
     {
       "id": 6,
