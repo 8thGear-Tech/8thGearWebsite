@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "logo": "../../assets/images/portfoliologo/havenone.png",
+      "logo": "/assets/havenone.png",
       "link": "/haven"
     },
     {
