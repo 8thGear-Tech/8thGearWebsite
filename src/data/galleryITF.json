@@ -2,7 +2,7 @@
   "galleryITF": [
     {
       "id": 1,
-      "image": "./images/itfgallery/itfone.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itfone.jpg"
     },
     {
       "id": 2,
@@ -10,16 +10,16 @@
     },
     {
       "id": 3,
-      "image": "../../images/itfgallery/itffive.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itfthree.JPG"
     },
 
     {
       "id": 4,
-      "image": "/assets/itffour.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itffour.jpg"
     },
     {
       "id": 5,
-      "image": "../../images/itfgallery/itffive.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itffive.JPG"
     },
     {
       "id": 6,
