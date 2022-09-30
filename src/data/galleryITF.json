@@ -2,15 +2,15 @@
   "galleryITF": [
     {
       "id": 1,
-      "image": "../../images/itfgallery/itfone.jpg"
+      "image": "./images/itfgallery/itffour.jpg"
     },
     {
       "id": 2,
-      "image": "../../images/itfgallery/itftwo.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/employability1.jpg"
     },
     {
       "id": 3,
-      "image": "../../images/itfgallery/itfthree.jpg"
+      "image": "../../images/itfgallery/itffive.jpg"
     },
 
     {
