@@ -20,13 +20,13 @@
     },
     {
       "id": 4,
-      "image": "../../images/gallerycards/innkeeperhackathon.jpg",
+      "image": "../../images/gallerycards/innkeeperhackathon.JPG",
       "text": "Innkeeper Hackathon 2022",
       "link": "/innkeeper-hackathon-gallery"
     },
     {
       "id": 5,
-      "image": "./images/gallerycards/ITF.jpg",
+      "image": "./images/gallerycards/itf.JPG",
       "text": "ITF Training 2022",
       "link": "/ITF-training-gallery"
     }
@@ -84,7 +84,7 @@
   "eventsGallerySection": [
     {
       "id": 1,
-      "image": "../../images/gallerydemoday/demodaysix.jpg",
+      "image": "../../images/gallerydemoday/demodaysix.JPG",
       "link": "/demo-day-gallery",
       "text": "Demo Day 2022"
     }

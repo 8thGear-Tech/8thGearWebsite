@@ -2,7 +2,7 @@
   "galleryITF": [
     {
       "id": 1,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itfone.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itfone.JPG"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
 
     {
       "id": 4,
-      "image": "./images/galleryimagecardsEmployabilityGIZ/itffour.jpg"
+      "image": "./images/galleryimagecardsEmployabilityGIZ/itffour.JPG"
     },
     {
       "id": 5,
@@ -23,31 +23,31 @@
     },
     {
       "id": 6,
-      "image": "../../images/itfgallery/itfsix.jpg"
+      "image": "../../images/itfgallery/itfsix.JPG"
     },
     {
       "id": 7,
-      "image": "../../images/itfgallery/itfseven.jpg"
+      "image": "../../images/itfgallery/itfseven.JPG"
     },
     {
       "id": 8,
-      "image": "../../images/itfgallery/itfeight.jpg"
+      "image": "../../images/itfgallery/itfeight.JPG"
     },
     {
       "id": 9,
-      "image": "../../images/itfgallery/itfnine.jpg"
+      "image": "../../images/itfgallery/itfnine.JPG"
     },
     {
       "id": 10,
-      "image": "../../images/itfgallery/itften.jpg"
+      "image": "../../images/itfgallery/itften.JPG"
     },
     {
       "id": 11,
-      "image": "../../images/itfgallery/itfeleven.jpg"
+      "image": "../../images/itfgallery/itfeleven.JPG"
     },
     {
       "id": 12,
-      "image": "../../images/itfgallery/itftwelve.jpg"
+      "image": "../../images/itfgallery/itftwelve.JPG"
     }
   ]
 }
