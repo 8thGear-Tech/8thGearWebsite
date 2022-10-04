@@ -2,13 +2,7 @@ import * as React from "react";
 // import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/homepage";
-import Constructionpage from "./pages/constructionpage";
-import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
-import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
-import { NextBtn } from "./components/Buttons/PortfolioBtn";
-
-import Request from "./components/Forms/ServicesForms";
-import { BlogPost } from "./components/BlogPost";
+import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -102,42 +96,8 @@ function App() {
           element={<FoundersMeetupGalleryPage />}
         />
         <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        {/* <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} /> */}
-        {/* <Route path="USADF-gallery" element={<USADFGalleryPage />} /> */}
-        {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
-        {/* <Route path="media" element={<GalleryCards />} /> */}
-        {/* <Route path="abt" element={<AboutUs />} />
-        <Route path="blogpost" element={<BlogPost />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} />
-         */}
-
-        {/* <Route path="events" element={<Events />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-        {/* <Route path="button1" element={<BookNowBtn />} />
-        <Route path="button3" element={<BookaFreeSessionBtn />} />
-        <Route path="button4" element={<OnHoverReadMoreBtn />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
-        <Route
-          path="button6"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
-        {/* <Route path="button6" element={<PortfolioPage />} /> */}
-        {/* <Route
-          path="button7"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button8" element={<ManagedServicesPage />} />
-        <Route path="button9" element={<ProjectDeliveryPage />} /> */}
-        {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
+        <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
       </Routes>
-      {/* <OnHoverCard /> */}
-      {/* <UnderconstructionNavbar /> */}
 
       <footer>
         <Footer />

@@ -207,8 +207,8 @@ const SectionThree = () => {
           </div>
         </div>
       </div>
-      <JoinTheStudioForm />
-      {/* <JointheStudioBtn /> */}
+      {/* <JoinTheStudioForm /> */}
+      <JointheStudioBtn />
     </div>
   );
 };

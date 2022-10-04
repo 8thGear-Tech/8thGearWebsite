@@ -584,6 +584,36 @@ article h4 {
   font-size: 1.1rem;
 }
 
+.PrivacyAndPolicyHero {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #f7f7f7;
+}
+
+.PrivacyAndPolicyP {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.PrivacyAndPolicyP h4 {
+  line-height: 50px;
+}
+
+.privatePolicyBody {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody li {
+    text-align: left;
+  }
+}
 .ManagedServicesHeroText {
   color: rgba(0, 0, 0, 0.9);
   font-family: Rubik;
@@ -1846,6 +1876,10 @@ video {
   background: #ffffff;
   border: 1px solid #821e6b;
   border-radius: 30px;
+}
+
+.dame {
+  border-color: blue;
 }
 
 .ManagedServicesRequestBtn {

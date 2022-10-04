@@ -113,6 +113,13 @@ export const Footer = () => {
               </div>
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
+                  <Link
+                    to="/privacy-policy"
+                    className="mx-2 text-fluid text-nowrap "
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    Privacy Policy
+                  </Link>
                   <a
                     href="mailto:info@8thgearpartners.com"
                     className="mx-1 text-fluid  emailLink"
@@ -138,7 +145,7 @@ export const Footer = () => {
                       080 9481 8882
                     </a>
                   </li>
-                  <li className="mx-4 text-fluid">
+                  <li className="mx-2 text-fluid">
                     {/* <Link
                       className=" footerText text-nowrap"
                       to="./8thgear-hub"
@@ -358,6 +365,13 @@ export const Footer = () => {
 
               <div className=" row">
                 <ul className="ul_top_hypers text-end ">
+                  <Link
+                    to="/privacy-policy"
+                    className="mx-2 text-fluid text-nowrap "
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    Privacy Policy
+                  </Link>
                   <a
                     href="mailto:info@8thgearpartners.com"
                     className="mx-1 text-fluid2  emailLink"
@@ -476,7 +490,6 @@ export const Footer = () => {
                       MANAGED SERVICES
                     </Link>
                   </p>
-
                   <a
                     href="mailto:info@8thgearpartners.com"
                     className="my-3  text-nowrap  emailLink text-fluid3"
@@ -580,7 +593,7 @@ export const FooterIcon = () => {
       {/* icons */}
 
       <ul className=" ">
-        <li className="mx-3 d-flex justify-content-center footerIcon">
+        <li className="mx-1 d-flex justify-content-center footerIcon">
           <div>
             <a href="https://www.facebook.com/8thgearpartners">
               <i className="bi bi-facebook mx-2 text-dark"></i>
