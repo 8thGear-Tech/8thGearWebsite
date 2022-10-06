@@ -1,5 +1,6 @@
 {
   "name": "8thgearwebsite",
+  "homepage": "https://8thgearpartners.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

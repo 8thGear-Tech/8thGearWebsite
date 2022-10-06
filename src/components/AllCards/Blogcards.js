@@ -1,31 +1,48 @@
 import cardData from "../../data/blog.json";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { BlogReadMoreLinkBtn } from "../Buttons/BlogBtn";
 import { BlogReadMoreBtn } from "../Buttons/BlogBtn";
+import info from "../../data/blog.json";
+import { BlogReadMoreLinkBtn } from "../../components/Buttons/BlogBtn";
+// import Line2 from "../../assets/images/Line2.jpg";
 
-export function BigBlogCard() {
+export const BigBlogCard = () => {
   return (
     <>
-      {cardData.mainCard.map((items) => {
+      {info.mainCard.map((items) => {
         const { image, title, text, date } = items;
         return (
-          <Card className="" style={{ width: "auto" }}>
-            <Card.Img variant="top" src={image} />
-            <Card.Body>
-              <Card.Title className="h5">{title}</Card.Title>
+          // <Card className="" style={{ width: "auto" }}>
+          //   <Card.Img variant="top" src={image} />
+          //   <Card.Body>
+          //     <Card.Title className="h5">{title}</Card.Title>
 
-              <Card.Text>{date}</Card.Text>
-              <Card.Text>{text}</Card.Text>
-              <BlogReadMoreLinkBtn />
-            </Card.Body>
-          </Card>
+          //     <Card.Text>{date}</Card.Text>
+          //     <Card.Text>{text}</Card.Text>
+          //     <BlogReadMoreLinkBtn />
+          //   </Card.Body>
+          // </Card>
+          <div className="card1 card mx-3 ">
+            <img src={image} className="card-img-top" alt={"img"} />
+            <div className="card-body">
+              <h3 className="card-title">{title}</h3>
+              <h6>{date}</h6>
+              <p>{text}</p>
+              <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
+            </div>
+          </div>
         );
       })}
     </>
   );
+};
+{
+  /* </div>
+              <div className="col-2 d-sm-none d-md-block d-none d-sm-block">
+                <img src={Line2} alt="" />
+              </div>
+            </div> */
 }
-
 export const MainBlogCard = () => {
   return (
     <>
@@ -76,10 +93,10 @@ export const SideBlogCard = () => {
   return (
     <div className="">
       <div className="">
-        {cardData.sideCrads.map((items) => {
+        {info.sideCrads.map((props) => {
           return (
-            <div className="" key={items.id}>
-              <SingleSideBlogCard {...items} />
+            <div className="" key={props.id}>
+              <SingleSideBlogCard {...props} />
             </div>
           );
         })}
@@ -88,8 +105,8 @@ export const SideBlogCard = () => {
   );
 };
 
-export function SingleSideBlogCard(items) {
-  const { image, text, date } = items;
+export const SingleSideBlogCard = (props) => {
+  const { image, text, date } = props;
   return (
     // <Card style={{ width: "auto" }}>
     //   <Card.Img variant="right" src={image} />
@@ -105,13 +122,13 @@ export function SingleSideBlogCard(items) {
           <div class="col-5">
             <img src={image} class="  img-fluid" alt="..." />
           </div>
-          <div class="col-7">
-            <h6 class="">{date}</h6>
-            <p class="text-fluid5">{text}</p>
-            <BlogReadMoreLinkBtn />
+          <div className="col-7">
+            <h6 className="card-title  text-fluid1">{date}</h6>
+            <p className="card-text text-fluid2">{text}</p>
+            <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
           </div>
         </div>
       </div>
     </>
   );
-}
+};

@@ -46,24 +46,85 @@ import creation from "../assets/icons/ourmodel/creation.png";
 import spinout from "../assets/icons/ourmodel/spinout.png";
 import scaleup from "../assets/icons/ourmodel/scaleup.png";
 
+//home
+import venturestudio from "../assets/icons/home/venturestudio.png";
+import projectdelivery from "../assets/icons/home/projectdelivery.png";
+import gearup from "../assets/icons/home/gearup.png";
+import evolve from "../assets/icons/home/evolve.png";
+import engage from "../assets/icons/home/engage.png";
+
+//projectdelivery
+import businessinhouse from "../assets/icons/projectdelivery/businessinhouse.png";
+import jobssaved from "../assets/icons/projectdelivery/jobssaved.png";
+import jobscreated from "../assets/icons/projectdelivery/jobscreated.png";
+import jobsplaced from "../assets/icons/projectdelivery/jobsplaced.png";
+import startupsupported from "../assets/icons/projectdelivery/startupsupported.png";
+
 export const WhatWeDoIcon = () => {
   return (
     <div>
-      <i class="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "20px" }}></i>
     </div>
   );
 };
+
+//project delivery
 export const OurImpactIcon = () => {
   return (
     <div>
-      <i class="bi bi-bag-check" style={{ fontSize: "60px" }}></i>
+      <i className="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
     </div>
   );
 };
+export const BusinessInHouseIcon = () => {
+  return (
+    <div>
+      <img
+        src={businessinhouse}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+export const JobsSavedIcon = () => {
+  return (
+    <div>
+      <img src={jobssaved} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+    </div>
+  );
+};
+export const JobsCreatedIcon = () => {
+  return (
+    <div>
+      <img
+        src={jobscreated}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+export const JobsPlacedIcon = () => {
+  return (
+    <div>
+      <img src={jobsplaced} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+    </div>
+  );
+};
+export const StartupSupportedIcon = () => {
+  return (
+    <div>
+      <img
+        src={startupsupported}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+
 export const ArrowRightIcon = () => {
   return (
     <div>
-      <i class="bi bi-arrow-right"></i>
+      <i className="bi bi-arrow-right"></i>
     </div>
   );
 };
@@ -71,35 +132,35 @@ export const ArrowRightIcon = () => {
 export const FacebookIcon = () => {
   return (
     <div>
-      <i class="bi bi-facebook"></i>
+      <i className="bi bi-facebook"></i>
     </div>
   );
 };
 export const InstagramIcon = () => {
   return (
     <div>
-      <i class="bi bi-instagram"></i>
+      <i className="bi bi-instagram"></i>
     </div>
   );
 };
 export const LinkedInIcon = () => {
   return (
     <div>
-      <i class="bi bi-linkedin"></i>
+      <i className="bi bi-linkedin" style={{ fontSize: "20px" }}></i>
     </div>
   );
 };
 export const TwitterIcon = () => {
   return (
     <div>
-      <i class="bi bi-twitter"></i>
+      <i className="bi bi-twitter"></i>
     </div>
   );
 };
 export const MailIcon = () => {
   return (
     <div>
-      <i class="bi bi-at"></i>
+      <i className="bi bi-at"></i>
     </div>
   );
 };
@@ -328,4 +389,41 @@ export const ScaleUpIcon = () => {
   return (
     <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
   );
+};
+// Team
+
+// export const LinkedInIcon = () => {
+//   return (
+//     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//     <div>
+//       <i class="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
+//     </div>
+//   );
+// };
+
+//home
+export const VentureStudioIcon = () => {
+  return (
+    <img
+      src={venturestudio}
+      style={{ maxWidth: "18%", maxHeight: "18%" }}
+    ></img>
+  );
+};
+export const ProjectDeliveryIcon = () => {
+  return (
+    <img
+      src={projectdelivery}
+      style={{ maxWidth: "18%", maxHeight: "18%" }}
+    ></img>
+  );
+};
+export const GearUpIcon = () => {
+  return <img src={gearup} style={{ maxWidth: "70%", maxHeight: "70%" }}></img>;
+};
+export const EvolveIcon = () => {
+  return <img src={evolve} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+};
+export const EngageIcon = () => {
+  return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
 };

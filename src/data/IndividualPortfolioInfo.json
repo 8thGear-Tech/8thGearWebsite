@@ -4,7 +4,7 @@
       "id": 1,
       "link": "https://innkeeper.work/",
       "img": "../../images/portfoliologo/innkeeperlogo.png",
-      "about": "Innkeeper is a job-tech venture that provides talent development and matching services to corporations and startups. The platform is driven by the need to support organizations with top African talents for tech and tech-related roles. Through their constant interactions with employers, they identify the skill-set required to remain relevant in the workplace, especially in the tech space. With a blended learning approach, Innkeeper facilitates access to learning opportunities for in-demand skills with an emphasis on mentorship. As a result of their continuous interactions with employers, they are able to quickly spot the gaps, which ensures having an updated curriculum necessary to fill the skill gaps. As a result, they prioritize upskilling young people in these in-demand tech skills in order to improve their employability and close talent skill gaps",
+      "about": "Innkeeper is a job-tech venture that provides talent development and matching services to corporations and startups in other to support them with top African talents for tech and tech-related roles. Innkeeper focuses on upskilling youths with in-demand tech skills for improved employability and to close talent skill gaps",
       "role": "CEO",
       "fullname": "Olarewaju Olasunkanmi",
       "year": "Year - 2021",
@@ -16,26 +16,26 @@
       "id": 1,
       "number": "+300",
       "title": "Tech talent trained.",
-      "details": "In the past 16 months of Innkeeper’s existence, they have trained over 300+ young African talents for tech and tech-related roles."
+      "details": "Since February 2021, innkeepers have trained over 300+ young African talents for tech and tech-related roles."
     },
     {
       "id": 2,
       "number": "+ 80%",
       "title": "Alumni employed",
-      "details": "Innkeeper has placed over 80% of our trainees in jobs, either internships or entry roles, to enable them to progress on their tech journey and also provide a post-training community that helps them grow and creates opportunities to be mentored."
+      "details": "Innkeeper has placed over 80% of our trainees in jobs, either internships or entry roles."
     },
     {
       "id": 3,
       "number": "+40",
-      "title": "Partnerships",
-      "details": "As a result of the innkeeper's impact-driven approach to support organization, they have top-notch African talents with the partnership of over 40 organizations and entrepreneurs to meet their talent needs and provide solutions to their human capital development problems."
+      "title": "Offtakers",
+      "details": "Innkeeper has placed her product in top-notch partner organizations across corporate and startups globally."
     }
   ],
   "HavenPortfolioInfo": [
     {
       "id": 1,
       "link": "https://haveneduservices.com/",
-      "img": "../../images/portfoliologo/havenone.png",
+      "img": "/assets/haventwo.png",
       "about": "Haven Edu-Services is an extra-curricular childhood educational organization focused on providing training content related to Technology, Languages, and Arts for children/Pre-teenagers ages 4-16.",
       "role": "CEO",
       "fullname": "Omowunmi Obidairo",
@@ -47,20 +47,20 @@
     {
       "id": 1,
       "number": " +4",
-      "title": "School partnerships",
-      "details": "As a result of the Haven Edu-Services impact-driven approach to equipping children, they have top-notch African skills with the partnership of over 4 schools to meet their talent needs and provide solutions to CHILDHOOD EDUCATION SERVICES"
+      "title": " Active school partnerships",
+      "details": "Haven Edu Services partners with schools to facilitate tech and art curriculum."
     },
     {
       "id": 2,
-      "number": "+5",
+      "number": "+7",
       "title": "Summer Programs",
-      "details": "With the help of schools ,they have successfully had over 5  summer  programs of their training."
+      "details": "Haven Edu services has had over 7 successful summer programs (Haven Creative summer, Haven Teen Tech and Partner School Summer)."
     },
     {
       "id": 3,
       "number": "+1000",
       "title": "Outsourced sessions",
-      "details": "Partnership with different schools, they have been able to achieve strategic areas of learning like multi-language art in French, taekwondo, etc."
+      "details": "Leveraging on school partnership programs. Haven has trained over a 1000 students in robotics, coding, language and Taekwondo."
     }
   ],
   "MindAfrikPortfolioInfo": [
@@ -77,21 +77,15 @@
   "MindAfrikPortfolioTractions": [
     {
       "id": 1,
-      "number": "$1.35M",
-      "title": "Funds Raised",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
+      "number": "+2",
+      "title": "Surveys",
+      "details": "Mind Afrik has conducted surveys to identify the core areas of interest where counseling would be required to help people improve their mental health."
     },
     {
       "id": 2,
-      "number": "$1.35M",
-      "title": "Funds Raised",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
-    },
-    {
-      "id": 3,
-      "number": "$1.35M",
-      "title": "Funds Raised",
-      "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
+      "number": "+2",
+      "title": "Consultants",
+      "details": "A team of multi-talented and professional counselors has been onboarded to attend to clients."
     }
   ],
   "EaseSoilessPortfolioInfo": [
@@ -109,7 +103,7 @@
     {
       "id": 1,
       "number": "$1.35M",
-      "title": "Funds Raised",
+      "title": "Products Developed",
       "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
     },
     {

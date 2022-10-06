@@ -26,6 +26,7 @@
 // };
 // import projectdelivery from "../../assets/images/hero/projectdeliveryhero.png";
 import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
+import { BookaSessionBtn } from "../Buttons/ServicesBtn";
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
@@ -55,16 +56,15 @@ export const HomePageHero = () => {
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
-      <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+      <div className="gradientBg overlayBg"></div>
+      <div className="row justify-content-start">
+        <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -73,15 +73,16 @@ export const HomePageHero = () => {
 export const OurModelHero = () => {
   return (
     <div className="px-4 container-fluid ourModelHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
+        <div className="col-lg-8 col-md-8 col-sm-12 ">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+            As a rule, we build only default-alive ventures by doing things that
+            don't scale so that we can have enduring ventures that scale.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+            As a rule, we build only default-alive ventures by doing things that
+            don't scale so that we can have enduring ventures that scale.
           </h3>
         </div>
       </div>
@@ -108,22 +109,29 @@ export const OurModelHero = () => {
 //   );
 export const ProjectDeliveryHero = () => {
   return (
-    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-4 align-items-center">
+    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-3 align-items-center">
       {/* <img
         src={projectdelivery}
         class="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
-      <div className="row">
+      <div className="gradientBg overlayBg"></div>
+      <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor projectDeliveryHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2>
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
             The Venture Studio model for entrepreneurship, combining comapny
             building with venture funding Venture Studio.
-          </h3>
+          </h3> */}
         </div>
       </div>
     </div>
@@ -131,7 +139,73 @@ export const ProjectDeliveryHero = () => {
 };
 export const GaaSHero = () => {
   return (
-    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-4 align-items-center">
+    <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-3 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      <div className="gradientBg overlayBg"></div>
+      <div className="row justify-content-center text-center">
+        <div className="col-lg-9 col-md-8 col-sm-12">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2>
+          <div className="callToAction pt-4">
+            <BookaSessionBtn />
+          </div>
+
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            The Venture Studio model for entrepreneurship, combining comapny
+            building with venture funding Venture Studio.
+          </h3> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+export const EventsPageHero = () => {
+  return (
+    <div className="px-4 container-fluid EventsHeroBg d-flex pt-3 pb-3 align-items-center">
+      {/* <img
+        src={projectdelivery}
+        class="img-fluid carouselImage d-block w-100 h-50"
+        alt="..."
+      /> */}
+      {/* <div className="gradientBg overlayBg"></div> */}
+      <div className="row ">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          {/* <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
+          </h2> */}
+          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor heroFontSize">
+            You are setting yourself up for growth when you are a member of a
+            vibrant community where people are continuously challenging and
+            supporting one another.
+          </h2>
+          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor heroFontSize">
+            You are setting yourself up for growth when you are a member of a
+            vibrant community where people are continuously challenging and
+            supporting one another.
+          </h3> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+export const CoworkingHero = () => {
+  return (
+    <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
@@ -147,36 +221,39 @@ export const GaaSHero = () => {
     </div>
   );
 };
-export const CoworkingHero = () => {
-  return (
-    <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
-      <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
-        </div>
-      </div>
-    </div>
-  );
-};
+// export const CoworkingHero = () => {
+//   return (
+//     <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
+//       <div className="row">
+//         <div className="col-lg-8 col-md-8 col-sm-12">
+//           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h2>
+//           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+//             The Venture Studio model for entrepreneurship, combining comapny
+//             building with venture funding Venture Studio.
+//           </h3>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 export const DemoDayGalleryHero = () => {
   return (
     <div className="px-4 container-fluid demoDayHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+            You are setting yourself up for growth when you are a member of a
+            vibrant community where people are continuously challenging and
+            supporting one another.
           </h2>
           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+            You are setting yourself up for growth when you are a member of a
+            vibrant community where people are continuously challenging and
+            supporting one another.
           </h3>
         </div>
       </div>
@@ -186,16 +263,15 @@ export const DemoDayGalleryHero = () => {
 export const PiggeryTrainingGalleryHero = () => {
   return (
     <div className="px-4 container-fluid piggeryTrainingHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -204,16 +280,15 @@ export const PiggeryTrainingGalleryHero = () => {
 export const GIZEmployabilityGalleryHero = () => {
   return (
     <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -222,16 +297,15 @@ export const GIZEmployabilityGalleryHero = () => {
 export const LSETFGalleryHero = () => {
   return (
     <div className="px-4 container-fluid LSETFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -240,16 +314,15 @@ export const LSETFGalleryHero = () => {
 export const HackathonGalleryHero = () => {
   return (
     <div className="px-4 container-fluid hackathonHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -258,16 +331,15 @@ export const HackathonGalleryHero = () => {
 export const ITFGalleryHero = () => {
   return (
     <div className="px-4 container-fluid ITFHeroBg d-flex pt-3 pb-4 align-items-center">
+      <div className="gradientBg overlayBg"></div>
       <div className="row">
         <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+            Great people building enduring ventures
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Great people building enduring ventures
           </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
         </div>
       </div>
     </div>
@@ -295,7 +367,24 @@ export const ITFGalleryHero = () => {
 export const ManagedServicesLegalHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesLegalHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesLegalHero d-flex align-items-center">
             <div className="container-fluid">
@@ -305,11 +394,11 @@ export const ManagedServicesLegalHero = () => {
               </h2>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesLegalHero mobile view start */}
+      {/* ManagedServicesLegalHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesLegalHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -318,17 +407,34 @@ export const ManagedServicesLegalHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesLegalHero mobile view start end */}
-      </div>
+      {/* ManagedServicesLegalHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedDigitalMarketServicesHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedDigitalMarketServicesHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedDigitalMarketServicesHero d-flex align-items-center">
             <div className="container-fluid">
@@ -338,10 +444,10 @@ export const ManagedDigitalMarketServicesHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/* ManagedDigitalMarketServicesHero mobile view start */}
+        </div> */}
+      {/* ManagedDigitalMarketServicesHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedDigitalMarketServicesHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -350,17 +456,34 @@ export const ManagedDigitalMarketServicesHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedDigitalMarketServicesHero mobile view start end */}
-      </div>
+      {/* ManagedDigitalMarketServicesHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesTechHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesTechHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesTechHero d-flex align-items-center">
             <div className="container-fluid">
@@ -370,10 +493,10 @@ export const ManagedServicesTechHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/*ManagedServicesTechHero mobile view start */}
+        </div> */}
+      {/*ManagedServicesTechHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesTechHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -382,17 +505,34 @@ export const ManagedServicesTechHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesTechHero mobile view start end */}
-      </div>
+      {/* ManagedServicesTechHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesAccountingHero = () => {
   return (
     <>
-      <div className="">
+      <div className="px-4 container-fluid ManagedServicesAccountingHero d-flex pt-3 pb-4 align-items-center">
+        <div className="gradientBg overlayBg"></div>
+        <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* <div className="">
         <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <div className="ManagedServicesAccountingHero d-flex align-items-center">
             <div className="container-fluid">
@@ -402,10 +542,10 @@ export const ManagedServicesAccountingHero = () => {
               </h2>
             </div>
           </div>
-        </div>
-        {/*ManagedServicesAccountingHero mobile view start */}
+        </div> */}
+      {/*ManagedServicesAccountingHero mobile view start */}
 
-        <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
           <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
             <div className="container-fluid ">
               <h4 className="text-center heroTextColor">
@@ -414,10 +554,10 @@ export const ManagedServicesAccountingHero = () => {
               </h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        {/* ManagedServicesAccountingHero mobile view start end */}
-      </div>
+      {/* ManagedServicesAccountingHero mobile view start end */}
+      {/* </div> */}
     </>
   );
 };

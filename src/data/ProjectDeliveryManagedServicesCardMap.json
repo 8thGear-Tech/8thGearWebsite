@@ -24,23 +24,27 @@
   "ManagedServicesImages": [
     {
       "id": 1,
-      "image": "../../images/managedservices/digitalmarketing.JPG",
+      "link": "/digitalmarketing",
+      "image": "../../images/managedservices/digitalmarketing.jpg",
       "text": "DIGITAL MARKETING"
     },
     {
       "id": 2,
-      "image": "../../images/managedservices/legal.JPG",
+      "link": "/legal",
+      "image": "../../images/managedservices/legal.jpg",
       "text": "LEGAL"
     },
     {
       "id": 3,
-      "image": "../../images/managedservices/accounting.JPG",
-      "text": "ACCOUNTING"
+      "link": "/accounting",
+      "image": "../../images/managedservices/accounting.jpg",
+      "text": "ACCOUNTING & BOOK KEEPING"
     },
     {
       "id": 4,
+      "link": "/tech",
       "image": "../../images/managedservices/tech.png",
-      "text": "TECH"
+      "text": "DIGITAL TECH"
     }
   ]
 }

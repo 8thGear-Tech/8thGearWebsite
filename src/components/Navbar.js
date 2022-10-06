@@ -8,7 +8,8 @@ const NavBar = (props) => {
   const { heading } = props;
   return (
     <>
-      <section className="  d-lg-block d-md-block d-sm-none d-xs-none">
+      <section className="  ">
+        {/* d-lg-block d-md-block d-sm-none d-xs-none */}
         <div className="containter-fluid NavBar">
           <div className="d-flex ">
             <Link to="/">
@@ -17,11 +18,12 @@ const NavBar = (props) => {
                 alt=""
                 width={60}
                 height={70}
-                className="d-inline-block align-text-top mx-5 "
+                className="d-inline-block mx-4 "
               />
             </Link>
+            {/* align-text-top */}
             <h6 className="h6  mt-4 ">{heading}</h6>
-            <div className="ms-auto mb-2 mb-lg-0 mx-5 mt-1">
+            <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
               <a
                 className=" "
                 data-bs-toggle="offcanvas"
@@ -122,11 +124,11 @@ const NavBar = (props) => {
                   Managed Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="dropdown-item" to="/coworking">
                   Coworking
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="dropdown-item" to="/growth-as-a-service">
                   Growth-as-a-Service
@@ -163,7 +165,7 @@ const NavBar = (props) => {
 
           <br />
 
-          <div>
+          {/* <div>
             <a
               className=" nav-link dropdown-toggle mx-3"
               type="button"
@@ -186,7 +188,7 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-          <br />
+          <br /> */}
 
           <div>
             <Link
@@ -200,6 +202,7 @@ const NavBar = (props) => {
           </div>
 
           <br />
+          <br />
 
           <div className="mx-3">
             <JointheStudioBtn />
@@ -211,31 +214,43 @@ const NavBar = (props) => {
 
           <div className="d-flex justify-content-center mt-5">
             <div className="">
-              <a href="https://www.facebook.com/8thgearpartners">
+              <a
+                href="https://www.facebook.com/8thgearpartners"
+                target="_blank"
+              >
                 <i className="bi bi-facebook mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://www.instagram.com/8thgearpartners/">
+              <a
+                href="https://www.instagram.com/8thgearpartners/"
+                target="_blank"
+              >
                 <i className="bi bi-instagram mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/company/8thgearpartners/">
+              <a
+                href="https://www.linkedin.com/company/8thgearpartners/"
+                target="_blank"
+              >
                 <i className="bi bi-linkedin mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+              <a
+                href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+                target="_blank"
+              >
                 <i className="bi bi-twitter mx-2 text-dark"></i>
               </a>
             </div>
 
             <div>
-              <a href="mailto:info@8thgearpartners.com">
+              <a href="mailto:info@8thgearpartners.com" target="_blank">
                 <i className="bi bi-at text-dark"></i>
               </a>
             </div>
@@ -244,7 +259,7 @@ const NavBar = (props) => {
       </div>
 
       {/* mobile start */}
-      <section className=" d-none d-lg-none d-md-none d-sm-block d-xs-block ">
+      {/* <section className=" d-none d-lg-none d-md-none d-sm-block d-xs-block ">
         <div className="containter-fluid NavBar">
           <div className="d-flex ">
             <Link to="/">
@@ -478,7 +493,7 @@ const NavBar = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* mobile ends */}
     </>
   );

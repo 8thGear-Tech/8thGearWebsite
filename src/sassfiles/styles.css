@@ -175,7 +175,7 @@ body {
   color: #ffffff;
 }
 
-.BlogReadMoreLinkBtn a {
+.BlogReadMoreLinkBtn {
   color: #821e6b !important;
   font-style: normal;
   font-weight: 700;
@@ -223,19 +223,16 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 600;
   font-family: "Rubik", sans-serif;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 600;
   font-family: "Rubik", sans-serif;
 }
 
 h4 {
   font-size: 1.3rem;
-  font-weight: 600;
 }
 
 h5 {
@@ -587,6 +584,36 @@ article h4 {
   font-size: 1.1rem;
 }
 
+.PrivacyAndPolicyHero {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #f7f7f7;
+}
+
+.PrivacyAndPolicyP {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.PrivacyAndPolicyP h4 {
+  line-height: 50px;
+}
+
+.privatePolicyBody {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody li {
+    text-align: left;
+  }
+}
 .ManagedServicesHeroText {
   color: rgba(0, 0, 0, 0.9);
   font-family: Rubik;
@@ -596,6 +623,16 @@ article h4 {
   letter-spacing: 0em;
   text-align: center;
   padding: 150px 100px 0px 100px;
+}
+
+.lineHeight {
+  line-height: 2.4rem;
+}
+
+.teamHeroFontSize {
+  font-size: 1.2rem;
+  color: #afafaf;
+  text-align: center;
 }
 
 .PortfolioHeroText {
@@ -627,6 +664,14 @@ article h4 {
   color: #ffffff;
 }
 
+.team-button-color {
+  color: #821e6b;
+}
+.team-button-color:hover {
+  color: #821e6b;
+  font-size: 1.1rem;
+}
+
 .BookaSessionBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -651,7 +696,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 18.5rem;
+  width: 11rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -897,7 +942,7 @@ article h4 {
 }
 
 .ourImpactCardBg {
-  border: 3px solid rgba(0, 0, 0, 0.9);
+  border: 0px solid rgba(0, 0, 0, 0.9);
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -1063,6 +1108,11 @@ article h4 {
 
 .Text {
   line-height: 1px;
+  font-size: 0.9rem;
+}
+
+.titleText {
+  font-size: 0.9rem;
 }
 
 .Bix {
@@ -1266,11 +1316,45 @@ article h4 {
 }
 */
 .homeHeroBg {
-  background: url(/src/assets/images/hero/homepagehero.png);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.homeHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/homehero.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.homeHeroBg h1 {
+  position: relative;
+}
+
+.homeHeroBg h2 {
+  position: relative;
+}
+
+.homeHeroText {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.projectDeliveryHeroText {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.homeHeroTextTwo {
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1284,11 +1368,34 @@ article h4 {
   }
 }
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/GaaSpagehero.png);
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.GaaSHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/gaas.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg h1 {
+  position: relative;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+}
+
+.callToAction {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1301,12 +1408,67 @@ article h4 {
     height: 60vh;
   }
 }
-.CoworkingHeroBg {
-  background: url(/src/assets/images/hero/coworkinghero.png);
+.EventsHeroBg {
+  position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
-  opacity: 1;
+  width: 100%;
+}
+
+.EventsHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/eventshero.JPG);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.EventsHeroBg h2 {
+  position: relative;
+}
+
+.EventsHeroBg h3 {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .EventsHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .EventsHeroBg {
+    height: 60vh;
+  }
+}
+.CoworkingHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.CoworkingHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.CoworkingHeroBg h2 {
+  position: relative;
+}
+
+.CoworkingHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1320,11 +1482,30 @@ article h4 {
   }
 }
 .ourModelHeroBg {
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  position: relative;
   background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ourModelHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
   background-size: cover;
-  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   opacity: 1;
+}
+
+.ourModelHeroBg h2 {
+  position: relative;
+}
+
+.ourModelHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1342,7 +1523,29 @@ article h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
   height: 100vh;
+}
+
+.gradientBg {
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
+}
+
+.overlayBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  top: 60;
+  left: 0;
+}
+
+.projectDeliveryHeroBg h1 {
+  position: relative;
+}
+
+.projectDeliveryHeroBg h2 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1356,11 +1559,30 @@ article h4 {
   }
 }
 .demoDayHeroBg {
-  background: url(/src/assets/images/hero/demodayhero.JPG);
+  position: relative;
   background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.demoDayHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demodayhero.JPG);
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.demoDayHeroBg h2 {
+  position: relative;
+}
+
+.demoDayHeroBg h3 {
+  position: relative;
 }
 
 @media only screen and (max-width: 440px) {
@@ -1368,7 +1590,7 @@ article h4 {
     height: 50vh;
   }
 }
-@media only screen and (max-width: 575px) and (min-width: 441px) {
+@media only screen and (max-width: 800px) and (min-width: 441px) {
   .demoDayHeroBg {
     height: 60vh;
   }
@@ -1391,6 +1613,14 @@ article h4 {
     height: 60vh;
   }
 }
+.piggeryTrainingHeroBg h1 {
+  position: relative;
+}
+
+.piggeryTrainingHeroBg h2 {
+  position: relative;
+}
+
 .GIZHeroBg {
   background: url(/src/assets/images/hero/GIZhero.jpg);
   background-repeat: no-repeat;
@@ -1409,6 +1639,14 @@ article h4 {
     height: 60vh;
   }
 }
+.GIZHeroBg h1 {
+  position: relative;
+}
+
+.GIZHeroBg h2 {
+  position: relative;
+}
+
 .LSETFHeroBg {
   background: url(/src/assets/images/hero/lsetfhero.jpg);
   background-repeat: no-repeat;
@@ -1427,6 +1665,14 @@ article h4 {
     height: 60vh;
   }
 }
+.LSETFHeroBg h1 {
+  position: relative;
+}
+
+.LSETFHeroBg h2 {
+  position: relative;
+}
+
 .hackathonHeroBg {
   background: url(/src/assets/images/hero/hackathon.JPG);
   background-repeat: no-repeat;
@@ -1445,6 +1691,14 @@ article h4 {
     height: 60vh;
   }
 }
+.hackathonHeroBg h1 {
+  position: relative;
+}
+
+.hackathonHeroBg h2 {
+  position: relative;
+}
+
 .ITFHeroBg {
   background: url(/src/assets/images/hero/ITF.JPG);
   background-repeat: no-repeat;
@@ -1463,6 +1717,14 @@ article h4 {
     height: 60vh;
   }
 }
+.ITFHeroBg h1 {
+  position: relative;
+}
+
+.ITFHeroBg h2 {
+  position: relative;
+}
+
 .heroTextColor {
   color: #ffffff;
 }
@@ -1480,177 +1742,106 @@ article h4 {
 }
 
 .ManagedServicesLegalHero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-}
-
-.ManagedServicesLegalHero::before {
-  content: "";
   background: url(/src/assets/images/hero/legal.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
+  background-position: center;
+  height: 100vh;
 }
 
+@media only screen and (max-width: 440px) {
+  .ManagedServicesLegalHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesLegalHero {
+    height: 60vh;
+  }
+}
 .ManagedServicesLegalHero h2 {
   position: relative;
 }
 
-.ManagedServicesLegalHeroMobileView {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-}
-
-.ManagedServicesLegalHeroMobileView::before {
-  content: "";
-  background: url(/src/assets/images/hero/legal.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-
-.ManagedServicesLegalHeroMobileView h4 {
+.ManagedServicesLegalHero h3 {
   position: relative;
 }
 
 .ManagedDigitalMarketServicesHero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-}
-
-.ManagedDigitalMarketServicesHero::before {
-  content: "";
   background: url(/src/assets/images/hero/digitalmarketing.jpg);
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
+@media only screen and (max-width: 440px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 60vh;
+  }
+}
 .ManagedDigitalMarketServicesHero h2 {
   position: relative;
 }
 
-.ManagedDigitalMarketServicesHeroMobileView {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-}
-
-.ManagedDigitalMarketServicesHeroMobileView::before {
-  content: "";
-  background: url(/src/assets/images/hero/digitalmarketing.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-
-.ManagedDigitalMarketServicesHeroMobileView h4 {
+.ManagedDigitalMarketServicesHero h3 {
   position: relative;
 }
 
 .ManagedServicesTechHero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-}
-
-.ManagedServicesTechHero::before {
-  content: "";
   background: url(/src/assets/images/hero/techhero.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
+  background-position: center;
+  height: 100vh;
 }
 
+@media only screen and (max-width: 440px) {
+  .ManagedServicesTechHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesTechHero {
+    height: 60vh;
+  }
+}
 .ManagedServicesTechHero h2 {
   position: relative;
 }
 
-.ManagedServicesTechHeroMobileView {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-}
-
-.ManagedServicesTechHeroMobileView::before {
-  content: "";
-  background: url(/src/assets/images/hero/techhero.png);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-
-.ManagedServicesTechHeroMobileView h4 {
+.ManagedServicesTechHero h3 {
   position: relative;
 }
 
 .ManagedServicesAccountingHero {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-}
-
-.ManagedServicesAccountingHero::before {
-  content: "";
   background: url(/src/assets/images/hero/accounting.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
+  background-position: center;
+  height: 100vh;
 }
 
+@media only screen and (max-width: 440px) {
+  .ManagedServicesAccountingHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesAccountingHero {
+    height: 60vh;
+  }
+}
 .ManagedServicesAccountingHero h2 {
   position: relative;
 }
 
-.ManagedServicesAccountingHeroMobileView {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-}
-
-.ManagedServicesAccountingHeroMobileView::before {
-  content: "";
-  background-image: url("/src/assets/images/hero/homepagehero.png");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.5;
-}
-
-.ManagedServicesAccountingHeroMobileView h4 {
+.ManagedServicesAccountingHero h3 {
   position: relative;
 }
 
@@ -1698,6 +1889,10 @@ video {
   background: #ffffff;
   border: 1px solid #821e6b;
   border-radius: 30px;
+}
+
+.dame {
+  border-color: blue;
 }
 
 .ManagedServicesRequestBtn {
@@ -1852,6 +2047,7 @@ li {
   color: #000;
 }
 
+<<<<<<< HEAD
 .inputSizing {
   width: 18rem;
   height: 4.5rem;
@@ -1865,10 +2061,14 @@ li {
 
 .subscributton:hover {
   background-color: rgb(216, 43, 117);
+=======
+.addressText {
+  color: #821e6b;
+>>>>>>> da0b46f14d0a96d6ea938fbe10478680d98e186e
 }
 
 .DigitalMarketingSection {
-  border: 3px solid #03a062;
+  border: 1px solid #03a062;
 }
 
 .managedServicesSection {
@@ -1997,6 +2197,7 @@ li {
   color: black;
 }
 
+<<<<<<< HEAD
 .scrolltotopBtn {
   position: fixed;
   width: 100%;
@@ -2007,5 +2208,27 @@ li {
   z-index: 1;
   cursor: pointer;
   color: green;
+=======
+header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 29vh;
+  color: white;
+}
+
+.blogBody {
+  text-align: center;
+}
+
+.blogImage {
+  width: 50vh;
+}
+
+.textLinkColor {
+  color: #821e6b;
+>>>>>>> da0b46f14d0a96d6ea938fbe10478680d98e186e
 }
 /*# sourceMappingURL=styles.css.map */

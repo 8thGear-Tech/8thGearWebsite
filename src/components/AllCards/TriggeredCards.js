@@ -8,6 +8,7 @@ import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberTwoViewBioBtn } from "../Buttons/ContactBtn";
 //import img from "../../assets/images/TeamImage.jpg"
 import LinkedIn_icon from "../../assets/images/Vector.png";
+import { LinkedInIcon } from "../Icons";
 
 const SingleOnhoverCard = (props) => {
   const { id, text } = props;
@@ -136,14 +137,14 @@ export const EightgeariansPopUpCard2 = (props) => {
   return (
     <>
       <MemberTwoViewBioBtn />
-      <button
+      {/* <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
         8thgerian2
-      </button>
+      </button> */}
       <div
         className="modal fade"
         id="staticBackdrop2"
@@ -736,7 +737,7 @@ export const EIRDataPopUpCard6 = (props) => {
 </div>; */
 }
 export const AdvisoryBoardOnHoverCard = (props) => {
-  const { image, name, position } = props;
+  const { image, name, position, link } = props;
   return (
     <>
       {/* <div className="containerm">
@@ -744,16 +745,23 @@ export const AdvisoryBoardOnHoverCard = (props) => {
       {/* <div className=""> */}
       <div className="AdvisoryImage">
         {" "}
-        <img src={image} alt="" /> <div className="AdvisoryName">{name}</div>
-        <div className="AdvisoryPosition">{position}</div>
+        <img src={image} alt="" />
+        <h6 className="AdvisoryName">{name}</h6>
+        <h6 className="AdvisoryPosition">{position}</h6>
         <div className="AdvisoryLink">
-          <a className="btn" href="#" role="button">
-            <img
+          <a
+            className="btn"
+            href={link}
+            role="button"
+            style={{ color: "#fff" }}
+          >
+            <LinkedInIcon />
+            {/* <img
               className="AdvisoryIcon"
               src={LinkedIn_icon}
               width={15}
               height={5}
-            />
+            /> */}
           </a>
         </div>
       </div>

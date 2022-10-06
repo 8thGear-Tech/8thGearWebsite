@@ -1,13 +1,8 @@
 import * as React from "react";
 // import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
-import Constructionpage from "./pages/constructionpage";
-import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
-import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
-import { NextBtn } from "./components/Buttons/PortfolioBtn";
-
-import Request from "./components/Forms/ServicesForms";
+import Home from "./pages/homepage";
+import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -39,7 +34,6 @@ import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
-import TeamsPage from "./pages/About/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
 import BlogPage from "./pages/Insights/blog";
 
@@ -89,12 +83,12 @@ function App() {
         <Route path="legal" element={<ManagedServicesLegal />} />
         <Route path="tech" element={<ManagedServicesTech />} />
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        <Route path="coworking" element={<CoWorking />} />
+        {/* <Route path="coworking" element={<CoWorking />} /> */}
 
         <Route path="about" element={<AboutUs />} />
         <Route path="team" element={<TeamPage />} />
         <Route path="blog" element={<BlogPage />} />
-        <Route path="faq" element={<FAQ />} />
+        {/* <Route path="faq" element={<FAQ />} /> */}
         <Route path="events" element={<EventsPage />} />
         <Route path="events-gallery" element={<EventsGalleryPage />} />
         <Route path="demo-day" element={<DemoDayPage />} />
@@ -104,42 +98,8 @@ function App() {
           element={<FoundersMeetupGalleryPage />}
         />
         <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        {/* <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} /> */}
-        {/* <Route path="USADF-gallery" element={<USADFGalleryPage />} /> */}
-        {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
-        {/* <Route path="media" element={<GalleryCards />} /> */}
-        <Route path="abt" element={<AboutUs />} />
-        <Route path="teams" element={<TeamsPage />} />
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} />
-         */}
-
-        {/* <Route path="events" element={<Events />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-        {/* <Route path="button1" element={<BookNowBtn />} />
-        <Route path="button3" element={<BookaFreeSessionBtn />} />
-        <Route path="button4" element={<OnHoverReadMoreBtn />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
-        <Route
-          path="button6"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
-        {/* <Route path="button6" element={<PortfolioPage />} /> */}
-        {/* <Route
-          path="button7"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button8" element={<ManagedServicesPage />} />
-        <Route path="button9" element={<ProjectDeliveryPage />} /> */}
-        {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
+        <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
       </Routes>
-      {/* <OnHoverCard /> */}
-      {/* <UnderconstructionNavbar /> */}
 
       <footer>
         <Footer />
