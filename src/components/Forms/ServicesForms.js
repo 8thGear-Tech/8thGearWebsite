@@ -7,6 +7,15 @@ import logo from "../../assets/images/logo.png";
 import { RequestForProposalBtn } from "../Buttons/ProjectDeliveryBtn";
 import { ManagedServicesRequestBtn } from "../Buttons/ServicesBtn";
 import { SubmitFormBtn } from "../Buttons/ContactBtn";
+import { useForm } from "react-hook-form";
+import {
+  MDBValidation,
+  MDBValidationItem,
+  MDBInput,
+  MDBBtn,
+  MDBCheckbox,
+} from "mdb-react-ui-kit";
+import { Form } from "../Footer";
 
 const ProjectDeliveryRequestForm = () => {
   const [formData, setFormData] = useState({
@@ -120,6 +129,10 @@ const ProjectDeliveryRequestForm = () => {
 export default ProjectDeliveryRequestForm;
 
 export const ManagedServicesRequestForm = () => {
+  const {
+    register,
+    formState: { errors },
+  } = useForm();
   const [person, setPerson] = useState({
     fullName: "",
     phoneNumber: "",
@@ -142,18 +155,12 @@ export const ManagedServicesRequestForm = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (
       person.fullName &&
       person.phoneNumber &&
       person.email &&
-      person.nameOfBiz &&
-      person.socialHandle &&
-      person.companysWebsite &&
-      person.describeProject &&
-      person.natureOfBiznex &&
-      person.serviceOfInterest &&
-      person.meansOfComm &&
-      person.hearAboutUS
+      person.nameOfBiz
     ) {
       console.log(person);
       const newPerson = { ...person };
@@ -196,50 +203,67 @@ export const ManagedServicesRequestForm = () => {
                         <h3 className="ManagedServicesRequestForm-Text mb-4">
                           Managed Services
                         </h3>
-                        <div className="form-group my-4">
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="fullName"
+
+                        <MDBValidationItem
+                          className="form-group my-4"
+                          feedback="Please provide your FullName."
+                          invalid
+                        >
+                          <MDBInput
+                            value={person.fullName}
                             name="fullName"
                             onChange={handleChange}
-                            value={person.fullName}
+                            id="validationCustom01"
+                            required
                             placeholder="Enter fullName"
-                          ></input>
-                        </div>
-                        <div className="form-group my-4">
-                          <input
-                            type="number"
-                            className="form-control"
-                            id="phoneNumber"
+                          />
+                        </MDBValidationItem>
+
+                        <MDBValidationItem
+                          className="form-group my-4"
+                          feedback="Please provide your PhoneNumber."
+                          invalid
+                        >
+                          <MDBInput
+                            value={person.phoneNumber}
                             name="phoneNumber"
                             onChange={handleChange}
-                            value={person.phoneNumber}
+                            id="validationCustom02"
+                            required
                             placeholder="Phone Number"
-                          ></input>
-                        </div>
-                        <div className="form-group my-4">
-                          <input
-                            type="email"
-                            className="form-control"
-                            id="email"
+                          />
+                        </MDBValidationItem>
+
+                        <MDBValidationItem
+                          className="form-group my-4"
+                          feedback="Please provide your email address."
+                          invalid
+                        >
+                          <MDBInput
+                            value={person.email}
                             name="email"
                             onChange={handleChange}
-                            value={person.email}
+                            id="validationCustom03"
+                            required
                             placeholder="Enter email"
-                          ></input>
-                        </div>
-                        <div className="form-group my-4">
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="nameOfBiz"
+                          />
+                        </MDBValidationItem>
+
+                        <MDBValidationItem
+                          className="form-group my-4"
+                          feedback="Please provide your business Name"
+                          invalid
+                        >
+                          <MDBInput
+                            value={person.nameOfBiz}
                             name="nameOfBiz"
                             onChange={handleChange}
-                            value={person.nameOfBiz}
+                            id="validationCustom04"
+                            required
                             placeholder="Name Of Business"
-                          ></input>
-                        </div>
+                          />
+                        </MDBValidationItem>
+
                         <div className="form-group my-4">
                           <input
                             type="text"
@@ -262,29 +286,54 @@ export const ManagedServicesRequestForm = () => {
                             placeholder="Company's Website"
                           ></input>
                         </div>
-
                         <div className="my-4">
                           <select
                             type="text"
-                            className="form-select input-group"
+                            className="form-select input-group selectoptionform"
                             id="natureOfBiznex"
                             name="natureOfBiznex"
                             onChange={handleChange}
                             value={person.natureOfBiznex}
                           >
-                            <option selected> Nature of Business?</option>
-                            <option value="Service1">Healthcare</option>
-                            <option value="Service2">Finance</option>
-                            <option value="Service4">IT</option>
-                            <option value="Service4">Agriculture</option>
-                            <option value="Service5">Education</option>
-                            <option value="Service6">Logistics</option>
-                            <option value="Service7">Hospitality</option>
-                            <option value="Service8">Fashion</option>
-                            <option value="Service9">Manufaturing</option>
+                            <option selected> Nature of Business</option>
+                            <option className="dropdownFont" value="Healthcare">
+                              Healthcare
+                            </option>
+                            <option className="dropdownFont" value="Finance">
+                              Finance
+                            </option>
+                            <option className="dropdownFont" value="IT">
+                              IT
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Agriculture"
+                            >
+                              Agriculture
+                            </option>
+                            <option className="dropdownFont" value="Education">
+                              Education
+                            </option>
+                            <option className="dropdownFont" value="Logistics">
+                              Logistics
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Hospitality"
+                            >
+                              Hospitality
+                            </option>
+                            <option className="dropdownFont" value="Fashion">
+                              Fashion
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Manufaturing"
+                            >
+                              Manufaturing
+                            </option>
                           </select>
                         </div>
-
                         <div className="my-4">
                           <select
                             type="text"
@@ -294,56 +343,36 @@ export const ManagedServicesRequestForm = () => {
                             onChange={handleChange}
                             value={person.serviceOfInterest}
                           >
-                            <option selected> Service of Interest?</option>
-                            <option value="Service1">Tech</option>
-                            <option value="Service2">Digital Marketing</option>
-                            <option value="Service3">
-                              Accounting/Bookkeeping{" "}
+                            <option selected>Service of Interest</option>
+                            <option
+                              className="dropdownFont"
+                              value=" Product Development"
+                            >
+                              Product Development
                             </option>
-                            <option value="Service4">Legal</option>
-                            <option value="Service5">Others</option>
-                          </select>
-                        </div>
-
-                        <div className="my-4">
-                          <select
-                            type="text"
-                            className="form-select input-group"
-                            id="meansOfComm"
-                            name="meansOfComm"
-                            onChange={handleChange}
-                            value={person.meansOfComm}
-                          >
-                            <option selected>
-                              Preferred Means of Communication?
+                            <option
+                              className="dropdownFont"
+                              value="Digital Marketing Support"
+                            >
+                              Digital Marketing Support
                             </option>
-                            <option value="Service1">Call</option>
-                            <option value="Service2">Email</option>
-                            <option value="Service3">Social Media</option>
+                            <option
+                              className="dropdownFont"
+                              value=" Accounting/Bookkeeping Support"
+                            >
+                              Accounting/Bookkeeping Support
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Talent Acquisition Support"
+                            >
+                              Talent Acquisition Support
+                            </option>
+                            <option className="dropdownFont" value="Others">
+                              Others
+                            </option>
                           </select>
                         </div>
-
-                        <div className="my-4">
-                          <select
-                            type="text"
-                            className="form-select input-group"
-                            id="hearAboutUS"
-                            name="hearAboutUS"
-                            onChange={handleChange}
-                            value={person.hearAboutUS}
-                          >
-                            <option selected>How did you hear about us?</option>
-                            <option value="Service1">LinkedIn</option>
-                            <option value="Service2">Whatsapp</option>
-                            <option value="Service3">Facebook</option>
-                            <option value="Service3">Instagram</option>
-                            <option value="Service3">Twitter</option>
-                            <option value="Service3">Tiktok</option>
-                            <option value="Service3">Friends and Family</option>
-                            <option value="Service3">Others</option>
-                          </select>
-                        </div>
-
                         <div className="form-group my-4">
                           <input
                             type="text"
@@ -354,6 +383,71 @@ export const ManagedServicesRequestForm = () => {
                             value={person.describeProject}
                             placeholder="Describe your project?"
                           ></input>
+                        </div>
+                        <div className="my-4">
+                          <select
+                            type="text"
+                            className="form-select input-group"
+                            id="meansOfComm"
+                            name="meansOfComm"
+                            onChange={handleChange}
+                            value={person.meansOfComm}
+                          >
+                            <option selected>
+                              Preferred Means of Communication
+                            </option>
+                            <option className="dropdownFont" value="Call">
+                              Call
+                            </option>
+                            <option className="dropdownFont" value="Email">
+                              Email
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Social Media"
+                            >
+                              Social Media
+                            </option>
+                          </select>
+                        </div>
+                        <div className="my-4">
+                          <select
+                            type="text"
+                            className="form-select input-group"
+                            id="hearAboutUS"
+                            name="hearAboutUS"
+                            onChange={handleChange}
+                            value={person.hearAboutUS}
+                          >
+                            <option selected>How did you hear about us</option>
+                            <option className="dropdownFont" value="LinkedIn">
+                              LinkedIn
+                            </option>
+                            <option className="dropdownFont" value="Whatsapp">
+                              Whatsapp
+                            </option>
+                            <option className="dropdownFont" value="Facebook">
+                              Facebook
+                            </option>
+                            <option className="dropdownFont" value="Instagram">
+                              Instagram
+                            </option>
+                            <option className="dropdownFont" value="Twitter">
+                              Twitter
+                            </option>
+                            <option className="dropdownFont" value="Tiktok">
+                              Tiktok
+                            </option>
+                            <option
+                              className="dropdownFont"
+                              value="Friends and Family"
+                            >
+                              Friends and Family
+                            </option>
+                            <option className="dropdownFont" value="Others">
+                              Others
+                            </option>
+                          </select>
                         </div>
                       </div>
                       <div className="custom-control custom-checkbox my-3 mr-sm-2">
@@ -412,22 +506,3 @@ export const ManagedServicesRequestForm = () => {
     </>
   );
 };
-
-// export const Modal = () => {
-//   return <div>Modal</div>;
-// };
-
-// export function ManagedServicesRequestForm() {
-//   const [modal, setModal] = useState(false);
-//   const Toggle = () => setModal(!modal);
-
-//   return (
-//     <div className="App">
-//       <button className="clickme " onClick={() => Toggle()}>
-//         Modalaaaaaaaaaaaaaaaaaaaaaaaa
-//       </button>
-
-//       <Modal show={modal} />
-//     </div>
-//   );
-// }

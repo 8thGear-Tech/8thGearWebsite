@@ -33,7 +33,7 @@ export const Footer = () => {
                 <img className="footerLogo my-1  " src={logo} alt="" />
               </div>
               <div className="row d-flex justify-content-start">
-                <Example />
+                <Popupmodal />
                 <hr className="ms-2 hrForBigScreen"></hr>
               </div>
             </div>
@@ -48,17 +48,20 @@ export const Footer = () => {
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText text-nowrap" to="./our-model">
+                    <Link
+                      className=" footerText text-nowrap"
+                      to="./our-model#top"
+                    >
                       OUR MODEL
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="./portfolio">
+                    <Link className=" footerText" to="./portfolio#top">
                       PORTFOLIO
                     </Link>
                   </li>
                   <li className="mx-4 text-fluid">
-                    <Link className=" footerText" to="./project-delivery">
+                    <Link className=" footerText" to="./project-delivery#top">
                       PROJECT DELIVERY
                     </Link>
                   </li>
@@ -233,7 +236,8 @@ export const Footer = () => {
             </div> */}
           </div>
         </section>
-        {/* medium screenstart */}
+
+        {/* MEDIUM SCREENSTART */}
         <section className="d-none d-md-block d-lg-none">
           <div className="my-5">
             <hr />
@@ -248,9 +252,9 @@ export const Footer = () => {
                 <FooterModal />
                 <hr className="ms-5 hrForBigScreen"></hr>
               </div> */}
-              <div className="row d-flex justify-content-start">
-                <Example />
-                <hr className="ms-5 hrForBigScreen"></hr>
+              <div className="d-flex flex-column justify-content-start">
+                <Popupmodal />
+                {/* <hr className="ms-5 hrForBigScreen"></hr> */}
               </div>
             </div>
 
@@ -390,12 +394,12 @@ export const Footer = () => {
               <FooterIcon />
             </h6>
             <h6 className="text-center">
-              <Example />
+              <Popupmodal />
             </h6>
           </div>
           <div className="row d-flex justify-content-center">
             <div className="row d-flex justify-content-center">
-              <div className="col-sm-4  col-xs-12 ps-5">
+              <div className="col-sm-4  col-xs-12 ">
                 <ul className=" ul_for_footer text-start pe-5 footerIcon  ">
                   <p className="my-3">
                     <Link className=" footerText text-fluid3" to="/">
@@ -506,12 +510,13 @@ export const Footer = () => {
 
 export const SubscribeForm = () => {
   const [email, setEmail] = useState("");
-
+  // const [message, setMessage] = useState("");
   const [people, setPeople] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email) {
+      // setMessage(`thank you for subscribing`);
       const person = { email };
       console.log(person);
       setPeople((people) => {
@@ -524,7 +529,10 @@ export const SubscribeForm = () => {
   };
   return (
     <>
-      <form className="form  w-100 text-start " onSubmit={handleSubmit}>
+      <form
+        className="form inputSizing text-start d-lg-flex d-sm-block pb-3 "
+        onSubmit={handleSubmit}
+      >
         <article className="form-control my-2 text-start g-3">
           <label htmlFor="email"> </label>
           <input
@@ -539,8 +547,10 @@ export const SubscribeForm = () => {
           />
         </article>
 
-        <div className="text-center">
-          <button className="btn ">Subscribe</button>
+        <div className="text-center pt-2 px-1">
+          <button type="submit" className="subscributton">
+            Subscribe
+          </button>
         </div>
       </form>
     </>
@@ -589,119 +599,48 @@ export const FooterIcon = () => {
   );
 };
 
-export const FooterModal = () => {
-  const [openModal, setOpenModal] = useState(false);
-  return (
-    <div className="App">
-      <button
-        className="openModalBtn btn "
-        onClick={() => {
-          setOpenModal(true);
-        }}
-      >
-        <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap   d-md-none  d-md-lg-none  d-md-sm-block     ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-      </button>
-      {openModal && <Modal1 closeModal={setOpenModal} />}
-    </div>
-  );
-};
+export const Popupmodal = () => {
+  const [openForm, setOpenForm] = useState(false);
+  const [hideSubscribe, setHideSubscribe] = useState(true);
 
-export function Modal1({ closeModal }) {
   return (
     <>
-      <div className="container  text-start" style={{ width: 400 }}>
-        <div className="d-flex justify-content-around">
-          <button
-            className=" px-5 btn  btn-primary"
-            onClick={() => closeModal(false)}
-          >
-            {/* <i class="bi bi-x-square" style={{ fontSize: 25 }}></i> */}
-            Close
-          </button>
-          `{" "}
-          <img
-            className="mt-2"
-            src={logo}
-            width={28}
-            height={33}
-            id="staticBackdropLabel"
-          />
-          `
-        </div>
-        <div className="title">
-          <div className="row d-flex justify-content-center ">
-            <SubscribeForm />
-          </div>
-        </div>
+      <div className="">
+        {
+          (setOpenForm,
+          hideSubscribe && (
+            <button
+              onClick={() => {
+                setOpenForm(true);
+                setHideSubscribe(false);
+              }}
+              className="btn"
+            >
+              <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
+                SIGN UP FOR NEWSLETTER
+              </h6>
+              <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
+                SIGN UP FOR NEWSLETTER
+              </h6>
+              <h6 className="text-start text-nowrap  thirdSignUp  d-md-none  d-md-lg-none  d-md-sm-block     ">
+                SIGN UP FOR NEWSLETTER
+              </h6>
+            </button>
+          ))
+        }
+
+        {openForm && <Form closeModal={setOpenForm} />}
       </div>
     </>
   );
-}
+};
 
-export function Example() {
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
+export function Form({ closeModal }) {
   return (
     <>
-      {/* <Button onClick={handleShow}>
-        <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap   d-md-none  d-md-lg-none  d-md-sm-block     ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-      </Button> */}
-      <button
-        className="openModalBtn btn "
-        // onClick={() => {
-        //   setOpenModal(true);
-        // }}
-        onClick={handleShow}
-      >
-        <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap secondSignUp  d-none  d-md-block  d-md-lg-none  d-sm-none d-lg-none ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-        <h6 className="text-start text-nowrap  thirdSignUp  d-md-none  d-md-lg-none  d-md-sm-block     ">
-          SIGN UP FOR NEWSLETTER
-        </h6>
-      </button>
-
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          {/* <Modal.Title>Modal heading</Modal.Title> */}
-          <img
-            className="mt-2"
-            src={logo}
-            width={28}
-            height={33}
-            id="staticBackdropLabel"
-          />
-        </Modal.Header>
-        {/* <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body> */}
+      <div className="">
         <SubscribeForm />
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      </div>
     </>
   );
 }

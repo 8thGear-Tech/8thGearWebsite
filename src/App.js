@@ -52,8 +52,9 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
-// import Footer from "./components/Footer";
+import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+import ScrollButton from "./components/Buttons/scrollToTop";
 
 function App() {
   return (
@@ -141,9 +142,9 @@ function App() {
       {/* <UnderconstructionNavbar /> */}
 
       <footer>
-        {/* <Footer /> */}
-        {/* <ManagedServicesRequestForm /> */}
-        <ProjectDeliveryPage />
+        <Footer />
+        <ScrollButton />
+        <ManagedServicesRequestForm />
       </footer>
     </BrowserRouter>
   );
