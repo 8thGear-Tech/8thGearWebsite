@@ -23,10 +23,10 @@ export const BookaSessionBtn = () => {
 export const BookaFreeSessionBtn = () => {
   return (
     <>
-      <button className="BookaFreeSessionBtn">
+      <a href="https://calendly.com/inc-consults/15min?month=2021-09">
         {" "}
-        Book a 30 minutes session
-      </button>
+        <button className="BookaFreeSessionBtn"> Book a session</button>
+      </a>
     </>
   );
 };
@@ -42,9 +42,16 @@ export const OnHoverReadMoreBtn = () => {
 export const ManagedServicesRequestBtn = () => {
   return (
     <>
-      <button type="button" className="ManagedServicesRequestBtn">
-        Request
-      </button>
+      <a href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit">
+        <button
+          // type="button"
+          // data-bs-toggle="modal"
+          // data-bs-target="#myModal"
+          className="ManagedServicesRequestBtn"
+        >
+          Request
+        </button>
+      </a>
     </>
   );
 };

@@ -2,29 +2,37 @@ import gallerylsetfData from "../../data/gallerylsetf.json";
 import { SingleLsetfCards } from "../../components/AllCards/MediaCards";
 import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
+import { LSETFGalleryHero } from "../../components/Hero/ImageandTextHero";
 
 const LSETFPage = () => {
   return (
     <>
       <Navbar17 />
+      <LSETFGalleryHero />
       <LSETFPictureCards />
       <LSETFVideoCards />
     </>
   );
 };
+
 const LSETFPictureCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-5">
-        {gallerylsetfData.gallerylseft.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SingleLsetfCards {...items} />
-              </div>
-            </>
-          );
-        })}
+      <div className="container-fluid">
+        <div className="row justify-content-center mx-5 pt-5">
+          {gallerylsetfData.gallerylseft.map((items) => {
+            return (
+              <>
+                <div
+                  className="col-lg-4 col-md-4 col-sm-10 my-4"
+                  key={items.id}
+                >
+                  <SingleLsetfCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
       </div>
     </>
   );
@@ -32,16 +40,21 @@ const LSETFPictureCards = () => {
 const LSETFVideoCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-4 p-5">
-        {gallerylsetfData.galleryvideocards.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SinglegalleryVideo {...items} />
-              </div>
-            </>
-          );
-        })}
+      <div className="container-fluid">
+        <div className="row justify-content-center mx-5">
+          {gallerylsetfData.galleryvideocards.map((items) => {
+            return (
+              <>
+                <div
+                  className="col-lg-4 col-md-4 col-sm-10 my-4"
+                  key={items.id}
+                >
+                  <SinglegalleryVideo {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
       </div>
     </>
   );

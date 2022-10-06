@@ -66,59 +66,13 @@
 
 .PortfolioHeroText {
   color: $sectextcolor !important;
-  background-color: $heroblackbg;
-  height: 397px;
-  @include ManagedServicesHeroText;
-  padding: 120px 100px 0px 100px;
-  font-size: 1.2em;
 }
-
-// .PortfolioHeroText {
-//   @include ManagedServicesHeroText;
-// }
-
-// @media only screen and (max-width: 600px) {
-//   .ManagedServicesHeroText {
-//     @include ManagedServicesHeroText;
-//     @include blackBgHeroProperty;
-//     padding: 150px 100px 0px 100px;
-//   }
-// }
-
-// /* Small devices (portrait tablets and large phones, 600px and up) */
-// @media only screen and (min-width: 500px) {
+.PortfolioHeroBg {
+  color: $sectextcolor;
+  background-color: $heroblackbg;
+}
+// @media only screen and (min-width: 576px) {
 //   .PortfolioHeroText {
-//     @include ManagedServicesHeroText;
-//     @include blackBgHeroProperty;
-//     padding: 120px 100px 0px 100px;
-//     font-size: 1.2em;
-//   }
-// }
-
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {
-//   .PortfolioHeroText {
-//     @include ManagedServicesHeroText;
-//     @include blackBgHeroProperty;
-//     padding: 150px 100px 0px 100px;
-//     font-size: 1.5em;
-//   }
-// }
-
-// /* Large devices (laptops/desktops, 992px and up) */
-// @media only screen and (min-width: 992px) {
-//   .PortfolioHeroText {
-//     @include ManagedServicesHeroText;
-//     @include blackBgHeroProperty;
-//     padding: 150px 100px 0px 100px;
-//   }
-// }
-
-// /* Extra large devices (large laptops and desktops, 1200px and up) */
-// @media only screen and (min-width: 1200px) {
-//   .PortfolioHeroText {
-//     @include ManagedServicesHeroText;
-//     @include blackBgHeroProperty;
-//     padding: 150px 100px 0px 100px;
+//     height: 18.75rem;
 //   }
 // }

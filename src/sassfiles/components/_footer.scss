@@ -5,25 +5,121 @@
   justify-content: flex-end;
   list-style-type: none;
 }
-.text-fluid {
-  font-size: 1.1vw;
+
+.iconsize {
+  font-size: 10px;
+  color: $darkgreenbg;
+  // position: fixed;
+  height: 100%;
+  overflow: visible;
 }
 #iconsize {
-  font-size: 2vw;
+  font-size: 10px;
   color: $darkgreenbg;
+  // position: fixed;
+  height: 100%;
+  overflow: visible;
+}
+
+.iconsize2 {
+  font-size: 1.4rem;
+  color: $darkgreenbg;
+  // position: fixed;
 }
 .mobile-icon {
   list-style-type: none;
 }
-.ul_for_footer {
-  list-style-type: none;
-  // }
-  // .md-footer-line {
-  //   width: 98vw;
+
+.md-footer-line {
+  width: 98vw;
 }
 .newsLetterUnderline {
-  width: 13vw;
+  width: 15vw;
 }
+
+.footerLogo {
+  width: 4.2vw;
+}
+.footerLogo2 {
+  width: 4.7vw;
+}
+
+.footerText {
+  text-decoration: none;
+  color: black;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.icons-for-footer {
+  display: flex;
+}
+
+.footerIcon {
+  list-style-type: none;
+}
+.footerFormField {
+  outline: none;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.hrForBigScreen {
+  width: 17vw;
+}
+.firstSignUp {
+  font-size: 1.1vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.secondSignUp {
+  font-size: 1.5vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.thirdSignUp {
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.emailLink {
+  text-decoration: none;
+  color: black;
+}
+.text-fluid {
+  font-size: 1.1vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
 .text-fluid1 {
   font-size: 1.7vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid2 {
+  font-size: 1.4vw;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-fluid3 {
+  font-size: 0.9rem;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+.footerTextDecoration {
+  text-decoration: none;
+  color: $prytextcolor;
+}
+.addressText {
+  color: $btncolor;
 }

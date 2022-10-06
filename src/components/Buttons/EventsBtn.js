@@ -4,22 +4,45 @@
 //GetYourTicketBtn
 import React from "react";
 import { Link } from "react-router-dom";
-export const SuggestAnEventBtn = () => {
-  return (
-    <button className="SuggestAnEventBtn" type="sumbit">
-      <div className="textbutton">SUBMIT</div>
-    </button>
-  );
-};
+// export const SuggestAnEventBtn = () => {
+//   return (
+//     // <button className="SuggestAnEventBtn" type="sumbit" >
+//     //   <div className="textbutton">SUBMIT</div>
+//     // </button>
+//     <button
+//         type="button"
+//         className="prop SuggestAnEventBtn"
+
+//         data-bs-toggle="modal"
+//         data-bs-target="#staticBackdrop"
+//       >
+//         Suggest an Event
+//       </button>
+
+//   );
+// };
 // export default SuggestAnEventBtn;
 
 export const LetUsKnowBtn = () => {
   return (
-    <a href="#" rel="noreferrer">
-      <button type="button" class="LetUsKnowBtn">
+    <a
+      href="https://docs.google.com/forms/d/149SdikrUqPTgtdQL5lOBKYdF9L5ZAQ4TF1Xj9y1vBIk/edit"
+      rel="noreferrer"
+    >
+      <button
+        // type="button"
+        className="SuggestAnEventBtn"
+        // data-bs-toggle="modal"
+        // data-bs-target="#staticBackdrop"
+      >
         Let Us Know
       </button>
     </a>
+    // <a href="#" rel="noreferrer">
+    //   <button type="button" class="LetUsKnowBtn">
+    //     Let Us Know
+    //   </button>
+    // </a>
     // <button className="LetUsKnowBtn" type="sumbit">
     //   Let us Know
     // </button>
@@ -47,15 +70,19 @@ export const GetYourTicketBtn = () => {
 
 export const FoundersMeetupReadMoreBtn = () => {
   return (
-    <button className="BlogReadMoreBtn" type="sumbit">
-      Read More
-    </button>
+    <Link to="/founders-meetup">
+      <button className="BlogReadMoreBtn" type="sumbit">
+        Read More
+      </button>
+    </Link>
   );
 };
 export const DemoDayReadMoreBtn = () => {
   return (
-    <button className="BlogReadMoreBtn" type="sumbit">
-      Read More
-    </button>
+    <Link to="">
+      <button className="BlogReadMoreBtn" type="sumbit">
+        Read More
+      </button>
+    </Link>
   );
 };

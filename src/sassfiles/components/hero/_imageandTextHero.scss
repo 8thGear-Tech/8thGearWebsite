@@ -1,3 +1,530 @@
+@use "../../colors" as *;
+@use "./bgColorandTextHero" as *;
+.bgImg {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgtext {
+  color: rgb(255, 255, 255);
+}
+
+.bgimage h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+/*
+.imgContainer {
+  height: 100%;
+  width: 100%;
+}
+.imageStyle {
+  height: 80vh;
+  width: 100%;
+}
+
+.DigitalMarketingHeroText {
+  color: $prybgcolor;
+}
+.heroTextContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+*/
+
+/*
+.background {
+  background-image: url(/src/assets/images/digital\ marketing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100vh;
+}
+*/
+// .homeHeroBg {
+//   background: url(/src/assets/images/hero/home.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 80vh;
+//   opacity: 1;
+// }
+
+// .overlay-bg {
+//   position: absolute;
+//   height: 100vh;
+//   width: 100%;
+//   opacity: 1;
+//   top: 0;
+//   left: 0;
+// }
+// .bg-gradient-dark-slate-blue {
+//   background: url(/src/assets/images/hero/home.jpg);
+//   background-image: linear-gradient(
+//     to right,
+//     #252c3e,
+//     rgba(37, 44, 62, 0.66),
+//     rgba(37, 44, 62, 0.42),
+//     rgba(13, 22, 44, 0.1),
+//     rgba(37, 44, 62, 0)
+//   );
+// }
+
+.homeHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.homeHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/homehome.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.homeHeroBg h1 {
+  position: relative;
+}
+.homeHeroBg h2 {
+  position: relative;
+}
+.homeHeroText {
+  font-size: 5rem;
+  font-weight: 300;
+}
+.homeHeroTextTwo {
+  font-size: 3rem;
+  font-weight: 300;
+}
+@media only screen and (max-width: 440px) {
+  .homeHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .homeHeroBg {
+    height: 60vh;
+  }
+}
+.GaaSHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.GaaSHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/gaas.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.GaaSHeroBg h1 {
+  position: relative;
+}
+.GaaSHeroBg h2 {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .GaaSHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .GaaSHeroBg {
+    height: 60vh;
+  }
+}
+.EventsHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.EventsHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demoday1.JPG);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.EventsHeroBg h1 {
+  position: relative;
+}
+.EventsHeroBg h2 {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .EventsHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .EventsHeroBg {
+    height: 60vh;
+  }
+}
+
+.CoworkingHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.CoworkingHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/coworkinghero.png);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+.CoworkingHeroBg h2 {
+  position: relative;
+}
+.CoworkingHeroBg h3 {
+  position: relative;
+}
+// .CoworkingHeroBg {
+//   background: url(/src/assets/images/hero/coworkinghero.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 80vh;
+//   opacity: 1;
+// }
+@media only screen and (max-width: 440px) {
+  .CoworkingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .CoworkingHeroBg {
+    height: 60vh;
+  }
+}
+// .ourModelHeroBg {
+//   background: url(/src/assets/images/hero/ourmodel.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100vh;
+//   opacity: 1;
+// }
+.ourModelHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ourModelHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
+}
+.ourModelHeroBg h2 {
+  position: relative;
+}
+.ourModelHeroBg h3 {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .ourModelHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ourModelHeroBg {
+    height: 60vh;
+  }
+}
+
+.projectDeliveryHeroBg {
+  background: url(/src/assets/images/hero/projectdelivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  // margin: 20px;
+  // width: 300px;
+  // height: 200px;
+  height: 100vh;
+  // opacity: 1;
+}
+.gradientBg {
+  background-image: linear-gradient(
+    to right,
+    #252c3e,
+    rgba(37, 44, 62, 0.66),
+    rgba(37, 44, 62, 0.42),
+    rgba(37, 44, 62, 0.1),
+    rgba(37, 44, 62, 0)
+  );
+}
+.overlayBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  top: 60;
+  left: 0;
+}
+.projectDeliveryHeroBg h1 {
+  position: relative;
+}
+.projectDeliveryHeroBg h2 {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .projectDeliveryHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 441px) {
+  .projectDeliveryHeroBg {
+    height: 60vh;
+  }
+}
+
+.demoDayHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.demoDayHeroBg::before {
+  content: "";
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.demoDayHeroBg h2 {
+  position: relative;
+}
+.demoDayHeroBg h3 {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .demoDayHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .demoDayHeroBg {
+    height: 60vh;
+  }
+}
+// .demoDayHeroBg {
+//   background: url(/src/assets/images/hero/demodayhero.JPG);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   height: 100vh;
+// }
+
+// @media only screen and (max-width: 440px) {
+//   .demoDayHeroBg {
+//     height: 50vh;
+//   }
+// }
+// @media only screen and (max-width: 575px) and (min-width: 441px) {
+//   .demoDayHeroBg {
+//     height: 60vh;
+//   }
+// }
+// .demoDayHeroBg h2 {
+//   position: relative;
+// }
+// .demoDayHeroBg h3 {
+//   position: relative;
+// }
+.piggeryTrainingHeroBg {
+  background: url(/src/assets/images/hero/piggerytraininghero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .piggeryTrainingHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .piggeryTrainingHeroBg {
+    height: 60vh;
+  }
+}
+.piggeryTrainingHeroBg h2 {
+  position: relative;
+}
+.piggeryTrainingHeroBg h3 {
+  position: relative;
+}
+.GIZHeroBg {
+  background: url(/src/assets/images/hero/GIZhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .GIZHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .GIZHeroBg {
+    height: 60vh;
+  }
+}
+.GIZHeroBg h2 {
+  position: relative;
+}
+.GIZHeroBg h3 {
+  position: relative;
+}
+.LSETFHeroBg {
+  background: url(/src/assets/images/hero/lsetfhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .LSETFHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .LSETFHeroBg {
+    height: 60vh;
+  }
+}
+.LSETFHeroBg h2 {
+  position: relative;
+}
+.LSETFHeroBg h3 {
+  position: relative;
+}
+.hackathonHeroBg {
+  background: url(/src/assets/images/hero/hackathon.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .hackathonHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .hackathonHeroBg {
+    height: 60vh;
+  }
+}
+.hackathonHeroBg h2 {
+  position: relative;
+}
+.hackathonHeroBg h3 {
+  position: relative;
+}
+.ITFHeroBg {
+  background: url(/src/assets/images/hero/ITF.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .ITFHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ITFHeroBg {
+    height: 60vh;
+  }
+}
+.ITFHeroBg h2 {
+  position: relative;
+}
+.ITFHeroBg h3 {
+  position: relative;
+}
+
+.heroTextColor {
+  color: $sectextcolor;
+}
 .cool {
   width: auto;
   height: 50vh;
@@ -17,3 +544,275 @@
 //   color: white;
 //   text-shadow: 2px 2px #333;
 // }
+
+// .ManagedServicesLegalHero {
+//   position: relative;
+//   height: 100vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesLegalHero::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/legal.jpg);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.6;
+// }
+// .ManagedServicesLegalHero h2 {
+//   position: relative;
+// }
+
+// // ManagedServicesLegalHero mobile view style start
+// .ManagedServicesLegalHeroMobileView {
+//   position: relative;
+//   height: 50vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesLegalHeroMobileView::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/legal.jpg);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedServicesLegalHeroMobileView h4 {
+//   position: relative;
+// }
+.ManagedServicesLegalHero {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .ManagedServicesLegalHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesLegalHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesLegalHero h2 {
+  position: relative;
+}
+.ManagedServicesLegalHero h3 {
+  position: relative;
+}
+
+// ManagedServicesLegalHero mobile view style end
+
+// .ManagedDigitalMarketServicesHero {
+//   position: relative;
+//   height: 100vh;
+//   width: 100%;
+// }
+
+// .ManagedDigitalMarketServicesHero::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/digitalmarketing.jpg);
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedDigitalMarketServicesHero h2 {
+//   position: relative;
+// }
+
+// // ManagedDigitalMarketServicesHero mobile view style start
+// .ManagedDigitalMarketServicesHeroMobileView {
+//   position: relative;
+//   height: 50vh;
+//   width: 100%;
+// }
+
+// .ManagedDigitalMarketServicesHeroMobileView::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/digitalmarketing.jpg);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedDigitalMarketServicesHeroMobileView h4 {
+//   position: relative;
+// }
+
+.ManagedDigitalMarketServicesHero {
+  background: url(/src/assets/images/hero/digitalmarketing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedDigitalMarketServicesHero {
+    height: 60vh;
+  }
+}
+.ManagedDigitalMarketServicesHero h2 {
+  position: relative;
+}
+.ManagedDigitalMarketServicesHero h3 {
+  position: relative;
+}
+
+.ManagedServicesTechHero {
+  background: url(/src/assets/images/hero/techhero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .ManagedServicesTechHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesTechHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesTechHero h2 {
+  position: relative;
+}
+.ManagedServicesTechHero h3 {
+  position: relative;
+}
+// ManagedDigitalMarketServicesHero mobile view style end
+
+// .ManagedServicesTechHero {
+//   position: relative;
+//   height: 100vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesTechHero::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/techhero.png);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedServicesTechHero h2 {
+//   position: relative;
+// }
+
+// ManagedServicesTechHero mobile view style start
+// .ManagedServicesTechHeroMobileView {
+//   position: relative;
+//   height: 50vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesTechHeroMobileView::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/techhero.png);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedServicesTechHeroMobileView h4 {
+//   position: relative;
+// }
+
+// ManagedServicesTechHero mobile view style end
+
+.ManagedServicesAccountingHero {
+  background: url(/src/assets/images/hero/accounting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+@media only screen and (max-width: 440px) {
+  .ManagedServicesAccountingHero {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .ManagedServicesAccountingHero {
+    height: 60vh;
+  }
+}
+.ManagedServicesAccountingHero h2 {
+  position: relative;
+}
+.ManagedServicesAccountingHero h3 {
+  position: relative;
+}
+// .ManagedServicesAccountingHero {
+//   position: relative;
+//   height: 100vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesAccountingHero::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/accounting.jpg);
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedServicesAccountingHero h2 {
+//   position: relative;
+// }
+
+// // ManagedServicesAccountingHero mobile view style start
+// .ManagedServicesAccountingHeroMobileView {
+//   position: relative;
+//   height: 50vh;
+//   width: 100%;
+// }
+
+// .ManagedServicesAccountingHeroMobileView::before {
+//   content: "";
+//   background-image: url("/src/assets/images/hero/homepagehero.png");
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.5;
+// }
+// .ManagedServicesAccountingHeroMobileView h4 {
+//   position: relative;
+// }
+
+// ManagedServicesAccountingHero mobile view style end

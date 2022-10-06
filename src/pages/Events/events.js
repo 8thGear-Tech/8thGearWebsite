@@ -6,27 +6,29 @@
 import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 // import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
 // import EventPageHero from "../../components/Hero/CarouselHero";
-import CoWorkingPageHero from "../../components/Hero/CarouselHero";
-import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
+
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
 import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
-import demoday from "../../assets/images/events/demoday.png";
-import foundersmeetup from "../../assets/images/events/foundersmeetup.png";
+import demoday from "../../assets/images/events/demoday.JPG";
+import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
 import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";
 import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
+import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
+import { EventPageHero } from "../../components/Hero/CarouselHero";
+import { EventsPageHero } from "../../components/Hero/ImageandTextHero";
 
 const EventsPage = () => {
   return (
     <>
       <Navbar14 />
+      <EventsPageHero />
       <Events />
       <SuggestAnEvent />
-      <EventsGallery />
-      <SuggestAnEventForm />
+      {/* <EventsGallery /> */}
     </>
   );
 };
@@ -34,9 +36,9 @@ const Events = () => {
   return (
     <div className="container-fluid text-center p-5 sectionOneBg">
       {" "}
-      <h4 className="">Exclusive to the portfolio</h4>
+      <h3 className="">Exclusive to the portfolio</h3>
       <div className="row justify-content-center mt-5">
-        <div className="col-lg-5 col-md-6 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
@@ -50,16 +52,16 @@ const Events = () => {
               />
               <p className="card-text mx-3  mt-2 mb-4">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation. It's business creation. Our
-                collaborative platform has three components. It's business
-                creation.
+                It is important to travel the lonely path of entrepreneurship
+                with like-minded individuals. Synergy is created when founders
+                collaborate, and individuals are inspired, motivated, and
+                challenged to pursue their dreams.
               </p>
               <FoundersMeetupReadMoreBtn />
             </div>
           </div>
         </div>
-        <div className="col-lg-5 col-md-6 col-sm-10 px-5 d-flex align-items-stretch">
+        <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
@@ -73,10 +75,11 @@ const Events = () => {
               />
               <p className="card-text mx-3 mt-2 mb-4">
                 {" "}
-                It's business creation. Our collaborative platform has three
-                components. It's business creation. It's business creation. Our
-                collaborative platform has three components. It's business
-                creation.
+                A value-packed day where every member of the ecosystem is
+                represented with the sole objective of witnessing the beauty of
+                the creative mind and hearing great ideas that can scale being
+                pitched. It is a quarterly event where businesses are admitted
+                into the 8thGear Venture studio
               </p>
               <DemoDayReadMoreBtn />
             </div>
@@ -98,7 +101,8 @@ const SuggestAnEvent = () => {
       </p>
       <div className="py-2">
         {" "}
-        <LetUsKnowBtn />
+        {/* <LetUsKnowBtn /> */}
+        <SuggestAnEventForm />
       </div>
     </div>
   );
@@ -109,21 +113,24 @@ const EventsGallery = () => {
     <>
       <div className="container-fluid successStoryBg">
         {" "}
-        <div className="row justify-content-center m-5 p-5 ">
+        <div className="row justify-content-center mt-5 mb-2 py-5 mx-lg-5 px-3">
           <h4 className="text-center">Gallery</h4>
           {eventsGallery.eventsGallerySection.map((items) => {
             return (
               <>
-                <div className="col-md-4 my-4" key={items.id}>
+                <div
+                  className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex align-items-stretch "
+                  key={items.id}
+                >
                   <SinglegalleryCards {...items} />
                 </div>
               </>
             );
           })}
         </div>
-        <div className="d-flex justify-content-center">
+        {/* <div className="d-flex justify-content-center pb-4">
           <EventsViewMoreBtn />
-        </div>
+        </div> */}
       </div>
     </>
   );
