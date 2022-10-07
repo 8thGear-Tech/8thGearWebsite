@@ -133,7 +133,10 @@ export const ManagedServicesPageTestimonialCard = () => {
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="4000">
           <div class="card mb-3 mt-5 cardss  ">
-            <div class="row g-0 mx-auto w-50 ">
+            <div
+              class="row g-0 mx-auto w-25
+             "
+            >
               <div class="col-md-6 ManagedServicesPageTestimonialCard cardsss ">
                 <div className="text-center ">
                   <img
@@ -470,7 +473,7 @@ export const CoWorkingPageTestimonialCard = (props) => {
       <div className="card-body">
         <div className="row">
           <div className=" d-flex">
-            <img src={image} className="img-fluid rounded-circle w-25" alt="" />
+            {/* <img src={image} className="img-fluid rounded-circle w-25" alt="" /> */}
             <h1 className="h6 mt-4 mx-3">
               {name} <br /> {position}
             </h1>

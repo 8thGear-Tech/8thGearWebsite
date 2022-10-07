@@ -8,12 +8,7 @@ const NavBar = (props) => {
   const { heading } = props;
   return (
     <>
-<<<<<<< HEAD
       <section className="  d-lg-block d-md-block d-sm-block d-xs-none">
-=======
-      <section className="  ">
-        {/* d-lg-block d-md-block d-sm-none d-xs-none */}
->>>>>>> 215cacbd5f0d121780c881d5890ea5203d903610
         <div className="containter-fluid NavBar">
           <div className="d-flex ">
             <Link to="/">
@@ -22,7 +17,7 @@ const NavBar = (props) => {
                 alt=""
                 width={60}
                 height={70}
-                className="d-inline-block align-text-top mx-4 "
+                className=" mx-4 "
               />
             </Link>
             <h6 className="h6  mt-4 ">{heading}</h6>
@@ -127,11 +122,7 @@ const NavBar = (props) => {
                   Managed Services
                 </Link>
               </li>
-              {/* <li>
-                <Link className="dropdown-item" to="/coworking">
-                  Coworking
-                </Link>
-              </li> */}
+
               <li>
                 <Link className="dropdown-item" to="/growth-as-a-service">
                   Growth-as-a-Service
@@ -168,31 +159,6 @@ const NavBar = (props) => {
 
           <br />
 
-          {/* <div>
-            <a
-              className=" nav-link dropdown-toggle mx-3"
-              type="button"
-              id="navbarDarkdropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Insights
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <Link className="dropdown-item" to="/blog">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/faq">
-                  FAQ
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <br /> */}
-
           <div>
             <Link
               className=" nav-link  mx-3"
@@ -215,287 +181,61 @@ const NavBar = (props) => {
           <br />
           <br />
 
-          <div className="d-flex justify-content-center mt-5">
+          <div className="d-flex justify-content-center mt-5 ">
             <div className="">
               <a href="https://www.facebook.com/8thgearpartners">
-                <i className="bi bi-facebook mx-2 text-dark"></i>
+                <i
+                  className="bi bi-facebook mx-3 text-dark"
+                  style={{ fontSize: "1.875rem" }}
+                ></i>
               </a>
             </div>
 
             <div>
               <a href="https://www.instagram.com/8thgearpartners/">
-                <i className="bi bi-instagram mx-2 text-dark"></i>
+                <i
+                  className="bi bi-instagram mx-3 text-dark"
+                  style={{ fontSize: "1.875rem" }}
+                ></i>
               </a>
             </div>
 
             <div>
               <a href="https://www.linkedin.com/company/8thgearpartners/">
-                <i className="bi bi-linkedin mx-2 text-dark"></i>
+                <i
+                  className="bi bi-linkedin mx-3 text-dark"
+                  style={{ fontSize: "1.875rem" }}
+                ></i>
               </a>
             </div>
 
             <div>
               <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
-                <i className="bi bi-twitter mx-2 text-dark"></i>
+                <i
+                  className="bi bi-twitter mx-3 text-dark"
+                  style={{ fontSize: "1.875rem" }}
+                ></i>
               </a>
             </div>
 
             <div>
               <a href="mailto:info@8thgearpartners.com">
-                <i className="bi bi-at text-dark"></i>
+                <i
+                  className="bi bi-at mx-2 text-dark"
+                  style={{ fontSize: "1.875rem" }}
+                ></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-
-      {/* mobile start */}
-      {/* <section className=" d-none d-lg-none d-md-none d-sm-block d-xs-block ">
-        <div className="containter-fluid NavBar">
-          <div className="d-flex ">
-            <Link to="/">
-              <img
-                src={logos}
-                alt=""
-                width={60}
-                height={70}
-                className="d-inline-block align-text-top mx-5 "
-              />
-            </Link>
-            <h6 className="h6  mt-4 text-wrap">{heading}</h6>
-            <div className="">
-              <a
-                className=" "
-                data-bs-toggle="offcanvas"
-                href="#offcanvasExample"
-                role="hamburger"
-                aria-controls="offcanvasExample"
-              >
-                <div className="">
-                  <i
-                    className="bi bi-list text-dark"
-                    style={{ fontSize: "2.5rem" }}
-                  ></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div
-        className="offcanvas offcanvas-end"
-        tabIndex="-1"
-        id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
-      >
-        <div className="offcanvas-header">
-          <a
-            data-w-id="4a4302b6-6981-f1fa-9bee-92d7404c033a"
-            href="/"
-            aria-current="page"
-            className="side-nav-link-home w--current text-dark h6 mx-2"
-            style={{ textDecoration: "none" }}
-          >
-            ← Home
-          </a>
-
-          <button
-            type="button"
-            className="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-
-        <div className="offcanvas-body h5">
-          <div>
-            <a
-              className=" nav-link dropdown-toggle mx-3"
-              type="button"
-              id="navbarDarkdropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Studio
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <Link className="dropdown-item" to="/our-model">
-                  Our Model
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/portfolio">
-                  Portfolio
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <br />
-
-          <div>
-            <Link
-              className=" nav-link  mx-3"
-              type="button"
-              aria-expanded="false"
-              to="/project-delivery"
-            >
-              Project Delivery
-            </Link>
-          </div>
-
-          <br />
-
-          <div>
-            <a
-              className=" nav-link dropdown-toggle mx-3"
-              type="button"
-              id="navbarDarkdropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Services
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <Link className="dropdown-item" to="/managed-services">
-                  Managed Services
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/coworking">
-                  Coworking
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/growth-as-a-service">
-                  Growth-as-a-Service
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <br />
-
-          <div>
-            <a
-              className=" nav-link dropdown-toggle mx-3"
-              type="button"
-              id="navbarDarkdropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Who we are
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <Link className="dropdown-item" to="/about">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/team">
-                  8thGearians
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <br />
-
-          <div>
-            <a
-              className=" nav-link dropdown-toggle mx-3"
-              type="button"
-              id="navbarDarkdropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Insights
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li>
-                <Link className="dropdown-item" to="/blog">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="/faq">
-                  FAQ
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <br />
-
-          <div>
-            <Link
-              className=" nav-link  mx-3"
-              type="button"
-              aria-expanded="false"
-              to="/events"
-            >
-              Events
-            </Link>
-          </div>
-
-          <br />
-          <br />
-
-          <div className="mx-3">
-            <JointheStudioBtn />
-          </div>
-
-          <br />
-          <br />
-          <br />
-
-          <div className="d-flex mx-5">
-            <div>
-              <a href="https://www.facebook.com/8thgearpartners">
-                <i className="bi bi-facebook mx-2 text-dark"></i>
-              </a>
-            </div>
-
-            <div>
-              <a href="https://www.instagram.com/8thgearpartners/">
-                <i className="bi bi-instagram mx-2 text-dark"></i>
-              </a>
-            </div>
-
-            <div>
-              <a href="https://www.linkedin.com/company/8thgearpartners/">
-                <i className="bi bi-linkedin mx-2 text-dark"></i>
-              </a>
-            </div>
-
-            <div>
-              <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
-                <i className="bi bi-twitter mx-2 text-dark"></i>
-              </a>
-            </div>
-
-            <div>
-              <a href="mailto:info@8thgearpartners.com">
-                <i className="bi bi-at text-dark"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* mobile ends */}
->>>>>>> 215cacbd5f0d121780c881d5890ea5203d903610
     </>
   );
 };
 
 export const Navbar0 = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid mb-1">
       <div className="row">
         {text.landingpage.map((navbar) => {
           return (
@@ -852,7 +592,7 @@ export const Navbar18 = () => {
 };
 export const Navbar19 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mb-1">
       <div className="row">
         {text.ourmodel.map((navbar) => {
           return (
