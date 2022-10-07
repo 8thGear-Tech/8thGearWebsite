@@ -1,0 +1,90 @@
+{
+  "teamcard": [
+    {
+      "id": 1,
+      "image": "./images/Teamone.png",
+      "name": "Damilola Obidiaro",
+      "title": "Co-Founder",
+      "text": " View More"
+    },
+    {
+      "id": 2,
+      "image": "./images/Teamone.png",
+      "name": "Husseni Sanni",
+      "title": "Digital Marketing Analyst",
+      "text": " View More"
+    },
+    {
+      "id": 3,
+      "image": "./images/Teamone.png",
+      "name": "Omowumi Adekoya",
+      "title": "Managing Partner",
+      "text": " View More"
+    },
+    {
+      "id": 4,
+      "image": "./images/Teamone.png",
+      "name": "Temitope Kassim",
+      "title": "People and perfomance analyst",
+      "text": " View More"
+    },
+    {
+      "id": 5,
+      "image": "./images/Teamone.png",
+      "name": "Opeyemi Bioku",
+      "title": "Tech Lead",
+      "text": " View More"
+    },
+    {
+      "id": 6,
+      "image": "./images/Teamone.png",
+      "name": "Titilayo Ekundayo",
+      "title": "Head,Venture Studio",
+      "text": " View More"
+    }
+  ],
+  "EIRcard": [
+    {
+      "id": 1,
+      "image": "./images/Teamone.png",
+      "name": "Damilola Obidiaro",
+      "title": "Co-Founder",
+      "text": " View More"
+    },
+    {
+      "id": 2,
+      "image": "./images/Teamone.png",
+      "name": "Husseni Sanni",
+      "title": "Digital Marketing Analyst",
+      "text": " View More"
+    },
+    {
+      "id": 3,
+      "image": "./images/Teamone.png",
+      "name": "Omowumi Adekoya",
+      "title": "Managing Partner",
+      "text": " View More"
+    },
+    {
+      "id": 4,
+      "image": "./images/Teamone.png",
+      "name": "Temitope Kassim",
+      "title": "People and perfomance analyst",
+      "text": " View More"
+    },
+    {
+      "id": 5,
+      "image": "./images/Teamone.png",
+      "name": "Opeyemi Bioku",
+      "title": "Tech Lead",
+      "text": " View More"
+    },
+    {
+      "id": 6,
+      "image": "./images/Teamone.png",
+      "name": "Titilayo Ekundayo",
+      "title": "Head,Venture Studio",
+      "text": " View More"
+    }
+  ]
+}

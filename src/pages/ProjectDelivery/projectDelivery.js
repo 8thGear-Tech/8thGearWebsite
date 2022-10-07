@@ -1,97 +1,88 @@
 //External import
 import React from "react";
+import { OurImpact } from "../../components/Tractions";
+import { Navbar3 } from "../../components/Navbar";
+import { RequestForProposalBtn } from "../../components/Buttons/ProjectDeliveryBtn";
+import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
+import successStoryGalleryCard from "../../data/gallerycards.json";
+import { ProjectDeliveryViewMoreBtn } from "../../components/Buttons/ProjectDeliveryBtn";
+// import ProjectDeliveryPageHero from "../../components/Hero/ImageandTextHero";
+
+// import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
+import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
+import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
+import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
+// import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 
 const ProjectDeliveryPage = () => {
   return (
     <>
+      <Navbar3 />
+      {/* <ProjectDeliveryPageHero /> */}
+      <Competencies />
       <OurImpact />
+      <SuccessStoryCards />
     </>
   );
 };
 
-const OurImpact = () => {
+// const Competencies = () => {
+//   return (
+//     <div className="container-fluid">
+//       <h4 className="py-5 text-center">COMPETENCIES</h4>
+//       <div className="row ">
+//         {Data2.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
+//           return (
+//             <ProjectDeliveryManagedServicesCard {...ProjectDeliveryImage} />
+//           );
+//         })}
+//       </div>
+//       <RequestForProposalBtn/>
+//     </div>
+//   );
+// };
+const Competencies = () => {
   return (
-    <div className="container-fluid text-center px-5">
-      <div className="row justify-content-evenly ">
-        <h4 className="text-center my-5">OUR IMPACT</h4>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          <div className="card mb-5">
-            {/* <img src={madamwunmi} className="card-img-top p-3" alt="..." /> */}
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text"> BUSINESS IN-HOUSE</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            <div>
-              {" "}
-              {/* <img src={samuel} className="card-img-top p-3" alt="..." /> */}
-            </div>
-
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text">JOB CREATED</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            <div>
-              {" "}
-              {/* <img src={omotola} className="card-img-top p-3" alt="..." /> */}
-            </div>
-
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text">JOB SAVED</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            <div>
-              {" "}
-              {/* <img src={sarah} className="card-img-top p-3" alt="..." /> */}
-            </div>
-
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text">PROJECT DELIVERED</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            <div>
-              {" "}
-              {/* <img src={sarah} className="card-img-top p-3" alt="..." /> */}
-            </div>
-
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text">JOB PLACED</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-lg-4 col-md-4 col-sm-10 px-5">
-          {" "}
-          <div className="card mb-5">
-            {/* <img src={olamide} className="card-img-top p-3" alt="..." /> */}
-            <div className="card-body">
-              <h5 className="card-title">20,000</h5>
-              <p className="card-text">START-UP SUPPORTED</p>
-            </div>
-          </div>
-        </div>
+    <div className="container-fluid">
+      <h4 className="py-5 text-center">COMPETENCIES</h4>
+      <div className="row">
+        {Data.ManagedServicesImages.map((ManagedServicesImage) => {
+          return (
+            <ProjectDeliveryManagedServicesCard {...ManagedServicesImage} />
+          );
+        })}
+      </div>
+      {/* <div className="py-5 d-flex justify-content-center">
+        <RequestForProposalBtn />
+      </div> */}
+      <div className="py-5 d-flex justify-content-center">
+        {/* <ProjectDeliveryRequestForm /> */}
       </div>
     </div>
+  );
+};
+const SuccessStoryCards = () => {
+  return (
+    <>
+      <div className="container-fluid successStoryBg">
+        {" "}
+        <div className="row justify-content-center m-5 p-5 ">
+          <h4 className="text-center">SUCCESS STORY</h4>
+          {successStoryGalleryCard.successStory.map((items) => {
+            return (
+              <>
+                <div className="col-md-4 my-4" key={items.id}>
+                  <SinglegalleryCards {...items} />
+                </div>
+              </>
+            );
+          })}
+        </div>
+        <div className="d-flex justify-content-center">
+          <ProjectDeliveryViewMoreBtn />
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -1,0 +1,46 @@
+{
+    "ManagedServicesImages":[
+    {
+        "id": 1,
+        "image": "images/Enterprise_support.jpg",
+        "text": "ENTERPRISE SUPPORT"
+    },
+    {
+        "id": 2,
+        "image": "images/Ecosystem_EventsDark.jpg",
+        "text": "ECOSYSTEM EVENTS"
+    },
+    {
+        "id": 3,
+        "image": "images/TrainingDark.jpg",
+        "text": "TRAINING"
+    },
+    {
+        "id": 4,
+        "image": "images/Employability.jpg",
+        "text": "EMPLOYABILITY"
+    }
+],
+    "ProjectDeliveryImages":[
+    {
+        "id": 1,
+        "image": "images/Digital_Marketing.jpg",
+        "text": "DIGITAL MARKETING"
+    },
+    {
+        "id": 2,
+        "image": "images/Legal.jpg",
+        "text": "LEGAL"
+    },
+    {
+        "id": 3,
+        "image": "images/Accounting.jpg",
+        "text": "ACCOUNTING"
+    },
+    {
+        "id": 4,
+        "image": "images/Tech.jpg",
+        "text": "TECH"
+    }
+]
+}

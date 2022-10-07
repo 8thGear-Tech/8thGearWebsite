@@ -1,4 +1,192 @@
 {
+  "successStory": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from s4p program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from GIZ program"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from LSETF program"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from FUTA program"
+    }
+  ],
+  "projectDeliveryPictures": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from s4p program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from GIZ program"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from LSETF program"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from FUTA program"
+    },
+    {
+      "id": 5,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from s4p program"
+    },
+    {
+      "id": 6,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from GIZ program"
+    }
+  ],
+  "projectDeliveryVideos": [
+    {
+      "id": 15,
+      "video": " https://www.youtube.com/embed/watch?v=PEnuHN-Mqvg",
+      "text": "Video session from founders meetup program"
+    },
+
+    {
+      "id": 16,
+      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
+      "text": "Video session from demoday"
+    },
+    {
+      "id": 17,
+      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
+      "text": "video session from meeting"
+    }
+  ],
+  "eventsGallerySection": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from s4p program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from GIZ program"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "Photo session from LSETF program"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "Photo session from FUTA program"
+    }
+  ],
+
+  "eventsGalleryPagePictures": [
+    {
+      "id": 1,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from founders program"
+    },
+    {
+      "id": 2,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from demoday"
+    },
+    {
+      "id": 3,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from futa"
+    },
+    {
+      "id": 4,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from GIZ"
+    },
+    {
+      "id": 5,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from LSETFVisit"
+    },
+    {
+      "id": 6,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from LSETF"
+    },
+    {
+      "id": 7,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from S4P"
+    },
+    {
+      "id": 8,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from USADF"
+    },
+    {
+      "id": 9,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from Projectdelivery"
+    },
+    {
+      "id": 10,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from meeting"
+    },
+    {
+      "id": 11,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from meetup "
+    },
+    {
+      "id": 12,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 13,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 14,
+      "image": "./images/gallerycards/gallery1.jpg",
+      "text": "photo session from founders meetup program"
+    },
+    {
+      "id": 15,
+      "image": "./images/gallerycards/gallery2.jpg",
+      "text": "photo session from founders meetup program"
+    }
+  ],
+  "eventsGalleryPageVideos": [
+    {
+      "id": 1,
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4"
+    },
+
+    {
+      "id": 2,
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
+    },
+    {
+      "id": 3,
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
+    }
+  ],
+
   "gallerycards": [
     {
       "id": 1,
@@ -79,19 +267,16 @@
   "galleryvideocards": [
     {
       "id": 15,
-      "video": " https://www.youtube.com/embed/watch?v=PEnuHN-Mqvg",
-      "text": "Video session from founders meetup program"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     },
 
     {
       "id": 16,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "Video session from demoday"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     },
     {
       "id": 17,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "video session from meeting"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     }
   ]
 }

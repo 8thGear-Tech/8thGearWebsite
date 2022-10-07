@@ -1,0 +1,50 @@
+@use "../../colors" as *;
+
+.sectionOneBg {
+  background-color: $lightgreenbg;
+}
+@mixin EventsCardBg {
+  background-color: $lightgreenbg;
+  border: 3px solid $bordercolor;
+}
+.eventsCardBg {
+  @include EventsCardBg;
+}
+.carouselText {
+  bottom: 40%;
+  height: 500px;
+}
+
+// .carouselImage {
+//     width: 100%;
+//     height: auto;
+//     display: block;
+// }
+
+.request {
+  text-align: center;
+}
+
+.submit {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+
+.sub {
+  text-align: center;
+}
+
+.prop {
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}

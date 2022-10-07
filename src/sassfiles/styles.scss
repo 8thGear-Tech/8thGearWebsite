@@ -1,6 +1,45 @@
-@use "./components/navbar";
-@use "./components/buttons//eventsBtn";
+// @use "../sassfiles/components/allCards/MediaCards";
+@use "./components/allCards/blogCards";
+@use "./components/allCards/managedServicesCards";
+@use "./reset";
+// @use "./font";
+// @use "./components/navbar";
+// @use "../sassfiles/components/navbar";
+@use "../sassfiles/components/buttons/blogBtn";
+@use "../sassfiles/components/buttons/projectDeliveryBtn";
+// @use "../sassfiles/components/buttons/contactBtn";
+@use "./font";
+@use "./components/allCards/testimonialCards";
+
 @use "./components/constructionpage";
 @use "./components/timer";
-@use "./components/allCards/MediaCards";
 @use "./components/forms/servicesForms";
+@use "./pages/home";
+@use "../sassfiles/components/hero/bgColorandTextHero";
+@use "../sassfiles/components/buttons/contactBtn";
+@use "../sassfiles/components/buttons/eventsBtn";
+
+@use "../sassfiles/components/allCards/MediaCards";
+@use "../sassfiles/components/individualPortfolioInfo";
+@use "../sassfiles/pages/studio/ourModel";
+@use "../sassfiles/pages/projectdelivery/projectDelivery";
+@use "../sassfiles/pages/services/managedServices";
+@use "../sassfiles/pages/events/events";
+@use "../sassfiles/pages/services/GaaS";
+// @use "./components/navbar" as *;
+// @use "./components/timer" as *;
+@use "./components/allCards/teamCards";
+// @use "./pages/events/events";
+@use "./components/hero/imageandTextHero";
+// @use "./components/navbar" as;
+// @use "./components/buttons//eventsBtn" as;
+// @use "./components/constructionpage";
+// @use "./components/timer";
+@use "./components/hero/videoHero";
+@use "./components/forms/enquiresandSuggestionForms";
+// @use "./components/hero/bgColorandTextHero";
+// @use "./components/buttons/portfolioBtn";
+// @use "./components/buttons/servicesBtn";
+// @use "./components/allCards/triggeredCards";
+// @use "./components/forms/servicesForms";
+// @use "./pages/who we are/aboutUs"

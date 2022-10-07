@@ -1,413 +1,65 @@
-// //ManagedServicesRequestForm
-// //ProjectDeliveryRequestForm
-// //CoworkingSpaceForm
-
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { SubmitFormBtn } from "../Buttons/ContactBtn";
 
-// export const CoworkingSpaceForm = () => {
-//   const [email, setEmail] = useState("");
-//   const [phoneNumber, setPhoneNumber] = useState("");
-//   const [nameOfBusiness, setNameOfBusiness] = useState("");
-//   const [serviceOfInterest, setserviceOfInterest] = useState("");
-//   const [addressOfUser, setaddressOfUser] = useState("");
-//   const [optionalAddOnsPlan, setoptionalAddOnsPlan] = useState("");
-//   const [people, setPeople] = useState([]);
+// //ManagedServicesRequestForm
+// //ProjectDeliveryRequestForm
+// //CoworkingSpaceForm
 
-//   <svg
-//     width="16"
-//     height="16"
-//     fill="currentColor"
-//     class="bi bi-caret-down-fill"
-//     viewBox="0 0 16 16"
-//   >
-//     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-//   </svg>
-// );
-
-// const Handle = (e) => {
-//   e.preventDefault();
-//   if (
-//     email &&
-//     phoneNumber &&
-//     nameOfBusiness &&
-//     serviceOfInterest &&
-//     addressOfUser &&
-//     optionalAddOnsPlan
-//   ) {
-//     const person = {
-//       email,
-//       phoneNumber,
-//       nameOfBusiness,
-//       serviceOfInterest,
-//       addressOfUser,
-//       optionalAddOnsPlan,
-//     };
-//     console.log(person);
-//     setPeople((people) => {
-//       return [...people, person];
-//     });
-//     setEmail("");
-//     setPhoneNumber("");
-//     setNameOfBusiness("");
-//     setserviceOfInterest("");
-//     setaddressOfUser("");
-//     setoptionalAddOnsPlan("");
-//     setPeople("");
-//   } else {
-//     alert("empty values");
-//   }
-// };
-
-// return (
-//   <>
-//     <button
-//       type="button"
-//       className="prop"
-//       data-bs-toggle="modal"
-//       data-bs-target="#staticBackdrop"
-//     >
-//       Coworking Space Form
-//     </button>
-
-//     <div
-//       className="modal fade"
-//       id="staticBackdrop"
-//       data-bs-backdrop="static"
-//       data-bs-keyboard="false"
-//       tabIndex="-1"
-//       aria-labelledby="staticBackdropLabel"
-//       aria-hidden="true"
-//     >
-//       <div className="modal-dialog modal-md">
-//         <div className="modal-content">
-//           <div className="modal-header m-2">
-//             <img
-//               src={logo}
-//               width={40}
-//               className=""
-//               id="staticBackdropLabel"
-//             />
-//             <button
-//               type="button"
-//               className="btn-close"
-//               data-bs-dismiss="modal"
-//               aria-label="Close"
-//             ></button>
-//           </div>
-//           <div className="modal-body">
-//             <form className="form" onSubmit={Handle}>
-//               <div className="background">
-//                 <h4 className=" request mb-4 text-center bookingform">
-//                   The 8thGear Hub - Space Booking Form
-//                 </h4>
-//                 <div className="my-3">
-//                   <label for="InputEmail" className="form-label"></label>
-//                   <input
-//                     type="email"
-//                     className="form-control border-primary"
-//                     id="InputEmail"
-//                     aria-describedby="emailHelp"
-//                     value={email}
-//                     onChange={(e) => setEmail(e.target.value)}
-//                     placeholder="Email"
-//                   />
-//                 </div>
-//                 <div className="my-3">
-//                   <label
-//                     for="InputPhoneNumber"
-//                     className="form-label"
-//                   ></label>
-//                   <input
-//                     type="phonenumber"
-//                     className="form-control border-primary"
-//                     id="InputPhoneNumber"
-//                     aria-describedby="phonenumberHelp"
-//                     value={phoneNumber}
-//                     onChange={(e) => setPhoneNumber(e.target.value)}
-//                     placeholder="Phone Number"
-//                   />
-//                 </div>
-//                 <div className="my-3 pb-4">
-//                   <label for="InputName" className="form-label"></label>
-//                   <input
-//                     type="text"
-//                     className="form-control border-primary"
-//                     id="InputName"
-//                     aria-describedby="nameofbusinessHelp"
-//                     value={nameOfBusiness}
-//                     onChange={(e) => setNameOfBusiness(e.target.value)}
-//                     placeholder="Name Of Business"
-//                   />
-//                 </div>
-
-{
-  /* <div className="mb-3 ">
-                    <label for="InputName" className="form-label"></label>
-                    <input
-                      type="text"
-                      className="form-control border-primary "
-                      id="InputName"
-                      aria-describedby="titleHelp"
-                      value={serviceOfInterest}
-                      onChange={(e) => setserviceOfInterest(e.target.value)}
-                      placeholder="Service Of Interest  "
-                    />
-                  </div> */
-}
-//                   <div class="input-group my-3">
-//                     <label class="" for="inputGroupSelect01"></label>
-//                     <select
-//                       class="form-select form-control border-primary"
-//                       id="inputGroupSelect01 InputName"
-//                     >
-//                       <option selected>Service Of Interest</option>
-//                       <option value="1"></option>
-//                       value= {serviceOfInterest}
-//                       onChange={(e) => setserviceOfInterest(e.target.value)}
-//                     </select>
-//                   </div>
-
-//                   <div className="my-3 ">
-//                     <label for="InputName" className="form-label"></label>
-//                     <input
-//                       type="text"
-//                       className="form-control border-primary"
-//                       id="InputName"
-//                       aria-describedby="addressofuserHelp"
-//                       value={addressOfUser}
-//                       onChange={(e) => setaddressOfUser(e.target.value)}
-//                       placeholder="Address Of User"
-//                     />
-//                   </div>
-
-//                   <div class="input-group my-5">
-//                     <label class="" for="inputGroupSelect01"></label>
-//                     <select
-//                       class="form-select form-control border-primary"
-//                       id="inputGroupSelect01 InputName"
-//                     >
-//                       <option selected>Optional Add-Ons Plan</option>
-//                       <option value="1"></option>
-//                       value={optionalAddOnsPlan}
-//                       onChange={(e) => setoptionalAddOnsPlan(e.target.value)}
-//                     </select>
-//                   </div>
-//                   <div className="col-12 mb-3">
-//                     <div className="form-check">
-//                       <input
-//                         className="form-check-input"
-//                         type="checkbox"
-//                         id="gridCheck"
-//                       />
-//                       <label className="form-check-label" for="gridCheck">
-//                         Click to Subscribe to our Newsletter
-//                       </label>
-//                     </div>
-//                   </div>
-//                   <div className="sub text-center submit border-">
-//                     <input type="Submit" className="submit" />
-//                   </div>
-//                 </div>
-//               </form>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default CoworkingSpaceForm;
-
-// const JoinTheTeamForm = () => {
-//   const [formData, setFormData] = useState({
-//     name: "",
-//     email: "",
-//     phoneNumber: "",
-//     message: "",
-//   });
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     console.log("name: " + formData.name);
-//     console.log("Email: " + formData.email);
-//     console.log("phoneNumber: " + formData.phoneNumber);
-//     console.log("message: " + formData.message);
-//   };
-
-//   return (
-//     <>
-//       <button
-//         type="button"
-//         className="prop"
-//         data-bs-toggle="modal"
-//         data-bs-target="#staticBackdrop"
-//       >
-//         Join The Team
-//       </button>
-
-//       <div
-//         className="modal fade"
-//         id="staticBackdrop"
-//         data-bs-backdrop="static"
-//         data-bs-keyboard="false"
-//         tabIndex="-1"
-//         aria-labelledby="staticBackdropLabel"
-//         aria-hidden="true"
-//       >
-//         <div className="modal-dialog modal-sm">
-//           <div className="modal-content">
-//             <div className="modal-header m-2">
-//               <button
-//                 type="button"
-//                 className="btn-close"
-//                 data-bs-dismiss="modal"
-//                 aria-label="Close"
-//               ></button>
-//             </div>
-//             <div className="modal-body">
-//               <form onSubmit={handleSubmit}>
-//                 <div className="background">
-//                   <h4 className=" contactUsTitle mb-4">Contact Us</h4>
-
-//                   <div className="Vessel mb-3">
-//                     <input
-//                       onChange={(e) =>
-//                         setFormData({ ...formData, name: e.target.value })
-//                       }
-//                       value={formData.name}
-//                       type="text"
-//                       name="name"
-//                       id="name"
-//                       className="myInput form-control"
-//                       placeholder="Name"
-//                     ></input>
-//                   </div>
-
-//                   <div className="Vessel mb-3">
-//                     <input
-//                       onChange={(e) =>
-//                         setFormData({ ...formData, email: e.target.value })
-//                       }
-//                       value={formData.email}
-//                       type="text"
-//                       name="email"
-//                       id="email"
-//                       className="myInput form-control"
-//                       placeholder="Email"
-//                     ></input>
-//                   </div>
-
-//                   <div className="Vessel">
-//                     <input
-//                       onChange={(e) =>
-//                         setFormData({
-//                           ...formData,
-//                           phoneNumber: e.target.value,
-//                         })
-//                       }
-//                       value={formData.phoneNumber}
-//                       type="text"
-//                       name="phoneNumber"
-//                       id="phoneNumber"
-//                       className="myInput form-control"
-//                       placeholder="Phone Number"
-//                     ></input>
-//                   </div>
-
-//                   <div className=" Vessel mb-3">
-//                     <label for="message" className="form-label"></label>
-//                     <textarea
-//                       className="myInput form-control"
-//                       id="message"
-//                       rows="3"
-//                       onChange={(e) =>
-//                         setFormData({ ...formData, message: e.target.value })
-//                       }
-//                       value={formData.message}
-//                       type="text"
-//                       name="message"
-//                       placeholder="Send a message"
-//                     ></textarea>
-//                   </div>
-//                   <div className="col-12 mb-3">
-//                     <div className="form-check">
-//                       <input
-//                         className="form-check-input"
-//                         type="checkbox"
-//                         id="gridCheck"
-//                       />
-//                       <label className="form-check-label" for="gridCheck">
-//                         Click to subscribe to our Newsletter
-//                       </label>
-//                     </div>
-//                   </div>
-//                   <div className="sub">
-//                     <input type="Submit" className="submit" />
-//                   </div>
-//                 </div>
-//               </form>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default JoinTheTeamForm;
-
-// JoinTheStudioForm
-
-export const JoinTheStudioForm = () => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [phoneNumber, setPhoneNumber] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [message, setMessage] = useState("");
-  // const [message, setMessage] = useState("");
-
+const CoworkingSpaceForm = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [nameOfBusiness, setNameOfBusiness] = useState("");
-  const [serviceOfInterest, setServiceOfInterest] = useState("");
   const [addressOfUser, setAddressOfUser] = useState("");
-  const [optionalAddOnsPlan, setOptionalAddOnsPlan] = useState("");
+  const [nameOfBusiness, setNameOfBusiness] = useState("");
+  const [natureOfBusiness, setNatureOfBusiness] = useState("");
+  const [website, setWebsite] = useState("");
+  const [durationQuantity, setDurationQuantity] = useState("");
+  // const [GroupSelect, setGroupSelect] = useState("");
+  const [date, setdate] = useState("");
+
   const [people, setPeople] = useState([]);
 
   const Handle = (e) => {
     e.preventDefault();
     if (
+      name &&
       email &&
       phoneNumber &&
-      nameOfBusiness &&
-      serviceOfInterest &&
       addressOfUser &&
-      optionalAddOnsPlan
+      nameOfBusiness &&
+      natureOfBusiness &&
+      website &&
+      durationQuantity &&
+      date
     ) {
       const person = {
+        name,
         email,
         phoneNumber,
-        nameOfBusiness,
-        serviceOfInterest,
         addressOfUser,
-        optionalAddOnsPlan,
+        nameOfBusiness,
+        natureOfBusiness,
+        website,
+        durationQuantity,
+        date,
       };
       console.log(person);
       setPeople((people) => {
         return [...people, person];
       });
+      setName("");
       setEmail("");
       setPhoneNumber("");
-      setNameOfBusiness("");
-      setServiceOfInterest("");
       setAddressOfUser("");
-      setOptionalAddOnsPlan("");
+      setNameOfBusiness("");
+      setNatureOfBusiness("");
+      setdate("");
+      setWebsite("");
+      setDurationQuantity("");
       setPeople("");
     } else {
-      window.alert("empty values");
+      alert("empty values");
     }
   };
 
@@ -419,7 +71,7 @@ export const JoinTheStudioForm = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
-        Join The Studio
+        co-working space
       </button>
 
       <div
@@ -431,11 +83,11 @@ export const JoinTheStudioForm = () => {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-sm">
+        <div class="modal-dialog modal-md">
           <div class="modal-content">
             <div class="modal-header m-2">
               <img
-                // src={logo}
+                src={logo}
                 width={40}
                 className=""
                 id="staticBackdropLabel"
@@ -449,8 +101,10 @@ export const JoinTheStudioForm = () => {
             </div>
             <div class="modal-body">
               <form onSubmit={Handle}>
-                <div className="background">
-                  <h4 class=" request mb-4">Join The Studio</h4>
+                <div>
+                  <h4 class=" pink request mb-3 ">
+                    The 8thGear Hub-Space Booking Form
+                  </h4>
 
                   <div className="mb-3 ">
                     <label for="InputName" className="form-label"></label>
@@ -459,9 +113,9 @@ export const JoinTheStudioForm = () => {
                       className="form-control border-primary"
                       id="InputName"
                       aria-describedby="titleHelp"
-                      value={phoneNumber}
-                      onChange={(e) => setPhoneNumber(e.target.value)}
-                      placeholder="Email"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      placeholder="Full name ( First name first )"
                     />
                   </div>
 
@@ -474,11 +128,11 @@ export const JoinTheStudioForm = () => {
                       aria-describedby="titleHelp"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Phone number"
+                      placeholder="Email"
                     />
                   </div>
 
-                  <div className="mb-3 ">
+                  <div className="mb-3  ">
                     <label
                       for="InputPhoneNumber"
                       className="form-label"
@@ -488,25 +142,182 @@ export const JoinTheStudioForm = () => {
                       className="form-control border-primary"
                       id="InputPhoneNumber"
                       aria-describedby="titleHelp"
-                      value={nameOfBusiness}
-                      onChange={(e) => setNameOfBusiness(e.target.value)}
-                      placeholder="Name of bisiness"
+                      value={phoneNumber}
+                      onChange={(e) => setPhoneNumber(e.target.value)}
+                      placeholder="Phone Number (Whatsapp)"
                     />
                   </div>
-                  <div className="mb-3">
+
+                  <div className="mb-3 ">
                     <label
-                      for="exampleInputDetail"
+                      for="InputaddressOfUser"
                       className="form-label"
                     ></label>
-                    <textarea
+
+                    <input
+                      type="text"
                       className="form-control border-primary"
-                      id="message"
-                      rows="3"
-                      value={serviceOfInterest}
-                      onChange={(e) => setServiceOfInterest(e.target.value)}
-                      placeholder="Send a message"
-                    ></textarea>
+                      id="InputaddressOfUser"
+                      aria-describedby="titleHelp"
+                      value={addressOfUser}
+                      placeholder="Address Of User"
+                      onChange={(e) => setAddressOfUser(e.target.value)}
+                    />
                   </div>
+
+                  <div className="mb-3 ">
+                    <label
+                      for="InputnameOfBusiness"
+                      className="form-label"
+                    ></label>
+
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputnameOfBusiness"
+                      aria-describedby="titleHelp"
+                      value={nameOfBusiness}
+                      placeholder="Name Of Business"
+                      onChange={(e) => setNameOfBusiness(e.target.value)}
+                    />
+                  </div>
+
+                  <div className="mb-3 ">
+                    <label
+                      for="InputnatureOfBusiness"
+                      className="form-label"
+                    ></label>
+
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputnatureOfBusiness"
+                      aria-describedby="titleHelp"
+                      value={natureOfBusiness}
+                      placeholder="Nature Of Business"
+                      onChange={(e) => setNatureOfBusiness(e.target.value)}
+                    />
+                  </div>
+
+                  <div className="mb-3 ">
+                    <label for="Inputwebsite" className="form-label"></label>
+
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="Inputwebsite"
+                      aria-describedby="titleHelp"
+                      value={website}
+                      placeholder="Website and social media handles"
+                      onChange={(e) => setWebsite(e.target.value)}
+                    />
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect">
+                      Services of interest
+                    </label>
+                    <select class="form-select" id="inputGroupSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">
+                        Dedicated Desk(per month) - 35,000[10% discount for
+                        every additional team member]
+                      </option>
+                      <option value="3">
+                        Training Room(20 persons)(per hour) - N10,000
+                      </option>
+                      <option value="2">
+                        Virtual office plus(per month) - N20,000
+                      </option>
+                      <option value="4">Hotdesk(per week) - N12,000</option>
+                      <option value="5">Hotdesk(per day) - N3,000</option>
+                      <option value="5">Other : </option>
+                    </select>
+                  </div>
+
+                  <div className="mb-3 ">
+                    <label
+                      for="InputdurationQuantity"
+                      className="form-label"
+                    ></label>
+
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputdurationQuantity"
+                      aria-describedby="titleHelp"
+                      value={durationQuantity}
+                      placeholder="Required Duration:how many hours,days,weeks or months?"
+                      onChange={(e) => setDurationQuantity(e.target.value)}
+                    />
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect">
+                      Required Duration Unit
+                    </label>
+                    <select class="form-select" id="inputGroupSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">Hours</option>
+                      <option value="2">Weeks</option>
+                      <option value="3">Months</option>
+                    </select>
+                  </div>
+
+                  <div className="mb-3">
+                    <label for="Inputdate" className="form-label"></label>
+
+                    <input
+                      type="Date"
+                      className="form-control border-primary"
+                      id="Inputdate"
+                      aria-describedby="titleHelp"
+                      value={date}
+                      onChange={(e) => setdate(e.target.value)}
+                      placeholder="date"
+                    />
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect01">
+                      Optional Add-on services
+                    </label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Growth strategy & execution</option>
+                      <option value="2">Recruitment support service</option>
+                      <option value="3">
+                        Voice-overs,photography & videography
+                      </option>
+                      <option value="4">Website Development</option>
+                      <option value="5">Online Marketing Support</option>
+                      <option value="6">
+                        Business Advisory services(incubation)
+                      </option>
+                      <option value="7">
+                        Virtual receptionist/customer service set-up management
+                      </option>
+                      <option value="8">others</option>
+                    </select>
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect01">
+                      How did you hear about us?
+                    </label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Linked in</option>
+                      <option value="2">Instagram</option>
+                      <option value="3">Whatsapp</option>
+                      <option value="3">Facebook</option>
+                      <option value="3">Twitter</option>
+                      <option value="3">Tik tok</option>
+                      <option value="3">Friends and family</option>
+                      <option value="3">others</option>
+                    </select>
+                  </div>
+
                   <div class="col-12 mb-3">
                     <div class="form-check">
                       <input
@@ -515,13 +326,25 @@ export const JoinTheStudioForm = () => {
                         id="gridCheck"
                       />
                       <label class="form-check-label" for="gridCheck">
-                        Click to Suscribe to our Newsletter
+                        Terms And Conditions
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="gridCheck"
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        I Agree
                       </label>
                     </div>
                   </div>
                   <div className="text-center">
-                    {/* <SubmitFormBtn /> */}
-                    <button>submit</button>
+                    <SubmitFormBtn />
                   </div>
                 </div>
               </form>
@@ -532,3 +355,4 @@ export const JoinTheStudioForm = () => {
     </>
   );
 };
+export default CoworkingSpaceForm;
