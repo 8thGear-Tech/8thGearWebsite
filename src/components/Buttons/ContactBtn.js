@@ -5,21 +5,21 @@
 
 export const JointheStudioBtn = () => {
   return (
-    <a
-      href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
-      target="_blank"
+    // <a
+    //   href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
+    //   target="_blank"
+    // >
+
+    <button
+      className="JointheStudioBtn"
+      type="button"
+      // className="prop"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
     >
-      {" "}
-      <button
-        className="JointheStudioBtn"
-        // type="button"
-        // className="prop"
-        // data-bs-toggle="modal"
-        // data-bs-target="#staticBackdrop"
-      >
-        Join the Studio
-      </button>
-    </a>
+      Join the Studio
+    </button>
+    // </a>
   );
 };
 // export const JointheStudioBtn = () => {
@@ -164,6 +164,20 @@ export const SubmitFormBtn = () => {
   return (
     <button className="SubmitFormBtn" type="submit">
       Submit
+    </button>
+  );
+};
+export const HomeBtn = () => {
+  return (
+    <button className="HomeBtn" type="">
+      Home
+    </button>
+  );
+};
+export const ContactBtn = () => {
+  return (
+    <button className="ContactUsBtn" type="">
+      Contact Us
     </button>
   );
 };

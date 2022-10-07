@@ -122,6 +122,7 @@ export const Footer = () => {
                   </Link>
                   <a
                     href="mailto:info@8thgearpartners.com"
+                    target="_blank"
                     className="mx-1 text-fluid  emailLink"
                   >
                     info@8thgearpartners.com
@@ -132,6 +133,7 @@ export const Footer = () => {
                   <li className="mx-2 text-fluid text-nowrap">
                     <a
                       href="tel:2348094818883"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       {" "}
@@ -140,6 +142,7 @@ export const Footer = () => {
                     |{" "}
                     <a
                       href="tel:23408094818882"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       080 9481 8882
@@ -374,6 +377,7 @@ export const Footer = () => {
                   </Link>
                   <a
                     href="mailto:info@8thgearpartners.com"
+                    target="_blank"
                     className="mx-1 text-fluid2  emailLink"
                   >
                     info@8thgearpartners.com
@@ -382,6 +386,7 @@ export const Footer = () => {
                   <li className="mx-1 text-fluid2 text-nowrap">
                     <a
                       href="tel:2348094818883"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       {" "}
@@ -390,6 +395,7 @@ export const Footer = () => {
                     |{" "}
                     <a
                       href="tel:23408094818882"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       080 9481 8882
@@ -492,6 +498,7 @@ export const Footer = () => {
                   </p>
                   <a
                     href="mailto:info@8thgearpartners.com"
+                    target="_blank"
                     className="my-3  text-nowrap  emailLink text-fluid3"
                   >
                     info@8thgearpartners.com
@@ -499,6 +506,7 @@ export const Footer = () => {
                   <p className="my-3 text-nowrap text-fluid3">
                     <a
                       href="tel:2348094818883"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       {" "}
@@ -507,6 +515,7 @@ export const Footer = () => {
                     <br></br>{" "}
                     <a
                       href="tel:23408094818882"
+                      target="_blank"
                       className="footerTextDecoration"
                     >
                       080 9481 8882
@@ -595,31 +604,40 @@ export const FooterIcon = () => {
       <ul className=" ">
         <li className="mx-1 d-flex justify-content-center footerIcon">
           <div>
-            <a href="https://www.facebook.com/8thgearpartners">
+            <a href="https://www.facebook.com/8thgearpartners" target="_blank">
               <i className="bi bi-facebook mx-2 text-dark"></i>
             </a>
           </div>
 
           <div>
-            <a href="https://www.instagram.com/8thgearpartners/">
+            <a
+              href="https://www.instagram.com/8thgearpartners/"
+              target="_blank"
+            >
               <i className="bi bi-instagram mx-2 text-dark"></i>
             </a>
           </div>
 
           <div>
-            <a href="https://www.linkedin.com/company/8thgearpartners/">
+            <a
+              href="https://www.linkedin.com/company/8thgearpartners/"
+              target="_blank"
+            >
               <i className="bi bi-linkedin mx-2 text-dark"></i>
             </a>
           </div>
 
           <div>
-            <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+            <a
+              href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+              target="_blank"
+            >
               <i className="bi bi-twitter mx-2 text-dark"></i>
             </a>
           </div>
 
           <div>
-            <a href="mailto:info@8thgearpartners.com">
+            <a href="mailto:info@8thgearpartners.com" target="_blank">
               <i class="bi bi-at text-dark"></i>
             </a>
           </div>

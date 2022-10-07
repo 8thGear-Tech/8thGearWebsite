@@ -243,7 +243,7 @@ const HowWeDoIt = () => {
             </p>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center mx-3">
+        <div className="row align-items-center justify-content-center mx-3 pt-5 pb-5">
           {" "}
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <ScaleUpIcon />

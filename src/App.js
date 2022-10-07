@@ -3,6 +3,8 @@ import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
+import Error404 from "./pages/error404";
+import ScrollToTop from "./components/scrollToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -51,57 +53,60 @@ import FAQ from "./pages/Insights/FAQ";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="our-model" element={<OurModelPage />} />
-        <Route path="portfolio" element={<PortfolioPage />} />
-        <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
-        <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
-        <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
-        <Route path="haven" element={<HavenPortfolioPage />} />
-        <Route path="project-delivery" element={<ProjectDeliveryPage />} />
-        <Route
-          path="project-delivery-gallery"
-          element={<ProjectDeliveryGalleryPage />}
-        />
-        <Route path="GIZ-employability-gallery" element={<GIZPage />} />
-        <Route path="piggery-training" element={<PiggeryTrainingPage />} />
-        <Route path="LSETF-gallery" element={<LSETFPage />} />
-        <Route
-          path="innkeeper-hackathon-gallery"
-          element={<InnkeeperHackathonGalleryPage />}
-        />
-        <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
-        <Route path="managed-services" element={<ManagedServicesPage />} />
-        <Route
-          path="digitalmarketing"
-          element={<ManagedServicesDigitalMarketing />}
-        />
-        <Route path="accounting" element={<ManagedServicesAccounting />} />
-        <Route path="legal" element={<ManagedServicesLegal />} />
-        <Route path="tech" element={<ManagedServicesTech />} />
-        <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        {/* <Route path="coworking" element={<CoWorking />} /> */}
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="our-model" element={<OurModelPage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
+          <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
+          <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
+          <Route path="haven" element={<HavenPortfolioPage />} />
+          <Route path="project-delivery" element={<ProjectDeliveryPage />} />
+          <Route
+            path="project-delivery-gallery"
+            element={<ProjectDeliveryGalleryPage />}
+          />
+          <Route path="GIZ-employability-gallery" element={<GIZPage />} />
+          <Route path="piggery-training" element={<PiggeryTrainingPage />} />
+          <Route path="LSETF-gallery" element={<LSETFPage />} />
+          <Route
+            path="innkeeper-hackathon-gallery"
+            element={<InnkeeperHackathonGalleryPage />}
+          />
+          <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
+          <Route path="managed-services" element={<ManagedServicesPage />} />
+          <Route
+            path="digitalmarketing"
+            element={<ManagedServicesDigitalMarketing />}
+          />
+          <Route path="accounting" element={<ManagedServicesAccounting />} />
+          <Route path="legal" element={<ManagedServicesLegal />} />
+          <Route path="tech" element={<ManagedServicesTech />} />
+          <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+          {/* <Route path="coworking" element={<CoWorking />} /> */}
 
-        <Route path="about" element={<AboutUs />} />
-        <Route path="team" element={<TeamPage />} />
-        <Route path="blog" element={<BlogPage />} />
-        {/* <Route path="faq" element={<FAQ />} /> */}
-        <Route path="events" element={<EventsPage />} />
-        <Route path="events-gallery" element={<EventsGalleryPage />} />
-        <Route path="demo-day" element={<DemoDayPage />} />
-        <Route path="founders-meetup" element={<FounderMeetupPage />} />
-        <Route
-          path="founders-meetup-gallery"
-          element={<FoundersMeetupGalleryPage />}
-        />
-        <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
-      </Routes>
+          <Route path="about" element={<AboutUs />} />
+          <Route path="team" element={<TeamPage />} />
+          <Route path="blog" element={<BlogPage />} />
+          {/* <Route path="faq" element={<FAQ />} /> */}
+          <Route path="events" element={<EventsPage />} />
+          <Route path="events-gallery" element={<EventsGalleryPage />} />
+          <Route path="demo-day" element={<DemoDayPage />} />
+          <Route path="founders-meetup" element={<FounderMeetupPage />} />
+          <Route
+            path="founders-meetup-gallery"
+            element={<FoundersMeetupGalleryPage />}
+          />
+          <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+          <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
+          <Route path="*" element={<Error404 />} />
+        </Routes>
 
-      <footer>
-        <Footer />
-      </footer>
+        <footer>
+          <Footer />
+        </footer>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

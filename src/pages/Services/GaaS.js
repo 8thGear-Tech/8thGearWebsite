@@ -32,11 +32,11 @@ const WhyChooseUs = () => {
             <StartIcon />
             <div className="card-body">
               <h5 className="card-title">Start</h5>
-              <p className="card-text">
+              {/* <p className="card-text">
                 {" "}
                 The Venture Studio model for entrepreneurship, combining
                 comapany building
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -50,11 +50,11 @@ const WhyChooseUs = () => {
 
             <div className="card-body">
               <h5 className="card-title">Build</h5>
-              <p className="card-text">
+              {/* <p className="card-text">
                 {" "}
                 The Venture Studio model for entrepreneurship, combining
                 comapany building
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -68,11 +68,11 @@ const WhyChooseUs = () => {
 
             <div className="card-body">
               <h5 className="card-title">Scale</h5>
-              <p className="card-text">
+              {/* <p className="card-text">
                 {" "}
                 The Venture Studio model for entrepreneurship, combining
                 comapany building
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -26,11 +26,11 @@ export const ManagedServicesHero = () => {
 const PortfolioHeroSingle = (props) => {
   const { title, text } = props;
   return (
-    <div className="container-fluid PortfolioHeroBg py-3 px-lg-5 px-md-5">
-      <div className="row my-lg-5 mx-lg-3 px-5 justify-content-center ">
+    <div className="container-fluid PortfolioHeroBg py-5 px-lg-5 px-md-5">
+      <div className="row my-lg-5 mx-lg-3 justify-content-center ">
         <div className="col-lg-8 d-none d-lg-block d-md-block d-sm-none">
           <h2 className="text-center pb-3">{title}</h2>
-          <p className="text-center ">{text}</p>
+          <p className="text-center porfolioParagraph">{text}</p>
           {/* <p className="text-center ">
             What makes 8thGear special is how much we:
           </p>
@@ -46,7 +46,7 @@ const PortfolioHeroSingle = (props) => {
         </div>
         <div className="col-lg-7 d-lg-none d-md-none d-sm-block d-xs-block">
           <h3 className="text-center">{title}</h3>
-          <p className="text-center ">{text}</p>
+          <p className="text-center porfolioParagraph">{text}</p>
           {/* <p className="text-center ">
             What makes 8thGear special is how much we:
           </p>
