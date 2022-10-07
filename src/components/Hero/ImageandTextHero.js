@@ -78,7 +78,7 @@ export const OurModelHero = () => {
         <div className="col-lg-8 col-md-8 col-sm-12 ">
           <h2 className="d-none d-lg-block d-md-block d-sm-block d-xs-none ms-5 heroTextColor">
             As a rule, we build only default-alive ventures by doing things that
-            don't scale so that we can have enduring ventures that scale.
+            scale so that we can have enduring ventures.
           </h2>
           {/* <h2 className="d-none d-sm-block d-md-block d-lg-none heroTextColor">
             As a rule, we build only default-alive ventures by doing things that
@@ -86,7 +86,7 @@ export const OurModelHero = () => {
           </h2> */}
           <h3 className="d-xs-block d-sm-none d-md-none d-lg-none heroTextColor">
             As a rule, we build only default-alive ventures by doing things that
-            don't scale so that we can have enduring ventures that scale.
+            scale so that we can have enduring ventures.
           </h3>
         </div>
       </div>

@@ -83,7 +83,7 @@ const WhyChooseUs = () => {
 
 const HowWeWork = () => {
   return (
-    <div className="container py-3">
+    <div className="container pt-2 mb-1">
       {" "}
       <h4 className="text-center my-5">How We Work</h4>
       <div className="row justify-content-center my-lg-5 my-sm-2">
@@ -127,7 +127,7 @@ const HowWeWork = () => {
             </div>
           </div>
         </div> */}
-        <div className="py-5 d-flex justify-content-center">
+        <div className="pt-5 d-flex justify-content-center">
           {" "}
           <BookaFreeSessionBtn />
         </div>

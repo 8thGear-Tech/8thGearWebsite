@@ -584,6 +584,11 @@ article h4 {
   font-size: 1.1rem;
 }
 
+.talkToUsText {
+  font-weight: 600;
+  color: #000;
+}
+
 .PrivacyAndPolicyHero {
   color: rgba(0, 0, 0, 0.9);
   background-color: #f7f7f7;

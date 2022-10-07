@@ -127,7 +127,7 @@ const SectionTwo = () => {
 };
 const SectionThree = () => {
   return (
-    <div className="container-fluid text-center p-5 SectionTwoBg mt-5">
+    <div className="container-fluid text-center px-5 pt-5 pb-3 SectionTwoBg mt-5">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <p className="textFont">
@@ -151,7 +151,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">GEAR UP</h4>
               <p className="card-text">
-                {" "}
                 Mentally and physically prepare for the journey ahead. Bringing
                 ideas to live is no small feat but it is a laudable one.
               </p>
@@ -175,7 +174,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">EVOLVE</h4>
               <p className="card-text">
-                {" "}
                 Be fluid and dynamic, ready to adjust to market demands while
                 offering value.
               </p>
@@ -199,7 +197,6 @@ const SectionThree = () => {
             <div className="card-body">
               <h4 className="card-title">ENGAGE</h4>
               <p className="card-text">
-                {" "}
                 Don't keep that idea under the bushel, actively engage customers
                 for feedback while shouting about it on the rooftop.
               </p>
@@ -208,6 +205,13 @@ const SectionThree = () => {
         </div>
       </div>
       <JoinTheStudioForm />
+      <a
+        href="https://calendly.com/inc-consults/15min?month=2022-10"
+        target="_blank"
+        className="text-decoration-none"
+      >
+        <p className="mt-3 talkToUsText">Or Talk to us</p>
+      </a>
       {/* <JointheStudioBtn /> */}
     </div>
   );
