@@ -108,27 +108,28 @@ export const SideBlogCard = () => {
 export const SingleSideBlogCard = (props) => {
   const { image, text, date } = props;
   return (
-    // <Card style={{ width: "auto" }}>
-    //   <Card.Img variant="right" src={image} />
-    //   <Card.Body>
-    //     <Card.Title>Card Title</Card.Title>
-    //     <Card.Text>{text}</Card.Text>
-    //     <Button variant="primary">Read More</Button>
-    //   </Card.Body>
-    // </Card>
     <>
-      <div class=" card my-4 ">
-        <div class="row ">
-          <div class="col-5">
-            <img src={image} class="  img-fluid" alt="..." />
-          </div>
-          <div className="col-7">
-            <h6 className="card-title  text-fluid1">{date}</h6>
-            <p className="card-text text-fluid2">{text}</p>
-            <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
-          </div>
+      {/* <div class=" card my-4 sideCardImg">
+        <div class="">
+          <Card.Img variant="top" src={image} className="" />
         </div>
-      </div>
+        <div className="">
+          <h6 className="card-title  text-fluid1">{date}</h6>
+          <p className="card-text text-fluid2">{text}</p>
+          <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
+        </div>
+      </div> */}
+
+      <Card className=" card  sideCardImg mb-3">
+        <Card.Img variant="top" src={image} className="" />
+        <div className="sidecard-date-text ">{date}</div>
+        <Card.Body className="text-center">
+          <Card.Text>{text}</Card.Text>
+        </Card.Body>
+        <div className="text-center">
+          <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
+        </div>
+      </Card>
     </>
   );
 };

@@ -1,5 +1,10 @@
 @use "../colors" as *;
 
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
 .ul_top_hypers {
   display: flex;
   justify-content: flex-end;
@@ -41,7 +46,7 @@
   width: 4.2vw;
 }
 .footerLogo2 {
-  width: 4.7vw;
+  width: 3rem;
 }
 
 .footerText {
@@ -51,13 +56,18 @@
   line-height: 1.75rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
+  @media only screen and (max-width: $laptop) {
+    font-size: 0.75rem;
+  }
 }
 .icons-for-footer {
   display: flex;
 }
 
 .footerIcon {
-  list-style-type: none;
+  @media only screen and (max-width: $laptop) {
+    font-size: 0.75rem;
+  }
 }
 .footerFormField {
   outline: none;
@@ -67,8 +77,9 @@
 .hrForBigScreen {
   width: 17vw;
 }
+
 .firstSignUp {
-  font-size: 1.1vw;
+  // font-size: 1.1vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -93,48 +104,77 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid2 {
-  font-size: 1.4vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid3 {
-  font-size: 0.9rem;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-li {
-  list-style-type: none;
-}
 .footerTextDecoration {
   text-decoration: none;
   color: $prytextcolor;
 }
-<<<<<<< HEAD
 .inputSizing {
   width: 18rem;
   height: 4.5rem;
 }
 .subscributton {
   // color: $prytextcolor;
-  border: 2px solid $InstagramBtn;
+  border: 2px solid $InstagramBtn !important;
   border-radius: 5px;
-  padding: 5px 5px;
+  // padding: 5px 5px;
 }
 .subscributton:hover {
-  background-color: $InstagramBtn;
-=======
+  background-color: $InstagramBtn !important;
+}
 .addressText {
   color: $btncolor;
->>>>>>> da0b46f14d0a96d6ea938fbe10478680d98e186e
+}
+
+.text-fluid3 {
+  font-size: 0.75rem;
+}
+.signupText {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: $laptop) {
+  .text-fluid3 {
+    font-size: 0.75rem;
+  }
+  .signupText {
+    font-size: 0.7rem;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    .text-fluid3 {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media only screen and (max-width: $phone) {
+    .signupText {
+      font-size: 2rem;
+
+      .text-fluid3 {
+        font-size: 0.8rem;
+      }
+
+      .footer__icons {
+        padding-left: 0rem !important;
+        padding-left: 0rem;
+      }
+
+      .remove__ml {
+        margin-left: 0rem !important;
+        padding-left: 0rem !important;
+      }
+
+      ul.listStyling {
+        list-style-type: none !important;
+        padding-left: 0rem !important;
+        margin-left: 0rem !important;
+      }
+    }
+
+    .listStyling > li {
+      list-style-type: none !important;
+      padding-left: 0rem !important;
+      margin-left: 0rem !important;
+    }
+  }
 }

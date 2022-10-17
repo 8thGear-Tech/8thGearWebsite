@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
-// import { Button } from "./Styles";
 
-const ScrollButton = () => {
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+export const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 200) {
+    if (scrolled > 300) {
       setVisible(true);
-    } else if (scrolled <= 200) {
+    } else if (scrolled <= 300) {
       setVisible(false);
     }
   };
@@ -34,4 +36,14 @@ const ScrollButton = () => {
   );
 };
 
-export default ScrollButton;
+export function GoToTop() {
+  const routePath = useLocation();
+  const onTop = () => {
+    window.scrollTo(0, 0);
+  };
+  useEffect(() => {
+    onTop();
+  }, [routePath]);
+
+  return null;
+}

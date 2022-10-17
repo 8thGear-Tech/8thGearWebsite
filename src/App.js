@@ -48,13 +48,13 @@ import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
-import ScrollButton from "./components/Buttons/scrollToTop";
+import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="our-model" element={<OurModelPage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
         <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
@@ -104,7 +104,6 @@ function App() {
       <footer>
         <Footer />
         <ScrollButton />
-        <ManagedServicesRequestForm />
       </footer>
     </BrowserRouter>
   );

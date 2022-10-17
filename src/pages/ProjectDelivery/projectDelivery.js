@@ -17,7 +17,7 @@ import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
-import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
+// import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
 import logo from "../../assets/images/logo.png";
 
@@ -62,7 +62,7 @@ const Competencies = () => {
         <RequestForProposalBtn />
       </div> */}
       <div className="py-5 d-flex justify-content-center">
-        <ProjectDeliveryRequestForm />
+        {/* <ProjectDeliveryRequestForm /> */}
       </div>
     </div>
   );

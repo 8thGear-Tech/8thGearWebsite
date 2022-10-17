@@ -1,11 +1,13 @@
+@use "../../colors" as *;
+
 .scrolltotopBtn {
   position: fixed;
   width: 100%;
-  left: 45%;
-  bottom: 40px;
+  left: 47%;
+  bottom: 225px;
   height: 20px;
   font-size: 3rem;
   z-index: 1;
   cursor: pointer;
-  color: green;
+  color: $managedservicesbordercolor1;
 }
