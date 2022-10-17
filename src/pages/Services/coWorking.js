@@ -4,6 +4,8 @@ import { Navbar8 } from "../../components/Navbar";
 import { CoworkingTestimonial } from "../../components/AllCards/TestimonialCards";
 // import Image from "../../assets/images/Rectangle4344.png";
 import { CoworkingHero } from "../../components/Hero/ImageandTextHero";
+// import Photo from "../../assets/images/Group .png";
+import { BookNowBtn } from "../../components/Buttons/ServicesBtn";
 
 const CoWorking = () => {
   return (
@@ -18,6 +20,11 @@ const CoWorking = () => {
         </p>
       </div>
       <div className="purple">
+        <div className="text-align-right">
+          <h3> The Gears You Require </h3>
+        </div>
+        {/* <h5 className="Gear"> </h5> */}
+        <BookNowBtn />
         <div className="all">
           <div className="grid1 mt-5">
             <div className="c1-element1">
@@ -99,9 +106,8 @@ const CoWorking = () => {
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pinish">
-                <i class="bi bi-check-circle"></i>
-              </td>
+              <td className="Pin"></td>
+              <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
               <td className="finish">
@@ -113,7 +119,7 @@ const CoWorking = () => {
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pinish"></td>
+              <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
@@ -127,10 +133,10 @@ const CoWorking = () => {
                 <i class="bi bi-check-circle"></i>
               </td>
               <td className="Pin"></td>
-              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
+              <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
@@ -138,6 +144,8 @@ const CoWorking = () => {
                 <p>Meeting Room(1hr free per month)</p>
               </td>
 
+              <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
@@ -151,12 +159,11 @@ const CoWorking = () => {
               </td>
               <td className="Pin"></td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pin">
-                <i class="bi bi-check-circle"></i>
-              </td>
+              <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
@@ -165,15 +172,12 @@ const CoWorking = () => {
               </td>
               <td className="Pin"></td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pin">
-                <i class="bi bi-check-circle"></i>
-              </td>
-              <td className="Pinish">
-                <i class="bi bi-check-circle"></i>
-              </td>
+              <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
               <td className="finish">
@@ -182,10 +186,11 @@ const CoWorking = () => {
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
@@ -195,10 +200,11 @@ const CoWorking = () => {
               </td>
               <td className="Pin"> </td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
@@ -207,15 +213,12 @@ const CoWorking = () => {
               </td>
               <td className="Pin"></td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
-              <td className="Pin">
-                <i class="bi bi-check-circle"></i>
-              </td>
-              <td className="Pinish">
-                <i class="bi bi-check-circle"></i>
-              </td>
+              <td className="Pin"></td>
+              <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
               <td className="finish">
@@ -225,6 +228,7 @@ const CoWorking = () => {
               <td className="Pin">
                 <i class="bi bi-check-circle"></i>
               </td>
+              <td className="Pin"></td>
               <td className="Pin"></td>
               <td className="Pin"></td>
               <td className="Pinish"></td>
@@ -241,6 +245,7 @@ const CoWorking = () => {
               </td>
               <td className="Pin"></td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pinish"></td>
             </tr>
             <tr className="Pinner">
@@ -251,12 +256,66 @@ const CoWorking = () => {
               <td className="Pin"></td>
               <td className="Pin"></td>
               <td className="Pin"></td>
+              <td className="Pin"></td>
               <td className="Pinish"></td>
+            </tr>
+            <tr className="Pinner">
+              <td className="finish">
+                <p> Personalized Schedule</p>
+              </td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pinish">
+                <i class="bi bi-check-circle"></i>
+              </td>
+            </tr>
+            <tr className="Pinner">
+              <td className="finish">
+                <p>Access to exhibition floor</p>
+              </td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pinish">
+                <i class="bi bi-check-circle"></i>
+              </td>
+            </tr>
+            <tr className="Pinner">
+              <td className="finish">
+                <p> Featured Speaker</p>
+              </td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pinish">
+                <i class="bi bi-check-circle"></i>
+              </td>
+            </tr>
+            <tr className="Pinner">
+              <td className="finish">
+                <p> Opening and closing parties</p>
+              </td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pin"></td>
+              <td className="Pinish">
+                <i class="bi bi-check-circle"></i>
+              </td>
             </tr>
             <tr>
               <td className="finish">Amount</td>
               <td className="Pin">₦3,000</td>
               <td className="Pin">₦10,000</td>
+              <td className="Pin">₦60,000 (6 months)</td>
               <td className="Pin">₦35,000</td>
               <td className="Pin">₦10,000</td>
               <td className="Pinish">₦3,000</td>
