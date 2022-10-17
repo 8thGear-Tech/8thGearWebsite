@@ -18,7 +18,7 @@
 }
 .blogCategory {
   position: fixed;
-  width: 100%;
+  width: 96%;
 }
 
 .blogPagE {
@@ -44,4 +44,16 @@
   color: var(--white);
   line-height: 1.3rem;
   font-family: "Open Sans", sans-serif;
+}
+.sideBlogCards {
+  width: 20rem;
+}
+
+.sideCardImg {
+  // border-radius: 5rem;
+  box-shadow: 0 3px 3px 3px rgba(150, 170, 180, 0.5);
+}
+.sidecard-date-text {
+  font-size: 0.7rem;
+  font-weight: 100;
 }

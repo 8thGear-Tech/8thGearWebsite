@@ -427,3 +427,7 @@ export const EvolveIcon = () => {
 export const EngageIcon = () => {
   return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
 };
+
+export const ArrowUpIcon = () => {
+  return <i class="bi bi-arrow-up-square"></i>;
+};

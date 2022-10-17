@@ -23,7 +23,7 @@
 
 .blogCategory {
   position: fixed;
-  width: 100%;
+  width: 96%;
 }
 
 .blogPagE {
@@ -52,6 +52,19 @@
   color: var(--white);
   line-height: 1.3rem;
   font-family: "Open Sans", sans-serif;
+}
+
+.sideBlogCards {
+  width: 20rem;
+}
+
+.sideCardImg {
+  box-shadow: 0 3px 3px 3px rgba(150, 170, 180, 0.5);
+}
+
+.sidecard-date-text {
+  font-size: 0.7rem;
+  font-weight: 100;
 }
 
 .manageSvcard {
@@ -585,7 +598,7 @@ article h4 {
 }
 
 .talkToUsText {
-  font-weight: 600;
+  font-weight: 400;
   color: #000;
 }
 
@@ -1114,6 +1127,19 @@ article h4 {
   background: #ffffff;
   border: 1px solid #821e6b;
   border-radius: 30px;
+}
+
+.form-control {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.dropdownFont {
+  font-size: 0.8rem;
+}
+
+.selectoptionform {
+  font-weight: 700;
 }
 
 .NavBar {
@@ -1998,7 +2024,7 @@ video {
 }
 
 .footerLogo2 {
-  width: 4.7vw;
+  width: 3rem;
 }
 
 .footerText {
@@ -2009,13 +2035,20 @@ video {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
+@media only screen and (max-width: 1024px) {
+  .footerText {
+    font-size: 0.75rem;
+  }
+}
 
 .icons-for-footer {
   display: flex;
 }
 
-.footerIcon {
-  list-style-type: none;
+@media only screen and (max-width: 1024px) {
+  .footerIcon {
+    font-size: 0.75rem;
+  }
 }
 
 .footerFormField {
@@ -2029,7 +2062,6 @@ video {
 }
 
 .firstSignUp {
-  font-size: 1.1vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -2058,40 +2090,76 @@ video {
   font-family: "Open Sans", sans-serif;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid2 {
-  font-size: 1.4vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid3 {
-  font-size: 0.9rem;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-li {
-  list-style-type: none;
-}
-
 .footerTextDecoration {
   text-decoration: none;
   color: #000;
+}
+
+.inputSizing {
+  width: 18rem;
+  height: 4.5rem;
+}
+
+.subscributton {
+  border: 2px solid rgb(216, 43, 117) !important;
+  border-radius: 5px;
+}
+
+.subscributton:hover {
+  background-color: rgb(216, 43, 117) !important;
 }
 
 .addressText {
   color: #821e6b;
 }
 
+.text-fluid3 {
+  font-size: 0.75rem;
+}
+
+.signupText {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-fluid3 {
+    font-size: 0.75rem;
+  }
+  .signupText {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 1024px) and (max-width: 768px) {
+  .text-fluid3 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1024px) and (max-width: 480px) {
+  .signupText {
+    font-size: 2rem;
+  }
+  .signupText .text-fluid3 {
+    font-size: 0.8rem;
+  }
+  .signupText .footer__icons {
+    padding-left: 0rem !important;
+    padding-left: 0rem;
+  }
+  .signupText .remove__ml {
+    margin-left: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  .signupText ul.listStyling {
+    list-style-type: none !important;
+    padding-left: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .listStyling > li {
+    list-style-type: none !important;
+    padding-left: 0rem !important;
+    margin-left: 0rem !important;
+  }
+}
 .DigitalMarketingSection {
   border: 1px solid #03a062;
 }
@@ -2220,6 +2288,18 @@ li {
 
 .Acc {
   color: black;
+}
+
+.scrolltotopBtn {
+  position: fixed;
+  width: 100%;
+  left: 47%;
+  bottom: 225px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #03a062;
 }
 
 header {

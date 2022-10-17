@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 import Error404 from "./pages/error404";
-import ScrollToTop from "./components/scrollToTop";
+import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -48,12 +48,14 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
-// import Footer from "./components/Footer";
+import { Popupmodal } from "./components/Footer";
+import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop>
+      <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="our-model" element={<OurModelPage />} />
@@ -84,7 +86,7 @@ function App() {
           <Route path="legal" element={<ManagedServicesLegal />} />
           <Route path="tech" element={<ManagedServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-          {/* <Route path="coworking" element={<CoWorking />} /> */}
+          <Route path="coworking" element={<CoWorking />} />
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />
@@ -105,8 +107,13 @@ function App() {
 
         <footer>
           <Footer />
+          <ScrollButton />
         </footer>
-      </ScrollToTop>
+      </FooterItemToTop>
+      {/* <footer>
+        <Footer />
+        <ScrollButton />
+      </footer> */}
     </BrowserRouter>
   );
 }

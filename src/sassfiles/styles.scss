@@ -18,7 +18,7 @@
 @use "../sassfiles/components/hero/bgColorandTextHero" as *;
 @use "../sassfiles/components/buttons/contactBtn" as *;
 @use "../sassfiles/components/buttons/eventsBtn" as *;
-// @use "../sassfiles/components/allCards/MediaCards";s
+// @use "../sassfiles/components/allCards/MediaCards";
 // @use "../sassfiles/components/allCards/MediaCards";
 @use "../sassfiles/components/allCards/MediaCards";
 @use "../sassfiles/components/individualPortfolioInfo";
@@ -54,5 +54,6 @@
 @use "./components/allCards/triggeredCards";
 // @use "../sassfiles/components/hero/imageandTextHero";
 @use "./pages/insights/FAQ";
+@use "./components/buttons/scrollToTop";
 @use "./components/blogPost";
 @use "./pages/events/demoDay";
