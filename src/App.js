@@ -36,7 +36,7 @@ import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
-// import CoworkingSpaceForm from "./components/Forms/ServicesForms";
+import CoworkingSpaceForm from "./components/Forms/ServicesForms";
 import ControlledInputs from "./components/Forms/ServicesForms";
 import { JoinTheStudioForm } from "./components/Forms";
 
@@ -135,7 +135,7 @@ function App() {
         <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} />
         <Route path="USADF-gallery" element={<USADFGalleryPage />} />
         {/* <Route path="pop-up" element={<EightgeariansPopUpCard1 />} /> */}
-        {/* <Route path="CoworkingSpaceForm" element={<CoworkingSpaceForm />} /> */}
+        <Route path="CoworkingSpaceForm" element={<CoworkingSpaceForm />} />
         <Route path="media" element={<GalleryCards />} />
         <Route path="media" element={<GalleryVideoCards />} />
 
@@ -171,7 +171,7 @@ function App() {
       {/* <footer>
         <Footer />
       </footer> */}
-      {/* <CoworkingSpaceForm /> */}
+      <CoworkingSpaceForm />
       {/* <ControlledInputs /> */}
       {/* <JoinTheStudioForm /> */}
     </BrowserRouter>

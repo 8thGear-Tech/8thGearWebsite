@@ -15,7 +15,10 @@ const CoworkingSpaceForm = () => {
   const [natureOfBusiness, setNatureOfBusiness] = useState("");
   const [website, setWebsite] = useState("");
   const [durationQuantity, setDurationQuantity] = useState("");
-  // const [GroupSelect, setGroupSelect] = useState("");
+  const [servicesOfInterest, setServicesOfInterest] = useState("");
+  const [requiredDurationUnit, setRequiredDurationUnit] = useState("");
+  const [optionalAddOnServices, setOptionalAddOnServices] = useState("");
+  const [howDidYouHearAboutUs, setHowDidYouHearAboutUs] = useState("");
   const [date, setdate] = useState("");
 
   const [people, setPeople] = useState([]);
@@ -31,7 +34,11 @@ const CoworkingSpaceForm = () => {
       natureOfBusiness &&
       website &&
       durationQuantity &&
-      date
+      servicesOfInterest &&
+      requiredDurationUnit &&
+      date &&
+      optionalAddOnServices &&
+      howDidYouHearAboutUs
     ) {
       const person = {
         name,
@@ -43,6 +50,10 @@ const CoworkingSpaceForm = () => {
         website,
         durationQuantity,
         date,
+        servicesOfInterest,
+        requiredDurationUnit,
+        optionalAddOnServices,
+        howDidYouHearAboutUs,
       };
       console.log(person);
       setPeople((people) => {
@@ -58,6 +69,10 @@ const CoworkingSpaceForm = () => {
       setWebsite("");
       setDurationQuantity("");
       setPeople("");
+      setServicesOfInterest("");
+      setRequiredDurationUnit("");
+      setOptionalAddOnServices("");
+      setHowDidYouHearAboutUs("");
     } else {
       alert("empty values");
     }
@@ -217,37 +232,46 @@ const CoworkingSpaceForm = () => {
                     <label class="input-group-text" for="inputGroupSelect">
                       Services of interest
                     </label>
-                    <select class="form-select" id="inputGroupSelect">
+                    <select
+                      class="form-select"
+                      id="inputGroupSelect"
+                      value={servicesOfInterest}
+                      onChange={(e) => setServicesOfInterest(e.target.value)}
+                    >
                       <option selected>Choose...</option>
-                      <option value="1">
+                      <option
+                        value="1Dedicated Desk(per month) - 35,000[10% discount for
+                        every additional team member]"
+                      >
                         Dedicated Desk(per month) - 35,000[10% discount for
                         every additional team member]
                       </option>
-                      <option value="3">
+                      <option value="Training Room(20 persons)(per hour) - N10,000">
                         Training Room(20 persons)(per hour) - N10,000
                       </option>
-                      <option value="2">
+                      <option value="Virtual office plus(per month) - N20,0002">
                         Virtual office plus(per month) - N20,000
                       </option>
-                      <option value="4">Hotdesk(per week) - N12,000</option>
-                      <option value="5">Hotdesk(per day) - N3,000</option>
-                      <option value="5">Other : </option>
+                      <option value="Hotdesk(per week) - N12,000">
+                        Hotdesk(per week) - N12,000
+                      </option>
+                      <option value="Hotdesk(per day) - N3,000">
+                        Hotdesk(per day) - N3,000
+                      </option>
+                      <option value="Other">Other : </option>
                     </select>
                   </div>
 
-                  <div className="mb-3 ">
-                    <label
-                      for="InputdurationQuantity"
-                      className="form-label"
-                    ></label>
+                  <div className="mb-3 mt-5 ">
+                    <label for="InputdurationQuantity" className="form-label">
+                      Required Duration:how many hours,days,weeks or months?
+                    </label>
 
                     <input
                       type="text"
                       className="form-control border-primary"
                       id="InputdurationQuantity"
-                      aria-describedby="titleHelp"
                       value={durationQuantity}
-                      placeholder="Required Duration:how many hours,days,weeks or months?"
                       onChange={(e) => setDurationQuantity(e.target.value)}
                     />
                   </div>
@@ -256,11 +280,17 @@ const CoworkingSpaceForm = () => {
                     <label class="input-group-text" for="inputGroupSelect">
                       Required Duration Unit
                     </label>
-                    <select class="form-select" id="inputGroupSelect">
+
+                    <select
+                      class="form-select"
+                      id="inputGroupSelect"
+                      value={requiredDurationUnit}
+                      onChange={(e) => setRequiredDurationUnit(e.target.value)}
+                    >
                       <option selected>Choose...</option>
-                      <option value="1">Hours</option>
-                      <option value="2">Weeks</option>
-                      <option value="3">Months</option>
+                      <option value="Hours">Hours</option>
+                      <option value="Weeks">Weeks</option>
+                      <option value="Months">Months</option>
                     </select>
                   </div>
 
@@ -282,22 +312,35 @@ const CoworkingSpaceForm = () => {
                     <label class="input-group-text" for="inputGroupSelect01">
                       Optional Add-on services
                     </label>
-                    <select class="form-select" id="inputGroupSelect01">
+                    <select
+                      class="form-select"
+                      id="inputGroupSelect01"
+                      value={optionalAddOnServices}
+                      onChange={(e) => setOptionalAddOnServices(e.target.value)}
+                    >
                       <option selected>Choose...</option>
-                      <option value="1">Growth strategy & execution</option>
-                      <option value="2">Recruitment support service</option>
-                      <option value="3">
+                      <option value="Growth strategy & execution">
+                        Growth strategy & execution
+                      </option>
+                      <option value="Recruitment support service">
+                        Recruitment support service
+                      </option>
+                      <option value="Voice-overs,photography & videography">
                         Voice-overs,photography & videography
                       </option>
-                      <option value="4">Website Development</option>
-                      <option value="5">Online Marketing Support</option>
-                      <option value="6">
+                      <option value="Website Development">
+                        Website Development
+                      </option>
+                      <option value="Online Marketing Support">
+                        Online Marketing Support
+                      </option>
+                      <option value="Business Advisory services(incubation)">
                         Business Advisory services(incubation)
                       </option>
-                      <option value="7">
+                      <option value="Virtual receptionist/customer service set-up management">
                         Virtual receptionist/customer service set-up management
                       </option>
-                      <option value="8">others</option>
+                      <option value="others">others</option>
                     </select>
                   </div>
 
@@ -305,16 +348,23 @@ const CoworkingSpaceForm = () => {
                     <label class="input-group-text" for="inputGroupSelect01">
                       How did you hear about us?
                     </label>
-                    <select class="form-select" id="inputGroupSelect01">
+                    <select
+                      class="form-select"
+                      id="inputGroupSelect01"
+                      value={howDidYouHearAboutUs}
+                      onChange={(e) => setHowDidYouHearAboutUs(e.target.value)}
+                    >
                       <option selected>Choose...</option>
-                      <option value="1">Linked in</option>
-                      <option value="2">Instagram</option>
-                      <option value="3">Whatsapp</option>
-                      <option value="3">Facebook</option>
-                      <option value="3">Twitter</option>
-                      <option value="3">Tik tok</option>
-                      <option value="3">Friends and family</option>
-                      <option value="3">others</option>
+                      <option value="Linked in">Linked in</option>
+                      <option value="Instagram">Instagram</option>
+                      <option value="Whatsapp">Whatsapp</option>
+                      <option value="Facebook">Facebook</option>
+                      <option value="Twitter">Twitter</option>
+                      <option value="Tik-tok">Tik tok</option>
+                      <option value="Friends and family">
+                        Friends and family
+                      </option>
+                      <option value="others">others</option>
                     </select>
                   </div>
 

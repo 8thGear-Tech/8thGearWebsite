@@ -319,8 +319,8 @@ export const SinglegalleryVideoCards = (props) => {
       <div class="responsive-iframe">
         <iframe
           src={video}
-          width="400"
-          height="600"
+          width="500"
+          height="500"
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen
@@ -333,11 +333,11 @@ export const SinglegalleryVideoCards = (props) => {
 export const GalleryVideoCards = () => {
   return (
     <>
-      <div className="row justify-content-center m-3 p-4 ">
+      <div className="row justify-content-center m-3 p-3 ">
         {gallerycardsData.galleryvideocards.map((items) => {
           return (
             <>
-              <div className="col-md-4" key={items.id}>
+              <div className="col-md-4 col-sm-12" key={items.id}>
                 <SinglegalleryVideoCards {...items} />
               </div>
             </>
@@ -367,11 +367,11 @@ export const SinglegalleryVideo = (props) => {
   const { video, id } = props;
   return (
     <>
-      <div class="responsive-iframe md-5">
+      <div className="responsive-iframe md-5  ">
         <iframe
           src={video}
-          width="400"
-          height="400"
+          className="w-100  "
+          height="300"
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen
