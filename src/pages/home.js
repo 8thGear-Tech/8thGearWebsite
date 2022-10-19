@@ -49,14 +49,14 @@ const SectionOne = () => {
         >
           Project Delivery
         </Link>
-        <Link
+        {/* <Link
           to="coworking"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
         >
           Project Delivery
-        </Link>
+        </Link> */}
         Company
       </p>
       {/* <div className="border-end"></div> */}
