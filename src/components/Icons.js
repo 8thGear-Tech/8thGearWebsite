@@ -382,12 +382,12 @@ export const CreationIcon = () => {
 };
 export const SpinOutIcon = () => {
   return (
-    <img src={spinout} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img src={spinout} style={{ maxWidth: "35%", maxHeight: "35%" }}></img>
   );
 };
 export const ScaleUpIcon = () => {
   return (
-    <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img src={scaleup} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
   );
 };
 // Team

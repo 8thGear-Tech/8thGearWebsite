@@ -21,7 +21,7 @@ const NavBar = (props) => {
               />
             </Link>
             {/* align-text-top */}
-            <h6 className="h6  mt-4 ">{heading}</h6>
+            <h5 className="mt-4 ">{heading}</h5>
             <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
               <a
                 className=" "

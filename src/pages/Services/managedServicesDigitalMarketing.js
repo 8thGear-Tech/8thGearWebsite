@@ -16,26 +16,26 @@ const managedServicesDigitalMarketing = () => {
     <>
       <Navbar5 />
       <ManagedDigitalMarketServicesHero />
-      <section className="p-5">
+      <section className="container-fluid py-4 px-4 DigitalMarketingSection managedServicesSection">
         {servicesData.digitalMarketing.map((props) => {
           const { id, title, textLeft, textRight } = props;
           return (
-            <div className="DigitalMarketingSection managedServicesSection ">
-              <div className="row py-3 ps-4">
-                <h3 className="">{title}</h3>
-              </div>
-              <div className="row d-flex justify-content-center px-4 ">
-                <div className="col-md-6 pe-4">
-                  <p className="">{textLeft}</p>
+            <div className="">
+              <div className="row py-3 justify-content-center">
+                <div className="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                  <h3 className="">{title}</h3> <p className="">{textLeft}</p>
                 </div>
+              </div>
+              {/* <div className="row d-flex justify-content-center px-5">
+                <div className="col-lg-12"></div>
                 <div className="col-md-6 ">
                   <p className="">{textRight}</p>
                 </div>
-              </div>
+              </div> */}
               {/* icons */}
               <div className="row d-flex justify-content-center">
                 {/* icon1 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
+                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center ">
                   <ContentMarketingIcon />
                   <p className="text-wrap">Content Creation</p>
                 </div>
@@ -45,7 +45,7 @@ const managedServicesDigitalMarketing = () => {
                   <p className="text-wrap">Copy Writing</p>
                 </div>
                 {/* icon3 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
+                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center ">
                   <EmailMarketingIcon />
                   <p className="text-wrap">Email Marketing</p>
                 </div>
@@ -55,7 +55,7 @@ const managedServicesDigitalMarketing = () => {
                   <p className="text-wrap">Influencer Marketing</p>
                 </div>
                 {/* icon5 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
+                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
                   <SearchEngineMarketingIcon />
                   <p className="text-wrap"> Search Engine Marketing</p>
                 </div>
@@ -65,7 +65,7 @@ const managedServicesDigitalMarketing = () => {
                   <p className="text-wrap"> Search Engine Optimization</p>
                 </div>
                 {/* icon7 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
+                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
                   <SocialMediaMarketingIcon />
                   <p className="text-wrap">Social Media Management</p>
                 </div>
@@ -77,9 +77,9 @@ const managedServicesDigitalMarketing = () => {
               </div>
 
               {/* button */}
-              <div className="text-center py-4 ">
+              {/* <div className="text-center py-4 ">
                 <ManagedServicesRequestForm />
-              </div>
+              </div> */}
             </div>
           );
         })}

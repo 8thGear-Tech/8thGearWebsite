@@ -62,18 +62,21 @@ const AboutDemoDay = () => {
         The entrepreneurs pitching only have a few minutes to convince the
         audience that they are onto something great. Starting with the problem
         they solve, moving on to their solution, business viability, and making
-        an investment request Therefore, founders have to be very concise in
+        an investment request. Therefore, founders have to be very concise in
         their efforts with a strong pitch and first impression.
       </p>
       <p className="">
         Before any demo day, there is an intensive 2-week Bootcamp where
         interested entrepreneurs are groomed for the big day. Are you interested
         in being one of our Venture Studio Businesses (VSB) ? or just pitching
-        to investors and other stakeholders on the 8thGear Demo Day? Do click
-        here to indicate your interest.
+        to investors and other stakeholders on the 8thGear Demo Day? Do click{" "}
+        <a href="" className="textLinkColor">
+          here
+        </a>{" "}
+        to indicate your interest.
       </p>
       <p className="">
-        8thgear hub has an independent venture studio that was set up to provide
+        8thGear Hub has an independent venture studio that was set up to provide
         hand-holding and support enterprise support for young people who are
         building amazing ventures in Nigeria and in Africa. At the root of what
         we want to achieve on our demo day is to encourage, motivate, and

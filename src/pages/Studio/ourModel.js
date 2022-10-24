@@ -157,7 +157,7 @@ const WhatWeDo = () => {
 };
 const HowWeDoIt = () => {
   return (
-    <div className="container-fluid px-4 py-5 ">
+    <div className="container-fluid px-4 py-5">
       <div className="row justify-content-center">
         <div className="col-lg-10 col-md-10 col-sm-12 col-xs-12 m-auto ">
           <div className="col d-lg-flex d-md-flex">
@@ -175,7 +175,7 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center mx-3">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-5">
             <IdeationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">

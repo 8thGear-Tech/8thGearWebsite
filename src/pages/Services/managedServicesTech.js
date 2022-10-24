@@ -59,9 +59,9 @@ const ManagedServicesTech = () => {
               </div>
 
               {/* button */}
-              <div className="text-center py-4 ">
+              {/* <div className="text-center py-4 ">
                 <ManagedServicesRequestForm />
-              </div>
+              </div> */}
             </div>
           );
         })}

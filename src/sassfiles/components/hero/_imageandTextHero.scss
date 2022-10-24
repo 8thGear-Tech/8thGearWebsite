@@ -75,6 +75,38 @@
 //   );
 // }
 
+.ManagedDigitalMarketServicesHero {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ManagedDigitalMarketServicesHero::before {
+  content: "";
+  background: url(/src/assets/images/hero/homehero.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+.ManagedDigitalMarketServicesHero h1 {
+  position: relative;
+}
+.ManagedDigitalMarketServicesHero h2 {
+  position: relative;
+}
 .homeHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -599,29 +631,29 @@
 // .ManagedServicesLegalHeroMobileView h4 {
 //   position: relative;
 // }
-.ManagedServicesLegalHero {
-  background: url(/src/assets/images/hero/legal.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-@media only screen and (max-width: 440px) {
-  .ManagedServicesLegalHero {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .ManagedServicesLegalHero {
-    height: 60vh;
-  }
-}
-.ManagedServicesLegalHero h2 {
-  position: relative;
-}
-.ManagedServicesLegalHero h3 {
-  position: relative;
-}
+// .ManagedServicesLegalHero {
+//   background: url(/src/assets/images/hero/legal.jpg);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   height: 100vh;
+// }
+// @media only screen and (max-width: 440px) {
+//   .ManagedServicesLegalHero {
+//     height: 50vh;
+//   }
+// }
+// @media only screen and (max-width: 575px) and (min-width: 441px) {
+//   .ManagedServicesLegalHero {
+//     height: 60vh;
+//   }
+// }
+// .ManagedServicesLegalHero h2 {
+//   position: relative;
+// }
+// .ManagedServicesLegalHero h3 {
+//   position: relative;
+// }
 
 // ManagedServicesLegalHero mobile view style end
 
@@ -684,6 +716,7 @@
     height: 60vh;
   }
 }
+
 .ManagedDigitalMarketServicesHero h2 {
   position: relative;
 }

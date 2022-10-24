@@ -75,39 +75,39 @@ const OurClients = () => {
       {/* <div className="row g-0"> */}
       <h3 className="text-center my-5">Our Partners</h3>
       <div className="row justify-content-center justify-content-evenly">
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
           <img
             src={gizlogo}
-            className="logo1 w-100"
+            className=""
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
           <img
             src={usadflogo}
-            className="logo1 w-100"
+            className="logo1 "
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
           <img
             src={lsetflogo}
-            className="logo1 w-75"
+            className="logo1"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 mt-2">
           <img
             src={s4plogo}
-            className="logo1 w-75"
+            className="logo1 px-3"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>{" "}
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6">
           <img
             src={itflogo}
-            className="logo1 w-50"
-            style={{ maxWidth: "65%", maxHeight: "100%" }}
+            className="logo1 px-5"
+            style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
         {/* <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">

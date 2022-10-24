@@ -114,6 +114,9 @@ function App() {
         <Footer />
         <ScrollButton />
       </footer> */}
+      {/* <CoworkingSpaceForm /> */}
+      {/* <ControlledInputs /> */}
+      {/* <JoinTheStudioForm /> */}
     </BrowserRouter>
   );
 }

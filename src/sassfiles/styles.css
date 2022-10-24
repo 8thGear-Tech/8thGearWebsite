@@ -7,16 +7,10 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  block-size: -webkit-fit-content;
-  block-size: -moz-fit-content;
-  block-size: fit-content;
 }
 
 .MainCard {
   width: 100%;
-  block-size: -webkit-fit-content;
-  block-size: -moz-fit-content;
-  block-size: fit-content;
   padding: 20px;
   position: absolute;
 }
@@ -985,6 +979,11 @@ article h4 {
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
+.galleryvideos {
+  width: 5rem;
+  max-height: 60rem;
+}
+
 .TractionsBg {
   background-color: #00a495;
 }
@@ -1077,6 +1076,10 @@ article h4 {
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
+.bookingform {
+  color: #ef00c0;
+}
+
 .center {
   text-align: center;
   width: auto;
@@ -1140,6 +1143,19 @@ article h4 {
 
 .selectoptionform {
   font-weight: 700;
+}
+
+.borderLine {
+  outline: none;
+  color: #821e6b;
+}
+
+.pink {
+  color: #ef00c0;
+}
+
+.option {
+  font-size: 20px !important;
 }
 
 .NavBar {
@@ -1378,6 +1394,33 @@ article h4 {
   width: 100vh;
 }
 */
+.ManagedDigitalMarketServicesHero {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.ManagedDigitalMarketServicesHero::before {
+  content: "";
+  background: url(/src/assets/images/hero/homehero.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.ManagedDigitalMarketServicesHero h1 {
+  position: relative;
+}
+
+.ManagedDigitalMarketServicesHero h2 {
+  position: relative;
+}
+
 .homeHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -1808,32 +1851,6 @@ article h4 {
   color: rgb(255, 255, 255);
 }
 
-.ManagedServicesLegalHero {
-  background: url(/src/assets/images/hero/legal.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-@media only screen and (max-width: 440px) {
-  .ManagedServicesLegalHero {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .ManagedServicesLegalHero {
-    height: 60vh;
-  }
-}
-.ManagedServicesLegalHero h2 {
-  position: relative;
-}
-
-.ManagedServicesLegalHero h3 {
-  position: relative;
-}
-
 .ManagedDigitalMarketServicesHero {
   background: url(/src/assets/images/hero/digitalmarketing.jpg);
   background-repeat: no-repeat;
@@ -2160,10 +2177,6 @@ video {
     margin-left: 0rem !important;
   }
 }
-.DigitalMarketingSection {
-  border: 1px solid #03a062;
-}
-
 .managedServicesSection {
   background-color: rgb(250, 248, 248);
 }
