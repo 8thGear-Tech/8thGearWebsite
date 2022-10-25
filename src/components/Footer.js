@@ -711,9 +711,9 @@ export const SubscribeForm = () => {
   };
   return (
     <>
-      <form class="d-flex mt-3" role="search" onSubmit={handleSubmit}>
+      <form className="d-flex mt-3" role="search" onSubmit={handleSubmit}>
         <input
-          class="form-control me-2"
+          className="form-control me-2"
           type="search"
           placeholder="EMAIL ADDRESS"
           aria-label="Search"
@@ -722,7 +722,7 @@ export const SubscribeForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button class="btn subscributton" type="submit">
+        <button className="btn subscributton" type="submit">
           Subscribe
         </button>
       </form>
