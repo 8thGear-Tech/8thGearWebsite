@@ -57,5 +57,31 @@
       "position": "ADVISOR PARTNERSHIP",
       "link": "https://linkedin.com/"
     }
+  ],
+  "ProjectDeliveryHoverCard": [
+    {
+      "id": 1,
+      "image": "../../images/projectdelivery/ecosystem.jpg",
+      "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
+      "link": "https://www.linkedin.com/in/seyi-bioku-870539116/"
+    },
+    {
+      "id": 2,
+      "image": "../../images/projectdelivery/ecosystem.jpg",
+      "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
+      "link": "https://www.linkedin.com/in/abimbola-adebakin-9a225013/"
+    },
+    {
+      "id": 3,
+      "image": "../../images/projectdelivery/training.jpg",
+      "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
+      "link": "https://linkedin.com/"
+    },
+    {
+      "id": 4,
+      "image": "../../images/projectdelivery/employability.jpg",
+      "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
+      "link": "https://www.linkedin.com/in/morenikeji-adebanjo-buari-fca-mba-acit-3b5b4172/"
+    }
   ]
 }

@@ -396,7 +396,7 @@ export const ScaleUpIcon = () => {
 //   return (
 //     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
 //     <div>
-//       <i class="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
+//       <i className="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
 //     </div>
 //   );
 // };
@@ -429,5 +429,5 @@ export const EngageIcon = () => {
 };
 
 export const ArrowUpIcon = () => {
-  return <i class="bi bi-arrow-up-square"></i>;
+  return <i className="bi bi-arrow-up-square"></i>;
 };

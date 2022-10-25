@@ -79,7 +79,7 @@ import React, { useState } from "react";
 //       </button>
 
 //       <div
-//         class="modal fade"
+//         className="modal fade"
 //         id="staticBackdrop"
 //         data-bs-backdrop="static"
 //         data-bs-keyboard="false"
@@ -87,9 +87,9 @@ import React, { useState } from "react";
 //         aria-labelledby="staticBackdropLabel"
 //         aria-hidden="true"
 //       >
-//         <div class="modal-dialog modal-md">
-//           <div class="modal-content">
-//             <div class="modal-header m-2">
+//         <div className="modal-dialog modal-md">
+//           <div className="modal-content">
+//             <div className="modal-header m-2">
 //               <img
 //                 src={logo}
 //                 width={40}
@@ -103,10 +103,10 @@ import React, { useState } from "react";
 //                 aria-label="Close"
 //               ></button>
 //             </div>
-//             <div class="modal-body">
+//             <div className="modal-body">
 //               <form onSubmit={Handle}>
 //                 <div className="background">
-//                   <h4 class=" request mb-4">Join The Studio</h4>
+//                   <h4 className=" request mb-4">Join The Studio</h4>
 
 //                   <div className="mb-3 ">
 //                     <label for="InputName" className="form-label"></label>
@@ -163,14 +163,14 @@ import React, { useState } from "react";
 //                       placeholder="Send a message"
 //                     ></textarea>
 //                   </div>
-//                   <div class="col-12 mb-3">
-//                     <div class="form-check">
+//                   <div className="col-12 mb-3">
+//                     <div className="form-check">
 //                       <input
-//                         class="form-check-input"
+//                         className="form-check-input"
 //                         type="checkbox"
 //                         id="gridCheck"
 //                       />
-//                       <label class="form-check-label" for="gridCheck">
+//                       <label className="form-check-label" for="gridCheck">
 //                         Click to Suscribe to our Newsletter
 //                       </label>
 //                     </div>
