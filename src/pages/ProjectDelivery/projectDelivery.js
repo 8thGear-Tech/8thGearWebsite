@@ -21,7 +21,6 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryCards } from "../../components/AllCards/TriggeredCards";
 // import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
 import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
-
 import logo from "../../assets/images/logo.png";
 
 const ProjectDeliveryPage = () => {
@@ -81,7 +80,7 @@ export const Competencies = () => {
           return (
             <div
               // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
-              className="col-lg-3 col-md-6 col-sm-12"
+              className="col-lg-4 col-md-6 col-sm-12"
               key={projectDeliveryHoverCard.id}
             >
               <ProjectDeliveryCards
@@ -102,39 +101,39 @@ const OurClients = () => {
       {/* <div className="row g-0"> */}
       <h3 className="text-center my-5">Our Partners</h3>
       <div className="row justify-content-center justify-content-evenly">
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
           <img
             src={gizlogo}
-            className=""
+            className="logo1 w-100"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
           <img
             src={usadflogo}
-            className="logo1 "
+            className="logo1 w-100"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-4">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
           <img
             src={lsetflogo}
-            className="logo1"
+            className="logo1 w-75"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 mt-2">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
           <img
             src={s4plogo}
-            className="logo1 px-3"
+            className="logo1 w-75"
             // style={{ maxWidth: "100%", maxHeight: "100%" }}
           ></img>
         </div>{" "}
-        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+        <div className="col-lg-2 col-md-4 col-sm-4 col-xs-6 my-auto">
           <img
             src={itflogo}
-            className="logo1 px-5"
-            style={{ maxWidth: "100%", maxHeight: "100%" }}
+            className="logo1 w-50"
+            style={{ maxWidth: "65%", maxHeight: "100%" }}
           ></img>
         </div>
         {/* <div className=" TextAlignCenter col-lg-3 col-md-6 col-sm-6 col-xs-6 my-3">
