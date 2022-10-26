@@ -11,7 +11,7 @@ import itflogo from "../../assets/images/projectdelivery/itflogo.png";
 import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
 import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
 import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
-// import Info from "../../data/advisory.json";
+import Info from "../../data/advisory.json";
 // import ProjectDeliveryPageHero from "../../components/Hero/ImageandTextHero";
 
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
@@ -29,7 +29,7 @@ const ProjectDeliveryPage = () => {
       <Navbar3 />
       <ProjectDeliveryHero />
       {/* <ProjectDeliveryCards /> */}
-      {/* <Competencies /> */}
+      <Competencies />
       <OurImpact />
       <OurClients />
       <SuccessStoryCards />
@@ -71,28 +71,28 @@ const ProjectDeliveryPage = () => {
 //   );
 // };
 
-// export const Competencies = () => {
-//   return (
-//     <div className="container-fluid">
-//       <h4 className="py-5 text-center">COMPETENCIES</h4>
-//       <div className="row">
-//         {Info.ProjectDeliveryHoverCard.map((projectDeliveryHoverCard) => {
-//           return (
-//             <div
-//               // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
-//               className="col-lg-3 col-md-6 col-sm-12"
-//               key={projectDeliveryHoverCard.id}
-//             >
-//               <ProjectDeliveryCards
-//                 {...projectDeliveryHoverCard}
-//               ></ProjectDeliveryCards>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
+export const Competencies = () => {
+  return (
+    <div className="container-fluid">
+      <h4 className="py-5 text-center">COMPETENCIES</h4>
+      <div className="row">
+        {Info.ProjectDeliveryHoverCard.map((projectDeliveryHoverCard) => {
+          return (
+            <div
+              // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
+              className="col-lg-3 col-md-6 col-sm-12"
+              key={projectDeliveryHoverCard.id}
+            >
+              <ProjectDeliveryCards
+                {...projectDeliveryHoverCard}
+              ></ProjectDeliveryCards>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 
 const OurClients = () => {
   return (

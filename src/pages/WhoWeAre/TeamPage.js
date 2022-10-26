@@ -2,9 +2,9 @@
 // import { TeamCard } from "../../components/AllCards/TeamCard";
 // import TeamsCard from "../components/AllCards/TeamCard";
 import data from "../../data/8thGerains.json";
-// import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
+import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
 import { Navbar11 } from "../../components/Navbar";
-// import { Gerians } from "../../components/AllCards/TeamCard";
+import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 import { OurTeamHero } from "../../components/Hero/BGColorandTextHero";
@@ -17,9 +17,9 @@ const TeamPage = () => {
       <Navbar11 />
       <TeamHero />
       {/* <OurTeamHero /> */}
-      {/* <Gerians /> */}
+      <Gerians />
       {/* <EIR /> */}
-      {/* <AdvisoryTeamPic /> */}
+      <AdvisoryTeamPic />
       <JointheTeam />
     </>
   );
