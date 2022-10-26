@@ -24,7 +24,7 @@ import { MemberFiveViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberSixViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberSevenViewBioBtn } from "../Buttons/ContactBtn";
 import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
-import Info from "../../data/advisory.json";
+// import Info from "../../data/advisory.json";
 import logo from "../../assets/images/logo.png";
 import linkedin from "../../assets/images/LinkedIn_icon.png";
 import { LinkedInIcon } from "../Icons";
@@ -1069,42 +1069,42 @@ const AdvisoryBoardCard = (props) => {
     // </div>
   );
 };
-export const AdvisoryTeamPic = () => {
-  return (
-    <div className="container ">
-      <div className="row d-flex justify-content-center mt-5">
-        <h3 className="text-center pt-5 pb-3">Advisory Board</h3>
-        {Info.FirstHoverCard.map((firstHoverCard) => {
-          return (
-            <div
-              className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
-              key={firstHoverCard.id}
-            >
-              <AdvisoryBoardOnHoverCard
-                {...firstHoverCard}
-              ></AdvisoryBoardOnHoverCard>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-    // <div className="container d-flex justify-content-center">
-    //   <div className="row text-center py-5">
-    //     <h4>ADVISORY BOARD</h4>
-    //     {Info.FirstHoverCard.map((firstHoverCard) => {
-    //       return (
-    //         <div
-    //           className="col-sm-12 col-md-6 col-lg-4 mt-5 mb-5 "
-    //           key={firstHoverCard.id}
-    //         >
-    //           <AdvisoryBoardOnHoverCard {...firstHoverCard} />
-    //         </div>
-    //       );
-    //     })}
-    //   </div>
-    // </div>
-  );
-};
+// export const AdvisoryTeamPic = () => {
+//   return (
+//     <div className="container ">
+//       <div className="row d-flex justify-content-center mt-5">
+//         <h3 className="text-center pt-5 pb-3">Advisory Board</h3>
+//         {Info.FirstHoverCard.map((firstHoverCard) => {
+//           return (
+//             <div
+//               className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
+//               key={firstHoverCard.id}
+//             >
+//               <AdvisoryBoardOnHoverCard
+//                 {...firstHoverCard}
+//               ></AdvisoryBoardOnHoverCard>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+// <div className="container d-flex justify-content-center">
+//   <div className="row text-center py-5">
+//     <h4>ADVISORY BOARD</h4>
+//     {Info.FirstHoverCard.map((firstHoverCard) => {
+//       return (
+//         <div
+//           className="col-sm-12 col-md-6 col-lg-4 mt-5 mb-5 "
+//           key={firstHoverCard.id}
+//         >
+//           <AdvisoryBoardOnHoverCard {...firstHoverCard} />
+//         </div>
+//       );
+//     })}
+//   </div>
+// </div>
+//   );
+// };
 
 // export const AdvisoryTeamPic = () => {
 //   return (
