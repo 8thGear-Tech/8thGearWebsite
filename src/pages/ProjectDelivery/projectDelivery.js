@@ -74,14 +74,14 @@ const ProjectDeliveryPage = () => {
 
 export const Competencies = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <h4 className="py-5 text-center">COMPETENCIES</h4>
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         {Info.ProjectDeliveryHoverCard.map((projectDeliveryHoverCard) => {
           return (
             <div
               // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
-              className="col-lg-3 col-md-6 col-sm-12"
+              className="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center"
               key={projectDeliveryHoverCard.id}
             >
               <ProjectDeliveryCards
