@@ -250,18 +250,20 @@ export const JoinTheStudioForm = () => {
 // SuggestAnEventform;
 const SuggestAnEventForm = () => {
   const [formData, setFormData] = useState({
-    email: "",
-    phoneNumber: "",
-    name: "",
+    fullName: "",
+    businessName: "",
+    emailAddress: "",
     idea: "",
+    aboutUs: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Email: " + formData.email);
-    console.log("phoneNumber: " + formData.phoneNumber);
-    console.log("name: " + formData.name);
-    console.log("Idea: " + formData.idea);
+    console.log("fullname: " + formData.fullName);
+    console.log("businesname: " + formData.businessName);
+    console.log("emailaddress: " + formData.emailAddress);
+    console.log("idea: " + formData.idea);
+    console.log("aboutus: " + formData.aboutUs);
   };
 
   return (
@@ -309,48 +311,110 @@ const SuggestAnEventForm = () => {
 
                   <div className="Vessel mb-3">
                     <input
-                      onChange={(e) =>
-                        setFormData({ ...formData, email: e.target.value })
-                      }
-                      value={formData.email}
-                      type="text"
-                      name="email"
-                      id="email"
-                      className="myInput form-control"
-                      placeholder="Email"
-                    ></input>
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      LinkedIn
+                    </label>
                   </div>
-
-                  <div className="Vessel mb-3">
+                  <div class="form-check">
                     <input
-                      onChange={(e) =>
-                        setFormData({
-                          ...formData,
-                          phoneNumber: e.target.value,
-                        })
-                      }
-                      value={formData.phoneNumber}
-                      type="text"
-                      name="phoneNumber"
-                      id="phoneNumber"
-                      className="myInput form-control"
-                      placeholder="Phone Number"
-                    ></input>
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios2"
+                      value="option2"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios2">
+                      Instagram
+                    </label>
                   </div>
-
-                  <div className="Vessel mb-3">
+                  <div class="form-check">
                     <input
-                      onChange={(e) =>
-                        setFormData({ ...formData, name: e.target.value })
-                      }
-                      value={formData.name}
-                      type="text"
-                      name="name"
-                      id="name"
-                      className="myInput form-control"
-                      placeholder="Name"
-                    ></input>
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios3"
+                      value="option3"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios3">
+                      WhatsApp
+                    </label>
                   </div>
+                  {/* <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios4"
+                        value="option4"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios4">
+                        Facebook
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios5"
+                        value="option5"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios5">
+                        Twitter
+                      </label>
+                    </div>
+                  </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios6"
+                        value="option6"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios6">
+                        TikTok
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios7"
+                        value="option7"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios7">
+                        Friends and Family
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios8"
+                        value="option8"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios8">
+                          Others
+                      </label>
+                    </div>
+                  </div> */}
 
                   <div className=" Vessel mb-3">
                     <label for="idea" className="form-label"></label>

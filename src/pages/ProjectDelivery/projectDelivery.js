@@ -53,47 +53,47 @@ const ProjectDeliveryPage = () => {
 //     </div>
 //   );
 // };
-// const Competencies = () => {
-//   return (
-//     <div className="container-fluid">
-//       <h4 className="py-5 text-center">COMPETENCIES</h4>
-//       <div className="row">
-//         {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
-//           return <ProjectDeliveryCard {...ProjectDeliveryImage} />;
-//         })}
-//       </div>
-//       {/* <div className="py-5 d-flex justify-content-center">
-//         <RequestForProposalBtn />
-//       </div> */}
-//       <div className="py-5 d-flex justify-content-center">
-//         {/* <ProjectDeliveryRequestForm /> */}
-//       </div>
-//     </div>
-//   );
-// };
-
-export const Competencies = () => {
+const Competencies = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <h4 className="py-5 text-center">COMPETENCIES</h4>
-      <div className="row d-flex justify-content-center">
-        {Info.ProjectDeliveryHoverCard.map((projectDeliveryHoverCard) => {
-          return (
-            <div
-              // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
-              className="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center"
-              key={projectDeliveryHoverCard.id}
-            >
-              <ProjectDeliveryCards
-                {...projectDeliveryHoverCard}
-              ></ProjectDeliveryCards>
-            </div>
-          );
+      <div className="row">
+        {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
+          return <ProjectDeliveryCard {...ProjectDeliveryImage} />;
         })}
+      </div>
+      {/* <div className="py-5 d-flex justify-content-center">
+        <RequestForProposalBtn />
+      </div> */}
+      <div className="py-5 d-flex justify-content-center">
+        {/* <ProjectDeliveryRequestForm /> */}
       </div>
     </div>
   );
 };
+
+// export const Competencies = () => {
+//   return (
+//     <div className="container">
+//       <h4 className="py-5 text-center">COMPETENCIES</h4>
+//       <div className="row d-flex justify-content-center">
+//         {Info.ProjectDeliveryHoverCard.map((projectDeliveryHoverCard) => {
+//           return (
+//             <div
+//               // className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center"
+//               className="col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center"
+//               key={projectDeliveryHoverCard.id}
+//             >
+//               <ProjectDeliveryCards
+//                 {...projectDeliveryHoverCard}
+//               ></ProjectDeliveryCards>
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </div>
+//   );
+// };
 
 const OurClients = () => {
   return (

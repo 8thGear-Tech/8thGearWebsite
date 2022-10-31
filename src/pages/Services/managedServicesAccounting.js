@@ -55,7 +55,7 @@ const ManagedServicesAccounting = () => {
 
               {/* button */}
               <div className="text-center py-4 ">
-                <ManagedServicesRequestForm />
+                {/* <ManagedServicesRequestForm /> */}
               </div>
             </div>
           );

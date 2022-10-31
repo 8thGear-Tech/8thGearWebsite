@@ -494,7 +494,7 @@ export const CoworkingTestimonial = () => {
       <div className="row">
         {data.cardData.map((card) => {
           return (
-            <div className="col-sm-12 col-md-12 col-lg-4" key={card.id}>
+            <div className="col-sm-12 col-md-4 col-lg-4" key={card.id}>
               <CoWorkingPageTestimonialCard
                 {...card}
               ></CoWorkingPageTestimonialCard>
