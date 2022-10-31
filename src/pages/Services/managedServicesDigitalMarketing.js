@@ -1,6 +1,7 @@
 import { WhatWeDoIcon } from "../../components/Icons";
 import { Navbar5 } from "../../components/Navbar";
 import servicesData from "../../data/managedServices.json";
+import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
 import { ContentMarketingIcon } from "../../components/Icons";
 import { CopyWritingIcon } from "../../components/Icons";
@@ -77,9 +78,10 @@ const managedServicesDigitalMarketing = () => {
               </div>
 
               {/* button */}
-              {/* <div className="text-center py-4 ">
-                <ManagedServicesRequestForm />
-              </div> */}
+              <div className="text-center py-4 ">
+                {/* <ManagedServicesRequestForm /> */}
+                <ManagedServicesRequestBtn />
+              </div>
             </div>
           );
         })}

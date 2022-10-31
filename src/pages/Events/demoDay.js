@@ -70,7 +70,11 @@ const AboutDemoDay = () => {
         interested entrepreneurs are groomed for the big day. Are you interested
         in being one of our Venture Studio Businesses (VSB) ? or just pitching
         to investors and other stakeholders on the 8thGear Demo Day? Do click{" "}
-        <a href="" className="textLinkColor">
+        <a
+          href="https://bit.ly/8thgearapplicationform"
+          className="textLinkColor"
+          target="_blank"
+        >
           here
         </a>{" "}
         to indicate your interest.
@@ -85,7 +89,11 @@ const AboutDemoDay = () => {
       </p>
       <p className="">
         Register{" "}
-        <a href="" className="textLinkColor">
+        <a
+          href="https://bit.ly/8thgearapplicationform"
+          className="textLinkColor"
+          target="_blank"
+        >
           here
         </a>{" "}
         to be part of our next demo day. Click{" "}

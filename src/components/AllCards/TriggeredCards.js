@@ -773,7 +773,7 @@ export const AdvisoryBoardOnHoverCard = (props) => {
 };
 
 export const ProjectDeliveryCards = (props) => {
-  const { image, text, link } = props;
+  const { image, title, text, link } = props;
   return (
     <>
       {/* <div className="containerm">
@@ -787,7 +787,9 @@ export const ProjectDeliveryCards = (props) => {
           backgroundImage: "url(" + image + ")",
         }}
       >
-        {" "}
+        <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
+          {title}
+        </p>{" "}
         {/* <img src={image} alt="" /> */}
         <h6 className="ProjectDeliveryName">{text}</h6>
         {/* <h6 className="AdvisoryPosition">{}</h6> */}

@@ -51,19 +51,19 @@ export const OnHoverReadMoreBtn = () => {
 export const ManagedServicesRequestBtn = () => {
   return (
     <>
-      {/* <a
+      <a
         href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
         target="_blank"
-      > */}
-      <button
-        type="button"
-        data-bs-toggle="modal"
-        data-bs-target="#myModal"
-        className="ManagedServicesRequestBtn"
       >
-        Request
-      </button>
-      {/* </a> */}
+        <button
+          // type="button"
+          // data-bs-toggle="modal"
+          // data-bs-target="#myModal"
+          className="ManagedServicesRequestBtn"
+        >
+          Request
+        </button>
+      </a>
     </>
   );
 };

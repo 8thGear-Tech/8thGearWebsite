@@ -798,7 +798,7 @@ export const FooterIcon = () => {
         </a>
 
         <a href="mailto:info@8thgearpartners.com" target="_blank">
-          <i class="bi bi-at text-dark"></i>
+          <i className="bi bi-at text-dark"></i>
         </a>
       </nav>
     </>
