@@ -775,18 +775,15 @@ export const FooterIcon = () => {
   return (
     <>
       <nav className="footer__icons remove__ml listStyling d-flex justify-content-md-center justify-content-sm-start">
-        <a href="https://www.facebook.com/8thgearpartners" target="_blank">
+        <a href="https://www.facebook.com/8thgearhub" target="_blank">
           <i className="bi bi-facebook me-2 text-dark footer__icons"></i>
         </a>
 
-        <a href="https://www.instagram.com/8thgearpartners/" target="_blank">
+        <a href="https://www.instagram.com/8thgearhub/" target="_blank">
           <i className="bi bi-instagram me-2 text-dark"></i>
         </a>
 
-        <a
-          href="https://www.linkedin.com/company/8thgearpartners/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/company/8thgearhub/" target="_blank">
           <i className="bi bi-linkedin me-2 text-dark"></i>
         </a>
 

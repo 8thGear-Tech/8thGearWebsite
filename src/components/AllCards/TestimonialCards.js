@@ -469,20 +469,19 @@ export const ManagedServicesPageTestimonialCard = () => {
 export const CoWorkingPageTestimonialCard = (props) => {
   const { image, name, position, text } = props;
   return (
-    <div className="card w-100 mx-auto">
+    <div className="card w-100 mt-5">
       <div className="card-body">
-        <div className="row">
-          <div className=" d-flex">
-            {/* <img src={image} className="img-fluid rounded-circle w-25" alt="" /> */}
-            <h1 className="h6 mt-4 mx-3">
-              {name} <br /> {position}
-            </h1>
-          </div>
-
-          <hr className="line"></hr>
-
-          <p className="card-text">{text}</p>
-        </div>
+        {/* <div className="row"> */}
+        {/* <div className=" d-flex"> */}
+        {/* <img src={image} className="img-fluid rounded-circle w-25" alt="" /> */}
+        <h6 className="">
+          <b>{name}</b>
+        </h6>
+        <p>{position}</p>
+        {/* </div> */}
+        <hr className="line"></hr>
+        <p className="card-text">{text}</p>
+        {/* </div> */}
       </div>
     </div>
   );
@@ -491,10 +490,13 @@ export const CoWorkingPageTestimonialCard = (props) => {
 export const CoworkingTestimonial = () => {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         {data.cardData.map((card) => {
           return (
-            <div className="col-sm-12 col-md-4 col-lg-4" key={card.id}>
+            <div
+              className="col-sm-12 col-md-6 col-lg-4 d-flex align-items-stretch"
+              key={card.id}
+            >
               <CoWorkingPageTestimonialCard
                 {...card}
               ></CoWorkingPageTestimonialCard>

@@ -1,5 +1,7 @@
 import { Navbar15 } from "../../components/Navbar";
 import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
+import { EventsRegisterBtn } from "../../components/Buttons/EventsBtn";
+
 const FounderMeetupPage = () => {
   return (
     <>
@@ -12,7 +14,7 @@ const FounderMeetupPage = () => {
 
 const AboutFounderMeetup = () => {
   return (
-    <div className="container p-5">
+    <div className="container pt-5 px-4">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <p className="">Dear Founders,</p>
@@ -65,6 +67,7 @@ const AboutFounderMeetup = () => {
       {/* <p className="">Best Regards,</p>
       <p className="">Titilayo Ekundayo</p>
       <p className="">Head, Venture Studio.</p> */}
+      <EventsRegisterBtn />
     </div>
   );
 };

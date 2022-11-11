@@ -70,6 +70,7 @@ export const HomePageHero = () => {
     </div>
   );
 };
+
 export const OurModelHero = () => {
   return (
     <div className="px-4 container-fluid ourModelHeroBg d-flex pt-3 pb-4 align-items-center">
@@ -144,32 +145,20 @@ export const ProjectDeliveryHero = () => {
 export const GaaSHero = () => {
   return (
     <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-3 align-items-center">
-      {/* <img
-        src={projectdelivery}
-        class="img-fluid carouselImage d-block w-100 h-50"
-        alt="..."
-      /> */}
-      <div className="gradientBg overlayBg"></div>
-      <div className="row justify-content-center text-center">
-        <div className="col-lg-9 col-md-8 col-sm-12">
-          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
-            Great people building enduring ventures
-          </h1>
-          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
-            Great people building enduring ventures
-          </h2>
-          <div className="callToAction pt-4">
-            <BookaSessionBtn />
+      <div className="px-3 container-fluid GaaSHeroBgg d-flex pt-3 pb-4">
+        {/* <div className="gradientBg overlayBg"></div> */}
+        <div className="row justify-content-center text-center">
+          <div className="col-lg-9 col-md-12 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-block d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+              Great people building enduring ventures
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-none d-lg-none heroTextColor homeHeroTextTwo">
+              Great people building enduring ventures
+            </h3>
+            <div className="callToAction pt-4">
+              <BookaSessionBtn />
+            </div>
           </div>
-
-          {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3> */}
         </div>
       </div>
     </div>
@@ -209,17 +198,18 @@ export const EventsPageHero = () => {
 };
 export const CoworkingHero = () => {
   return (
-    <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
-      <div className="row justify-content-center">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h2>
-          <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            The Venture Studio model for entrepreneurship, combining comapny
-            building with venture funding Venture Studio.
-          </h3>
+    <div className="container-fluid CoworkingHeroBg d-flex align-items-center">
+      <div className="px-4 container-fluid CoworkingHeroBgg d-flex pt-3 pb-4">
+        <div className="row justify-content-center ">
+          <div className="col-lg-12 col-md-12 col-sm-12 ">
+            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor ">
+              The better way to work smart
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor ">
+              {" "}
+              The better way to work smart
+            </h3> */}
+          </div>
         </div>
       </div>
     </div>
@@ -371,197 +361,100 @@ export const ITFGalleryHero = () => {
 export const ManagedServicesLegalHero = () => {
   return (
     <>
-      <div className="px-4 container-fluid ManagedServicesLegalHero d-flex pt-3 pb-4 align-items-center">
-        <div className="gradientBg overlayBg"></div>
-        <div className="row">
-          <div className="col-lg-8 col-md-8 col-sm-12">
-            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h2>
-            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h3>
+      <div className="container-fluid ManagedServicesLegalHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ManagedServicesLegalHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h3>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="">
-        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <div className="ManagedServicesLegalHero d-flex align-items-center">
-            <div className="container-fluid">
-              <h2 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studio.
-              </h2>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedServicesLegalHero mobile view start */}
-
-      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-          <div className="ManagedServicesLegalHeroMobileView d-flex align-items-center">
-            <div className="container-fluid ">
-              <h4 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studi.
-              </h4>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedServicesLegalHero mobile view start end */}
-      {/* </div> */}
     </>
   );
 };
 export const ManagedDigitalMarketServicesHero = () => {
   return (
     <>
-      <div className="px-4 container-fluid ManagedDigitalMarketServicesHero d-flex pt-3 pb-4 align-items-center">
-        <div className="gradientBg overlayBg"></div>
-        <div className="row">
-          <div className="col-lg-8 col-md-8 col-sm-12">
-            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h2>
-            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h3>
+      <div className="container-fluid ManagedServicesDigitalMargetingHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ManagedServicesDigitalMargetingHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h3>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="">
-        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <div className="ManagedDigitalMarketServicesHero d-flex align-items-center">
-            <div className="container-fluid">
-              <h2 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studio.
-              </h2>
-            </div>
-          </div>
-        </div> */}
-      {/* ManagedDigitalMarketServicesHero mobile view start */}
-
-      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-          <div className="ManagedDigitalMarketServicesHeroMobileView d-flex align-items-center">
-            <div className="container-fluid ">
-              <h4 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studi.
-              </h4>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedDigitalMarketServicesHero mobile view start end */}
-      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesTechHero = () => {
   return (
     <>
-      <div className="px-4 container-fluid ManagedServicesTechHero d-flex pt-3 pb-4 align-items-center">
-        <div className="gradientBg overlayBg"></div>
-        <div className="row">
-          <div className="col-lg-8 col-md-8 col-sm-12">
-            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h2>
-            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h3>
+      <div className="container-fluid ManagedServicesTechHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ManagedServicesTechHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h3>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="">
-        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <div className="ManagedServicesTechHero d-flex align-items-center">
-            <div className="container-fluid">
-              <h2 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studio.
-              </h2>
-            </div>
-          </div>
-        </div> */}
-      {/*ManagedServicesTechHero mobile view start */}
-
-      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-          <div className="ManagedServicesTechHeroMobileView d-flex align-items-center">
-            <div className="container-fluid ">
-              <h4 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studi.
-              </h4>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedServicesTechHero mobile view start end */}
-      {/* </div> */}
     </>
   );
 };
 export const ManagedServicesAccountingHero = () => {
   return (
     <>
-      <div className="px-4 container-fluid ManagedServicesAccountingHero d-flex pt-3 pb-4 align-items-center">
-        <div className="gradientBg overlayBg"></div>
-        <div className="row">
-          <div className="col-lg-8 col-md-8 col-sm-12">
-            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h2>
-            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-              We at 8thGear are helpmates to your business and because we
-              believe in the uniqueness of every individual and business, we
-              tailor our solutions to suit your needs and aspirations.
-            </h3>
+      <div className="container-fluid ManagedServicesAccountingHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ManagedServicesAccountingHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+                We at 8thGear are helpmates to your business and because we
+                believe in the uniqueness of every individual and business, we
+                tailor our solutions to suit your needs and aspirations.
+              </h3>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="">
-        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <div className="ManagedServicesAccountingHero d-flex align-items-center">
-            <div className="container-fluid">
-              <h2 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studio.
-              </h2>
-            </div>
-          </div>
-        </div> */}
-      {/*ManagedServicesAccountingHero mobile view start */}
-
-      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-          <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
-            <div className="container-fluid ">
-              <h4 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studi.
-              </h4>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedServicesAccountingHero mobile view start end */}
-      {/* </div> */}
     </>
   );
 };

@@ -14,6 +14,7 @@ import galleryfounderData from "../../data/galleryFoundermeetup.json";
 import galleryprojectData from "../../data/projectdelivery.json";
 import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
+import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
 import { Link } from "react-router-dom";
 // import Record from "../../data/blog.json"
 // //GalleryMediaCards
@@ -54,6 +55,55 @@ export const ProjectDeliveryCard = (props) => {
         {text}
       </p>
     </div>
+  );
+};
+export const NewProjectDeliveryCard = (props) => {
+  const { image, title, description } = props;
+  return (
+    <>
+      <div class="cardBgg projectdeliveryCard">
+        <img src={image} class="card-img-top" alt="" />
+        <div class="card-body pb-3 px-3">
+          <figure class="text-center">
+            <h4 class="card-text mt-4">{title}</h4>
+            {/* <p className="">{description}</p> */}
+          </figure>
+          {/* <div className="text-center">
+            {" "}
+            <OnHoverReadMoreBtn />
+          </div> */}
+        </div>
+      </div>
+    </>
+  );
+};
+export const NewProjectDeliveryManagedServicesCard = (props) => {
+  const { image, title, link } = props;
+  return (
+    <>
+      <div class="cardBgg projectdeliveryCard">
+        <img src={image} class="card-img-top" alt="" />
+        <div class="card-body pb-3 px-3">
+          <figure class="text-center">
+            <h4 class="card-text mt-4">{title}</h4>
+            {/* <p className="">{description}</p> */}
+          </figure>
+          <div className="text-center pt-4">
+            <Link to={link} className="text-decoration-none text-black">
+              {" "}
+              {/* <OnHoverReadMoreBtn /> */}
+              <p
+                className="card-text text-decoration-underline"
+                style={{ color: "#821E6B" }}
+              >
+                {" "}
+                <b>Read More </b>
+              </p>
+            </Link>{" "}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 export const ManagedServicesCard = (props) => {

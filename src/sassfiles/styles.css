@@ -256,15 +256,23 @@ p {
 }
 
 .OnHoverReadMoreBtn {
-  background-color: #821e6b;
-  color: #ffffff;
+  border: 3px solid #821e6b;
+  color: #000;
   border-radius: 20px;
-  width: 8rem;
+  width: 8.55rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.OnHoverReadMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.OnHoverReadMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .LearnMoreBtn {
@@ -647,6 +655,15 @@ article h4 {
   text-align: center;
 }
 
+.FoundersMeetupText {
+  color: #ffffff !important;
+}
+
+.FoundersMeetupBg {
+  color: #000;
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
 .PortfolioHeroText {
   color: #ffffff !important;
 }
@@ -889,6 +906,26 @@ article h4 {
   color: #ffffff;
 }
 
+.EventsRegisterBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.EventsRegisterBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.EventsRegisterBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
 .GetYourTicketBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -984,6 +1021,11 @@ article h4 {
   max-height: 60rem;
 }
 
+.projectdeliveryCard {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+}
+
 .TractionsBg {
   background-color: #00a495;
 }
@@ -1021,7 +1063,15 @@ article h4 {
 }
 
 .cardsss {
-  border-radius: 5px !important;
+  border-radius: 5px;
+}
+
+.managedServicesBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.cardBgg {
+  background-color: #ffffff;
 }
 
 .sectionOneBg {
@@ -1076,6 +1126,17 @@ article h4 {
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
+@media only screen and (min-width: 768px) {
+  .startStep {
+    margin-top: 7.5rem;
+  }
+  .buildStep {
+    margin-top: 3.75rem;
+  }
+  .scaleStep {
+    margin-top: 0;
+  }
+}
 .bookingform {
   color: #ef00c0;
 }
@@ -1206,7 +1267,6 @@ article h4 {
 
 .all {
   margin-top: 20px;
-  display: flex;
   gap: 2px;
 }
 
@@ -1233,6 +1293,16 @@ article h4 {
   grid-row-end: 4;
   background: #ef00c0;
   text-align: center;
+  color: #ffffff;
+}
+
+.coworkingGridLight {
+  background: #ef00c0;
+  color: #ffffff;
+}
+
+.coworkingGridDark {
+  background: rgba(239, 0, 192, 0.5);
   color: #ffffff;
 }
 
@@ -1523,7 +1593,7 @@ article h4 {
 .pink {
   background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
   text-align: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .short {
@@ -1537,44 +1607,42 @@ article h4 {
   left: 75%;
 }
 
-.Hunt {
+.DailyandWeekendBundleBtn {
   border: 3px solid #821e6b;
   color: #000;
-  border-radius: 10px;
-  width: 15rem;
+  border-radius: 20px;
+  width: 19rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  margin: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
 }
-.Hunt:active {
+.DailyandWeekendBundleBtn:active {
   background-color: #a5009f;
   color: #ffffff;
 }
-.Hunt:focus {
+.DailyandWeekendBundleBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
 }
 
-.Hint {
+.MeetingRoomBundleBtn {
   border: 3px solid #821e6b;
   color: #000;
-  border-radius: 10px;
-  width: 15rem;
+  border-radius: 20px;
+  width: 17rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  margin: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
 }
-.Hint:hover {
+.MeetingRoomBundleBtn:hover {
   background-color: #821e6b;
   color: #ffffff;
 }
-.Hint:focus {
+.MeetingRoomBundleBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
 }
@@ -1600,61 +1668,6 @@ article h4 {
 .bgimage h5 {
   color: white;
   text-shadow: 2px 2px #333;
-}
-
-/*
-.imgContainer {
-  height: 100%;
-  width: 100%;
-}
-.imageStyle {
-  height: 80vh;
-  width: 100%;
-}
-
-.DigitalMarketingHeroText {
-  color: $prybgcolor;
-}
-.heroTextContainer {
-  height: 70vh;
-  width: 100%;
-  position: relative;
-}
-*/
-/*
-.background {
-  background-image: url(/src/assets/images/digital\ marketing.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100%;
-  width: 100vh;
-}
-*/
-.ManagedDigitalMarketServicesHero {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.ManagedDigitalMarketServicesHero::before {
-  content: "";
-  background: url(/src/assets/images/hero/homehero.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-
-.ManagedDigitalMarketServicesHero h1 {
-  position: relative;
-}
-
-.ManagedDigitalMarketServicesHero h2 {
-  position: relative;
 }
 
 .homeHeroBg {
@@ -1689,6 +1702,11 @@ article h4 {
   font-weight: 300;
 }
 
+.GaaSHeroText {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
 .projectDeliveryHeroText {
   font-size: 3.5rem;
   font-weight: 300;
@@ -1709,33 +1727,6 @@ article h4 {
     height: 60vh;
   }
 }
-.GaaSHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.GaaSHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/gaas.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-
-.GaaSHeroBg h1 {
-  position: relative;
-}
-
-.GaaSHeroBg h2 {
-  position: relative;
-}
-
 .callToAction {
   position: relative;
 }
@@ -1759,7 +1750,7 @@ article h4 {
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.JPG);
+  background: url(/src/assets/images/hero/eventshero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1786,23 +1777,29 @@ article h4 {
     height: 60vh;
   }
 }
-.CoworkingHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
+.CoworkingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
   height: 80vh;
   width: 100%;
-}
-
-.CoworkingHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/coworkinghero.png);
-  background-size: cover;
-  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.8;
+  opacity: 0.4;
+}
+
+.CoworkingHeroBg {
+  background: url(/src/assets/images/hero/coworking1.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .CoworkingHeroBg h2 {
@@ -1813,14 +1810,264 @@ article h4 {
   position: relative;
 }
 
-@media only screen and (max-width: 440px) {
-  .CoworkingHeroBg {
-    height: 50vh;
-  }
+.CoworkingOffersBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .CoworkingHeroBg {
-    height: 60vh;
+
+.CoworkingOffersBg {
+  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+
+.CoworkingTestmonialBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.CoworkingTestmonialBg {
+  background: url(/src/assets/images/hero/coworking2.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+
+.GaaSHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg {
+  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+  line-height: 70px;
+}
+
+.GaaSHeroBg h3 {
+  position: relative;
+  line-height: 45px;
+  font-size: 2rem !important;
+}
+
+.ManagedServicesDigitalMargetingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.ManagedServicesDigitalMargetingHeroBg {
+  background: url(/src/assets/images/hero/digitalmarketinghero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesDigitalMargetingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesDigitalMargetingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesLegalHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.ManagedServicesLegalHeroBg {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesLegalHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesLegalHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesTechHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesTechHeroBg {
+  background: url(/src/assets/images/hero/techhero.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesTechHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesTechHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesAccountingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesAccountingHeroBg {
+  background: url(/src/assets/images/hero/acc.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.ManagedServicesAccountingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesAccountingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 990px) {
+  .ManagedServicesAccountingHeroBgg::before,
+.ManagedServicesTechHeroBgg::before,
+.ManagedServicesLegalHeroBgg::before,
+.ManagedServicesDigitalMargetingHeroBgg::before,
+.GaaSHeroBgg::before,
+.CoworkingHeroBgg::before {
+    height: 22.5rem;
+  }
+  .ManagedServicesAccountingHeroBg,
+.ManagedServicesTechHeroBg,
+.ManagedServicesLegalHeroBg,
+.ManagedServicesDigitalMargetingHeroBg,
+.GaaSHeroBg,
+.CoworkingHeroBg {
+    height: 22.5rem;
   }
 }
 .ourModelHeroBg {
@@ -2085,84 +2332,6 @@ article h4 {
 
 .stop {
   color: rgb(255, 255, 255);
-}
-
-.ManagedDigitalMarketServicesHero {
-  background: url(/src/assets/images/hero/digitalmarketing.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-@media only screen and (max-width: 440px) {
-  .ManagedDigitalMarketServicesHero {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .ManagedDigitalMarketServicesHero {
-    height: 60vh;
-  }
-}
-.ManagedDigitalMarketServicesHero h2 {
-  position: relative;
-}
-
-.ManagedDigitalMarketServicesHero h3 {
-  position: relative;
-}
-
-.ManagedServicesTechHero {
-  background: url(/src/assets/images/hero/techhero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-@media only screen and (max-width: 440px) {
-  .ManagedServicesTechHero {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .ManagedServicesTechHero {
-    height: 60vh;
-  }
-}
-.ManagedServicesTechHero h2 {
-  position: relative;
-}
-
-.ManagedServicesTechHero h3 {
-  position: relative;
-}
-
-.ManagedServicesAccountingHero {
-  background: url(/src/assets/images/hero/accounting.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-@media only screen and (max-width: 440px) {
-  .ManagedServicesAccountingHero {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .ManagedServicesAccountingHero {
-    height: 60vh;
-  }
-}
-.ManagedServicesAccountingHero h2 {
-  position: relative;
-}
-
-.ManagedServicesAccountingHero h3 {
-  position: relative;
 }
 
 video {

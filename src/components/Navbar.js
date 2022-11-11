@@ -123,12 +123,11 @@ const NavBar = (props) => {
                   Managed Services
                 </Link>
               </li>
-
-              {/* <li>
+              <li>
                 <Link className="dropdown-item" to="/coworking">
                   Coworking
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link className="dropdown-item" to="/growth-as-a-service">
                   Growth-as-a-Service
@@ -189,7 +188,7 @@ const NavBar = (props) => {
 
           <div className="d-flex justify-content-center mt-5 ">
             <div className="">
-              <a href="https://www.facebook.com/8thgearpartners">
+              <a href="https://www.facebook.com/8thgearhub">
                 <i
                   className="bi bi-facebook mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -198,7 +197,7 @@ const NavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.instagram.com/8thgearpartners/">
+              <a href="https://www.instagram.com/8thgearhub/">
                 <i
                   className="bi bi-instagram mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -207,7 +206,7 @@ const NavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/company/8thgearpartners/">
+              <a href="https://www.linkedin.com/company/8thgearhub/">
                 <i
                   className="bi bi-linkedin mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}

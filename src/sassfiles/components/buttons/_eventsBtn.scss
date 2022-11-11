@@ -69,6 +69,29 @@
   }
   //   color: $prytextcolor;
 }
+.EventsRegisterBtn {
+  // border: 70px 232px 640px 3228px $btncolor;
+  // border-radius: 35px;
+  // background-color: $prybgcolor;
+  border: 3px solid $btncolor;
+  color: $prytextcolor;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  //   color: $prytextcolor;
+}
 .GetYourTicketBtn {
   // border: 333px 70px 1087px 2864px;
   // border-radius: 35px;

@@ -17,6 +17,8 @@ import Info from "../../data/advisory.json";
 // import { ProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryCard } from "../../components/AllCards/MediaCards";
+import { NewProjectDeliveryCard } from "../../components/AllCards/MediaCards";
+import { NewProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectDeliveryCards } from "../../components/AllCards/TriggeredCards";
 // import ProjectDeliveryRequestForm from "../../components/Forms/ServicesForms";
@@ -52,20 +54,44 @@ const ProjectDeliveryPage = () => {
 //     </div>
 //   );
 // };
+// const Competencies = () => {
+//   return (
+//     <div className="container-fluid">
+//       <h4 className="py-5 text-center">COMPETENCIES</h4>
+//       <div className="row">
+//         {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
+//           return <ProjectDeliveryCard {...ProjectDeliveryImage} />;
+//         })}
+//       </div>
+//       {/* <div className="py-5 d-flex justify-content-center">
+//         <RequestForProposalBtn />
+//       </div> */}
+//       <div className="py-5 d-flex justify-content-center">
+//         {/* <ProjectDeliveryRequestForm /> */}
+//       </div>
+//     </div>
+//   );
+// };
+
 const Competencies = () => {
   return (
     <div className="container-fluid">
-      <h4 className="py-5 text-center">COMPETENCIES</h4>
-      <div className="row">
-        {Data.ProjectDeliveryImages.map((ProjectDeliveryImage) => {
-          return <ProjectDeliveryCard {...ProjectDeliveryImage} />;
-        })}
-      </div>
-      {/* <div className="py-5 d-flex justify-content-center">
-        <RequestForProposalBtn />
-      </div> */}
-      <div className="py-5 d-flex justify-content-center">
-        {/* <ProjectDeliveryRequestForm /> */}
+      <div className="container ">
+        <div className="row justify-content-evenly ">
+          <h4 className="py-5 text-center">COMPETENCIES</h4>
+          {Data.ProjectDeliveryContent.map((ProjectDeliveryContent) => {
+            return (
+              <div
+                className="col-lg-4 col-md-6 col-sm-10 mb-5 px-4 d-flex "
+                key={ProjectDeliveryContent.id}
+              >
+                <NewProjectDeliveryCard
+                  {...ProjectDeliveryContent}
+                ></NewProjectDeliveryCard>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

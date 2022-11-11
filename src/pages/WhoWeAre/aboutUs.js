@@ -8,6 +8,7 @@ import usadflogo from "../../assets/images/whoweare/usadflogo.png";
 import corevalues from "../../assets/images/whoweare/corevalues.png";
 import { Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
+import coworking from "../../assets/images/coworking/coworking.png";
 
 const AboutUs = () => {
   return (

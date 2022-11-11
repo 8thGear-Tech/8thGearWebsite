@@ -86,7 +86,7 @@ function App() {
           <Route path="legal" element={<ManagedServicesLegal />} />
           <Route path="tech" element={<ManagedServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-          {/* <Route path="coworking" element={<CoWorking />} /> */}
+          <Route path="coworking" element={<CoWorking />} />
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />

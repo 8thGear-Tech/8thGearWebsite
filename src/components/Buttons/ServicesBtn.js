@@ -67,3 +67,40 @@ export const ManagedServicesRequestBtn = () => {
     </>
   );
 };
+export const DailyandWeekendBundleBtn = () => {
+  return (
+    <>
+      <button
+        // type="button"
+        // data-bs-toggle="modal"
+        // data-bs-target="#myModal"
+        className="DailyandWeekendBundleBtn"
+      >
+        Daily and Weekend Bundle
+      </button>
+    </>
+  );
+};
+export const MeetingRoomBundleBtn = () => {
+  return (
+    <>
+      <button
+        // type="button"
+        // data-bs-toggle="modal"
+        // data-bs-target="#myModal"
+        className="MeetingRoomBundleBtn"
+      >
+        Meeting Room Bundle
+      </button>
+    </>
+  );
+};
+
+{
+  /* <button className="Hunt" onClick={() => setActive("firstButton")}>
+            Daily and Weekend Bundle
+          </button>
+          <button className="Hint" onClick={() => setActive("secondButton")}>
+            Meeting Room Bundle
+          </button> */
+}
