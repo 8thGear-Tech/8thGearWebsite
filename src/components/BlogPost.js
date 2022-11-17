@@ -36,7 +36,7 @@ export const BlogPost = () => {
               </div>
               <div className="offcanvas-body d-lg">
                 <header className="">
-                  <img src={heroImage} />
+                  <img src={heroImage} alt="" />
                 </header>
                 <div>
                   <h6 className="mt-4">{date}</h6>
