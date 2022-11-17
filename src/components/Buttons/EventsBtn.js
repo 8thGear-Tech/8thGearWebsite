@@ -95,3 +95,12 @@ export const EventsRegisterBtn = () => {
     </a>
   );
 };
+export const DemoDayRegisterBtn = () => {
+  return (
+    <a href="https://forms.gle/RyxYFMPtVsXuw33NA" target="_blank">
+      <button className="EventsRegisterBtn" type="sumbit">
+        Register Now
+      </button>
+    </a>
+  );
+};

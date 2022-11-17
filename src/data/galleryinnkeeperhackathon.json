@@ -2,15 +2,15 @@
   "galleryInnkeeper": [
     {
       "id": 1,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon1.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon1.JPG"
     },
     {
       "id": 2,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon2.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon2.JPG"
     },
     {
       "id": 3,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon3.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon3.JPG"
     },
 
     {
@@ -19,11 +19,11 @@
     },
     {
       "id": 5,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon5.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon5.JPG"
     },
     {
       "id": 6,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon6.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon6.JPG"
     },
     {
       "id": 7,
@@ -31,11 +31,11 @@
     },
     {
       "id": 8,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon8.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon8.JPG"
     },
     {
       "id": 9,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon9.jpg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon9.JPG"
     }
   ],
   "InnkeeperVideo": [

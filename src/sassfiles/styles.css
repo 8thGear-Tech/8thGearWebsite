@@ -1876,6 +1876,12 @@ article h4 {
   position: relative;
 }
 
+.coworkingBookBtn,
+.coworkingBookText {
+  position: relative;
+  line-height: 35px;
+}
+
 .GaaSHeroBgg::before {
   content: "";
   position: absolute;
@@ -1910,6 +1916,41 @@ article h4 {
   position: relative;
   line-height: 45px;
   font-size: 2rem !important;
+}
+
+.DemoDayGalleryHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.DemoDayGalleryHeroBg {
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.DemoDayGalleryHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.DemoDayGalleryHeroBg h3 {
+  position: relative;
+  line-height: 35px;
 }
 
 .ManagedServicesDigitalMargetingHeroBgg::before {
@@ -2148,43 +2189,6 @@ article h4 {
 }
 @media only screen and (max-width: 650px) and (min-width: 441px) {
   .projectDeliveryHeroBg {
-    height: 60vh;
-  }
-}
-.demoDayHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.demoDayHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/demodayhero.JPG);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-
-.demoDayHeroBg h2 {
-  position: relative;
-}
-
-.demoDayHeroBg h3 {
-  position: relative;
-}
-
-@media only screen and (max-width: 440px) {
-  .demoDayHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .demoDayHeroBg {
     height: 60vh;
   }
 }
@@ -2522,13 +2526,24 @@ video {
   height: 4.5rem;
 }
 
-.subscributton {
-  border: 2px solid rgb(216, 43, 117) !important;
-  border-radius: 5px;
+.subscribeButton {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 8.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
-
-.subscributton:hover {
-  background-color: rgb(216, 43, 117) !important;
+.subscribeButton:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.subscribeButton:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .addressText {

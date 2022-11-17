@@ -297,6 +297,11 @@
 .CoworkingTestmonialBg .coworkingTestCards h3 {
   position: relative;
 }
+.coworkingBookBtn,
+.coworkingBookText {
+  position: relative;
+  line-height: 35px;
+}
 
 //Our Model hero
 // .OurModelHeroBgg::before {
@@ -367,6 +372,40 @@
   position: relative;
   line-height: 45px;
   font-size: 2rem !important;
+}
+//demodaygallery hero
+.DemoDayGalleryHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.DemoDayGalleryHeroBg {
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.DemoDayGalleryHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.DemoDayGalleryHeroBg h3 {
+  position: relative;
+  line-height: 35px;
 }
 //managedservices digital marketing hero
 .ManagedServicesDigitalMargetingHeroBgg::before {
@@ -615,72 +654,6 @@
   }
 }
 
-.demoDayHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.demoDayHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/demodayhero.JPG);
-  // background-image: linear-gradient(
-  //   to right,
-  //   #252c3e,
-  //   rgba(37, 44, 62, 0.66),
-  //   rgba(37, 44, 62, 0.42),
-  //   rgba(13, 22, 44, 0.1),
-  //   rgba(37, 44, 62, 0)
-  // );
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-.demoDayHeroBg h2 {
-  position: relative;
-}
-.demoDayHeroBg h3 {
-  position: relative;
-}
-@media only screen and (max-width: 440px) {
-  .demoDayHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .demoDayHeroBg {
-    height: 60vh;
-  }
-}
-// .demoDayHeroBg {
-//   background: url(/src/assets/images/hero/demodayhero.JPG);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 100vh;
-// }
-
-// @media only screen and (max-width: 440px) {
-//   .demoDayHeroBg {
-//     height: 50vh;
-//   }
-// }
-// @media only screen and (max-width: 575px) and (min-width: 441px) {
-//   .demoDayHeroBg {
-//     height: 60vh;
-//   }
-// }
-// .demoDayHeroBg h2 {
-//   position: relative;
-// }
-// .demoDayHeroBg h3 {
-//   position: relative;
-// }
 .piggeryTrainingHeroBg {
   background: url(/src/assets/images/hero/piggerytraininghero.jpg);
   background-repeat: no-repeat;

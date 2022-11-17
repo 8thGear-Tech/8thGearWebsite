@@ -560,7 +560,7 @@ export const Navbar16 = () => {
 
 export const Navbar17 = () => {
   return (
-    <div className="container-fluid mb-1">
+    <div className="container-fluid">
       <div className="row">
         {text.projectdeliverygallery.map((navbar) => {
           return (

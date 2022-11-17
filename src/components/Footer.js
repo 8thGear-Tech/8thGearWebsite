@@ -722,7 +722,7 @@ export const SubscribeForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button className="btn subscributton" type="submit">
+        <button className="subscribeButton" type="submit">
           Subscribe
         </button>
       </form>
@@ -748,9 +748,9 @@ export const Popupmodal = () => {
               className="btn"
             >
               {/* <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block"> */}
-              <h6 className=" text-nowrap signupText">
+              {/* <h6 className=" text-nowrap signupText">
                 SIGN UP FOR NEWSLETTER
-              </h6>
+              </h6> */}
             </button>
           ))
         }
@@ -764,9 +764,7 @@ export const Popupmodal = () => {
 export function Form({ closeModal }) {
   return (
     <>
-      <div className="">
-        <SubscribeForm />
-      </div>
+      <div className="">{/* <SubscribeForm /> */}</div>
     </>
   );
 }

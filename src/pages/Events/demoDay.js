@@ -2,6 +2,7 @@ import { Navbar16 } from "../../components/Navbar";
 import { DemoDayHero } from "../../components/Hero/BGColorandTextHero";
 import demodaypictureone from "../../assets/images/events/demodaypictureone.jpg";
 import demodaypicturetwo from "../../assets/images/events/demodaypicturetwo.jpg";
+import { DemoDayRegisterBtn } from "../../components/Buttons/EventsBtn";
 const DemoDayPage = () => {
   return (
     <>
@@ -18,18 +19,30 @@ const AboutDemoDay = () => {
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <div className="">
-        <h2 className="">8thGear DEMO DAY</h2>
+        <h2 className="">8thGear Demo Day</h2>
         <p className="">
-          Join upcoming Demo Day, or rewatch the ones that you've missed here:
+          Join upcoming Demo Day, or rewatch the ones that you've missed here:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=-5lGJLLBavI"
+            className="textLinkColor"
+            target="_blank"
+          >
+            {" "}
+            8thGear Demo Day Highlights - June 2022
+          </a>
         </p>
-        <a
+        {/* <a
           href="https://www.youtube.com/watch?v=-5lGJLLBavI"
           className="textLinkColor"
           target="_blank"
         >
           {" "}
           <p>8thGear Demo Day Highlights - June 2022</p>
-        </a>
+        </a> */}
+        <div className="mb-4">
+          {" "}
+          <DemoDayRegisterBtn />
+        </div>
       </div>
       <img
         src={demodaypictureone}
@@ -71,7 +84,7 @@ const AboutDemoDay = () => {
         in being one of our Venture Studio Businesses (VSB) ? or just pitching
         to investors and other stakeholders on the 8thGear Demo Day? Do click{" "}
         <a
-          href="https://bit.ly/8thgearapplicationform"
+          href="https://forms.gle/RyxYFMPtVsXuw33NA"
           className="textLinkColor"
           target="_blank"
         >
@@ -90,7 +103,7 @@ const AboutDemoDay = () => {
       <p className="">
         Register{" "}
         <a
-          href="https://bit.ly/8thgearapplicationform"
+          href="https://forms.gle/RyxYFMPtVsXuw33NA"
           className="textLinkColor"
           target="_blank"
         >

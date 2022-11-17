@@ -23,6 +23,7 @@ const CoWorking = () => {
       <Navbar8 />
       <CoworkingHero />
       <Offers />
+      <OurOffers />
       <PricingTable />
       <TestimonialSection />
     </>
@@ -35,41 +36,13 @@ const Offers = () => {
       <div className="text-center mt-5 mb-4">
         <h3> GET TO KNOW US </h3>
       </div>
-      {/* <div className="container py-5 d-none d-lg-block d-md-none d-sm-none d-xs-none">
-        <div className="row justify-content-center">
-          <img
-            src={coworkinglarge}
-            className="col-12"
-       
-          ></img>
-        </div>
-      </div>
-      <div className="container py-5 d-xs-block d-sm-block d-md-block d-lg-none">
-        <div className="row justify-content-center">
-          <img
-            src={coworkingsmall}
-            className="col-12"
-           
-          ></img>
-        </div>
-      </div> */}
     </>
   );
 };
 
-const PricingTable = () => {
-  const [active, setActive] = useState("firstButton");
+const OurOffers = () => {
   return (
     <>
-      {/* <Navbar8 />
-      <CoworkingHero /> */}
-      {/* <ProjectDeliveryPageHero />{" "} */}
-      {/* <div className="text-center mt-5">
-        <p>
-          <h3> GET TO KNOW US </h3>
-        </p>
-      </div>{" "} */}
-      {/* <div className="purple"> */}
       <div className="">
         {" "}
         {/* <div className="gearBox justify-content-end">
@@ -80,6 +53,14 @@ const PricingTable = () => {
         </div>{" "} */}
         <div className="container-fluid CoworkingOffersBg py-5 px-5">
           <div className="container-fluid CoworkingOffersBgg">
+            <div className="">
+              <h4 className="Gear coworkingBookText d-flex justify-content-end">
+                The Gears You Require
+              </h4>
+              <div className="coworkingBookBtn d-flex text-center justify-content-end mb-3">
+                <BookNowBtn />
+              </div>
+            </div>{" "}
             <div className="row coworkingGrid ">
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridLight text-center align-self-start py-5"
@@ -93,7 +74,7 @@ const PricingTable = () => {
                 style={{ height: "200px" }}
               >
                 <i className="bi bi-cup-hot" style={{ fontSize: "3rem" }}></i>
-                <p>Kichenttee</p>
+                <p>Kitchenttee</p>
               </div>
             </div>
             <div className="row justify-content-center coworkingGrid ">
@@ -104,7 +85,7 @@ const PricingTable = () => {
               >
                 <AdvisoryServicesIcon />
                 {/* <i className="bi bi-globe" style={{ fontSize: "3rem" }}></i> */}
-                <p>Access to advisory services</p>
+                <p>Access to Advisory Services</p>
               </div>
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridLight text-center py-5"
@@ -123,10 +104,6 @@ const PricingTable = () => {
                 style={{ height: "200px" }}
               >
                 {" "}
-                {/* <i
-                  className="bi bi-journal-text"
-                  style={{ fontSize: "3rem" }}
-                ></i> */}
                 <EventIcon />
                 <p> Ecosystem Event</p>
               </div>
@@ -135,76 +112,37 @@ const PricingTable = () => {
                 style={{ height: "200px" }}
               >
                 {" "}
-                {/* <i className="bi bi-file-fill" style={{ fontSize: "3rem" }}></i> */}
                 <LagosInnovateIcon />
-                <p> Lagos Innovate partnered</p>
+                <p> Lagos Innovate Partnered</p>
               </div>
             </div>
             <div className="row justify-content-end coworkingGrid">
-              {/* <div className="col-lg-3 col-md-3 col-sm-12 "></div>
-              <div className="col-lg-3 col-md-3 col-sm-12 "></div> */}
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridLight text-center py-5"
                 style={{ height: "200px" }}
               >
-                {/* <i className="bi bi-laptop" style={{ fontSize: "3rem" }}></i> */}
                 <MeetingRoomIcon />
-                <p> Meeting room/Training room</p>
+                <p> Meeting Room/Training Room</p>
               </div>
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridDark text-center py-5"
                 style={{ height: "200px" }}
               >
                 <i className="bi bi-wifi" style={{ fontSize: "3rem" }}></i>
-                <p> Internet service</p>
+                <p> Internet Service</p>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="all w-75">
-          <div className="grid1 mt-5 pt-5">
-            <div className="c1-element1 ">
-              <i className="bi bi-alarm" style={{ fontSize: "3rem" }}></i>
-              <p> Monday-Friday (9am-5pm) </p>
-            </div>
-
-            <div className="c2-element1">
-              <i className="bi bi-cup-hot" style={{ fontSize: "3rem" }}></i>
-              <p>Kichenttee</p>
-            </div>
-
-            <div className="c2-element2">
-              <i className="bi bi-globe" style={{ fontSize: "3rem" }}></i>
-              <p>Access to advisory services</p>
-            </div>
-            <div className="c2-element3">
-              <h6>Serene Environment</h6>
-              <i className="bi bi-cup-straw" style={{ fontSize: "3rem" }}></i>
-            </div>
-            <div className="c3-element1">
-              <p> Ecosystem Event</p>
-              <i
-                className="bi bi-journal-text"
-                style={{ fontSize: "3rem" }}
-              ></i>
-            </div>
-            <div className="c3-element2">
-              <p> Lagos Innovate partnered</p>
-              <i className="bi bi-file-fill" style={{ fontSize: "3rem" }}></i>
-            </div>
-            <div className="c3-element3">
-              <p> Meeting room/Training room</p>
-              <i className="bi bi-laptop" style={{ fontSize: "3rem" }}></i>
-            </div>
-          </div>
-          <div className="grid2">
-            <div className="c4-element1">
-              <p> Internet service</p>
-              <i className="bi bi-wifi" style={{ fontSize: "3rem" }}></i>
-            </div>
-          </div>
-        </div> */}
       </div>
+    </>
+  );
+};
+
+const PricingTable = () => {
+  const [active, setActive] = useState("firstButton");
+  return (
+    <>
       <div className="text-center mt-5">
         <h3> OUR PRICE RANGE </h3>
         <div className="mx-3">

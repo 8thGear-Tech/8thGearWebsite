@@ -92,6 +92,10 @@ const Competencies = () => {
             );
           })}
         </div>
+        <div className="text-center mb-4">
+          {" "}
+          <RequestForProposalBtn />
+        </div>
       </div>
     </div>
   );

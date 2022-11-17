@@ -472,3 +472,11 @@ export const MeetingRoomIcon = () => {
     <img src={meetingroom} style={{ maxWidth: "50%", maxHeight: "50%" }}></img>
   );
 };
+// export const ArrowIcon = () => {
+//   return (
+//     <i
+//       class="bi bi-arrow-up-square"
+//       style={{ width: "50px", height: "50px" }}
+//     ></i>
+//   );
+// };
