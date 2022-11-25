@@ -35,14 +35,14 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
-<<<<<<< HEAD
+
 // import TeamPage from "./pages/WhoWeAre/TeamPage";
 // import TeamsPage from "./pages/About/TeamPage";
 // import AboutUs from "./page/WhoWeAre/aboutUs";
-=======
+
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
->>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5
+
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -61,60 +61,6 @@ import { ScrollButton } from "./components/Buttons/scrollToTop";
 function App() {
   return (
     <BrowserRouter>
-<<<<<<< HEAD
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="accounting" element={<ManagedServicesAccounting />} />
-        <Route path="legal" element={<ManagedServicesLegal />} />
-        <Route path="tech" element={<ManagedServicesTech />} />
-        <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-        <Route path="coworking" element={<CoWorking />} />
-
-        {/* <Route path="about" element={<AboutUs />} /> */}
-        {/* <Route path="team" element={<TeamPage />} /> */}
-        <Route path="blog" element={<BlogPage />} />
-        {/* <Route path="faq" element={<FAQ />} /> */}
-        <Route path="events" element={<EventsPage />} />
-        <Route path="events-gallery" element={<EventsGalleryPage />} />
-        <Route path="demo-day" element={<DemoDayPage />} />
-        <Route path="founders-meetup" element={<FounderMeetupPage />} />
-        <Route
-          path="founders-meetup-gallery"
-          element={<FoundersMeetupGalleryPage />}
-        />
-        <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-        {/* <Route path="LSETF-visit-gallery" element={<LSETFGalleryPage />} /> */}
-        {/* <Route path="USADF-gallery" element={<USADFGalleryPage />} /> */}
-        {/* <Route path="media" element={<GalleryCards />} /> */}
-        {/* <Route path="abt" element={<AboutUs />} /> */}
-        {/* <Route path="teams" element={<TeamsPage />} /> */}
-        <Route path="blogpost" element={<BlogPost />} />
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} />
-         */}
-
-        {/* <Route path="events" element={<Events />} /> */}
-
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-        {/* <Route path="button1" element={<BookNowBtn />} />
-        <Route path="button3" element={<BookaFreeSessionBtn />} />
-        <Route path="button4" element={<OnHoverReadMoreBtn />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} />
-        <Route
-          path="button6"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button7" element={<ManagedServicesRequestForm />} /> */}
-        {/* <Route path="button5" element={<AllPortfoliosLogoCard />} /> */}
-        {/* <Route path="button6" element={<PortfolioPage />} /> */}
-        {/* <Route
-          path="button7"
-          element={<ProjectDeliveryManagedServicesCard />}
-        /> */}
-        {/* <Route path="button8" element={<ManagedServicesPage />} />
-        <Route path="button9" element={<ProjectDeliveryPage />} /> */}
-        {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
-=======
       <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -147,7 +93,6 @@ function App() {
           <Route path="tech" element={<ManagedServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
->>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />
