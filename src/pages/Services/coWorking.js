@@ -61,13 +61,13 @@ const CoWorking = () => {
               <i class="bi bi-file-fill" style={{ fontSize: "3rem" }}></i>
             </div>
             <div className="c3-element3">
-              <p> Meeting room/Training room</p>
+              <p> Fully Equipped Conference room.</p>
               <i className="bi bi-laptop" style={{ fontSize: "3rem" }}></i>
             </div>
           </div>
           <div className="grid2">
             <div className="c4-element1">
-              <p> Internet service</p>
+              <p> High Speed and secured internet service.</p>
               <i className="bi bi-wifi" style={{ fontSize: "3rem" }}></i>
             </div>
           </div>

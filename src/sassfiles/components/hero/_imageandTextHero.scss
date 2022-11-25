@@ -84,7 +84,7 @@
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehome.jpg);
+  background: url(/src/assets/images/hero/homehero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -108,7 +108,11 @@
   position: relative;
 }
 .homeHeroText {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+.projectDeliveryHeroText {
+  font-size: 3.5rem;
   font-weight: 300;
 }
 .homeHeroTextTwo {
@@ -157,6 +161,9 @@
 .GaaSHeroBg h2 {
   position: relative;
 }
+.callToAction {
+  position: relative;
+}
 @media only screen and (max-width: 440px) {
   .GaaSHeroBg {
     height: 50vh;
@@ -176,7 +183,7 @@
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/demoday1.JPG);
+  background: url(/src/assets/images/hero/eventshero.JPG);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -191,12 +198,12 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.6;
-}
-.EventsHeroBg h1 {
-  position: relative;
+  // opacity: 0.6;
 }
 .EventsHeroBg h2 {
+  position: relative;
+}
+.EventsHeroBg h3 {
   position: relative;
 }
 @media only screen and (max-width: 440px) {
@@ -209,7 +216,9 @@
     height: 60vh;
   }
 }
-
+// .heroFontSize {
+//   line-height: 2.2rem;
+// }
 .CoworkingHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -267,7 +276,7 @@
 
 .ourModelHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -280,6 +289,9 @@
   position: relative;
 }
 .ourModelHeroBg h3 {
+  position: relative;
+}
+.ourModelHeroBg h4 {
   position: relative;
 }
 @media only screen and (max-width: 440px) {
@@ -423,10 +435,10 @@
     height: 60vh;
   }
 }
-.piggeryTrainingHeroBg h2 {
+.piggeryTrainingHeroBg h1 {
   position: relative;
 }
-.piggeryTrainingHeroBg h3 {
+.piggeryTrainingHeroBg h2 {
   position: relative;
 }
 .GIZHeroBg {
@@ -446,10 +458,10 @@
     height: 60vh;
   }
 }
-.GIZHeroBg h2 {
+.GIZHeroBg h1 {
   position: relative;
 }
-.GIZHeroBg h3 {
+.GIZHeroBg h2 {
   position: relative;
 }
 .LSETFHeroBg {
@@ -469,10 +481,10 @@
     height: 60vh;
   }
 }
-.LSETFHeroBg h2 {
+.LSETFHeroBg h1 {
   position: relative;
 }
-.LSETFHeroBg h3 {
+.LSETFHeroBg h2 {
   position: relative;
 }
 .hackathonHeroBg {
@@ -492,10 +504,10 @@
     height: 60vh;
   }
 }
-.hackathonHeroBg h2 {
+.hackathonHeroBg h1 {
   position: relative;
 }
-.hackathonHeroBg h3 {
+.hackathonHeroBg h2 {
   position: relative;
 }
 .ITFHeroBg {
@@ -515,10 +527,10 @@
     height: 60vh;
   }
 }
-.ITFHeroBg h2 {
+.ITFHeroBg h1 {
   position: relative;
 }
-.ITFHeroBg h3 {
+.ITFHeroBg h2 {
   position: relative;
 }
 

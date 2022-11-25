@@ -53,6 +53,13 @@ import gearup from "../assets/icons/home/gearup.png";
 import evolve from "../assets/icons/home/evolve.png";
 import engage from "../assets/icons/home/engage.png";
 
+//projectdelivery
+import businessinhouse from "../assets/icons/projectdelivery/businessinhouse.png";
+import jobssaved from "../assets/icons/projectdelivery/jobssaved.png";
+import jobscreated from "../assets/icons/projectdelivery/jobscreated.png";
+import jobsplaced from "../assets/icons/projectdelivery/jobsplaced.png";
+import startupsupported from "../assets/icons/projectdelivery/startupsupported.png";
+
 export const WhatWeDoIcon = () => {
   return (
     <div>
@@ -60,6 +67,8 @@ export const WhatWeDoIcon = () => {
     </div>
   );
 };
+
+//project delivery
 export const OurImpactIcon = () => {
   return (
     <div>
@@ -67,6 +76,51 @@ export const OurImpactIcon = () => {
     </div>
   );
 };
+export const BusinessInHouseIcon = () => {
+  return (
+    <div>
+      <img
+        src={businessinhouse}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+export const JobsSavedIcon = () => {
+  return (
+    <div>
+      <img src={jobssaved} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+    </div>
+  );
+};
+export const JobsCreatedIcon = () => {
+  return (
+    <div>
+      <img
+        src={jobscreated}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+export const JobsPlacedIcon = () => {
+  return (
+    <div>
+      <img src={jobsplaced} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+    </div>
+  );
+};
+export const StartupSupportedIcon = () => {
+  return (
+    <div>
+      <img
+        src={startupsupported}
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      ></img>
+    </div>
+  );
+};
+
 export const ArrowRightIcon = () => {
   return (
     <div>
@@ -372,4 +426,8 @@ export const EvolveIcon = () => {
 };
 export const EngageIcon = () => {
   return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+};
+
+export const ArrowUpIcon = () => {
+  return <i class="bi bi-arrow-up-square"></i>;
 };

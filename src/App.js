@@ -1,14 +1,10 @@
 import * as React from "react";
 // import { Component } from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
-import Constructionpage from "./pages/constructionpage";
-import { ManagedServicesRequestBtn } from "./components/Buttons/ServicesBtn";
-import { PreviousBtn } from "./components/Buttons/PortfolioBtn";
-import { NextBtn } from "./components/Buttons/PortfolioBtn";
-
-import Request from "./components/Forms/ServicesForms";
-import { BlogPost } from "./components/BlogPost";
+import Home from "./pages/homepage";
+import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
+import Error404 from "./pages/error404";
+import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -39,9 +35,14 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
+<<<<<<< HEAD
 // import TeamPage from "./pages/WhoWeAre/TeamPage";
 // import TeamsPage from "./pages/About/TeamPage";
 // import AboutUs from "./page/WhoWeAre/aboutUs";
+=======
+import TeamPage from "./pages/WhoWeAre/TeamPage";
+import AboutUs from "./pages/WhoWeAre/aboutUs";
+>>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -53,11 +54,14 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
 import FAQ from "./pages/Insights/FAQ";
-// import Footer from "./components/Footer";
+import { Popupmodal } from "./components/Footer";
+import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+<<<<<<< HEAD
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="accounting" element={<ManagedServicesAccounting />} />
@@ -110,15 +114,67 @@ function App() {
         {/* <Route path="button8" element={<ManagedServicesPage />} />
         <Route path="button9" element={<ProjectDeliveryPage />} /> */}
         {/* <Route path="button10" element={<ManagedServicesRequestForm />} /> */}
+=======
+      <FooterItemToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="our-model" element={<OurModelPage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
+          <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
+          <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
+          <Route path="haven" element={<HavenPortfolioPage />} />
+          <Route path="project-delivery" element={<ProjectDeliveryPage />} />
+          <Route
+            path="project-delivery-gallery"
+            element={<ProjectDeliveryGalleryPage />}
+          />
+          <Route path="GIZ-employability-gallery" element={<GIZPage />} />
+          <Route path="piggery-training" element={<PiggeryTrainingPage />} />
+          <Route path="LSETF-gallery" element={<LSETFPage />} />
+          <Route
+            path="innkeeper-hackathon-gallery"
+            element={<InnkeeperHackathonGalleryPage />}
+          />
+          <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
+          <Route path="managed-services" element={<ManagedServicesPage />} />
+          <Route
+            path="digitalmarketing"
+            element={<ManagedServicesDigitalMarketing />}
+          />
+          <Route path="accounting" element={<ManagedServicesAccounting />} />
+          <Route path="legal" element={<ManagedServicesLegal />} />
+          <Route path="tech" element={<ManagedServicesTech />} />
+          <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+          <Route path="coworking" element={<CoWorking />} />
+>>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5
 
-        {/* <Route path="constructionpage" element={<Constructionpage />} /> */}
-      </Routes>
-      {/* <OnHoverCard /> */}
-      {/* <UnderconstructionNavbar /> */}
+          <Route path="about" element={<AboutUs />} />
+          <Route path="team" element={<TeamPage />} />
+          <Route path="blog" element={<BlogPage />} />
+          {/* <Route path="faq" element={<FAQ />} /> */}
+          <Route path="events" element={<EventsPage />} />
+          <Route path="events-gallery" element={<EventsGalleryPage />} />
+          <Route path="demo-day" element={<DemoDayPage />} />
+          <Route path="founders-meetup" element={<FounderMeetupPage />} />
+          <Route
+            path="founders-meetup-gallery"
+            element={<FoundersMeetupGalleryPage />}
+          />
+          <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+          <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
+          <Route path="*" element={<Error404 />} />
+        </Routes>
 
-      <footer>
+        <footer>
+          <Footer />
+          <ScrollButton />
+        </footer>
+      </FooterItemToTop>
+      {/* <footer>
         <Footer />
-      </footer>
+        <ScrollButton />
+      </footer> */}
     </BrowserRouter>
   );
 }

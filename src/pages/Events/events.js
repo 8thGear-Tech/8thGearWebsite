@@ -28,7 +28,7 @@ const EventsPage = () => {
       <EventsPageHero />
       <Events />
       <SuggestAnEvent />
-      {/* <EventsGallery /> */}
+      <EventsGallery />
     </>
   );
 };

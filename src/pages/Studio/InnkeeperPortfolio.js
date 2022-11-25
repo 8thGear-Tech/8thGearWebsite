@@ -41,12 +41,12 @@ const StartupsTractions = () => {
     <>
       <div className="container-fluid text-center p-5 TractionsBg">
         <div className="">
-          <div className="row justify-content-evenly mt-5">
+          <div className="row justify-content-center mt-5">
             {allPortfolioTractions.allPortfolioTractions.map(
               (portfolioTractions) => {
                 return (
                   <div
-                    className="col-lg-3 col-md-6 col-sm-10 px-3 d-flex align-items-stretch"
+                    className="col-lg-3 col-md-6 col-sm-10 d-flex align-items-stretch"
                     key={portfolioTractions.id}
                   >
                     <Tractions {...portfolioTractions}></Tractions>

@@ -24,15 +24,41 @@ export const ManagedServicesHero = () => {
 // portfolio component start
 
 const PortfolioHeroSingle = (props) => {
-  const { text } = props;
+  const { title, text } = props;
   return (
     <div className="container-fluid PortfolioHeroBg py-5 px-lg-5 px-md-5">
-      <div className="row my-lg-5 mx-lg-3 px-5 justify-content-center ">
+      <div className="row my-lg-5 mx-lg-3 justify-content-center ">
         <div className="col-lg-8 d-none d-lg-block d-md-block d-sm-none">
-          <h3 className="text-center">{text}</h3>
+          <h2 className="text-center pb-3">{title}</h2>
+          <p className="text-center porfolioParagraph">{text}</p>
+          {/* <p className="text-center ">
+            What makes 8thGear special is how much we:
+          </p>
+          <ul>
+            <li className="">
+              Share information openly, broadly and deliberately
+            </li>
+            <li className="">Communicate candidly and directly</li>
+            <li className=""> Avoid rules that constrict creativity</li>
+            <li className="">Encourage decision-making by employees</li>
+            <li className="">Keep only our highly effective people.</li>
+          </ul> */}
         </div>
         <div className="col-lg-7 d-lg-none d-md-none d-sm-block d-xs-block">
-          <h4 className="text-center">{text}</h4>
+          <h3 className="text-center">{title}</h3>
+          <p className="text-center porfolioParagraph">{text}</p>
+          {/* <p className="text-center ">
+            What makes 8thGear special is how much we:
+          </p>
+          <ul>
+            <li className="">
+              Share information openly, broadly and deliberately
+            </li>
+            <li className="">Communicate candidly and directly</li>
+            <li className=""> Avoid rules that constrict creativity</li>
+            <li className="">Encourage decision-making by employees</li>
+            <li className="">Keep only our highly effective people.</li>
+          </ul> */}
         </div>
       </div>
     </div>

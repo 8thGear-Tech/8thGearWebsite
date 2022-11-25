@@ -23,7 +23,7 @@
 
 .blogCategory {
   position: fixed;
-  width: 100%;
+  width: 96%;
 }
 
 .blogPagE {
@@ -52,6 +52,19 @@
   color: var(--white);
   line-height: 1.3rem;
   font-family: "Open Sans", sans-serif;
+}
+
+.sideBlogCards {
+  width: 20rem;
+}
+
+.sideCardImg {
+  box-shadow: 0 3px 3px 3px rgba(150, 170, 180, 0.5);
+}
+
+.sidecard-date-text {
+  font-size: 0.7rem;
+  font-weight: 100;
 }
 
 .manageSvcard {
@@ -159,7 +172,7 @@ body {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 8rem;
+  width: 9rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -223,19 +236,16 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-weight: 600;
   font-family: "Rubik", sans-serif;
 }
 
 h4 {
   font-size: 1.3rem;
-  font-weight: 600;
 }
 
 h5 {
@@ -287,7 +297,7 @@ p {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 15.5rem;
+  width: 17rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -587,6 +597,41 @@ article h4 {
   font-size: 1.1rem;
 }
 
+.talkToUsText {
+  font-weight: 400;
+  color: #000;
+}
+
+.PrivacyAndPolicyHero {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: #f7f7f7;
+}
+
+.PrivacyAndPolicyP {
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.PrivacyAndPolicyP h4 {
+  line-height: 50px;
+}
+
+.privatePolicyBody {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .privatePolicyBody li {
+    text-align: left;
+  }
+}
 .ManagedServicesHeroText {
   color: rgba(0, 0, 0, 0.9);
   font-family: Rubik;
@@ -598,6 +643,16 @@ article h4 {
   padding: 150px 100px 0px 100px;
 }
 
+.lineHeight {
+  line-height: 2.4rem;
+}
+
+.teamHeroFontSize {
+  font-size: 1.2rem;
+  color: #afafaf;
+  text-align: center;
+}
+
 .PortfolioHeroText {
   color: #ffffff !important;
 }
@@ -605,6 +660,11 @@ article h4 {
 .PortfolioHeroBg {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+.porfolioParagraph {
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 .BookNowBtn {
@@ -639,7 +699,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 11rem;
+  width: 12rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -659,7 +719,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 11rem;
+  width: 12rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -679,7 +739,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 11rem;
+  width: 12rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -699,7 +759,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 10rem;
+  width: 12rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -735,11 +795,51 @@ article h4 {
   color: #ffffff;
 }
 
+.HomeBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 6rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.HomeBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.HomeBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.ContactUsBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 9rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.ContactUsBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.ContactUsBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
 .SuggestAnEventBtn {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 13rem;
+  width: 12rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -1027,6 +1127,19 @@ article h4 {
   background: #ffffff;
   border: 1px solid #821e6b;
   border-radius: 30px;
+}
+
+.form-control {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.dropdownFont {
+  font-size: 0.8rem;
+}
+
+.selectoptionform {
+  font-weight: 700;
 }
 
 .NavBar {
@@ -1524,7 +1637,7 @@ article h4 {
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehome.jpg);
+  background: url(/src/assets/images/hero/homehero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1543,7 +1656,12 @@ article h4 {
 }
 
 .homeHeroText {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.projectDeliveryHeroText {
+  font-size: 3.5rem;
   font-weight: 300;
 }
 
@@ -1589,6 +1707,10 @@ article h4 {
   position: relative;
 }
 
+.callToAction {
+  position: relative;
+}
+
 @media only screen and (max-width: 440px) {
   .GaaSHeroBg {
     height: 50vh;
@@ -1608,21 +1730,20 @@ article h4 {
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/demoday1.JPG);
+  background: url(/src/assets/images/hero/eventshero.JPG);
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.6;
-}
-
-.EventsHeroBg h1 {
-  position: relative;
 }
 
 .EventsHeroBg h2 {
+  position: relative;
+}
+
+.EventsHeroBg h3 {
   position: relative;
 }
 
@@ -1682,7 +1803,7 @@ article h4 {
 
 .ourModelHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/ourmodel.jpg);
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1697,6 +1818,10 @@ article h4 {
 }
 
 .ourModelHeroBg h3 {
+  position: relative;
+}
+
+.ourModelHeroBg h4 {
   position: relative;
 }
 
@@ -1805,11 +1930,11 @@ article h4 {
     height: 60vh;
   }
 }
-.piggeryTrainingHeroBg h2 {
+.piggeryTrainingHeroBg h1 {
   position: relative;
 }
 
-.piggeryTrainingHeroBg h3 {
+.piggeryTrainingHeroBg h2 {
   position: relative;
 }
 
@@ -1831,11 +1956,11 @@ article h4 {
     height: 60vh;
   }
 }
-.GIZHeroBg h2 {
+.GIZHeroBg h1 {
   position: relative;
 }
 
-.GIZHeroBg h3 {
+.GIZHeroBg h2 {
   position: relative;
 }
 
@@ -1857,11 +1982,11 @@ article h4 {
     height: 60vh;
   }
 }
-.LSETFHeroBg h2 {
+.LSETFHeroBg h1 {
   position: relative;
 }
 
-.LSETFHeroBg h3 {
+.LSETFHeroBg h2 {
   position: relative;
 }
 
@@ -1883,11 +2008,11 @@ article h4 {
     height: 60vh;
   }
 }
-.hackathonHeroBg h2 {
+.hackathonHeroBg h1 {
   position: relative;
 }
 
-.hackathonHeroBg h3 {
+.hackathonHeroBg h2 {
   position: relative;
 }
 
@@ -1909,11 +2034,11 @@ article h4 {
     height: 60vh;
   }
 }
-.ITFHeroBg h2 {
+.ITFHeroBg h1 {
   position: relative;
 }
 
-.ITFHeroBg h3 {
+.ITFHeroBg h2 {
   position: relative;
 }
 
@@ -2083,6 +2208,10 @@ video {
   border-radius: 30px;
 }
 
+.dame {
+  border-color: blue;
+}
+
 .ManagedServicesRequestBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -2145,7 +2274,7 @@ video {
 }
 
 .footerLogo2 {
-  width: 4.7vw;
+  width: 3rem;
 }
 
 .footerText {
@@ -2156,13 +2285,20 @@ video {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
+@media only screen and (max-width: 1024px) {
+  .footerText {
+    font-size: 0.75rem;
+  }
+}
 
 .icons-for-footer {
   display: flex;
 }
 
-.footerIcon {
-  list-style-type: none;
+@media only screen and (max-width: 1024px) {
+  .footerIcon {
+    font-size: 0.75rem;
+  }
 }
 
 .footerFormField {
@@ -2176,7 +2312,6 @@ video {
 }
 
 .firstSignUp {
-  font-size: 1.1vw;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
@@ -2205,40 +2340,76 @@ video {
   font-family: "Open Sans", sans-serif;
 }
 
-.text-fluid1 {
-  font-size: 1.7vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid2 {
-  font-size: 1.4vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.text-fluid3 {
-  font-size: 0.9rem;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-li {
-  list-style-type: none;
-}
-
 .footerTextDecoration {
   text-decoration: none;
   color: #000;
+}
+
+.inputSizing {
+  width: 18rem;
+  height: 4.5rem;
+}
+
+.subscributton {
+  border: 2px solid rgb(216, 43, 117) !important;
+  border-radius: 5px;
+}
+
+.subscributton:hover {
+  background-color: rgb(216, 43, 117) !important;
 }
 
 .addressText {
   color: #821e6b;
 }
 
+.text-fluid3 {
+  font-size: 0.75rem;
+}
+
+.signupText {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-fluid3 {
+    font-size: 0.75rem;
+  }
+  .signupText {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 1024px) and (max-width: 768px) {
+  .text-fluid3 {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1024px) and (max-width: 480px) {
+  .signupText {
+    font-size: 2rem;
+  }
+  .signupText .text-fluid3 {
+    font-size: 0.8rem;
+  }
+  .signupText .footer__icons {
+    padding-left: 0rem !important;
+    padding-left: 0rem;
+  }
+  .signupText .remove__ml {
+    margin-left: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  .signupText ul.listStyling {
+    list-style-type: none !important;
+    padding-left: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .listStyling > li {
+    list-style-type: none !important;
+    padding-left: 0rem !important;
+    margin-left: 0rem !important;
+  }
+}
 .DigitalMarketingSection {
   border: 1px solid #03a062;
 }
@@ -2369,6 +2540,18 @@ li {
   color: black;
 }
 
+.scrolltotopBtn {
+  position: fixed;
+  width: 100%;
+  left: 47%;
+  bottom: 225px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #03a062;
+}
+
 header {
   background-size: cover;
   background-position: center;
@@ -2385,4 +2568,13 @@ header {
 
 .blogImage {
   width: 50vh;
+<<<<<<< HEAD
 }/*# sourceMappingURL=styles.css.map */
+=======
+}
+
+.textLinkColor {
+  color: #821e6b;
+}
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5

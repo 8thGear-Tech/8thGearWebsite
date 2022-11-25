@@ -19,10 +19,6 @@
     {
       "id": 5,
       "image": "../../images/team/labisioyedotun.png"
-    },
-    {
-      "id": 6,
-      "image": "../../images/team/temitayo.png"
     }
   ],
   "FirstHoverCard": [
@@ -60,13 +56,6 @@
       "name": "LABISI OYEDOTUN",
       "position": "ADVISOR PARTNERSHIP",
       "link": "https://linkedin.com/"
-    },
-    {
-      "id": 6,
-      "image": "../images/advisoryImage/temitayosamson.png",
-      "name": "TEMITAYO SAMSON-GRACE",
-      "position": "HR CONSULTANT",
-      "link": "https://www.linkedin.com/in/temitayosamson-grace/"
     }
   ]
 }

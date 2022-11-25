@@ -9,10 +9,9 @@ export const JointheStudioBtn = () => {
       href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
       target="_blank"
     >
-      {" "}
       <button
         className="JointheStudioBtn"
-        // type="button"
+        type="button"
         // className="prop"
         // data-bs-toggle="modal"
         // data-bs-target="#staticBackdrop"
@@ -36,14 +35,19 @@ export const JointheStudioBtn = () => {
 // };
 export const JointheTeamBtn = () => {
   return (
-    <button
-      // type="button"
-      className="JointheTeamBtn"
-      // data-bs-toggle="modal"
-      // data-bs-target="#staticBackdrop"
+    <a
+      href="https://docs.google.com/forms/d/1uS-aBQOD6qYAMWIp9u-_22WIqH0kyJFWzYCm3L8g4us/edit?pli=1"
+      target="_blank"
     >
-      Join the Team
-    </button>
+      <button
+        // type="button"
+        className="JointheTeamBtn"
+        // data-bs-toggle="modal"
+        // data-bs-target="#staticBackdrop"
+      >
+        Join the Team
+      </button>
+    </a>
   );
 };
 
@@ -164,6 +168,20 @@ export const SubmitFormBtn = () => {
   return (
     <button className="SubmitFormBtn" type="submit">
       Submit
+    </button>
+  );
+};
+export const HomeBtn = () => {
+  return (
+    <button className="HomeBtn" type="">
+      Home
+    </button>
+  );
+};
+export const ContactBtn = () => {
+  return (
+    <button className="ContactUsBtn" type="">
+      Contact Us
     </button>
   );
 };
