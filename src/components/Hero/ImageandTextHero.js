@@ -565,3 +565,63 @@ export const ManagedServicesAccountingHero = () => {
     </>
   );
 };
+
+export const DemodayHero = () => {
+  return (
+    <>
+      <div className="px-3 container-fluid Herodemoday d-flex align-items-center pt-5 pb-2">
+        {/* <div className="gradientBg overlayBg"></div> */}
+        {/* <div className="row">
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
+              It is important to travel the lonely path of entrepreneurship with
+              like-minded individuals. Synergy is created when founders
+              collaborate, and individuals are inspired, motivated, and
+              challenged to pursue their dreams.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+              It is important to travel the lonely path of entrepreneurship with
+              like-minded individuals. Synergy is created when founders
+              collaborate, and individuals are inspired, motivated, and
+              challenged to pursue their dreams.
+            </h3>
+          </div>
+        </div> */}
+        {/* <div className=""> */}
+        <h2 className="heroTextColor text-center ms-5 col-sm-12 col-md-8 col-lg-10">
+          It is important to travel the lonely path of entrepreneurship with
+          like-minded individuals. Synergy is created when founders collaborate,
+          and individuals are inspired, motivated, and challenged to pursue
+          their dreams.
+        </h2>
+        {/* </div> */}
+      </div>
+      {/* <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedServicesAccountingHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div> */}
+      {/*ManagedServicesAccountingHero mobile view start */}
+
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div> */}
+
+      {/* ManagedServicesAccountingHero mobile view start end */}
+      {/* </div> */}
+    </>
+  );
+};

@@ -2136,7 +2136,34 @@ article h4 {
   position: relative;
 }
 
-.ManagedServicesAccountingHero {
+.Herodemoday {
+  background: url(/src/assets/images/Herodemoday.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 440px) {
+  .Herodemoday {
+    background-size: auto;
+    position: relative;
+    height: 100vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media only screen and (max-width: 575px) and (min-width: 441px) {
+  .Herodemoday {
+    background-size: auto;
+    position: relative;
+    height: 100vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+ManagedDigitalMarketServicesHero mobile view style end .ManagedServicesAccountingHero {
   background: url(/src/assets/images/hero/accounting.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -2568,13 +2595,8 @@ header {
 
 .blogImage {
   width: 50vh;
-<<<<<<< HEAD
-}/*# sourceMappingURL=styles.css.map */
-=======
 }
 
 .textLinkColor {
   color: #821e6b;
-}
-/*# sourceMappingURL=styles.css.map */
->>>>>>> 38e9935d5c7cdd64813cdbf0c54a432121558da5
+}/*# sourceMappingURL=styles.css.map */

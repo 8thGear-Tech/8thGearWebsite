@@ -1,10 +1,14 @@
 import { Navbar15 } from "../../components/Navbar";
-import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
+// import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
+import { DemodayHero } from "../../components/Hero/ImageandTextHero";
+
 const FounderMeetupPage = () => {
   return (
     <>
       <Navbar15 />
-      <FoundersMeetupHero />
+      <DemodayHero />
+      {/* <FoundersMeetupHero /> */}
+
       <AboutFounderMeetup />
     </>
   );
