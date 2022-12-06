@@ -35,14 +35,8 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
 //WhoWeAre
-
-// import TeamPage from "./pages/WhoWeAre/TeamPage";
-// import TeamsPage from "./pages/About/TeamPage";
-// import AboutUs from "./page/WhoWeAre/aboutUs";
-
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
-
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -96,7 +90,7 @@ function App() {
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />
-          <Route path="blog" element={<BlogPage />} />
+          {/* <Route path="blog" element={<BlogPage />} /> */}
           {/* <Route path="faq" element={<FAQ />} /> */}
           <Route path="events" element={<EventsPage />} />
           <Route path="events-gallery" element={<EventsGalleryPage />} />

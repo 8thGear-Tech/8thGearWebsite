@@ -7,16 +7,10 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  block-size: -webkit-fit-content;
-  block-size: -moz-fit-content;
-  block-size: fit-content;
 }
 
 .MainCard {
   width: 100%;
-  block-size: -webkit-fit-content;
-  block-size: -moz-fit-content;
-  block-size: fit-content;
   padding: 20px;
   position: absolute;
 }
@@ -262,15 +256,23 @@ p {
 }
 
 .OnHoverReadMoreBtn {
-  background-color: #821e6b;
-  color: #ffffff;
+  border: 3px solid #821e6b;
+  color: #000;
   border-radius: 20px;
-  width: 8rem;
+  width: 8.55rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+}
+.OnHoverReadMoreBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.OnHoverReadMoreBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .LearnMoreBtn {
@@ -653,6 +655,15 @@ article h4 {
   text-align: center;
 }
 
+.FoundersMeetupText {
+  color: #ffffff !important;
+}
+
+.FoundersMeetupBg {
+  color: #000;
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
 .PortfolioHeroText {
   color: #ffffff !important;
 }
@@ -895,6 +906,26 @@ article h4 {
   color: #ffffff;
 }
 
+.EventsRegisterBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.EventsRegisterBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.EventsRegisterBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
 .GetYourTicketBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -985,6 +1016,16 @@ article h4 {
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
+.galleryvideos {
+  width: 5rem;
+  max-height: 60rem;
+}
+
+.projectdeliveryCard {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+}
+
 .TractionsBg {
   background-color: #00a495;
 }
@@ -1022,7 +1063,15 @@ article h4 {
 }
 
 .cardsss {
-  border-radius: 5px !important;
+  border-radius: 5px;
+}
+
+.managedServicesBg {
+  background-color: rgba(0, 164, 149, 0.07);
+}
+
+.cardBgg {
+  background-color: #ffffff;
 }
 
 .sectionOneBg {
@@ -1075,6 +1124,21 @@ article h4 {
   border: 3px solid #00a495;
   border-radius: 60px;
   box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 768px) {
+  .startStep {
+    margin-top: 7.5rem;
+  }
+  .buildStep {
+    margin-top: 3.75rem;
+  }
+  .scaleStep {
+    margin-top: 0;
+  }
+}
+.bookingform {
+  color: #ef00c0;
 }
 
 .center {
@@ -1142,6 +1206,19 @@ article h4 {
   font-weight: 700;
 }
 
+.borderLine {
+  outline: none;
+  color: #821e6b;
+}
+
+.pink {
+  color: #ef00c0;
+}
+
+.option {
+  font-size: 20px !important;
+}
+
 .NavBar {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   padding-right: 0% !important;
@@ -1190,7 +1267,6 @@ article h4 {
 
 .all {
   margin-top: 20px;
-  display: flex;
   gap: 2px;
 }
 
@@ -1217,6 +1293,16 @@ article h4 {
   grid-row-end: 4;
   background: #ef00c0;
   text-align: center;
+  color: #ffffff;
+}
+
+.coworkingGridLight {
+  background: #ef00c0;
+  color: #ffffff;
+}
+
+.coworkingGridDark {
+  background: rgba(239, 0, 192, 0.5);
   color: #ffffff;
 }
 
@@ -1313,13 +1399,6 @@ article h4 {
     height: 35rem;
     width: 35rem;
     gap: 1px;
-  }
-  .c1-element1 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background: #ef00c0;
-    text-align: center;
-    color: #ffffff;
   }
   .c2-element1 {
     grid-column-start: 2;
@@ -1418,13 +1497,6 @@ article h4 {
     width: 200px;
     gap: 1px;
   }
-  .c1-element1 {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    background: #ef00c0;
-    text-align: center;
-    color: #ffffff;
-  }
   .c2-element1 {
     grid-column-start: 2;
     grid-row-start: 1;
@@ -1521,7 +1593,7 @@ article h4 {
 .pink {
   background-image: url(https://blog.liquidspace.com/hs-fs/hubfs/Imported_Blog_Media/7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg?width=1920&height=1200&name=7720a5e7-6ef7-41e2-92a9-62edd9eab626-1.jpeg);
   text-align: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .short {
@@ -1535,44 +1607,42 @@ article h4 {
   left: 75%;
 }
 
-.Hunt {
+.DailyandWeekendBundleBtn {
   border: 3px solid #821e6b;
   color: #000;
-  border-radius: 10px;
-  width: 15rem;
+  border-radius: 20px;
+  width: 19rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  margin: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
 }
-.Hunt:active {
+.DailyandWeekendBundleBtn:active {
   background-color: #a5009f;
   color: #ffffff;
 }
-.Hunt:focus {
+.DailyandWeekendBundleBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
 }
 
-.Hint {
+.MeetingRoomBundleBtn {
   border: 3px solid #821e6b;
   color: #000;
-  border-radius: 10px;
-  width: 15rem;
+  border-radius: 20px;
+  width: 17rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  margin: 0.5rem;
+  font-weight: 500;
+  font-size: 20px;
 }
-.Hint:hover {
+.MeetingRoomBundleBtn:hover {
   background-color: #821e6b;
   color: #ffffff;
 }
-.Hint:focus {
+.MeetingRoomBundleBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
 }
@@ -1600,34 +1670,6 @@ article h4 {
   text-shadow: 2px 2px #333;
 }
 
-/*
-.imgContainer {
-  height: 100%;
-  width: 100%;
-}
-.imageStyle {
-  height: 80vh;
-  width: 100%;
-}
-
-.DigitalMarketingHeroText {
-  color: $prybgcolor;
-}
-.heroTextContainer {
-  height: 70vh;
-  width: 100%;
-  position: relative;
-}
-*/
-/*
-.background {
-  background-image: url(/src/assets/images/digital\ marketing.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100%;
-  width: 100vh;
-}
-*/
 .homeHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -1660,6 +1702,11 @@ article h4 {
   font-weight: 300;
 }
 
+.GaaSHeroText {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
 .projectDeliveryHeroText {
   font-size: 3.5rem;
   font-weight: 300;
@@ -1680,33 +1727,6 @@ article h4 {
     height: 60vh;
   }
 }
-.GaaSHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.GaaSHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/gaas.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-
-.GaaSHeroBg h1 {
-  position: relative;
-}
-
-.GaaSHeroBg h2 {
-  position: relative;
-}
-
 .callToAction {
   position: relative;
 }
@@ -1730,7 +1750,7 @@ article h4 {
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.JPG);
+  background: url(/src/assets/images/hero/eventshero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1757,23 +1777,29 @@ article h4 {
     height: 60vh;
   }
 }
-.CoworkingHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
+.CoworkingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
   height: 80vh;
   width: 100%;
-}
-
-.CoworkingHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/coworkinghero.png);
-  background-size: cover;
-  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.8;
+  opacity: 0.4;
+}
+
+.CoworkingHeroBg {
+  background: url(/src/assets/images/hero/coworking1.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .CoworkingHeroBg h2 {
@@ -1784,14 +1810,305 @@ article h4 {
   position: relative;
 }
 
-@media only screen and (max-width: 440px) {
-  .CoworkingHeroBg {
-    height: 50vh;
-  }
+.CoworkingOffersBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .CoworkingHeroBg {
-    height: 60vh;
+
+.CoworkingOffersBg {
+  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+
+.CoworkingTestmonialBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.CoworkingTestmonialBg {
+  background: url(/src/assets/images/hero/coworking2.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+
+.coworkingBookBtn,
+.coworkingBookText {
+  position: relative;
+  line-height: 35px;
+}
+
+.GaaSHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg {
+  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+  line-height: 70px;
+}
+
+.GaaSHeroBg h3 {
+  position: relative;
+  line-height: 45px;
+  font-size: 2rem !important;
+}
+
+.DemoDayGalleryHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.DemoDayGalleryHeroBg {
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.DemoDayGalleryHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.DemoDayGalleryHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesDigitalMargetingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.ManagedServicesDigitalMargetingHeroBg {
+  background: url(/src/assets/images/hero/digitalmarketinghero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesDigitalMargetingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesDigitalMargetingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesLegalHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.ManagedServicesLegalHeroBg {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesLegalHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesLegalHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesTechHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesTechHeroBg {
+  background: url(/src/assets/images/hero/techhero.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesTechHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesTechHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.ManagedServicesAccountingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesAccountingHeroBg {
+  background: url(/src/assets/images/hero/acc.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.ManagedServicesAccountingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ManagedServicesAccountingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 990px) {
+  .ManagedServicesAccountingHeroBgg::before,
+.ManagedServicesTechHeroBgg::before,
+.ManagedServicesLegalHeroBgg::before,
+.ManagedServicesDigitalMargetingHeroBgg::before,
+.GaaSHeroBgg::before,
+.CoworkingHeroBgg::before {
+    height: 22.5rem;
+  }
+  .ManagedServicesAccountingHeroBg,
+.ManagedServicesTechHeroBg,
+.ManagedServicesLegalHeroBg,
+.ManagedServicesDigitalMargetingHeroBg,
+.GaaSHeroBg,
+.CoworkingHeroBg {
+    height: 22.5rem;
   }
 }
 .ourModelHeroBg {
@@ -1872,43 +2189,6 @@ article h4 {
 }
 @media only screen and (max-width: 650px) and (min-width: 441px) {
   .projectDeliveryHeroBg {
-    height: 60vh;
-  }
-}
-.demoDayHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.demoDayHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/demodayhero.JPG);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-
-.demoDayHeroBg h2 {
-  position: relative;
-}
-
-.demoDayHeroBg h3 {
-  position: relative;
-}
-
-@media only screen and (max-width: 440px) {
-  .demoDayHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .demoDayHeroBg {
     height: 60vh;
   }
 }
@@ -2377,13 +2657,24 @@ video {
   height: 4.5rem;
 }
 
-.subscributton {
-  border: 2px solid rgb(216, 43, 117) !important;
-  border-radius: 5px;
+.subscribeButton {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 8.5rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
-
-.subscributton:hover {
-  background-color: rgb(216, 43, 117) !important;
+.subscribeButton:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.subscribeButton:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 .addressText {
@@ -2437,10 +2728,6 @@ video {
     margin-left: 0rem !important;
   }
 }
-.DigitalMarketingSection {
-  border: 1px solid #03a062;
-}
-
 .managedServicesSection {
   background-color: rgb(250, 248, 248);
 }
@@ -2559,6 +2846,84 @@ video {
   transition-timing-function: ease;
 }
 
+.ProjectDeliveryImage {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  background-color: #555;
+}
+
+.ProjectDeliveryImage:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-140%, -50%);
+  background-color: gray;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+
+.ProjectDeliveryImage:hover:after {
+  transform: translate(-50%, -50%);
+}
+
+.ProjectDeliveryImage:hover .AdvisoryIcon {
+  transform: translate(-50%, -50%) scale(1.3);
+}
+
+.ProjectDeliveryImage:hover .AdvisoryPosition {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.ProjectDeliveryName {
+  position: absolute;
+  text-align: center;
+  line-height: 90%;
+  font-size: small;
+  font-weight: bold;
+  z-index: 2;
+  top: 75%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.ProjectDeliveryImage:hover .ProjectDeliveryName {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.ProjectDeliveryLink {
+  position: absolute;
+  text-align: center;
+  font-size: xx-small;
+  z-index: 2;
+  top: 92%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.ProjectDeliveryImage:hover .ProjectDeliveryLink {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
 .faq {
   background-color: #00a495;
 }
@@ -2599,4 +2964,5 @@ header {
 
 .textLinkColor {
   color: #821e6b;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */

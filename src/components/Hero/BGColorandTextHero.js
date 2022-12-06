@@ -1,4 +1,5 @@
 import data from "../../data/portfolioHero.json";
+import { EventsRegisterBtn } from "../Buttons/EventsBtn";
 //ManagedServicesHero
 //PortfoliosandTeamPageHero
 // founderMeetupAndDemoday
@@ -66,6 +67,50 @@ const PortfolioHeroSingle = (props) => {
     </div>
   );
 };
+const FoundersMeetupHeroSingle = (props) => {
+  const { title, text } = props;
+  return (
+    <div className="container-fluid FoundersMeetupBg py-5 px-lg-5 px-md-5">
+      <div className="row my-lg-2 mx-lg-3 justify-content-center ">
+        <div className="col-lg-8 d-none d-lg-block d-md-block d-sm-none">
+          <h2 className="text-center pb-3">{title}</h2>
+          <p className="text-center porfolioParagraph">{text}</p>
+          {/* <p className="text-center ">
+            What makes 8thGear special is how much we:
+          </p>
+          <ul>
+            <li className="">
+              Share information openly, broadly and deliberately
+            </li>
+            <li className="">Communicate candidly and directly</li>
+            <li className=""> Avoid rules that constrict creativity</li>
+            <li className="">Encourage decision-making by employees</li>
+            <li className="">Keep only our highly effective people.</li>
+          </ul> */}
+        </div>
+        <div className="col-lg-7 d-lg-none d-md-none d-sm-block d-xs-block">
+          <h3 className="text-center">{title}</h3>
+          <p className="text-center porfolioParagraph">{text}</p>
+          {/* <p className="text-center ">
+            What makes 8thGear special is how much we:
+          </p>
+          <ul>
+            <li className="">
+              Share information openly, broadly and deliberately
+            </li>
+            <li className="">Communicate candidly and directly</li>
+            <li className=""> Avoid rules that constrict creativity</li>
+            <li className="">Encourage decision-making by employees</li>
+            <li className="">Keep only our highly effective people.</li>
+          </ul> */}
+        </div>
+      </div>
+      <div className="text-center">
+        <EventsRegisterBtn />
+      </div>
+    </div>
+  );
+};
 
 export const PortfolioHero = () => {
   return (
@@ -86,7 +131,7 @@ export const FoundersMeetupHero = () => {
       {data.founderMeetup.map((portFolio) => {
         return (
           <div className="" key={portFolio.id}>
-            <PortfolioHeroSingle {...portFolio}></PortfolioHeroSingle>
+            <FoundersMeetupHeroSingle {...portFolio}></FoundersMeetupHeroSingle>
           </div>
         );
       })}

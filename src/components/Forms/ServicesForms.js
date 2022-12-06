@@ -23,460 +23,361 @@
 // //     password: "",
 // //     debrief: "",
 // //   });
+import React, { useState } from "react";
+import logo from "../../assets/images/logo.png";
+import { SubmitFormBtn } from "../Buttons/ContactBtn";
 
-// //   const handleSubmit = (e) => {
-// //     e.preventDefault();
-// //     console.log("Email: " + formData.email);
-// //     console.log("password: " + formData.password);
-// //     console.log("Debrief: " + formData.debrief);
-// //   };
+// //ManagedServicesRequestForm
+// //ProjectDeliveryRequestForm
+// //CoworkingSpaceForm
 
-// //   return (
-// //     <>
-// //       <RequestForProposalBtn />
+const CoworkingSpaceForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [addressOfUser, setAddressOfUser] = useState("");
+  const [nameOfBusiness, setNameOfBusiness] = useState("");
+  const [natureOfBusiness, setNatureOfBusiness] = useState("");
+  const [website, setWebsite] = useState("");
+  const [durationQuantity, setDurationQuantity] = useState("");
+  // const [GroupSelect, setGroupSelect] = useState("");
+  const [date, setdate] = useState("");
 
-// //       <div
-// //         className="modal fade"
-// //         id="staticBackdrop"
-// //         data-bs-backdrop="static"
-// //         data-bs-keyboard="false"
-// //         tabindex="-1"
-// //         aria-labelledby="staticBackdropLabel"
-// //         aria-hidden="true"
-// //       >
-// //         <div className="modal-dialog modal-sm">
-// //           <div className="modal-content">
-// //             <div className="modal-header m-2">
-// //               <img src={logo} width={40} id="staticBackdropLabel" />
-// //               <button
-// //                 type="button"
-// //                 className="btn-close"
-// //                 data-bs-dismiss="modal"
-// //                 aria-label="Close"
-// //               ></button>
-// //             </div>
-// //             <div className="modal-body">
-// //               <form onSubmit={handleSubmit}>
-// //                 <h4 className=" request mb-4">Request Form</h4>
+  const [people, setPeople] = useState([]);
 
-// //                 <div className="Vessel mb-3">
-// //                   <input
-// //                     onChange={(e) =>
-// //                       setFormData({ ...formData, email: e.target.value })
-// //                     }
-// //                     value={formData.email}
-// //                     type="text"
-// //                     name="email"
-// //                     id="email"
-// //                     className="myInput form-control"
-// //                     placeholder="Email"
-// //                   ></input>
-// //                 </div>
+  const Handle = (e) => {
+    e.preventDefault();
+    if (
+      name &&
+      email &&
+      phoneNumber &&
+      addressOfUser &&
+      nameOfBusiness &&
+      natureOfBusiness &&
+      website &&
+      durationQuantity &&
+      date
+    ) {
+      const person = {
+        name,
+        email,
+        phoneNumber,
+        addressOfUser,
+        nameOfBusiness,
+        natureOfBusiness,
+        website,
+        durationQuantity,
+        date,
+      };
+      console.log(person);
+      setPeople((people) => {
+        return [...people, person];
+      });
+      setName("");
+      setEmail("");
+      setPhoneNumber("");
+      setAddressOfUser("");
+      setNameOfBusiness("");
+      setNatureOfBusiness("");
+      setdate("");
+      setWebsite("");
+      setDurationQuantity("");
+      setPeople("");
+    } else {
+      alert("empty values");
+    }
+  };
 
-// //                 {/* <div className="Vessel">
-// //                   <input
-// //                     onChange={(e) =>
-// //                       setFormData({ ...formData, password: e.target.value })
-// //                     }
-// //                     value={formData.password}
-// //                     type="password"
-// //                     name="password"
-// //                     id="password"
-// //                     className="myInput form-control"
-// //                     placeholder="Password"
-// //                   ></input>
-// //                 </div> */}
+  return (
+    <>
+      <button
+        type="button"
+        className="prop"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        co-working space
+      </button>
 
-// //                 <div className=" Vessel mb-3">
-// //                   <label for="debrief" className="form-label"></label>
-// //                   <textarea
-// //                     className="myInput form-control"
-// //                     id="debrief"
-// //                     rows="3"
-// //                     onChange={(e) =>
-// //                       setFormData({ ...formData, debrief: e.target.value })
-// //                     }
-// //                     value={formData.debrief}
-// //                     type="text"
-// //                     name="debrief"
-// //                     placeholder="Debrief"
-// //                   ></textarea>
-// //                 </div>
-// //                 <div className="col-12 mb-3">
-// //                   <div className="form-check">
-// //                     <input
-// //                       className="form-check-input"
-// //                       type="checkbox"
-// //                       id="gridCheck"
-// //                     />
-// //                     <label className="form-check-label" for="gridCheck">
-// //                       Click to join our Newsletter
-// //                     </label>
-// //                   </div>
-// //                 </div>
-// //                 <div className="sub">
-// //                   <input type="submit" className="submit" value="Submit" />
-// //                 </div>
-// //               </form>
-// //             </div>
-// //           </div>
-// //         </div>
-// //       </div>
-// //     </>
-// //   );
-// // };
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-md">
+          <div class="modal-content">
+            <div class="modal-header m-2">
+              <img
+                src={logo}
+                width={40}
+                className=""
+                id="staticBackdropLabel"
+              />
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form onSubmit={Handle}>
+                <div>
+                  <h4 class=" pink request mb-3 ">
+                    The 8thGear Hub-Space Booking Form
+                  </h4>
 
-// export const ManagedServicesRequestForm = () => {
-//   const {
-//     register,
-//     formState: { errors },
-//   } = useForm();
-//   const [person, setPerson] = useState({
-//     fullName: "",
-//     phoneNumber: "",
-//     email: "",
-//     nameOfBiz: "",
-//     socialHandle: "",
-//     companysWebsite: "",
-//     describeProject: "",
-//     natureOfBiznex: "",
-//     serviceOfInterest: "",
-//     meansOfComm: "",
-//     hearAboutUS: "",
-//   });
-//   const [people, setPeople] = useState([]);
+                  <div className="mb-3 ">
+                    <label for="InputName" className="form-label"></label>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputName"
+                      aria-describedby="titleHelp"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      placeholder="Full name ( First name first )"
+                    />
+                  </div>
 
-//   const handleChange = (e) => {
-//     const name = e.target.name;
-//     const value = e.target.value;
-//     setPerson({ ...person, [name]: value });
-//   };
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
+                  <div className="mb-3 ">
+                    <label for="InputEmail" className="form-label"></label>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputEmail"
+                      aria-describedby="titleHelp"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Email"
+                    />
+                  </div>
 
-//     if (
-//       person.fullName &&
-//       person.phoneNumber &&
-//       person.email &&
-//       person.nameOfBiz
-//     ) {
-//       console.log(person);
-//       const newPerson = { ...person };
-//       setPeople([...people, newPerson]);
-//       setPerson({
-//         fullName: "",
-//         phoneNumber: "",
-//         email: "",
-//         nameOfBiz: "",
-//         socialHandle: "",
-//         companysWebsite: "",
-//         describeProject: "",
-//         natureOfBiznex: "",
-//         serviceOfInterest: "",
-//         meansOfComm: "",
-//         hearAboutUS: "",
-//       });
-//     }
-//   };
+                  <div className="mb-3  ">
+                    <label
+                      for="InputPhoneNumber"
+                      className="form-label"
+                    ></label>
+                    <input
+                      type="phone number"
+                      className="form-control border-primary"
+                      id="InputPhoneNumber"
+                      aria-describedby="titleHelp"
+                      value={phoneNumber}
+                      onChange={(e) => setPhoneNumber(e.target.value)}
+                      placeholder="Phone Number (Whatsapp)"
+                    />
+                  </div>
 
-//   return (
-//     <>
-//       <div class="container mt-3">
-//         <ManagedServicesRequestBtn />
+                  <div className="mb-3 ">
+                    <label
+                      for="InputaddressOfUser"
+                      className="form-label"
+                    ></label>
 
-//         <div class="modal fade" id="myModal">
-//           <div class="modal-dialog modal-md">
-//             <div class="modal-content">
-//               <div class="modal-header">
-//                 <img src={logo} height={35} width={30}></img>
-//                 <button
-//                   type="button"
-//                   className="btn-close"
-//                   data-bs-dismiss="modal"
-//                   aria-label="Close"
-//                 ></button>
-//               </div>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputaddressOfUser"
+                      aria-describedby="titleHelp"
+                      value={addressOfUser}
+                      placeholder="Address Of User"
+                      onChange={(e) => setAddressOfUser(e.target.value)}
+                    />
+                  </div>
 
-//               <div class="modal-body">
-//                 <div className="row">
-//                   <div className="ManagedServicesRequestForm-Container col-lg-10 col-md-10 col-sm-10 col-10">
-//                     <form onSubmit={handleSubmit}>
-//                       <div className="center">
-//                         <h3 className="ManagedServicesRequestForm-Text mb-4">
-//                           Managed Services
-//                         </h3>
+                  <div className="mb-3 ">
+                    <label
+                      for="InputnameOfBusiness"
+                      className="form-label"
+                    ></label>
 
-//                         <MDBValidationItem
-//                           className="form-group my-4"
-//                           feedback="Please provide your FullName."
-//                           invalid
-//                         >
-//                           <MDBInput
-//                             value={person.fullName}
-//                             name="fullName"
-//                             onChange={handleChange}
-//                             id="validationCustom01"
-//                             required
-//                             placeholder="Enter fullName"
-//                           />
-//                         </MDBValidationItem>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputnameOfBusiness"
+                      aria-describedby="titleHelp"
+                      value={nameOfBusiness}
+                      placeholder="Name Of Business"
+                      onChange={(e) => setNameOfBusiness(e.target.value)}
+                    />
+                  </div>
 
-//                         <MDBValidationItem
-//                           className="form-group my-4"
-//                           feedback="Please provide your PhoneNumber."
-//                           invalid
-//                         >
-//                           <MDBInput
-//                             value={person.phoneNumber}
-//                             name="phoneNumber"
-//                             onChange={handleChange}
-//                             id="validationCustom02"
-//                             required
-//                             placeholder="Phone Number"
-//                           />
-//                         </MDBValidationItem>
+                  <div className="mb-3 ">
+                    <label
+                      for="InputnatureOfBusiness"
+                      className="form-label"
+                    ></label>
 
-//                         <MDBValidationItem
-//                           className="form-group my-4"
-//                           feedback="Please provide your email address."
-//                           invalid
-//                         >
-//                           <MDBInput
-//                             value={person.email}
-//                             name="email"
-//                             onChange={handleChange}
-//                             id="validationCustom03"
-//                             required
-//                             placeholder="Enter email"
-//                           />
-//                         </MDBValidationItem>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputnatureOfBusiness"
+                      aria-describedby="titleHelp"
+                      value={natureOfBusiness}
+                      placeholder="Nature Of Business"
+                      onChange={(e) => setNatureOfBusiness(e.target.value)}
+                    />
+                  </div>
 
-//                         <MDBValidationItem
-//                           className="form-group my-4"
-//                           feedback="Please provide your business Name"
-//                           invalid
-//                         >
-//                           <MDBInput
-//                             value={person.nameOfBiz}
-//                             name="nameOfBiz"
-//                             onChange={handleChange}
-//                             id="validationCustom04"
-//                             required
-//                             placeholder="Name Of Business"
-//                           />
-//                         </MDBValidationItem>
+                  <div className="mb-3 ">
+                    <label for="Inputwebsite" className="form-label"></label>
 
-//                         <div className="form-group my-4">
-//                           <input
-//                             type="text"
-//                             className="form-control"
-//                             id="socialHandle"
-//                             name="socialHandle"
-//                             onChange={handleChange}
-//                             value={person.socialHandle}
-//                             placeholder="Social Media Handle"
-//                           ></input>
-//                         </div>
-//                         <div className="form-group my-4">
-//                           <input
-//                             type="text"
-//                             className="form-control"
-//                             id="companysWebsite"
-//                             name="companysWebsite"
-//                             onChange={handleChange}
-//                             value={person.companysWebsite}
-//                             placeholder="Company's Website"
-//                           ></input>
-//                         </div>
-//                         <div className="my-4">
-//                           <select
-//                             type="text"
-//                             className="form-select input-group selectoptionform"
-//                             id="natureOfBiznex"
-//                             name="natureOfBiznex"
-//                             onChange={handleChange}
-//                             value={person.natureOfBiznex}
-//                           >
-//                             <option selected> Nature of Business</option>
-//                             <option className="dropdownFont" value="Healthcare">
-//                               Healthcare
-//                             </option>
-//                             <option className="dropdownFont" value="Finance">
-//                               Finance
-//                             </option>
-//                             <option className="dropdownFont" value="IT">
-//                               IT
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Agriculture"
-//                             >
-//                               Agriculture
-//                             </option>
-//                             <option className="dropdownFont" value="Education">
-//                               Education
-//                             </option>
-//                             <option className="dropdownFont" value="Logistics">
-//                               Logistics
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Hospitality"
-//                             >
-//                               Hospitality
-//                             </option>
-//                             <option className="dropdownFont" value="Fashion">
-//                               Fashion
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Manufaturing"
-//                             >
-//                               Manufaturing
-//                             </option>
-//                           </select>
-//                         </div>
-//                         <div className="my-4">
-//                           <select
-//                             type="text"
-//                             className="form-select input-group"
-//                             id="serviceOfInterest"
-//                             name="serviceOfInterest"
-//                             onChange={handleChange}
-//                             value={person.serviceOfInterest}
-//                           >
-//                             <option selected>Service of Interest</option>
-//                             <option
-//                               className="dropdownFont"
-//                               value=" Product Development"
-//                             >
-//                               Product Development
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Digital Marketing Support"
-//                             >
-//                               Digital Marketing Support
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value=" Accounting/Bookkeeping Support"
-//                             >
-//                               Accounting/Bookkeeping Support
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Talent Acquisition Support"
-//                             >
-//                               Talent Acquisition Support
-//                             </option>
-//                             <option className="dropdownFont" value="Others">
-//                               Others
-//                             </option>
-//                           </select>
-//                         </div>
-//                         <div className="form-group my-4">
-//                           <textarea
-//                             type="text"
-//                             className="form-control  "
-//                             id="describeProject"
-//                             name="describeProject"
-//                             onChange={handleChange}
-//                             value={person.describeProject}
-//                             placeholder="Describe your project?"
-//                           ></textarea>
-//                         </div>
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="Inputwebsite"
+                      aria-describedby="titleHelp"
+                      value={website}
+                      placeholder="Website and social media handles"
+                      onChange={(e) => setWebsite(e.target.value)}
+                    />
+                  </div>
 
-//                         <div className="my-4">
-//                           <select
-//                             type="text"
-//                             className="form-select input-group"
-//                             id="meansOfComm"
-//                             name="meansOfComm"
-//                             onChange={handleChange}
-//                             value={person.meansOfComm}
-//                           >
-//                             <option selected>
-//                               Preferred Means of Communication
-//                             </option>
-//                             <option className="dropdownFont" value="Call">
-//                               Call
-//                             </option>
-//                             <option className="dropdownFont" value="Email">
-//                               Email
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Social Media"
-//                             >
-//                               Social Media
-//                             </option>
-//                           </select>
-//                         </div>
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect">
+                      Services of interest
+                    </label>
+                    <select class="form-select" id="inputGroupSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">
+                        Dedicated Desk(per month) - 35,000[10% discount for
+                        every additional team member]
+                      </option>
+                      <option value="3">
+                        Training Room(20 persons)(per hour) - N10,000
+                      </option>
+                      <option value="2">
+                        Virtual office plus(per month) - N20,000
+                      </option>
+                      <option value="4">Hotdesk(per week) - N12,000</option>
+                      <option value="5">Hotdesk(per day) - N3,000</option>
+                      <option value="5">Other : </option>
+                    </select>
+                  </div>
 
-//                         <div className="my-4">
-//                           <select
-//                             type="text"
-//                             className="form-select input-group"
-//                             id="hearAboutUS"
-//                             name="hearAboutUS"
-//                             onChange={handleChange}
-//                             value={person.hearAboutUS}
-//                           >
-//                             <option selected>How did you hear about us</option>
-//                             <option className="dropdownFont" value="LinkedIn">
-//                               LinkedIn
-//                             </option>
-//                             <option className="dropdownFont" value="Whatsapp">
-//                               Whatsapp
-//                             </option>
-//                             <option className="dropdownFont" value="Facebook">
-//                               Facebook
-//                             </option>
-//                             <option className="dropdownFont" value="Instagram">
-//                               Instagram
-//                             </option>
-//                             <option className="dropdownFont" value="Twitter">
-//                               Twitter
-//                             </option>
-//                             <option className="dropdownFont" value="Tiktok">
-//                               Tiktok
-//                             </option>
-//                             <option
-//                               className="dropdownFont"
-//                               value="Friends and Family"
-//                             >
-//                               Friends and Family
-//                             </option>
-//                             <option className="dropdownFont" value="Others">
-//                               Others
-//                             </option>
-//                           </select>
-//                         </div>
-//                       </div>
-//                       <div className="custom-control custom-checkbox my-3 mr-sm-2">
-//                         <input
-//                           type="checkbox"
-//                           className="custom-control-input text-left"
-//                         ></input>
-//                         <label className="custom-control-label mx-1">
-//                           Click to subscribe to our News Letter
-//                         </label>
-//                       </div>
+                  <div className="mb-3 ">
+                    <label
+                      for="InputdurationQuantity"
+                      className="form-label"
+                    ></label>
 
-//                       {/* </div> */}
+                    <input
+                      type="text"
+                      className="form-control border-primary"
+                      id="InputdurationQuantity"
+                      aria-describedby="titleHelp"
+                      value={durationQuantity}
+                      placeholder="Required Duration:how many hours,days,weeks or months?"
+                      onChange={(e) => setDurationQuantity(e.target.value)}
+                    />
+                  </div>
 
-//                       <div className="center">
-//                         <SubmitFormBtn />
-//                       </div>
-//                     </form>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect">
+                      Required Duration Unit
+                    </label>
+                    <select class="form-select" id="inputGroupSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">Hours</option>
+                      <option value="2">Weeks</option>
+                      <option value="3">Months</option>
+                    </select>
+                  </div>
+
+                  <div className="mb-3">
+                    <label for="Inputdate" className="form-label"></label>
+
+                    <input
+                      type="Date"
+                      className="form-control border-primary"
+                      id="Inputdate"
+                      aria-describedby="titleHelp"
+                      value={date}
+                      onChange={(e) => setdate(e.target.value)}
+                      placeholder="date"
+                    />
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect01">
+                      Optional Add-on services
+                    </label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Growth strategy & execution</option>
+                      <option value="2">Recruitment support service</option>
+                      <option value="3">
+                        Voice-overs,photography & videography
+                      </option>
+                      <option value="4">Website Development</option>
+                      <option value="5">Online Marketing Support</option>
+                      <option value="6">
+                        Business Advisory services(incubation)
+                      </option>
+                      <option value="7">
+                        Virtual receptionist/customer service set-up management
+                      </option>
+                      <option value="8">others</option>
+                    </select>
+                  </div>
+
+                  <div class="input-group mb-3 mt-5">
+                    <label class="input-group-text" for="inputGroupSelect01">
+                      How did you hear about us?
+                    </label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Choose...</option>
+                      <option value="1">Linked in</option>
+                      <option value="2">Instagram</option>
+                      <option value="3">Whatsapp</option>
+                      <option value="3">Facebook</option>
+                      <option value="3">Twitter</option>
+                      <option value="3">Tik tok</option>
+                      <option value="3">Friends and family</option>
+                      <option value="3">others</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="gridCheck"
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        Terms And Conditions
+                      </label>
+                    </div>
+                  </div>
+
+                  <div class="col-12 mb-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="gridCheck"
+                      />
+                      <label class="form-check-label" for="gridCheck">
+                        I Agree
+                      </label>
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <SubmitFormBtn />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export default CoworkingSpaceForm;

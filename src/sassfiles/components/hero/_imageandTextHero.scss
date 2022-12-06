@@ -18,63 +18,32 @@
   color: white;
   text-shadow: 2px 2px #333;
 }
-/*
-.imgContainer {
-  height: 100%;
-  width: 100%;
-}
-.imageStyle {
-  height: 80vh;
-  width: 100%;
-}
 
-.DigitalMarketingHeroText {
-  color: $prybgcolor;
-}
-.heroTextContainer {
-  height: 70vh;
-  width: 100%;
-  position: relative;
-}
-*/
-
-/*
-.background {
-  background-image: url(/src/assets/images/digital\ marketing.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100%;
-  width: 100vh;
-}
-*/
-// .homeHeroBg {
-//   background: url(/src/assets/images/hero/home.jpg);
+// .ManagedDigitalMarketServicesHero {
+//   position: relative;
 //   background-repeat: no-repeat;
-//   background-size: cover;
 //   height: 80vh;
-//   opacity: 1;
-// }
-
-// .overlay-bg {
-//   position: absolute;
-//   height: 100vh;
 //   width: 100%;
-//   opacity: 1;
-//   top: 0;
-//   left: 0;
-// }
-// .bg-gradient-dark-slate-blue {
-//   background: url(/src/assets/images/hero/home.jpg);
-//   background-image: linear-gradient(
-//     to right,
-//     #252c3e,
-//     rgba(37, 44, 62, 0.66),
-//     rgba(37, 44, 62, 0.42),
-//     rgba(13, 22, 44, 0.1),
-//     rgba(37, 44, 62, 0)
-//   );
 // }
 
+// .ManagedDigitalMarketServicesHero::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/homehero.jpg);
+
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.6;
+// }
+// .ManagedDigitalMarketServicesHero h1 {
+//   position: relative;
+// }
+// .ManagedDigitalMarketServicesHero h2 {
+//   position: relative;
+// }
 .homeHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -111,6 +80,10 @@
   font-size: 4rem;
   font-weight: 300;
 }
+.GaaSHeroText {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
 .projectDeliveryHeroText {
   font-size: 3.5rem;
   font-weight: 300;
@@ -129,38 +102,38 @@
     height: 60vh;
   }
 }
-.GaaSHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
+// .GaaSHeroBg {
+//   position: relative;
+//   background-repeat: no-repeat;
+//   height: 80vh;
+//   width: 100%;
+// }
 
-.GaaSHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/gaas.jpg);
-  // background-image: linear-gradient(
-  //   to right,
-  //   #252c3e,
-  //   rgba(37, 44, 62, 0.66),
-  //   rgba(37, 44, 62, 0.42),
-  //   rgba(13, 22, 44, 0.1),
-  //   rgba(37, 44, 62, 0)
-  // );
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-.GaaSHeroBg h1 {
-  position: relative;
-}
-.GaaSHeroBg h2 {
-  position: relative;
-}
+// .GaaSHeroBg::before {
+//   content: "";
+//   background: url(/src/assets/images/hero/gaas.jpg);
+//   // background-image: linear-gradient(
+//   //   to right,
+//   //   #252c3e,
+//   //   rgba(37, 44, 62, 0.66),
+//   //   rgba(37, 44, 62, 0.42),
+//   //   rgba(13, 22, 44, 0.1),
+//   //   rgba(37, 44, 62, 0)
+//   // );
+//   background-size: cover;
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.6;
+// }
+// .GaaSHeroBg h1 {
+//   position: relative;
+// }
+// .GaaSHeroBg h2 {
+//   position: relative;
+// }
 .callToAction {
   position: relative;
 }
@@ -183,7 +156,7 @@
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.JPG);
+  background: url(/src/assets/images/hero/eventshero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -218,46 +191,375 @@
 }
 // .heroFontSize {
 //   line-height: 2.2rem;
-// }
-.CoworkingHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
+// // }
+
+//coworking page section
+.CoworkingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
   height: 80vh;
   width: 100%;
-}
-
-.CoworkingHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/coworkinghero.png);
-  background-size: cover;
-  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.8;
+  opacity: 0.4;
 }
+// .CoworkingHeroBg {
+//   position: absolute;
+//   height: 80vh;
+//   width: 100%;
+// }
+
+.CoworkingHeroBg {
+  // content: "";
+  background: url(/src/assets/images/hero/coworking1.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
 .CoworkingHeroBg h2 {
   position: relative;
 }
 .CoworkingHeroBg h3 {
   position: relative;
 }
-// .CoworkingHeroBg {
-//   background: url(/src/assets/images/hero/coworkinghero.png);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 80vh;
-//   opacity: 1;
-// }
-@media only screen and (max-width: 440px) {
-  .CoworkingHeroBg {
-    height: 50vh;
-  }
+
+.CoworkingOffersBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
-@media only screen and (max-width: 800px) and (min-width: 441px) {
+
+.CoworkingOffersBg {
+  // content: "";
+  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+.CoworkingOffersBg .coworkingGrid {
+  position: relative;
+}
+
+.CoworkingTestmonialBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.CoworkingTestmonialBg {
+  // content: "";
+  background: url(/src/assets/images/hero/coworking2.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+.CoworkingTestmonialBg .coworkingTestCards h3 {
+  position: relative;
+}
+.coworkingBookBtn,
+.coworkingBookText {
+  position: relative;
+  line-height: 35px;
+}
+
+//Our Model hero
+// .OurModelHeroBgg::before {
+//   content: "";
+//   position: absolute;
+//   background-color: #2e3133;
+//   height: 70vh;
+//   width: 100%;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.6;
+// }
+
+// .OurModelHeroBg {
+//   background: url(/src/assets/images/hero/legal.jpg);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 70vh;
+//   width: 100%;
+// }
+
+// .OurModelHeroBg h2 {
+//   position: relative;
+//   line-height: 45px;
+// }
+// .OurModelHeroBg h3 {
+//   position: relative;
+//   line-height: 35px;
+// }
+
+//managedservices digital marketing hero
+.GaaSHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.GaaSHeroBg {
+  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.GaaSHeroBg h2 {
+  position: relative;
+  line-height: 70px;
+}
+.GaaSHeroBg h3 {
+  position: relative;
+  line-height: 45px;
+  font-size: 2rem !important;
+}
+//demodaygallery hero
+.DemoDayGalleryHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.DemoDayGalleryHeroBg {
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.DemoDayGalleryHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.DemoDayGalleryHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+//managedservices digital marketing hero
+.ManagedServicesDigitalMargetingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.ManagedServicesDigitalMargetingHeroBg {
+  background: url(/src/assets/images/hero/digitalmarketinghero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesDigitalMargetingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.ManagedServicesDigitalMargetingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+//managedservices legal hero
+.ManagedServicesLegalHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.ManagedServicesLegalHeroBg {
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesLegalHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.ManagedServicesLegalHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+//managedservices tech hero
+.ManagedServicesTechHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesTechHeroBg {
+  background: url(/src/assets/images/hero/techhero.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ManagedServicesTechHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.ManagedServicesTechHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+//managedservices accounting hero
+.ManagedServicesAccountingHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ManagedServicesAccountingHeroBg {
+  background: url(/src/assets/images/hero/acc.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.ManagedServicesAccountingHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.ManagedServicesAccountingHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 990px) {
+  .ManagedServicesAccountingHeroBgg::before,
+  .ManagedServicesTechHeroBgg::before,
+  .ManagedServicesLegalHeroBgg::before,
+  .ManagedServicesDigitalMargetingHeroBgg::before,
+  .GaaSHeroBgg::before,
+  .CoworkingHeroBgg::before {
+    height: 22.5rem;
+  }
+  .ManagedServicesAccountingHeroBg,
+  .ManagedServicesTechHeroBg,
+  .ManagedServicesLegalHeroBg,
+  .ManagedServicesDigitalMargetingHeroBg,
+  .GaaSHeroBg,
   .CoworkingHeroBg {
-    height: 60vh;
+    height: 22.5rem;
   }
 }
 // .ourModelHeroBg {
@@ -352,72 +654,6 @@
   }
 }
 
-.demoDayHeroBg {
-  position: relative;
-  background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-}
-
-.demoDayHeroBg::before {
-  content: "";
-  background: url(/src/assets/images/hero/demodayhero.JPG);
-  // background-image: linear-gradient(
-  //   to right,
-  //   #252c3e,
-  //   rgba(37, 44, 62, 0.66),
-  //   rgba(37, 44, 62, 0.42),
-  //   rgba(13, 22, 44, 0.1),
-  //   rgba(37, 44, 62, 0)
-  // );
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.6;
-}
-.demoDayHeroBg h2 {
-  position: relative;
-}
-.demoDayHeroBg h3 {
-  position: relative;
-}
-@media only screen and (max-width: 440px) {
-  .demoDayHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 800px) and (min-width: 441px) {
-  .demoDayHeroBg {
-    height: 60vh;
-  }
-}
-// .demoDayHeroBg {
-//   background: url(/src/assets/images/hero/demodayhero.JPG);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 100vh;
-// }
-
-// @media only screen and (max-width: 440px) {
-//   .demoDayHeroBg {
-//     height: 50vh;
-//   }
-// }
-// @media only screen and (max-width: 575px) and (min-width: 441px) {
-//   .demoDayHeroBg {
-//     height: 60vh;
-//   }
-// }
-// .demoDayHeroBg h2 {
-//   position: relative;
-// }
-// .demoDayHeroBg h3 {
-//   position: relative;
-// }
 .piggeryTrainingHeroBg {
   background: url(/src/assets/images/hero/piggerytraininghero.jpg);
   background-repeat: no-repeat;

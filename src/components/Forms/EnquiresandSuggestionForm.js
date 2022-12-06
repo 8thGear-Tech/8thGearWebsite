@@ -348,6 +348,73 @@ const SuggestAnEventForm = () => {
                       WhatsApp
                     </label>
                   </div>
+                  {/* <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios4"
+                        value="option4"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios4">
+                        Facebook
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios5"
+                        value="option5"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios5">
+                        Twitter
+                      </label>
+                    </div>
+                  </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios6"
+                        value="option6"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios6">
+                        TikTok
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios7"
+                        value="option7"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios7">
+                        Friends and Family
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="exampleRadios"
+                        id="exampleRadios8"
+                        value="option8"
+                        checked
+                      />
+                      <label class="form-check-label" for="exampleRadios8">
+                          Others
+                      </label>
+                    </div>
+                  </div> */}
 
                   <div className=" Vessel mb-3">
                     <label for="idea" className="form-label"></label>

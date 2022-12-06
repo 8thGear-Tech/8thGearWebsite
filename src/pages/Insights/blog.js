@@ -43,7 +43,7 @@ const BlogPage = () => {
             </div>
 
             <div className="">
-              <h3 className="text-center py-3">Lorem ipsum dolor sit amet </h3>
+              <h3 className="text-center py-3">Lorem ipsum dolor sit amet. </h3>
               <MainBlogCard />
               <div className=""></div>
             </div>

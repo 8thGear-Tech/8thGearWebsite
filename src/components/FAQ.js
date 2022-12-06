@@ -6,18 +6,18 @@ const FAQ = () => {
     <div className="container">
       <div className="row">
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Managed Services
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingOne">
+            <h2 className="accordion-header" id="headingOne">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -29,11 +29,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 first item's accordion body.
@@ -41,10 +41,10 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -56,11 +56,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 second item's accordion body. Let's imagine this being filled
@@ -68,10 +68,10 @@ const FAQ = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -83,11 +83,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 third item's accordion body. Nothing more exciting happening
@@ -100,18 +100,18 @@ const FAQ = () => {
         </div>
 
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Co-Working Space
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingFour">
+            <h2 className="accordion-header" id="headingFour">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -123,11 +123,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseFour"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingFour"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 first item's accordion body.
@@ -135,10 +135,10 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFive">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -150,11 +150,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseFive"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingFive"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 second item's accordion body. Let's imagine this being filled
@@ -162,10 +162,10 @@ const FAQ = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSix">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"
@@ -177,11 +177,11 @@ const FAQ = () => {
             </h2>
             <div
               id="collapseSix"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingSix"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
                 demonstrate the <code>.accordion-flush</code> class. This is the
                 third item's accordion body. Nothing more exciting happening
@@ -202,18 +202,18 @@ export const FAQ1 = () => {
     <div className="container">
       <div className="row">
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Growth As A Service
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingSeven">
+            <h2 className="accordion-header" id="headingSeven">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSeven"
@@ -225,22 +225,22 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseSeven"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingSeven"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the first item's accordion body.
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingEight">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingEight">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseEight"
@@ -252,22 +252,22 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseEight"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingEight"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the second item's accordion body. Let's imagine this being
+                filled with some actual content.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingNine">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingNine">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseNine"
@@ -279,14 +279,14 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseNine"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingNine"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the third item's accordion body. Nothing more exciting happening
                 here in terms of content, but just filling up the space to make
                 it look, at least at first glance, a bit more representative of
                 how this would look in a real-world application.
@@ -296,18 +296,18 @@ export const FAQ1 = () => {
         </div>
 
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Project Delivery
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingTen">
+            <h2 className="accordion-header" id="headingTen">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTen"
@@ -319,22 +319,22 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseTen"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTen"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the first item's accordion body.
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingEleven">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingEleven">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseEleven"
@@ -346,22 +346,22 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseEleven"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingEleven"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the second item's accordion body. Let's imagine this being
+                filled with some actual content.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwelve">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwelve">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwelve"
@@ -373,14 +373,14 @@ export const FAQ1 = () => {
             </h2>
             <div
               id="collapseSix"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwelve"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the third item's accordion body. Nothing more exciting happening
                 here in terms of content, but just filling up the space to make
                 it look, at least at first glance, a bit more representative of
                 how this would look in a real-world application.
@@ -395,21 +395,21 @@ export const FAQ1 = () => {
 
 export const FAQ2 = () => {
   return (
-    <div className="container">
-      <div className="row">
+    <div classNameName="container">
+      <div classNameName="row">
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Venture Studio
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingTwenty">
+            <h2 className="accordion-header" id="headingTwenty">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwenty"
@@ -421,22 +421,22 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseTwenty"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwenty"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the first item's accordion body.
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThirty">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThirty">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThirty"
@@ -448,22 +448,22 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseThirty"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThirty"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the second item's accordion body. Let's imagine this being
+                filled with some actual content.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingForty">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingForty">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseForty"
@@ -475,14 +475,14 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseForty"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingForty"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the third item's accordion body. Nothing more exciting happening
                 here in terms of content, but just filling up the space to make
                 it look, at least at first glance, a bit more representative of
                 how this would look in a real-world application.
@@ -491,18 +491,18 @@ export const FAQ2 = () => {
           </div>
         </div>
         <div
-          class="accordion accordion mx-auto w-50 mt-5"
+          className="accordion accordion mx-auto w-50 mt-5"
           id="accordionExample"
         >
-          <div class="accordion-item">
-            <div class="accordion-item faq">
-              <h5 class="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
+          <div className="accordion-item">
+            <div className="accordion-item faq">
+              <h5 className="accordion-header  pt-4 pb-2  mx-3" id="headingTwo">
                 Events
               </h5>
             </div>
-            <h2 class="accordion-header" id="headingFifty">
+            <h2 className="accordion-header" id="headingFifty">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFifty"
@@ -514,22 +514,22 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseFifty"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingFify"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the first item's accordion body.
               </div>
             </div>
           </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSixty">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSixty">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSixty"
@@ -541,22 +541,22 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseSixty"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingSixty"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the second item's accordion body. Let's imagine this being
+                filled with some actual content.
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSeventy">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSeventy">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSeventy"
@@ -568,14 +568,14 @@ export const FAQ2 = () => {
             </h2>
             <div
               id="collapseSeventy"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingSeventy"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
+                demonstrate the <code>.accordion-flush</code> className. This is
+                the third item's accordion body. Nothing more exciting happening
                 here in terms of content, but just filling up the space to make
                 it look, at least at first glance, a bit more representative of
                 how this would look in a real-world application.
@@ -612,10 +612,10 @@ export default FAQ;
 
 //  const { heading, target, collapse, tool } = props;
 //   return (
-//     <div class="accordion container w-75" id="accordionExample">
-//       <div class="accordion-item">
-//         <div class="accordion-item  faq">
-//           <h2 class="h5 mt-4 mx-3 ">
+//     <div className="accordion container w-75" id="accordionExample">
+//       <div className="accordion-item">
+//         <div className="accordion-item  faq">
+//           <h2 className="h5 mt-4 mx-3 ">
 //             <div>
 //               <strong>{heading}</strong>
 //               {/* <strong>Managed Services</strong> */}
@@ -623,9 +623,9 @@ export default FAQ;
 //           </h2>
 //         </div>
 
-//         <h2 class="accordion-header" id={target}>
+//         <h2 className="accordion-header" id={target}>
 //           <button
-//             class="accordion-button"
+//             className="accordion-button"
 //             type="button"
 //             data-bs-toggle="collapse"
 //             data-bs-target={collapse}
@@ -637,14 +637,14 @@ export default FAQ;
 //         </h2>
 //         <div
 //           id={tool}
-//           class="accordion-collapse collapse"
+//           className="accordion-collapse collapse"
 //           aria-labelledby={target}
 //           // data-bs-parent="#accordionExample"
 //         >
-//           <div class="accordion-body">
+//           <div className="accordion-body">
 //             <strong>This is the first item's accordion body.</strong> It is
 //             shown by default, until the collapse plugin adds the appropriate
-//             classes that we use to style each element. These classes control the
+//             classNamees that we use to style each element. These classNamees control the
 //             overall appearance, as well as the showing and hiding via CSS
 //             transitions. You can modify any of this with custom CSS or
 //             overriding our default variables. It's also worth noting that just
@@ -653,10 +653,10 @@ export default FAQ;
 //           </div>
 //         </div>
 //       </div>
-//       <div class="accordion-item">
-//         <h2 class="accordion-header" id={target}>
+//       <div className="accordion-item">
+//         <h2 className="accordion-header" id={target}>
 //           <button
-//             class="accordion-button collapsed"
+//             className="accordion-button collapsed"
 //             type="button"
 //             data-bs-toggle="collapse"
 //             data-bs-target={collapse}
@@ -668,14 +668,14 @@ export default FAQ;
 //         </h2>
 //         <div
 //           id={tool}
-//           class="accordion-collapse collapse  "
+//           className="accordion-collapse collapse  "
 //           aria-labelledby={target}
 //           data-bs-parent="#accordionExample"
 //         >
-//           <div class="accordion-body">
+//           <div className="accordion-body">
 //             <strong>This is the second item's accordion body.</strong> It is
 //             hidden by default, until the collapse plugin adds the appropriate
-//             classes that we use to style each element. These classes control the
+//             classNamees that we use to style each element. These classNamees control the
 //             overall appearance, as well as the showing and hiding via CSS
 //             transitions. You can modify any of this with custom CSS or
 //             overriding our default variables. It's also worth noting that just
@@ -684,10 +684,10 @@ export default FAQ;
 //           </div>
 //         </div>
 //       </div>
-//       <div class="accordion-item">
-//         <h2 class="accordion-header" id={target}>
+//       <div className="accordion-item">
+//         <h2 className="accordion-header" id={target}>
 //           <button
-//             class="accordion-button collapsed"
+//             className="accordion-button collapsed"
 //             type="button"
 //             data-bs-toggle="collapse"
 //             data-bs-target={collapse}
@@ -699,14 +699,14 @@ export default FAQ;
 //         </h2>
 //         <div
 //           id={tool}
-//           class="accordion-collapse collapse "
+//           className="accordion-collapse collapse "
 //           aria-labelledby={target}
 //           data-bs-parent="#accordionExample"
 //         >
-//           <div class="accordion-body">
+//           <div className="accordion-body">
 //             <strong>This is the third item's accordion body.</strong> It is
 //             hidden by default, until the collapse plugin adds the appropriate
-//             classes that we use to style each element. These classes control the
+//             classNamees that we use to style each element. These classNamees control the
 //             overall appearance, as well as the showing and hiding via CSS
 //             transitions. You can modify any of this with custom CSS or
 //             overriding our default variables. It's also worth noting that just

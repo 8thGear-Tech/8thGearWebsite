@@ -1,3 +1,10 @@
+//Coworking
+import advisoryservices from "../assets/icons/coworking/advisoryservices.png";
+import sereneenvironment from "../assets/icons/coworking/sereneenvironment.png";
+import event from "../assets/icons/coworking/event.png";
+import lagosinnovate from "../assets/icons/coworking/lagosinnovate.png";
+import meetingroom from "../assets/icons/coworking/meetingroom.png";
+
 //GaaS Pictures
 import start from "../assets/icons/start.png";
 import build from "../assets/icons/build.png";
@@ -382,12 +389,12 @@ export const CreationIcon = () => {
 };
 export const SpinOutIcon = () => {
   return (
-    <img src={spinout} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img src={spinout} style={{ maxWidth: "35%", maxHeight: "35%" }}></img>
   );
 };
 export const ScaleUpIcon = () => {
   return (
-    <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img src={scaleup} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
   );
 };
 // Team
@@ -396,7 +403,7 @@ export const ScaleUpIcon = () => {
 //   return (
 //     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
 //     <div>
-//       <i class="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
+//       <i className="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
 //     </div>
 //   );
 // };
@@ -429,5 +436,47 @@ export const EngageIcon = () => {
 };
 
 export const ArrowUpIcon = () => {
-  return <i class="bi bi-arrow-up-square"></i>;
+  return <i className="bi bi-arrow-up-square"></i>;
 };
+
+//coworking page icons
+export const AdvisoryServicesIcon = () => {
+  return (
+    <img
+      src={advisoryservices}
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    ></img>
+  );
+};
+export const SereneEnvironmentIcon = () => {
+  return (
+    <img
+      src={sereneenvironment}
+      style={{ maxWidth: "40%", maxHeight: "40%" }}
+    ></img>
+  );
+};
+export const EventIcon = () => {
+  return <img src={event} style={{ maxWidth: "45%", maxHeight: "45%" }}></img>;
+};
+export const LagosInnovateIcon = () => {
+  return (
+    <img
+      src={lagosinnovate}
+      style={{ maxWidth: "45%", maxHeight: "45%" }}
+    ></img>
+  );
+};
+export const MeetingRoomIcon = () => {
+  return (
+    <img src={meetingroom} style={{ maxWidth: "50%", maxHeight: "50%" }}></img>
+  );
+};
+// export const ArrowIcon = () => {
+//   return (
+//     <i
+//       class="bi bi-arrow-up-square"
+//       style={{ width: "50px", height: "50px" }}
+//     ></i>
+//   );
+// };

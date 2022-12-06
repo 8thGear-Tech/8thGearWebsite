@@ -21,7 +21,7 @@ const NavBar = (props) => {
               />
             </Link>
             {/* align-text-top */}
-            <h6 className="h6  mt-4 ">{heading}</h6>
+            <h5 className="mt-4 ">{heading}</h5>
             <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
               <a
                 className=" "
@@ -123,12 +123,11 @@ const NavBar = (props) => {
                   Managed Services
                 </Link>
               </li>
-
-              {/* <li>
+              <li>
                 <Link className="dropdown-item" to="/coworking">
                   Coworking
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link className="dropdown-item" to="/growth-as-a-service">
                   Growth-as-a-Service
@@ -189,7 +188,7 @@ const NavBar = (props) => {
 
           <div className="d-flex justify-content-center mt-5 ">
             <div className="">
-              <a href="https://www.facebook.com/8thgearpartners">
+              <a href="https://www.facebook.com/8thgearhub">
                 <i
                   className="bi bi-facebook mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -198,7 +197,7 @@ const NavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.instagram.com/8thgearpartners/">
+              <a href="https://www.instagram.com/8thgearhub/">
                 <i
                   className="bi bi-instagram mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -207,7 +206,7 @@ const NavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/company/8thgearpartners/">
+              <a href="https://www.linkedin.com/company/8thgearhub/">
                 <i
                   className="bi bi-linkedin mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -561,7 +560,7 @@ export const Navbar16 = () => {
 
 export const Navbar17 = () => {
   return (
-    <div className="container-fluid mb-1">
+    <div className="container-fluid">
       <div className="row">
         {text.projectdeliverygallery.map((navbar) => {
           return (

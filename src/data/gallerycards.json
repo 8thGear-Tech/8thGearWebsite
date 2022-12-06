@@ -170,19 +170,16 @@
   "eventsGalleryPageVideos": [
     {
       "id": 1,
-      "video": " https://www.youtube.com/embed/watch?v=PEnuHN-Mqvg",
-      "text": "Video session from founders meetup program"
+      "video": " https://www.youtube.com/embed/J0VLOPUIsi4"
     },
 
     {
       "id": 2,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "Video session from demoday"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     },
     {
       "id": 3,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "video session from meeting"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     }
   ],
 
@@ -266,19 +263,16 @@
   "galleryvideocards": [
     {
       "id": 15,
-      "video": " https://www.youtube.com/embed/watch?v=PEnuHN-Mqvg",
-      "text": "Video session from founders meetup program"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     },
 
     {
       "id": 16,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "Video session from demoday"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     },
     {
       "id": 17,
-      "video": " https://www.youtube.com/embed/VIDEO_ID 6.4k",
-      "text": "video session from meeting"
+      "video": "https://www.youtube.com/embed/J0VLOPUIsi4"
     }
   ]
 }

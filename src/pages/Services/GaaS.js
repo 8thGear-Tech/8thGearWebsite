@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
     <div className="container-fluid text-center px-5 whyChooseUsBg">
       <div className="row justify-content-evenly ">
         <h4 className="text-center my-5">Why Choose Us</h4>
-        <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5">
+        <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5 startStep">
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <StartIcon />
             <div className="card-body">
@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10  px-lg-5">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 buildStep">
           {" "}
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>
@@ -58,7 +58,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5">
+        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 scaleStep">
           {" "}
           <div className="card mb-5 whyChooseUsCardBg py-4">
             <div>

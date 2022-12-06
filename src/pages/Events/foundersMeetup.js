@@ -1,6 +1,8 @@
 import { Navbar15 } from "../../components/Navbar";
 // import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
 import { DemodayHero } from "../../components/Hero/ImageandTextHero";
+import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
+import { EventsRegisterBtn } from "../../components/Buttons/EventsBtn";
 
 const FounderMeetupPage = () => {
   return (
@@ -16,7 +18,7 @@ const FounderMeetupPage = () => {
 
 const AboutFounderMeetup = () => {
   return (
-    <div className="container p-5">
+    <div className="container pt-5 px-4">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <p className="">Dear Founders,</p>
@@ -40,22 +42,36 @@ const AboutFounderMeetup = () => {
         </p>
         <p className="">Please find below the meeting details</p>
       </p>
-      <ul className="">
-        <li>FREQUENCY : Quarterly</li>
+      <ul className="list-font-weight">
+        <li className="list-font-weight">FREQUENCY : Quarterly</li>
         <li>GATE FEE: Free</li>
-        <li>TIME: 2- 3 Hours Max</li>
+        <li>TIME: 2-3 Hours Max</li>
         <li>VENUE : 8thGear Hub </li>
         <li>DATE: To be communicated</li>
-        <li>Attendance is free but registration is compulsory.</li>
       </ul>
-      <p className="my-3">
-        We are looking forward to getting to know you at the hangout. Do have a
-        productive day.
+      <p>
+        Attendance is free but registration is compulsory. Do click{" "}
+        <a
+          href="https://bit.ly/8thGearfoundersmeetup2022"
+          target="_blank"
+          className="textLinkColor"
+        >
+          here
+        </a>{" "}
+        to indicate your interest.
       </p>
-      <p className="my-3">Thank you.</p>
-      <p className="">Best Regards,</p>
+      <p className="my-3">
+        We are looking forward to getting to know you at the hangout.
+        <br /> Do have a productive day.
+      </p>
+      <p className="my-3">
+        Thank you. <br />
+        Best Regards, <br /> Titilayo Ekundayo. <br /> Head,Venture Studio.
+      </p>
+      {/* <p className="">Best Regards,</p>
       <p className="">Titilayo Ekundayo</p>
-      <p className="">Head, Venture Studio.</p>
+      <p className="">Head, Venture Studio.</p> */}
+      <EventsRegisterBtn />
     </div>
   );
 };

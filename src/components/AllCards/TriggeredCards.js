@@ -335,7 +335,7 @@ export const EightgeariansPopUpCard6 = (props) => {
     <>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop6"
       >
@@ -756,6 +756,51 @@ export const AdvisoryBoardOnHoverCard = (props) => {
             style={{ color: "#fff" }}
           >
             <LinkedInIcon />
+            {/* <img
+              className="AdvisoryIcon"
+              src={LinkedIn_icon}
+              width={15}
+              height={5}
+            /> */}
+          </a>
+        </div>
+      </div>
+      {/* </div> */}
+      {/* </div>
+      </div> */}
+    </>
+  );
+};
+
+export const ProjectDeliveryCards = (props) => {
+  const { image, title, text, link } = props;
+  return (
+    <>
+      {/* <div className="containerm">
+        <div className="row"> */}
+      {/* <div className=""> */}
+      <div
+        className="ProjectDeliveryImage"
+        style={{
+          height: "400px",
+          backgroundSize: "cover",
+          backgroundImage: "url(" + image + ")",
+        }}
+      >
+        <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
+          {title}
+        </p>{" "}
+        {/* <img src={image} alt="" /> */}
+        <h6 className="ProjectDeliveryName">{text}</h6>
+        {/* <h6 className="AdvisoryPosition">{}</h6> */}
+        <div className="ProjectDeliveryLink">
+          <a
+            className="btn"
+            href={link}
+            role="button"
+            style={{ color: "#fff" }}
+          >
+            <OnHoverReadMoreBtn />
             {/* <img
               className="AdvisoryIcon"
               src={LinkedIn_icon}

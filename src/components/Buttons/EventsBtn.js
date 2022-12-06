@@ -86,3 +86,21 @@ export const DemoDayReadMoreBtn = () => {
     </Link>
   );
 };
+export const EventsRegisterBtn = () => {
+  return (
+    <a href="https://bit.ly/8thGearfoundersmeetup2022" target="_blank">
+      <button className="EventsRegisterBtn" type="sumbit">
+        Register Now
+      </button>
+    </a>
+  );
+};
+export const DemoDayRegisterBtn = () => {
+  return (
+    <a href="https://forms.gle/RyxYFMPtVsXuw33NA" target="_blank">
+      <button className="EventsRegisterBtn" type="sumbit">
+        Register Now
+      </button>
+    </a>
+  );
+};

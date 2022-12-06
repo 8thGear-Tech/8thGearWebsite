@@ -711,9 +711,9 @@ export const SubscribeForm = () => {
   };
   return (
     <>
-      <form class="d-flex mt-3" role="search" onSubmit={handleSubmit}>
+      <form className="d-flex mt-3" role="search" onSubmit={handleSubmit}>
         <input
-          class="form-control me-2"
+          className="form-control me-2"
           type="search"
           placeholder="EMAIL ADDRESS"
           aria-label="Search"
@@ -722,7 +722,7 @@ export const SubscribeForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <button class="btn subscributton" type="submit">
+        <button className="subscribeButton" type="submit">
           Subscribe
         </button>
       </form>
@@ -748,9 +748,9 @@ export const Popupmodal = () => {
               className="btn"
             >
               {/* <h6 className="text-start text-nowrap firstSignUp d-none d-lg-block d-xl-block"> */}
-              <h6 className=" text-nowrap signupText">
+              {/* <h6 className=" text-nowrap signupText">
                 SIGN UP FOR NEWSLETTER
-              </h6>
+              </h6> */}
             </button>
           ))
         }
@@ -764,9 +764,7 @@ export const Popupmodal = () => {
 export function Form({ closeModal }) {
   return (
     <>
-      <div className="">
-        <SubscribeForm />
-      </div>
+      <div className="">{/* <SubscribeForm /> */}</div>
     </>
   );
 }
@@ -775,18 +773,15 @@ export const FooterIcon = () => {
   return (
     <>
       <nav className="footer__icons remove__ml listStyling d-flex justify-content-md-center justify-content-sm-start">
-        <a href="https://www.facebook.com/8thgearpartners" target="_blank">
+        <a href="https://www.facebook.com/8thgearhub" target="_blank">
           <i className="bi bi-facebook me-2 text-dark footer__icons"></i>
         </a>
 
-        <a href="https://www.instagram.com/8thgearpartners/" target="_blank">
+        <a href="https://www.instagram.com/8thgearhub/" target="_blank">
           <i className="bi bi-instagram me-2 text-dark"></i>
         </a>
 
-        <a
-          href="https://www.linkedin.com/company/8thgearpartners/"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/company/8thgearhub/" target="_blank">
           <i className="bi bi-linkedin me-2 text-dark"></i>
         </a>
 
@@ -798,7 +793,7 @@ export const FooterIcon = () => {
         </a>
 
         <a href="mailto:info@8thgearpartners.com" target="_blank">
-          <i class="bi bi-at text-dark"></i>
+          <i className="bi bi-at text-dark"></i>
         </a>
       </nav>
     </>

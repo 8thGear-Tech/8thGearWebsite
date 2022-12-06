@@ -15,7 +15,10 @@ export const LearnMoreBtn = () => {
 export const RequestForProposalBtn = () => {
   return (
     <>
-      <a href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit">
+      <a
+        href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
+        target="_blank"
+      >
         {" "}
         <button
           className="RequestForProposalBtn"

@@ -1,50 +1,56 @@
 {
-  "ProjectDeliveryImages": [
+  "ProjectDeliveryContent": [
     {
       "id": 1,
-      "image": "../../images/projectdelivery/ecosystem.jpg",
-      "text": "ENTERPRISE SUPPORT"
+      "image": "../../images/projectdelivery/enterprisesupport.jpg",
+      "title": "Entreprise Support"
     },
     {
       "id": 2,
-      "image": "../../images/projectdelivery/ecosystem.jpg",
-      "text": "ECOSYSTEM EVENTS"
+      "image": "../../images/projectdelivery/ecosystemevents.jpg",
+      "title": "Ecosystem Events"
     },
     {
       "id": 3,
       "image": "../../images/projectdelivery/training.jpg",
-      "text": "TRAINING"
+      "title": "Training"
     },
     {
       "id": 4,
-      "image": "../../images/projectdelivery/employability.jpg",
-      "text": "EMPLOYABILITY"
+      "image": "../../images/projectdelivery/employability.png",
+      "title": "Employability"
     }
   ],
-  "ManagedServicesImages": [
+  "ManagedServicesContent": [
     {
       "id": 1,
       "link": "/digitalmarketing",
       "image": "../../images/managedservices/digitalmarketing.jpg",
-      "text": "DIGITAL MARKETING"
+      "title": "Digital Marketing"
     },
     {
       "id": 2,
-      "link": "/legal",
-      "image": "../../images/managedservices/legal.jpg",
-      "text": "LEGAL"
+      "link": "/tech",
+      "image": "../../images/managedservices/tech.png",
+      "title": "Tech"
     },
     {
       "id": 3,
-      "link": "/accounting",
-      "image": "../../images/managedservices/accounting.jpg",
-      "text": "ACCOUNTING & BOOK KEEPING"
+      "link": "/legal",
+      "image": "../../images/managedservices/legal.png",
+      "title": "Legal"
     },
     {
       "id": 4,
-      "link": "/tech",
-      "image": "../../images/managedservices/tech.png",
-      "text": "DIGITAL TECH"
+      "link": "/accounting",
+      "image": "../../images/managedservices/accounting.jpg",
+      "title": "Accounting & Book Keeping"
+    },
+    {
+      "id": 5,
+      "link": "/managed-services",
+      "image": "../../images/managedservices/talentacquisition.jpg",
+      "title": "Talent Acquisition"
     }
   ]
 }

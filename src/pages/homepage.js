@@ -41,6 +41,7 @@ const SectionOne = () => {
         >
           Venture Studio
         </Link>
+        &
         <Link
           to="/project-delivery"
           className=" mx-2"
@@ -136,7 +137,7 @@ const SectionThree = () => {
   return (
     <div className="container-fluid text-center px-5 pt-5 pb-3 SectionTwoBg mt-5">
       {" "}
-      {/* <h4 className="">Our Business Creation Platform</h4> */}
+      <h4 className="">PILLARS</h4>
       <p className="textFont">
         On these three pillars, we are creating an Africa of value creators by
         delving deep to cultivate the most innovative startups.
@@ -217,7 +218,9 @@ const SectionThree = () => {
         target="_blank"
         className="text-decoration-none"
       >
-        <p className="mt-3 talkToUsText">Or Talk to us</p>
+        <p className="mt-3 talkToUsText text-decoration-underline">
+          Or Talk to us
+        </p>
       </a>
       {/* <JointheStudioBtn /> */}
     </div>

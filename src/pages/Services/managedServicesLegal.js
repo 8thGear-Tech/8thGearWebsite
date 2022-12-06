@@ -1,6 +1,7 @@
 import servicesData from "../../data/managedServices.json";
 import { Navbar6 } from "../../components/Navbar";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
+import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
 import { ArbitrationIcon } from "../../components/Icons";
 import { MediationIcon } from "../../components/Icons";
 import { ConsultationIcon } from "../../components/Icons";
@@ -13,22 +14,22 @@ const ManagedServicesLegal = () => {
     <>
       <Navbar6 />
       <ManagedServicesLegalHero />
-      <section className="p-5">
+      <section className="container-fluid py-4 px-4 DigitalMarketingSection managedServicesSection">
         {servicesData.legal.map((props) => {
           const { id, title, textLeft, textRight } = props;
           return (
-            <div className="DigitalMarketingSection   managedServicesSection ">
-              <div className="row py-3 ps-4">
-                <h3 className="">{title}</h3>
-              </div>
-              <div className="row d-flex justify-content-center px-4 ">
-                <div className="col-md-6 pe-4">
-                  <p className="">{textLeft}</p>
+            <div className="">
+              <div className="row py-3 justify-content-center">
+                <div className="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+                  <h3 className="">{title}</h3> <p className="">{textLeft}</p>
                 </div>
-                <div className="col-md-6 ps-4">
+              </div>
+              {/* <div className="row d-flex justify-content-center px-5">
+                <div className="col-lg-12"></div>
+                <div className="col-md-6 ">
                   <p className="">{textRight}</p>
                 </div>
-              </div>
+              </div> */}
               {/* icons */}
               <div className="row d-flex justify-content-center">
                 {/* icon1 */}
@@ -62,7 +63,8 @@ const ManagedServicesLegal = () => {
 
               {/* button */}
               <div className="text-center py-4 ">
-                <ManagedServicesRequestForm />
+                {/* <ManagedServicesRequestForm /> */}
+                <ManagedServicesRequestBtn />
               </div>
             </div>
           );

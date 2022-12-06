@@ -2,6 +2,7 @@ import { Navbar16 } from "../../components/Navbar";
 import { Demoday } from "../../components/Hero/BGColorandTextHero";
 import demodaypictureone from "../../assets/images/events/demodaypictureone.jpg";
 import demodaypicturetwo from "../../assets/images/events/demodaypicturetwo.jpg";
+import { DemoDayRegisterBtn } from "../../components/Buttons/EventsBtn";
 const DemoDayPage = () => {
   return (
     <>
@@ -18,18 +19,30 @@ const AboutDemoDay = () => {
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <div className="">
-        <h2 className="">8thGear DEMO DAY</h2>
+        <h2 className="">8thGear Demo Day</h2>
         <p className="">
-          Join upcoming Demo Day, or rewatch the ones that you've missed here:
+          Join upcoming Demo Day, or rewatch the ones that you've missed here:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=-5lGJLLBavI"
+            className="textLinkColor"
+            target="_blank"
+          >
+            {" "}
+            8thGear Demo Day Highlights - June 2022
+          </a>
         </p>
-        <a
+        {/* <a
           href="https://www.youtube.com/watch?v=-5lGJLLBavI"
           className="textLinkColor"
           target="_blank"
         >
           {" "}
           <p>8thGear Demo Day Highlights - June 2022</p>
-        </a>
+        </a> */}
+        <div className="mb-4">
+          {" "}
+          <DemoDayRegisterBtn />
+        </div>
       </div>
       <img
         src={demodaypictureone}
@@ -62,18 +75,25 @@ const AboutDemoDay = () => {
         The entrepreneurs pitching only have a few minutes to convince the
         audience that they are onto something great. Starting with the problem
         they solve, moving on to their solution, business viability, and making
-        an investment request Therefore, founders have to be very concise in
+        an investment request. Therefore, founders have to be very concise in
         their efforts with a strong pitch and first impression.
       </p>
       <p className="">
         Before any demo day, there is an intensive 2-week Bootcamp where
         interested entrepreneurs are groomed for the big day. Are you interested
         in being one of our Venture Studio Businesses (VSB) ? or just pitching
-        to investors and other stakeholders on the 8thGear Demo Day? Do click
-        here to indicate your interest.
+        to investors and other stakeholders on the 8thGear Demo Day? Do click{" "}
+        <a
+          href="https://forms.gle/RyxYFMPtVsXuw33NA"
+          className="textLinkColor"
+          target="_blank"
+        >
+          here
+        </a>{" "}
+        to indicate your interest.
       </p>
       <p className="">
-        8thgear hub has an independent venture studio that was set up to provide
+        8thGear Hub has an independent venture studio that was set up to provide
         hand-holding and support enterprise support for young people who are
         building amazing ventures in Nigeria and in Africa. At the root of what
         we want to achieve on our demo day is to encourage, motivate, and
@@ -82,7 +102,11 @@ const AboutDemoDay = () => {
       </p>
       <p className="">
         Register{" "}
-        <a href="" className="textLinkColor">
+        <a
+          href="https://forms.gle/RyxYFMPtVsXuw33NA"
+          className="textLinkColor"
+          target="_blank"
+        >
           here
         </a>{" "}
         to be part of our next demo day. Click{" "}
