@@ -373,7 +373,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -435,7 +435,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-.next {
+  .next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -480,7 +480,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -2095,19 +2095,19 @@ article h4 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-.ManagedServicesTechHeroBgg::before,
-.ManagedServicesLegalHeroBgg::before,
-.ManagedServicesDigitalMargetingHeroBgg::before,
-.GaaSHeroBgg::before,
-.CoworkingHeroBgg::before {
+  .ManagedServicesTechHeroBgg::before,
+  .ManagedServicesLegalHeroBgg::before,
+  .ManagedServicesDigitalMargetingHeroBgg::before,
+  .GaaSHeroBgg::before,
+  .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-.ManagedServicesTechHeroBg,
-.ManagedServicesLegalHeroBg,
-.ManagedServicesDigitalMargetingHeroBg,
-.GaaSHeroBg,
-.CoworkingHeroBg {
+  .ManagedServicesTechHeroBg,
+  .ManagedServicesLegalHeroBg,
+  .ManagedServicesDigitalMargetingHeroBg,
+  .GaaSHeroBg,
+  .CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2162,7 +2162,14 @@ article h4 {
 }
 
 .gradientBg {
-  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
+  background-image: linear-gradient(
+    to right,
+    #252c3e,
+    rgba(37, 44, 62, 0.66),
+    rgba(37, 44, 62, 0.42),
+    rgba(37, 44, 62, 0.1),
+    rgba(37, 44, 62, 0)
+  );
 }
 
 .overlayBg {
@@ -2443,7 +2450,12 @@ article h4 {
     width: fit-content;
   }
 }
-ManagedDigitalMarketServicesHero mobile view style end .ManagedServicesAccountingHero {
+ManagedDigitalMarketServicesHero
+  mobile
+  view
+  style
+  end
+  .ManagedServicesAccountingHero {
   background: url(/src/assets/images/hero/accounting.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -2473,7 +2485,7 @@ video {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
