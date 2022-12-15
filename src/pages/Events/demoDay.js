@@ -15,7 +15,7 @@ const DemoDayPage = () => {
 
 const AboutDemoDay = () => {
   return (
-    <div className="container p-5">
+    <div className="container py-5 px-4">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
       <div className="">
@@ -48,12 +48,15 @@ const AboutDemoDay = () => {
         src={demodaypictureone}
         style={{ maxHeight: "100%", maxWidth: "100%" }}
       ></img>
-      <p className="pt-5">
-        We believe that entrepreneurs need to participate in demo days and gain
-        necessary exposure, which can lead to opportunities for funding,
-        mentorship, and partnerships, all of which are critical for most
-        businesses to thrive.
-      </p>
+      <div className="float-start float-end">
+        {" "}
+        <p className="pt-5 ">
+          We believe that entrepreneurs need to participate in demo days and
+          gain necessary exposure, which can lead to opportunities for funding,
+          mentorship, and partnerships, all of which are critical for most
+          businesses to thrive.
+        </p>
+      </div>
       <p className="">
         The 8thGear Demo Day is a tripartite event. First, a showcase, where
         businesses in the venture studio intimate members of the community on

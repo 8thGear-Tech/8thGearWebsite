@@ -148,19 +148,11 @@ const SectionThree = () => {
             <div className="text-center">
               <GearUpIcon />
             </div>
-
-            {/* <img
-              src={gearupicon}
-              className="p-3 mx-auto w-50"
-              // width="70px"
-              // height="70px"
-              alt="..."
-            /> */}
             <div className="card-body">
               <h4 className="card-title">GEAR UP</h4>
               <p className="card-text">
                 Mentally and physically prepare for the journey ahead. Bringing
-                ideas to live is no small feat but it is a laudable one.
+                ideas to life is no small feat but it is a laudable one.
               </p>
             </div>
           </div>
@@ -171,14 +163,6 @@ const SectionThree = () => {
             <div className="text-center">
               <EvolveIcon />
             </div>
-
-            {/* <img
-              src={evolveicon}
-              className="p-3 mx-auto w-50"
-              // width="70px"
-              // height="70px"
-              alt="..."
-            /> */}
             <div className="card-body">
               <h4 className="card-title">EVOLVE</h4>
               <p className="card-text">
@@ -194,14 +178,6 @@ const SectionThree = () => {
             <div className="text-center">
               <EngageIcon />
             </div>
-
-            {/* <img
-              src={engageicon}
-              className="p-3 mx-auto w-50"
-              // width="70px"
-              // height="70px"
-              alt="..."
-            /> */}
             <div className="card-body">
               <h4 className="card-title">ENGAGE</h4>
               <p className="card-text">

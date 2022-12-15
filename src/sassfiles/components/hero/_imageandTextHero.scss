@@ -156,7 +156,7 @@
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.jpg);
+  background: url(/src/assets/images/hero/eventhero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -206,15 +206,10 @@
   left: 0px;
   opacity: 0.4;
 }
-// .CoworkingHeroBg {
-//   position: absolute;
-//   height: 80vh;
-//   width: 100%;
-// }
 
 .CoworkingHeroBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking1.jpg);
+  background: url(/src/assets/images/hero/coworkinghero.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -247,7 +242,7 @@
 
 .CoworkingOffersBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background: url(/src/assets/images/hero/coworkingoffersbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -280,7 +275,7 @@
 
 .CoworkingTestmonialBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking2.jpg);
+  background: url(/src/assets/images/hero/coworkingtestimonialbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -291,12 +286,12 @@
   width: 100%;
 }
 
-.CoworkingTestmonialBg .coworkingTestCards h3 {
+.CoworkingTestmonialBg h3 {
   position: relative;
 }
-.CoworkingTestmonialBg .coworkingTestCards h3 {
-  position: relative;
-}
+// .CoworkingTestmonialBgg .coworkingTestCards h3 {
+//   position: relative;
+// }
 .coworkingBookBtn,
 .coworkingBookText {
   position: relative;

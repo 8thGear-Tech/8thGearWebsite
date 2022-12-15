@@ -2,16 +2,16 @@
   "gallerylseft": [
     {
       "id": 1,
-      "image": "./images/gallerylsetf/lsetf2.jpg"
+      "image": "./images/gallerylsetf/lsetf1.jpg"
     },
     {
       "id": 2,
-      "image": "./images/gallerylsetf/lsetf3.jpg"
+      "image": "./images/gallerylsetf/lsetf2.jpg"
     },
 
     {
       "id": 3,
-      "image": "./images/gallerylsetf/lsetf4.jpg"
+      "image": "./images/gallerylsetf/lsetf3.jpg"
     }
   ],
   "galleryvideocards": [

@@ -514,7 +514,9 @@ const TestimonialSection = () => {
     <>
       <div className="py-5 CoworkingTestmonialBg mt-5">
         <div className="CoworkingTestmonialBgg ">
-          <h3 className="text-center ">FROM OUR USERS</h3>
+          <h3 className="text-center" style={{ color: "#fff" }}>
+            FROM OUR USERS
+          </h3>
           <CoworkingTestimonial />
         </div>
       </div>

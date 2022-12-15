@@ -1,11 +1,4 @@
-// import React from "react";
-// import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
-// import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
-// import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
-// import { EventsViewMoreBtn } from "../components/Buttons/EventsBtn";
 import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
-// import { LetUsKnowBtn } from "../components/Buttons/EventsBtn";
-// import EventPageHero from "../../components/Hero/CarouselHero";
 
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";

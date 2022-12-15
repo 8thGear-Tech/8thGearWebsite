@@ -52,12 +52,16 @@ import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 import { ScrollButton } from "./components/Buttons/scrollToTop";
 
+//new footer
+import { NewFooter } from "./components/newFooter";
+
 function App() {
   return (
     <BrowserRouter>
       <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="newfooter" element={<NewFooter />} />
           <Route path="our-model" element={<OurModelPage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
@@ -105,10 +109,10 @@ function App() {
           <Route path="*" element={<Error404 />} />
         </Routes>
 
-        <footer>
+        {/* <footer>
           <Footer />
           <ScrollButton />
-        </footer>
+        </footer> */}
       </FooterItemToTop>
       {/* <footer>
         <Footer />

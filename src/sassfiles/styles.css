@@ -1750,7 +1750,7 @@ article h4 {
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.jpg);
+  background: url(/src/assets/images/hero/eventhero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -1791,7 +1791,7 @@ article h4 {
 }
 
 .CoworkingHeroBg {
-  background: url(/src/assets/images/hero/coworking1.jpg);
+  background: url(/src/assets/images/hero/coworkinghero.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -1824,7 +1824,7 @@ article h4 {
 }
 
 .CoworkingOffersBg {
-  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background: url(/src/assets/images/hero/coworkingoffersbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -1857,7 +1857,7 @@ article h4 {
 }
 
 .CoworkingTestmonialBg {
-  background: url(/src/assets/images/hero/coworking2.jpg);
+  background: url(/src/assets/images/hero/coworkingtestimonialbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -1868,11 +1868,7 @@ article h4 {
   width: 100%;
 }
 
-.CoworkingTestmonialBg .coworkingTestCards h3 {
-  position: relative;
-}
-
-.CoworkingTestmonialBg .coworkingTestCards h3 {
+.CoworkingTestmonialBg h3 {
   position: relative;
 }
 
