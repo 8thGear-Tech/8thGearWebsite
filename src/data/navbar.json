@@ -132,5 +132,11 @@
       "id": 1,
       "heading": "Event Gallery"
     }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "heading": "Resources"
+    }
   ]
 }

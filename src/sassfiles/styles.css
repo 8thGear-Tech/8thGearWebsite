@@ -678,6 +678,10 @@ article h4 {
   line-height: 2rem;
 }
 
+.ReadMoreResourcesBg {
+  background-color: #2400a4;
+}
+
 .BookNowBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -2334,6 +2338,74 @@ article h4 {
   color: rgb(255, 255, 255);
 }
 
+.ResourcesHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ResourcesHeroBg {
+  background: url(/src/assets/images/hero/resourceshero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.ResourcesHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.ResourcesHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+.VideoResourceHeroBgg::before {
+  content: "";
+  position: absolute;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.VideoResourceHeroBg {
+  background: url(/src/assets/images/hero/videoresourcehero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.VideoResourceHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+
+.VideoResourceHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
 video {
   width: 100vw;
   height: 100vh;
@@ -2807,6 +2879,63 @@ video {
   z-index: 1;
   cursor: pointer;
   color: #03a062;
+}
+
+.PreviousBtn {
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 30px;
+}
+.PreviousBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.PreviousBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.NextBtn {
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #821e6b;
+  border-radius: 35px;
+}
+.NextBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.NextBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.ResourcesTitleBtn {
+  border: 1px solid #821e6b;
+  color: #000;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 9rem;
+  height: 1.7rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.ResourcesTitleBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.ResourcesTitleBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
 }
 
 header {
