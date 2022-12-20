@@ -491,7 +491,7 @@ export const CoworkingTestimonial = () => {
   return (
     <div className="container">
       <div className="row d-flex justify-content-center">
-        <h3 className="text-center ">FROM OUR USERS</h3>
+        {/* <h3 className="text-center ">FROM OUR USERS</h3> */}
         {data.cardData.map((card) => {
           return (
             <div
