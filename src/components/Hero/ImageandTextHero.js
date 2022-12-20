@@ -426,3 +426,22 @@ export const ManagedServicesAccountingHero = () => {
     </>
   );
 };
+
+export const ResourcesHero = () => {
+  return (
+    <>
+      <div className="container-fluid ResourcesHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ResourcesHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center"></h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};

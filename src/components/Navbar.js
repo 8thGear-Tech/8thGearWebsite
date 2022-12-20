@@ -647,3 +647,21 @@ export const Navbar20 = () => {
     </div>
   );
 };
+export const Navbar21 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.resources.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};

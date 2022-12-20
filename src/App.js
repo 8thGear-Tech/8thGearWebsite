@@ -52,6 +52,9 @@ import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 import { ScrollButton } from "./components/Buttons/scrollToTop";
 
+//Resources
+import Resources from "./pages/Resources/Resources";
+
 function App() {
   return (
     <BrowserRouter>
@@ -103,6 +106,7 @@ function App() {
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
+          <Route path="resources" element={<Resources />} />
         </Routes>
 
         <footer>
