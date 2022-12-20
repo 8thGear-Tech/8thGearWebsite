@@ -6,7 +6,7 @@ export const NewFooter = () => {
     <>
       <div class="container-fluid px-lg-5">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
-          {/* <div></div> */}
+          {/* <div></div> */}c
           <div className="d-flex col-lg-4">
             {" "}
             <img className="" src={logo} width={60} height={70} alt="" />
