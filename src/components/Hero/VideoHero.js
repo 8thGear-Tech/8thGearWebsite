@@ -59,7 +59,7 @@ export const AboutPageHero = () => {
     <div>
       <div className="ratio ratio-16x9">
         <iframe
-          src="https://www.youtube.com/embed/Wu0azG1ect4"
+          src="https://www.youtube.com/embed/Eosh6qYSarc"
           title="YouTube video"
           allowFullScreen
         ></iframe>

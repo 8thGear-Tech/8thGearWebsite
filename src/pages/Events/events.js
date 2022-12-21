@@ -24,7 +24,7 @@ const EventsPage = () => {
       <Navbar14 />
       <EventsPageHero />
       <Events />
-      <EventsCalender />
+      {/* <EventsCalender /> */}
       <SuggestAnEvent />
       <EventsGallery />
     </>
@@ -83,7 +83,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
+        {/* <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
@@ -102,7 +102,7 @@ const Events = () => {
               <GearUpReadMoreBtn />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <LetUsKnowBtn /> */}
     </div>
