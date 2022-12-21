@@ -47,6 +47,7 @@ import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
+import { NewFooter } from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
@@ -114,7 +115,8 @@ function App() {
         </Routes>
 
         <footer>
-          <Footer />
+          <NewFooter />
+          {/* <Footer /> */}
           <ScrollButton />
         </footer>
       </FooterItemToTop>
