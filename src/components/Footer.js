@@ -561,7 +561,7 @@ import { GoToTop } from "./Buttons/scrollToTop";
 
 export const Footer = () => {
   return (
-    <div className="container-fluid mt-4 mb-4">
+    <div className="container-fluid mt-4 mb-4 ">
       <div className="row">
         <div className="col-md-4 col-sm-12 d-none d-md-block d-lg-block">
           <Link to="/">

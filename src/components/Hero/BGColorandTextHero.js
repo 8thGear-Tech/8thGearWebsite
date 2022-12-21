@@ -162,3 +162,23 @@ export const OurTeamHero = () => {
     </div>
   );
 };
+
+export const ArticleReadMoreHero = () => {
+  return (
+    <div className="container-fluid py-5 ReadMoreResourcesBg">
+      <div className="row mx-lg-4 mx-md-4 mt-4 justify-content-center">
+        <div className="col-lg-8 py-5">
+          <h3 className="text-white">
+            Lörem ipsum startup teotris fysisk cd. Tukrogåligen transparens.
+            Innovationskontor biojäd, samt gamification.{" "}
+          </h3>
+          <p className="text-white">
+            For entrepreneurship, combining company building with venture
+            funding combining company building with venture funding. For
+            entrepreneurship, .
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};

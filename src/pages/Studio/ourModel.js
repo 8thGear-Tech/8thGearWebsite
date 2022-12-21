@@ -230,7 +230,7 @@ const HowWeDoIt = () => {
           <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
             <SpinOutIcon />
           </div>
-          <div className="col-lg-6 col-md-7 col-sm-10">
+          <div className="col-lg-6 col-md-7 col-sm-10 ">
             <h4 className="">04- Spinout</h4>
             <h3 className="">We spin out once proof of concept is achieved.</h3>
             <p>

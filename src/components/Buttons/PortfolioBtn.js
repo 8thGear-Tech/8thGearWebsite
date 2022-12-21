@@ -35,7 +35,7 @@ export const ResourcesReadMoreLink = () => {
   return (
     <>
       <a href="#" class="" style={{ color: "#000" }}>
-        Read More
+        Read More <i class="bi bi-arrow-right-short"></i>
       </a>
     </>
   );

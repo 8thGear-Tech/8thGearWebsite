@@ -28,6 +28,7 @@ export const LetUsKnowBtn = () => {
     <a
       href="https://docs.google.com/forms/d/149SdikrUqPTgtdQL5lOBKYdF9L5ZAQ4TF1Xj9y1vBIk/edit"
       rel="noreferrer"
+      target="_blank"
     >
       <button
         // type="button"
@@ -80,6 +81,15 @@ export const FoundersMeetupReadMoreBtn = () => {
 export const DemoDayReadMoreBtn = () => {
   return (
     <Link to="/demo-day">
+      <button className="BlogReadMoreBtn" type="sumbit">
+        Read More
+      </button>
+    </Link>
+  );
+};
+export const GearUpReadMoreBtn = () => {
+  return (
+    <Link to="">
       <button className="BlogReadMoreBtn" type="sumbit">
         Read More
       </button>

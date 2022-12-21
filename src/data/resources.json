@@ -1,0 +1,46 @@
+{
+  "allresources": [
+    {
+      "id": 1,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN READ",
+      "title": "Business Dev",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    },
+    {
+      "id": 2,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN WATCH",
+      "title": "Lorem ipsum dolor",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    },
+    {
+      "id": 3,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN WATCH",
+      "title": "Lorem ipsum dolor",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    },
+    {
+      "id": 4,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN WATCH",
+      "title": "Lorem ipsum dolor",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    },
+    {
+      "id": 5,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN READ",
+      "title": "Lorem ipsum dolor",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    },
+    {
+      "id": 6,
+      "image": "../assets/resources/resourceimageone.png",
+      "articletype": "63 MIN WATCH",
+      "title": "Lorem ipsum dolor",
+      "paragraphtext": "Lorem ipsum dolor sit amet consectetur. Scelerisque varius ac id auctor. Maecenas sapien felis luctus purus fusce congue at cursus."
+    }
+  ]
+}

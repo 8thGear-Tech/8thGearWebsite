@@ -1,8 +1,12 @@
 import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
-import { FoundersMeetupReadMoreBtn } from "../../components/Buttons/EventsBtn";
-import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
+import {
+  FoundersMeetupReadMoreBtn,
+  DemoDayReadMoreBtn,
+  GearUpReadMoreBtn,
+} from "../../components/Buttons/EventsBtn";
+
 import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.JPG";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
@@ -20,6 +24,7 @@ const EventsPage = () => {
       <Navbar14 />
       <EventsPageHero />
       <Events />
+      <EventsCalender />
       <SuggestAnEvent />
       <EventsGallery />
     </>
@@ -78,8 +83,99 @@ const Events = () => {
             </div>
           </div>
         </div>
+        <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
+          {" "}
+          <div className="mb-5 py-5 eventsCardBg">
+            <div className="card-body">
+              <h3 className="card-title">Gear-up </h3>
+              <img
+                src={demoday}
+                className="p-3 mx-auto w-75"
+                // width="70px"
+                // height="70px"
+                alt="..."
+              />
+              <p className="card-text mx-3 mt-2 mb-4">
+                Lorem ipsum dolor sit amet Lorem lorem ipsum dolor sit amet
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+              </p>
+              <GearUpReadMoreBtn />
+            </div>
+          </div>
+        </div>
       </div>
       {/* <LetUsKnowBtn /> */}
+    </div>
+  );
+};
+const EventsCalender = () => {
+  return (
+    <div className="container-fluid text-center py-2">
+      {" "}
+      <h4 className="mt-5">Events Calender</h4>
+      <p>JUNE 2022 - DEC 2022</p>
+      <div className="py-2 table-responsive">
+        <table className="table table-striped ">
+          {/* <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead> */}
+          <tbody>
+            <tr>
+              <th scope="row">June 2022</th>
+              <td></td>
+              <td></td>
+              <td>Register Now</td>
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 6:00pm </th>
+              <th className="m-0">Founders Meetup</th>
+              <td>Add to Google Calender</td>
+              <td>Virtual</td>
+            </tr>
+            <tr>
+              <th scope="row">June 2022</th>
+              <td></td>
+              <td></td>
+              <td>Register Now</td>
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 6:00pm </th>
+              <th className="m-0">Founders Meetup</th>
+              <td>Add to Google Calender</td>
+              <td>Virtual</td>
+            </tr>
+            <tr>
+              <th scope="row">June 2022</th>
+              <td></td>
+              <td></td>
+              <td>Register Now</td>
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 6:00pm </th>
+              <th className="m-0">Founders Meetup</th>
+              <td>Add to Google Calender</td>
+              <td>Virtual</td>
+            </tr>
+            <tr>
+              <th scope="row">June 2022</th>
+              <td></td>
+              <td></td>
+              <td>Register Now</td>
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 6:00pm </th>
+              <th className="m-0">Founders Meetup</th>
+              <td>Add to Google Calender</td>
+              <td>Virtual</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

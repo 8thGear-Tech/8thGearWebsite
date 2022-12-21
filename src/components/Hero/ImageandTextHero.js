@@ -445,3 +445,26 @@ export const ResourcesHero = () => {
     </>
   );
 };
+
+export const VideoResourceHero = () => {
+  return (
+    <>
+      <div className="container-fluid VideoResourceHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid VideoResourceHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-8 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 text-center">
+                Lörem ipsum startup teotris fysisk cd. Tukrogåligen transparens.
+                Innovationskontor biojäd, samt gamification.{" "}
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none text-center">
+                Lörem ipsum startup teotris fysisk cd. Tukrogåligen transparens.
+                Innovationskontor biojäd, samt gamification.{" "}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
