@@ -195,7 +195,7 @@ const SectionThree = () => {
         className="text-decoration-none"
       >
         <p className="mt-3 talkToUsText text-decoration-underline">
-          Or Talk to us
+          Talk to us
         </p>
       </a>
       {/* <JointheStudioBtn /> */}

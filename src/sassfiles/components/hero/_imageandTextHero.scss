@@ -470,6 +470,7 @@
   position: relative;
   line-height: 35px;
 }
+
 //managedservices tech hero
 .ManagedServicesTechHeroBgg::before {
   content: "";
@@ -672,28 +673,40 @@
 .piggeryTrainingHeroBg h2 {
   position: relative;
 }
+
+//GIZ hero
+.GIZHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
 .GIZHeroBg {
   background: url(/src/assets/images/hero/GIZhero.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-@media only screen and (max-width: 440px) {
-  .GIZHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .GIZHeroBg {
-    height: 60vh;
-  }
-}
-.GIZHeroBg h1 {
   position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
+
 .GIZHeroBg h2 {
   position: relative;
+  line-height: 45px;
+}
+.GIZHeroBg h3 {
+  position: relative;
+  line-height: 35px;
 }
 .LSETFHeroBg {
   background: url(/src/assets/images/hero/lsetfhero.jpg);

@@ -79,15 +79,23 @@
   ],
   "teamcardseven": [
     {
-      "image1": "../../images/team/ifunanya.png",
-      "name1": "IFUNANYA OMANUKWUE",
-      "title1": "BUSINESS ANALYST",
+      "image1": "../../images/team/sharon.png",
+      "name1": "SHARON SAGAY",
+      "title1": "MARKETING AND COMMS LEAD",
       "id": "staticBackdrop7",
-      "image": "../../images/team/ifunanya.png",
-      "name": "Ifunaya Omanukwue",
-      "position": "Business Analyst",
-      "link": "https://www.linkedin.com/in/wgifunanya-116408159/",
-      "text": "Food is my passion, so I love to cook and recreate recipes."
+      "image": "../../images/team/sharon.png",
+      "name": "Sharon Sagay",
+      "position": "Marketing and Comms Lead",
+      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/",
+      "text": "If I’m not watching a movie, sleeping or enjoying the company of my family, then I’m cooking. This describes fun and happy place for me"
+    }
+  ],
+  "teamcardeight": [
+    {
+      "image1": "../../images/team/seun.png",
+      "name1": "SEUN OLADELE",
+      "title1": "PROJECT DEV'T ASSOCIATE",
+      "id": "staticBackdrop8"
     }
   ],
   "EIRcard": [

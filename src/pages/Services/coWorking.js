@@ -74,7 +74,7 @@ const OurOffers = () => {
                 style={{ height: "200px" }}
               >
                 <i className="bi bi-cup-hot" style={{ fontSize: "3rem" }}></i>
-                <p>Kitchenttee</p>
+                <p>Kitchenette</p>
               </div>
             </div>
             <div className="row justify-content-center coworkingGrid ">

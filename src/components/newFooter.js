@@ -245,11 +245,11 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="tel:23408094818882"
+                    href="tel:2348094818882"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    080 9481 8883
+                    080 9481 8882
                   </a>
                 </li>
               </ul>
@@ -261,6 +261,7 @@ export const NewFooter = () => {
                 <li className="nav-item">
                   <a
                     href="https://www.facebook.com/8thgearhub"
+                    target="_blank"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -270,6 +271,7 @@ export const NewFooter = () => {
                 <li className="nav-item">
                   <a
                     href="https://www.instagram.com/8thgearhub/"
+                    target="_blank"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -279,6 +281,7 @@ export const NewFooter = () => {
                 <li className="nav-item">
                   <a
                     href="https://www.linkedin.com/company/8thgearhub/"
+                    target="_blank"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -287,7 +290,8 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+                    href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
+                    target="_blank"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >

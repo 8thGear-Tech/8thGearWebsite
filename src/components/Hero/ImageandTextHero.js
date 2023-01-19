@@ -241,19 +241,38 @@ export const PiggeryTrainingGalleryHero = () => {
 };
 export const GIZEmployabilityGalleryHero = () => {
   return (
-    <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
-      <div className="gradientBg overlayBg"></div>
-      <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
-            Great people building enduring ventures
-          </h1>
-          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
-            Great people building enduring ventures
-          </h2>
+    <div className="container-fluid GIZHeroBg d-flex align-items-center">
+      <div className="px-3 container-fluid GIZHeroBgg d-flex pt-3 pb-4">
+        <div className="row justify-content-center ">
+          <div className="col-lg-12 col-md-12 col-sm-12 ">
+            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+              {" "}
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3> */}
+          </div>
         </div>
       </div>
     </div>
+    // <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
+    //   <div className="gradientBg overlayBg"></div>
+    //   <div className="row">
+    //     <div className="col-lg-8 col-md-8 col-sm-12">
+    //       <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+    //         Great people building enduring ventures
+    //       </h1>
+    //       <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+    //         Great people building enduring ventures
+    //       </h2>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 export const LSETFGalleryHero = () => {

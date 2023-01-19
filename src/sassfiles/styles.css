@@ -601,7 +601,6 @@ article h4 {
 
 .talkToUsText {
   font-weight: 400;
-  color: #000;
 }
 
 .PrivacyAndPolicyHero {
@@ -2218,30 +2217,39 @@ article h4 {
   position: relative;
 }
 
-.GIZHeroBg {
-  background: url(/src/assets/images/hero/GIZhero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+.GIZHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
 }
 
-@media only screen and (max-width: 440px) {
-  .GIZHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .GIZHeroBg {
-    height: 60vh;
-  }
-}
-.GIZHeroBg h1 {
+.GIZHeroBg {
+  background: url(/src/assets/images/hero/GIZhero.jpg);
+  background-size: cover;
   position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .GIZHeroBg h2 {
   position: relative;
+  line-height: 45px;
+}
+
+.GIZHeroBg h3 {
+  position: relative;
+  line-height: 35px;
 }
 
 .LSETFHeroBg {

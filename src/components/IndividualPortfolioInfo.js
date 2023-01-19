@@ -25,7 +25,8 @@ export const AboutStartup = (props) => {
                 className="img-fluid"
                 // width="70px"
                 // height="40px"
-                style={{ maxWidth: "350px", maxHeight: "350px" }}
+                // style={{ maxWidth: "100%", maxHeight: "100%" }}
+                style={{ maxWidth: "250px", maxHeight: "250px" }}
                 alt="..."
                 // style={{ width: "px" }}
               />
@@ -49,7 +50,7 @@ export const AboutStartup = (props) => {
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>
-              <a href={link} className="">
+              <a href={link} target="_blank" className="">
                 <p>{website}</p>
               </a>
             </div>

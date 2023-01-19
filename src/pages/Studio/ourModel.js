@@ -173,9 +173,9 @@ const HowWeDoIt = () => {
             </div>
           </div>
         </div>
-        <div className="row align-items-center justify-content-center mx-3">
+        <div className="row align-items-center justify-content-center mx-3 mt-5">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-5">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center">
             <IdeationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
@@ -191,7 +191,7 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center mx-3">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center ">
             <ValidationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
@@ -210,7 +210,7 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center mx-3">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center ">
             <CreationIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
@@ -227,7 +227,7 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center mx-3">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center ">
             <SpinOutIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10 ">
@@ -245,7 +245,7 @@ const HowWeDoIt = () => {
         </div>
         <div className="row align-items-center justify-content-center mx-3 pt-5 pb-5">
           {" "}
-          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center ">
             <ScaleUpIcon />
           </div>
           <div className="col-lg-6 col-md-7 col-sm-10">
