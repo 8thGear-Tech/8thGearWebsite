@@ -197,9 +197,6 @@ const SectionThree = () => {
         <p className="mt-3 talkToUsText text-decoration-underline">
           Talk to us
         </p>
-        <p className="mt-3 talkToUsText text-decoration-underline">
-          Talk to us
-        </p>
       </a>
       {/* <JointheStudioBtn /> */}
     </div>
