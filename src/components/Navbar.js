@@ -137,6 +137,26 @@ const NavBar = (props) => {
           </div>
 
           <br />
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Initiatives
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <Link className="dropdown-item" to="/FUTA-techpic">
+                  FUTA-techpic
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <br />
 
           <div>
             <a
@@ -652,6 +672,24 @@ export const Navbar21 = () => {
     <div className="container-fluid ">
       <div className="row">
         {text.resources.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar22 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.FUTATechpic.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"

@@ -34,6 +34,9 @@ import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
+//Initiatives
+import FUTATechpic from "./pages/Initiatives/FUTATechpic";
+
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
@@ -84,6 +87,8 @@ function App() {
           />
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
           <Route path="managed-services" element={<ManagedServicesPage />} />
+          <Route path="FUTA-techpic" element={<FUTATechpic />} />
+
           <Route
             path="digitalmarketing"
             element={<ManagedServicesDigitalMarketing />}

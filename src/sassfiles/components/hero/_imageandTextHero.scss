@@ -864,3 +864,17 @@
   position: relative;
   line-height: 35px;
 }
+
+//FUTA Techpic
+.FUTAHeroBg {
+  background: rgba(0, 164, 149, 0.44);
+  background-blend-mode: darken;
+
+  // background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 41.4%, rgba(0, 194, 255, 0.3) 96.66%);
+  // background-blend-mode: screen;
+  // border: 1px solid #FFFFFF;
+  // backdrop-filter: blur(2px);
+  // /* Note: backdrop-filter has minimal browser support */
+
+  // transform: rotate(-24.36deg);
+}

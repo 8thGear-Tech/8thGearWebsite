@@ -5,7 +5,9 @@
 // ManageServicesDigitalMarketingHero
 
 import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
+import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import { BookaSessionBtn } from "../Buttons/ServicesBtn";
+import { RegisterBtn } from "../Buttons/ProjectDeliveryBtn";
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
@@ -485,5 +487,43 @@ export const VideoResourceHero = () => {
         </div>
       </div>
     </>
+  );
+};
+
+export const FUTATechpicHero = () => {
+  return (
+    <div className="container-fluid FUTAHeroBg">
+      <div className="row align-items-center justify-content-center px-4 py-5">
+        <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
+          <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            Employability Skills Training
+            <br />
+          </h2>
+          <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none">
+            Employability Skills Training
+            <br />
+          </h3>
+          <p className="mt-4">
+            Are you looking to enhance your employability, gain the necessary
+            skills to pursue your dream job, and stand out after graduation? You
+            should attend the 8thGear FUTA Techpic Employability Training
+          </p>
+          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+            <RegisterBtn />
+          </div>
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={futatechpichero}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
+          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
+            <RegisterBtn />
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };

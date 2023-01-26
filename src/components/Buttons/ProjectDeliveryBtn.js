@@ -44,3 +44,16 @@ export const ProjectDeliveryViewMoreBtn = () => {
     </>
   );
 };
+//ProjectDeliveryViewMoreBtn
+export const RegisterBtn = () => {
+  return (
+    <>
+      <a href="https://forms.gle/guUTioEKNWV8d7WUA" target="_blank">
+        {" "}
+        <button className="RegisterBtn" type="submit">
+          Register
+        </button>
+      </a>
+    </>
+  );
+};
