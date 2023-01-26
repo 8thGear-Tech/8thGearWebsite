@@ -7,10 +7,7 @@
 export const BookNowBtn = () => {
   return (
     <>
-      <a
-        href="https://docs.google.com/forms/d/1OT6Pi7aLTIJY6CRUTrcDldtpY0QgaenAHbWJ6kP-sHg/viewform?edit_requested=true"
-        target="_blank"
-      >
+      <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
         {" "}
         <button className="BookNowBtn"> Book Now</button>
       </a>

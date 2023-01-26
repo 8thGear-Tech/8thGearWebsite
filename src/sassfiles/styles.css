@@ -335,6 +335,26 @@ p {
   color: #ffffff;
 }
 
+.RegisterBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.RegisterBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.RegisterBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
 .ManagedServicesPageTestimonialCard {
   background-color: #404040 !important;
   justify-items: right !important;
@@ -2412,6 +2432,11 @@ article h4 {
 .VideoResourceHeroBg h3 {
   position: relative;
   line-height: 35px;
+}
+
+.FUTAHeroBg {
+  background: rgba(0, 164, 149, 0.44);
+  background-blend-mode: darken;
 }
 
 video {
