@@ -54,9 +54,6 @@ const AboutFUTATechpic = () => {
       <a href="tel:2348085081566" className="nav-link">
         08085081566
       </a>
-      <a href="tel:2348085081566" className="nav-link">
-        08085081566
-      </a>
     </div>
   );
 };
