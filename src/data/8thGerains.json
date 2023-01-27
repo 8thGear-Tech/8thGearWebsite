@@ -86,8 +86,8 @@
       "image": "../../images/team/sharon.png",
       "name": "Sharon Sagay",
       "position": "Marketing and Comms Lead",
-      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/",
-      "text": "If I’m not watching a movie, sleeping or enjoying the company of my family, then I’m cooking. This describes fun and happy place for me"
+      "link": "https://www.linkedin.com/in/sharon-sagay-fimc-cmc-7894b01ab/",
+      "text": "If I’m not watching a movie, sleeping or enjoying the company of my family, then I’m cooking. This describes fun and happy place for me."
     }
   ],
   "teamcardeight": [
@@ -95,7 +95,12 @@
       "image1": "../../images/team/seun.png",
       "name1": "SEUN OLADELE",
       "title1": "PROJECT DEV'T ASSOCIATE",
-      "id": "staticBackdrop8"
+      "id": "staticBackdrop8",
+      "image": "../../images/team/seun.png",
+      "name": "Seun Oladele",
+      "position": "Project Dev't Associate",
+      "link": "https://www.linkedin.com/in/seun-oladele/",
+      "text": "I am an entrepreneurship enthusiast and I love my research, but above all, I am a music lover and you can leave me with my piano."
     }
   ],
   "EIRcard": [
