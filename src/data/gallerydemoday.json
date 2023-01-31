@@ -23,19 +23,11 @@
     {
       "id": 6,
       "image": "../../images/gallerydemoday/demodaysix.JPG"
-    },
-    {
-      "id": 7,
-      "image": "../../images/gallerydemoday/demodayseven.jpg"
-    },
-    {
-      "id": 8,
-      "image": "../../images/gallerydemoday/demodayeight.jpg"
     }
   ],
   "Demovideo": [
     {
-      "id": 2,
+      "id": 1,
       "video": " https://www.youtube.com/embed/vsfp35Zt99Y",
       "text": "video session from meeting"
     },

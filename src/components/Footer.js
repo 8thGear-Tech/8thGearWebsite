@@ -561,7 +561,7 @@ import { GoToTop } from "./Buttons/scrollToTop";
 
 export const Footer = () => {
   return (
-    <div className="container-fluid mt-5">
+    <div className="container-fluid mt-4 mb-4 ">
       <div className="row">
         <div className="col-md-4 col-sm-12 d-none d-md-block d-lg-block">
           <Link to="/">
@@ -575,18 +575,20 @@ export const Footer = () => {
 
         {/* second side of the footer */}
 
-        <div className="col-md-8 col-sm-12  text-md-center ">
-          <div className="d-md-flex justify-content-md-around  align-items-start ">
-            <Link className=" footerText text-fluid3 d-block " to="/">
+        <div className="col-md-8 col-sm-12 text-md-center text-sm-center text-center">
+          <div className="col-12 d-md-flex justify-content-md-around  align-items-start ">
+            {/* <div className="d-flex justify-content-center justify-content-evenly"> */}{" "}
+            <Link className="footerText text-fluid3 d-block " to="/">
               HOME
               <GoToTop />
             </Link>
-            <Link className=" footerText text-fluid3 d-block " to="./about">
+            <Link className="footerText text-fluid3 d-block " to="./about">
               ABOUT
             </Link>
             <Link className=" footerText text-fluid3 d-block" to="./our-model">
               OUR MODEL
             </Link>
+            {/* </div> */}
             <Link className=" footerText text-fluid3 d-block" to="./faq">
               FAQ
             </Link>
@@ -642,7 +644,7 @@ export const Footer = () => {
 
       <div className="row">
         {/* <div className="col-md-2"></div> */}
-        <div className="col-md-10 offset-md-2">
+        <div className="col-md-10 offset-md-2 text-sm-center text-xs-center text-center">
           <div className="d-md-flex  justify-content-end  align-items-start   mt-md-3">
             <Link
               to="/privacy-policy"

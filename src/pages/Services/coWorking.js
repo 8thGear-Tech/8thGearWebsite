@@ -74,7 +74,7 @@ const OurOffers = () => {
                 style={{ height: "200px" }}
               >
                 <i className="bi bi-cup-hot" style={{ fontSize: "3rem" }}></i>
-                <p>Kitchenttee</p>
+                <p>Kitchenette</p>
               </div>
             </div>
             <div className="row justify-content-center coworkingGrid ">
@@ -514,7 +514,9 @@ const TestimonialSection = () => {
     <>
       <div className="py-5 CoworkingTestmonialBg mt-5">
         <div className="CoworkingTestmonialBgg ">
-          <h3 className="text-center ">FROM OUR USERS</h3>
+          <h3 className="text-center" style={{ color: "#fff" }}>
+            FROM OUR USERS
+          </h3>
           <CoworkingTestimonial />
         </div>
       </div>

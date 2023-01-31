@@ -5,7 +5,9 @@
 // ManageServicesDigitalMarketingHero
 
 import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
+import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import { BookaSessionBtn } from "../Buttons/ServicesBtn";
+import { RegisterBtn } from "../Buttons/ProjectDeliveryBtn";
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
@@ -241,19 +243,38 @@ export const PiggeryTrainingGalleryHero = () => {
 };
 export const GIZEmployabilityGalleryHero = () => {
   return (
-    <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
-      <div className="gradientBg overlayBg"></div>
-      <div className="row">
-        <div className="col-lg-8 col-md-8 col-sm-12">
-          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
-            Great people building enduring ventures
-          </h1>
-          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
-            Great people building enduring ventures
-          </h2>
+    <div className="container-fluid GIZHeroBg d-flex align-items-center">
+      <div className="px-3 container-fluid GIZHeroBgg d-flex pt-3 pb-4">
+        <div className="row justify-content-center ">
+          <div className="col-lg-12 col-md-12 col-sm-12 ">
+            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h2>
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+              {" "}
+              We at 8thGear are helpmates to your business and because we
+              believe in the uniqueness of every individual and business, we
+              tailor our solutions to suit your needs and aspirations.
+            </h3> */}
+          </div>
         </div>
       </div>
     </div>
+    // <div className="px-4 container-fluid GIZHeroBg d-flex pt-3 pb-4 align-items-center">
+    //   <div className="gradientBg overlayBg"></div>
+    //   <div className="row">
+    //     <div className="col-lg-8 col-md-8 col-sm-12">
+    //       <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+    //         Great people building enduring ventures
+    //       </h1>
+    //       <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+    //         Great people building enduring ventures
+    //       </h2>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 export const LSETFGalleryHero = () => {
@@ -502,3 +523,83 @@ export const DemodayHero = () => {
 //     </div>
 //   );
 // };
+
+export const ResourcesHero = () => {
+  return (
+    <>
+      <div className="container-fluid ResourcesHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid ResourcesHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-12 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center"></h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
+                {" "}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const VideoResourceHero = () => {
+  return (
+    <>
+      <div className="container-fluid VideoResourceHeroBg d-flex align-items-center">
+        <div className="px-3 container-fluid VideoResourceHeroBgg d-flex pt-3 pb-4">
+          <div className="row justify-content-center ">
+            <div className="col-lg-8 col-md-12 col-sm-12 ">
+              <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 text-center">
+                Lörem ipsum startup teotris fysisk cd. Tukrogåligen transparens.
+                Innovationskontor biojäd, samt gamification.{" "}
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-block d-lg-none text-center">
+                Lörem ipsum startup teotris fysisk cd. Tukrogåligen transparens.
+                Innovationskontor biojäd, samt gamification.{" "}
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const FUTATechpicHero = () => {
+  return (
+    <div className="container-fluid FUTAHeroBg">
+      <div className="row align-items-center justify-content-center px-4 py-5">
+        <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
+          <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            Employability Skills Training
+            <br />
+          </h2>
+          <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none">
+            Employability Skills Training
+            <br />
+          </h3>
+          <p className="mt-4">
+            Are you looking to enhance your employability, gain the necessary
+            skills to pursue your dream job, and stand out after graduation? You
+            should attend the 8thGear FUTA Techpic Employability Training
+          </p>
+          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+            <RegisterBtn />
+          </div>
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={futatechpichero}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
+          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
+            <RegisterBtn />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

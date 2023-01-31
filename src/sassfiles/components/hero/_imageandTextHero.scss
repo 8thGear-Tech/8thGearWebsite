@@ -156,7 +156,7 @@
 
 .EventsHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/eventshero.jpg);
+  background: url(/src/assets/images/hero/eventhero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -206,15 +206,10 @@
   left: 0px;
   opacity: 0.4;
 }
-// .CoworkingHeroBg {
-//   position: absolute;
-//   height: 80vh;
-//   width: 100%;
-// }
 
 .CoworkingHeroBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking1.jpg);
+  background: url(/src/assets/images/hero/coworkinghero.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -247,7 +242,7 @@
 
 .CoworkingOffersBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking-workspace.jpg);
+  background: url(/src/assets/images/hero/coworkingoffersbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -280,7 +275,7 @@
 
 .CoworkingTestmonialBg {
   // content: "";
-  background: url(/src/assets/images/hero/coworking2.jpg);
+  background: url(/src/assets/images/hero/coworkingtestimonialbg.jpg);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -291,12 +286,12 @@
   width: 100%;
 }
 
-.CoworkingTestmonialBg .coworkingTestCards h3 {
+.CoworkingTestmonialBg h3 {
   position: relative;
 }
-.CoworkingTestmonialBg .coworkingTestCards h3 {
-  position: relative;
-}
+// .CoworkingTestmonialBgg .coworkingTestCards h3 {
+//   position: relative;
+// }
 .coworkingBookBtn,
 .coworkingBookText {
   position: relative;
@@ -511,6 +506,7 @@
   position: relative;
   line-height: 35px;
 }
+
 //managedservices tech hero
 .ManagedServicesTechHeroBgg::before {
   content: "";
@@ -715,28 +711,40 @@
 .piggeryTrainingHeroBg h2 {
   position: relative;
 }
+
+//GIZ hero
+.GIZHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
 .GIZHeroBg {
   background: url(/src/assets/images/hero/GIZhero.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-@media only screen and (max-width: 440px) {
-  .GIZHeroBg {
-    height: 50vh;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .GIZHeroBg {
-    height: 60vh;
-  }
-}
-.GIZHeroBg h1 {
   position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
+
 .GIZHeroBg h2 {
   position: relative;
+  line-height: 45px;
+}
+.GIZHeroBg h3 {
+  position: relative;
+  line-height: 35px;
 }
 .LSETFHeroBg {
   background: url(/src/assets/images/hero/lsetfhero.jpg);
@@ -826,6 +834,7 @@
   color: rgb(255, 255, 255);
 }
 
+<<<<<<< HEAD
 // .bgimage h5 {
 //   color: white;
 //   text-shadow: 2px 2px #333;
@@ -1168,3 +1177,87 @@ ManagedDigitalMarketServicesHero mobile view style end
 // }
 
 // ManagedServicesAccountingHero mobile view style end
+=======
+//resources hero
+.ResourcesHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.ResourcesHeroBg {
+  background: url(/src/assets/images/hero/resourceshero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.ResourcesHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.ResourcesHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+//resources hero
+.VideoResourceHeroBgg::before {
+  content: "";
+  position: absolute;
+  // background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  // opacity: 0.2;
+}
+
+.VideoResourceHeroBg {
+  background: url(/src/assets/images/hero/videoresourcehero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
+}
+
+.VideoResourceHeroBg h2 {
+  position: relative;
+  line-height: 45px;
+}
+.VideoResourceHeroBg h3 {
+  position: relative;
+  line-height: 35px;
+}
+
+//FUTA Techpic
+.FUTAHeroBg {
+  background: rgba(0, 164, 149, 0.44);
+  background-blend-mode: darken;
+
+  // background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 41.4%, rgba(0, 194, 255, 0.3) 96.66%);
+  // background-blend-mode: screen;
+  // border: 1px solid #FFFFFF;
+  // backdrop-filter: blur(2px);
+  // /* Note: backdrop-filter has minimal browser support */
+
+  // transform: rotate(-24.36deg);
+}
+>>>>>>> acd2c8d6210642282f5a3042ecec77dd8f8cde0b

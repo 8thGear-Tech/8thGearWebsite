@@ -8,7 +8,7 @@ const FoundersMeetupGalleryPage = () => {
     <>
       <Navbar17 />
       <FoundersPictureCards />
-      <FoundersVideoCards />
+      {/* <FoundersVideoCards /> */}
     </>
   );
 };

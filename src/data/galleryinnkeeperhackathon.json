@@ -15,7 +15,7 @@
 
     {
       "id": 4,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon4.jpeg"
+      "image": "../../images/galleryinnkeeperhackathon/hackathon4.jpg"
     },
     {
       "id": 5,
@@ -28,14 +28,6 @@
     {
       "id": 7,
       "image": "../../images/galleryinnkeeperhackathon/hackathon7.JPG"
-    },
-    {
-      "id": 8,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon8.JPG"
-    },
-    {
-      "id": 9,
-      "image": "../../images/galleryinnkeeperhackathon/hackathon9.JPG"
     }
   ],
   "InnkeeperVideo": [

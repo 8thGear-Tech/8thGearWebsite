@@ -20,7 +20,7 @@
     },
     {
       "id": 4,
-      "image": "../../images/gallerycards/innkeeperhackathon.JPG",
+      "image": "../../images/gallerycards/innkeeperhackathon.jpg",
       "text": "Innkeeper Hackathon 2022",
       "link": "/innkeeper-hackathon-gallery"
     },
@@ -86,7 +86,13 @@
       "id": 1,
       "image": "../../images/gallerydemoday/demodaysix.JPG",
       "link": "/demo-day-gallery",
-      "text": "Demo Day 2022"
+      "text": "Demo Day June 2022"
+    },
+    {
+      "id": 2,
+      "image": "../../images/galleryFoundersmeetup/foundersmeetup.jpg",
+      "link": "/founders-meetup-gallery",
+      "text": "Founders Meetup November 2022"
     }
   ],
 

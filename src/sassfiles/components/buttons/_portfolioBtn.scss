@@ -1,3 +1,5 @@
+@use "../../colors" as *;
+
 .PreviousBtn {
   box-sizing: border-box;
   text-align: center;
@@ -32,4 +34,28 @@
     background-color: $btncolor;
     color: $sectextcolor;
   }
+}
+
+@mixin ResourcesTitleBtn {
+  border: 1px solid $btncolor;
+  color: $prytextcolor;
+  background-color: $prybgcolor;
+  border-radius: 20px;
+  width: 9rem;
+  height: 1.7rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8rem;
+  &:hover {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+  &:focus {
+    background-color: $btncolor;
+    color: $sectextcolor;
+  }
+}
+.ResourcesTitleBtn {
+  @include ResourcesTitleBtn;
 }

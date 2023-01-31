@@ -34,6 +34,9 @@ import ManagedServicesTech from "./pages/Services/managedServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
+//Initiatives
+import FUTATechpic from "./pages/Initiatives/FUTATechpic";
+
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
@@ -47,10 +50,16 @@ import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
+import { NewFooter } from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
 import { ScrollButton } from "./components/Buttons/scrollToTop";
+
+//Resources
+import Resources from "./pages/Resources/Resources";
+import ArticleReadMore from "./pages/Resources/ArticleReadMore";
+import VideoReadMore from "./pages/Resources/VideoReadMore";
 
 function App() {
   return (
@@ -78,6 +87,8 @@ function App() {
           />
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
           <Route path="managed-services" element={<ManagedServicesPage />} />
+          <Route path="FUTA-techpic" element={<FUTATechpic />} />
+
           <Route
             path="digitalmarketing"
             element={<ManagedServicesDigitalMarketing />}
@@ -103,10 +114,14 @@ function App() {
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
+          {/* <Route path="resources" element={<Resources />} />
+          <Route path="article" element={<ArticleReadMore />} />
+          <Route path="video" element={<VideoReadMore />} /> */}
         </Routes>
 
         <footer>
-          <Footer />
+          <NewFooter />
+          {/* <Footer /> */}
           <ScrollButton />
         </footer>
       </FooterItemToTop>

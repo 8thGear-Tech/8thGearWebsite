@@ -34,5 +34,14 @@
 @use "./components/allCards/triggeredCards";
 @use "./pages/insights/FAQ";
 @use "./components/buttons/scrollToTop";
+@use "./components/buttons/portfolioBtn";
 @use "./components/blogPost";
 @use "./pages/events/demoDay";
+
+// .cursorr {
+//   cursor: url(/src/assets/icons/dealmanagement.png), auto !important;
+// }
+
+// body {
+//   cursor: url(/src/assets/icons/dealmanagement.png), auto;
+// }

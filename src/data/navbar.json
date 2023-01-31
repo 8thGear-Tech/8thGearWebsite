@@ -132,5 +132,17 @@
       "id": 1,
       "heading": "Event Gallery"
     }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "heading": "Resources"
+    }
+  ],
+  "FUTATechpic": [
+    {
+      "id": 1,
+      "heading": "FUTA-Techpic"
+    }
   ]
 }
