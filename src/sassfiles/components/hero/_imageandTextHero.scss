@@ -353,7 +353,7 @@
 }
 
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background: url(/src/assets/images/founders-MeetUp.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -372,6 +372,42 @@
   position: relative;
   line-height: 45px;
   font-size: 2rem !important;
+}
+
+//Founders-day hero
+.Herodemodayy::before {
+  content: "";
+  position: absolute;
+  // background-color: #2e3133;
+  height: 90vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  // opacity: 0.6;
+}
+
+.Herodemoday {
+  background: url(/src/assets/images/founders-MeetUp.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.Herodemoday h2 {
+  position: relative;
+  line-height: 40px;
+}
+.Herodemoday h3 {
+  position: relative;
+  line-height: 25px;
+  font-size: 1.1rem !important;
 }
 //demodaygallery hero
 .DemoDayGalleryHeroBgg::before {
@@ -550,6 +586,7 @@
   .ManagedServicesLegalHeroBgg::before,
   .ManagedServicesDigitalMargetingHeroBgg::before,
   .GaaSHeroBgg::before,
+  .Herodemodayy::before,
   .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
@@ -558,6 +595,7 @@
   .ManagedServicesLegalHeroBg,
   .ManagedServicesDigitalMargetingHeroBg,
   .GaaSHeroBg,
+  .Herodemoday,
   .CoworkingHeroBg {
     height: 22.5rem;
   }
@@ -928,7 +966,7 @@
 }
 
 .ManagedServicesTechHero {
-  background: url(/src/assets/images/hero/techhero.png);
+  background: url(/src/assets/images/hero/techhero.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -950,28 +988,72 @@
 .ManagedServicesTechHero h3 {
   position: relative;
 }
-.Herodemoday {
-  background: url(/src/assets/images/Herodemoday.jpg);
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-}
-@media only screen and (max-width: 440px) {
-  .Herodemoday {
-    background-size: auto;
-    position: relative;
-    height: 100vh;
-    width: fit-content;
-  }
-}
-@media only screen and (max-width: 575px) and (min-width: 441px) {
-  .Herodemoday {
-    background-size: auto;
-    position: relative;
-    height: 100vh;
-    width: fit-content;
-  }
-}
+// .GaaSHeroBgg::before {
+//   content: "";
+//   position: absolute;
+//   background-color: #2e3133;
+//   height: 70vh;
+//   width: 100%;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   opacity: 0.6;
+// }
+
+// .GaaSHeroBg {
+//   background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 70vh;
+//   width: 100%;
+// }
+
+// .GaaSHeroBg h2 {
+//   position: relative;
+//   line-height: 70px;
+// }
+// .GaaSHeroBg h3 {
+//   position: relative;
+//   line-height: 45px;
+//   font-size: 2rem !important;
+// }
+// .Herodemodayy::before {
+//   content: "";
+//   position: absolute;
+//   // background-color: #2e3133;
+//   height: 70vh;
+//   width: 100%;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   // opacity: 0.6;
+// }
+// .Herodemoday {
+//   background: url(/src/assets/images/Herodemoday.jpg);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   left: 0px;
+//   height: 100vh;
+//   width: 100%;
+// }
+// .Herodemoday h2 {
+//   position: relative;
+//   line-height: 40px;
+// }
+// .Herodemoday h3 {
+//   position: relative;
+//   line-height: 45px;
+//   font-size: 2rem !important;
+// }
+
 ManagedDigitalMarketServicesHero mobile view style end
 
 // .ManagedServicesTechHero {
