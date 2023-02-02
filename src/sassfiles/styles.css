@@ -393,7 +393,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -455,7 +455,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-  .next {
+.next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -500,7 +500,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-    animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -2148,21 +2148,21 @@ article h4 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-  .ManagedServicesTechHeroBgg::before,
-  .ManagedServicesLegalHeroBgg::before,
-  .ManagedServicesDigitalMargetingHeroBgg::before,
-  .GaaSHeroBgg::before,
-  .Herodemodayy::before,
-  .CoworkingHeroBgg::before {
+.ManagedServicesTechHeroBgg::before,
+.ManagedServicesLegalHeroBgg::before,
+.ManagedServicesDigitalMargetingHeroBgg::before,
+.GaaSHeroBgg::before,
+.Herodemodayy::before,
+.CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-  .ManagedServicesTechHeroBg,
-  .ManagedServicesLegalHeroBg,
-  .ManagedServicesDigitalMargetingHeroBg,
-  .GaaSHeroBg,
-  .Herodemoday,
-  .CoworkingHeroBg {
+.ManagedServicesTechHeroBg,
+.ManagedServicesLegalHeroBg,
+.ManagedServicesDigitalMargetingHeroBg,
+.GaaSHeroBg,
+.Herodemoday,
+.CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2217,14 +2217,7 @@ article h4 {
 }
 
 .gradientBg {
-  background-image: linear-gradient(
-    to right,
-    #252c3e,
-    rgba(37, 44, 62, 0.66),
-    rgba(37, 44, 62, 0.42),
-    rgba(37, 44, 62, 0.1),
-    rgba(37, 44, 62, 0)
-  );
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
 }
 
 .overlayBg {
@@ -2486,7 +2479,7 @@ video {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -3034,4 +3027,38 @@ header {
 
 .textLinkColor {
   color: #821e6b;
-} /*# sourceMappingURL=styles.css.map */
+}
+
+.detailHeroBg {
+  background-color: #00a495;
+  height: 15rem;
+}
+
+.detailCard {
+  height: 10rem;
+}
+
+.detailBg {
+  background-color: #d9d9d9;
+}
+
+.briefCard {
+  height: 15rem;
+  margin-top: 10rem;
+}
+
+.briefNg {
+  margin-bottom: 10rem;
+}
+
+.Bmcdiv {
+  margin-top: 20rem;
+}
+
+.detailCardBg {
+  margin-top: 9rem;
+}
+
+.detailsCard {
+  height: 15rem;
+}/*# sourceMappingURL=styles.css.map */
