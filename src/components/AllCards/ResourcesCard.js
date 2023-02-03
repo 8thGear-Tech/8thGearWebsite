@@ -12,13 +12,13 @@ import { ResourcesReadMoreLink } from "../Buttons/PortfolioBtn";
 import { Paragraph } from "react-bootstrap-icons";
 
 const ResourcesCards = (props) => {
-  const { image, articletype, title, paragraphtext } = props;
+  const { image, articletype, title, paragraphtext, buttonlink } = props;
   return (
     <>
       {" "}
       {/* <div className="container my-4"> */}
       <div class="my-4">
-        <img src={image} class="card-img-top" alt="..." />
+        <iframe src={image} title="YouTube video"></iframe>
         <div className="d-flex justify-content-between py-2">
           <ResourcesTitleBtn />
           <p class="card-text" style={{ fontSize: "0.8rem" }}>
@@ -28,7 +28,10 @@ const ResourcesCards = (props) => {
         <div class="card-body">
           <h5 class="card-title">{title}</h5>
           <p class="card-text my-2">{paragraphtext}</p>
-          <ResourcesReadMoreLink />
+          {/* <ResourcesReadMoreLink> {props.buttonlink}</ResourcesReadMoreLink> */}
+          <a href={buttonlink} style={{ color: "#000" }}>
+            <ResourcesReadMoreLink />
+          </a>
         </div>
       </div>
       {/* </div> */}
@@ -81,7 +84,7 @@ export const ResourcesCard = () => {
             aria-controls="pills-profile"
             aria-selected="false"
           >
-            Start your business
+            Starting your business
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -95,7 +98,7 @@ export const ResourcesCard = () => {
             aria-controls="pills-contact"
             aria-selected="false"
           >
-            Grow your business
+            Growing your business
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -109,7 +112,7 @@ export const ResourcesCard = () => {
             aria-controls="pills-manageyourbusiness"
             aria-selected="false"
           >
-            Manage your business
+            Managing your business
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -123,7 +126,7 @@ export const ResourcesCard = () => {
             aria-controls="pills-professionaldevelopment"
             aria-selected="false"
           >
-            Professional development
+            Scaling your business
           </button>
         </li>
       </ul>

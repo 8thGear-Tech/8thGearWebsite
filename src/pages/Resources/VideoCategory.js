@@ -8,7 +8,8 @@ const VideoDetail = () => {
       <ResourceNavBar />
       <div className="detailBg">
         <DetailsCard />
-        <div className="container mt-5">
+        <div className="container">
+          {/* <div className="container mt-5"> */}
           <h2>Videos In BMC</h2>
           <VideoCard />
         </div>

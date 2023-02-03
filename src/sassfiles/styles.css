@@ -3034,10 +3034,6 @@ header {
   height: 15rem;
 }
 
-.detailCard {
-  height: 10rem;
-}
-
 .detailBg {
   background-color: #d9d9d9;
 }
@@ -3053,10 +3049,6 @@ header {
 
 .Bmcdiv {
   margin-top: 20rem;
-}
-
-.detailCardBg {
-  margin-top: 9rem;
 }
 
 .detailsCard {

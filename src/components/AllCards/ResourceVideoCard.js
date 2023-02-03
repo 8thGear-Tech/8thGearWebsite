@@ -4,7 +4,7 @@ export const BmCvideos = (props) => {
   const { video, title, articletype } = props;
   return (
     <>
-      <div className="container-fluid mt-5">
+      <div className="container-fluid mt-5 mb-5">
         <div class="card">
           <iframe src={video} title="YouTube video"></iframe>
           <div class="card-body">
@@ -19,8 +19,8 @@ export const BmCvideos = (props) => {
 export const DetailsCard = () => {
   return (
     <>
-      <div className="container my-5 mt-5">
-        <div class="card h-50 w-100 p-5 detailCardBg">
+      <div className="container-fluid d-flex justify-content-center pt-5">
+        <div class="card w-75 p-3 m-5">
           <div class="card-body">
             <h5 class="card-title"> Brief</h5>
             <p class="card-text">
@@ -41,7 +41,7 @@ export const VideoCard = () => {
   return (
     <>
       <div className="container">
-        <div className=" row d-flex justify-content-end mx-1 ">
+        <div className="row mx-1">
           {VideoData.Videoresources.map((videos) => {
             return (
               <>
