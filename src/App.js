@@ -60,6 +60,7 @@ import { ScrollButton } from "./components/Buttons/scrollToTop";
 import Resources from "./pages/Resources/Resources";
 import ArticleReadMore from "./pages/Resources/ArticleReadMore";
 import VideoReadMore from "./pages/Resources/VideoReadMore";
+import VideoDetail from "./pages/Resources/VideoCategory";
 
 function App() {
   return (
@@ -115,9 +116,10 @@ function App() {
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
-          {/* <Route path="resources" element={<Resources />} />
+          <Route path="resources" element={<Resources />} />
           <Route path="article" element={<ArticleReadMore />} />
-          <Route path="video" element={<VideoReadMore />} /> */}
+          <Route path="video" element={<VideoReadMore />} />
+          <Route path="video-details" element={<VideoDetail />} />
         </Routes>
 
         <footer>

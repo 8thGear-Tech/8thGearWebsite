@@ -448,6 +448,82 @@ export const ManagedServicesAccountingHero = () => {
   );
 };
 
+export const DemodayHero = () => {
+  return (
+    <>
+      <div className="px-4 container-fluid Herodemoday d-flex align-items-center pt-5 pb-2">
+        <div className="px-3 container-fluid Herodemodayy d-flex pt-3 pb-4">
+          <div className="row justify-content-center text-center">
+            <div className="col-lg-9 col-md-12 col-sm-12">
+              <h2 className="d-none d-lg-block d-md-block d-sm-none d-xs-none heroTextColor text-center mt-5 ms-5">
+                It is important to travel the lonely path of entrepreneurship
+                with like-minded individuals. Synergy is created when founders
+                collaborate, and individuals are inspired, motivated, and
+                challenged to pursue their dreams.
+              </h2>
+              <h3 className="d-xs-block d-sm-block d-md-none d-lg-none heroTextColor homeHeroTextTwo">
+                It is important to travel the lonely path of entrepreneurship
+                with like-minded individuals. Synergy is created when founders
+                collaborate, and individuals are inspired, motivated, and
+                challenged to pursue their dreams.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="">
+        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+          <div className="ManagedServicesAccountingHero d-flex align-items-center">
+            <div className="container-fluid">
+              <h2 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studio.
+              </h2>
+            </div>
+          </div>
+        </div> */}
+      {/*ManagedServicesAccountingHero mobile view start */}
+
+      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
+          <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
+            <div className="container-fluid ">
+              <h4 className="text-center heroTextColor">
+                The Venture Studio model for entrepreneurship, combining comapny
+                building with venture funding Venture Studi.
+              </h4>
+            </div>
+          </div>
+        </div> */}
+
+      {/* ManagedServicesAccountingHero mobile view start end */}
+      {/* </div> */}
+    </>
+  );
+};
+// export const GaaSHero = () => {
+//   return (
+//     <div className="px-4 container-fluid GaaSHeroBg d-flex pt-3 pb-3 align-items-center">
+//       <div className="px-3 container-fluid GaaSHeroBgg d-flex pt-3 pb-4">
+//         {/* <div className="gradientBg overlayBg"></div> */}
+//         <div className="row justify-content-center text-center">
+//           <div className="col-lg-9 col-md-12 col-sm-12">
+//             <h2 className="d-none d-lg-block d-md-block d-sm-none d-xs-none ms-5 heroTextColor homeHeroText">
+//               Great people building enduring ventures
+//             </h2>
+//             <h3 className="d-xs-block d-sm-block d-md-none d-lg-none heroTextColor homeHeroTextTwo">
+//               Great people building enduring ventures
+//             </h3>
+//             <div className="callToAction pt-4">
+//               <BookaSessionBtn />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
 export const ResourcesHero = () => {
   return (
     <>

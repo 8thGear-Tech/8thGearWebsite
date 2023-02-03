@@ -1,5 +1,5 @@
 import { Navbar16 } from "../../components/Navbar";
-import { DemoDayHero } from "../../components/Hero/BGColorandTextHero";
+import { Demoday } from "../../components/Hero/BGColorandTextHero";
 import demodaypictureone from "../../assets/images/events/demodaypictureone.jpg";
 import demodaypicturetwo from "../../assets/images/events/demodaypicturetwo.jpg";
 import { DemoDayRegisterBtn } from "../../components/Buttons/EventsBtn";

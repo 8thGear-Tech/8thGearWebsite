@@ -1915,7 +1915,7 @@ article h4 {
 }
 
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background: url(/src/assets/images/founders-MeetUp.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -1935,6 +1935,40 @@ article h4 {
   position: relative;
   line-height: 45px;
   font-size: 2rem !important;
+}
+
+.Herodemodayy::before {
+  content: "";
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.Herodemoday {
+  background: url(/src/assets/images/founders-MeetUp.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.Herodemoday h2 {
+  position: relative;
+  line-height: 40px;
+}
+
+.Herodemoday h3 {
+  position: relative;
+  line-height: 25px;
+  font-size: 1.1rem !important;
 }
 
 .DemoDayGalleryHeroBgg::before {
@@ -2118,6 +2152,7 @@ article h4 {
 .ManagedServicesLegalHeroBgg::before,
 .ManagedServicesDigitalMargetingHeroBgg::before,
 .GaaSHeroBgg::before,
+.Herodemodayy::before,
 .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
@@ -2126,6 +2161,7 @@ article h4 {
 .ManagedServicesLegalHeroBg,
 .ManagedServicesDigitalMargetingHeroBg,
 .GaaSHeroBg,
+.Herodemoday,
 .CoworkingHeroBg {
     height: 22.5rem;
   }
@@ -2992,4 +3028,29 @@ header {
 .textLinkColor {
   color: #821e6b;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.detailHeroBg {
+  background-color: #00a495;
+  height: 15rem;
+}
+
+.detailBg {
+  background-color: #d9d9d9;
+}
+
+.briefCard {
+  height: 15rem;
+  margin-top: 10rem;
+}
+
+.briefNg {
+  margin-bottom: 10rem;
+}
+
+.Bmcdiv {
+  margin-top: 20rem;
+}
+
+.detailsCard {
+  height: 15rem;
+}/*# sourceMappingURL=styles.css.map */
