@@ -69,6 +69,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="our-model" element={<OurModelPage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="resources" element={<Resources />} />
           <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
           <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
           <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />

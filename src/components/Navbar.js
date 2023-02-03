@@ -194,6 +194,25 @@ const NavBar = (props) => {
               Events
             </Link>
           </div>
+          <br />
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Insights
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <Link className="dropdown-item" to="/resources">
+                  Resources
+                </Link>
+              </li>
+            </ul>
+          </div>
 
           <br />
           <br />
