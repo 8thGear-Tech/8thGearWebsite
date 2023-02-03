@@ -3,7 +3,7 @@ import { Navbar21 } from "../../components/Navbar";
 import { ArticleReadMoreHero } from "../../components/Hero/BGColorandTextHero";
 
 //images
-import resourceshero from "../../assets/images/resources/resourceshero.png";
+import resourceshero from "../../assets/images/resources/resourceshero.jpg";
 
 const ArticleReadMore = () => {
   return (

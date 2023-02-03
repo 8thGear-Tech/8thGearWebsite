@@ -397,9 +397,9 @@ export const SinglegalleryVideoCards = (props) => {
           src={video}
           width="400"
           height="600"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </>
@@ -412,9 +412,9 @@ export const SinglegalleryVideoCards = (props) => {
           src={video}
           width="390"
           height="280"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div> */
 }
@@ -468,9 +468,9 @@ export const SinglegalleryVideo = (props) => {
     src={video}
     width="390"
     height="280"
-    frameborder="0"
+    frameBorder="0"
     allow="autoplay; fullscreen; picture-in-picture"
-    allowfullscreen
+    allowFullScreen
   ></iframe>
 </div>; */
 }

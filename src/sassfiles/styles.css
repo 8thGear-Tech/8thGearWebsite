@@ -2412,7 +2412,7 @@ article h4 {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 .ResourcesHeroBg {
@@ -3029,6 +3029,25 @@ header {
   color: #821e6b;
 }
 
+.text-decoration {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+.text-decoration:hover {
+  border-bottom: 0.125rem solid #821e6b;
+}
+.text-decoration:focus {
+  font-weight: 600;
+  border-bottom: 0.125rem solid #821e6b;
+}
+
+.border-right {
+  border-right: 0.11rem solid #000;
+}
+
 .detailHeroBg {
   background-color: #00a495;
   height: 15rem;
@@ -3053,4 +3072,5 @@ header {
 
 .detailsCard {
   height: 15rem;
-}/*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */

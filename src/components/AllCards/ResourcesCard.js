@@ -1,5 +1,6 @@
 //internal import
 import allresources from "../../data/resources.json";
+import growingyourbusiness from "../../data/resources.json";
 
 //external import
 import { useState } from "react";
@@ -17,17 +18,27 @@ const ResourcesCards = (props) => {
     <>
       {" "}
       {/* <div className="container my-4"> */}
-      <div class="my-4">
-        <iframe src={image} title="YouTube video"></iframe>
+      <div className="my-4">
+        {/* <iframe src={image} title="YouTube video"></iframe> */}
+        <div className="responsive-iframe">
+          <iframe
+            src={image}
+            width="340"
+            height="250"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullscreen
+          ></iframe>
+        </div>
         <div className="d-flex justify-content-between py-2">
           <ResourcesTitleBtn />
-          <p class="card-text" style={{ fontSize: "0.8rem" }}>
+          <p className="card-text" style={{ fontSize: "0.8rem" }}>
             {articletype}
           </p>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">{title}</h5>
-          <p class="card-text my-2">{paragraphtext}</p>
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text my-2">{paragraphtext}</p>
           {/* <ResourcesReadMoreLink> {props.buttonlink}</ResourcesReadMoreLink> */}
           <a href={buttonlink} style={{ color: "#000" }}>
             <ResourcesReadMoreLink />
@@ -42,14 +53,14 @@ const ResourcesCards = (props) => {
 export const ResourcesCard = () => {
   const [searchTerm, setSearchTerm] = useState("");
   return (
-    <div className="container-fluid px-5 pt-5 pb-3 ">
+    <div className="container-fluid px-5 pt-3 pb-3">
       <div class="input-group mb-3 justify-content-end">
         {/* <span class="input-group-text" id="basic-addon1">
           @
         </span> */}
         <input
           type="text"
-          // class="form-control"
+          // className="form-control"
           placeholder="Search"
           // aria-label="Username"
           // aria-describedby="basic-addon1"
@@ -58,10 +69,12 @@ export const ResourcesCard = () => {
           }}
         />
       </div>
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link active"
+      <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li className="nav-item px-4 border-right" role="presentation">
+          <a
+            href=""
+            // className="nav-link active"
+            className="text-decoration text-decoration-none text-black active"
             id="pills-home-tab"
             data-bs-toggle="pill"
             data-bs-target="#pills-home"
@@ -71,10 +84,24 @@ export const ResourcesCard = () => {
             aria-selected="true"
           >
             Knowledge center
-          </button>
+          </a>
         </li>
-        <li class="nav-item" role="presentation">
-          <button
+        <li className="nav-item px-4 border-right" role="presentation">
+          <a
+            href=""
+            // class="nav-link"
+            className="text-decoration text-decoration-none text-black"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            // type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Starting your business
+          </a>
+          {/* <button
             class="nav-link"
             id="pills-profile-tab"
             data-bs-toggle="pill"
@@ -85,11 +112,13 @@ export const ResourcesCard = () => {
             aria-selected="false"
           >
             Starting your business
-          </button>
+          </button> */}
         </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
+        <li className="nav-item px-4 border-right" role="presentation">
+          <a
+            href=""
+            // class="nav-link"
+            className="text-decoration text-decoration-none text-black"
             id="pills-contact-tab"
             data-bs-toggle="pill"
             data-bs-target="#pills-contact"
@@ -99,11 +128,13 @@ export const ResourcesCard = () => {
             aria-selected="false"
           >
             Growing your business
-          </button>
+          </a>
         </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
+        <li className="nav-item px-4 border-right" role="presentation">
+          <a
+            href=""
+            // className="nav-link"
+            className="text-decoration text-decoration-none text-black"
             id="pills-manageyourbusiness-tab"
             data-bs-toggle="pill"
             data-bs-target="#pills-manageyourbusiness"
@@ -113,11 +144,13 @@ export const ResourcesCard = () => {
             aria-selected="false"
           >
             Managing your business
-          </button>
+          </a>
         </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
+        <li className="nav-item px-4" role="presentation">
+          <a
+            href=""
+            // className="nav-link"
+            className="text-decoration text-decoration-none text-black"
             id="pills-professionaldevelopment-tab"
             data-bs-toggle="pill"
             data-bs-target="#pills-professionaldevelopment"
@@ -127,12 +160,12 @@ export const ResourcesCard = () => {
             aria-selected="false"
           >
             Scaling your business
-          </button>
+          </a>
         </li>
       </ul>
-      <div class="tab-content" id="pills-tabContent">
+      <div className="tab-content" id="pills-tabContent">
         <div
-          class="tab-pane fade show active"
+          className="tab-pane fade show active"
           id="pills-home"
           role="tabpanel"
           aria-labelledby="pills-home-tab"
@@ -145,6 +178,12 @@ export const ResourcesCard = () => {
                   return resources;
                 } else if (
                   resources.title
+                    .toLowerCase()
+                    .includes(searchTerm.toLowerCase())
+                )
+                  return resources;
+                else if (
+                  resources.paragraphtext
                     .toLowerCase()
                     .includes(searchTerm.toLowerCase())
                 )
@@ -165,7 +204,7 @@ export const ResourcesCard = () => {
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="pills-profile"
           role="tabpanel"
           aria-labelledby="pills-profile-tab"
@@ -187,14 +226,14 @@ export const ResourcesCard = () => {
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="pills-contact"
           role="tabpanel"
           aria-labelledby="pills-contact-tab"
           tabindex="0"
         >
           <div className="row justify-content-evenly">
-            {allresources.allresources.map((resources) => {
+            {growingyourbusiness.growingyourbusiness.map((resources) => {
               return (
                 <>
                   <div
@@ -209,13 +248,13 @@ export const ResourcesCard = () => {
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="pills-manageyourbusiness"
           role="tabpanel"
           aria-labelledby="pills-manageyourbusiness-tab"
           tabindex="0"
         >
-          <div className="row justify-content-evenly">
+          {/* <div className="row justify-content-evenly">
             {allresources.allresources.map((resources) => {
               return (
                 <>
@@ -228,16 +267,16 @@ export const ResourcesCard = () => {
                 </>
               );
             })}
-          </div>
+          </div> */}
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="pills-professionaldevelopment"
           role="tabpanel"
           aria-labelledby="pills-professionaldevelopment-tab"
           tabindex="0"
         >
-          <div className="row justify-content-evenly">
+          {/* <div className="row justify-content-evenly">
             {allresources.allresources.map((resources) => {
               return (
                 <>
@@ -250,10 +289,10 @@ export const ResourcesCard = () => {
                 </>
               );
             })}
-          </div>
+          </div> */}
         </div>
         {/* <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="pills-disabled"
           role="tabpanel"
           aria-labelledby="pills-disabled-tab"
