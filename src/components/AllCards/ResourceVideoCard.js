@@ -5,11 +5,13 @@ export const BmCvideos = (props) => {
   return (
     <>
       <div className="container-fluid mt-5 mb-5">
-        <div class="card">
-          <iframe src={video} title="YouTube video"></iframe>
-          <div class="card-body">
-            <h5 class="card-title">{title}</h5>
-            <p class="card-text">{articletype}</p>
+        <div className="card">
+          <iframe src={video} height="280" title="YouTube video"></iframe>
+          <div className="card-body">
+            <h5 className="card-title">{title}</h5>
+            <p className="card-text" style={{ fontSize: "0.8rem" }}>
+              {articletype}
+            </p>
           </div>
         </div>
       </div>
@@ -20,10 +22,10 @@ export const DetailsCard = () => {
   return (
     <>
       <div className="container-fluid d-flex justify-content-center pt-5">
-        <div class="card w-75 p-3 m-5">
-          <div class="card-body">
-            <h5 class="card-title"> Brief</h5>
-            <p class="card-text">
+        <div className="card w-75 p-3 m-5">
+          <div className="card-body">
+            <h5 className="card-title"> Brief</h5>
+            <p className="card-text">
               A business model canvas (BMC) aids an entrepreneur in achieving
               clarity of thoughts regarding their business concern. It is a
               powerful tool that allows business owners to analyze and describe
@@ -40,12 +42,15 @@ export const DetailsCard = () => {
 export const VideoCard = () => {
   return (
     <>
-      <div className="container">
-        <div className="row mx-1">
+      <div className="container-fluid">
+        <div className="row d-flex justify-content-evenly">
           {VideoData.Videoresources.map((videos) => {
             return (
               <>
-                <div className=" col-lg-4 col-md-6 col-sm-12" key={videos.id}>
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 px-5 d-flex align-items-stretch"
+                  key={videos.id}
+                >
                   <BmCvideos {...videos} />
                 </div>
               </>

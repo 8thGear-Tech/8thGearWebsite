@@ -61,11 +61,11 @@ export const NewProjectDeliveryCard = (props) => {
   const { image, title, description } = props;
   return (
     <>
-      <div class="cardBgg projectdeliveryCard">
-        <img src={image} class="card-img-top" alt="" />
-        <div class="card-body pb-3 px-3">
-          <figure class="text-center">
-            <h4 class="card-text mt-4">{title}</h4>
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
             {/* <p className="">{description}</p> */}
           </figure>
           {/* <div className="text-center">
@@ -81,11 +81,11 @@ export const NewProjectDeliveryManagedServicesCard = (props) => {
   const { image, title, link } = props;
   return (
     <>
-      <div class="cardBgg projectdeliveryCard">
-        <img src={image} class="card-img-top" alt="" />
-        <div class="card-body pb-3 px-3">
-          <figure class="text-center">
-            <h4 class="card-text mt-4">{title}</h4>
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
             {/* <p className="">{description}</p> */}
           </figure>
           <div className="text-center pt-4">
@@ -392,7 +392,7 @@ export const SinglegalleryVideoCards = (props) => {
   const { video, id } = props;
   return (
     <>
-      <div class="responsive-iframe">
+      <div className="responsive-iframe">
         <iframe
           src={video}
           width="400"
@@ -407,7 +407,7 @@ export const SinglegalleryVideoCards = (props) => {
 };
 
 {
-  /* <div class="responsive-iframe md-5 text-center">
+  /* <div className="responsive-iframe md-5 text-center">
         <iframe
           src={video}
           width="390"
@@ -462,8 +462,9 @@ export const SinglegalleryVideo = (props) => {
     </>
   );
 };
+
 {
-  /* <div class="responsive-iframe md-5 text-center">
+  /* <div className="responsive-iframe md-5 text-center">
   <iframe
     src={video}
     width="390"

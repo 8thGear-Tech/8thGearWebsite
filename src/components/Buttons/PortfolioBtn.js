@@ -34,8 +34,8 @@ export const ResourcesTitleBtn = () => {
 export const ResourcesReadMoreLink = () => {
   return (
     <>
-      <p class="">
-        Read More <i class="bi bi-arrow-right-short"></i>
+      <p className="">
+        Read More <i className="bi bi-arrow-right-short"></i>
       </p>
     </>
   );

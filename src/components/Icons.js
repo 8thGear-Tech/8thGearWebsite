@@ -475,7 +475,7 @@ export const MeetingRoomIcon = () => {
 // export const ArrowIcon = () => {
 //   return (
 //     <i
-//       class="bi bi-arrow-up-square"
+//       className="bi bi-arrow-up-square"
 //       style={{ width: "50px", height: "50px" }}
 //     ></i>
 //   );

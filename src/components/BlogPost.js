@@ -18,7 +18,7 @@ export const BlogPost = () => {
           <>
             <div
               className="offcanvas offcanvas-end"
-              tabindex="-1"
+              tabIndex="-1"
               id="offcanvasRight"
               aria-labelledby="offcanvasRightLabel"
               key={id}
@@ -88,7 +88,7 @@ export const SideBlogPost = () => {
           <>
             <div
               className="offcanvas offcanvas-end"
-              tabindex="-1"
+              tabIndex="-1"
               id="offcanvasRight"
               aria-labelledby="offcanvasRightLabel"
               key={id}

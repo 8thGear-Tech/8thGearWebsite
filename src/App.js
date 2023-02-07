@@ -119,7 +119,7 @@ function App() {
           <Route path="resources" element={<Resources />} />
           <Route path="article" element={<ArticleReadMore />} />
           <Route path="video" element={<VideoReadMore />} />
-          <Route path="video-details" element={<VideoDetail />} />
+          <Route path="business-model-canva" element={<VideoDetail />} />
         </Routes>
 
         <footer>

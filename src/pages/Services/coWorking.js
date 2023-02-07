@@ -336,7 +336,7 @@ const PricingTable = () => {
                       <p>Uninterrupted Power Supply</p>
                     </td>
                     <td className="Pin">
-                      <i class="bi bi-check-circle"></i>
+                      <i className="bi bi-check-circle"></i>
                     </td>
                     <td className="Pin"></td>
                     <td className="Pin">

@@ -849,7 +849,7 @@
 }
 
 .ResourcesHeroBg {
-  background: url(/src/assets/images/hero/resourceshero.png);
+  background: url(/src/assets/images/resources/resourceshero.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -868,6 +868,17 @@
   position: relative;
   line-height: 35px;
 }
+
+@media only screen and (max-width: 440px) {
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
+}
 //resources hero
 .VideoResourceHeroBgg::before {
   content: "";
@@ -883,7 +894,7 @@
 }
 
 .VideoResourceHeroBg {
-  background: url(/src/assets/images/hero/videoresourcehero.png);
+  background: url(/src/assets/images/resources/resourceshero.png);
   background-size: cover;
   position: relative;
   top: 0px;

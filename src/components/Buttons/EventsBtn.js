@@ -40,7 +40,7 @@ export const LetUsKnowBtn = () => {
       </button>
     </a>
     // <a href="#" rel="noreferrer">
-    //   <button type="button" class="LetUsKnowBtn">
+    //   <button type="button" className="LetUsKnowBtn">
     //     Let Us Know
     //   </button>
     // </a>

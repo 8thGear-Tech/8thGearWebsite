@@ -15,9 +15,9 @@ const SingleOnhoverCard = (props) => {
 
   return (
     <>
-      <div class="card triggered">
-        <div class="card-body">
-          <p class="card-text">{text}</p>
+      <div className="card triggered">
+        <div className="card-body">
+          <p className="card-text">{text}</p>
           <button>Read More</button>
         </div>
       </div>
@@ -46,28 +46,28 @@ export const OnHoverCard = () => {
 };
 
 {
-  /* <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
+  /* <div className="row">
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">
           With supporting text below as a natural lead-in to additional content.
         </p>
-        <a href="#" class="btn btn-primary">
+        <a href="#" className="btn btn-primary">
           Go somewhere
         </a>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">
           With supporting text below as a natural lead-in to additional content.
         </p>
-        <a href="#" class="btn btn-primary">
+        <a href="#" className="btn btn-primary">
           Go somewhere
         </a>
       </div>
@@ -89,7 +89,7 @@ export const EightgeariansPopUpCard1 = (props) => {
       <MemberOneViewBioBtn />
       {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -100,7 +100,7 @@ export const EightgeariansPopUpCard1 = (props) => {
         id="staticBackdrop1"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -139,7 +139,7 @@ export const EightgeariansPopUpCard2 = (props) => {
       <MemberTwoViewBioBtn />
       {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
@@ -150,7 +150,7 @@ export const EightgeariansPopUpCard2 = (props) => {
         id="staticBackdrop2"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -188,7 +188,7 @@ export const EightgeariansPopUpCard3 = (props) => {
     <>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop3"
       >
@@ -199,7 +199,7 @@ export const EightgeariansPopUpCard3 = (props) => {
         id="staticBackdrop3"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -237,7 +237,7 @@ export const EightgeariansPopUpCard4 = (props) => {
     <>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop4"
       >
@@ -248,7 +248,7 @@ export const EightgeariansPopUpCard4 = (props) => {
         id="staticBackdrop4"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -286,7 +286,7 @@ export const EightgeariansPopUpCard5 = (props) => {
     <>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop5"
       >
@@ -297,7 +297,7 @@ export const EightgeariansPopUpCard5 = (props) => {
         id="staticBackdrop5"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -346,7 +346,7 @@ export const EightgeariansPopUpCard6 = (props) => {
         id="staticBackdrop6"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -396,7 +396,7 @@ export const EIRDataPopUpCard1 = (props) => {
         id="staticBackdrop7"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -455,7 +455,7 @@ export const EIRDataPopUpCard2 = (props) => {
         id="staticBackdrop8"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -514,7 +514,7 @@ export const EIRDataPopUpCard3 = (props) => {
         id="staticBackdrop9"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -573,7 +573,7 @@ export const EIRDataPopUpCard4 = (props) => {
         id="staticBackdrop10"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -632,7 +632,7 @@ export const EIRDataPopUpCard5 = (props) => {
         id="staticBackdrop11"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -691,7 +691,7 @@ export const EIRDataPopUpCard6 = (props) => {
         id="staticBackdrop12"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -732,8 +732,8 @@ export const EIRDataPopUpCard6 = (props) => {
   );
 };
 {
-  /* <div class="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
-  <img src={image} class=" img-fluid Boardimage" alt="Teamimage" />
+  /* <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
+  <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
 </div>; */
 }
 export const AdvisoryBoardOnHoverCard = (props) => {

@@ -3,29 +3,29 @@
     {
       "id": 1,
       "image": "https://www.youtube.com/embed/gdW8XHsHNoA",
-      "articletype": "2 MIN WATCH",
+      "articletype": "2:01 Min",
       "title": "Business Model Canva",
       "paragraphtext": "A business model canvas is a strategic tool used to quickly and easily define and communicate a business idea or concept.",
-      "buttonlink": "/video-details"
+      "buttonlink": "/business-model-canva"
     },
     {
       "id": 2,
       "image": "https://www.youtube.com/embed/DwuT52ANalI",
-      "articletype": "19 MIN WATCH",
+      "articletype": "18:16 Min",
       "title": "ABC of Business Accounting",
       "paragraphtext": "The importance of Startup Founders having their Accounting books right and various source documents that every business must have."
     },
     {
       "id": 3,
       "image": "https://www.youtube.com/embed/IAwPlkUx4_Y",
-      "articletype": "26 MIN WATCH",
+      "articletype": "25:36 Min",
       "title": " Nigerian Startup Acts",
       "paragraphtext": "As a Founder,  how much do you know about the Startup Act and its enormous benefits to you as a Business Owner?"
     },
     {
       "id": 4,
       "image": "https://www.youtube.com/embed/UKB0m6O8ZRk",
-      "articletype": "2 MIN WATCH",
+      "articletype": "1:39 Min",
       "title": " Keeping accounting records",
       "paragraphtext": "You don't have to have a full-time accountant working in your business if you can't afford it yet. All you need to do is to meticulously keep the basic records, and then you can have an accountant on your retainer."
     }
@@ -34,7 +34,7 @@
     {
       "id": 1,
       "image": "https://www.youtube.com/embed/DwuT52ANalI",
-      "articletype": "19 MIN WATCH",
+      "articletype": "18:15 Min",
       "title": "ABC of Business Accounting",
       "paragraphtext": "The importance of Startup Founders having their Accounting books right and various source documents that every business must have."
     }

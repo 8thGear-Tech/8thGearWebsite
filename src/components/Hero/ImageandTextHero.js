@@ -65,7 +65,7 @@ export const OurModelHero = () => {
 // export const ProjectDeliveryHero = () => {
 //   return (
 //     <div>
-//       <img src={projectdelivery} class="d-block w-100 " alt="..." />
+//       <img src={projectdelivery} className="d-block w-100 " alt="..." />
 //       <div className="row">
 //         <div className="col-lg-8 col-md-8 col-sm-12">
 //           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5  ">
@@ -85,7 +85,7 @@ export const ProjectDeliveryHero = () => {
     <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-3 align-items-center">
       {/* <img
         src={projectdelivery}
-        class="img-fluid carouselImage d-block w-100 h-50"
+        className="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
       <div className="gradientBg overlayBg"></div>
@@ -137,7 +137,7 @@ export const EventsPageHero = () => {
     <div className="px-4 container-fluid EventsHeroBg d-flex pt-3 pb-3 align-items-center">
       {/* <img
         src={projectdelivery}
-        class="img-fluid carouselImage d-block w-100 h-50"
+        className="img-fluid carouselImage d-block w-100 h-50"
         alt="..."
       /> */}
       {/* <div className="gradientBg overlayBg"></div> */}

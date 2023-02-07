@@ -43,7 +43,7 @@ export const ScrollButton = () => {
       {/* <div className=" scrolltotopBtn ">
         {" "}
         <i
-          class="bi bi-arrow-up-square scrolltotopBtn  "
+          className="bi bi-arrow-up-square scrolltotopBtn  "
           onClick={scrollToTop}
           style={{
             display: visible ? "inline" : "none",

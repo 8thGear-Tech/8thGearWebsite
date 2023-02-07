@@ -170,7 +170,7 @@ import { GoToTop } from "./Buttons/scrollToTop";
 //               </div>
 //             </div>
 //             {/* <div className="col-md-9 col-lg-9">
-//               <div className="row text-end">
+//               <div Name="row text-end">
 //                 <div className="col-lg-2 col-md-2">
 //                   <Link className=" footerText" to="/">
 //                     HOME

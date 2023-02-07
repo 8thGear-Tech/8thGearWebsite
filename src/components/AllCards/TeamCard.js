@@ -35,12 +35,12 @@ export const TeamCardTwo = (props) => {
     props;
   return (
     <>
-      <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+      <div classNameName="card-deck">
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/damilolaobidairo/">
@@ -57,7 +57,7 @@ export const TeamCardTwo = (props) => {
 
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -68,7 +68,7 @@ export const TeamCardTwo = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -109,14 +109,14 @@ export const TeamCardTwo = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -158,11 +158,11 @@ export const TeamCard = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/omowunmiobidairo/">
@@ -179,7 +179,7 @@ export const TeamCard = (props) => {
             </div>
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -190,7 +190,7 @@ export const TeamCard = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -230,14 +230,14 @@ export const TeamCard = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -277,11 +277,11 @@ export const TeamCardThree = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/titilayo-ekundayo-833336a1/">
@@ -297,7 +297,7 @@ export const TeamCardThree = (props) => {
             </div>
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -308,7 +308,7 @@ export const TeamCardThree = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -348,14 +348,14 @@ export const TeamCardThree = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -395,11 +395,11 @@ export const TeamCardFour = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/temitopekazeem/">
@@ -415,7 +415,7 @@ export const TeamCardFour = (props) => {
             </div>
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -426,7 +426,7 @@ export const TeamCardFour = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -466,14 +466,14 @@ export const TeamCardFour = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -513,11 +513,11 @@ export const TeamCardFive = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/opeyemi-bioku">
@@ -533,7 +533,7 @@ export const TeamCardFive = (props) => {
             </div>
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -544,7 +544,7 @@ export const TeamCardFive = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -584,14 +584,14 @@ export const TeamCardFive = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -631,11 +631,11 @@ export const TeamCardSix = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
             {/* <a href="https://www.linkedin.com/in/adam-yakub-aca-2848a2170/">
@@ -651,7 +651,7 @@ export const TeamCardSix = (props) => {
             </div>
             {/* <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -662,7 +662,7 @@ export const TeamCardSix = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -702,14 +702,14 @@ export const TeamCardSix = (props) => {
             {/* <MemberOneViewBioBtn /> */}
             {/* </a> */}
 
-            {/* <a href="#" class="nav-link active link">
+            {/* <a href="#" className="nav-link active link">
               View More
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right"
+                className="bi bi-arrow-right"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -749,11 +749,11 @@ export const TeamCardSeven = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
 
@@ -768,7 +768,7 @@ export const TeamCardSeven = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -814,11 +814,11 @@ export const TeamCardEight = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div class="card w-75 mx-auto ">
-          <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-          <div class="card-body teamcardbody">
-            <figure class="text-center">
-              <figcaption class="card-text mt-1">{name1}</figcaption>
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
 
@@ -833,7 +833,7 @@ export const TeamCardEight = (props) => {
               id={id}
               data-bs-backdrop="static"
               data-bs-keyboard="false"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
@@ -974,19 +974,19 @@ export const Gerians = () => {
 //   return (
 //     <>
 //       <div className="card-deck">
-//         <div class="card w-75 mx-auto ">
-//           <img src={image1} class="card-img-top Teampic " alt="Teamimage" />
-//           <div class="card-body teamcardbody">
-//             <figure class="text-center">
+//         <div className="card w-75 mx-auto ">
+//           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+//           <div className="card-body teamcardbody">
+//             <figure className="text-center">
 //               <p className="Text mb-3">{name1}</p>
 
-//               <figcaption class="card-text mt-1">{title1}</figcaption>
+//               <figcaption className="card-text mt-1">{title1}</figcaption>
 //             </figure>
 //             {/* <JointheTeamBtn /> */}
 //             <MemberOneViewBioBtn />
 //             {/* <button
 //         type="button"
-//         class="btn btn-primary"
+//         className="btn btn-primary"
 //         data-bs-toggle="modal"
 //         data-bs-target="#staticBackdrop1"
 //       >
@@ -997,7 +997,7 @@ export const Gerians = () => {
 //               id=""
 //               data-bs-backdrop="static"
 //               data-bs-keyboard="false"
-//               tabindex="-1"
+//               tabIndex="-1"
 //               aria-labelledby="staticBackdropLabel"
 //               aria-hidden="true"
 //             >
@@ -1032,14 +1032,14 @@ export const Gerians = () => {
 //             {/* <MemberOneViewBioBtn /> */}
 //             {/* </a> */}
 
-//             {/* <a href="#" class="nav-link active link">
+//             {/* <a href="#" className="nav-link active link">
 //               View More
 //               <svg
 //                 xmlns="http://www.w3.org/2000/svg"
 //                 width="16"
 //                 height="16"
 //                 fill="currentColor"
-//                 class="bi bi-arrow-right"
+//                 className="bi bi-arrow-right"
 //                 viewBox="0 0 16 16"
 //               >
 //                 <path
@@ -1101,8 +1101,8 @@ const AdvisoryBoardCard = (props) => {
   const { image } = props;
   return (
     // <div className="card-deck">
-    <div class="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
-      <img src={image} class=" img-fluid Boardimage" alt="Teamimage" />
+    <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
+      <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
     </div>
     // </div>
   );

@@ -3,7 +3,7 @@ import { Navbar21 } from "../../components/Navbar";
 import { VideoResourceHero } from "../../components/Hero/ImageandTextHero";
 
 //images
-import resourceshero from "../../assets/images/resources/resourceshero.jpg";
+import resourceshero from "../../assets/images/resources/resourceshero.png";
 
 const VideoReadMore = () => {
   return (
