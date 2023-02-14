@@ -170,12 +170,18 @@ export const CoworkingHero = () => {
       <div className="px-4 container-fluid CoworkingHeroBgg d-flex pt-3 pb-4">
         <div className="row justify-content-center ">
           <div className="col-lg-12 col-md-12 col-sm-12 ">
-            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor ">
-              The better way to work smart
+            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+              8thGear Hub Coworking space offers state-of-the-art facilities,
+              high-speed internet and a range of private and shared workspace
+              options. You can join the 8thGear Hub Coworking space and
+              experience the ultimate in coworking success
             </h2>
-            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor ">
+            <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
               {" "}
-              The better way to work smart
+              8thGear Hub Coworking space offers state-of-the-art facilities,
+              high-speed internet and a range of private and shared workspace
+              options. You can join the 8thGear Hub Coworking space and
+              experience the ultimate in coworking success
             </h3> */}
           </div>
         </div>

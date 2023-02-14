@@ -58,7 +58,9 @@ import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 //Resources
 import Resources from "./pages/Resources/Resources";
-import ArticleReadMore from "./pages/Resources/ArticleReadMore";
+import { ABCBusinessAccountingReadMore } from "./pages/Resources/ArticleReadMore";
+import { KeepingAccountingRecordsReadMore } from "./pages/Resources/ArticleReadMore";
+import { NigerianStartupActsReadMore } from "./pages/Resources/ArticleReadMore";
 import VideoReadMore from "./pages/Resources/VideoReadMore";
 import VideoDetail from "./pages/Resources/VideoCategory";
 
@@ -117,7 +119,18 @@ function App() {
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
           <Route path="resources" element={<Resources />} />
-          <Route path="article" element={<ArticleReadMore />} />
+          <Route
+            path="ABCBusinessAccounting"
+            element={<ABCBusinessAccountingReadMore />}
+          />
+          <Route
+            path="KeepingAccountingRecords"
+            element={<KeepingAccountingRecordsReadMore />}
+          />
+          <Route
+            path="NigerianStartupActs"
+            element={<NigerianStartupActsReadMore />}
+          />
           <Route path="video" element={<VideoReadMore />} />
           <Route path="business-model-canva" element={<VideoDetail />} />
         </Routes>

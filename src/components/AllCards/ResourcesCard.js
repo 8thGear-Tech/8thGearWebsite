@@ -17,7 +17,13 @@ export const ResourcesCards = (props) => {
   return (
     <>
       <div className="card mt-4" style={{ border: "none" }}>
-        <iframe src={image} height="280" className="" alt="..." />
+        <iframe
+          src={image}
+          height="280"
+          allowFullScreen
+          className=""
+          alt="..."
+        ></iframe>
         <div className="d-flex justify-content-between py-2">
           {/* <ResourcesTitleBtn /> */}
           <p className="card-text" style={{ fontSize: "0.8rem" }}>
@@ -28,7 +34,7 @@ export const ResourcesCards = (props) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text my-2">{paragraphtext}</p>
           {/* <ResourcesReadMoreLink> {props.buttonlink}</ResourcesReadMoreLink> */}
-          <a href={buttonlink} style={{ color: "#000" }}>
+          <a href={buttonlink}>
             <ResourcesReadMoreLink />
           </a>
         </div>

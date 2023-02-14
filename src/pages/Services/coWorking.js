@@ -26,6 +26,7 @@ const CoWorking = () => {
       <OurOffers />
       <PricingTable />
       <TestimonialSection />
+      <TestimonialSectionTwo />
     </>
   );
 };
@@ -594,6 +595,29 @@ const TestimonialSection = () => {
             FROM OUR USERS
           </h3>
           <CoworkingTestimonial />
+        </div>
+      </div>
+    </>
+  );
+};
+const TestimonialSectionTwo = () => {
+  return (
+    <>
+      <div className="container-fluid">
+        <h3 className="text-center mt-5">
+          LAGOS INNOVATES: FREE WORKSPACE VOUCHER
+        </h3>
+        <div className="py-3 d-flex justify-content-center">
+          <div className="">
+            <iframe
+              src="https://www.youtube.com/embed/roWmniP_NUc"
+              height="280"
+              width="350"
+              allowFullScreen
+              className=""
+              alt="..."
+            ></iframe>
+          </div>
         </div>
       </div>
     </>

@@ -62,7 +62,13 @@ const ManagedServicesTech = () => {
               {/* button */}
               <div className="text-center py-4 ">
                 {/* <ManagedServicesRequestForm /> */}
-                <ManagedServicesRequestBtn />
+                <a
+                  href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
+                  target="_blank"
+                >
+                  {" "}
+                  <ManagedServicesRequestBtn />
+                </a>
               </div>
             </div>
           );

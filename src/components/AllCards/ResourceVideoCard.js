@@ -5,8 +5,13 @@ export const BmCvideos = (props) => {
   return (
     <>
       <div className="container-fluid mt-5 mb-5">
-        <div className="card">
-          <iframe src={video} height="280" title="YouTube video"></iframe>
+        <div className="card w-100">
+          <iframe
+            src={video}
+            height="280"
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text" style={{ fontSize: "0.8rem" }}>
@@ -48,7 +53,7 @@ export const VideoCard = () => {
             return (
               <>
                 <div
-                  className="col-lg-4 col-md-6 col-sm-12 px-5 d-flex align-items-stretch"
+                  className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
                   key={videos.id}
                 >
                   <BmCvideos {...videos} />
