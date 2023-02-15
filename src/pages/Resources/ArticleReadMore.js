@@ -18,10 +18,22 @@ export const ABCBusinessAccountingReadMore = () => {
 const ABCBusinessAccounting = () => {
   return (
     <div className="container py-5 px-4">
-      <img
+      <div className="d-flex justify-content-center">
+        {" "}
+        <iframe
+          src="https://www.youtube.com/embed/DwuT52ANalI"
+          width="800"
+          height="400"
+          //   frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          //   allowFullscreen
+        ></iframe>
+      </div>
+
+      {/* <img
         src={resourceshero}
         style={{ maxHeight: "100%", maxWidth: "100%" }}
-      ></img>{" "}
+      ></img>{" "} */}
       <div className="float-start float-end">
         {" "}
         <p className="pt-5">
@@ -103,10 +115,17 @@ export const KeepingAccountingRecordsReadMore = () => {
 const KeepingAccountingRecords = () => {
   return (
     <div className="container py-5 px-4">
-      <img
-        src={resourceshero}
-        style={{ maxHeight: "100%", maxWidth: "100%" }}
-      ></img>{" "}
+      <div className="d-flex justify-content-center">
+        {" "}
+        <iframe
+          src="https://www.youtube.com/embed/UKB0m6O8ZRk"
+          width="800"
+          height="400"
+          //   frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          //   allowFullscreen
+        ></iframe>
+      </div>
       <div className="float-start float-end">
         {" "}
         <p className="pt-5">
@@ -154,10 +173,17 @@ export const NigerianStartupActsReadMore = () => {
 const NigerianStartupActs = () => {
   return (
     <div className="container py-5 px-4">
-      <img
-        src={resourceshero}
-        style={{ maxHeight: "100%", maxWidth: "100%" }}
-      ></img>{" "}
+      <div className="d-flex justify-content-center">
+        {" "}
+        <iframe
+          src="https://www.youtube.com/embed/IAwPlkUx4_Y"
+          width="800"
+          height="400"
+          //   frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          //   allowFullscreen
+        ></iframe>
+      </div>
       <div className="float-start float-end">
         {" "}
         <p className="pt-5">

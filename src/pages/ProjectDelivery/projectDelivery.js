@@ -70,7 +70,7 @@ const OurClients = () => {
       {" "}
       <div className="row g-0">
         <h3 className="mt-4 text-center mb-4">Our Clients</h3>
-        <div className="row TextAlignCenter justify-content-center justify-content-evenly">
+        <div className="row  d-flex align-items-center TextAlignCenter justify-content-center justify-content-evenly">
           <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
             <img
               src={gizlogo}

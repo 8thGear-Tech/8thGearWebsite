@@ -3083,4 +3083,11 @@ header {
 .detailsCard {
   height: 15rem;
 }
+
+.resourceReadMoreLink {
+  color: #000;
+}
+.resourceReadMoreLink:hover {
+  color: #0d6efd;
+}
 /*# sourceMappingURL=styles.css.map */

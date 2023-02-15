@@ -34,7 +34,7 @@ export const ResourcesCards = (props) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text my-2">{paragraphtext}</p>
           {/* <ResourcesReadMoreLink> {props.buttonlink}</ResourcesReadMoreLink> */}
-          <a href={buttonlink}>
+          <a href={buttonlink} className="resourceReadMoreLink">
             <ResourcesReadMoreLink />
           </a>
         </div>

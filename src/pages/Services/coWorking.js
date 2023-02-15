@@ -177,7 +177,7 @@ const PricingTable = () => {
                     <th scope="col">DAILY PLAN</th>
                     <th scope="col">VIRTUAL OFFICE</th>
                     <th scope="col">DEDICATED DESK</th>{" "}
-                    <th scope="col">MEETING ROOM(Up to 8 persons</th>
+                    <th scope="col">MEETING ROOM(up to 8 persons)</th>
                     <th scope="col" style={{ width: 90 }}>
                       EVENT/TRAINING HALL
                     </th>
@@ -274,7 +274,7 @@ const PricingTable = () => {
                   </tr>
                   <tr className="Pinner">
                     <td className="finish">
-                      <p>Meeting Room(2hrs free per month)</p>
+                      <p>Meeting Room(2hours free per month)</p>
                     </td>
 
                     <td className="Pin"></td>
@@ -289,7 +289,7 @@ const PricingTable = () => {
                   </tr>
                   <tr className="Pinner">
                     <td className="finish">
-                      <p>Meeting Room(5hrs free per month)</p>
+                      <p>Meeting Room(5hours free per month)</p>
                     </td>
 
                     <td className="Pin"></td>
@@ -500,11 +500,11 @@ const PricingTable = () => {
                   <tr>
                     <td className="finish">Amount</td>
                     <td className="Pin">₦5,000</td>
-                    <td className="Pin">₦150,000(PER YEAR)</td>
-                    <td className="Pin">₦50,000 (PER MONTH)</td>
-                    <td className="Pin"> ₦5,000 (PER HOUR)</td>
-                    <td className="Pin"> ₦100,000(PER DAY)</td>
-                    <td className="Pinish">₦250,000(PER MONTH)</td>
+                    <td className="Pin">₦150,000(Per Year)</td>
+                    <td className="Pin">₦50,000 (Per Month)</td>
+                    <td className="Pin"> ₦5,000 (Per Hour)</td>
+                    <td className="Pin"> ₦100,000(Per Day)</td>
+                    <td className="Pinish">₦250,000(Per Month)</td>
                   </tr>
                 </tbody>
               </table>
@@ -607,15 +607,16 @@ const TestimonialSectionTwo = () => {
         <h3 className="text-center mt-5">
           LAGOS INNOVATES: FREE WORKSPACE VOUCHER
         </h3>
-        <div className="py-3 d-flex justify-content-center">
-          <div className="">
+        <div className="container py-5 px-4">
+          <div className="d-flex justify-content-center">
+            {" "}
             <iframe
               src="https://www.youtube.com/embed/roWmniP_NUc"
-              height="280"
-              width="350"
-              allowFullScreen
-              className=""
-              alt="..."
+              width="600"
+              height="400"
+              //   frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              //   allowFullscreen
             ></iframe>
           </div>
         </div>
