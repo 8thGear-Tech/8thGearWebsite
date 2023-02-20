@@ -3,7 +3,7 @@ import logos from "../../assets/images/logos.png";
 import { Navbar23 } from "../../components/Navbar";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 
-const BDandSalesPerson = () => {
+const BDandVentureStudioOfficer = () => {
   return (
     <>
       <Navbar23 />
@@ -134,4 +134,4 @@ const JobDescription = () => {
   );
 };
 
-export default BDandSalesPerson;
+export default BDandVentureStudioOfficer;
