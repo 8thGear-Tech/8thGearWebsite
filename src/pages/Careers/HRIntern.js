@@ -44,42 +44,48 @@ const JobDescription = () => {
           Support talent acquisition activities such as CV screening, interview
           scheduling, reference checks and onboarding etc.
         </li>
-        <li>Assist with performance management process</li>
-        <li>
+        <li className="jd-list-items">
+          Assist with performance management process
+        </li>
+        <li className="jd-list-items">
           Supports in the implementation of all HR initiatives across the
           organization
         </li>
-        <li>
+        <li className="jd-list-items">
           Maintains and updates relevant databases (recruitment, performance
           history, employee database, organization structures, training, etc.)
           may be required by the management to conduct various analysis and
           prepare relevant reports to support decision making by the leadership.
         </li>
-        <li>
+        <li className="jd-list-items">
           Tracks organization compliance with set deadlines for various
           activities such as performance management etc.
         </li>
-        <li>
+        <li className="jd-list-items">
           Provides daily support and resolves employee issues; escalates to
           management if unable to resolve.
         </li>
-        <li>
+        <li className="jd-list-items">
           Provides logistics support, where required for various
           events/activities for the Department (interviews, training,
           team-building, meetings etc.)
         </li>
-        <li>Prepares letters as may be required.</li>
-        <li>
+        <li className="jd-list-items">Prepares letters as may be required.</li>
+        <li className="jd-list-items">
           Responsible for maintaining staff records and also for ensuring that
           all documents are appropriately filed in a timely manner
         </li>
-        <li>
+        <li className="jd-list-items">
           Serve as point of contact with benefit vendors and administrators such
           as HMO, Group Life Insurance etc.
         </li>
-        <li>Assists periodic unit planning and budgeting activities.</li>
-        <li>Complete exit documentation and schedule exit interviews</li>
-        <li>Performs other duties as assigned.</li>
+        <li className="jd-list-items">
+          Assists periodic unit planning and budgeting activities.
+        </li>
+        <li className="jd-list-items">
+          Complete exit documentation and schedule exit interviews
+        </li>
+        <li className="jd-list-items">Performs other duties as assigned.</li>
       </ul>
       <h5 className="careerSubHeader">Competencies and Skills Required </h5>
       <ul>
