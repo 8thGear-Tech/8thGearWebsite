@@ -35,10 +35,7 @@ export const JointheStudioBtn = () => {
 // };
 export const JointheTeamBtn = () => {
   return (
-    <a
-      href="https://docs.google.com/forms/d/1uS-aBQOD6qYAMWIp9u-_22WIqH0kyJFWzYCm3L8g4us/edit?pli=1"
-      target="_blank"
-    >
+    <a href="https://bit.ly/8Gjoinourteam" target="_blank">
       <button
         // type="button"
         className="JointheTeamBtn"

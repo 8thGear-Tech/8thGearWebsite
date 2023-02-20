@@ -15,7 +15,7 @@ const ManagedServicesTech = () => {
       <Navbar7 />
       <ManagedServicesTechHero />
       <section className="container-fluid py-4 px-4 DigitalMarketingSection managedServicesSection">
-        {servicesData.tech.map((props) => {
+        {servicesData.productdevelopment.map((props) => {
           const { id, title, textLeft, textRight } = props;
           return (
             <div className="">
@@ -35,7 +35,7 @@ const ManagedServicesTech = () => {
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
                   <UIUXIcon />
-                  <p className="text-wrap">UI/UX Design</p>
+                  <p className="text-wrap">Product Design</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
@@ -43,16 +43,6 @@ const ManagedServicesTech = () => {
                   <p className="text-wrap">Web Development</p>
                 </div>
                 {/* icon3 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <DevOpsIcon />
-                  <p className="text-wrap">DevOps</p>
-                </div>
-                {/* icon4 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <ProductDevIcon />
-                  <p className="text-wrap">Product Development</p>
-                </div>
-                {/* icon5 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
                   <AppDevIcon />
                   <p className="text-wrap">App Development</p>

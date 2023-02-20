@@ -240,9 +240,11 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
 }
 
 h5 {
+  font-size: 1.2rem;
   font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
@@ -793,7 +795,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 12rem;
+  width: 10rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -3089,5 +3091,28 @@ header {
 }
 .resourceReadMoreLink:hover {
   color: #0d6efd;
+}
+
+.jd-list-items {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.careerHeader {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.careerSubHeader {
+  color: #37352f;
+  font-weight: 600;
+}
+
+.careerCTAfontSize {
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

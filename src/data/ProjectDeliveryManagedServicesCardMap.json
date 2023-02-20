@@ -30,15 +30,15 @@
     },
     {
       "id": 2,
-      "link": "/tech",
+      "link": "/product-development",
       "image": "../../images/managedservices/tech.png",
-      "title": "Tech"
+      "title": "Product Development"
     },
     {
       "id": 3,
-      "link": "/legal",
-      "image": "../../images/managedservices/legal.png",
-      "title": "Legal"
+      "link": "/hub-services",
+      "image": "../../images/managedservices/talentacquisition.jpg",
+      "title": "Talent Acquisition"
     },
     {
       "id": 4,
@@ -48,9 +48,9 @@
     },
     {
       "id": 5,
-      "link": "/managed-services",
-      "image": "../../images/managedservices/talentacquisition.jpg",
-      "title": "Talent Acquisition"
+      "link": "/legal",
+      "image": "../../images/managedservices/legal.png",
+      "title": "Legal"
     }
   ]
 }
