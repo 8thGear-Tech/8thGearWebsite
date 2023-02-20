@@ -66,6 +66,7 @@ import VideoDetail from "./pages/Resources/VideoCategory";
 
 //Careers
 import BDandVentureStudioOfficer from "./pages/Careers/BDandVentureStudioOfficer";
+import HRIntern from "./pages/Careers/HRIntern";
 
 function App() {
   return (
@@ -142,6 +143,7 @@ function App() {
             path="BDandVentureStudioOfficer"
             element={<BDandVentureStudioOfficer />}
           />
+          <Route path="HRIntern" element={<HRIntern />} />
         </Routes>
 
         <footer>

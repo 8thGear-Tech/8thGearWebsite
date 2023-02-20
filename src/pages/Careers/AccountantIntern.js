@@ -3,7 +3,7 @@
 // import { Navbar23 } from "../../components/Navbar";
 // import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 
-// const BDandSalesPerson = () => {
+// const HRIntern = () => {
 //   return (
 //     <>
 //       <Navbar23 />
@@ -21,11 +21,9 @@
 //         <Link to="/">
 //           <img src={logos} alt="" width={90} height={110} className="" />
 //         </Link>
-//         <h3 className="mt-4 careerHeader">
-//           Business Development/Venture Studio Officer
-//         </h3>
+//         <h3 className="mt-4 careerHeader">HR Intern</h3>
 //         <p className="m-0">Work type: Onsite </p>
-//         <p className="m-0">Contract type: Full time (Entry level)</p>
+//         <p className="m-0">Contract type: Intern (Corper)</p>
 //         <p className="m-0">Deadline: March 1st, 2023</p>
 //         <p className="">
 //           <a
@@ -43,88 +41,65 @@
 //       <p className="">Core responsibilities include:</p>
 //       <ul>
 //         <li className="jd-list-items">
-//           Negotiation meetings, Pitches & Presentations for 8thGear Hub.
+//           Support talent acquisition activities such as CV screening, interview
+//           scheduling, reference checks and onboarding etc.
 //         </li>
-//         <li className="jd-list-items">
-//           Response to RFPs, BIDs, Online Applications for 8thGear Hub.
+//         <li>Assist with performance management process</li>
+//         <li>
+//           Supports in the implementation of all HR initiatives across the
+//           organization
 //         </li>
-//         <li className="jd-list-items">
-//           Preparation of concept notes, business proposals, pitch decks and
-//           other communication materials for 8thGear Hub and external clients.
+//         <li>
+//           Maintains and updates relevant databases (recruitment, performance
+//           history, employee database, organization structures, training, etc.)
+//           may be required by the management to conduct various analysis and
+//           prepare relevant reports to support decision making by the leadership.
 //         </li>
-//         <li className="jd-list-items">
-//           Business Strategy support to Portfolio companies and Hub customers.
+//         <li>
+//           Tracks organization compliance with set deadlines for various
+//           activities such as performance management etc.
 //         </li>
-//         <li className="jd-list-items">
-//           Customer retention for our Hub services clients.
+//         <li>
+//           Provides daily support and resolves employee issues; escalates to
+//           management if unable to resolve.
 //         </li>
-//         <li className="jd-list-items">8thGear Hub Services Sales.</li>
-//         <li className="jd-list-items">
-//           Build rapport with new and existing customers.
+//         <li>
+//           Provides logistics support, where required for various
+//           events/activities for the Department (interviews, training,
+//           team-building, meetings etc.)
 //         </li>
-//         <li className="jd-list-items">
-//           Develop and implement an active growth strategy for 8thGear.
+//         <li>Prepares letters as may be required.</li>
+//         <li>
+//           Responsible for maintaining staff records and also for ensuring that
+//           all documents are appropriately filed in a timely manner
 //         </li>
-//         <li className="jd-list-items">
-//           Ability to meet up with KPI’s set for the year.
+//         <li>
+//           Serve as point of contact with benefit vendors and administrators such
+//           as HMO, Group Life Insurance etc.
 //         </li>
-//         <li className="jd-list-items">
-//           Upselling and cross-selling current customers.
-//         </li>
-//         <li className="jd-list-items">
-//           Coordinating with the Marketing & Comms team on leads generation for
-//           8thGear
-//         </li>
-//         <li className="jd-list-items">
-//           Overseeing the activities and performance of the sales analysts and
-//           interns.
-//         </li>
-//         <li className="jd-list-items">
-//           Conduct research to identify new markets and customer needs.
-//         </li>
-//         <li className="jd-list-items">
-//           Having in-depth knowledge of the services rendered and value
-//           proposition.
-//         </li>
-//         <li className="jd-list-items">
-//           Reporting on successes and areas that need improving.
-//         </li>
-//         <li className="jd-list-items">
-//           Provide after sales support to clients and collate feedback via
-//           customer satisfaction surveys.
-//         </li>
-//         <li className="jd-list-items">
-//           Promote the company’s services addressing or predicting clients
-//           objectives and handling objections.
-//         </li>
-//         <li className="jd-list-items">Promoting sales on all hub services. </li>
+//         <li>Assists periodic unit planning and budgeting activities.</li>
+//         <li>Complete exit documentation and schedule exit interviews</li>
+//         <li>Performs other duties as assigned.</li>
 //       </ul>
 //       <h5 className="careerSubHeader">Competencies and Skills Required </h5>
 //       <ul>
-//         <li className="jd-list-items">Bachelor's degree or equivalent.</li>
 //         <li className="jd-list-items">
-//           Working Knowledge of the Tech Start-up/Growth Strategy/ Talent
-//           Development/Edu-Tech space.
+//           Bachelor’s degree in any relevant field
 //         </li>
 //         <li className="jd-list-items">
-//           1-2 years of Business Development experience.
+//           0-2 years of experience in HR Operations
 //         </li>
 //         <li className="jd-list-items">
-//           Ability to take initiative and manage critical relationships.
+//           Organizational and time management skills
+//         </li>
+//         <li className="jd-list-items">
+//           Excellent interpersonal relationship skills
 //         </li>
 
 //         <li className="jd-list-items">
-//           Excellent written and verbal communication skills.
+//           Must be team oriented and results focused
 //         </li>
-//         <li className="jd-list-items">
-//           Requires reasoning ability and good independent judgment.
-//         </li>
-//         <li className="jd-list-items">
-//           A deep understanding of the trends in the industry.
-//         </li>
-//         <li className="jd-list-items">
-//           Ability to operate in a fast-paced, flat-structured environment.
-//         </li>
+//         <li className="jd-list-items">Exemplary communication skills</li>
 //       </ul>
 //       <div className="mb-4">
 //         {" "}
@@ -134,4 +109,4 @@
 //   );
 // };
 
-// export default BDandSalesPerson;
+// export default HRIntern;
