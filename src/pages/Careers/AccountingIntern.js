@@ -3,7 +3,7 @@ import logos from "../../assets/images/logos.png";
 import { Navbar23 } from "../../components/Navbar";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 
-const AccountantIntern = () => {
+const AccountingIntern = () => {
   return (
     <>
       <Navbar23 />
@@ -21,7 +21,7 @@ const JobDescription = () => {
         <Link to="/">
           <img src={logos} alt="" width={90} height={110} className="" />
         </Link>
-        <h3 className="mt-4 careerHeader">Accountant Intern</h3>
+        <h3 className="mt-4 careerHeader">Accounting Intern</h3>
         <p className="m-0">Work type: Onsite </p>
         <p className="m-0">Contract type: Intern (Corper)</p>
         <p className="m-0">Deadline: March 1st, 2023</p>
@@ -124,4 +124,4 @@ const JobDescription = () => {
   );
 };
 
-export default AccountantIntern;
+export default AccountingIntern;
