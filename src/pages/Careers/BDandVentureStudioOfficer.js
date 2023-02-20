@@ -21,10 +21,12 @@ const JobDescription = () => {
         <Link to="/">
           <img src={logos} alt="" width={90} height={110} className="" />
         </Link>
-        <h3 className="mt-4 careerHeader">BD/Sales Person</h3>
-        <p className="m-0">Work type (hybrid, remote, onsite): Onsite </p>
-        <p className="m-0">Contract type: Entry level</p>
-        <p className="m-0">Deadline: 28 of February, 2023</p>
+        <h3 className="mt-4 careerHeader">
+          Business Development/Venture Studio Officer
+        </h3>
+        <p className="m-0">Work type: Onsite </p>
+        <p className="m-0">Contract type: Full time (Entry level)</p>
+        <p className="m-0">Deadline: March 1st, 2023</p>
         <p className="">
           <a
             href="https://bit.ly/8Gjoinourteam"
@@ -32,7 +34,7 @@ const JobDescription = () => {
             target="_blank"
           >
             {" "}
-            Apply here
+            Join the team
           </a>
         </p>
       </div>

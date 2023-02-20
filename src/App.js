@@ -65,7 +65,7 @@ import VideoReadMore from "./pages/Resources/VideoReadMore";
 import VideoDetail from "./pages/Resources/VideoCategory";
 
 //Careers
-import BDandSalesPerson from "./pages/Careers/BDandSalesPerson";
+import BDandVentureStudioOfficer from "./pages/Careers/BDandVentureStudioOfficer";
 
 function App() {
   return (
@@ -138,7 +138,10 @@ function App() {
           <Route path="business-model-canva" element={<VideoDetail />} />
 
           {/* Careers */}
-          <Route path="BDandSalesPerson" element={<BDandSalesPerson />} />
+          <Route
+            path="BDandVentureStudioOfficer"
+            element={<BDandVentureStudioOfficer />}
+          />
         </Routes>
 
         <footer>
