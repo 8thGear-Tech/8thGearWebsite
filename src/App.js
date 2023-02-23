@@ -48,6 +48,7 @@ import EventsGalleryPage from "./pages/Events/eventsGallery";
 import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
+import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
@@ -119,6 +120,10 @@ function App() {
           <Route
             path="founders-meetup-gallery"
             element={<FoundersMeetupGalleryPage />}
+          />
+          <Route
+            path="founders-meetup-gallery-2023"
+            element={<FoundersPictureGalleryCardsTwo />}
           />
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />

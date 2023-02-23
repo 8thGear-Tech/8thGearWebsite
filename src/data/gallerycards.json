@@ -93,6 +93,12 @@
       "image": "../../images/galleryFoundersmeetup/foundersmeetup.jpg",
       "link": "/founders-meetup-gallery",
       "text": "Founders Meetup November 2022"
+    },
+    {
+      "id": 3,
+      "image": "../../images/galleryFoundersmeetup/foundersmeetuptwentytwentythree/foundersmeetup.jpg",
+      "link": "/founders-meetup-gallery-2023",
+      "text": "Founders Meetup January 2023"
     }
   ],
 
