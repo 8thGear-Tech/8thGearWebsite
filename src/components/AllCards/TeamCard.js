@@ -940,12 +940,12 @@ export const Gerians = () => {
             return <TeamCardSeven {...card}></TeamCardSeven>;
           })}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
+        {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardeight.map((card) => {
             return <TeamCardEight {...card}></TeamCardEight>;
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

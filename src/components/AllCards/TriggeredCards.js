@@ -752,6 +752,7 @@ export const AdvisoryBoardOnHoverCard = (props) => {
           <a
             className="btn"
             href={link}
+            target="_blank"
             role="button"
             style={{ color: "#fff" }}
           >

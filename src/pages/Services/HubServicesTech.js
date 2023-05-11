@@ -53,7 +53,7 @@ const ManagedServicesTech = () => {
               <div className="text-center py-4 ">
                 {/* <ManagedServicesRequestForm /> */}
                 <a
-                  href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
+                  href="https://docs.google.com/forms/d/1BAlNaY2d3RS4zeghX5WD1CYWxRMJUbFDmCPkAn9AqTM/viewform?edit_requested=true"
                   target="_blank"
                 >
                   {" "}

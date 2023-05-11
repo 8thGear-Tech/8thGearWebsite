@@ -499,12 +499,12 @@ const PricingTable = () => {
                   </tr> */}
                   <tr>
                     <td className="finish">Amount</td>
-                    <td className="Pin">₦5,000</td>
+                    <td className="Pin">₦3,500</td>
                     <td className="Pin">₦150,000(Per Year)</td>
                     <td className="Pin">₦50,000 (Per Month)</td>
                     <td className="Pin"> ₦5,000 (Per Hour)</td>
                     <td className="Pin"> ₦100,000(Per Day)</td>
-                    <td className="Pinish">₦250,000(Per Month)</td>
+                    <td className="Pinish">₦200,000(Per Month)</td>
                   </tr>
                 </tbody>
               </table>

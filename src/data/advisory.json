@@ -2,60 +2,60 @@
   "advisoryimage": [
     {
       "id": 1,
-      "image": "../../images/team/seyibioku.png"
+      "image": "../../images/team/olatutusholeye.png"
     },
     {
       "id": 2,
-      "image": "../../images/team/abimbolaadebakin.png"
-    },
-    {
-      "id": 3,
       "image": "../../images/team/yinkaogunleye.png"
     },
     {
-      "id": 4,
+      "id": 3,
       "image": "../../images/team/morenikejibuari.png"
     },
     {
+      "id": 4,
+      "image": "../../images/team/sutinyang.png"
+    },
+    {
       "id": 5,
-      "image": "../../images/team/labisioyedotun.png"
+      "image": "../../images/team/seyibioku.png"
     }
   ],
   "FirstHoverCard": [
     {
       "id": 1,
-      "image": "../images/advisoryImage/seyibioku.png",
-      "name": "SEYI BIOKU",
-      "position": "ADVISOR & BOARD SECRETARY",
-      "link": "https://www.linkedin.com/in/seyi-bioku-870539116/"
+      "image": "../images/advisoryImage/olatutusholeye.png",
+      "name": "DR OLATUTU SHOLEYE",
+      "position": "GOVERNANCE & ETHICS ADVISOR",
+      "link": "https://www.linkedin.com/pulse/8thgear-advisory-council-member-dr-olatutu-o-sholeye-8thgearhub"
     },
     {
       "id": 2,
-      "image": "../images/advisoryImage/abimbolaadebakin.png",
-      "name": "ABIMBOLA ADEBAKIN",
-      "position": "BOARD CHAIRMAN",
-      "link": "https://www.linkedin.com/in/abimbola-adebakin-9a225013/"
-    },
-    {
-      "id": 3,
       "image": "../images/advisoryImage/yinkaogunleye.png",
       "name": "MR YINKA OGUNLEYE",
       "position": "STRATEGY ADVISOR",
       "link": "https://linkedin.com/"
     },
     {
-      "id": 4,
+      "id": 3,
       "image": "../images/advisoryImage/morenikejibuari.png",
       "name": "MORENIKEJI BUARI",
       "position": "FINANCE ADVISOR",
-      "link": "https://www.linkedin.com/in/morenikeji-adebanjo-buari-fca-mba-acit-3b5b4172/"
+      "link": "https://www.linkedin.com/in/morenikeji-dayo-adebanjo-buari-fca-acit-mba-3b5b4172/"
+    },
+    {
+      "id": 4,
+      "image": "../images/advisoryImage/sutinyang.png",
+      "name": "SUTIN YANG",
+      "position": "PARTNERSHIPS ADVISOR",
+      "link": "https://www.linkedin.com/in/sutiny/"
     },
     {
       "id": 5,
-      "image": "../images/advisoryImage/labisioyedotun.png",
-      "name": "LABISI OYEDOTUN",
-      "position": "ADVISOR PARTNERSHIP",
-      "link": "https://linkedin.com/"
+      "image": "../images/advisoryImage/seyibioku.png",
+      "name": "SEYI BIOKU",
+      "position": "ADVISOR & BOARD SECRETARY",
+      "link": "https://www.linkedin.com/in/seyi-bioku-870539116/"
     }
   ],
   "ProjectDeliveryHoverCard": [

@@ -79,23 +79,15 @@
   ],
   "teamcardseven": [
     {
-      "image1": "../../images/team/sharon.png",
-      "name1": "SHARON SAGAY",
-      "title1": "MARKETING AND COMMS LEAD",
-      "id": "staticBackdrop7",
-      "image": "../../images/team/sharon.png",
-      "name": "Sharon Sagay",
-      "position": "Marketing and Comms Lead",
-      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/",
-      "text": "If I’m not watching a movie, sleeping or enjoying the company of my family, then I’m cooking. This describes fun and happy place for me"
-    }
-  ],
-  "teamcardeight": [
-    {
-      "image1": "../../images/team/seun.png",
+      "image1": "../../images/team/seunoladele.jpg",
       "name1": "SEUN OLADELE",
       "title1": "PROJECT DEV'T ASSOCIATE",
-      "id": "staticBackdrop8"
+      "id": "staticBackdrop7",
+      "image": "../../images/team/seunoladele.jpg",
+      "name": "Seun Oladele",
+      "position": "Project Dev't Associate",
+      "link": "https://www.linkedin.com/in/seun-oladele/",
+      "text": "Music is what I love to do. That’s the only fun thing I know. I play video games a lot and watch movies a lot. For someone considered a researcher, I do not really like reading."
     }
   ],
   "EIRcard": [
@@ -123,7 +115,7 @@
     {
       "id": 4,
       "image": "./images/Teamone.png",
-      "name": "Temitope Kassim",
+      "name": "Temitope Kazeem",
       "title": "People and perfomance analyst",
       "text": " View More"
     },
