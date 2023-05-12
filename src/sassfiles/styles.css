@@ -3041,6 +3041,16 @@ header {
   color: #821e6b;
 }
 
+.fontWeight {
+  font-weight: lighter !important;
+  color: blue;
+}
+
+.fontFamily {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
 .text-decoration {
   font-size: 1rem;
   font-weight: 300;

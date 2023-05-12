@@ -20,13 +20,13 @@
     },
     {
       "id": 4,
-      "image": "../../images/gallerycards/innkeeperhackathon.jpg",
+      "image": "../../images/gallerycards/innkeeperhackathon.JPG",
       "text": "Innkeeper Hackathon 2022",
       "link": "/innkeeper-hackathon-gallery"
     },
     {
       "id": 5,
-      "image": "../../images/gallerycards/itf.JPG",
+      "image": "../../images/gallerycards/itf.jpg",
       "text": "ITF Training 2022",
       "link": "/ITF-training-gallery"
     }
@@ -86,19 +86,19 @@
       "id": 1,
       "image": "../../images/gallerydemoday/demodaysix.JPG",
       "link": "/demo-day-gallery",
-      "text": "Demo Day June 2022"
+      "text": "Demo Day Q3 2022"
     },
     {
       "id": 2,
       "image": "../../images/galleryFoundersmeetup/foundersmeetup.jpg",
       "link": "/founders-meetup-gallery",
-      "text": "Founders Meetup November 2022"
+      "text": "Founders Meetup Q4 2022"
     },
     {
       "id": 3,
       "image": "../../images/galleryFoundersmeetup/foundersmeetuptwentytwentythree/foundersmeetup.jpg",
       "link": "/founders-meetup-gallery-2023",
-      "text": "Founders Meetup January 2023"
+      "text": "Founders Meetup Q1 2023"
     }
   ],
 

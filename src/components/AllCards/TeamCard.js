@@ -23,6 +23,7 @@ import { MemberFourViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberFiveViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberSixViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberSevenViewBioBtn } from "../Buttons/ContactBtn";
+import { MemberEightViewBioBtn } from "../Buttons/ContactBtn";
 import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
 import Info from "../../data/advisory.json";
 import logo from "../../assets/images/logo.png";
@@ -823,10 +824,10 @@ export const TeamCardEight = (props) => {
             </figure>
 
             {/* <JointheTeamBtn /> */}
-            {/* <div className="text-center">
+            <div className="text-center">
               {" "}
-              <MemberSevenViewBioBtn />
-            </div> */}
+              <MemberEightViewBioBtn />
+            </div>
 
             <div
               className="modal fade"
