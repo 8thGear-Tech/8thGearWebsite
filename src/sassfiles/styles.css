@@ -240,9 +240,11 @@ h3 {
 
 h4 {
   font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
 }
 
 h5 {
+  font-size: 1.2rem;
   font-weight: 300;
   font-family: "Rubik", sans-serif;
 }
@@ -793,7 +795,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 12rem;
+  width: 10rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -1915,7 +1917,7 @@ article h4 {
 }
 
 .GaaSHeroBg {
-  background: url(/src/assets/images/hero/istockphoto-641479320-612x612.jpg);
+  background: url(/src/assets/images/founders-MeetUp.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -1935,6 +1937,40 @@ article h4 {
   position: relative;
   line-height: 45px;
   font-size: 2rem !important;
+}
+
+.Herodemodayy::before {
+  content: "";
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.Herodemoday {
+  background: url(/src/assets/images/founders-MeetUp.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.Herodemoday h2 {
+  position: relative;
+  line-height: 40px;
+}
+
+.Herodemoday h3 {
+  position: relative;
+  line-height: 25px;
+  font-size: 1.1rem !important;
 }
 
 .DemoDayGalleryHeroBgg::before {
@@ -2118,6 +2154,7 @@ article h4 {
 .ManagedServicesLegalHeroBgg::before,
 .ManagedServicesDigitalMargetingHeroBgg::before,
 .GaaSHeroBgg::before,
+.Herodemodayy::before,
 .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
@@ -2126,6 +2163,7 @@ article h4 {
 .ManagedServicesLegalHeroBg,
 .ManagedServicesDigitalMargetingHeroBg,
 .GaaSHeroBg,
+.Herodemoday,
 .CoworkingHeroBg {
     height: 22.5rem;
   }
@@ -2376,11 +2414,11 @@ article h4 {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 .ResourcesHeroBg {
-  background: url(/src/assets/images/hero/resourceshero.png);
+  background: url(/src/assets/images/resources/resourceshero.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -2401,6 +2439,16 @@ article h4 {
   line-height: 35px;
 }
 
+@media only screen and (max-width: 440px) {
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 441px) {
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
+}
 .VideoResourceHeroBgg::before {
   content: "";
   position: absolute;
@@ -2413,7 +2461,7 @@ article h4 {
 }
 
 .VideoResourceHeroBg {
-  background: url(/src/assets/images/hero/videoresourcehero.png);
+  background: url(/src/assets/images/resources/resourceshero.png);
   background-size: cover;
   position: relative;
   top: 0px;
@@ -3001,5 +3049,80 @@ header {
 .fontFamily {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+}
+
+.text-decoration {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+.text-decoration:hover {
+  border-bottom: 0.125rem solid #821e6b;
+}
+.text-decoration:focus {
+  font-weight: 600;
+  border-bottom: 0.125rem solid #821e6b;
+}
+
+.border-right {
+  border-right: 0.11rem solid #000;
+}
+
+.detailHeroBg {
+  background-color: #00a495;
+  height: 15rem;
+}
+
+.detailBg {
+  background-color: #d9d9d9;
+}
+
+.briefCard {
+  height: 15rem;
+  margin-top: 10rem;
+}
+
+.briefNg {
+  margin-bottom: 10rem;
+}
+
+.Bmcdiv {
+  margin-top: 20rem;
+}
+
+.detailsCard {
+  height: 15rem;
+}
+
+.resourceReadMoreLink {
+  color: #000;
+}
+.resourceReadMoreLink:hover {
+  color: #0d6efd;
+}
+
+.jd-list-items {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.careerHeader {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.careerSubHeader {
+  color: #37352f;
+  font-weight: 600;
+}
+
+.careerCTAfontSize {
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */

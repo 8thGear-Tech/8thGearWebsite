@@ -1,21 +1,21 @@
-import { Navbar20 } from "../../components/Navbar";
-
+import { Navbar7 } from "../../components/Navbar";
 import servicesData from "../../data/managedServices.json";
 import { ManagedServicesRequestForm } from "../../components/Forms/ServicesForms";
 import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
-import { ManagementAccountingIcon } from "../../components/Icons";
-import { InternalAuditIcon } from "../../components/Icons";
-import { PublicSectorIcon } from "../../components/Icons";
-import { TaxAccountingIcon } from "../../components/Icons";
-import { ManagedServicesAccountingHero } from "../../components/Hero/ImageandTextHero";
+import { UIUXIcon } from "../../components/Icons";
+import { WebDevIcon } from "../../components/Icons";
+import { AppDevIcon } from "../../components/Icons";
+import { DevOpsIcon } from "../../components/Icons";
+import { ProductDevIcon } from "../../components/Icons";
+import { ManagedServicesTechHero } from "../../components/Hero/ImageandTextHero";
 
-const ManagedServicesAccounting = () => {
+const ManagedServicesTech = () => {
   return (
     <>
-      <Navbar20 />
-      <ManagedServicesAccountingHero />
+      <Navbar7 />
+      <ManagedServicesTechHero />
       <section className="container-fluid py-4 px-4 DigitalMarketingSection managedServicesSection">
-        {servicesData.accounting.map((props) => {
+        {servicesData.productdevelopment.map((props) => {
           const { id, title, textLeft, textRight } = props;
           return (
             <div className="">
@@ -34,30 +34,31 @@ const ManagedServicesAccounting = () => {
               <div className="row d-flex justify-content-center">
                 {/* icon1 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <ManagementAccountingIcon />
-                  <p className="text-wrap">Management Accounting</p>
+                  <UIUXIcon />
+                  <p className="text-wrap">Product Design</p>
                 </div>
                 {/*  icon2*/}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <InternalAuditIcon />
-                  <p className="text-wrap">Internal Audit</p>
+                  <WebDevIcon />
+                  <p className="text-wrap">Web Development</p>
                 </div>
                 {/* icon3 */}
                 <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center mt-4">
-                  <PublicSectorIcon />
-                  <p className="text-wrap">Public Sector</p>
-                </div>
-                {/* icon4 */}
-                <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                  <TaxAccountingIcon />
-                  <p className="text-wrap">Tax Accounting</p>
+                  <AppDevIcon />
+                  <p className="text-wrap">App Development</p>
                 </div>
               </div>
 
               {/* button */}
               <div className="text-center py-4 ">
                 {/* <ManagedServicesRequestForm /> */}
-                <ManagedServicesRequestBtn />
+                <a
+                  href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
+                  target="_blank"
+                >
+                  {" "}
+                  <ManagedServicesRequestBtn />
+                </a>
               </div>
             </div>
           );
@@ -67,4 +68,4 @@ const ManagedServicesAccounting = () => {
   );
 };
 
-export default ManagedServicesAccounting;
+export default ManagedServicesTech;

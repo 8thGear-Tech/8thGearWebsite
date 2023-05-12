@@ -7,18 +7,20 @@ import { BusinessInHouseIcon } from "../components/Icons";
 import { JobsCreatedIcon } from "../components/Icons";
 import { JobsPlacedIcon } from "../components/Icons";
 import { JobsSavedIcon } from "../components/Icons";
-import { StartupSupportedIcon } from "../components/Icons";
+import { StartupsSupportedIcon } from "../components/Icons";
+import { ProjectsDeliveredIcon } from "../components/Icons";
+import { TechTalentsEmpoweredIcon } from "../components/Icons";
 
 export const OurImpact = () => {
   return (
     <div className="container-fluid text-center px-5 ourImpactBg">
       <div className="row justify-content-center ">
         <h4 className="text-center my-5">OUR IMPACT</h4>
-        <div className="col-lg-3 col-md-4 col-sm-8 px-4  ">
+        {/* <div className="col-lg-3 col-md-4 col-sm-8 px-4  ">
           <div className="card mb-5 ourImpactCardBg">
             <BusinessInHouseIcon />
             <div className="card-body">
-              {/* <h5 className="card-title">20,000</h5> */}
+              <h5 className="card-title">20,000</h5>
               <p className="card-text"> BUSINESS IN-HOUSE</p>
             </div>
           </div>
@@ -32,7 +34,7 @@ export const OurImpact = () => {
             </div>
 
             <div className="card-body">
-              {/* <h5 className="card-title">20,000</h5> */}
+              <h5 className="card-title">20,000</h5>
               <p className="card-text">JOB CREATED</p>
             </div>
           </div>
@@ -46,35 +48,45 @@ export const OurImpact = () => {
             </div>
 
             <div className="card-body">
-              {/* <h5 className="card-title">20,000</h5> */}
+              <h5 className="card-title">20,000</h5>
               <p className="card-text">JOB SAVED</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="row justify-content-center">
         {" "}
-        <div className="col-lg-3 col-md-4 col-sm-8 px-4 ">
+        <div className="col-lg-3 col-md-4 col-sm-8 px-4 d-flex align-items-center">
           {" "}
-          <div className="card mb-5 ourImpactCardBg">
+          <div className="card mb-5 ourImpactCardBg pt-4">
             <div>
               {" "}
-              <JobsPlacedIcon />
+              <ProjectsDeliveredIcon />
             </div>
 
             <div className="card-body">
-              {/* <h5 className="card-title">20,000</h5> */}
-              <p className="card-text">PROJECT DELIVERED</p>
+              <h5 className="card-title">4</h5>
+              <p className="card-text">PROJECTS DELIVERED</p>
+            </div>
+          </div>
+        </div>{" "}
+        <div className="col-lg-3 col-md-4 col-sm-8 px-4 d-flex align-items-center">
+          {" "}
+          <div className="card mb-5 ourImpactCardBg pt-4">
+            <TechTalentsEmpoweredIcon />
+            <div className="card-body">
+              <h5 className="card-title">483</h5>
+              <p className="card-text">TECH TALENTS EMPOWERED</p>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-md-4 col-sm-8 px-4 ">
+        <div className="col-lg-3 col-md-4 col-sm-8 px-4 d-flex align-items-center">
           {" "}
-          <div className="card mb-5 ourImpactCardBg">
-            <StartupSupportedIcon />
+          <div className="card mb-5 ourImpactCardBg pt-4">
+            <StartupsSupportedIcon />
             <div className="card-body">
-              {/* <h5 className="card-title">20,000</h5> */}
-              <p className="card-text">START-UP SUPPORTED</p>
+              <h5 className="card-title">56</h5>
+              <p className="card-text">STARTUPS SUPPORTED</p>
             </div>
           </div>
         </div>

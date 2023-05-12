@@ -119,8 +119,8 @@ const NavBar = (props) => {
             </a>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li>
-                <Link className="dropdown-item" to="/managed-services">
-                  Managed Services
+                <Link className="dropdown-item" to="/hub-services">
+                  Hub Services
                 </Link>
               </li>
               <li>
@@ -193,6 +193,25 @@ const NavBar = (props) => {
             >
               Events
             </Link>
+          </div>
+          <br />
+          <div>
+            <a
+              className=" nav-link dropdown-toggle mx-3"
+              type="button"
+              id="navbarDarkdropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Insights
+            </a>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li>
+                <Link className="dropdown-item" to="/resources">
+                  Resources
+                </Link>
+              </li>
+            </ul>
           </div>
 
           <br />
@@ -335,7 +354,7 @@ export const Navbar4 = () => {
   return (
     <div className="container-fluid ">
       <div className="row">
-        {text.managedservices.map((navbar) => {
+        {text.hubservices.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0 "
@@ -392,7 +411,7 @@ export const Navbar7 = () => {
   return (
     <div className="container-fluid ">
       <div className="row">
-        {text.tech.map((navbar) => {
+        {text.productdevelopment.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
@@ -690,6 +709,24 @@ export const Navbar22 = () => {
     <div className="container-fluid ">
       <div className="row">
         {text.FUTATechpic.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar23 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.Careers.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"

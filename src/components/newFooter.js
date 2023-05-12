@@ -15,7 +15,7 @@ export const NewFooter = () => {
               {" "}
               <img className="" src={logo} width={60} height={70} alt="" />
             </Link>
-            {/* <p class=" col-md-6 mb-0 text-muted">&copy; 2022 Company, Inc</p> */}
+            {/* <p className=" col-md-6 mb-0 text-muted">&copy; 2022 Company, Inc</p> */}
           </div>
           <div className="d-lg-flex justify-content-end col-lg-8 col-md-12">
             <div className="">
@@ -164,7 +164,7 @@ export const NewFooter = () => {
             <div className="">
               {" "}
               <ul className="nav">
-                {/* <li class="nav-item">
+                {/* <li className="nav-item">
                   <a
                     href="#"
                     className="nav-link px-2 text-muted"
@@ -175,11 +175,11 @@ export const NewFooter = () => {
                 </li> */}
                 <li className="nav-item">
                   <Link
-                    to="/managed-services"
+                    to="/hub-services"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    MANAGED SERVICES
+                    HUB SERVICES
                   </Link>
                 </li>
                 <li className="nav-item">

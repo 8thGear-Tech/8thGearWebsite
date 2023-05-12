@@ -46,27 +46,75 @@ export const BookaFreeSessionBtn = () => {
 export const OnHoverReadMoreBtn = () => {
   return (
     <>
-      <button className="OnHoverReadMoreBtn"> Read more</button>
+      <button
+        className="OnHoverReadMoreBtn"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop1"
+      >
+        {" "}
+        Read more
+      </button>
+    </>
+  );
+};
+export const OnHoverReadMoreBtnTwo = () => {
+  return (
+    <>
+      <button
+        className="OnHoverReadMoreBtn"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop2"
+      >
+        {" "}
+        Read more
+      </button>
+    </>
+  );
+};
+export const OnHoverReadMoreBtnThree = () => {
+  return (
+    <>
+      <button
+        className="OnHoverReadMoreBtn"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop3"
+      >
+        {" "}
+        Read more
+      </button>
     </>
   );
 };
 
+// export const ProjBtn = () => {
+//   return (
+//     <>
+//       <a href="" className="text-decoration-none team-button-color">
+//         Project Delivery <i className="bi bi-arrow-right"></i>
+//       </a>
+//     </>
+//   );
+// };
+
 export const ManagedServicesRequestBtn = () => {
   return (
     <>
-      <a
+      {/* <a
         href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
         target="_blank"
+      > */}
+      <button
+        // type="button"
+        // data-bs-toggle="modal"
+        // data-bs-target="#myModal"
+        className="ManagedServicesRequestBtn"
       >
-        <button
-          // type="button"
-          // data-bs-toggle="modal"
-          // data-bs-target="#myModal"
-          className="ManagedServicesRequestBtn"
-        >
-          Request
-        </button>
-      </a>
+        Request
+      </button>
+      {/* </a> */}
     </>
   );
 };

@@ -38,6 +38,10 @@
 @use "./components/blogPost";
 @use "./pages/events/demoDay";
 @use "./pages/events/foundersMeetup" as *;
+@use "./pages/resources";
+
+//careers
+@use "./pages/careers/bdandsalesperson";
 
 // .cursorr {
 //   cursor: url(/src/assets/icons/dealmanagement.png), auto !important;

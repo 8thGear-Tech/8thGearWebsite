@@ -72,7 +72,7 @@ const managedServicesDigitalMarketing = () => {
                 </div>
                 {/*  icon8*/}
                 {/* <div className="col-lg-3 col-md-4 col-sm-6  col-xs-6 text-center">
-                    <i class="bi bi-people-fill" style={{ fontSize: 44 }}></i>
+                    <i className="bi bi-people-fill" style={{ fontSize: 44 }}></i>
                     <p className="text-wrap">media Management</p>
                   </div> */}
               </div>
@@ -80,7 +80,10 @@ const managedServicesDigitalMarketing = () => {
               {/* button */}
               <div className="text-center py-4 ">
                 {/* <ManagedServicesRequestForm /> */}
-                <ManagedServicesRequestBtn />
+                <a href="https://bit.ly/8thGearDigitalKYC" target="_blank">
+                  {" "}
+                  <ManagedServicesRequestBtn />
+                </a>
               </div>
             </div>
           );

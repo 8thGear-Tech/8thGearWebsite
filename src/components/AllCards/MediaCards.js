@@ -14,7 +14,11 @@ import galleryfounderData from "../../data/galleryFoundermeetup.json";
 import galleryprojectData from "../../data/projectdelivery.json";
 import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
-import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
+import {
+  OnHoverReadMoreBtn,
+  OnHoverReadMoreBtnThree,
+  OnHoverReadMoreBtnTwo,
+} from "../Buttons/ServicesBtn";
 import { Link } from "react-router-dom";
 // import Record from "../../data/blog.json"
 // //GalleryMediaCards
@@ -58,20 +62,141 @@ export const ProjectDeliveryCard = (props) => {
   );
 };
 export const NewProjectDeliveryCard = (props) => {
-  const { image, title, description } = props;
+  const { image, title, description, readmoretitle, readmoretext, id } = props;
   return (
     <>
-      <div class="cardBgg projectdeliveryCard">
-        <img src={image} class="card-img-top" alt="" />
-        <div class="card-body pb-3 px-3">
-          <figure class="text-center">
-            <h4 class="card-text mt-4">{title}</h4>
-            {/* <p className="">{description}</p> */}
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
+            <p className="">{description}</p>
           </figure>
-          {/* <div className="text-center">
-            {" "}
+          <div className="text-center">
             <OnHoverReadMoreBtn />
-          </div> */}
+          </div>
+          <div
+            className="modal fade"
+            id={id}
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabIndex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="d-flex justify-content-end mx-4 my-2">
+                  <button
+                    type="button"
+                    className="btn-close mt-3"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div className="py-4" key={id}>
+                  <div className="card-body">
+                    <h4 className="ms-4">{readmoretitle}</h4>
+                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export const NewProjectDeliveryCardTwo = (props) => {
+  const { image, title, description, readmoretitle, readmoretext, id } = props;
+  return (
+    <>
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
+            <p className="">{description}</p>
+          </figure>
+          <div className="text-center">
+            <OnHoverReadMoreBtnTwo />
+          </div>
+          <div
+            className="modal fade"
+            id={id}
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabIndex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="d-flex justify-content-end mx-4 my-2">
+                  <button
+                    type="button"
+                    className="btn-close mt-3"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div className="py-4" key={id}>
+                  <div className="card-body">
+                    <h4 className="ms-4">{readmoretitle}</h4>
+                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export const NewProjectDeliveryCardThree = (props) => {
+  const { image, title, description, readmoretitle, readmoretext, id } = props;
+  return (
+    <>
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
+            <p className="">{description}</p>
+          </figure>
+          <div className="text-center">
+            <OnHoverReadMoreBtnThree />
+          </div>
+          <div
+            className="modal fade"
+            id={id}
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabIndex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="d-flex justify-content-end mx-4 my-2">
+                  <button
+                    type="button"
+                    className="btn-close mt-3"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div className="py-4" key={id}>
+                  <div className="card-body">
+                    <h4 className="ms-4">{readmoretitle}</h4>
+                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
@@ -81,11 +206,11 @@ export const NewProjectDeliveryManagedServicesCard = (props) => {
   const { image, title, link } = props;
   return (
     <>
-      <div class="cardBgg projectdeliveryCard">
-        <img src={image} class="card-img-top" alt="" />
-        <div class="card-body pb-3 px-3">
-          <figure class="text-center">
-            <h4 class="card-text mt-4">{title}</h4>
+      <div className="cardBgg projectdeliveryCard">
+        <img src={image} className="card-img-top" alt="" />
+        <div className="card-body pb-3 px-3">
+          <figure className="text-center">
+            <h4 className="card-text mt-4">{title}</h4>
             {/* <p className="">{description}</p> */}
           </figure>
           <div className="text-center pt-4">
@@ -106,6 +231,7 @@ export const NewProjectDeliveryManagedServicesCard = (props) => {
     </>
   );
 };
+
 export const ManagedServicesCard = (props) => {
   const { image, link, text, id } = props;
   return (
@@ -392,14 +518,14 @@ export const SinglegalleryVideoCards = (props) => {
   const { video, id } = props;
   return (
     <>
-      <div class="responsive-iframe">
+      <div className="responsive-iframe">
         <iframe
           src={video}
           width="400"
           height="600"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </>
@@ -407,14 +533,14 @@ export const SinglegalleryVideoCards = (props) => {
 };
 
 {
-  /* <div class="responsive-iframe md-5 text-center">
+  /* <div className="responsive-iframe md-5 text-center">
         <iframe
           src={video}
           width="390"
           height="280"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div> */
 }
@@ -462,15 +588,16 @@ export const SinglegalleryVideo = (props) => {
     </>
   );
 };
+
 {
-  /* <div class="responsive-iframe md-5 text-center">
+  /* <div className="responsive-iframe md-5 text-center">
   <iframe
     src={video}
     width="390"
     height="280"
-    frameborder="0"
+    frameBorder="0"
     allow="autoplay; fullscreen; picture-in-picture"
-    allowfullscreen
+    allowFullScreen
   ></iframe>
 </div>; */
 }

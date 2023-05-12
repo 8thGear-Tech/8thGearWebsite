@@ -1,0 +1,30 @@
+@use "../components/allCards/resourcesCards" as *;
+.detailHeroBg {
+  background-color: #00a495;
+  height: 15rem;
+}
+.detailBg {
+  background-color: #d9d9d9;
+}
+.briefCard {
+  height: 15rem;
+  margin-top: 10rem;
+}
+.briefNg {
+  margin-bottom: 10rem;
+}
+.Bmcdiv {
+  margin-top: 20rem;
+}
+// .detailCardBg {
+//   margin-top: 9rem;
+// }
+.detailsCard {
+  height: 15rem;
+}
+.resourceReadMoreLink {
+  color: #000;
+  &:hover {
+    color: #0d6efd;
+  }
+}

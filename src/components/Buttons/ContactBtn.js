@@ -25,7 +25,7 @@ export const JointheStudioBtn = () => {
 //   return (
 //     <button
 //       type="button"
-//       class="JointheStudioBtn"
+//       className="JointheStudioBtn"
 //       data-bs-toggle="modal"
 //       data-bs-target="#staticBackdrop1"
 //     >
@@ -35,10 +35,7 @@ export const JointheStudioBtn = () => {
 // };
 export const JointheTeamBtn = () => {
   return (
-    <a
-      href="https://docs.google.com/forms/d/1uS-aBQOD6qYAMWIp9u-_22WIqH0kyJFWzYCm3L8g4us/edit?pli=1"
-      target="_blank"
-    >
+    <a href="https://bit.ly/8Gjoinourteam" target="_blank">
       <button
         // type="button"
         className="JointheTeamBtn"
@@ -58,7 +55,6 @@ export const MemberOneViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
@@ -74,7 +70,6 @@ export const MemberTwoViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
@@ -90,7 +85,6 @@ export const MemberThreeViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop3"
       >
@@ -106,7 +100,6 @@ export const MemberFourViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop4"
       >
@@ -122,7 +115,6 @@ export const MemberFiveViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop5"
       >
@@ -138,7 +130,6 @@ export const MemberSixViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop6"
       >
@@ -154,7 +145,6 @@ export const MemberSevenViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop7"
       >

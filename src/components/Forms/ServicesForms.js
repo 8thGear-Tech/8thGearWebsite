@@ -100,17 +100,17 @@ const CoworkingSpaceForm = () => {
       </button>
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-md">
-          <div class="modal-content">
-            <div class="modal-header m-2">
+        <div className="modal-dialog modal-md">
+          <div className="modal-content">
+            <div className="modal-header m-2">
               <img
                 src={logo}
                 width={40}
@@ -124,10 +124,10 @@ const CoworkingSpaceForm = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <form onSubmit={Handle}>
                 <div>
-                  <h4 class=" pink request mb-3 ">
+                  <h4 className=" pink request mb-3 ">
                     The 8thGear Hub-Space Booking Form
                   </h4>
 
@@ -238,11 +238,11 @@ const CoworkingSpaceForm = () => {
                     />
                   </div>
 
-                  <div class="input-group mb-3 mt-5">
-                    <label class="input-group-text" for="inputGroupSelect">
+                  <div className="input-group mb-3 mt-5">
+                    <label className="input-group-text" for="inputGroupSelect">
                       Services of interest
                     </label>
-                    <select class="form-select" id="inputGroupSelect">
+                    <select className="form-select" id="inputGroupSelect">
                       <option selected>Choose...</option>
                       <option value="1">
                         Dedicated Desk(per month) - 35,000[10% discount for
@@ -277,11 +277,11 @@ const CoworkingSpaceForm = () => {
                     />
                   </div>
 
-                  <div class="input-group mb-3 mt-5">
-                    <label class="input-group-text" for="inputGroupSelect">
+                  <div className="input-group mb-3 mt-5">
+                    <label className="input-group-text" for="inputGroupSelect">
                       Required Duration Unit
                     </label>
-                    <select class="form-select" id="inputGroupSelect">
+                    <select className="form-select" id="inputGroupSelect">
                       <option selected>Choose...</option>
                       <option value="1">Hours</option>
                       <option value="2">Weeks</option>
@@ -303,11 +303,14 @@ const CoworkingSpaceForm = () => {
                     />
                   </div>
 
-                  <div class="input-group mb-3 mt-5">
-                    <label class="input-group-text" for="inputGroupSelect01">
+                  <div className="input-group mb-3 mt-5">
+                    <label
+                      className="input-group-text"
+                      for="inputGroupSelect01"
+                    >
                       Optional Add-on services
                     </label>
-                    <select class="form-select" id="inputGroupSelect01">
+                    <select className="form-select" id="inputGroupSelect01">
                       <option selected>Choose...</option>
                       <option value="1">Growth strategy & execution</option>
                       <option value="2">Recruitment support service</option>
@@ -326,11 +329,14 @@ const CoworkingSpaceForm = () => {
                     </select>
                   </div>
 
-                  <div class="input-group mb-3 mt-5">
-                    <label class="input-group-text" for="inputGroupSelect01">
+                  <div className="input-group mb-3 mt-5">
+                    <label
+                      className="input-group-text"
+                      for="inputGroupSelect01"
+                    >
                       How did you hear about us?
                     </label>
-                    <select class="form-select" id="inputGroupSelect01">
+                    <select className="form-select" id="inputGroupSelect01">
                       <option selected>Choose...</option>
                       <option value="1">Linked in</option>
                       <option value="2">Instagram</option>
@@ -343,27 +349,27 @@ const CoworkingSpaceForm = () => {
                     </select>
                   </div>
 
-                  <div class="col-12 mb-3">
-                    <div class="form-check">
+                  <div className="col-12 mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="checkbox"
                         id="gridCheck"
                       />
-                      <label class="form-check-label" for="gridCheck">
+                      <label className="form-check-label" for="gridCheck">
                         Terms And Conditions
                       </label>
                     </div>
                   </div>
 
-                  <div class="col-12 mb-3">
-                    <div class="form-check">
+                  <div className="col-12 mb-3">
+                    <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="checkbox"
                         id="gridCheck"
                       />
-                      <label class="form-check-label" for="gridCheck">
+                      <label className="form-check-label" for="gridCheck">
                         I Agree
                       </label>
                     </div>

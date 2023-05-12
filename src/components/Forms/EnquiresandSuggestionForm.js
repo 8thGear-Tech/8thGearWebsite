@@ -77,7 +77,7 @@ export const JoinTheStudioForm = () => {
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -222,8 +222,8 @@ export const JoinTheStudioForm = () => {
                     ></textarea>
                   </div>
 
-                  {/* <div class="col-12 mb-3">
-                    <div class="form-check">
+                  {/* <div className="col-12 mb-3">
+                    <div className="form-check">
                       <input
                         className="form-check-input"
                         type="checkbox"
@@ -282,7 +282,7 @@ const SuggestAnEventForm = () => {
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -311,106 +311,106 @@ const SuggestAnEventForm = () => {
 
                   <div className="Vessel mb-3">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="radio"
                       name="exampleRadios"
                       id="exampleRadios1"
                       value="option1"
                       checked
                     />
-                    <label class="form-check-label" for="exampleRadios1">
+                    <label className="form-check-label" for="exampleRadios1">
                       LinkedIn
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="radio"
                       name="exampleRadios"
                       id="exampleRadios2"
                       value="option2"
                       checked
                     />
-                    <label class="form-check-label" for="exampleRadios2">
+                    <label className="form-check-label" for="exampleRadios2">
                       Instagram
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
-                      class="form-check-input"
+                      className="form-check-input"
                       type="radio"
                       name="exampleRadios"
                       id="exampleRadios3"
                       value="option3"
                       checked
                     />
-                    <label class="form-check-label" for="exampleRadios3">
+                    <label className="form-check-label" for="exampleRadios3">
                       WhatsApp
                     </label>
                   </div>
-                  {/* <div class="form-check">
+                  {/* <div className="form-check">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="exampleRadios"
                         id="exampleRadios4"
                         value="option4"
                         checked
                       />
-                      <label class="form-check-label" for="exampleRadios4">
+                      <label className="form-check-label" for="exampleRadios4">
                         Facebook
                       </label>
                     </div>
-                    <div class="form-check disabled">
+                    <div className="form-check disabled">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="exampleRadios"
                         id="exampleRadios5"
                         value="option5"
                         checked
                       />
-                      <label class="form-check-label" for="exampleRadios5">
+                      <label className="form-check-label" for="exampleRadios5">
                         Twitter
                       </label>
                     </div>
                   </div>
-                    <div class="form-check disabled">
+                    <div className="form-check disabled">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="exampleRadios"
                         id="exampleRadios6"
                         value="option6"
                         checked
                       />
-                      <label class="form-check-label" for="exampleRadios6">
+                      <label className="form-check-label" for="exampleRadios6">
                         TikTok
                       </label>
                     </div>
-                    <div class="form-check disabled">
+                    <div className="form-check disabled">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="exampleRadios"
                         id="exampleRadios7"
                         value="option7"
                         checked
                       />
-                      <label class="form-check-label" for="exampleRadios7">
+                      <label className="form-check-label" for="exampleRadios7">
                         Friends and Family
                       </label>
                     </div>
-                    <div class="form-check disabled">
+                    <div className="form-check disabled">
                       <input
-                        class="form-check-input"
+                        className="form-check-input"
                         type="radio"
                         name="exampleRadios"
                         id="exampleRadios8"
                         value="option8"
                         checked
                       />
-                      <label class="form-check-label" for="exampleRadios8">
+                      <label className="form-check-label" for="exampleRadios8">
                           Others
                       </label>
                     </div>
@@ -651,7 +651,7 @@ export const JoinTheTeamForm = () => {
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
@@ -792,7 +792,7 @@ export const JoinTheTeamForm = () => {
                   </div>
 
                   <div className="mt-3">
-                    <label for="formFile" class="form-label">
+                    <label for="formFile" className="form-label">
                       Upload CV *
                     </label>
                     <input
@@ -803,7 +803,10 @@ export const JoinTheTeamForm = () => {
                   </div>
 
                   <div className="mt-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">
+                    <label
+                      for="exampleFormControlTextarea1"
+                      className="form-label"
+                    >
                       Brief Description
                     </label>
                     <textarea

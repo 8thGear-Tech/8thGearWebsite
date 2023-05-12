@@ -25,7 +25,7 @@ const Video = () => {
           height="400"
           //   frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          //   allowfullscreen
+          //   allowFullscreen
         ></iframe>
       </div>
       <div className="text-center mt-4">

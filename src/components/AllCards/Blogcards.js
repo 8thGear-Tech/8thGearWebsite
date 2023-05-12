@@ -109,8 +109,8 @@ export const SingleSideBlogCard = (props) => {
   const { image, text, date } = props;
   return (
     <>
-      {/* <div class=" card my-4 sideCardImg">
-        <div class="">
+      {/* <div className=" card my-4 sideCardImg">
+        <div className="">
           <Card.Img variant="top" src={image} className="" />
         </div>
         <div className="">

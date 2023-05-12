@@ -34,9 +34,9 @@ export const ResourcesTitleBtn = () => {
 export const ResourcesReadMoreLink = () => {
   return (
     <>
-      <a href="#" class="" style={{ color: "#000" }}>
-        Read More <i class="bi bi-arrow-right-short"></i>
-      </a>
+      <p className="">
+        Read More <i className="bi bi-arrow-right-short"></i>
+      </p>
     </>
   );
 };

@@ -66,6 +66,8 @@ import jobssaved from "../assets/icons/projectdelivery/jobssaved.png";
 import jobscreated from "../assets/icons/projectdelivery/jobscreated.png";
 import jobsplaced from "../assets/icons/projectdelivery/jobsplaced.png";
 import startupsupported from "../assets/icons/projectdelivery/startupsupported.png";
+import projectsdelivered from "../assets/icons/projectdelivery/projectsdelivered.png";
+import techtalentsempowered from "../assets/icons/projectdelivery/techtalentsempowered.png";
 
 export const WhatWeDoIcon = () => {
   return (
@@ -117,17 +119,37 @@ export const JobsPlacedIcon = () => {
     </div>
   );
 };
-export const StartupSupportedIcon = () => {
+
+export const ProjectsDeliveredIcon = () => {
   return (
     <div>
       <img
-        src={startupsupported}
-        style={{ maxWidth: "21%", maxHeight: "21%" }}
+        src={projectsdelivered}
+        style={{ maxWidth: "18%", maxHeight: "18%" }}
       ></img>
     </div>
   );
 };
-
+export const TechTalentsEmpoweredIcon = () => {
+  return (
+    <div>
+      <img
+        src={techtalentsempowered}
+        style={{ maxWidth: "28%", maxHeight: "28%" }}
+      ></img>
+    </div>
+  );
+};
+export const StartupsSupportedIcon = () => {
+  return (
+    <div>
+      <img
+        src={startupsupported}
+        style={{ maxWidth: "14%", maxHeight: "14%" }}
+      ></img>
+    </div>
+  );
+};
 export const ArrowRightIcon = () => {
   return (
     <div>
@@ -475,7 +497,7 @@ export const MeetingRoomIcon = () => {
 // export const ArrowIcon = () => {
 //   return (
 //     <i
-//       class="bi bi-arrow-up-square"
+//       className="bi bi-arrow-up-square"
 //       style={{ width: "50px", height: "50px" }}
 //     ></i>
 //   );

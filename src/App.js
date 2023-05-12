@@ -25,12 +25,12 @@ import ITFGalleryPage from "./pages/ProjectDelivery/ITFGallery";
 // import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
-//Managed Services
-import ManagedServicesPage from "./pages/Services/managedServices";
-import ManagedServicesDigitalMarketing from "./pages/Services/managedServicesDigitalMarketing";
-import ManagedServicesAccounting from "./pages/Services/managedServicesAccounting";
-import ManagedServicesLegal from "./pages/Services/managedServicesLegal";
-import ManagedServicesTech from "./pages/Services/managedServicesTech";
+//Hub Services
+import HubServicesPage from "./pages/Services/HubServices";
+import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
+import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
+import HubServicesLegal from "./pages/Services/HubServicesLegal";
+import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 
@@ -48,18 +48,27 @@ import EventsGalleryPage from "./pages/Events/eventsGallery";
 import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
+import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
-import { ManagedServicesRequestForm } from "./components/Forms/ServicesForms";
+import { RequestForm } from "./components/Forms/ServicesForms";
 import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 //Resources
 import Resources from "./pages/Resources/Resources";
-import ArticleReadMore from "./pages/Resources/ArticleReadMore";
+import { ABCBusinessAccountingReadMore } from "./pages/Resources/ArticleReadMore";
+import { KeepingAccountingRecordsReadMore } from "./pages/Resources/ArticleReadMore";
+import { NigerianStartupActsReadMore } from "./pages/Resources/ArticleReadMore";
 import VideoReadMore from "./pages/Resources/VideoReadMore";
+import VideoDetail from "./pages/Resources/VideoCategory";
+
+//Careers
+import BDandVentureStudioOfficer from "./pages/Careers/BDandVentureStudioOfficer";
+import HRIntern from "./pages/Careers/HRIntern";
+import AccountingIntern from "./pages/Careers/AccountingIntern";
 
 function App() {
   return (
@@ -69,6 +78,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="our-model" element={<OurModelPage />} />
           <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="resources" element={<Resources />} />
           <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
           <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
           <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
@@ -86,16 +96,16 @@ function App() {
             element={<InnkeeperHackathonGalleryPage />}
           />
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
-          <Route path="managed-services" element={<ManagedServicesPage />} />
+          <Route path="hub-services" element={<HubServicesPage />} />
           <Route path="FUTA-techpic" element={<FUTATechpic />} />
 
           <Route
             path="digitalmarketing"
-            element={<ManagedServicesDigitalMarketing />}
+            element={<HubServicesDigitalMarketing />}
           />
-          <Route path="accounting" element={<ManagedServicesAccounting />} />
-          <Route path="legal" element={<ManagedServicesLegal />} />
-          <Route path="tech" element={<ManagedServicesTech />} />
+          <Route path="accounting" element={<HubServicesAccounting />} />
+          <Route path="legal" element={<HubServicesLegal />} />
+          <Route path="product-development" element={<HubServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
 
@@ -111,12 +121,36 @@ function App() {
             path="founders-meetup-gallery"
             element={<FoundersMeetupGalleryPage />}
           />
+          <Route
+            path="founders-meetup-gallery-2023"
+            element={<FoundersPictureGalleryCardsTwo />}
+          />
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
-          {/* <Route path="resources" element={<Resources />} />
-          <Route path="article" element={<ArticleReadMore />} />
-          <Route path="video" element={<VideoReadMore />} /> */}
+          <Route path="resources" element={<Resources />} />
+          <Route
+            path="ABCBusinessAccounting"
+            element={<ABCBusinessAccountingReadMore />}
+          />
+          <Route
+            path="KeepingAccountingRecords"
+            element={<KeepingAccountingRecordsReadMore />}
+          />
+          <Route
+            path="NigerianStartupActs"
+            element={<NigerianStartupActsReadMore />}
+          />
+          <Route path="video" element={<VideoReadMore />} />
+          <Route path="business-model-canva" element={<VideoDetail />} />
+
+          {/* Careers */}
+          <Route
+            path="BDandVentureStudioOfficer"
+            element={<BDandVentureStudioOfficer />}
+          />
+          <Route path="HRIntern" element={<HRIntern />} />
+          <Route path="AccountingIntern" element={<AccountingIntern />} />
         </Routes>
 
         <footer>

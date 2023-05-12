@@ -2,7 +2,7 @@
   "landingpage": [
     {
       "id": 1,
-      "heading": "8thGear Partners"
+      "heading": "8thGear Hub"
     }
   ],
 
@@ -27,10 +27,10 @@
     }
   ],
 
-  "managedservices": [
+  "hubservices": [
     {
       "id": 1,
-      "heading": "Managed Services"
+      "heading": "Hub Services"
     }
   ],
 
@@ -48,10 +48,10 @@
     }
   ],
 
-  "tech": [
+  "productdevelopment": [
     {
       "id": 1,
-      "heading": "Tech"
+      "heading": "Product Development"
     }
   ],
 
@@ -143,6 +143,12 @@
     {
       "id": 1,
       "heading": "FUTA-Techpic"
+    }
+  ],
+  "Careers": [
+    {
+      "id": 1,
+      "heading": "Careers"
     }
   ]
 }

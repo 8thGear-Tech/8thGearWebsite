@@ -1,24 +1,32 @@
 {
   "ProjectDeliveryContent": [
     {
-      "id": 1,
       "image": "../../images/projectdelivery/enterprisesupport.jpg",
-      "title": "Entreprise Support"
-    },
+      "title": "Entreprise Support",
+      "description": "Business Enterprise Support is a program designed to assist small and medium-sized businesses with a range of support services...",
+      "id": "staticBackdrop1",
+      "readmoretitle": "Enterprise Support",
+      "readmoretext": "Business Enterprise Support is a program designed to assist small and medium-sized businesses with a range of support services. We offer resources such as access to funding, mentorship, and networking opportunities to help businesses grow and thrive. Whether you're a startup or an established company looking to expand, we can help you navigate the challenges of entrepreneurship and achieve your goals."
+    }
+  ],
+  "ProjectDeliveryContentTwo": [
     {
-      "id": 2,
       "image": "../../images/projectdelivery/ecosystemevents.jpg",
-      "title": "Ecosystem Events"
-    },
+      "title": "Ecosystem Events",
+      "description": "Building a startup can be lonely and difficult, but allying with other like-minded individuals reduces this strain. This collaboration is what has...",
+      "id": "staticBackdrop2",
+      "readmoretitle": "Ecosystem Events",
+      "readmoretext": "Building a startup can be lonely and difficult, but allying with other like-minded individuals reduces this strain. This collaboration is what has been achieved through our Ecosystem events. At 8thGear Hub and Ventures, we are committed to helping Entrepreneurs navigate the business space with as little stress as possible and in order to ensure this, we have organized different platforms the likes of which includes our; GearUp Showcase, GearUp Expose, Demo Day… among others. We have created a community of founders and funders where they get to meet through our Ecosystem events, discuss the different challenges they face, and come up with creative solutions to these problems in order to achieve a thriving business that endures."
+    }
+  ],
+  "ProjectDeliveryContentThree": [
     {
-      "id": 3,
       "image": "../../images/projectdelivery/training.jpg",
-      "title": "Training"
-    },
-    {
-      "id": 4,
-      "image": "../../images/projectdelivery/employability.png",
-      "title": "Employability"
+      "title": "Talent Development and Employment",
+      "description": "At  8thGear, we are committed to providing exceptional Talent Management  to individuals...",
+      "id": "staticBackdrop3",
+      "readmoretitle": "Talent Development and Employment",
+      "readmoretext": "At  8thGear, we are committed to providing exceptional Talent Management  to individuals and organizations alike. Whether you're a job seeker looking to take the next step in your career, or a company seeking top talent to fuel your growth, we have the expertise and resources to help you succeed. Our Career  services are designed to help individuals reach their full potential, with a range of programs and resources that support learning, growth, and career advancement. From skills assessments and training programs to mentorship and coaching, we provide a comprehensive suite of services that empower individuals to achieve their goals and excel in their careers."
     }
   ],
   "ManagedServicesContent": [
@@ -30,15 +38,15 @@
     },
     {
       "id": 2,
-      "link": "/tech",
+      "link": "/product-development",
       "image": "../../images/managedservices/tech.png",
-      "title": "Tech"
+      "title": "Product Development"
     },
     {
       "id": 3,
-      "link": "/legal",
-      "image": "../../images/managedservices/legal.png",
-      "title": "Legal"
+      "link": "/hub-services",
+      "image": "../../images/managedservices/talentacquisition.jpg",
+      "title": "Talent Acquisition"
     },
     {
       "id": 4,
@@ -48,9 +56,9 @@
     },
     {
       "id": 5,
-      "link": "/managed-services",
-      "image": "../../images/managedservices/talentacquisition.jpg",
-      "title": "Talent Acquisition"
+      "link": "/legal",
+      "image": "../../images/managedservices/legal.png",
+      "title": "Legal"
     }
   ]
 }
