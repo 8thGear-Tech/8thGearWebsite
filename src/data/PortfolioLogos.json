@@ -19,6 +19,11 @@
       "id": 4,
       "logo": "../../images/ease.png",
       "link": "/ease-soiless"
+    },
+    {
+      "id": 5,
+      "logo": "../../images/legalmo.png",
+      "link": "/legalmo"
     }
   ]
 }

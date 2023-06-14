@@ -118,5 +118,17 @@
       "title": "Funds Raised",
       "details": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding.The Venture Studio model for entrepreneurship, combining comapny building with venture funding"
     }
+  ],
+  "LegalMoPortfolioInfo": [
+    {
+      "id": 1,
+      "link": "https://www.legalmo.biz/",
+      "img": "../../images/portfoliologo/legalmo.png",
+      "about": "LegalMO is a legal tech venture, promoting the legal health and promotion of SMEs and Startups by creating a platform where Startups and SMEs can access affordable legal services.",
+      "role": "CEO",
+      "fullname": "Bukola Lasabi",
+      "year": "Year - 2023",
+      "website": "www.legalmo.biz"
+    }
   ]
 }
