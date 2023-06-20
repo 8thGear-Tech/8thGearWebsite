@@ -17,6 +17,9 @@ import { EventIcon } from "../../components/Icons";
 import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
 
+//spaces
+import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+
 const CoWorking = () => {
   return (
     <>
@@ -26,6 +29,7 @@ const CoWorking = () => {
       <OurOffers />
       <PricingTable />
       <TestimonialSection />
+      <OurSpaces />
       <TestimonialSectionTwo />
     </>
   );
@@ -147,12 +151,12 @@ const PricingTable = () => {
       <div className="text-center mt-5">
         <h3> OUR PRICE RANGE </h3>
         <div className="mx-3">
-          <button
+          {/* <button
             onClick={() => setActive("firstButton")}
             className="DailyandWeekendBundleBtn mx-2 mt-3"
           >
             Daily and Weekend Bundle
-          </button>
+          </button> */}
 
           {/* </button> */}
           {/* <button
@@ -166,7 +170,7 @@ const PricingTable = () => {
           {/* </button> */}
         </div>
       </div>{" "}
-      <div className="text-center mt-5">
+      <div className="text-center mt-3">
         {active === "firstButton" && (
           <div className="container">
             <div className="table-responsive">
@@ -600,14 +604,74 @@ const TestimonialSection = () => {
     </>
   );
 };
-const TestimonialSectionTwo = () => {
+const OurSpaces = () => {
   return (
     <>
       <div className="container-fluid">
-        <h3 className="text-center mt-5">
+        <h3 className="text-center pt-5">OUR CO-WORKING SPACES</h3>
+        <p className="text-center">
+          Three locations, same excellent customer service
+        </p>
+        <div className="container pb-5 px-4 ">
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="spaceImg my-3 d-flex align-items-end">
+                <div className="card spaceImgCard mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      8thGear Hub, CMD Road, Lagos
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="hubOneImg my-3 d-flex align-items-end">
+                <div className="card spaceImgCard mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      HubOne, Yaba
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+              <div className="innkeeperHackerSpaceImg my-3 d-flex align-items-end">
+                <div className="card spaceImgCard mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      Innkeeper Hacker’s Space, Magodo
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+const TestimonialSectionTwo = () => {
+  return (
+    <>
+      <div className="container-fluid BGG">
+        <h3 className="text-center pt-5">
           LAGOS INNOVATES: FREE WORKSPACE VOUCHER
         </h3>
-        <div className="container py-5 px-4">
+        <p className="text-center">
+          Redeem your workspace voucher
+          <a
+            href="https://www.lagosinnovates.ng/content/partner-hubs"
+            target="_blank"
+            style={{ color: "#821e6b" }}
+          >
+            {" "}
+            here
+          </a>
+        </p>
+        <div className="container pb-5 px-4">
           <div className="d-flex justify-content-center">
             {" "}
             <iframe

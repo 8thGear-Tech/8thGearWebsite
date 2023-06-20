@@ -28,11 +28,10 @@ export const AboutStartup = (props) => {
                 // style={{ maxWidth: "100%", maxHeight: "100%" }}
                 style={{ maxWidth: "250px", maxHeight: "250px" }}
                 alt="..."
-                // style={{ width: "px" }}
               />
             </a>
           </div>
-          <div className="col-lg-8 col-md-12 col-sm-12 pt-4 ">
+          <div className="col-lg-8 col-md-12 col-sm-12 pt-4">
             <p className="d-flex text-center mx-2">{about}</p>
           </div>
         </div>

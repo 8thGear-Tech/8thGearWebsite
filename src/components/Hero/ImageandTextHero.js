@@ -8,6 +8,7 @@ import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import { BookaSessionBtn } from "../Buttons/ServicesBtn";
 import { RegisterBtn } from "../Buttons/ProjectDeliveryBtn";
+import { BookNowBtn } from "../Buttons/ServicesBtn";
 
 export const ManageServicesDigitalMarketingHero = () => {
   return (
@@ -170,19 +171,17 @@ export const CoworkingHero = () => {
       <div className="px-4 container-fluid CoworkingHeroBgg d-flex pt-3 pb-4">
         <div className="row justify-content-center ">
           <div className="col-lg-12 col-md-12 col-sm-12 ">
-            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
-              8thGear Hub Coworking space offers state-of-the-art facilities,
-              high-speed internet and a range of private and shared workspace
-              options. You can join the 8thGear Hub Coworking space and
-              experience the ultimate in coworking success
-            </h2>
+            <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center">
+              Where work meets community - discover the perfect coworking space.
+            </h1>
             <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center">
               {" "}
-              8thGear Hub Coworking space offers state-of-the-art facilities,
-              high-speed internet and a range of private and shared workspace
-              options. You can join the 8thGear Hub Coworking space and
-              experience the ultimate in coworking success
-            </h3> */}
+              Where work meets community - discover the perfect coworking space.
+            </h3>
+            <div className="text-center mt-3 BookNow">
+              {" "}
+              <BookNowBtn />
+            </div>
           </div>
         </div>
       </div>

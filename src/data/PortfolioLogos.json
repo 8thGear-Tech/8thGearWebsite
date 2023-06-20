@@ -22,8 +22,13 @@
     },
     {
       "id": 5,
-      "logo": "../../images/legalmoo.png",
+      "logo": "../../images/legalmo.png",
       "link": "/legalmo"
+    },
+    {
+      "id": 6,
+      "logo": "../../images/trulance.png",
+      "link": "/trulance"
     }
   ]
 }

@@ -14,6 +14,7 @@ import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
 import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
 import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import LegalMoPortfolioPage from "./pages/Studio/LegalMoPortfolio";
+import TrulancePortfolioPage from "./pages/Studio/TrulancePortfolio";
 
 //Project Delivery
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
@@ -85,6 +86,7 @@ function App() {
           <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
           <Route path="haven" element={<HavenPortfolioPage />} />
           <Route path="legalmo" element={<LegalMoPortfolioPage />} />
+          <Route path="trulance" element={<TrulancePortfolioPage />} />
           <Route path="project-delivery" element={<ProjectDeliveryPage />} />
           <Route
             path="project-delivery-gallery"

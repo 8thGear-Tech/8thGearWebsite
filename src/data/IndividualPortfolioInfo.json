@@ -130,5 +130,31 @@
       "year": "Year - 2023",
       "website": "www.legalmo.biz"
     }
+  ],
+  "TrulancePortfolioInfo": [
+    {
+      "id": 1,
+      "link": "https://trulance.io/",
+      "img": "../../images/portfoliologo/trulance.png",
+      "about": "TruLance is a global marketplace that provides credible technology solutions to businesses and startups, by leveraging on its affiliate communities of vetted freelance developers, designers, content creators and digital marketers. TruLance ensures value is served by taking full responsibility for the quality and timely delivery of agreed outputs.",
+      "role": "CEO",
+      "fullname": "Adebanjo Adeniji",
+      "year": "Year - 2023",
+      "website": "trulance.io"
+    }
+  ],
+  "TrulancePortfolioTractions": [
+    {
+      "id": 1,
+      "number": "4",
+      "title": "Service Category",
+      "details": "TruLance currently offers these four (4) technology solutions to businesses globally: Product development (web and mobile application development), Product design, Digital marketing and Creative content development."
+    },
+    {
+      "id": 2,
+      "number": "+500",
+      "title": "Talents",
+      "details": "Access to 500+ talent in the Affiliate Communities (Egglin and Innkeeper) of vetted freelance developers, designers, content creators and digital marketers."
+    }
   ]
 }

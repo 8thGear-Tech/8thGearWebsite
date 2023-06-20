@@ -193,6 +193,7 @@ export const NewFooter = () => {
                   <a
                     href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"
                     className="nav-link px-2 footerText text-decoration-underline"
+                    target="_blank"
                     style={{ fontSize: "0.8rem", color: "#821e6b" }}
                   >
                     <b>8THGEAR HUB, LAGOS, NIGERIA</b>
@@ -216,6 +217,14 @@ export const NewFooter = () => {
             <div className="">
               {" "}
               <ul className="nav">
+                <li className="nav-item">
+                  <a
+                    className="nav-link px-2 footerText internalLink"
+                    style={{ fontSize: "0.8rem", color: "#821e6b" }}
+                  >
+                    Copyright &copy; 2023
+                  </a>
+                </li>
                 <li className="nav-item">
                   <a
                     href="/privacy-policy"

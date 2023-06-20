@@ -220,10 +220,13 @@
   width: 100%;
 }
 
-.CoworkingHeroBg h2 {
+.CoworkingHeroBg h1 {
   position: relative;
 }
 .CoworkingHeroBg h3 {
+  position: relative;
+}
+.BookNow {
   position: relative;
 }
 
@@ -926,4 +929,92 @@
   // /* Note: backdrop-filter has minimal browser support */
 
   // transform: rotate(-24.36deg);
+}
+
+// .spaceImg {
+//   border-radius: 20px;
+//   background: url(/src/assets/images/coworking/EightGearHub.png);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 80vh;
+//   width: 100%;
+// }
+// .hubOneImg {
+//   border-radius: 20px;
+//   background: url(/src/assets/images/coworking/HubOne.png);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 80vh;
+//   width: 100%;
+// }
+// .innkeeperHackerSpaceImg {
+//   border-radius: 20px;
+//   background: url(/src/assets/images/coworking/Innkeeper.png);
+//   background-size: cover;
+//   position: relative;
+//   top: 0px;
+//   right: 0px;
+//   bottom: 0px;
+//   left: 0px;
+//   height: 80vh;
+//   width: 100%;
+// }
+// .spaceImgCard {
+//   bottom: 0;
+//   display: flex;
+//   justify-content: center;
+//   margin-bottom: 20px;
+// }
+
+.spaceImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/EightGearHub.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.hubOneImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/HubOne.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.innkeeperHackerSpaceImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.spaceImgCard {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.spaceTitle {
+  color: $btncolor;
+}
+
+.BGG {
+  background-color: $lightgreenbg;
 }

@@ -249,6 +249,12 @@ h5 {
   font-family: "Rubik", sans-serif;
 }
 
+h6 {
+  font-size: 0.82em;
+  font-weight: 300;
+  font-family: "Rubik", sans-serif;
+}
+
 p {
   font-size: 1rem;
   font-weight: 300;
@@ -707,7 +713,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 8rem;
+  width: 10rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -1827,11 +1833,15 @@ article h4 {
   width: 100%;
 }
 
-.CoworkingHeroBg h2 {
+.CoworkingHeroBg h1 {
   position: relative;
 }
 
 .CoworkingHeroBg h3 {
+  position: relative;
+}
+
+.BookNow {
   position: relative;
 }
 
@@ -2485,6 +2495,51 @@ article h4 {
 .FUTAHeroBg {
   background: rgba(0, 164, 149, 0.44);
   background-blend-mode: darken;
+}
+
+.spaceImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/EightGearHub.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.hubOneImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/HubOne.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.innkeeperHackerSpaceImg {
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+
+.spaceImgCard {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.spaceTitle {
+  color: #821e6b;
+}
+
+.BGG {
+  background-color: rgba(0, 164, 149, 0.07);
 }
 
 video {
