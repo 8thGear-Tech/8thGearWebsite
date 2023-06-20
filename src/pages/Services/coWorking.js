@@ -25,12 +25,12 @@ const CoWorking = () => {
     <>
       <Navbar8 />
       <CoworkingHero />
+      <OurSpaces />
+      <TestimonialSection />
+      <WorkSpaceGrant />
       <Offers />
       <OurOffers />
       <PricingTable />
-      <TestimonialSection />
-      <OurSpaces />
-      <TestimonialSectionTwo />
     </>
   );
 };
@@ -99,7 +99,7 @@ const OurOffers = () => {
                 {" "}
                 <SereneEnvironmentIcon />
                 {/* <i className="bi bi-cup-straw" style={{ fontSize: "3rem" }}></i> */}
-                <h6 className="mt-2">Serene Environment</h6>
+                <p className="mt-2">Serene Environment</p>
               </div>
             </div>
             <div className="row justify-content-center coworkingGrid">
@@ -110,7 +110,7 @@ const OurOffers = () => {
               >
                 {" "}
                 <EventIcon />
-                <p> Ecosystem Event</p>
+                <p> Ecosystem Events</p>
               </div>
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridDark text-center py-5 "
@@ -653,7 +653,7 @@ const OurSpaces = () => {
     </>
   );
 };
-const TestimonialSectionTwo = () => {
+const WorkSpaceGrant = () => {
   return (
     <>
       <div className="container-fluid BGG">
@@ -663,13 +663,23 @@ const TestimonialSectionTwo = () => {
         <p className="text-center">
           Redeem your workspace voucher
           <a
-            href="https://www.lagosinnovates.ng/content/partner-hubs"
+            href="https://forms.gle/pjR1os5hN6WnbzFa9"
             target="_blank"
             style={{ color: "#821e6b" }}
           >
             {" "}
             here
           </a>
+          . To apply for your workspace grant, click
+          <a
+            href="https://www.lagosinnovates.ng/programs/startups-enterprises/workspace-vouchers"
+            target="_blank"
+            style={{ color: "#821e6b" }}
+          >
+            {" "}
+            here
+          </a>
+          .
         </p>
         <div className="container pb-5 px-4">
           <div className="d-flex justify-content-center">
