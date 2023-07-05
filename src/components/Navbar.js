@@ -76,7 +76,7 @@ const NavBar = (props) => {
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Studio
+              Venture Studio
             </a>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li>
@@ -91,22 +91,40 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-
           <br />
-
+          {/* <div>
+            <Link
+              className=" nav-link  mx-3"
+              type="button"
+              aria-expanded="false"
+              to="/coworking"
+            >
+              Coworking
+            </Link>
+          </div>
+          <br />
           <div>
             <Link
               className=" nav-link  mx-3"
               type="button"
               aria-expanded="false"
-              to="/project-delivery"
+              to="/"
             >
-              Project Delivery
+              Talent Placement
             </Link>
           </div>
-
           <br />
-
+          <div>
+            <Link
+              className=" nav-link  mx-3"
+              type="button"
+              aria-expanded="false"
+              to="/"
+            >
+              Tech Marketplace
+            </Link>
+          </div> */}
+          {/* <br /> */}
           <div>
             <a
               className=" nav-link dropdown-toggle mx-3"
@@ -119,13 +137,23 @@ const NavBar = (props) => {
             </a>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li>
+                <Link className="dropdown-item" to="/coworking">
+                  Coworking
+                </Link>
+              </li>
+              {/* <li>
                 <Link className="dropdown-item" to="/hub-services">
-                  Hub Services
+                  Talent Placement
                 </Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/coworking">
-                  Coworking
+                <Link className="dropdown-item" to="/growth-as-a-service">
+                  Tech Marketplace
+                </Link>
+              </li> */}
+              <li>
+                <Link className="dropdown-item" to="/hub-services">
+                  Hub Services
                 </Link>
               </li>
               <li>
@@ -135,7 +163,17 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-
+          <br />{" "}
+          <div>
+            <Link
+              className=" nav-link  mx-3"
+              type="button"
+              aria-expanded="false"
+              to="/project-delivery"
+            >
+              Project Delivery
+            </Link>
+          </div>
           <br />
           <div>
             <a
@@ -155,9 +193,7 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-
           <br />
-
           <div>
             <a
               className=" nav-link dropdown-toggle mx-3"
@@ -181,9 +217,7 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-
           <br />
-
           <div>
             <Link
               className=" nav-link  mx-3"
@@ -213,18 +247,14 @@ const NavBar = (props) => {
               </li>
             </ul>
           </div>
-
           <br />
           <br />
-
           <div className="mx-3">
             <JointheStudioBtn />
           </div>
-
           <br />
           <br />
           <br />
-
           <div className="d-flex justify-content-center mt-5 ">
             <div className="">
               <a href="https://www.facebook.com/8thgearhub">
