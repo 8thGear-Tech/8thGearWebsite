@@ -3207,8 +3207,8 @@ header {
 }
 
 .slider2 .slide-track2 {
-  -webkit-animation: scroll 50s linear infinite;
-  animation: scroll 50s linear infinite;
+  -webkit-animation: scroll 45s linear infinite;
+  animation: scroll 45s linear infinite;
   display: flex;
   width: -webkit-fit-content;
   width: -moz-fit-content;
