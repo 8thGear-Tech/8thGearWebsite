@@ -35,6 +35,7 @@ import HubServicesLegal from "./pages/Services/HubServicesLegal";
 import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
+import TalentPlacement from "./pages/Services/TalentPlacement";
 
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
@@ -112,6 +113,7 @@ function App() {
           <Route path="product-development" element={<HubServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
+          <Route path="talent-placement" element={<TalentPlacement />} />
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />

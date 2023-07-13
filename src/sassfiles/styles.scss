@@ -39,6 +39,7 @@
 @use "./pages/events/demoDay";
 @use "./pages/events/foundersMeetup" as *;
 @use "./pages/resources";
+@use "./pages/services/talentPlacement" as *;
 
 //careers
 @use "./pages/careers/bdandsalesperson";
