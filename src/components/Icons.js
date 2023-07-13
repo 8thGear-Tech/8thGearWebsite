@@ -69,6 +69,11 @@ import startupsupported from "../assets/icons/projectdelivery/startupsupported.p
 import projectsdelivered from "../assets/icons/projectdelivery/projectsdelivered.png";
 import techtalentsempowered from "../assets/icons/projectdelivery/techtalentsempowered.png";
 
+// Why Recruit From Us
+import expertism from "../assets/images/talentplacement/expertism.png";
+import professionalism from "../assets/images/talentplacement/professionalism.png";
+import swiftprocess from "../assets/images/talentplacement/swiftprocess.png";
+
 export const WhatWeDoIcon = () => {
   return (
     <div>
@@ -494,11 +499,13 @@ export const MeetingRoomIcon = () => {
     <img src={meetingroom} style={{ maxWidth: "50%", maxHeight: "50%" }}></img>
   );
 };
-// export const ArrowIcon = () => {
+
+// // Why Recruit From Us
+
+// export const ExpertismIcon = () => {
 //   return (
-//     <i
-//       className="bi bi-arrow-up-square"
-//       style={{ width: "50px", height: "50px" }}
-//     ></i>
+//     <div>
+//       <img src={expertism} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//     </div>
 //   );
 // };

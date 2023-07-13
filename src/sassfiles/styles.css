@@ -709,6 +709,10 @@ article h4 {
   background-color: #2400a4;
 }
 
+.talentHeroBg {
+  background: rgba(0, 164, 149, 0.1);
+}
+
 .BookNowBtn {
   border: 3px solid #821e6b;
   color: #000;
@@ -3158,6 +3162,89 @@ header {
   color: #0d6efd;
 }
 
+.card {
+  fill: #fff;
+  stroke-width: 5px !important;
+  stroke: rgba(0, 0, 0, 0.8) !important;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slider2 {
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.slider2::before,
+.slider2::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider2::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider2::before {
+  left: 0;
+  top: 0;
+}
+
+.slider2 .slide-track2 {
+  -webkit-animation: scroll 50s linear infinite;
+  animation: scroll 50s linear infinite;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.slider2 .slide2 {
+  height: 100px;
+  display: flex;
+}
+
+.slider2 .slide2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: auto;
+  margin: auto;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* scroll only 100% of the total width */
+    transform: translateX(-50%);
+  }
+}
 .jd-list-items {
   font-size: 1rem;
   font-weight: 300;

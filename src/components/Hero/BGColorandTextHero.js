@@ -1,5 +1,10 @@
 import data from "../../data/portfolioHero.json";
 import { EventsRegisterBtn } from "../Buttons/EventsBtn";
+
+import TalentPlacementHeroImg from "../../assets/images/hero/TalentPlacementHero.png";
+import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
+import talentsplaced from "../../assets/images/talentplacement/talentsplaced.png";
+import satisfiedclients from "../../assets/images/talentplacement/satisfiedclients.png";
 //ManagedServicesHero
 //PortfoliosandTeamPageHero
 // founderMeetupAndDemoday
@@ -179,6 +184,72 @@ export const ArticleReadMoreHero = () => {
             funding combining company building with venture funding. For
             entrepreneurship, .
           </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const TalentPlacementHero = () => {
+  return (
+    <div className="container-fluid talentHeroBg">
+      <div className="row align-items-center justify-content-center px-4 py-5">
+        <div className="col-lg-6 col-md-7 col-sm-12 pt-2">
+          <h6>Seamless Hiring Process!</h6>
+          <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none mt-3">
+            Hire Top Talents
+            <br />
+          </h2>
+          <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none mt-3">
+            Hire Top Talents
+            <br />
+          </h3>
+          <p className="mt-3">
+            We are experts in talent placement for tech roles and are committed
+            to providing you with top-notch professionals who possess the exact
+            skills your business needs.
+          </p>
+          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4"></div>
+          <div>
+            <a href="https://bit.ly/8thgeartalentrequestform" target="_blank">
+              {" "}
+              <ManagedServicesRequestBtn />
+            </a>
+          </div>
+          <div className="d-flex mt-4">
+            <div className="d-flex align-items-center">
+              <div>
+                <img src={talentsplaced} className="img-fluid" />
+              </div>
+              <div className="ms-2">
+                <p className="p-0 m-0">
+                  <b>200+</b>
+                </p>
+                <p className="p-0 m-0">Talents</p>
+              </div>
+            </div>
+            <div className="d-flex align-items-center ms-3">
+              <div>
+                <img src={satisfiedclients} className="img-fluid" />
+              </div>
+              <div className="ms-2">
+                <p className="p-0 m-0">
+                  <b>50+</b>
+                </p>
+                <p className="p-0 m-0">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={TalentPlacementHeroImg}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+            width="350"
+            height="350"
+          />
+          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center"></div>
         </div>
       </div>
     </div>

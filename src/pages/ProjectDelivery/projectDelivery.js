@@ -46,8 +46,8 @@ const Competencies = () => {
     <div className="container-fluid">
       <div className="container ">
         <div className="row justify-content-evenly ">
-          <h4 className="py-5 text-center">COMPETENCIES</h4>
-          <div className="col-lg-4 col-md-6 mt-5 mb-5 px-4 d-flex">
+          <h4 className="pt-5 text-center">COMPETENCIES</h4>
+          <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
             {" "}
             {Data.ProjectDeliveryContent.map((ProjectDeliveryContent) => {
               return (
@@ -57,7 +57,7 @@ const Competencies = () => {
               );
             })}
           </div>
-          <div className="col-lg-4 col-md-6 mt-5 mb-5 px-4 d-flex">
+          <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
             {" "}
             {Data.ProjectDeliveryContentTwo.map((ProjectDeliveryContent) => {
               return (
@@ -67,7 +67,7 @@ const Competencies = () => {
               );
             })}
           </div>
-          <div className="col-lg-4 col-md-6 mt-5 mb-5 px-4 d-flex">
+          <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
             {" "}
             {Data.ProjectDeliveryContentThree.map((ProjectDeliveryContent) => {
               return (
@@ -77,24 +77,6 @@ const Competencies = () => {
               );
             })}
           </div>
-          {/* <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
-          {data.teamcardtwo.map((card) => {
-            return <TeamCardTwo {...card}></TeamCardTwo>;
-          })}
-        </div> */}
-          {/* {Data.ProjectDeliveryContent.map((ProjectDeliveryContent) => {
-            return (
-              <div
-                className="col-lg-4 col-md-6 col-sm-10 mb-5 px-4 d-flex "
-                key={ProjectDeliveryContent.id}
-              >
-                <NewProjectDeliveryCard
-                  {...ProjectDeliveryContent}
-                ></NewProjectDeliveryCard>
-              </div>
-            );
-          })} */}
         </div>
         <div className="text-center mb-4">
           {" "}
