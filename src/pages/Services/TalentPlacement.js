@@ -740,39 +740,6 @@ const TrustedCompanies = () => (
               />
             </div>
           ))}
-          {[
-            ecobarter,
-            firstbank,
-            aiki,
-            chekkit,
-            cloudflex,
-            propslogo,
-            esentry,
-            uba,
-            npc,
-            unionbank,
-            lagosstategovernment,
-            wouessi,
-            dangote,
-            ictflier,
-            elitecv,
-            tingomobile,
-            fuelmetrics,
-          ].map((src, index) => (
-            <div
-              className="slide2"
-              key={index}
-              style={index === 0 ? { marginLeft: "0px" } : undefined}
-            >
-              <img
-                src={src}
-                alt={`Logo ${index + 1}`}
-                className="carousel-logo"
-                // style={{ width: "80px", height: "80px" }}
-                style={{ width: "130px", height: "130px", margin: "0 30px" }}
-              />
-            </div>
-          ))}
         </div>
       </div>
     </div>
