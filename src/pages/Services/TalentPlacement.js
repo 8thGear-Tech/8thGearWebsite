@@ -55,7 +55,7 @@ const TalentPlacement = () => {
       <TransformingTheHiringProcess />
       <WhyRecruitFromUs />
       <OurAvailableTalents />
-      <TrustedCompanies />
+      {/* <TrustedCompanies /> */}
       {/* <LogoCarousel /> */}
     </>
   );
