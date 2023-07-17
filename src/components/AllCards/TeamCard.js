@@ -896,7 +896,7 @@ export const TeamCardEight = (props) => {
 // };
 export const Gerians = () => {
   return (
-    <div className="container ">
+    <div className="container">
       <div className="row justify-content-center mt-5">
         <h3 className="text-center ">Our Core Team</h3>
         <div className="col-lg-4 col-md-6 mt-5">
@@ -1110,8 +1110,8 @@ const AdvisoryBoardCard = (props) => {
 };
 export const AdvisoryTeamPic = () => {
   return (
-    <div className="container ">
-      <div className="row d-flex justify-content-center mt-5">
+    <div className="container-fluid partnersBg px-5">
+      <div className="row d-flex justify-content-center mt-5 px-5">
         <h3 className="text-center pt-5 pb-3">Advisory Board</h3>
         {Info.FirstHoverCard.map((firstHoverCard) => {
           return (

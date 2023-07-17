@@ -113,7 +113,7 @@ function App() {
           <Route path="product-development" element={<HubServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
-          <Route path="talent-placement" element={<TalentPlacement />} />
+          {/* <Route path="talent-placement" element={<TalentPlacement />} /> */}
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />

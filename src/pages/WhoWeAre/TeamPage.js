@@ -14,8 +14,8 @@ import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionFor
 const TeamPage = () => {
   return (
     <>
-      <Navbar11 />
-      <TeamHero />
+      {/* <Navbar11 /> */}
+      {/* <TeamHero /> */}
       {/* <OurTeamHero /> */}
       <Gerians />
       {/* <EIR /> */}

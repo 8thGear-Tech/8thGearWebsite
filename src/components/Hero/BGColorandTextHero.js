@@ -189,13 +189,14 @@ export const ArticleReadMoreHero = () => {
     </div>
   );
 };
+
 export const TalentPlacementHero = () => {
   return (
     <div className="container-fluid talentHeroBg">
       <div className="row align-items-center justify-content-center px-4 py-5">
         <div className="col-lg-6 col-md-7 col-sm-12 pt-2">
           <h6>Seamless Hiring Process!</h6>
-          <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none mt-3">
+          <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none mt-3">
             Hire Top Talents
             <br />
           </h2>
@@ -241,15 +242,16 @@ export const TalentPlacementHero = () => {
           </div>
         </div>
         <div className="col-lg-5 col-md-5 col-sm-12">
-          <img
-            src={TalentPlacementHeroImg}
-            className="d-block mx-lg-auto img-fluid"
-            alt=""
-            loading=""
-            width="350"
-            height="350"
-          />
-          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center"></div>
+          <div className="d-flex justify-content-center mt-5">
+            <img
+              src={TalentPlacementHeroImg}
+              className="d-block mx-lg-auto img-fluid"
+              alt=""
+              loading=""
+              width="350"
+              height="350"
+            />
+          </div>
         </div>
       </div>
     </div>
