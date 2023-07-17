@@ -583,7 +583,13 @@ export const SinglegalleryVideo = (props) => {
   return (
     <>
       <div className="card">
-        <iframe src={video} height="280" className="" alt="..." />
+        <iframe
+          src={video}
+          height="280"
+          allowFullScreen
+          className=""
+          alt="..."
+        />
       </div>
     </>
   );

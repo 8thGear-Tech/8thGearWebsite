@@ -7,7 +7,7 @@ import { Carousel, Item, Slide, div, img } from "bootstrap";
 // import ReactBootstrap, { Carousel, Item, Slide } from "react-bootstrap";
 
 //internal
-// import { Navbar24 } from "../../components/Navbar";
+import { Navbar24 } from "../../components/Navbar";
 import { TalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
 import recruitment from "../../assets/images/talentplacement/recruitment.jpg";
 import outsourcing from "../../assets/images/talentplacement/outsourcing.png";
@@ -49,13 +49,13 @@ import data from "../../assets/images/talentplacement/talents/data.png";
 const TalentPlacement = () => {
   return (
     <>
-      {/* <Navbar24 /> */}
+      <Navbar24 />
       <TalentPlacementHero />
       <Services />
       <TransformingTheHiringProcess />
       <WhyRecruitFromUs />
       <OurAvailableTalents />
-      {/* <TrustedCompanies /> */}
+      <TrustedCompanies />
       {/* <LogoCarousel /> */}
     </>
   );

@@ -48,6 +48,7 @@ import BlogPage from "./pages/Insights/blog";
 //Events
 import EventsPage from "./pages/Events/events";
 import EventsGalleryPage from "./pages/Events/eventsGallery";
+import FourthYearAnniversary from "./pages/Events/fourthYearAnniversary";
 import DemoDayPage from "./pages/Events/demoDay";
 import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
@@ -113,7 +114,7 @@ function App() {
           <Route path="product-development" element={<HubServicesTech />} />
           <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
-          {/* <Route path="talent-placement" element={<TalentPlacement />} /> */}
+          <Route path="talent-placement" element={<TalentPlacement />} />
 
           <Route path="about" element={<AboutUs />} />
           <Route path="team" element={<TeamPage />} />
@@ -132,6 +133,10 @@ function App() {
             element={<FoundersPictureGalleryCardsTwo />}
           />
           <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+          <Route
+            path="4th-year-anniversary"
+            element={<FourthYearAnniversary />}
+          />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
           <Route path="resources" element={<Resources />} />

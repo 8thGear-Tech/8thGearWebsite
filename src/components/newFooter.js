@@ -83,11 +83,11 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/team"
+                    to="/about"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    8THGEARIANS
+                    WHO WE ARE
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -173,7 +173,7 @@ export const NewFooter = () => {
                     PROJECT DELIVERY
                   </a>
                 </li> */}
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     to="/hub-services"
                     className="nav-link px-2 footerText"
@@ -181,7 +181,7 @@ export const NewFooter = () => {
                   >
                     HUB SERVICES
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   {/* <a
                     href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"

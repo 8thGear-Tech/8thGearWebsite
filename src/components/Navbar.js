@@ -27,14 +27,14 @@ const NavBar = (props) => {
             <img src={logos} alt="" width={60} height={70} className=" mx-4 " />
           </Link>
           <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
-            <a href="" variant="primary" onClick={handleShow}>
+            <Nav.Link variant="primary" onClick={handleShow}>
               <div className="">
                 <i
                   className="bi bi-list text-dark"
                   style={{ fontSize: "2.5rem" }}
                 ></i>
               </div>
-            </a>
+            </Nav.Link>
           </div>
 
           <Offcanvas
@@ -74,10 +74,13 @@ const NavBar = (props) => {
                 className="h5 mx-3 mb-4"
               >
                 <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
-                <NavDropdown.Item href="talent-placement">
+                <NavDropdown.Item href="/talent-placement">
                   Talent Placement
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Tech Marketplace</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#">Tech Marketplace</NavDropdown.Item> */}
+                <NavDropdown.Item href="/growth-as-a-service">
+                  Growth-as-a-Service
+                </NavDropdown.Item>
               </NavDropdown>
               <Navbar.Text
                 href="project-delivery"
@@ -956,21 +959,21 @@ export const Navbar23 = () => {
     </div>
   );
 };
-// export const Navbar24 = () => {
-//   return (
-//     <div className="container-fluid ">
-//       <div className="row">
-//         {text.TalentPlacement.map((navbar) => {
-//           return (
-//             <div
-//               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
-//               key={navbar.id}
-//             >
-//               <NavBar {...navbar}></NavBar>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
+export const Navbar24 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.TalentPlacement.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
