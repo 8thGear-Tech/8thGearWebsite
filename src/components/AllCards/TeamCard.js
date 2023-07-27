@@ -1110,8 +1110,8 @@ const AdvisoryBoardCard = (props) => {
 };
 export const AdvisoryTeamPic = () => {
   return (
-    <div className="container-fluid partnersBg px-5">
-      <div className="row d-flex justify-content-center mt-5 px-5">
+    <div className="container-fluid partnersBg ">
+      <div className="row d-flex justify-content-center mt-5">
         <h3 className="text-center pt-5 pb-3">Advisory Board</h3>
         {Info.FirstHoverCard.map((firstHoverCard) => {
           return (

@@ -24,8 +24,13 @@ const NavBar = (props) => {
       <div className="container-fluid NavBar">
         <div className="d-flex ">
           <Link to="/">
-            <img src={logos} alt="" width={60} height={70} className=" mx-4 " />
+            <img src={logos} alt="" width={60} height={70} className="me-4" />
           </Link>
+          <div className="d-flex align-items-center">
+            {" "}
+            <h5>8thGear Hub</h5>
+          </div>
+
           <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
             <Nav.Link variant="primary" onClick={handleShow}>
               <div className="">

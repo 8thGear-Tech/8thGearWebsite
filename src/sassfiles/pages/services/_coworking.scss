@@ -416,10 +416,10 @@
 }
 
 .change {
-  background-color: #a5009f;
+  background-color: #a5009f !important;
 }
 .letter {
-  color: #ffff;
+  color: #fff !important;
 }
 .bi-check-circle {
   color: #ef00c0;
@@ -505,6 +505,7 @@
 .Gear {
   color: $prybgcolor;
 }
+
 // .puntin {
 //   margin-top: 1.5rem;
 // }

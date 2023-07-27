@@ -13,8 +13,10 @@ import recruitment from "../../assets/images/talentplacement/recruitment.jpg";
 import outsourcing from "../../assets/images/talentplacement/outsourcing.png";
 import cvscreening from "../../assets/images/talentplacement/cvscreening.jpg";
 import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
-import hiringprocess from "../../assets/images/talentplacement/hiringprocess.png";
+import hiringsm from "../../assets/images/talentplacement/hiringsm.png";
+import hiringlg from "../../assets/images/talentplacement/hiringlg.png";
 import line from "../../assets/images/talentplacement/line.png";
+import downarrow from "../../assets/images/talentplacement/downarrow.png";
 import expertism from "../../assets/images/talentplacement/expertism.png";
 import professionalism from "../../assets/images/talentplacement/professionalism.png";
 import swiftprocess from "../../assets/images/talentplacement/swiftprocess.png";
@@ -142,17 +144,41 @@ const TransformingTheHiringProcess = () => {
           <h4 className="my-5">Selection</h4>
         </div>
         <div className="col-lg-2 col-md-3 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
-          <h4 className="my-5 text-center">Request</h4>
-          <h4 className="my-5 text-center">Source</h4>
-          <h4 className="my-5 text-center">Shortlist</h4>
-          <h4 className="my-5 text-center">Interview</h4>
-          <h4 className="my-5 text-center">Selection</h4>
+          <h4 className="mb-3 mt-5 text-center">Request</h4>
+          <div className="text-center">
+            <img src={downarrow} className="img-fluid text-center" />
+          </div>
+
+          <h4 className="my-3 text-center">Source</h4>
+          <div className="text-center">
+            <img src={downarrow} className="img-fluid text-center" />
+          </div>
+          <h4 className="my-3 text-center">Shortlist</h4>
+          <div className="text-center">
+            <img src={downarrow} className="img-fluid text-center" />
+          </div>
+          <h4 className="my-3 text-center">Interview</h4>
+          <div className="text-center">
+            <img src={downarrow} className="img-fluid text-center" />
+          </div>
+          <h4 className="mb-5 mt-3 text-center">Selection</h4>
         </div>
-        <div className="col-lg-5 col-md-7 col-sm-12">
+        <div className="col-lg-5 col-md-7 col-sm-12 d-none d-lg-block d-md-block d-sm-none d-xs-none">
           <img
-            src={hiringprocess}
+            src={hiringlg}
+            // src={hiringprocess}
             className="d-block mx-auto img-fluid"
-            // style={{ width: "2000px", height: "2000px" }}
+            alt=""
+            loading=""
+            width="2000"
+            height="2000"
+          />
+        </div>
+        <div className="col-lg-5 col-md-7 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
+          <img
+            src={hiringsm}
+            // src={hiringprocess}
+            className="d-block mx-auto img-fluid"
             alt=""
             loading=""
             width="2000"
@@ -356,351 +382,6 @@ const OurAvailableTalents = () => {
   );
 };
 
-// const TrustedCompanies = () => {
-//   return (
-//     <div
-//       id="carouselExample"
-//       className="carousel slide"
-//       data-bs-ride="carousel"
-//     >
-//       <div className="carousel-inner">
-//         <div className="carousel-item active">
-//           <div className="d-flex justify-content-center">
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 1"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 2"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 3"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 4"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 5"
-//             />
-//           </div>
-//         </div>
-//         {/* Add more carousel items as needed */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const carouselRef = useRef(null);
-
-//   const handleCarouselInit = () => {
-//     const carousel = carouselRef.current;
-//     const bootstrapCarousel = new window.bootstrap.Carousel(carousel, {
-//       interval: 2000,
-//       pause: false,
-//     });
-//   };
-
-//   return (
-//     <div
-//       id="carouselExample"
-//       className="carousel slide"
-//       data-bs-ride="carousel"
-//       ref={carouselRef}
-//       onLoad={handleCarouselInit}
-//     >
-//       <div className="carousel-inner">
-//         <div className="carousel-item active">
-//           <div className="d-flex justify-content-center">
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 1"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 2"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 3"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 4"
-//             />
-//             <img
-//               className="d-block w-25 mx-1"
-//               src={ecobarter}
-//               alt="Company Logo 5"
-//             />
-//           </div>
-//         </div>
-//         {/* Add more carousel items as needed */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [activeIndex, setActiveIndex] = useState(0);
-
-//   const handleSlide = (selectedIndex) => {
-//     setActiveIndex(selectedIndex);
-//   };
-
-//   const logos = [
-//     { src: ecobarter, alt: "Company Logo 1" },
-//     { src: propslogo, alt: "Company Logo 2" },
-//     { src: ecobarter, alt: "Company Logo 3" },
-//     { src: ecobarter, alt: "Company Logo 4" },
-//     { src: ecobarter, alt: "Company Logo 5" },
-//   ];
-
-//   return (
-//     <Carousel
-//       activeIndex={activeIndex}
-//       onSelect={handleSlide}
-//       interval={2000}
-//       pause={false}
-//     >
-//       {logos.map((logo, index) => (
-//         <Carousel.Item key={index}>
-//           <div className="d-flex justify-content-center">
-//             <img className="d-block w-25 mx-1" src={logo.src} alt={logo.alt} />
-//           </div>
-//         </Carousel.Item>
-//       ))}
-//     </Carousel>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [activeIndex, setActiveIndex] = useState(0);
-
-//   const handleSlide = (selectedIndex) => {
-//     setActiveIndex(selectedIndex);
-//   };
-
-//   const logos = [
-//     { src: ecobarter, alt: "Company Logo 1" },
-//     { src: propslogo, alt: "Company Logo 2" },
-//     { src: ecobarter, alt: "Company Logo 3" },
-//     { src: ecobarter, alt: "Company Logo 4" },
-//     { src: ecobarter, alt: "Company Logo 5" },
-//   ];
-
-//   const visibleLogos = logos.slice(activeIndex, activeIndex + 5);
-
-//   return (
-//     <Carousel
-//       activeIndex={activeIndex}
-//       onSelect={handleSlide}
-//       interval={2000}
-//       pause={false}
-//     >
-//       {visibleLogos.map((logo, index) => (
-//         <Carousel.Item key={index}>
-//           <div className="d-flex justify-content-center">
-//             {logos.map((logo, index) => (
-//               <img
-//                 className="d-block w-25 mx-1"
-//                 src={logo.src}
-//                 alt={logo.alt}
-//                 key={index}
-//               />
-//             ))}
-//           </div>
-//         </Carousel.Item>
-//       ))}
-//     </Carousel>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [activeIndex, setActiveIndex] = useState(0);
-
-//   const handleSlide = (selectedIndex) => {
-//     setActiveIndex(selectedIndex);
-//   };
-
-//   const logos = [
-//     { src: ecobarter, alt: "Company Logo 1" },
-//     { src: propslogo, alt: "Company Logo 2" },
-//     { src: ecobarter, alt: "Company Logo 3" },
-//     { src: ecobarter, alt: "Company Logo 4" },
-//     { src: ecobarter, alt: "Company Logo 5" },
-//   ];
-
-//   const visibleLogos = logos.slice(activeIndex, activeIndex + 5);
-
-//   return (
-//     <Carousel
-//       activeIndex={activeIndex}
-//       onSelect={handleSlide}
-//       interval={2000}
-//       pause={false}
-//     >
-//       {visibleLogos.map((logo, index) => (
-//         <Carousel.Item key={index}>
-//           <div className="d-flex justify-content-center">
-//             {logos.map((logo, index) => (
-//               <img
-//                 className="d-block w-25 mx-1"
-//                 src={logo.src}
-//                 alt={logo.alt}
-//                 key={index}
-//               />
-//             ))}
-//           </div>
-//         </Carousel.Item>
-//       ))}
-//     </Carousel>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [activeIndex, setActiveIndex] = useState(0);
-
-//   const handleSlide = (selectedIndex) => {
-//     setActiveIndex(selectedIndex);
-//   };
-
-//   const logos = [
-//     { src: ecobarter, alt: "Company Logo 1" },
-//     { src: propslogo, alt: "Company Logo 2" },
-//     { src: ecobarter, alt: "Company Logo 3" },
-//     { src: ecobarter, alt: "Company Logo 4" },
-//     { src: ecobarter, alt: "Company Logo 5" },
-//   ];
-
-//   return (
-//     <Carousel
-//       activeIndex={activeIndex}
-//       onSelect={handleSlide}
-//       interval={2000}
-//       pause={false}
-//     >
-//       {logos.map((logo, index) => (
-//         <Carousel.Item key={index}>
-//           <div className="d-flex justify-content-center">
-//             <img className="d-block w-25 mx-1" src={logo.src} alt={logo.alt} />
-//           </div>
-//         </Carousel.Item>
-//       ))}
-//     </Carousel>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [logos, setLogos] = useState([]);
-//   const [fade, setFade] = useState(false);
-
-//   useEffect(() => {
-//     // Simulated data for logos
-//     const initialLogos = [
-//       "logo1.png",
-//       "logo2.png",
-//       "logo3.png",
-//       "logo4.png",
-//       "logo5.png",
-//     ];
-
-//     setLogos(initialLogos);
-
-//     const interval = setInterval(() => {
-//       setFade(true);
-//       setTimeout(() => {
-//         // Simulated new set of logos
-//         const newLogos = [
-//           "logo6.png",
-//           "logo7.png",
-//           "logo8.png",
-//           "logo9.png",
-//           "logo10.png",
-//         ];
-//         setLogos(newLogos);
-//         setFade(false);
-//       }, 1000); // Change the logos every 1 second
-//     }, 3000); // Repeat the transition every 3 seconds
-
-//     return () => {
-//       clearInterval(interval);
-//     };
-//   }, []);
-
-//   return (
-//     <div className="container">
-//       <div className="row">
-//         {logos.map((logo, index) => (
-//           <div
-//             className={`col-md-2${fade ? " fade-out" : " fade-in"}`}
-//             key={index}
-//           >
-//             <img src={logo} alt={`Logo ${index + 1}`} />
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// const TrustedCompanies = () => {
-//   const [logos, setLogos] = useState([]);
-//   const [fade, setFade] = useState(false);
-//   const [currentSetIndex, setCurrentSetIndex] = useState(0);
-
-//   useEffect(() => {
-//     // Simulated data for logos
-//     const logoSets = [
-//       ["logo1.png", "logo2.png", "logo3.png", "logo4.png", "logo5.png"],
-//       ["logo6.png", "logo7.png", "logo8.png", "logo9.png", "logo10.png"],
-//       // Add more logo sets as needed
-//     ];
-
-//     setLogos(logoSets[currentSetIndex]);
-
-//     const interval = setInterval(() => {
-//       setFade(true);
-//       setTimeout(() => {
-//         setCurrentSetIndex((prevIndex) => (prevIndex + 1) % logoSets.length);
-//         setLogos(logoSets[currentSetIndex]);
-//         setFade(false);
-//       }, 1000); // Change the logos every 1 second
-//     }, 3000); // Repeat the transition every 3 seconds
-
-//     return () => {
-//       clearInterval(interval);
-//     };
-//   }, [currentSetIndex]);
-
-//   return (
-//     <div className="container">
-//       <div className="row">
-//         {logos.map((logo, index) => (
-//           <div
-//             className={`col-md-2${fade ? " fade-out" : " fade-in"}`}
-//             key={index}
-//           >
-//             <img src={logo} alt={`Logo ${index + 1}`} />
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
 const TrustedCompanies = () => (
   <>
     <div>
@@ -735,7 +416,38 @@ const TrustedCompanies = () => (
                 src={src}
                 alt={`Logo ${index + 1}`}
                 className="carousel-logo"
-                // style={{ width: "80px", height: "80px" }}
+                style={{ width: "130px", height: "130px", margin: "0 30px" }}
+              />
+            </div>
+          ))}
+          {[
+            ecobarter,
+            firstbank,
+            aiki,
+            chekkit,
+            cloudflex,
+            propslogo,
+            esentry,
+            uba,
+            npc,
+            unionbank,
+            lagosstategovernment,
+            wouessi,
+            dangote,
+            ictflier,
+            elitecv,
+            tingomobile,
+            fuelmetrics,
+          ].map((src, index) => (
+            <div
+              className="slide2"
+              key={index}
+              style={index === 0 ? { marginLeft: "0px" } : undefined}
+            >
+              <img
+                src={src}
+                alt={`Logo ${index + 1}`}
+                className="carousel-logo"
                 style={{ width: "130px", height: "130px", margin: "0 30px" }}
               />
             </div>

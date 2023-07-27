@@ -785,7 +785,7 @@ article h4 {
   border: 3px solid #821e6b;
   color: #000;
   border-radius: 20px;
-  width: 12rem;
+  width: 14rem;
   height: 2.5rem;
   font-family: "Rubik";
   font-style: normal;
@@ -1594,11 +1594,11 @@ article h4 {
   }
 }
 .change {
-  background-color: #a5009f;
+  background-color: #a5009f !important;
 }
 
 .letter {
-  color: white;
+  color: #fff !important;
 }
 
 .bi-check-circle {

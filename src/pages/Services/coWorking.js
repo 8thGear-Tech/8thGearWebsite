@@ -151,23 +151,27 @@ const PricingTable = () => {
       <div className="text-center mt-5">
         <h3> OUR PRICE RANGE </h3>
         <div className="mx-3">
-          {/* <button
+          <button
             onClick={() => setActive("firstButton")}
             className="DailyandWeekendBundleBtn mx-2 mt-3"
           >
             Daily and Weekend Bundle
-          </button> */}
+          </button>
 
-          {/* </button> */}
-          {/* <button
+          <button
             onClick={() => setActive("secondButton")}
             className="MeetingRoomBundleBtn mx-2 mt-3"
           >
             {" "}
-            Meeting Room Bundle
-          </button> */}
-
-          {/* </button> */}
+            Flexi Plan
+          </button>
+          <button
+            onClick={() => setActive("thirdButton")}
+            className="MeetingRoomBundleBtn mx-2 mt-3"
+          >
+            {" "}
+            Event/Training Hall
+          </button>
         </div>
       </div>{" "}
       <div className="text-center mt-3">
@@ -182,9 +186,9 @@ const PricingTable = () => {
                     <th scope="col">VIRTUAL OFFICE</th>
                     <th scope="col">DEDICATED DESK</th>{" "}
                     <th scope="col">MEETING ROOM(up to 8 persons)</th>
-                    <th scope="col" style={{ width: 90 }}>
+                    {/* <th scope="col" style={{ width: 90 }}>
                       EVENT/TRAINING HALL
-                    </th>
+                    </th> */}
                     <th scope="col">PRIVATE OFFICE</th>
                   </tr>
                 </thead>
@@ -199,7 +203,7 @@ const PricingTable = () => {
                     </td>
                     <td className="Pin"></td>
                     <td className="Pin"></td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish"></td>
                   </tr>
                   {/* <tr className="Pinner">
@@ -229,7 +233,7 @@ const PricingTable = () => {
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       <i className="bi bi-check-circle"></i>
                     </td>
@@ -249,7 +253,7 @@ const PricingTable = () => {
                     <td className="Pin">
                       {/* <i className="bi bi-check-circle"></i> */}
                     </td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -257,12 +261,14 @@ const PricingTable = () => {
                   </tr>
                   <tr className="Pinner">
                     <td className="finish">
-                      <p>Community Event</p>
+                      <p>Community Events</p>
                     </td>
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pin"></td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
                     <td className="Pin">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -270,7 +276,7 @@ const PricingTable = () => {
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -278,7 +284,22 @@ const PricingTable = () => {
                   </tr>
                   <tr className="Pinner">
                     <td className="finish">
-                      <p>Meeting Room(2hours free per month)</p>
+                      <p>Meeting Room(1hour free per month)</p>
+                    </td>
+
+                    <td className="Pin"></td>
+                    <td className="Pin">
+                      {" "}
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin"> </td>
+                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
+                    <td className="Pinish"></td>
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Meeting Room(3hours free per month)</p>
                     </td>
 
                     <td className="Pin"></td>
@@ -288,7 +309,7 @@ const PricingTable = () => {
                       <i className="bi bi-check-circle"></i>
                     </td>
                     <td className="Pin"></td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish"></td>
                   </tr>
                   <tr className="Pinner">
@@ -300,7 +321,7 @@ const PricingTable = () => {
                     <td className="Pin"></td>
                     <td className="Pin"></td>
                     <td className="Pin"></td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -320,7 +341,7 @@ const PricingTable = () => {
                     <td className="Pin">
                       {/* <i className="bi bi-check-circle"></i> */}
                     </td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish"></td>
                   </tr>
                   {/* <tr className="Pinner">
@@ -352,10 +373,10 @@ const PricingTable = () => {
                       {" "}
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pin">
+                    {/* <td className="Pin">
                       {" "}
                       <i className="bi bi-check-circle"></i>
-                    </td>
+                    </td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -369,9 +390,9 @@ const PricingTable = () => {
                     <td className="Pin"></td>
                     <td className="Pin"></td>
                     <td className="Pin"></td>
-                    <td className="Pin">
+                    {/* <td className="Pin">
                       <i className="bi bi-check-circle"></i>
-                    </td>
+                    </td> */}
                     <td className="Pinish"></td>
                   </tr>
                   <tr className="Pinner">
@@ -385,7 +406,7 @@ const PricingTable = () => {
                       <i className="bi bi-check-circle"></i>
                     </td>
                     <td className="Pin"></td>
-                    <td className="Pin"> </td>
+                    {/* <td className="Pin"> </td> */}
                     <td className="Pinish"></td>
                   </tr>
                   <tr className="Pinner">
@@ -396,15 +417,15 @@ const PricingTable = () => {
                     <td className="Pin"></td>
                     <td className="Pin"></td>
                     <td className="Pin"></td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
                     </td>
                   </tr>
-                  <tr className="Pinner">
+                  {/* <tr className="Pinner">
                     <td className="finish">
-                      <p>Sound</p>
+                      <p>Good Sound System</p>
                     </td>
                     <td className="Pin"></td>
                     <td className="Pin"></td>
@@ -415,7 +436,7 @@ const PricingTable = () => {
                       <i className="bi bi-check-circle"></i>
                     </td>
                     <td className="Pinish"></td>
-                  </tr>
+                  </tr> */}
                   <tr className="Pinner">
                     <td className="finish">
                       <p>Internet Access</p>
@@ -432,7 +453,7 @@ const PricingTable = () => {
                       {" "}
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pin"></td>
+                    {/* <td className="Pin"></td> */}
                     <td className="Pinish">
                       {" "}
                       <i className="bi bi-check-circle"></i>
@@ -507,7 +528,7 @@ const PricingTable = () => {
                     <td className="Pin">₦150,000(Per Year)</td>
                     <td className="Pin">₦50,000 (Per Month)</td>
                     <td className="Pin"> ₦5,000 (Per Hour)</td>
-                    <td className="Pin"> ₦100,000(Per Day)</td>
+                    {/* <td className="Pin"> ₦100,000(Per Day)</td> */}
                     <td className="Pinish">₦200,000(Per Month)</td>
                   </tr>
                 </tbody>
@@ -522,17 +543,133 @@ const PricingTable = () => {
                 <thead className="change">
                   <tr className="letter">
                     <th scope="col" style={{ width: 500 }}></th>
+                    <th scope="col" colSpan="3">
+                      WEEKDAYS (9AM - 5PM)
+                    </th>
+                    {/* <th scope="col"> CLASSIC</th>
+                    <th scope="col">SILVER</th> */}
+                    <th scope="col">SATURDAYS (10AM - 5PM) </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="letter">
+                    <td scope="col"></td>
+                    <td scope="col">REGULAR </td>
+                    <td scope="col"> CLASSIC</td>
+                    <td scope="col">SILVER</td>
+                    <td scope="col">SATURDAYS</td>
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Internet Access</p>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    {/* 
+                    <td className="Pinish">
+                      <i className="bi bi-check-circle"></i>
+                    </td> */}
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Uninterrupted Power Supply</p>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    {/* <td className="Pinish">
+                      <i className="bi bi-check-circle"></i>
+                    </td> */}
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Community Events</p>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    {/* <td className="Pinish">
+                      <i className="bi bi-check-circle"></i>
+                    </td> */}
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Kitchenette</p>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    {/* <td className="Pinish">
+                      <i className="bi bi-check-circle"></i>
+                    </td> */}
+                  </tr>
+
+                  <tr>
+                    <td className="finish">Amount</td>
+                    <td className="Pin"> ₦3,000(1 Day)</td>
+                    <td className="Pin"> ₦13,500(5 Days)</td>
+                    <td className="Pin"> ₦26,000(10 Days)</td>
+                    <td className="Pin">₦3,500</td>
+                    {/* <td className="Pinish"> ₦90,000(90 HOURS)</td> */}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+        {active === "thirdButton" && (
+          <div className="container">
+            <div className="table-responsive">
+              <table className="table table-bordered">
+                <thead className="change">
+                  <tr className="letter">
+                    <th scope="col"></th>
                     <th scope="col">REGULAR </th>
                     <th scope="col"> CLASSIC</th>
                     <th scope="col">SILVER</th>
-                    <th scope="col">GOLD </th>
-                    <th scope="col">PLATINUM </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="Pinner">
                     <td className="finish">
-                      <p>Up to 30 seats</p>
+                      <p>Uninterrupted Power Supply</p>
                     </td>
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
@@ -541,13 +678,6 @@ const PricingTable = () => {
                       <i className="bi bi-check-circle"></i>
                     </td>
                     <td className="Pin">
-                      <i className="bi bi-check-circle"></i>
-                    </td>
-                    <td className="Pin">
-                      <i className="bi bi-check-circle"></i>
-                    </td>
-
-                    <td className="Pinish">
                       <i className="bi bi-check-circle"></i>
                     </td>
                   </tr>
@@ -564,21 +694,41 @@ const PricingTable = () => {
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Good Sound System</p>
+                    </td>
                     <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
-                    <td className="Pinish">
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                  </tr>
+                  <tr className="Pinner">
+                    <td className="finish">
+                      <p>Sits up to 50 persons</p>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
+                      <i className="bi bi-check-circle"></i>
+                    </td>
+                    <td className="Pin">
                       <i className="bi bi-check-circle"></i>
                     </td>
                   </tr>
 
                   <tr>
                     <td className="finish">Amount</td>
-                    <td className="Pin"> ₦5,000(1 HOUR)</td>
-                    <td className="Pin"> ₦20,000(5 HOURS)</td>
-                    <td className="Pin"> ₦25,000(8 HOURS)</td>
-                    <td className="Pin">₦55,000(20 HOURS)</td>
-                    <td className="Pinish"> ₦90,000(90 HOURS)</td>
+                    <td className="Pin"> ₦100,000(1 Day)</td>
+                    <td className="Pin"> ₦50,000(Half Day)</td>
+                    <td className="Pin"> ₦20,000(Per Hour)</td>
                   </tr>
                 </tbody>
               </table>
