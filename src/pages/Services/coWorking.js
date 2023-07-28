@@ -554,25 +554,53 @@ const PricingTable = () => {
             <div className="table-responsive">
               <table className="table table-bordered">
                 <thead className="change">
-                  <tr className="letter">
+                  {/* <tr className="letter">
                     <th scope="col" style={{ width: 500 }}></th>
                     <th scope="col" colSpan="3">
-                      WEEKDAYS (9AM - 5PM)
+                      WEEKDAYS (9am - 5pm)
                     </th>
-                    {/* <th scope="col"> CLASSIC</th>
-                    <th scope="col">SILVER</th> */}
-                    <th scope="col">SATURDAYS (10AM - 5PM) </th>
+                   
+                    <th scope="col">SATURDAYS (10am - 5pm) </th>
                     <th scope="col">MEETING ROOM(up to 8 persons)</th>
-                  </tr>
+                  </tr> */}
                 </thead>
                 <tbody>
+                  <tr className="letter">
+                    <td scope="col" style={{ width: 500 }}></td>
+                    <td
+                      scope="col"
+                      colSpan="3"
+                      style={{ verticalAlign: "middle" }}
+                    >
+                      {" "}
+                      WEEKDAYS (9am - 5pm)
+                    </td>
+                    <td
+                      scope="col"
+                      rowSpan="2"
+                      className="mt-3"
+                      style={{ verticalAlign: "middle" }}
+                    >
+                      SATURDAYS (10am - 5pm){" "}
+                    </td>
+                    <td
+                      scope="col"
+                      rowSpan="2"
+                      style={{ verticalAlign: "middle" }}
+                    >
+                      MEETING ROOM(up to 8 persons)
+                    </td>
+                    {/* <td scope="col">DELUXE</td>
+                    <td scope="col">SATURDAYS</td>
+                    <td scope="col">MEETING ROOM</td> */}
+                  </tr>
                   <tr className="letter">
                     <td scope="col"></td>
                     <td scope="col">REGULAR </td>
                     <td scope="col">CLASSIC</td>
                     <td scope="col">DELUXE</td>
-                    <td scope="col">SATURDAYS</td>
-                    <td scope="col">MEETING ROOM</td>
+                    {/* <td scope="col">SATURDAYS</td> */}
+                    {/* <td scope="col">MEETING ROOM</td> */}
                   </tr>
                   <tr className="Pinner">
                     <td className="finish">
@@ -680,9 +708,9 @@ const PricingTable = () => {
                 <thead className="change">
                   <tr className="letter">
                     <th scope="col"></th>
-                    <th scope="col">REGULAR </th>
-                    <th scope="col"> CLASSIC</th>
-                    <th scope="col">DELUXE</th>
+                    <th scope="col">REGULAR (9am - 5pm) </th>
+                    <th scope="col"> CLASSIC (9am - 1pm)/(1pm - 5pm)</th>
+                    <th scope="col">DELUXE (9am - 5pm)</th>
                   </tr>
                 </thead>
                 <tbody>
