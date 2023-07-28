@@ -72,7 +72,8 @@ const OurOffers = () => {
                 style={{ height: "200px" }}
               >
                 <i className="bi bi-alarm" style={{ fontSize: "3rem" }}></i>
-                <p> Monday-Friday (9am-5pm) </p>
+                <p className="m-0 p-0"> Monday-Friday (9am-5pm) </p>
+                <p className="m-0 p-0"> Saturdays (10am-5pm) </p>
               </div>
               <div
                 className="col-lg-3 col-md-3 col-sm-12 coworkingGridDark text-center py-5"
@@ -308,7 +309,7 @@ const PricingTable = () => {
                     <td className="Pin">2 hours</td>
                     {/* <td className="Pin"></td> */}
                     {/* <td className="Pin"></td> */}
-                    <td className="Pinish">3 hours</td>
+                    <td className="Pinish">5 hours</td>
                   </tr>
                   {/* <tr className="Pinner">
                     <td className="finish">
@@ -708,7 +709,7 @@ const PricingTable = () => {
                 <thead className="change">
                   <tr className="letter">
                     <th scope="col"></th>
-                    <th scope="col">REGULAR (9am - 5pm) </th>
+                    <th scope="col">REGULAR</th>
                     <th scope="col"> CLASSIC (9am - 1pm)/(1pm - 5pm)</th>
                     <th scope="col">DELUXE (9am - 5pm)</th>
                   </tr>
