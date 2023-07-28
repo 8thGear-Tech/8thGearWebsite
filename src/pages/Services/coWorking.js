@@ -395,19 +395,19 @@ const PricingTable = () => {
                       <i className="bi bi-check-circle"></i>
                     </td>
                   </tr>
-                  <tr className="Pinner">
+                  {/* <tr className="Pinner">
                     <td className="finish">
                       <p>Projector</p>
                     </td>
-                    {/* <td className="Pin"> </td> */}
+                    
                     <td className="Pin"></td>
                     <td className="Pin"></td>
-                    {/* <td className="Pin"></td> */}
-                    {/* <td className="Pin">
+                    <td className="Pin"></td>
+                    <td className="Pin">
                       <i className="bi bi-check-circle"></i>
-                    </td> */}
+                    </td>
                     <td className="Pinish"></td>
-                  </tr>
+                  </tr> */}
                   <tr className="Pinner">
                     <td className="finish">
                       <p>5% Discount on Hub Services</p>
