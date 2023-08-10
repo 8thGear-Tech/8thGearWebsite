@@ -8,7 +8,7 @@ import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 import { OurTeamHero } from "../../components/Hero/BGColorandTextHero";
-import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
+// import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
 // <EightgeariansPopUpCard1 />;
 
 const TeamPage = () => {
@@ -95,7 +95,7 @@ const JointheTeam = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center mb-3">
-          <JoinTheTeamForm />
+          {/* <JoinTheTeamForm /> */}
         </div>
       </div>
     </>

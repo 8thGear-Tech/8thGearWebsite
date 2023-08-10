@@ -15,7 +15,7 @@ import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
 import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
-import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
+// import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
 
 const AboutUs = () => {
   return (
@@ -24,6 +24,7 @@ const AboutUs = () => {
       <AboutPageHero />
       <CoreValues />
       <Gerians />
+      <EIR />
       <AdvisoryTeamPic />
       <Partners />
       <JointheTeam />
@@ -117,7 +118,8 @@ const JointheTeam = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center mb-3">
-          <JoinTheTeamForm />
+          {/* <JoinTheTeamForm /> */}
+          <JointheTeamBtn />
         </div>
       </div>
     </>

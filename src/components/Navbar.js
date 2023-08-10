@@ -87,13 +87,13 @@ const NavBar = (props) => {
                   Growth-as-a-Service
                 </NavDropdown.Item>
               </NavDropdown>
-              <Navbar.Text
-                href="project-delivery"
+              <Nav.Link
+                href="/project-delivery"
                 className="mx-3"
                 style={{ fontSize: "1.2rem", fontWeight: "300" }}
               >
                 Project Delivery
-              </Navbar.Text>
+              </Nav.Link>
               <NavDropdown
                 title="Initiatives"
                 id="basic-nav-dropdown"

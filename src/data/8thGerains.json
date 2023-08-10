@@ -27,28 +27,28 @@
   ],
   "teamcardthree": [
     {
-      "image1": "../../images/team/titilayoekundayo.png",
-      "name1": "TITILAYO EKUNDAYO",
-      "title1": "VENTURE STUDIO LEAD",
+      "image1": "../../images/team/abiolaoreagba.jpg",
+      "name1": "ABIOLA OREAGBA",
+      "title1": "HR CONSULTANT",
       "id": "staticBackdrop3",
-      "image": "../../images/team/titilayoekundayo.png",
-      "name": "Titilayo Ekundayo",
-      "position": "Venture Studio Lead",
-      "link": "https://www.linkedin.com/in/titilayo-ekundayo-833336a1/",
-      "text": "From hosting my own podcast, The Abeg who send me podcast, to taking taekwondo courses, gardening, and being an active member of Toastmasters International, I enjoy trying new things. A good meal and intellectual discourse can win my heart anytime anyday."
+      "image": "../../images/team/abiolaoreagba.jpg",
+      "name": "Abiola Oreagba",
+      "position": "HR Consultant",
+      "link": "https://www.linkedin.com/in/abiola-oreagba-9b3245a0/",
+      "text": "I am a fun-loving, process-driven person who enjoys reading and dancing. I am a certified foodie and an Arsenal fan."
     }
   ],
   "teamcardfour": [
     {
-      "image1": "../../images/team/aishaadeleke.jpg",
-      "name1": "AISHA ADELEKE",
-      "title1": "HR & ADMIN EXECUTIVE",
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
+      "title1": "PROJECT DEV'T CONSULTANT",
       "id": "staticBackdrop4",
-      "image": "../../images/team/aishaadeleke.jpg",
-      "name": "Aisha Adeleke",
-      "position": "HR & Admin Executive",
-      "link": "https://www.linkedin.com/in/aishah-adeleke-920406259/",
-      "text": "I have always wanted to have a Tiger as a pet because I find the fur prints attractive and I also love cat families, but I got a cat because I can't have a tiger."
+      "image": "../../images/team/seunoladele.jpg",
+      "name": "Dr. Seun Oladele",
+      "position": "Project Dev't Consultant",
+      "link": "https://www.linkedin.com/in/seun-oladele/",
+      "text": "Music is what I love to do. That’s the only fun thing I know. I play video games a lot and watch movies a lot. For someone considered a researcher, I do not really like reading."
     }
   ],
   "teamcardfive": [
@@ -66,72 +66,57 @@
   ],
   "teamcardsix": [
     {
-      "image1": "../../images/team/adam.png",
-      "name1": "ADAM YAKUB",
-      "title1": "FINANCE ASSOCIATE",
+      "image1": "../../images/team/dasilvamotunrayo.jpg",
+      "name1": "MOTUNRAYO DASILVA",
+      "title1": "PROJECT EXECUTIVE",
       "id": "staticBackdrop6",
-      "image": "../../images/team/adam.png",
-      "name": "Adam Yakub",
-      "position": "Finance Associate",
-      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/",
-      "text": "As early as 6a.m, I’m always at the football pitch every Saturday."
+      "image": "../../images/team/dasilvamotunrayo.jpg",
+      "name": "Motunrayo Dasilva",
+      "position": "Project Executive",
+      "link": "https://www.linkedin.com/in/motunrayo-dasilva-6966a9167/",
+      "text": "When i am not working, I enjoy spending quality time with my family, the satisfaction that comes with it is everything. I also enjoy acting, feel free to call me a drama queen."
     }
   ],
   "teamcardseven": [
     {
-      "image1": "../../images/team/seunoladele.jpg",
-      "name1": "SEUN OLADELE",
-      "title1": "PROJECT DEV'T ASSOCIATE",
+      "image1": "../../images/team/aishaadeleke.jpg",
+      "name1": "AISHA ADELEKE",
+      "title1": "HR & ADMIN EXECUTIVE",
       "id": "staticBackdrop7",
-      "image": "../../images/team/seunoladele.jpg",
-      "name": "Seun Oladele",
-      "position": "Project Dev't Associate",
-      "link": "https://www.linkedin.com/in/seun-oladele/",
-      "text": "Music is what I love to do. That’s the only fun thing I know. I play video games a lot and watch movies a lot. For someone considered a researcher, I do not really like reading."
+      "image": "../../images/team/aishaadeleke.jpg",
+      "name": "Aisha Adeleke",
+      "position": "HR & Admin Executive",
+      "link": "https://www.linkedin.com/in/aishah-adeleke-920406259/",
+      "text": "I have always wanted to have a Tiger as a pet because I find the fur prints attractive and I also love cat families, but I got a cat because I can't have a tiger."
+    }
+  ],
+  "teamcardeight": [
+    {
+      "image1": "../../images/team/adam.png",
+      "name1": "ADAM YAKUB",
+      "title1": "ACCOUNTING LEAD",
+      "id": "staticBackdrop8",
+      "image": "../../images/team/adam.png",
+      "name": "Adam Yakub",
+      "position": "Accounting Lead",
+      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/",
+      "text": "As early as 6a.m, I’m always at the football pitch every Saturday."
     }
   ],
   "EIRcard": [
     {
-      "id": 1,
-      "image": "./images/Teamone.png",
-      "name": "Damilola Obidiaro",
-      "title": "Co-Founder",
-      "text": "View More"
+      "image1": "../../images/team/damilolaobidairo.png",
+      "name1": "DAMILOLA OBIDAIRO",
+      "title1": "EIR",
+      "id": "1",
+      "link": "https://www.linkedin.com/in/damilolaobidairo/"
     },
     {
-      "id": 2,
-      "image": "./images/Teamone.png",
-      "name": "Husseni Sanni",
-      "title": "Digital Marketing Analyst",
-      "text": "View More"
-    },
-    {
-      "id": 3,
-      "image": "./images/Teamone.png",
-      "name": "Omowumi Adekoya",
-      "title": "Managing Partner",
-      "text": "View More"
-    },
-    {
-      "id": 4,
-      "image": "./images/Teamone.png",
-      "name": "Temitope Kazeem",
-      "title": "People and perfomance analyst",
-      "text": " View More"
-    },
-    {
-      "id": 5,
-      "image": "./images/Teamone.png",
-      "name": "Opeyemi Bioku",
-      "title": "Tech Lead",
-      "text": " View More"
-    },
-    {
-      "id": 6,
-      "image": "./images/Teamone.png",
-      "name": "Titilayo Ekundayo",
-      "title": "Head,Venture Studio",
-      "text": " View More"
+      "image1": "../../images/team/titilayoekundayo.png",
+      "name1": "TITILAYO EKUNDAYO",
+      "title1": "EIR",
+      "id": "2",
+      "link": "https://www.linkedin.com/in/titilayo-ekundayo-833336a1/"
     }
   ]
 }

@@ -36,7 +36,7 @@ export const TeamCardTwo = (props) => {
     props;
   return (
     <>
-      <div classNameName="card-deck">
+      <div className="card-deck">
         <div className="card w-75 mx-auto ">
           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
           <div className="card-body teamcardbody">
@@ -104,7 +104,6 @@ export const TeamCardTwo = (props) => {
               </div>
             </div>
             {/* <EightgeariansPopUpCard1 /> */}
-
             {/* <a href="">
               {popup} */}
             {/* <MemberOneViewBioBtn /> */}
@@ -815,7 +814,7 @@ export const TeamCardEight = (props) => {
   return (
     <>
       <div className="card-deck">
-        <div className="card w-75 mx-auto ">
+        <div className="card w-75 mx-auto">
           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
           <div className="card-body teamcardbody">
             <figure className="text-center">
@@ -898,7 +897,7 @@ export const Gerians = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mt-5">
-        <h3 className="text-center ">Our Core Team</h3>
+        <h3 className="text-center">OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardone.map((card) => {
@@ -939,6 +938,12 @@ export const Gerians = () => {
           {" "}
           {data.teamcardseven.map((card) => {
             return <TeamCardSeven {...card}></TeamCardSeven>;
+          })}
+        </div>
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardeight.map((card) => {
+            return <TeamCardEight {...card}></TeamCardEight>;
           })}
         </div>
         {/* <div className="col-lg-4 col-md-6 mt-5">
@@ -1077,18 +1082,92 @@ export const Gerians = () => {
 // };
 
 //persononeends
+
+//EIR
+
+export const EIRCard = (props) => {
+  const { image1, name1, title1, id, image, name, position, text, link } =
+    props;
+  return (
+    <>
+      <div className="card-deck">
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
+              <p className="Text mb-3 mt-3">{title1}</p>
+            </figure>
+
+            <div className="text-center">
+              {" "}
+              {/* <MemberTwoViewBioBtn /> */}
+              <a href={link} target="_blank">
+                <div className="">
+                  {" "}
+                  <LinkedInIcon />
+                </div>
+              </a>
+            </div>
+
+            <div
+              className="modal fade"
+              id={id}
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabIndex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="d-flex justify-content-between mx-4 my-2">
+                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div className="cards" key={id}>
+                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <h4>{name}</h4>
+                    <h6 className="">{position}</h6>
+                    <a href={link} target="_blank">
+                      <div className="">
+                        {" "}
+                        <LinkedInIcon />
+                      </div>
+                    </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 export const EIR = () => {
   return (
     <div className="container ">
-      <div className="row ">
-        <h4 className="text-center py-5">ENTERPRENEURS IN RESIDENCE</h4>
+      <div className="row d-flex justify-content-center">
+        <h4 className="text-center pt-5 mt-5 mb-4">
+          ENTREPRENEURS IN RESIDENCE
+        </h4>
         {EIRdata.EIRcard.map((card) => {
           return (
             <div
               className="col-sm-12 col-md-6 col-lg-4 mt-2 mb-5 d-flex justify-content-center align-items-stretch"
               key={card.id}
             >
-              <TeamCard {...card}></TeamCard>
+              <EIRCard {...card}></EIRCard>
             </div>
           );
         })}
