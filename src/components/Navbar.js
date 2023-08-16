@@ -28,7 +28,7 @@ const NavBar = (props) => {
           </Link>
           <div className="d-flex align-items-center">
             {" "}
-            <h5>8thGear Hub</h5>
+            <h5>{heading}</h5>
           </div>
 
           <div className="ms-auto mb-2 mb-lg-0 mx-3 mt-1">
@@ -969,6 +969,24 @@ export const Navbar24 = () => {
     <div className="container-fluid ">
       <div className="row">
         {text.TalentPlacement.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar25 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.GearUpExpose.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"

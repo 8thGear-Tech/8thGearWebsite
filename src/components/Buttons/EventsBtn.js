@@ -44,7 +44,7 @@ export const LetUsKnowBtn = () => {
     //     Let Us Know
     //   </button>
     // </a>
-    // <button className="LetUsKnowBtn" type="sumbit">
+    // <button className="LetUsKnowBtn" type="submit">
     //   Let us Know
     // </button>
   );
@@ -52,7 +52,7 @@ export const LetUsKnowBtn = () => {
 
 export const EventsViewMoreBtn = () => {
   return (
-    <button className="EventViewMoreBtn" type="sumbit">
+    <button className="EventViewMoreBtn" type="submit">
       <Link to="/events-gallery" className="textbutton">
         {" "}
         <div className="textbutton">view more</div>
@@ -63,7 +63,7 @@ export const EventsViewMoreBtn = () => {
 
 export const GetYourTicketBtn = () => {
   return (
-    <button className="GetYourTicketBtn" type="sumbit">
+    <button className="GetYourTicketBtn" type="submit">
       <div className="textbtn">GET YOUR TICKET</div>
     </button>
   );
@@ -72,7 +72,7 @@ export const GetYourTicketBtn = () => {
 export const FoundersMeetupReadMoreBtn = () => {
   return (
     <Link to="/founders-meetup">
-      <button className="BlogReadMoreBtn" type="sumbit">
+      <button className="BlogReadMoreBtn" type="submit">
         Read More
       </button>
     </Link>
@@ -81,7 +81,7 @@ export const FoundersMeetupReadMoreBtn = () => {
 export const DemoDayReadMoreBtn = () => {
   return (
     <Link to="/demo-day">
-      <button className="BlogReadMoreBtn" type="sumbit">
+      <button className="BlogReadMoreBtn" type="submit">
         Read More
       </button>
     </Link>
@@ -90,7 +90,7 @@ export const DemoDayReadMoreBtn = () => {
 export const GearUpReadMoreBtn = () => {
   return (
     <Link to="">
-      <button className="BlogReadMoreBtn" type="sumbit">
+      <button className="BlogReadMoreBtn" type="submit">
         Read More
       </button>
     </Link>
@@ -99,7 +99,7 @@ export const GearUpReadMoreBtn = () => {
 export const EventsRegisterBtn = () => {
   return (
     <a href="https://bit.ly/8thGearfoundersmeetup2022" target="_blank">
-      <button className="EventsRegisterBtn" type="sumbit">
+      <button className="EventsRegisterBtn" type="submit">
         Register Now
       </button>
     </a>
@@ -108,7 +108,20 @@ export const EventsRegisterBtn = () => {
 export const DemoDayRegisterBtn = () => {
   return (
     <a href="https://forms.gle/RyxYFMPtVsXuw33NA" target="_blank">
-      <button className="EventsRegisterBtn" type="sumbit">
+      <button className="EventsRegisterBtn" type="submit">
+        Register Now
+      </button>
+    </a>
+  );
+};
+
+export const GearUpExposeBtn = () => {
+  return (
+    <a
+      href="https://us06web.zoom.us/meeting/register/tZIvcOCprzsiE9wh14Jlf0CSGgFKZd9V6T4L"
+      target="_blank"
+    >
+      <button className="EventsRegisterBtn" type="submit">
         Register Now
       </button>
     </a>

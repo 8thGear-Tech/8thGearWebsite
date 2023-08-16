@@ -54,6 +54,7 @@ import FounderMeetupPage from "./pages/Events/foundersMeetup";
 import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
+import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
@@ -137,6 +138,7 @@ function App() {
             path="4th-year-anniversary"
             element={<FourthYearAnniversary />}
           />
+          <Route path="gear-up-expose" element={<GearUpExposePage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
           <Route path="resources" element={<Resources />} />

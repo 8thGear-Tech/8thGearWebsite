@@ -156,5 +156,11 @@
       "id": 1,
       "heading": "Talent Placement"
     }
+  ],
+  "GearUpExpose": [
+    {
+      "id": 1,
+      "heading": "GearUp Expose"
+    }
   ]
 }
