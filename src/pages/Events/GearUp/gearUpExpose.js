@@ -63,7 +63,8 @@ const GearUpExpose = () => {
       </p>
       <p className="my-3">
         Thank you. <br /> <br />
-        Warm Regards, <br /> Felix Akinbisola. <br /> Community Manager.
+        Warm Regards, <br /> Felix Akinbisola. <br />
+        Acting Community Manager.
       </p>
       {/* <p className="">Best Regards,</p>
       <p className="">Titilayo Ekundayo</p>

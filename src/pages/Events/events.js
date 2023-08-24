@@ -5,10 +5,12 @@ import {
   FoundersMeetupReadMoreBtn,
   DemoDayReadMoreBtn,
   GearUpReadMoreBtn,
+  GearUpExposeBtn,
 } from "../../components/Buttons/EventsBtn";
 
 import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.JPG";
+import gearup from "../../assets/images/events/gearup.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
 import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
@@ -24,7 +26,7 @@ const EventsPage = () => {
       <Navbar14 />
       <EventsPageHero />
       <Events />
-      {/* <EventsCalender /> */}
+      <EventsCalender />
       <SuggestAnEvent />
       <EventsGallery />
     </>
@@ -83,6 +85,29 @@ const Events = () => {
             </div>
           </div>
         </div>
+        <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
+          {" "}
+          <div className="mb-5 py-5 eventsCardBg">
+            <div className="card-body">
+              <h3 className="card-title">GearUp Expose</h3>
+              <img
+                src={gearup}
+                className="p-3 mx-auto w-75"
+                // width="70px"
+                // height="70px"
+                alt="..."
+              />
+              <p className="card-text mx-3 mt-2 mb-4">
+                {" "}
+                Embracing the path of an entrepreneur can indeed be challenging.
+                Kudos to your choice – your determination paves the way for a
+                brighter Africa. Keep forging ahead; your efforts will soon
+                converge with celestial success.
+              </p>
+              <GearUpReadMoreBtn />
+            </div>
+          </div>
+        </div>
         {/* <div className="col-lg-5 col-md-6 col-sm-12 px-lg-5 d-flex align-items-stretch">
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
@@ -113,7 +138,7 @@ const EventsCalender = () => {
     <div className="container-fluid text-center py-2">
       {" "}
       <h4 className="mt-5">Events Calender</h4>
-      <p>JUNE 2022 - DEC 2022</p>
+      {/* <p>AUGUST 2023</p> */}
       <div className="py-2 table-responsive">
         <table className="table table-striped ">
           {/* <thead>
@@ -126,6 +151,43 @@ const EventsCalender = () => {
           </thead> */}
           <tbody>
             <tr>
+              <th scope="row">August 2023</th>
+              <td></td>
+              <td></td>
+              <td>
+                {" "}
+                <a
+                  href="https://us06web.zoom.us/meeting/register/tZIvcOCprzsiE9wh14Jlf0CSGgFKZd9V6T4L"
+                  target="_blank"
+                  style={{ color: "#821e6b" }}
+                >
+                  {/* <button className="EventsRegisterBtn" type="submit"> */}
+                  Register Now
+                  {/* </button> */}
+                </a>
+              </td>
+              {/* <td style={{ color: "#821e6b" }}>Register Now</td> */}
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 5:00pm </th>
+              <th className="m-0">GearUp Expose</th>
+              <td></td>
+              {/* <td>Add to Google Calender</td> */}
+              <td>Virtual</td>
+            </tr>
+            {/* <tr>
+              <th scope="row">June 2022</th>
+              <td></td>
+              <td></td>
+              <td>Register Now</td>
+            </tr>
+            <tr>
+              <th scope="row">4:00pm - 6:00pm </th>
+              <th className="m-0">Founders Meetup</th>
+              <td>Add to Google Calender</td>
+              <td>Virtual</td>
+            </tr> */}
+            {/* <tr>
               <th scope="row">June 2022</th>
               <td></td>
               <td></td>
@@ -148,31 +210,7 @@ const EventsCalender = () => {
               <th className="m-0">Founders Meetup</th>
               <td>Add to Google Calender</td>
               <td>Virtual</td>
-            </tr>
-            <tr>
-              <th scope="row">June 2022</th>
-              <td></td>
-              <td></td>
-              <td>Register Now</td>
-            </tr>
-            <tr>
-              <th scope="row">4:00pm - 6:00pm </th>
-              <th className="m-0">Founders Meetup</th>
-              <td>Add to Google Calender</td>
-              <td>Virtual</td>
-            </tr>
-            <tr>
-              <th scope="row">June 2022</th>
-              <td></td>
-              <td></td>
-              <td>Register Now</td>
-            </tr>
-            <tr>
-              <th scope="row">4:00pm - 6:00pm </th>
-              <th className="m-0">Founders Meetup</th>
-              <td>Add to Google Calender</td>
-              <td>Virtual</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>
