@@ -233,15 +233,15 @@ const OldNavBar = (props) => {
         aria-labelledby="offcanvasExampleLabel"
       >
         <div className="offcanvas-header">
-          <a
+          <Link
             data-w-id="4a4302b6-6981-f1fa-9bee-92d7404c033a"
-            href="/"
+            to="/"
             aria-current="page"
             className="side-nav-link-home w--current text-dark h6 mx-2"
             style={{ textDecoration: "none" }}
           >
             ← Home
-          </a>
+          </Link>
 
           <button
             type="button"
@@ -987,6 +987,24 @@ export const Navbar25 = () => {
     <div className="container-fluid ">
       <div className="row">
         {text.GearUpExpose.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar26 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.DigiPlus.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"

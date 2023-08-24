@@ -39,6 +39,7 @@ import TalentPlacement from "./pages/Services/TalentPlacement";
 
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
+import DigiPlus from "./pages/DigiPlus";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
@@ -105,6 +106,7 @@ function App() {
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
           <Route path="hub-services" element={<HubServicesPage />} />
           <Route path="FUTA-techpic" element={<FUTATechpic />} />
+          <Route path="digiplus" element={<DigiPlus />} />
 
           <Route
             path="digitalmarketing"

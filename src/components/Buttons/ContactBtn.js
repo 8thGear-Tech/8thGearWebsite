@@ -191,3 +191,13 @@ export const ContactBtn = () => {
     </button>
   );
 };
+
+export const DigiPlusRequestBtn = () => {
+  return (
+    <>
+      <a href="#" target="_blank">
+        <button className="DigiPlusRequestBtn">Request</button>
+      </a>
+    </>
+  );
+};

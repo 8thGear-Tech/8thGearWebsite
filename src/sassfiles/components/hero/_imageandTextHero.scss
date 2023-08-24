@@ -1018,3 +1018,41 @@
 .BGG {
   background-color: $lightgreenbg;
 }
+
+.DigiPlusPageHeroBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.DigiPlusPageHeroBg {
+  background: url(/src/assets/images/hero/digiplushero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
+}
+
+.DigiPlusPageHeroBg h1 {
+  position: relative;
+}
+.DigiPlusPageHeroBg h2 {
+  position: relative;
+}
+.AboutPageHeroBg p {
+  position: relative;
+}
+.DigiPlusPageHeroBg .DigiPlusRequestBtn {
+  position: relative;
+}
