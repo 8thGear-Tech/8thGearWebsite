@@ -1,24 +1,24 @@
 .eightGearImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/EightGearHub.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/eightgear.png);
   background-size: cover;
   position: relative;
-  height: 60vh;
+  height: 30rem;
   width: 100%;
 }
 
 .FUTAImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/HubOne.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/futa.png);
   background-size: cover;
   position: relative;
-  height: 60vh;
+  height: 30rem;
   width: 100%;
 }
 
 .sterlingImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/sterling.png);
   background-size: cover;
   position: relative;
   height: 60vh;
@@ -26,7 +26,7 @@
 }
 .innkeeperImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/innkeeper.png);
   background-size: cover;
   position: relative;
   height: 60vh;
@@ -34,7 +34,7 @@
 }
 .pearlMutualImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/pearlmutual.png);
   background-size: cover;
   position: relative;
   height: 60vh;
@@ -42,7 +42,7 @@
 }
 .smedanImg {
   border-radius: 20px;
-  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background: url(/src/assets/images/digiplus/responsibilitymatrix/smedan.png);
   background-size: cover;
   position: relative;
   height: 60vh;
@@ -51,7 +51,9 @@
 
 .imgCardBg {
   bottom: 10px;
+  //   width: 22rem;
   left: 50%;
+  width: 20rem;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;

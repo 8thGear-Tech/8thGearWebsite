@@ -18,6 +18,10 @@ import vmware from "../assets/images/digiplus/digitaltechnologypartners/vmware.p
 // consortium offerings
 import consortiumofferingone from "../assets/images/digiplus/consortiumofferings/consortiumofferingone.png";
 
+//card
+import { DigiPlusResponsibilityMatrixCards } from "../components/AllCards/MediaCards";
+import cardsData from "../data/digiPlus.json";
+
 const DigiPlus = () => {
   return (
     <>
@@ -79,46 +83,237 @@ const ConsortiumPartners = () => {
     </>
   );
 };
+
+// "paragraphThree": "Community Development - Representation & Promotion (MSMEs)",
+//       "paragraphFour": "Incubation Services/Enterprise Support",
 const ResponsibilityMatrix = () => {
   return (
     <>
       <div
-        className="container-fluid px-5 pb-3"
+        className="container-fluid pb-3"
         style={{ background: "rgba(217, 217, 217, 0.10)" }}
       >
         <h3 className="text-center pt-5 pb-2">
           <b>DigiPlus Alliance Responsibility Matrix</b>
         </h3>
-        <div className="container pb-5 px-4 ">
+        <div className="pb-5 px-4">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="eightGearImg my-3 d-flex align-items-end">
-                <div className="card imgCardBg mt-auto w-75">
-                  <div className="card-body">
-                    <h6 className="card-title text-center spaceTitle my-auto">
-                      8thGear Hub, CMD Road, Lagos
-                    </h6>
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="eightGearImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h6 className="mb-2 text-md-start">Consortium Lead</h6>
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      8thGear Hub & Venture Studio
+                    </h5>
+                    <p className="text-md-start">
+                      (Technology & Innovation Hub)
+                    </p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Project Management Consortium Operations
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Access to Tech Infrastructure
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Community Development - Representation & Promotion
+                            (MSMEs)
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Incubation Services/Enterprise Support
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Test before Invest
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="FUTAImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      Federal University of Technology Akure
+                    </h5>
+                    <p className="text-md-start">
+                      (Academic, Research & Development Institute)
+                    </p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Research Pool (Research Commercialization)
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Talent Pool
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Hardware Innovation
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+const ResponsibilityMatrixx = () => {
+  return (
+    <>
+      <div
+        className="container pb-3"
+        style={{ background: "rgba(217, 217, 217, 0.10)" }}
+      >
+        <h3 className="text-center pt-5 pb-2">
+          <b>DigiPlus Alliance Responsibility Matrix</b>
+        </h3>
+        <div className="pb-5 px-4">
+          {/* <div className="row justify-content-center"> */}
+          {/* <div className="col-lg-5 col-md-6 col-sm-12">
+              <div className="eightGearImg my-3 d-flex align-items-end"> */}
+          <div className="row justify-content-center">
+            {cardsData.responsibilityMatrix.map((items) => {
+              return (
+                <>
+                  <div
+                    className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
+                    key={items.id}
+                  >
+                    <DigiPlusResponsibilityMatrixCards {...items} />
+                  </div>
+                </>
+              );
+            })}
+          </div>
+          {/* <div className="card imgCardBg mt-auto">
+                  <div className="card-body">
+                    <h6>Consortium Lead</h6>
+                    <h5 className="card-title spaceTitle my-aut o">
+                      8thGear Hub & Venture Studio
+                    </h5>
+                    <p>(Technology & Innovation Hub)</p>
+                    <div className="d-flex align-items-center">
+                      <div className="px-1">
+                        <i className="bi bi-check2-square"></i>
+                      </div>
+                      <div className="flex-grow-1 px-1">
+                        <p style={{ fontSize: "0.8rem", margin: 0 }}>
+                          Project Management Consortium Operations
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
+          {/* </div>
+            </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="FUTAImg my-3 d-flex align-items-end">
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
                     <h6 className="card-title text-center spaceTitle my-auto">
-                      HubOne, Yaba
+                      8thGear
                     </h6>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="sterlingImg my-3 d-flex align-items-end">
+            </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-sm-12"> */}
+          {/* <div className="sterlingImg my-3 d-flex align-items-end">
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
                     <h6 className="card-title text-center spaceTitle my-auto">
-                      Innkeeper Hacker’s Space, Magodo
+                      8thGear
                     </h6>
                   </div>
                 </div>
@@ -129,7 +324,7 @@ const ResponsibilityMatrix = () => {
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
                     <h6 className="card-title text-center spaceTitle my-auto">
-                      Innkeeper Hacker’s Space, Magodo
+                      8thGear
                     </h6>
                   </div>
                 </div>
@@ -140,7 +335,7 @@ const ResponsibilityMatrix = () => {
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
                     <h6 className="card-title text-center spaceTitle my-auto">
-                      Innkeeper Hacker’s Space, Magodo
+                      8thGear
                     </h6>
                   </div>
                 </div>
@@ -151,13 +346,13 @@ const ResponsibilityMatrix = () => {
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
                     <h6 className="card-title text-center spaceTitle my-auto">
-                      Innkeeper Hacker’s Space, Magodo
+                      8thGear
                     </h6>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </>
@@ -239,8 +434,11 @@ const ConsortiumOfferings = () => {
 const DigitalTechnologyPartners = () => {
   return (
     <>
-      <div className="container-fluid px-5 pb-3 mt-4">
-        <h3 className="text-center">
+      <div
+        className="container-fluid px-5 pb-3 mt-4"
+        style={{ background: "rgba(217, 217, 217, 0.10)" }}
+      >
+        <h3 className="text-center pt-5">
           <b>Digital Technology Partners</b>
         </h3>
         <div className="row justify-content-center text-center mt-5">
