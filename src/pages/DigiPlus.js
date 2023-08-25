@@ -243,6 +243,152 @@ const ResponsibilityMatrix = () => {
               </div>
             </div>
           </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="eightGearImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h6 className="mb-2 text-md-start">Consortium Lead</h6>
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      8thGear Hub & Venture Studio
+                    </h5>
+                    <p className="text-md-start">
+                      (Technology & Innovation Hub)
+                    </p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Project Management Consortium Operations
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Access to Tech Infrastructure
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Community Development - Representation & Promotion
+                            (MSMEs)
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Incubation Services/Enterprise Support
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Test before Invest
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="FUTAImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      Federal University of Technology Akure
+                    </h5>
+                    <p className="text-md-start">
+                      (Academic, Research & Development Institute)
+                    </p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Research Pool (Research Commercialization)
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Talent Pool
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Hardware Innovation
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
