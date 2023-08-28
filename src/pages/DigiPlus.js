@@ -16,7 +16,11 @@ import cloudflex from "../assets/images/digiplus/digitaltechnologypartners/cloud
 import vmware from "../assets/images/digiplus/digitaltechnologypartners/vmware.png";
 
 // consortium offerings
-import consortiumofferingone from "../assets/images/digiplus/consortiumofferings/consortiumofferingone.png";
+import infographicone from "../assets/images/digiplus/consortiumofferings/infographicone.png";
+import infographictwo from "../assets/images/digiplus/consortiumofferings/infographictwo.png";
+import infographicthree from "../assets/images/digiplus/consortiumofferings/infographicthree.png";
+import infographicfour from "../assets/images/digiplus/consortiumofferings/infographicfour.png";
+import key from "../assets/images/digiplus/consortiumofferings/key.png";
 
 //card
 import { DigiPlusResponsibilityMatrixCards } from "../components/AllCards/MediaCards";
@@ -245,18 +249,17 @@ const ResponsibilityMatrix = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
-              <div className="eightGearImg my-3 d-flex align-items-end ">
+              <div className="sterlingImg my-3 d-flex align-items-end ">
                 <div className="card imgCardBg mt-auto d-flex h-75">
                   <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
-                    <h6 className="mb-2 text-md-start">Consortium Lead</h6>
                     <h5
                       className="card-title spaceTitle text-md-start"
                       style={{ fontSize: "1rem", marginBottom: "10px" }}
                     >
-                      8thGear Hub & Venture Studio
+                      Sterling Bank Plc
                     </h5>
                     <p className="text-md-start">
-                      (Technology & Innovation Hub)
+                      (Public Funding/Finance Organization)
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -268,7 +271,7 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Project Management Consortium Operations
+                            Access to Finance
                           </p>
                         </div>
                       </div>
@@ -281,7 +284,7 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Access to Tech Infrastructure
+                            Financial Advisory
                           </p>
                         </div>
                       </div>
@@ -294,34 +297,7 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Community Development - Representation & Promotion
-                            (MSMEs)
-                          </p>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center">
-                        <div className="px-1">
-                          <i className="bi bi-check2-square"></i>
-                        </div>
-                        <div className="flex-grow-1 px-1 ">
-                          <p
-                            className=""
-                            style={{ fontSize: "0.8rem", margin: 0 }}
-                          >
-                            Incubation Services/Enterprise Support
-                          </p>
-                        </div>
-                      </div>
-                      <div className="d-flex align-items-center">
-                        <div className="px-1">
-                          <i className="bi bi-check2-square"></i>
-                        </div>
-                        <div className="flex-grow-1 px-1 ">
-                          <p
-                            className=""
-                            style={{ fontSize: "0.8rem", margin: 0 }}
-                          >
-                            Test before Invest
+                            Access to Subject Matter Experts
                           </p>
                         </div>
                       </div>
@@ -331,7 +307,7 @@ const ResponsibilityMatrix = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
-              <div className="FUTAImg my-3 d-flex align-items-end ">
+              <div className="innkeeperImg my-3 d-flex align-items-end ">
                 <div className="card imgCardBg mt-auto d-flex h-75">
                   <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
                     <h5
@@ -341,7 +317,7 @@ const ResponsibilityMatrix = () => {
                       Federal University of Technology Akure
                     </h5>
                     <p className="text-md-start">
-                      (Academic, Research & Development Institute)
+                      (Vocational Training Center (Digital Skills))
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -353,7 +329,7 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Research Pool (Research Commercialization)
+                            Digital Skills Training
                           </p>
                         </div>
                       </div>
@@ -366,7 +342,41 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Talent Pool
+                            Talent Management (Tech Talent Pool)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="pearlMutualImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      PearlMutual Consulting Ltd
+                    </h5>
+                    <p className="text-md-start">
+                      (Research & Development Institute (Consultancy))
+                    </p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Business/Management Training
                           </p>
                         </div>
                       </div>
@@ -379,7 +389,63 @@ const ResponsibilityMatrix = () => {
                             className=""
                             style={{ fontSize: "0.8rem", margin: 0 }}
                           >
-                            Hardware Innovation
+                            Business Development Services
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Investment Readiness
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch mb-4">
+              <div className="smedanImg my-3 d-flex align-items-end ">
+                <div className="card imgCardBg mt-auto d-flex h-75">
+                  <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
+                    <h5
+                      className="card-title spaceTitle text-md-start"
+                      style={{ fontSize: "1rem", marginBottom: "10px" }}
+                    >
+                      Small & Medium Entreprise Development Agency of Nigeria
+                    </h5>
+                    <p className="text-md-start">(Trade Associations)</p>
+                    <div className="d-flex flex-column justify-content-center align-items-start">
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Access to MSME clusters
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div className="px-1">
+                          <i className="bi bi-check2-square"></i>
+                        </div>
+                        <div className="flex-grow-1 px-1 ">
+                          <p
+                            className=""
+                            style={{ fontSize: "0.8rem", margin: 0 }}
+                          >
+                            Policy Formation support and implementation
                           </p>
                         </div>
                       </div>
@@ -508,13 +574,13 @@ const ConsortiumOfferings = () => {
   return (
     <>
       <div className="container pb-3">
-        <h3 className="text-center pt-5 pb-2">
+        <h3 className="text-center mt-3 pt-5 pb-2">
           <b>Consortium Offerings</b>
         </h3>
         {/* <div className="container pb-5"> */}
         <div className="row justify-content-center justify-content-evenly">
           <div className="col-lg-6 col-md-12 col-sm-12">
-            <img src={consortiumofferingone} className="img-fluid" />
+            <img src={infographicone} className="img-fluid" />
             {/* <div className="eightGearImg my-3 d-flex align-items-end">
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
@@ -526,7 +592,31 @@ const ConsortiumOfferings = () => {
               </div> */}
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12">
-            <img src={consortiumofferingone} className="img-fluid" />
+            <img src={infographictwo} className="img-fluid" />
+            {/* <div className="eightGearImg my-3 d-flex align-items-end">
+                <div className="card imgCardBg mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      8thGear Hub, CMD Road, Lagos
+                    </h6>
+                  </div>
+                </div>
+              </div> */}
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12">
+            <img src={infographicthree} className="img-fluid" />
+            {/* <div className="eightGearImg my-3 d-flex align-items-end">
+                <div className="card imgCardBg mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      8thGear Hub, CMD Road, Lagos
+                    </h6>
+                  </div>
+                </div>
+              </div> */}
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12">
+            <img src={infographicfour} className="img-fluid" />
             {/* <div className="eightGearImg my-3 d-flex align-items-end">
                 <div className="card imgCardBg mt-auto w-75">
                   <div className="card-body">
@@ -571,7 +661,20 @@ const ConsortiumOfferings = () => {
               </div>
             </div> */}
         </div>
-        {/* </div> */}
+        <div className="row justify-content-end">
+          <div className="col-lg-3 col-md-12 col-sm-12">
+            <img src={key} className="img-fluid" />
+            {/* <div className="eightGearImg my-3 d-flex align-items-end">
+                <div className="card imgCardBg mt-auto w-75">
+                  <div className="card-body">
+                    <h6 className="card-title text-center spaceTitle my-auto">
+                      8thGear Hub, CMD Road, Lagos
+                    </h6>
+                  </div>
+                </div>
+              </div> */}
+          </div>
+        </div>
       </div>
     </>
   );
@@ -623,13 +726,13 @@ const DigitalTechnologyPartners = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-center justify-content-center">
+          {/* <div className="col-lg-2 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-center justify-content-center">
             <div className="px-4 mb-5 py-2 w-100 h-100 d-flex align-items-center justify-content-center">
               <div className="text-center">
                 <img src={vmware} className="h-100" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
