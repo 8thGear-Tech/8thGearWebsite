@@ -627,9 +627,9 @@ export const DigiPlusPageHero = () => {
               and Business Growth!
             </p>
           </div>
-          <div className="ms-lg-5">
+          {/* <div className="ms-lg-5">
             <DigiPlusRequestBtn />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
