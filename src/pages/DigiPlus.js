@@ -314,7 +314,7 @@ const ResponsibilityMatrix = () => {
                       className="card-title spaceTitle text-md-start"
                       style={{ fontSize: "1rem", marginBottom: "10px" }}
                     >
-                      Federal University of Technology Akure
+                      Innkeeper Talent Accelerator Ltd
                     </h5>
                     <p className="text-md-start">
                       Vocational Training Center (Digital Skills)
