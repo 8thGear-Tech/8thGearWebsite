@@ -115,9 +115,7 @@ const ResponsibilityMatrix = () => {
                     >
                       8thGear Hub & Venture Studio
                     </h5>
-                    <p className="text-md-start">
-                      (Technology & Innovation Hub)
-                    </p>
+                    <p className="text-md-start">Technology & Innovation Hub</p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
                         <div className="px-1">
@@ -201,7 +199,7 @@ const ResponsibilityMatrix = () => {
                       Federal University of Technology Akure
                     </h5>
                     <p className="text-md-start">
-                      (Academic, Research & Development Institute)
+                      Academic, Research & Development Institute
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -261,7 +259,7 @@ const ResponsibilityMatrix = () => {
                       Sterling Bank Plc
                     </h5>
                     <p className="text-md-start">
-                      (Public Funding/Finance Organization)
+                      Public Funding/Finance Organization
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -319,7 +317,7 @@ const ResponsibilityMatrix = () => {
                       Federal University of Technology Akure
                     </h5>
                     <p className="text-md-start">
-                      (Vocational Training Center (Digital Skills))
+                      Vocational Training Center (Digital Skills)
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -366,7 +364,7 @@ const ResponsibilityMatrix = () => {
                       PearlMutual Consulting Ltd
                     </h5>
                     <p className="text-md-start">
-                      (Research & Development Institute (Consultancy))
+                      Research & Development Institute (Consultancy)
                     </p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
@@ -423,7 +421,7 @@ const ResponsibilityMatrix = () => {
                     >
                       Small & Medium Entreprise Development Agency of Nigeria
                     </h5>
-                    <p className="text-md-start">(Trade Associations)</p>
+                    <p className="text-md-start">Trade Associations</p>
                     <div className="d-flex flex-column justify-content-center align-items-start">
                       <div className="d-flex align-items-center">
                         <div className="px-1">
