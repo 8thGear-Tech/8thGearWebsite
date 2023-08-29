@@ -663,7 +663,7 @@ const ConsortiumOfferings = () => {
         </div>
         <div className="row justify-content-end">
           <div className="col-lg-3 col-md-12 col-sm-12">
-            <img src={keyone} className="img-fluid" />
+            <img src={key} className="img-fluid" />
             {/* <img src={keyone} className="img-fluid keyBoxShadow" /> */}
             {/* <div className="eightGearImg my-3 d-flex align-items-end">
                 <div className="card imgCardBg mt-auto w-75">
