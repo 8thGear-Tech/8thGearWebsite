@@ -168,5 +168,11 @@
       "id": 1,
       "heading": "DigiPlus"
     }
+  ],
+  "GearUpShowcase": [
+    {
+      "id": 1,
+      "heading": "GearUp Showcase"
+    }
   ]
 }

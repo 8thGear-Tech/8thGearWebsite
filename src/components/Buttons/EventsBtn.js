@@ -118,7 +118,7 @@ export const DemoDayRegisterBtn = () => {
 export const GearUpExposeBtn = () => {
   return (
     <a
-      href="https://us06web.zoom.us/meeting/register/tZIvcOCprzsiE9wh14Jlf0CSGgFKZd9V6T4L"
+      href="https://us06web.zoom.us/meeting/register/tZcrde-rpj0iGdJB4yZ75Srgw5Ba3-9D2Slq"
       target="_blank"
     >
       <button className="EventsRegisterBtn" type="submit">

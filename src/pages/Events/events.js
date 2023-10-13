@@ -89,7 +89,8 @@ const Events = () => {
           {" "}
           <div className="mb-5 py-5 eventsCardBg">
             <div className="card-body">
-              <h3 className="card-title">GearUp Expose</h3>
+              {" "}
+              <h3 className="card-title">GearUp Series</h3>
               <img
                 src={gearup}
                 className="p-3 mx-auto w-75"
@@ -151,13 +152,13 @@ const EventsCalender = () => {
           </thead> */}
           <tbody>
             <tr>
-              <th scope="row">August 2023</th>
+              <th scope="row">October 27th, 2023</th>
               <td></td>
               <td></td>
               <td>
                 {" "}
                 <a
-                  href="https://us06web.zoom.us/meeting/register/tZIvcOCprzsiE9wh14Jlf0CSGgFKZd9V6T4L"
+                  href="https://us06web.zoom.us/meeting/register/tZcrde-rpj0iGdJB4yZ75Srgw5Ba3-9D2Slq"
                   target="_blank"
                   style={{ color: "#821e6b" }}
                 >
@@ -170,7 +171,7 @@ const EventsCalender = () => {
             </tr>
             <tr>
               <th scope="row">4:00pm - 5:00pm </th>
-              <th className="m-0">GearUp Expose</th>
+              <th className="m-0">GearUp Showcase</th>
               <td></td>
               {/* <td>Add to Google Calender</td> */}
               <td>Virtual</td>

@@ -196,7 +196,7 @@ const ResponsibilityMatrix = () => {
                       className="card-title spaceTitle text-md-start"
                       style={{ fontSize: "1rem", marginBottom: "10px" }}
                     >
-                      Federal University of Technology Akure
+                      Federal University of Technology Akure (FUTA)
                     </h5>
                     <p className="text-md-start">
                       Academic, Research & Development Institute
@@ -420,6 +420,7 @@ const ResponsibilityMatrix = () => {
                       style={{ fontSize: "1rem", marginBottom: "10px" }}
                     >
                       Small & Medium Entreprise Development Agency of Nigeria
+                      (SMEDAN)
                     </h5>
                     <p className="text-md-start">Trade Associations</p>
                     <div className="d-flex flex-column justify-content-center align-items-start">

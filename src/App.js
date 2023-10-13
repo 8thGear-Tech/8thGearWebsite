@@ -56,6 +56,7 @@ import FoundersMeetupGalleryPage from "./pages/Events/foundersMeetupGallery";
 import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGallery";
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
+import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
@@ -141,6 +142,7 @@ function App() {
             element={<FourthYearAnniversary />}
           />
           <Route path="gear-up-expose" element={<GearUpExposePage />} />
+          <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="*" element={<Error404 />} />
           <Route path="resources" element={<Resources />} />
@@ -167,7 +169,7 @@ function App() {
           <Route path="HRIntern" element={<HRIntern />} />
           <Route path="AccountingIntern" element={<AccountingIntern />} />
         </Routes>
-
+        {/* https://8thgearpartners.com/digital-skills-scholarship */}
         <footer>
           <NewFooter />
           {/* <Footer /> */}

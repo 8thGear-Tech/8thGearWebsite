@@ -24,7 +24,13 @@ const NavBar = (props) => {
       <div className="container-fluid NavBar">
         <div className="d-flex ">
           <Link to="/">
-            <img src={logos} alt="" width={60} height={70} className="me-4" />
+            <img
+              src={logos}
+              alt=""
+              width={60}
+              height={70}
+              className="me-4 mt-2"
+            />
           </Link>
           <div className="d-flex align-items-center">
             {" "}
@@ -103,6 +109,14 @@ const NavBar = (props) => {
                   FUTA-techpic
                 </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link
+                href="/digiplus"
+                className="mx-3"
+                style={{ fontSize: "1.2rem", fontWeight: "300" }}
+              >
+                DigiPlus
+              </Nav.Link>
+              <br />
               <Nav.Link
                 href="/about"
                 className="h5 mx-3 mb-4"
@@ -478,7 +492,7 @@ const OldNavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+              <a href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg">
                 <i
                   className="bi bi-twitter mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -1005,6 +1019,24 @@ export const Navbar26 = () => {
     <div className="container-fluid ">
       <div className="row">
         {text.DigiPlus.map((navbar) => {
+          return (
+            <div
+              className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
+              key={navbar.id}
+            >
+              <NavBar {...navbar}></NavBar>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+export const Navbar27 = () => {
+  return (
+    <div className="container-fluid ">
+      <div className="row">
+        {text.GearUpShowcase.map((navbar) => {
           return (
             <div
               className="col-sm-12 col-md-12 col-lg-12 p-0 m-0"
