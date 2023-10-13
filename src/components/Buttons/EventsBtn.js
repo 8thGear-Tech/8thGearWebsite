@@ -89,7 +89,7 @@ export const DemoDayReadMoreBtn = () => {
 };
 export const GearUpReadMoreBtn = () => {
   return (
-    <Link to="/gear-up-expose">
+    <Link to="/gear-up-showcase">
       <button className="BlogReadMoreBtn" type="submit">
         Read More
       </button>
