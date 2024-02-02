@@ -3,6 +3,8 @@ import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
+import { TermsAndConditions } from "./pages/TermsandConditions";
+import { RefundPolicy } from "./pages/Refundpolicy";
 import Error404 from "./pages/error404";
 import FooterItemToTop from "./components/FooterItemToTop";
 
@@ -144,6 +146,8 @@ function App() {
           <Route path="gear-up-expose" element={<GearUpExposePage />} />
           <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
+          <Route path="terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="refund-policy" element={<RefundPolicy />} />
           <Route path="*" element={<Error404 />} />
           <Route path="resources" element={<Resources />} />
           <Route
@@ -176,6 +180,15 @@ function App() {
           <ScrollButton />
         </footer>
       </FooterItemToTop>
+      {/* WhatsApp icon */}
+      <a
+        href="https://wa.me/2348094818883"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="bi bi-whatsapp whatsapp-icon"></i>
+      </a>
       {/* <footer>
         <Footer />
         <ScrollButton />

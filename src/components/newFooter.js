@@ -236,6 +236,24 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <a
+                    href="/terms-and-conditions"
+                    className="nav-link px-2 footerText internalLink"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    Terms and Conditions
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="/refund-policy"
+                    className="nav-link px-2 footerText internalLink"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    Refund Policy
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
                     href="mailto:info@8thgearpartners.com"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}

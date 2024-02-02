@@ -480,7 +480,10 @@ export const PrivacyAndPolicy = () => {
         <h4> CONTACT US </h4>
         <p>
           If you have questions or comments about this Privacy Policy, please
-          contact us at: <br />
+          contact us at:{" "}
+          <a href="mailto:info@8thgearpartners.com">info@8thgearpartners.com</a>{" "}
+          / <a href="tel:+2348094818883">+2348094818883</a>
+          <br />
           <br />
           8thGear Partners Limited
         </p>

@@ -21,7 +21,7 @@ const GearUpExpose = () => {
     <div className="container pt-5 px-4">
       {" "}
       {/* <h4 className="">Our Business Creation Platform</h4> */}
-      <p className="">Greetings, Business Leaders and Innovative Minds!</p>
+      <p className="">Greetings, Business Leaders & Great Minds!</p>
       <p className="">
         <b>Join us for a remarkable opportunity – the GearUp Showcase!</b>
       </p>
@@ -30,38 +30,29 @@ const GearUpExpose = () => {
         studio intimates leaders and members of the community about their
         business to gain necessary exposure which is critical for most
         businesses to thrive.
-        <p className="my-3">
-          GearUp Expose stands as an inclusive program, equipping entrepreneurs
-          with the indispensable skills and wisdom imperative for business
-          expansion.
-        </p>
-        <p className="">Discover the specifics of the event below:</p>
-      </p>
+      </p>{" "}
+      <p className="">Discover the specifics of the event below:</p>
       <ul className="list-font-weight">
         <li className="list-font-weight">FREQUENCY : Monthly</li>
         <li className="list-font-weight">
           VENTURE IN FOCUS :{" "}
-          <a href="https://trulance.io/" target="_blank">
-            Trulance
-          </a>{" "}
+          {/* <a href="https://www.mindafrik.com/" target="_blank"> */}
+          MindAfrik
+          {/* </a>{" "} */}
         </li>
         <li>PLATFORM: Virtual </li>
         <li>TIME: 4:00 PM - 5:00 PM</li>
-        <li>DATE: Friday, October 27th, 2023.</li>
+        <li>DATE: Friday, November 24th, 2023.</li>
         <li>ADMISSION FEE: Free</li>
       </ul>
       <p>
-        Trulance is a global marketplace that provides credible technology
-        solutions to businesses and startups.
-      </p>
-      <p>
-        We have an exciting lineup of innovative products that are ready to be
-        showcased!
+        MindAfrik's purpose and drive is to educate, recaliberate and support
+        minds for productive and positive living.
       </p>
       <p>
         Attendance is free but registration is compulsory. Kindly click the{" "}
         <a
-          href="https://us06web.zoom.us/meeting/register/tZcrde-rpj0iGdJB4yZ75Srgw5Ba3-9D2Slq"
+          href="https://us06web.zoom.us/meeting/register/tZ0ld-mvqzMjH9SL9l0ht3S5KRsXy6ePioaJ "
           target="_blank"
           className="textLinkColor"
         >
