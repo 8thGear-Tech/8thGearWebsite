@@ -181,14 +181,14 @@ function App() {
         </footer>
       </FooterItemToTop>
       {/* WhatsApp icon */}
-      <a
+      {/* <a
         href="https://wa.me/2348094818883"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i class="bi bi-whatsapp whatsapp-icon"></i>
-      </a>
+      </a> */}
       {/* <footer>
         <Footer />
         <ScrollButton />
