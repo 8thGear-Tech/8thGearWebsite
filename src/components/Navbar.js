@@ -22,7 +22,7 @@ const NavBar = (props) => {
   return (
     <>
       <div className="container-fluid NavBar">
-        <div className="d-flex ">
+        <div className="d-flex">
           <Link to="/">
             <img
               src={logos}

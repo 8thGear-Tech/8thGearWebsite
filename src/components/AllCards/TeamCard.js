@@ -922,30 +922,6 @@ export const Gerians = () => {
             return <TeamCardFour {...card}></TeamCardFour>;
           })}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
-          {data.teamcardfive.map((card) => {
-            return <TeamCardFive {...card}></TeamCardFive>;
-          })}
-        </div>
-        <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
-          {data.teamcardsix.map((card) => {
-            return <TeamCardSix {...card}></TeamCardSix>;
-          })}
-        </div>
-        <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
-          {data.teamcardseven.map((card) => {
-            return <TeamCardSeven {...card}></TeamCardSeven>;
-          })}
-        </div>
-        <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
-          {data.teamcardeight.map((card) => {
-            return <TeamCardEight {...card}></TeamCardEight>;
-          })}
-        </div>
         {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardeight.map((card) => {

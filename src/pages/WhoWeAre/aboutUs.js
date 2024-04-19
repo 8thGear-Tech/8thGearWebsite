@@ -6,6 +6,7 @@ import gizlogo from "../../assets/images/whoweare/gizlogo.png";
 import lsetflogo from "../../assets/images/whoweare/lsetflogo.png";
 import usadflogo from "../../assets/images/whoweare/usadflogo.png";
 import corevalues from "../../assets/images/whoweare/corevalues.png";
+import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
 import { Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
 import coworking from "../../assets/images/coworking/coworking.png";
@@ -37,7 +38,7 @@ const CoreValues = () => {
     <div className="container py-5">
       <div className="row justify-content-center">
         <img
-          src={corevalues}
+          src={corevaluesnew}
           className="col-12"
           // style={{ maxWidth: "100%", maxHeight: "100%" }}
         ></img>
