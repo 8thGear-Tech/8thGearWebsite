@@ -47,7 +47,7 @@ import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.p
 import Webdeveloper from "../../assets/images/talentplacement/talents/Webdeveloper.png";
 import Creativedesigners from "../../assets/images/talentplacement/talents/Creativedesigners.png";
 import Dataanalysts from "../../assets/images/talentplacement/talents/Dataanalysts.png";
-import Digitalmarketers from "../../assets/images/talentplacement/talents/Digitalmarketers.png";
+import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
 import ProductDesigners from "../../assets/images/talentplacement/talents/ProductDesigners.png";
 import ProductManagers from "../../assets/images/talentplacement/talents/ProductManagers.png";
 import Customerexperience from "../../assets/images/talentplacement/talents/Customerexperience.png";
@@ -337,7 +337,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Digitalmarketers}
+                src={digitalmarketers}
                 className="img-fluid"
                 width="100"
                 height="100"
