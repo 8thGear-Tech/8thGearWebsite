@@ -1,13 +1,12 @@
 import data from "../../data/portfolioHero.json";
 import { EventsRegisterBtn } from "../Buttons/EventsBtn";
-
 import TalentPlacementHeroImg from "../../assets/images/hero/TalentPlacementHero.png";
-import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
+import {
+  ManagedServicesRequestBtn,
+  TalentPlacementBtn,
+} from "../../components/Buttons/ServicesBtn";
 import talentsplaced from "../../assets/images/talentplacement/talentsplaced.png";
 import satisfiedclients from "../../assets/images/talentplacement/satisfiedclients.png";
-//ManagedServicesHero
-//PortfoliosandTeamPageHero
-// founderMeetupAndDemoday
 
 export const ManagedServicesHero = () => {
   return (
@@ -184,6 +183,38 @@ export const ArticleReadMoreHero = () => {
             funding combining company building with venture funding. For
             entrepreneurship, .
           </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const NewTalentPlacementHero = () => {
+  return (
+    <div className="px-4 container-fluid NewTalentPlacementHeroBg d-flex pt-3 pb-3 align-items-center">
+      <div className="gradientBg overlayBg"></div>
+      <div className="row">
+        <div className="col-lg-12 col-md-8 col-sm-12">
+          <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor NewTalentPlacementHeroText">
+            Hire Vetted Tech Talents
+          </h1>
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+            Hire Vetted Tech Talents
+          </h2>
+          <p style={{ color: "#ffffff" }} className="ms-5">
+            Scale your business with our top-tier tech talent. <br />
+            Expert sourcing, development, and management for excellence.
+          </p>{" "}
+          <div>
+            <a
+              href="https://bit.ly/8thgeartalentrequestform"
+              target="_blank"
+              className="talentPlacementBtn ms-5"
+            >
+              {" "}
+              <TalentPlacementBtn />
+            </a>
+          </div>
         </div>
       </div>
     </div>

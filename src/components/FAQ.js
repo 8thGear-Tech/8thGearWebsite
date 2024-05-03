@@ -1,4 +1,3 @@
-//FAQCard
 import card from "../data/faq.json";
 
 const FAQ = () => {

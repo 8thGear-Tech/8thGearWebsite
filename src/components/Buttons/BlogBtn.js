@@ -1,13 +1,3 @@
-// import { } from "react-bootstrap-icons";
-
-//BlogReadMoreBtn
-//BlogReadMoreLinkBtn
-//SubmitCommentBtn
-//FacebookBtn
-// InstagramBtn
-//LinkedInBtn
-//ShareBtn
-
 export const InstagramBtn = () => {
   return (
     <button className="InstagramBtn border-0">

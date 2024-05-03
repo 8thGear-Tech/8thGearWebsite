@@ -8,11 +8,16 @@ import { Carousel, Item, Slide, div, img } from "bootstrap";
 
 //internal
 import { Navbar24 } from "../../components/Navbar";
+import { NewTalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
 import { TalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
-import recruitment from "../../assets/images/talentplacement/recruitment.jpg";
-import outsourcing from "../../assets/images/talentplacement/outsourcing.png";
-import cvscreening from "../../assets/images/talentplacement/cvscreening.jpg";
-import { ManagedServicesRequestBtn } from "../../components/Buttons/ServicesBtn";
+import recruitment from "../../assets/images/talentplacement/recruitment.png";
+import internshipplacement from "../../assets/images/talentplacement/internshipplacement.png";
+import cvscreening from "../../assets/images/talentplacement/cvscreening.png";
+import whyrecruitfromus from "../../assets/images/talentplacement/whyrecruitfromus.png";
+import {
+  ManagedServicesRequestBtn,
+  TalentPlacementRequestBtn,
+} from "../../components/Buttons/ServicesBtn";
 import hiringsm from "../../assets/images/talentplacement/hiringsm.png";
 import hiringlg from "../../assets/images/talentplacement/hiringlg.png";
 import line from "../../assets/images/talentplacement/line.png";
@@ -39,22 +44,29 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-import designers from "../../assets/images/talentplacement/talents/designers.png";
+import Webdeveloper from "../../assets/images/talentplacement/talents/Webdeveloper.png";
+import Creativedesigners from "../../assets/images/talentplacement/talents/Creativedesigners.png";
+import Dataanalysts from "../../assets/images/talentplacement/talents/Dataanalysts.png";
+import Digitalmarketers from "../../assets/images/talentplacement/talents/Digitalmarketers.png";
+import ProductDesigners from "../../assets/images/talentplacement/talents/ProductDesigners.png";
+import ProductManagers from "../../assets/images/talentplacement/talents/ProductManagers.png";
+import Customerexperience from "../../assets/images/talentplacement/talents/Customerexperience.png";
+import Codingandrobotics from "../../assets/images/talentplacement/talents/Codingandrobotics.png";
 import frontend from "../../assets/images/talentplacement/talents/frontend.png";
 import sales from "../../assets/images/talentplacement/talents/sales.png";
 import fullstack from "../../assets/images/talentplacement/talents/fullstack.png";
-import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
+// import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
 import backend from "../../assets/images/talentplacement/talents/backend.png";
-import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
+// import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
 import data from "../../assets/images/talentplacement/talents/data.png";
 
 const TalentPlacement = () => {
   return (
     <>
       <Navbar24 />
-      <TalentPlacementHero />
+      <NewTalentPlacementHero />
       <Services />
-      <TransformingTheHiringProcess />
+      {/* <TransformingTheHiringProcess /> */}
       <WhyRecruitFromUs />
       <OurAvailableTalents />
       <TrustedCompanies />
@@ -74,23 +86,20 @@ const Services = () => {
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Full Cycle Recruitment</h4>
               <p className="">
-                Our full recruitment solution is designed to help you handle and
-                execute the entire hiring process of tech talents from finding
-                the talent to hiring.
+                Streamlined recruitment: Expertly navigate tech talent hiring
+                from discovery to onboarding with our solution.
               </p>
             </div>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div className="cardBgg projectdeliveryCard">
-            <img src={outsourcing} className="card-img-top" alt="" />
+            <img src={internshipplacement} className="card-img-top" alt="" />
             <div className="card-body pb-3 px-3">
-              <h4 className="card-text mt-4">Outsourcing</h4>
+              <h4 className="card-text mt-4">Internship Placement</h4>
               <p className="">
-                Because we are good at what we do, we help your company focus on
-                core business activities and save costs by outsourcing highly
-                qualified Tech expertise that supports your company's growth and
-                also brings about productivity.
+                Discover your potential through our esteemed intern placement
+                service, connecting talent with ground breaking ventures.
               </p>
             </div>
           </div>
@@ -101,10 +110,8 @@ const Services = () => {
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">CV Screening</h4>
               <p className="">
-                This service is provided to help you go through the professional
-                process needed for CV screening. We carefully screen tech
-                talents' CVs and help determine the most qualified candidate for
-                the role.
+                Streamlined CV screening to find top tech talent for your roles
+                with our meticulous process.
               </p>
             </div>
           </div>
@@ -113,7 +120,7 @@ const Services = () => {
           {" "}
           <a href="https://bit.ly/8thgeartalentrequestform" target="_blank">
             {" "}
-            <ManagedServicesRequestBtn />
+            <TalentPlacementRequestBtn />
           </a>
         </div>
       </div>
@@ -197,9 +204,24 @@ const TransformingTheHiringProcess = () => {
 };
 const WhyRecruitFromUs = () => {
   return (
-    <div className="container">
+    <div className="container pb-5">
       <h4 className="pt-5 text-center">WHY RECRUIT FROM US</h4>
-      <div className="row justify-content-evenly mt-5">
+      {/* <div className="container"> */}
+      {/* <div className="container py-5"> */}
+      <div className="row justify-content-center justify-content-evenly">
+        <div className="col-lg-8 col-md-12 col-sm-12">
+          <img src={whyrecruitfromus} className="img-fluid" />
+        </div>
+      </div>
+      {/* <div className="row justify-content-center">
+        <img  
+          src={whyrecruitfromus}
+          className="col-8"
+          // style={{ maxWidth: "100%", maxHeight: "100%" }}
+        ></img>
+      </div> */}
+      {/* </div> */}
+      {/* <div className="row justify-content-evenly mt-5">
         <div className="col-lg-4 col-md-4 col-sm-10">
           {" "}
           <div className="card mb-5 py-4 talentCard">
@@ -248,28 +270,31 @@ const WhyRecruitFromUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
 const OurAvailableTalents = () => {
   return (
-    <div className="container-fluid talentHeroBg">
-      <h4 className="pt-5 text-center">OUR AVAILABLE TALENTS</h4>
-      <div className="row justify-content-evenly mt-5">
+    <div className="container-fluid pb-4" style={{ background: "#681955" }}>
+      <h4 className="pt-5 text-center text-white">OUR AVAILABLE TALENTS</h4>
+      <div className="row justify-content-center mt-5">
         <div className="col-lg-2 col-md-4 col-sm-10">
           {" "}
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={designers}
+                src={Webdeveloper}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Creative Designers</h4>
+              <p className="card-title text-center text-white">
+                Web Developers
+              </p>
+              {/* <h4 className="card-title text-center">Creative Designers</h4> */}
             </div>
           </div>
         </div>
@@ -278,25 +303,16 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={frontend}
+                src={Creativedesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Frontend Developers</h4>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-2 col-md-4 col-sm-10">
-          {" "}
-          <div className="mb-3 talentCard">
-            <div className="text-center">
-              <img src={sales} className="img-fluid" width="100" height="100" />
-            </div>
-            <div className="card-body">
-              <h4 className="card-title text-center">Sales</h4>
+              <p className="card-title text-center text-white">
+                Creative Designers
+              </p>
             </div>
           </div>
         </div>
@@ -305,14 +321,14 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={fullstack}
+                src={Dataanalysts}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Fullstack Developers</h4>
+              <p className="card-title text-center text-white">Data Analysts</p>
             </div>
           </div>
         </div>
@@ -321,32 +337,36 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={customerexperience}
+                src={Digitalmarketers}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Customer Experience</h4>
+              <p className="card-title text-center text-white">
+                Digital Marketers
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="row justify-content-evenly mt-5 pb-3">
+      <div className="row justify-content-center mt-5 pb-3">
         <div className="col-lg-2 col-md-4 col-sm-10">
           {" "}
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={backend}
+                src={ProductDesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Backend Developers</h4>
+              <p className="card-title text-center text-white">
+                UI/UX Designers
+              </p>
             </div>
           </div>
         </div>
@@ -355,14 +375,16 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={digitalmarketers}
+                src={ProductManagers}
                 className="img-fluid"
                 width="100"
                 height="100"
               />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Digital Marketers</h4>
+              <p className="card-title text-center text-white">
+                Product Managers
+              </p>
             </div>
           </div>
         </div>
@@ -370,10 +392,35 @@ const OurAvailableTalents = () => {
           {" "}
           <div className="mb-3 talentCard">
             <div className="text-center">
-              <img src={data} className="img-fluid" width="100" height="100" />
+              <img
+                src={Customerexperience}
+                className="img-fluid"
+                width="100"
+                height="100"
+              />
             </div>
             <div className="card-body">
-              <h4 className="card-title text-center">Data</h4>
+              <p className="card-title text-center text-white">
+                Customer Experience
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-4 col-sm-10">
+          {" "}
+          <div className="mb-3 talentCard">
+            <div className="text-center">
+              <img
+                src={Codingandrobotics}
+                className="img-fluid"
+                width="100"
+                height="100"
+              />
+            </div>
+            <div className="card-body">
+              <p className="card-title text-center text-white">
+                Coding and Robotics
+              </p>
             </div>
           </div>
         </div>

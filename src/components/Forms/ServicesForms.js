@@ -1,35 +1,6 @@
-// // ManagedServicesRequestForm;
-// // ProjectDeliveryRequestForm;
-// // CoworkingSpaceForm;
-
-// import { useState } from "react";
-// import logo from "../../assets/images/logo.png";
-// import { RequestForProposalBtn } from "../Buttons/ProjectDeliveryBtn";
-// import { ManagedServicesRequestBtn } from "../Buttons/ServicesBtn";
-// import { SubmitFormBtn } from "../Buttons/ContactBtn";
-// import { useForm } from "react-hook-form";
-// import {
-//   MDBValidation,
-//   MDBValidationItem,
-//   MDBInput,
-//   MDBBtn,
-//   MDBCheckbox,
-// } from "mdb-react-ui-kit";
-// import { Form } from "../Footer";
-
-// // export const ProjectDeliveryRequestForm = () => {
-// //   const [formData, setFormData] = useState({
-// //     email: "",
-// //     password: "",
-// //     debrief: "",
-// //   });
 import React, { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { SubmitFormBtn } from "../Buttons/ContactBtn";
-
-// //ManagedServicesRequestForm
-// //ProjectDeliveryRequestForm
-// //CoworkingSpaceForm
 
 const CoworkingSpaceForm = () => {
   const [name, setName] = useState("");
@@ -40,7 +11,6 @@ const CoworkingSpaceForm = () => {
   const [natureOfBusiness, setNatureOfBusiness] = useState("");
   const [website, setWebsite] = useState("");
   const [durationQuantity, setDurationQuantity] = useState("");
-  // const [GroupSelect, setGroupSelect] = useState("");
   const [date, setdate] = useState("");
 
   const [people, setPeople] = useState([]);

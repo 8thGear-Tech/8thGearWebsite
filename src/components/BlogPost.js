@@ -1,5 +1,3 @@
-//import blog from "../assets/images/Rectangle 9.png"
-//import data from "../data/BlogPost.json"
 import { InstagramBtn } from "../components/Buttons/BlogBtn";
 import { LinkedInBtn } from "../components/Buttons/BlogBtn";
 import { ShareBtn } from "../components/Buttons/BlogBtn";

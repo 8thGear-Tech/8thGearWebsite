@@ -1016,24 +1016,6 @@ article h4 {
   background-size: cover;
 }
 
-.bg-pic2 {
-  background-image: url(../assets/images/Physiology2.jpg);
-  height: 400px;
-  background-size: cover;
-}
-
-.bg-pic3 {
-  background-image: url(../assets/images/Genetics.jpg);
-  height: 400px;
-  background-size: cover;
-}
-
-.bg-pic4 {
-  background-image: url(../assets/images/Plantpathology1.jpg);
-  height: 400px;
-  background-size: cover;
-}
-
 .bg-logo1 {
   height: 300px;
 }
@@ -2252,6 +2234,46 @@ article h4 {
   height: 100vh;
 }
 
+.NewTalentPlacementHeroBg {
+  background: url(/src/assets/images/hero/talentplacement.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+}
+
+.NewTalentPlacementHeroText {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.NewTalentPlacementHeroBg h1 {
+  position: relative;
+}
+
+.NewTalentPlacementHeroBg h2 {
+  position: relative;
+}
+
+.NewTalentPlacementHeroBg p {
+  position: relative;
+}
+
+@media only screen and (max-width: 440px) {
+  .NewTalentPlacementHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 441px) {
+  .NewTalentPlacementHeroBg {
+    height: 60vh;
+  }
+}
+.talentPlacementBtn {
+  position: relative;
+}
+
 .gradientBg {
   background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
 }
@@ -2687,6 +2709,46 @@ video {
   color: #ffffff;
 }
 .ManagedServicesRequestBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.TalentPlacementBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 16rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.TalentPlacementBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.TalentPlacementBtn:focus {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+
+.TalentPlacementRequestBtn {
+  border: 3px solid #821e6b;
+  color: #000;
+  border-radius: 20px;
+  width: 12rem;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.TalentPlacementRequestBtn:hover {
+  background-color: #821e6b;
+  color: #ffffff;
+}
+.TalentPlacementRequestBtn:focus {
   background-color: #821e6b;
   color: #ffffff;
 }

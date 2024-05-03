@@ -1,6 +1,3 @@
-//CoWorkingPageHero
-//EventPageHero
-
 import homepagehero from "../../assets/images/homepagehero.png";
 import homepage from "../../assets/images/homepagehero.png";
 

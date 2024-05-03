@@ -1,9 +1,3 @@
-//GalleryPageHero
-//OurModelPageHero
-//ProjectDeliveryPageHero
-//IndividualManagedServicesHero
-// ManageServicesDigitalMarketingHero
-
 import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import { BookaSessionBtn } from "../Buttons/ServicesBtn";
@@ -51,10 +45,7 @@ export const OurModelHero = () => {
             As a rule, we build only default-alive ventures by doing things that
             scale so that we can have enduring ventures.
           </h2>
-          {/* <h2 className="d-none d-sm-block d-md-block d-lg-none heroTextColor">
-            As a rule, we build only default-alive ventures by doing things that
-            don't scale so that we can have enduring ventures that scale.
-          </h2> */}
+
           <h3 className="d-xs-block d-sm-none d-md-none d-lg-none heroTextColor">
             As a rule, we build only default-alive ventures by doing things that
             scale so that we can have enduring ventures.
@@ -64,32 +55,10 @@ export const OurModelHero = () => {
     </div>
   );
 };
-// export const ProjectDeliveryHero = () => {
-//   return (
-//     <div>
-//       <img src={projectdelivery} className="d-block w-100 " alt="..." />
-//       <div className="row">
-//         <div className="col-lg-8 col-md-8 col-sm-12">
-//           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5  ">
-//             The Venture Studio model for entrepreneurship, combining comapny
-//             building with venture funding Venture Studio.
-//           </h2>
-//           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none ">
-//             The Venture Studio model for entrepreneurship, combining comapny
-//             building with venture funding Venture Studio.
-//           </h3>
-//         </div>
-//       </div>
-//     </div>
-//   );
+
 export const ProjectDeliveryHero = () => {
   return (
     <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-3 align-items-center">
-      {/* <img
-        src={projectdelivery}
-        className="img-fluid carouselImage d-block w-100 h-50"
-        alt="..."
-      /> */}
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
@@ -189,24 +158,7 @@ export const CoworkingHero = () => {
     </div>
   );
 };
-// export const CoworkingHero = () => {
-//   return (
-//     <div className="px-4 container-fluid CoworkingHeroBg d-flex pt-3 pb-4 align-items-center">
-//       <div className="row">
-//         <div className="col-lg-8 col-md-8 col-sm-12">
-//           <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor">
-//             The Venture Studio model for entrepreneurship, combining comapny
-//             building with venture funding Venture Studio.
-//           </h2>
-//           <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-//             The Venture Studio model for entrepreneurship, combining comapny
-//             building with venture funding Venture Studio.
-//           </h3>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+
 export const DemoDayGalleryHero = () => {
   return (
     <div className="container-fluid DemoDayGalleryHeroBg d-flex align-items-center">
@@ -477,33 +429,6 @@ export const DemodayHero = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="">
-        <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <div className="ManagedServicesAccountingHero d-flex align-items-center">
-            <div className="container-fluid">
-              <h2 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studio.
-              </h2>
-            </div>
-          </div>
-        </div> */}
-      {/*ManagedServicesAccountingHero mobile view start */}
-
-      {/* <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-          <div className="ManagedServicesAccountingHeroMobileView d-flex align-items-center">
-            <div className="container-fluid ">
-              <h4 className="text-center heroTextColor">
-                The Venture Studio model for entrepreneurship, combining comapny
-                building with venture funding Venture Studi.
-              </h4>
-            </div>
-          </div>
-        </div> */}
-
-      {/* ManagedServicesAccountingHero mobile view start end */}
-      {/* </div> */}
     </>
   );
 };

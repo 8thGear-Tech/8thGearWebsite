@@ -1,4 +1,3 @@
-//LearnMoreBtn
 import React from "react";
 
 export const LearnMoreBtn = () => {
@@ -11,7 +10,6 @@ export const LearnMoreBtn = () => {
   );
 };
 
-//RequestForProposalBtn
 export const RequestForProposalBtn = () => {
   return (
     <>
@@ -20,13 +18,7 @@ export const RequestForProposalBtn = () => {
         target="_blank"
       >
         {" "}
-        <button
-          className="RequestForProposalBtn"
-          // type="button"
-          // data-bs-toggle="modal"
-          // data-bs-target="#staticBackdrop"
-          // type="button"
-        >
+        <button className="RequestForProposalBtn">
           Request for a Proposal
         </button>
       </a>

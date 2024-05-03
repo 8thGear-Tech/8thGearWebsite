@@ -757,18 +757,9 @@ export const AdvisoryBoardOnHoverCard = (props) => {
             style={{ color: "#fff" }}
           >
             <LinkedInIcon />
-            {/* <img
-              className="AdvisoryIcon"
-              src={LinkedIn_icon}
-              width={15}
-              height={5}
-            /> */}
           </a>
         </div>
       </div>
-      {/* </div> */}
-      {/* </div>
-      </div> */}
     </>
   );
 };
@@ -777,9 +768,6 @@ export const ProjectDeliveryCards = (props) => {
   const { image, title, text, link } = props;
   return (
     <>
-      {/* <div className="containerm">
-        <div className="row"> */}
-      {/* <div className=""> */}
       <div
         className="ProjectDeliveryImage"
         style={{
@@ -791,9 +779,7 @@ export const ProjectDeliveryCards = (props) => {
         <p className="ProjectDeliveryManagedServicesCardText TextAlignCenter ">
           {title}
         </p>{" "}
-        {/* <img src={image} alt="" /> */}
         <h6 className="ProjectDeliveryName">{text}</h6>
-        {/* <h6 className="AdvisoryPosition">{}</h6> */}
         <div className="ProjectDeliveryLink">
           <a
             className="btn"
@@ -802,18 +788,9 @@ export const ProjectDeliveryCards = (props) => {
             style={{ color: "#fff" }}
           >
             <OnHoverReadMoreBtn />
-            {/* <img
-              className="AdvisoryIcon"
-              src={LinkedIn_icon}
-              width={15}
-              height={5}
-            /> */}
           </a>
         </div>
       </div>
-      {/* </div> */}
-      {/* </div>
-      </div> */}
     </>
   );
 };

@@ -1,7 +1,4 @@
 import { Navbar27 } from "../../../components/Navbar";
-// import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
-// import { DemodayHero } from "../../components/Hero/ImageandTextHero";
-// import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
 import { GearUpExposeBtn } from "../../../components/Buttons/EventsBtn";
 
 const GearUpShowcasePage = () => {

@@ -656,6 +656,45 @@
   height: 100vh;
   // opacity: 1;
 }
+.NewTalentPlacementHeroBg {
+  background: url(/src/assets/images/hero/talentplacement.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  // margin: 20px;
+  // width: 300px;
+  // height: 200px;
+  height: 100vh;
+  // opacity: 1;
+}
+
+.NewTalentPlacementHeroText {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.NewTalentPlacementHeroBg h1 {
+  position: relative;
+}
+.NewTalentPlacementHeroBg h2 {
+  position: relative;
+}
+.NewTalentPlacementHeroBg p {
+  position: relative;
+}
+@media only screen and (max-width: 440px) {
+  .NewTalentPlacementHeroBg {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 441px) {
+  .NewTalentPlacementHeroBg {
+    height: 60vh;
+  }
+}
+.talentPlacementBtn {
+  position: relative;
+}
 .gradientBg {
   background-image: linear-gradient(
     to right,

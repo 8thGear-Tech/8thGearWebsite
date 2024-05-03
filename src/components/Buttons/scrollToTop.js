@@ -36,23 +36,10 @@ export const ScrollButton = () => {
         onClick={scrollToTop}
         style={{
           display: visible ? "inline" : "none",
-          // width: "100px",
+
           height: "30px",
         }}
       />
-      {/* <div className=" scrolltotopBtn ">
-        {" "}
-        <i
-          className="bi bi-arrow-up-square scrolltotopBtn  "
-          onClick={scrollToTop}
-          style={{
-            display: visible ? "inline" : "none",
-            maxWidth: "100%",
-            maxHeight: "100%",
-          }}
-        
-        ></i>
-      </div> */}
     </>
   );
 };
@@ -65,6 +52,5 @@ export function GoToTop() {
   useEffect(() => {
     onTop();
   }, [routePath]);
-
   return null;
 }

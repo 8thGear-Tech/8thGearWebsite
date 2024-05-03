@@ -1,49 +1,20 @@
-//JointheStudioBtn
-//JointheTeamBtn
-//SubmitFormBtn
-// FormSubmitBtn
-
 export const JointheStudioBtn = () => {
   return (
     <a
       href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
       target="_blank"
     >
-      <button
-        className="JointheStudioBtn"
-        type="button"
-        // className="prop"
-        // data-bs-toggle="modal"
-        // data-bs-target="#staticBackdrop"
-      >
+      <button className="JointheStudioBtn" type="button">
         Join the Studio
       </button>
     </a>
   );
 };
-// export const JointheStudioBtn = () => {
-//   return (
-//     <button
-//       type="button"
-//       className="JointheStudioBtn"
-//       data-bs-toggle="modal"
-//       data-bs-target="#staticBackdrop1"
-//     >
-//       Join the Studio
-//     </button>
-//   );
-// };
+
 export const JointheTeamBtn = () => {
   return (
     <a href="https://bit.ly/8Gjoinourteam" target="_blank">
-      <button
-        // type="button"
-        className="JointheTeamBtn"
-        // data-bs-toggle="modal"
-        // data-bs-target="#staticBackdrop"
-      >
-        Join the Team
-      </button>
+      <button className="JointheTeamBtn">Join the Team</button>
     </a>
   );
 };
@@ -160,7 +131,6 @@ export const MemberEightViewBioBtn = () => {
         href=""
         className="text-decoration-none team-button-color"
         type="button"
-        // class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop8"
       >

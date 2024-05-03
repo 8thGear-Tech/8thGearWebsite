@@ -1,9 +1,3 @@
-//GalleryCard
-// import Record from "../../data/blog.json"
-// //GalleryMediaCards
-// //AllPortfoliosLogoCard
-// //ProjectDeliveryManagedServicesCard
-
 import galleryData from "../../data/gallerypiggerytraining.json";
 import gallerypictures from "../../data/galleryEmployabilityGIZ.json";
 import galleryusadfData from "../../data/galleryusadf.json";
@@ -20,10 +14,6 @@ import {
   OnHoverReadMoreBtnTwo,
 } from "../Buttons/ServicesBtn";
 import { Link } from "react-router-dom";
-// import Record from "../../data/blog.json"
-// //GalleryMediaCards
-// //AllPortfoliosLogoCard
-// //ProjectDeliveryManagedServicesCard
 
 export const AllPortfoliosLogoCard = (props) => {
   const { logo, link } = props;
@@ -35,7 +25,6 @@ export const AllPortfoliosLogoCard = (props) => {
           src={logo}
           alt="Logo"
           style={{ maxWidth: "100%", maxHeight: "100%" }}
-          // height={150}
         />
       </Link>
     </div>
@@ -211,12 +200,10 @@ export const NewProjectDeliveryManagedServicesCard = (props) => {
         <div className="card-body pb-3 px-3">
           <figure className="text-center">
             <h4 className="card-text mt-4">{title}</h4>
-            {/* <p className="">{description}</p> */}
           </figure>
           <div className="text-center pt-4">
             <Link to={link} className="text-decoration-none text-black">
               {" "}
-              {/* <OnHoverReadMoreBtn /> */}
               <p
                 className="card-text text-decoration-underline"
                 style={{ color: "#821E6B" }}
@@ -286,38 +273,13 @@ export const MediaCards = () => {
   );
 };
 
-// export const AllPortfoliosLogoCard = (props) =>{
-//     const image = props.image;
-//     return(
-//         <div className="container-fluid">
-//         <div style={{borderTop: "1px solid #dee2e6",borderLeft: "1px solid #dee2e6",}} className="row TextAlignCenter border-bottom-0">
-//             {
-
-//             Record && Record.map(record => {
-//                 return(
-//                     <div style={{borderRight: "1px solid #dee2e6",borderBottom: "1px solid #dee2e6",paddingLeft: "20px", paddingRight: "20px",}} className="col-lg-3 col-md-4 col-sm-6 col-6 px-4" key={record.id}>
-//                         <img className="my-5" src={ image } alt="Logos" style={{maxWidth: "100%", maxHeigt: "40%",}} height={70}/>
-//                     </div>
-//                 )
-//             })
-// }
-// </div>
-//       </div>
-//     )
-// };
-
 //Project Delivery
 
 export const SingleGalleryGizCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="img-fluid"
-        // style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid" src={image} alt={id} />
     </>
   );
 };
@@ -375,12 +337,7 @@ export const SinglePiggeryTrainingCards = (props) => {
   const { image, id } = props;
   return (
     <>
-      <img
-        className="img-fluid w-100"
-        // style={{ width: 358.8 }}
-        src={image}
-        alt={id}
-      />
+      <img className="img-fluid w-100" src={image} alt={id} />
     </>
   );
 };
@@ -500,20 +457,6 @@ export const GalleryCards = () => {
   );
 };
 
-// export const SinglegalleryVideoCards = (props) => {
-//   const { video, id, text } = props;
-//   return (
-//     <>
-//       <div className="">
-//         <iframe src={video} className="mt-5" alt="..." />
-//         <div className=" events">
-//           <p className="card-text">{text}</p>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
 export const SinglegalleryVideoCards = (props) => {
   const { video, id } = props;
   return (
@@ -531,19 +474,6 @@ export const SinglegalleryVideoCards = (props) => {
     </>
   );
 };
-
-{
-  /* <div className="responsive-iframe md-5 text-center">
-        <iframe
-          src={video}
-          width="390"
-          height="280"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div> */
-}
 
 export const GalleryVideoCards = () => {
   return (
@@ -563,21 +493,6 @@ export const GalleryVideoCards = () => {
   );
 };
 
-// export const SinglegalleryVideo = (props) => {
-//   const { video, id, text } = props;
-//   return (
-//     <>
-//       <div className="  galleryvideos">
-//         <iframe
-//           src={video}
-//           className="card-img-top  galleryvideos "
-//           alt="..."
-//         />
-//       </div>
-//     </>
-//   );
-// };
-
 export const SinglegalleryVideo = (props) => {
   const { video, id } = props;
   return (
@@ -595,19 +510,6 @@ export const SinglegalleryVideo = (props) => {
   );
 };
 
-{
-  /* <div className="responsive-iframe md-5 text-center">
-  <iframe
-    src={video}
-    width="390"
-    height="280"
-    frameBorder="0"
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>; */
-}
-
 export const DigiPlusResponsibilityMatrixCards = (props) => {
   const {
     role,
@@ -621,21 +523,6 @@ export const DigiPlusResponsibilityMatrixCards = (props) => {
     imageUrl,
   } = props;
 
-  // const cardContainerStyle = {
-  //   backgroundImage: `url(${imageUrl})`,
-  //   minHeight: "200px", // Set a minimum height for uniformity
-  //   display: "flex", // Use flex display
-  //   flexDirection: "column", // Stack children vertically
-  //   justifyContent: "space-between", // Space evenly within container
-  // };
-  // const cardContainerStyle = {
-  //   minHeight: "200px", // Set a minimum height for uniformity
-  //   display: "flex", // Use flex display
-  //   flexDirection: "column", // Stack children vertically
-  //   justifyContent: "space-between", // Space evenly within container
-  //   // backgroundImage: `url(${imageUrl})`, // Add the backgroundImage property here
-  // };
-
   return (
     <>
       <div
@@ -644,7 +531,6 @@ export const DigiPlusResponsibilityMatrixCards = (props) => {
       >
         <div className="card imgCardBg mt-auto d-flex h-75">
           <div className="card-body d-flex flex-column justify-content-center align-items-md-start">
-            {/* <div className="card-body d-flex flex-column justify-content-center align-items-center align-items-md-start"> */}
             <h6 className="mb-2 text-md-start">{role}</h6>
             <h5
               className="card-title spaceTitle text-md-start"
@@ -663,56 +549,6 @@ export const DigiPlusResponsibilityMatrixCards = (props) => {
           </div>
         </div>
       </div>
-
-      {/* <div
-        className="eightGearImg my-3 d-flex align-items-end"
-        style={{ backgroundImage: `url(${imageUrl})` }}
-      >
-        <div className="card imgCardBg mt-auto d-flex h-75">
-          <div className="card-body d-flex flex-column justify-content-center align-items-center align-items-md-start">
-            <h6 className="mb-2">{role}</h6>
-            <h5
-              className="card-title spaceTitle"
-              style={{ fontSize: "1rem", marginBottom: "10px" }}
-            >
-              {company}
-            </h5>
-            <p>{offerings}</p>
-            <div className="d-flex flex-column justify-content-center align-items-start">
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphOne}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphTwo}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphThree}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphFour}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphFive}</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div
-        className="eightGearImg my-3 d-flex align-items-end"
-        style={{ backgroundImage: `url(${imageUrl})` }}
-      >
-        <div className="card imgCardBg mt-auto d-flex h-75">
-          <div className="card-body d-flex flex-column justify-content-center align-items-center">
-            <h6 className="mb-2">{role}</h6>
-            <h5
-              className="card-title spaceTitle"
-              style={{ fontSize: "1rem", marginBottom: "10px" }}
-            >
-              {company}
-            </h5>
-            <p>{offerings}</p>
-            <div className="d-flex flex-column justify-content-center align-items-center">
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphOne}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphTwo}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphThree}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphFour}</p>
-              <p style={{ fontSize: "0.8rem", margin: 0 }}>{paragraphFive}</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

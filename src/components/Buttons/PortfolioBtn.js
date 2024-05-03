@@ -1,6 +1,3 @@
-//PreviousBtn
-//NextBtn
-
 export const PreviousBtn = () => {
   return (
     <>
@@ -21,7 +18,6 @@ export const NextBtn = () => {
   );
 };
 
-//Resources
 export const ResourcesTitleBtn = () => {
   return (
     <>

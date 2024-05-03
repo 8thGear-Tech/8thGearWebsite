@@ -4,7 +4,6 @@ import Card from "react-bootstrap/Card";
 import { BlogReadMoreBtn } from "../Buttons/BlogBtn";
 import info from "../../data/blog.json";
 import { BlogReadMoreLinkBtn } from "../../components/Buttons/BlogBtn";
-// import Line2 from "../../assets/images/Line2.jpg";
 
 export const BigBlogCard = () => {
   return (
@@ -12,16 +11,6 @@ export const BigBlogCard = () => {
       {info.mainCard.map((items) => {
         const { image, title, text, date } = items;
         return (
-          // <Card className="" style={{ width: "auto" }}>
-          //   <Card.Img variant="top" src={image} />
-          //   <Card.Body>
-          //     <Card.Title className="h5">{title}</Card.Title>
-
-          //     <Card.Text>{date}</Card.Text>
-          //     <Card.Text>{text}</Card.Text>
-          //     <BlogReadMoreLinkBtn />
-          //   </Card.Body>
-          // </Card>
           <div className="card1 card mx-3 ">
             <img src={image} className="card-img-top" alt={"img"} />
             <div className="card-body">
@@ -36,13 +25,7 @@ export const BigBlogCard = () => {
     </>
   );
 };
-{
-  /* </div>
-              <div className="col-2 d-sm-none d-md-block d-none d-sm-block">
-                <img src={Line2} alt="" />
-              </div>
-            </div> */
-}
+
 export const MainBlogCard = () => {
   return (
     <>
@@ -109,17 +92,6 @@ export const SingleSideBlogCard = (props) => {
   const { image, text, date } = props;
   return (
     <>
-      {/* <div className=" card my-4 sideCardImg">
-        <div className="">
-          <Card.Img variant="top" src={image} className="" />
-        </div>
-        <div className="">
-          <h6 className="card-title  text-fluid1">{date}</h6>
-          <p className="card-text text-fluid2">{text}</p>
-          <BlogReadMoreLinkBtn></BlogReadMoreLinkBtn>
-        </div>
-      </div> */}
-
       <Card className=" card  sideCardImg mb-3">
         <Card.Img variant="top" src={image} className="" />
         <div className="sidecard-date-text ">{date}</div>
