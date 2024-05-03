@@ -44,7 +44,7 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-import webdeveloper from "../../assets/images/talentplacement/talents/webdeveloper.png";
+import developer from "../../assets/images/talentplacement/talents/developer.png";
 import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
 import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
 import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
@@ -284,7 +284,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={webdeveloper}
+                src={developer}
                 className="img-fluid"
                 width="100"
                 height="100"
