@@ -44,14 +44,14 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-import Webdeveloper from "../../assets/images/talentplacement/talents/Webdeveloper.png";
-import Creativedesigners from "../../assets/images/talentplacement/talents/Creativedesigners.png";
-import Dataanalysts from "../../assets/images/talentplacement/talents/Dataanalysts.png";
+import webdeveloper from "../../assets/images/talentplacement/talents/webdeveloper.png";
+import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
+import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
 import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
-import ProductDesigners from "../../assets/images/talentplacement/talents/ProductDesigners.png";
-import ProductManagers from "../../assets/images/talentplacement/talents/ProductManagers.png";
-import Customerexperience from "../../assets/images/talentplacement/talents/Customerexperience.png";
-import Codingandrobotics from "../../assets/images/talentplacement/talents/Codingandrobotics.png";
+import productdesigners from "../../assets/images/talentplacement/talents/productdesigners.png";
+import productmanagers from "../../assets/images/talentplacement/talents/productmanagers.png";
+import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
+import codingandrobotics from "../../assets/images/talentplacement/talents/codingandrobotics.png";
 import frontend from "../../assets/images/talentplacement/talents/frontend.png";
 import sales from "../../assets/images/talentplacement/talents/sales.png";
 import fullstack from "../../assets/images/talentplacement/talents/fullstack.png";
@@ -284,7 +284,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Webdeveloper}
+                src={webdeveloper}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -303,7 +303,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Creativedesigners}
+                src={creativedesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -321,7 +321,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Dataanalysts}
+                src={dataanalysts}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -357,7 +357,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={ProductDesigners}
+                src={productdesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -375,7 +375,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={ProductManagers}
+                src={productmanagers}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -393,7 +393,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Customerexperience}
+                src={customerexperience}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -411,7 +411,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src={Codingandrobotics}
+                src={codingandrobotics}
                 className="img-fluid"
                 width="100"
                 height="100"
