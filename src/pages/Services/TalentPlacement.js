@@ -44,7 +44,14 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-
+import developer from "../../assets/images/talentplacement/talents/developer.png";
+import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
+import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
+import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
+import productdesigners from "../../assets/images/talentplacement/talents/productdesigners.png";
+import productmanagers from "../../assets/images/talentplacement/talents/productmanagers.png";
+import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
+import codingandrobotics from "../../assets/images/talentplacement/talents/codingandrobotics.png";
 import frontend from "../../assets/images/talentplacement/talents/frontend.png";
 import sales from "../../assets/images/talentplacement/talents/sales.png";
 import fullstack from "../../assets/images/talentplacement/talents/fullstack.png";
@@ -297,8 +304,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={creativedesigners}
-                src=""
+                src={creativedesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -316,8 +322,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={dataanalysts}
-                src=""
+                src={dataanalysts}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -333,8 +338,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={digitalmarketers}
-                src=""
+                src={digitalmarketers}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -354,8 +358,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={productdesigners}
-                src=""
+                src={productdesigners}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -373,8 +376,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={productmanagers}
-                src=""
+                src={productmanagers}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -392,8 +394,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={customerexperience}
-                src=""
+                src={customerexperience}
                 className="img-fluid"
                 width="100"
                 height="100"
@@ -411,8 +412,7 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                // src={codingandrobotics}
-                src=""
+                src={codingandrobotics}
                 className="img-fluid"
                 width="100"
                 height="100"
