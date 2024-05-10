@@ -44,7 +44,7 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-// import developer from "../../assets/images/talentplacement/talents/developer.png";
+
 import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
 import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
 import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
