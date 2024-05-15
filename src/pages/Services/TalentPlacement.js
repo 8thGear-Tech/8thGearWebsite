@@ -45,13 +45,13 @@ import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.p
 
 //talent
 import developer from "../../assets/images/talentplacement/talents/developer.png";
-import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
-import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
+import creativedesigners from "../../assets/images/talentplacement/talents/Creativedesigners.png";
+import dataanalysts from "../../assets/images/talentplacement/talents/Dataanalysts.png";
 import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
-import productdesigners from "../../assets/images/talentplacement/talents/productdesigners.png";
-import productmanagers from "../../assets/images/talentplacement/talents/productmanagers.png";
+import productdesigners from "../../assets/images/talentplacement/talents/ProductDesigners.png";
+import productmanagers from "../../assets/images/talentplacement/talents/ProductManagers.png";
 import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
-import codingandrobotics from "../../assets/images/talentplacement/talents/codingandrobotics.png";
+import codingandrobotics from "../../assets/images/talentplacement/talents/Codingandrobotics.png";
 import frontend from "../../assets/images/talentplacement/talents/frontend.png";
 import sales from "../../assets/images/talentplacement/talents/sales.png";
 import fullstack from "../../assets/images/talentplacement/talents/fullstack.png";
