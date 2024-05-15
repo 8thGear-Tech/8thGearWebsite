@@ -44,7 +44,7 @@ import fuelmetrics from "../../assets/images/talentplacement/companylogo/fuelmet
 import ictflier from "../../assets/images/talentplacement/companylogo/ictflier.png";
 
 //talent
-// import developer from "../../assets/images/talentplacement/talents/developer.png";
+import developer from "../../assets/images/talentplacement/talents/developer.png";
 import creativedesigners from "../../assets/images/talentplacement/talents/creativedesigners.png";
 import dataanalysts from "../../assets/images/talentplacement/talents/dataanalysts.png";
 import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
@@ -79,7 +79,7 @@ const Services = () => {
   return (
     <div className="container">
       <div className="row justify-content-evenly">
-        <h4 className="pt-5 text-center">OUR SERVICES</h4>
+        <h4 className="pt-5 h text-center">OUR SERVICES</h4>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div className="cardBgg projectdeliveryCard">
             <img src={recruitment} className="card-img-top" alt="" />
@@ -284,8 +284,8 @@ const OurAvailableTalents = () => {
           <div className="mb-3 talentCard">
             <div className="text-center">
               <img
-                src=""
-                // src={developer}
+                // src=""
+                src={developer}
                 className="img-fluid"
                 width="100"
                 height="100"
