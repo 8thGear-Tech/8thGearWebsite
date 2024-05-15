@@ -79,7 +79,7 @@ const Services = () => {
   return (
     <div className="container">
       <div className="row justify-content-evenly">
-        <h4 className="pt-5 h text-center">OUR SERVICES</h4>
+        <h4 className="pt-5 text-center">OUR SERVICES</h4>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div className="cardBgg projectdeliveryCard">
             <img src={recruitment} className="card-img-top" alt="" />
