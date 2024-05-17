@@ -298,7 +298,7 @@ const WhyRecruitFromUs = () => {
 
 const Tractions = () => {
   return (
-    <div className="py-5 CoTractionsBg mt-5">
+    <div className="container-fluid py-5 CoTractionsBg mt-5">
       <div className="CoTractionsBgg">
         <h3 className="text-center mb-2" style={{ color: "#fff" }}>
           TRACTIONS
