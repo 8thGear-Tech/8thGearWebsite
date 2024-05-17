@@ -301,6 +301,47 @@
   line-height: 35px;
 }
 
+// Tractions
+.CoTractionsBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.CoTractionsBg {
+  // content: "";
+  background: url(/src/assets/images/talentplacement/tractions.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoTractionsBg p,
+h3,
+h2 {
+  position: relative;
+}
+// .CoworkingTestmonialBgg .coworkingTestCards h3 {
+//   position: relative;
+// }
+// .coworkingBookBtn,
+// .coworkingBookText {
+//   position: relative;
+//   line-height: 35px;
+// }
+
 //Our Model hero
 // .OurModelHeroBgg::before {
 //   content: "";

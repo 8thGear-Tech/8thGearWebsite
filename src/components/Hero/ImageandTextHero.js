@@ -1,3 +1,10 @@
+// src/CarouselComponent.js
+
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import { useState } from "react";
+import { Card } from "react-bootstrap";
+
 import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import { BookaSessionBtn } from "../Buttons/ServicesBtn";
@@ -135,7 +142,46 @@ export const EventsPageHero = () => {
     </div>
   );
 };
+
+//n co
+
+const cards = [
+  {
+    image: futatechpichero,
+    title: "Card Title 1",
+  },
+  {
+    image: "image2.jpg",
+    title: "Card Title 2",
+  },
+  {
+    image: "image3.jpg",
+    title: "Card Title 3",
+  },
+];
 export const CoworkingHero = () => {
+  return (
+    <Carousel indicators={false} controls={true}>
+      {cards.map((card, index) => (
+        <Carousel.Item
+          key={index}
+          style={{
+            backgroundImage: `url(${card.image})`,
+            backgroundSize: "cover",
+          }}
+        >
+          {card.title && (
+            <Carousel.Caption className="card-caption">
+              <h3>{card.title}</h3>
+            </Carousel.Caption>
+          )}
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  );
+};
+
+export const CooworkingHero = () => {
   return (
     <div className="container-fluid CoworkingHeroBg d-flex align-items-center">
       <div className="px-4 container-fluid CoworkingHeroBgg d-flex pt-3 pb-4">

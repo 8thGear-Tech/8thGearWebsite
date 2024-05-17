@@ -66,11 +66,11 @@ const TalentPlacement = () => {
       <Navbar24 />
       <NewTalentPlacementHero />
       <Services />
-      {/* <TransformingTheHiringProcess /> */}
+      <OurHiringProcess />
       <WhyRecruitFromUs />
+      <Tractions />
       <OurAvailableTalents />
       <TrustedCompanies />
-      {/* <LogoCarousel /> */}
     </>
   );
 };
@@ -202,12 +202,33 @@ const TransformingTheHiringProcess = () => {
     </div>
   );
 };
+const OurHiringProcess = () => {
+  return (
+    <div
+      className="container-fluid pb-5 mt-5"
+      style={{ background: "rgba(130, 30, 107, 0.1)" }}
+    >
+      <h4 className="pt-5 text-center mb-4">OUR HIRING PROCESS</h4>
+      <div className="container px-4">
+        <div className="d-flex justify-content-center">
+          {" "}
+          <iframe
+            src="https://www.youtube.com/embed/YKyZ2z1h1-c?si=gFbvTw9J3lkTJewL"
+            width="600"
+            height="400"
+            //   frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            //   allowFullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  );
+};
 const WhyRecruitFromUs = () => {
   return (
-    <div className="container pb-5">
-      <h4 className="pt-5 text-center">WHY RECRUIT FROM US</h4>
-      {/* <div className="container"> */}
-      {/* <div className="container py-5"> */}
+    <div className="container pb-5 mt-3">
+      <h4 className="pt-4 text-center">WHY RECRUIT FROM US</h4>
       <div className="row justify-content-center justify-content-evenly">
         <div className="col-lg-8 col-md-12 col-sm-12">
           <img src={whyrecruitfromus} className="img-fluid" />
@@ -271,6 +292,38 @@ const WhyRecruitFromUs = () => {
           </div>
         </div>
       </div> */}
+    </div>
+  );
+};
+
+const Tractions = () => {
+  return (
+    <div className="py-5 CoTractionsBg mt-5">
+      <div className="CoTractionsBgg">
+        <h3 className="text-center mb-2" style={{ color: "#fff" }}>
+          TRACTIONS
+        </h3>
+        <div className="row justify-content-center">
+          <div className="col-lg-3 col-md-4 col-sm-10">
+            {" "}
+            <div className="text-center text-white mt-5">
+              <h2>250</h2>
+            </div>
+            <div className="card-body">
+              <p className="card-title text-center text-white">Tech Talents</p>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-10">
+            {" "}
+            <div className="text-center text-white mt-5">
+              <h2>50+</h2>
+            </div>
+            <div className="card-body">
+              <p className="card-title text-center text-white">Companies</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

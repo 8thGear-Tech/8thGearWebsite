@@ -201,7 +201,7 @@ export const NewTalentPlacementHero = () => {
           <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
             Hire Vetted Tech Talents
           </h2>
-          <p style={{ color: "#ffffff" }} className="ms-5">
+          <p style={{ color: "#ffffff" }} className="ms-lg-5 ms-xs-5">
             Scale your business with our top-tier tech talent. <br />
             Expert sourcing, development, and management for excellence.
           </p>{" "}
@@ -209,7 +209,7 @@ export const NewTalentPlacementHero = () => {
             <a
               href="https://bit.ly/8thgeartalentrequestform"
               target="_blank"
-              className="talentPlacementBtn ms-5"
+              className="talentPlacementBtn ms-lg-5 ms-xs-5"
             >
               {" "}
               <TalentPlacementBtn />

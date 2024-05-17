@@ -1919,6 +1919,37 @@ article h4 {
   line-height: 35px;
 }
 
+.CoTractionsBgg::before {
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.CoTractionsBg {
+  background: url(/src/assets/images/talentplacement/tractions.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
+}
+
+.CoTractionsBg p,
+h3,
+h2 {
+  position: relative;
+}
+
 .GaaSHeroBgg::before {
   content: "";
   position: absolute;
@@ -3509,5 +3540,30 @@ header {
     right: 10px;
     font-size: 22px;
   }
+}
+.d-flex {
+  display: flex;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white; /* Adjust text color as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better contrast */
+  z-index: 1; /* Ensure text overlay stays on top */
+}
+
+.card-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white; /* Adjust caption text color as needed */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); /* Add a slight shadow for better readability */
 }
 /*# sourceMappingURL=styles.css.map */
