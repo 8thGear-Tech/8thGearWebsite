@@ -159,7 +159,7 @@ const cards = [
     title: "Card Title 3",
   },
 ];
-export const CoworkingHero = () => {
+export const CooworkingHero = () => {
   return (
     <Carousel indicators={false} controls={true}>
       {cards.map((card, index) => (
@@ -181,7 +181,7 @@ export const CoworkingHero = () => {
   );
 };
 
-export const CooworkingHero = () => {
+export const CoworkingHero = () => {
   return (
     <div className="container-fluid CoworkingHeroBg d-flex align-items-center">
       <div className="px-4 container-fluid CoworkingHeroBgg d-flex pt-3 pb-4">
