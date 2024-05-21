@@ -31,6 +31,106 @@ import linkedin from "../../assets/images/LinkedIn_icon.png";
 import { LinkedInIcon } from "../Icons";
 
 // persononestarts
+export const TeamCard = (props) => {
+  const { image1, name1, title1, id, image, name, position, text, link } =
+    props;
+  return (
+    <>
+      <div className="card-deck">
+        <div className="card w-75 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
+              <p className="Text mb-3 mt-3">{title1}</p>
+            </figure>
+            {/* <a href="https://www.linkedin.com/in/omowunmiobidairo/">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a> */}
+
+            {/* <JointheTeamBtn /> */}
+            <div className="text-center">
+              {" "}
+              <MemberOneViewBioBtn />
+            </div>
+            {/* <button
+        type="button"
+        className="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop1"
+      >
+        8thgerian1
+      </button> */}
+            <div
+              className="modal fade"
+              id={id}
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabIndex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="d-flex justify-content-between mx-4 my-2">
+                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div className="cards" key={id}>
+                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <h4>{name}</h4>
+                    <h6 className="">{position}</h6>
+                    <a href={link} target="_blank">
+                      <div className="">
+                        {" "}
+                        <LinkedInIcon />
+                      </div>
+                    </a>
+                    <div className="card-body">
+                      <p className="card-text ">{text}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <EightgeariansPopUpCard1 /> */}
+
+            {/* <a href="">
+              {popup} */}
+            {/* <MemberOneViewBioBtn /> */}
+            {/* </a> */}
+
+            {/* <a href="#" className="nav-link active link">
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 export const TeamCardTwo = (props) => {
   const { image1, name1, title1, id, image, name, position, text, link } =
     props;
@@ -53,7 +153,7 @@ export const TeamCardTwo = (props) => {
             {/* <JointheTeamBtn /> */}
             <div className="text-center">
               {" "}
-              <MemberOneViewBioBtn />
+              <MemberTwoViewBioBtn />
             </div>
 
             {/* <button
@@ -152,106 +252,6 @@ export const TeamCardTwo = (props) => {
 //   );
 // };
 
-export const TeamCard = (props) => {
-  const { image1, name1, title1, id, image, name, position, text, link } =
-    props;
-  return (
-    <>
-      <div className="card-deck">
-        <div className="card w-75 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
-          <div className="card-body teamcardbody">
-            <figure className="text-center">
-              <figcaption className="card-text mt-1">{name1}</figcaption>
-              <p className="Text mb-3 mt-3">{title1}</p>
-            </figure>
-            {/* <a href="https://www.linkedin.com/in/omowunmiobidairo/">
-              <div className="text-center">
-                {" "}
-                <LinkedInIcon />
-              </div>
-            </a> */}
-
-            {/* <JointheTeamBtn /> */}
-            <div className="text-center">
-              {" "}
-              <MemberTwoViewBioBtn />
-            </div>
-            {/* <button
-        type="button"
-        className="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop1"
-      >
-        8thgerian1
-      </button> */}
-            <div
-              className="modal fade"
-              id={id}
-              data-bs-backdrop="static"
-              data-bs-keyboard="false"
-              tabIndex="-1"
-              aria-labelledby="staticBackdropLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-
-                  <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
-                    <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <a href={link} target="_blank">
-                      <div className="">
-                        {" "}
-                        <LinkedInIcon />
-                      </div>
-                    </a>
-                    <div className="card-body">
-                      <p className="card-text ">{text}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <EightgeariansPopUpCard1 /> */}
-
-            {/* <a href="">
-              {popup} */}
-            {/* <MemberOneViewBioBtn /> */}
-            {/* </a> */}
-
-            {/* <a href="#" className="nav-link active link">
-              View More
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </a> */}
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
 // export const GeriansTwo = () => {
 //   return (
 //     <div className="container ">
