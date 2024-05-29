@@ -7,10 +7,10 @@ import { CoworkingTestimonial } from "../../components/AllCards/TestimonialCards
 import { CoworkingHero } from "../../components/Hero/ImageandTextHero";
 // import Photo from "../../assets/images/Group .png";
 import { BookNowBtn } from "../../components/Buttons/ServicesBtn";
-import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
-import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
-import { DailyandWeekendBundleBtn } from "../../components/Buttons/ServicesBtn";
-import { MeetingRoomBundleBtn } from "../../components/Buttons/ServicesBtn";
+// import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
+// import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
+// import { DailyandWeekendBundleBtn } from "../../components/Buttons/ServicesBtn";
+// import { MeetingRoomBundleBtn } from "../../components/Buttons/ServicesBtn";
 import { AdvisoryServicesIcon } from "../../components/Icons";
 import { SereneEnvironmentIcon } from "../../components/Icons";
 import { EventIcon } from "../../components/Icons";
@@ -18,7 +18,11 @@ import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
 
 //spaces
-import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+// import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+import { CoWorkingPricing } from "../../components/CoWorkingPricing";
+import OurPriceRange from "../../components/OurPriceRange";
+import Podcast from "../../components/Podcast";
+import Clients from "../../components/Clients";
 
 const CoWorking = () => {
   return (
@@ -31,6 +35,10 @@ const CoWorking = () => {
       <Offers />
       <OurOffers />
       <PricingTable />
+      <CoWorkingPricing />
+      <OurPriceRange />
+      <Podcast />
+      <Clients />
     </>
   );
 };

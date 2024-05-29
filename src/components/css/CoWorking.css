@@ -1,0 +1,302 @@
+.main {
+  border-top: 1px solid black;
+}
+
+.main h3 {
+  color: #a5009f;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.main p {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.main a {
+  margin-left: 3px;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.main .coworking-img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.pricetable {
+  margin-top: 50px;
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group .btn.btn-primary {
+  width: 229px;
+  height: 52px;
+  padding: 8px 16px;
+  gap: 6.97px;
+  border-radius: 80px;
+  border: 1px solid #a5009f;
+  background: #fafafa;
+  color: #a5009f;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 24px !important;
+  text-align: center;
+  opacity: 1;
+  transition: background 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+.button-group .btn.btn-primary.active {
+  background: #6e006a;
+  color: white;
+}
+
+.button-group .btn.btn-primary:hover {
+  background: #6e006a;
+  color: white;
+}
+
+.tab-card {
+  font-family: "Poppins", sans-serif !important;
+  text-align: center !important;
+  margin-top: 20px;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-card .totalprice {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #6e006a;
+}
+
+.tab-card.card,
+.card-body {
+  background: #f7e1f7;
+  border-radius: 24px;
+  width: auto;
+  height: auto;
+  gap: 5px;
+  box-shadow: 0px 1px 0px 0px #00000029;
+  border: 0;
+}
+
+.card-title.h5 {
+  color: #a5009f;
+  justify-content: center;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: center !important;
+  border-bottom: 1px solid #a5009f;
+}
+
+.tab-card ul {
+  margin: 0 !important;
+  position: relative !important;
+  left: 0 !important;
+  padding: 0 !important;
+}
+
+.tab-card li {
+  color: #1c1c1c;
+  list-style: none;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  text-align: center !important;
+}
+
+.card-subtitle.h6 {
+  color: #6e006a;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: center !important;
+}
+
+.hero-section {
+  position: relative;
+  background-image: url("../image/radio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: white;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+  margin-top: 50px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+  height: 580px;
+}
+
+.row-content {
+  margin-top: 200px !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-column {
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.lead {
+  text-transform: uppercase;
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+}
+
+.btn.btn-primary {
+  margin-top: 30px;
+  background-color: #6e006a;
+  border: 1.46px solid #a5009f;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  font-weight: 300 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal;
+}
+
+.btn.btn-primary:hover {
+  background-color: #a5009f;
+  color: #fff;
+  border: 1.46px solid #a5009f;
+}
+
+.client-section {
+  background-color: #fff1ff;
+  padding: 40px 0;
+}
+
+.section-title {
+  color: #890084;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  line-height: 48px !important;
+  text-align: center !important;
+}
+
+.client-logo {
+  max-height: 100px;
+  max-width: 100%;
+  margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .client-section .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .client-logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .client-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client-logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .price {
+    font-size: 25px !important;
+  }
+
+  .button-group .btn.btn-primary {
+    margin-bottom: -20px;
+  }
+
+  .tab-card.card,
+  .card-body {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .card-title.h5 {
+    margin-top: -10px;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+
+  .tab-card li {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-top: 15px;
+  }
+
+  .card-subtitle.h6 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+
+  .section-title {
+    font-size: 25px !important;
+  }
+}
