@@ -17,6 +17,8 @@ import { EventIcon } from "../../components/Icons";
 import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
 import { GetToKnowUs } from "../coworkingNew/GetToKnowUs";
+import { Testimonies } from "../coworkingNew/Testimonies";
+
 
 //spaces
 import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
@@ -28,6 +30,7 @@ const CoWorking = () => {
       <CoworkingHero />
       <OurSpaces />
       <GetToKnowUs />
+      <Testimonies />
       <TestimonialSection />
       <WorkSpaceGrant />
       <Offers />

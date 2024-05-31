@@ -76,3 +76,56 @@ body {
     margin: 0rem;
   }
 }
+
+/* The testimonies section  */
+.testimonies h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #000000;
+}
+
+.testimonies p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #555555;
+}
+
+.testimonies .card {
+  width: 16rem;
+  height: 24rem;
+}
+
+.testimony img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.testimony .name {
+  color: #2B2B2B;
+}
+
+.testimony .role {
+font-size: 12px;
+line-height: 16px;
+color: #808080;
+}
+
+.testimony .testimonyText {
+font-size: 14px;
+line-height: 24px;
+color: #555555; 
+}
+
+.stars img{
+  width: 2rem;
+  height: 2rem;
+}
+
+.cardDiv {
+  margin: auto;
+  float: none ;
+  justify-content: center;
+  align-items: center ;
+}
