@@ -18,6 +18,7 @@ import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
 import { GetToKnowUs } from "../coworkingNew/GetToKnowUs";
 import { Testimonies } from "../coworkingNew/Testimonies";
+import { Voucher } from "../coworkingNew/Voucher";
 
 
 //spaces
@@ -32,6 +33,7 @@ const CoWorking = () => {
       <GetToKnowUs />
       <Testimonies />
       <TestimonialSection />
+      <Voucher />
       <WorkSpaceGrant />
       <Offers />
       <OurOffers />
