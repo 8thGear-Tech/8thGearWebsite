@@ -127,7 +127,7 @@
   margin-bottom: 0;
   font-family: "Poppins", sans-serif !important;
   font-size: 16px !important;
-  font-weight: 500 !important;
+  font-weight: 550 !important;
   line-height: 24px !important;
   text-align: center !important;
 }
@@ -159,12 +159,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(
-    0,
-    0,
-    0,
-    0.5
-  );
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -228,7 +223,7 @@
   color: #890084;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif !important;
-  font-size: 32px !important;
+  font-size: 25px !important;
   font-weight: 600 !important;
   line-height: 48px !important;
   text-align: center !important;
@@ -237,7 +232,7 @@
 .client-logo {
   max-height: 100px;
   max-width: 100%;
-  margin: 0 10px;
+  margin: 0 10px !important;
 }
 
 @media (min-width: 768px) {
@@ -252,6 +247,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .row-content {
+    margin-top: 450px !important;
+  }
+}
+
 @media (max-width: 767.98px) {
   .client-section .row {
     flex-direction: column;
@@ -260,6 +261,48 @@
 
   .client-logo {
     margin: 0;
+  }
+}
+
+@media (min-width: 1826px) {
+  .row-content {
+    margin-top: 400px !important;
+  }
+
+  .hero-title {
+    font-size: 3.4rem !important;
+    font-weight: 700 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-content {
+    margin-top: 300px !important;
+  }
+
+  .tab-card.card,
+  .card-body {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .tab-card li {
+    margin-top: 15px;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+
+  .card-title.h5 {
+    margin-top: -10px;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+
+  .card-subtitle.h6 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
   }
 }
 
@@ -298,5 +341,9 @@
 
   .section-title {
     font-size: 25px !important;
+  }
+
+  .row-content {
+    margin-top: 250px !important;
   }
 }
