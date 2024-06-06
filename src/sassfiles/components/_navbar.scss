@@ -1,20 +1,49 @@
 @use "../../sassfiles/components/buttons/contactBtn" as *;
 
 @mixin NavBar {
-  font-size: 18px;
+    font-size: 18px;
 
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .NavBar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-  padding-right: 0% !important;
-  height: 5.5rem !important;
-  --bs-gutter-x: 2.5rem !important;
+    box-shadow: none !important;
+    padding-right: 0 !important;
+    height: 5.5rem !important;
+    border-bottom: 0 !important;
+    --bs-gutter-x: 2.5rem !important;
 
-  @include NavBar;
+    @include NavBar;
+}
+
+// For a transparent Navbar
+.transparent-navbar {
+    background-color: transparent !important;
+    border: none;
+    z-index: 10; // Ensure the navbar is on top of other elements
+    position: fixed;
+    position: absolute;
+    box-shadow: none !important;
+    border-bottom: none !important;
+    top: 0;
+    width: 100%;
+}
+
+.transparent-navbar .navbar-brand,
+.transparent-navbar .nav-link {
+    color: #fff !important; // Set the text color as needed
+}
+
+.transparent-navbar .nav-link:hover {
+    color: #f8f9fa; // Set the hover color as needed
 }
 
 // .JointheStudioBtn:hover {
 //   background-color: #821e6b;
 // }
+
+.transparent-navbar h5 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
