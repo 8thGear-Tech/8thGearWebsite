@@ -35,17 +35,19 @@ const CoWorking = () => {
       <CoworkingHero />
       <OurSpaces />
       <GetToKnowUs />
-      <Testimonies />
-      <TestimonialSection />
       <Voucher />
-      <WorkSpaceGrant />
-      <Offers />
-      <OurOffers />
-      <PricingTable />
-      <CoWorkingPricing />
       <OurPriceRange />
       <Podcast />
       <Clients />
+      <Testimonies />
+
+      {/* Old components  */}
+      {/* <TestimonialSection /> */}
+      {/* <WorkSpaceGrant /> */}
+      {/* <Offers /> */}
+      {/* <OurOffers /> */}
+      {/* <PricingTable /> */}
+      {/* <CoWorkingPricing />  */}
     </>
   );
 };
