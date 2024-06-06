@@ -36,7 +36,7 @@ import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
 import HubServicesLegal from "./pages/Services/HubServicesLegal";
 import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
-import CoWorking from "./components/coWorking";
+import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 
 //Initiatives

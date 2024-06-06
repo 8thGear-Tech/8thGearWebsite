@@ -1,23 +1,23 @@
 // import * as React from "react";
 import React, {useState} from "react";
 // Imported Modules
-import CoworkingCarousel from "./Hero/CoworkingCarousel";
-import {Navbar28} from "../components/Navbar";
+import CoworkingCarousel from "../../components/Hero/CoworkingCarousel"; //This is Uche
+import {Navbar28} from "../../components/Navbar"; //This is Uche
 // // import ProjectDeliveryPageHer
-import {CoworkingTestimonial} from "../components/AllCards/TestimonialCards";
+import {CoworkingTestimonial} from "../../components/AllCards/TestimonialCards";
 // import Image from "../../assets/images/Rectangle4344.png";
 // import {CoworkingHero} from "../../components/Hero/ImageandTextHero";
 // import Photo from "../../assets/images/Group .png";
-import {BookNowBtn} from "../components/Buttons/ServicesBtn";
+import {BookNowBtn} from "../../components/Buttons/ServicesBtn";
 // import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
 // import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
 // import {DailyandWeekendBundleBtn} from "../../components/Buttons/ServicesBtn";
-// import {MeetingRoomBundleBtn} from "../../components/Buttons/ServicesBtn";
-import {AdvisoryServicesIcon} from "../components/Icons";
-import {SereneEnvironmentIcon} from "../components/Icons";
-import {EventIcon} from "../components/Icons";
-import {LagosInnovateIcon} from "../components/Icons";
-import {MeetingRoomIcon} from "../components/Icons";
+// import {MeetingRoomBundleBtn} from "../../components/Buttons/ServicesBtn";e
+import {AdvisoryServicesIcon} from "../../components/Icons";
+import {SereneEnvironmentIcon} from "../../components/Icons";
+import {EventIcon} from "../../components/Icons";
+import {LagosInnovateIcon} from "../../components/Icons";
+import {MeetingRoomIcon} from "../../components/Icons";
 //spaces
 // import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
 // import Image from "react-bootstrap/Image";
