@@ -16,6 +16,10 @@ import { SereneEnvironmentIcon } from "../../components/Icons";
 import { EventIcon } from "../../components/Icons";
 import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
+import { GetToKnowUs } from "../coworkingNew/GetToKnowUs";
+import { Testimonies } from "../coworkingNew/Testimonies";
+import { Voucher } from "../coworkingNew/Voucher";
+
 
 //spaces
 // import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
@@ -30,7 +34,10 @@ const CoWorking = () => {
       <Navbar8 />
       <CoworkingHero />
       <OurSpaces />
+      <GetToKnowUs />
+      <Testimonies />
       <TestimonialSection />
+      <Voucher />
       <WorkSpaceGrant />
       <Offers />
       <OurOffers />
