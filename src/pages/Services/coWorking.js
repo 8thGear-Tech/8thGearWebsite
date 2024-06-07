@@ -23,18 +23,18 @@ import { MeetingRoomIcon } from "../../components/Icons";
 import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
 
 const CoWorking = () => {
-    return (
-        <>
+  return (
+    <>
       <Navbar8 />
       <CoworkingHero />
-            <OurSpaces />
-            <TestimonialSection />
-            <WorkSpaceGrant />
-            <Offers />
-            <OurOffers />
-            <PricingTable />
-        </>
-    );
+      <OurSpaces />
+      <TestimonialSection />
+      <WorkSpaceGrant />
+      <Offers />
+      <OurOffers />
+      <PricingTable />
+    </>
+  );
 };
 const Offers = () => {
     return (
