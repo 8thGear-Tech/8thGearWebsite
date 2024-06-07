@@ -8,27 +8,25 @@ import {CoworkingTestimonial} from "../../components/AllCards/TestimonialCards";
 // import Image from "../../assets/images/Rectangle4344.png";
 // import {CoworkingHero} from "../../components/Hero/ImageandTextHero";
 // import Photo from "../../assets/images/Group .png";
-import {BookNowBtn} from "../../components/Buttons/ServicesBtn";
-// import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
-// import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
-// import {DailyandWeekendBundleBtn} from "../../components/Buttons/ServicesBtn";
-// import {MeetingRoomBundleBtn} from "../../components/Buttons/ServicesBtn";e
-import {AdvisoryServicesIcon} from "../../components/Icons";
-import {SereneEnvironmentIcon} from "../../components/Icons";
-import {EventIcon} from "../../components/Icons";
-import {LagosInnovateIcon} from "../../components/Icons";
-import {MeetingRoomIcon} from "../../components/Icons";
+import { BookNowBtn } from "../../components/Buttons/ServicesBtn";
+import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
+import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
+import { DailyandWeekendBundleBtn } from "../../components/Buttons/ServicesBtn";
+import { MeetingRoomBundleBtn } from "../../components/Buttons/ServicesBtn";
+import { AdvisoryServicesIcon } from "../../components/Icons";
+import { SereneEnvironmentIcon } from "../../components/Icons";
+import { EventIcon } from "../../components/Icons";
+import { LagosInnovateIcon } from "../../components/Icons";
+import { MeetingRoomIcon } from "../../components/Icons";
+
 //spaces
-// import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
-// import Image from "react-bootstrap/Image";
-// import placeHolderVideo from "../assets/images/coworking/Mr Dami shoutout video.mov";
+import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+
 const CoWorking = () => {
     return (
         <>
-            {/* <Navbar8 /> */}
-            <Navbar28 />
-            {/* <CoworkingHero /> */}
-            <CoworkingCarousel />
+      <Navbar8 />
+      <CoworkingHero />
             <OurSpaces />
             <TestimonialSection />
             <WorkSpaceGrant />
