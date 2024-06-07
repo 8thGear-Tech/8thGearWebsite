@@ -8,33 +8,77 @@ import {CoworkingTestimonial} from "../../components/AllCards/TestimonialCards";
 // import Image from "../../assets/images/Rectangle4344.png";
 // import {CoworkingHero} from "../../components/Hero/ImageandTextHero";
 // import Photo from "../../assets/images/Group .png";
-import { BookNowBtn } from "../../components/Buttons/ServicesBtn";
-import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
-import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
-import { DailyandWeekendBundleBtn } from "../../components/Buttons/ServicesBtn";
-import { MeetingRoomBundleBtn } from "../../components/Buttons/ServicesBtn";
+// import { BookNowBtn } from "../../components/Buttons/ServicesBtn";
+// import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
+// import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
+// import { DailyandWeekendBundleBtn } from "../../components/Buttons/ServicesBtn";
+// import { MeetingRoomBundleBtn } from "../../components/Buttons/ServicesBtn";
 import { AdvisoryServicesIcon } from "../../components/Icons";
 import { SereneEnvironmentIcon } from "../../components/Icons";
 import { EventIcon } from "../../components/Icons";
 import { LagosInnovateIcon } from "../../components/Icons";
 import { MeetingRoomIcon } from "../../components/Icons";
+import { GetToKnowUs } from "../coworkingNew/GetToKnowUs";
+import { Testimonies } from "../coworkingNew/Testimonies";
+import { Voucher } from "../coworkingNew/Voucher";
 
+
+import {BookNowBtn} from "../../components/Buttons/ServicesBtn";
+// import coworkinglarge from "../../assets/images/coworking/coworkinglarge.png";
+// import coworkingsmall from "../../assets/images/coworking/coworkingsmall.png";
+// import {DailyandWeekendBundleBtn} from "../../components/Buttons/ServicesBtn";
+// import {MeetingRoomBundleBtn} from "../../components/Buttons/ServicesBtn";e
+// import {AdvisoryServicesIcon} from "../../components/Icons";
+// import {SereneEnvironmentIcon} from "../../components/Icons";
+// import {EventIcon} from "../../components/Icons";
+// import {LagosInnovateIcon} from "../../components/Icons";
+// import {MeetingRoomIcon} from "../../components/Icons";
 //spaces
-import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+// import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+import { CoWorkingPricing } from "../../components/CoWorkingPricing";
+import OurPriceRange from "../../components/OurPriceRange";
+import Podcast from "../../components/Podcast";
+import Clients from "../../components/Clients";
 
+// import EightGearHub from "../../assets/images/coworking/EightGearHub.png";
+// import Image from "react-bootstrap/Image";
+// import placeHolderVideo from "../assets/images/coworking/Mr Dami shoutout video.mov";
 const CoWorking = () => {
   return (
     <>
-      <Navbar8 />
-      <CoworkingHero />
+      <Navbar28 />
+      <CoworkingCarousel />
       <OurSpaces />
-      <TestimonialSection />
-      <WorkSpaceGrant />
-      <Offers />
-      <OurOffers />
-      <PricingTable />
+      <GetToKnowUs />
+      <Voucher />
+      <OurPriceRange />
+      <Podcast />
+      <Clients />
+      <Testimonies />
+
+      {/* Old components  */}
+      {/* <TestimonialSection /> */}
+      {/* <WorkSpaceGrant /> */}
+      {/* <Offers /> */}
+      {/* <OurOffers /> */}
+      {/* <PricingTable /> */}
+      {/* <CoWorkingPricing />  */}
     </>
   );
+    return (
+        <>
+            {/* <Navbar8 /> */}
+            <Navbar28 />
+            {/* <CoworkingHero /> */}
+            <CoworkingCarousel />
+            <OurSpaces />
+            <TestimonialSection />
+            <WorkSpaceGrant />
+            <Offers />
+            <OurOffers />
+            <PricingTable />
+        </>
+    );
 };
 const Offers = () => {
     return (
