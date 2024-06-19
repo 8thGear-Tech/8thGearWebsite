@@ -166,8 +166,9 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 20px;
+  /* padding: 10px; */
   height: 580px;
+  top: 8rem;
 }
 
 .row-content {
@@ -245,12 +246,17 @@
   .client-logo {
     margin: 0;
   }
+
+  .hero-content {
+    top: 12rem;
+  }
 }
 
 @media (max-width: 1024px) {
   .row-content {
     margin-top: 450px !important;
   }
+
 }
 
 @media (max-width: 767.98px) {
