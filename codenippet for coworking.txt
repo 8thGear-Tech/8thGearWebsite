@@ -1,0 +1,38 @@
+{/* <div className="row justify-content-center">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="spaceImg my-3 d-flex align-items-end">
+                                <div className="card spaceImgCard mt-auto w-75">
+                                    <div className="card-body">
+                                        <h6 className="card-title text-center spaceTitle my-auto">
+                                            8thGear Hub, CMD Road, Lagos
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="hubOneImg my-3 d-flex align-items-end">
+                                <div className="card spaceImgCard mt-auto w-75">
+                                    <div className="card-body">
+                                        <h6 className="card-title text-center spaceTitle my-auto">HubOne, Yaba</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="innkeeperHackerSpaceImg my-3 d-flex align-items-end">
+                                <div className="card spaceImgCard mt-auto w-75">
+                                    <div className="card-body">
+                                        <h6 className="card-title text-center spaceTitle my-auto">
+                                            Innkeeper Hacker’s Space, Magodo
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
+
+THIS IS THE OFFICIAL REPO OOOO
+SO WE HAVE TO BE VERY CAREFUL
+ASK OPE FOR INSTRUCTIONS BEFORE YIU START AND FOLLOW THEM WELL 
+ 
