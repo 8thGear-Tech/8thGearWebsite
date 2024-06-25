@@ -1,0 +1,151 @@
+.heroText {
+    color: #FFFFFF;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5rem;
+}
+
+.heroTextSpan {
+    color: #EDCCEC;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.eventsHead h3 {
+    color: #890084;
+}
+
+.eventsCalendar button {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    margin: 0rem 1rem;
+}
+
+.eventsCalendar .button1 {
+    background-color: #6E006A;
+    color: #FAFAFA;
+}
+
+.eventsCalendar .button1:hover {
+    background-color: #A5009F;
+}
+
+.eventsCalendar .button2 {
+    background-color: #FAFAFA;
+    color: #A5009F;
+    border: 1px solid #A5009F;
+}
+
+.eventsCalendar .button2:hover {
+    background-color: #A5009F;
+    color: #FAFAFA;
+}
+
+.events1 {
+    background-color: #EDCCEC;
+}
+
+.events1 h3 {
+    color: #1C1C1C;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.events1 a {
+    color: #6E006A;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.events2 {
+    /* background-color: #EDCCEC; */
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #535353;
+}
+
+.portfolio h3 {
+    color: #2F591C;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.card {
+    border: none;
+    width: 14rem;
+    /* background-color: #DCF3F2; */
+}
+
+.card-body {
+    background-color: #DCF3F2;
+}
+
+.card-title {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.44px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+}
+
+.card .btn {
+    display: none;
+    background-color: white;
+    border: 2px solid #890084;
+    padding: .5rem 0rem !important;
+    margin: .2rem 2rem !important;
+    color: #890084;
+}
+
+.card:hover .btn {
+    display: block;
+}
+
+.card:hover {
+    /* transform: translate(50px, 100px); */
+}
+
+.gallery {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.gallery .btn {
+    background-color: #152425;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    text-align: center;
+    color: #FAFAFA;
+}
