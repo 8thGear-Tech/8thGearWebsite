@@ -51,6 +51,7 @@ import BlogPage from "./pages/Insights/blog";
 
 //Events
 import EventsPage from "./pages/Events/events";
+import EventsNew from "./pages/EventsNew/EventsNew";
 import EventsGalleryPage from "./pages/Events/eventsGallery";
 import FourthYearAnniversary from "./pages/Events/fourthYearAnniversary";
 import DemoDayPage from "./pages/Events/demoDay";
@@ -120,6 +121,7 @@ function App() {
                     {/* <Route path="blog" element={<BlogPage />} /> */}
                     {/* <Route path="faq" element={<FAQ />} /> */}
                     <Route path="events" element={<EventsPage />} />
+                    <Route path="eventsNew" element={<EventsNew />} />
                     <Route path="events-gallery" element={<EventsGalleryPage />} />
                     <Route path="demo-day" element={<DemoDayPage />} />
                     <Route path="founders-meetup" element={<FounderMeetupPage />} />

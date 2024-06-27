@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 export const OurNewSpaces = () => {
   const images = [
-    { src: "/images/coworkingNew/slide1.png", text: "Magogo Hub" },
-    { src: "/images/coworkingNew/slide2.png", text: "Downtown Hub" },
+    { src: "/images/coworkingNew/8thgear.jpeg", text: "Magogo Hub" },
+    { src: "/images/coworkingNew/hub_one.jpg", text: "Hub One" },
     { src: "/images/coworkingNew/slide3.png", text: "Suburban Hub" },
   ];
 

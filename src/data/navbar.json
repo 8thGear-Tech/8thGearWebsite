@@ -174,5 +174,11 @@
       "id": 1,
       "heading": "GearUp Showcase"
     }
+  ],
+  "newEvent": [
+    {
+      "id": 1,
+      "heading": "Events"
+    }
   ]
 }
