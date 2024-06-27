@@ -8,8 +8,8 @@ const EventGallery = () => {
         </div>
         <div className='gallery container'>
             <div className='row'>
-                <div className='col-6'></div>
-                <div className='col-6'>
+                <div className='col-12 col-md-6'></div>
+                <div className='col-12 col-md-6'>
                     <p>
                     Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                     Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

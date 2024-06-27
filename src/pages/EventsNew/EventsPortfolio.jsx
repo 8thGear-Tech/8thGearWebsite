@@ -8,11 +8,13 @@ const EventsPortfolio = () => {
         </div>
         <div className='container portfolio'>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-lg-6 col-12'>
                     <h3>Our Exclusivity</h3>
-                    <p className='pe-3'>Our premium offerings are tailored to meet the unique needs of a select few who demand the very best. With a focus on personalized attention and exceptional quality, we deliver bespoke solutions that cater to the distinct requirements of our esteemed clients. From personalized consultations to tailored support, every aspect of our service is carefully crafted to exceed the expectations of those who value excellence.</p>
+                    <p className=''>Our premium offerings are tailored to meet the unique needs of a select few who demand the very best. With a focus on personalized attention and exceptional quality, we deliver bespoke solutions that cater to the distinct requirements of our esteemed clients. From personalized consultations to tailored support, every aspect of our service is carefully crafted to exceed the expectations of those who value excellence.</p>
                 </div>
-                <div className='col'>
+                <div className='row col-12 col-lg-6'>
+                
+                <div className='col-12 col-md-6'>
                     <div className="card text-center mb-3">
                         <div className="card-body">
                             <h5 className="card-title">Founders Meetup</h5>
@@ -21,7 +23,7 @@ const EventsPortfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col'>
+                <div className='col-12 col-md-6'>
                 <div className="card text-center mb-3">
                         <div className="card-body">
                             <h5 className="card-title">Demo Day</h5>
@@ -29,6 +31,7 @@ const EventsPortfolio = () => {
                             <a href="#" className="btn">Read more</a>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
