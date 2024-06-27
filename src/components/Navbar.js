@@ -888,3 +888,19 @@ export const Navbar28 = () => {
         </div>
     );
 };
+
+export const Navbar29 = () => {
+    return (
+        <div className="container-fluid transparent-navbar">
+            <div className="row">
+                {text.newEvent.map((navbar) => {
+                    return (
+                        <div className="col-sm-12 col-md-12 col-lg-12 p-0 m-0" key={navbar.id}>
+                            <NavBar {...navbar}></NavBar>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+    );
+};
