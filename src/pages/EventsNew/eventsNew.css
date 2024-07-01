@@ -34,9 +34,10 @@
 
 .eventsCalendar button {
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 1.5rem;
     margin: 0rem 1rem;
+    font-size: 0.8rem;
 }
 
 .eventsCalendar .button1 {
@@ -64,23 +65,27 @@
     min-width: 600px;
 }
 
+.events2 {
+    min-width: 600px;
+}
+
 .events1 h3 {
     color: #1C1C1C;
-    font-size: 1.75rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .events1 a {
     color: #6E006A;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
-.events2 {
+.events2 h3{
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #535353;
-    min-width: 600px;
+   
 }
 
 .portfolio h3 {
@@ -91,12 +96,14 @@
 
 .card {
     border: none;
-    width: 18rem;
     position: relative;
 }
 
 .card-body {
     background-color: #DCF3F2;
+    width: 18rem;
+    height: 32rem;
+    margin: auto;
 }
 
 .card-title {
