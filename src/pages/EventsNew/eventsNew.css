@@ -20,10 +20,12 @@
     transition: opacity 0.5s ease-out;
 }
 
-@keyframes fade-in {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+.hero-background {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('/public/images/eventsNew/eventHero.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: left;
 }
 
 .eventsHead h3 {
@@ -32,7 +34,7 @@
 
 .eventsCalendar button {
     border: none;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     border-radius: 1.5rem;
     margin: 0rem 1rem;
 }
@@ -59,6 +61,7 @@
 
 .events1 {
     background-color: #EDCCEC;
+    min-width: 600px;
 }
 
 .events1 h3 {
@@ -74,10 +77,10 @@
 }
 
 .events2 {
-    /* background-color: #EDCCEC; */
     font-weight: 500;
     font-size: 1.3rem;
     color: #535353;
+    min-width: 600px;
 }
 
 .portfolio h3 {
@@ -88,8 +91,8 @@
 
 .card {
     border: none;
-    width: 14rem;
-    /* background-color: #DCF3F2; */
+    width: 18rem;
+    position: relative;
 }
 
 .card-body {
@@ -97,58 +100,54 @@
 }
 
 .card-title {
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    line-height: 28.44px;
+    line-height: 28px;
     text-align: center;
 }
 
 .card-text {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 21.79px;
+    line-height: 22px;
     text-align: center;
 }
 
 .card .btn {
-    display: none;
+    display: block;
     background-color: white;
     border: 2px solid #890084;
-    padding: .5rem 0rem !important;
-    margin: .2rem 2rem !important;
+    padding: 0.5rem 0 !important;
+    margin: 0.2rem 2rem !important;
     color: #890084;
 }
 
-.card:hover .btn {
-    display: block;
-}
-
-.card:hover {
-    /* transform: translate(50px, 100px); */
+.card-img-top {
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
 }
 
 .gallery {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 27.24px;
+    line-height: 27px;
     letter-spacing: 0.03em;
     text-align: center;
 }
 
 .gallery .btn {
     background-color: #152425;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    line-height: 27.24px;
+    line-height: 27px;
     text-align: center;
     color: #FAFAFA;
 }
-
-
 
 @media (min-width: 768px) {
     .heroText {
