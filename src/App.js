@@ -46,6 +46,7 @@ import DigiPlus from "./pages/DigiPlus";
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
+import About from "./components/About/About";
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -114,7 +115,8 @@ function App() {
                     <Route path="coworking" element={<CoWorking />} />
                     <Route path="talent-placement" element={<TalentPlacement />} />
 
-                    <Route path="about" element={<AboutUs />} />
+                    {/* <Route path="about" element={<AboutUs />} /> */}
+                    <Route path="about" element={<About />} />
                     <Route path="team" element={<TeamPage />} />
                     {/* <Route path="blog" element={<BlogPage />} /> */}
                     {/* <Route path="faq" element={<FAQ />} /> */}
