@@ -180,5 +180,11 @@
       "id": 1,
       "heading": "Events"
     }
+  ],
+  "newAbout": [
+    {
+      "id": 1,
+      "heading": "About"
+    }
   ]
 }

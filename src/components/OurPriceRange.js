@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Container, Row, Col } from "react-bootstrap";
+import { Button, Card, Container } from "react-bootstrap";
 import "./css/CoWorking.css";
 
 const OurPriceRange = () => {
@@ -12,7 +12,7 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "VIRTUAL OFFICE",
-          price: "Total- N150,000 (Per Year)",
+          price: "Total- N150,000 Per Year",
           features: [
             "Corporate Address",
             "Community Events",
@@ -22,7 +22,7 @@ const OurPriceRange = () => {
         },
         {
           title: "DEDICATED DESK",
-          price: "Total- N50,000 (Per Month)",
+          price: "Total- N50,000 Per Month",
           features: [
             "Kitchenette",
             "Lounge Area",
@@ -35,7 +35,7 @@ const OurPriceRange = () => {
         },
         {
           title: "PRIVATE OFFICE",
-          price: "Total- N200,000 (Per Month)",
+          price: "Total- N200,000 Per Month",
           features: [
             "Kitchenette",
             "Lounge Area",
@@ -55,7 +55,7 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "REGULAR",
-          price: "Amount- N3,000 (1 Day)",
+          price: "Amount- N3,000 Per Day",
           features: [
             "Uninterrupted Power Supply",
             "Internet Access",
@@ -65,7 +65,7 @@ const OurPriceRange = () => {
         },
         {
           title: "REGULAR",
-          price: "Amount- N13,000 (5 Day)",
+          price: "Amount- N13,000 Five Day",
           features: [
             "Uninterrupted Power Supply",
             "Internet Access",
@@ -75,7 +75,7 @@ const OurPriceRange = () => {
         },
         {
           title: "REGULAR",
-          price: "Amount- N26,000 (10 Day)",
+          price: "Amount- N26,000 Ten Day",
           features: [
             "Uninterrupted Power Supply",
             "Internet Access",
@@ -85,7 +85,7 @@ const OurPriceRange = () => {
         },
         {
           title: "REGULAR",
-          price: "Amount- N3,000 (1 Day)",
+          price: "Amount- N3,000 Per Day",
           features: [
             "Uninterrupted Power Supply",
             "Internet Access",
@@ -105,7 +105,7 @@ const OurPriceRange = () => {
         },
         {
           title: "MEETING ROOM (up to 8 persons)",
-          price: "Amount- N5,000 (Per Hour)",
+          price: "Amount- N5,000 Per Hour",
           features: [
             "Uninterrupted Power Supply",
             "Internet Access",
@@ -121,7 +121,7 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "REGULAR",
-          price: "Amount- N20,000 (Per Hour)",
+          price: "Amount- N20,000 Per Hour",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -131,7 +131,7 @@ const OurPriceRange = () => {
         },
         {
           title: "CLASSIC (1am-1pm)(1pm-5pm)",
-          price: "Amount- N50,000 (Half Day)",
+          price: "Amount- N50,000 Half Day",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -141,7 +141,7 @@ const OurPriceRange = () => {
         },
         {
           title: "DELUXE (1pm-5pm)",
-          price: "Amount- N100,000 (1 Day)",
+          price: "Amount- N100,000 1 Day",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -177,12 +177,17 @@ const OurPriceRange = () => {
           </Button>
         ))}
       </div>
-      <Row>
+      <div className="d-flex flex-wrap justify-content-between">
         {currentCards.map((card, index) => (
-          <Col key={index} md={4} sm={12}>
+          <div
+            key={index}
+            className="d-flex flex-column flex-grow-1"
+            style={{ flex: "1 0 30%", margin: "10px" }}
+          >
             <Card className="tab-card">
-              <Card.Body>
+              <Card.Body className="price-body">
                 <Card.Title>{card.title}</Card.Title>
+                <hr />
                 <Card.Text>
                   <ul>
                     {card.features.map((feature, i) => (
@@ -195,9 +200,9 @@ const OurPriceRange = () => {
                 </Card.Subtitle>
               </Card.Body>
             </Card>
-          </Col>
+          </div>
         ))}
-      </Row>
+      </div>
     </Container>
   );
 };
