@@ -68,6 +68,10 @@ import {Popupmodal} from "./components/Footer";
 import {RequestForm} from "./components/Forms/ServicesForms";
 import {ScrollButton} from "./components/Buttons/scrollToTop";
 
+// NewEvent PAge 
+import FMU_Q1 from "./pages/EventsNew/FMUQ1";
+import FMU_Q2 from "./pages/EventsNew/FMUQ2";
+
 //Resources
 import Resources from "./pages/Resources/Resources";
 import {ABCBusinessAccountingReadMore} from "./pages/Resources/ArticleReadMore";
@@ -129,6 +133,9 @@ function App() {
                     <Route path="founders-meetup-gallery-2023" element={<FoundersPictureGalleryCardsTwo />} />
                     <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
                     <Route path="4th-year-anniversary" element={<FourthYearAnniversary />} />
+                    {/* NewEvents Gallery  */}
+                    <Route path="fmu-q1-gallery" element={<FMU_Q1 /> } />
+                    <Route path="fmu-q2-gallery" element={<FMU_Q2 /> } />
                     <Route path="gear-up-expose" element={<GearUpExposePage />} />
                     <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
                     <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
