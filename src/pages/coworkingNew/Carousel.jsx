@@ -17,7 +17,7 @@ function HeroCarousel() {
                     <p>Unlock your full potential in a vibrant coworking space. <br />Surround yourself with motivated individuals and <br /> watch your ideas soar!</p>
                     <div className="d-flex gap-2 py-2 buttons">
                         <Button>
-                            <span className="px-2">
+                            <span className="px-1">
                                 <img src="/images/coworkingNew/space.svg" alt="" className="h-2" />
                             </span>
                             Book a Space
@@ -57,7 +57,7 @@ function HeroCarousel() {
                             </span>
                             Book a Session
                         </Button>
-                    </div>
+                    </div>  
 
                     <img src="/images/coworkingNew/slide_2.JPG" alt="Overlay" className="overlay-image" />
                     <img src="/images/coworkingNew/slide_3.JPG" alt="Overlay2" className="overlay-image2" />
