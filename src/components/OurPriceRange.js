@@ -170,7 +170,7 @@ const OurPriceRange = () => {
       <div className="container">
         <div className="row justify-content-center">
           {currentCards.map((card, index) => (
-            <div key={index} className="col-md-4 mb-4 d-flex">
+            <div key={index} className="col-lg-4 col-md-6 mb-4 d-flex">
               <Card className="new-tab-card w-100 overflow-hidden">
                 <Card.Body className="price-body">
                   <Card.Title>{card.title}</Card.Title>
