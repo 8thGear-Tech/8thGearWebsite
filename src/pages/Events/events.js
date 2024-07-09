@@ -32,7 +32,7 @@ const EventsPage = () => {
     </>
   );
 };
-const Events = () => {
+export const Events = () => {
   return (
     <div className="container-fluid text-center p-5 sectionOneBg">
       {" "}
@@ -134,6 +134,7 @@ const Events = () => {
     </div>
   );
 };
+
 const EventsCalender = () => {
   return (
     <div className="container-fluid text-center py-2">
