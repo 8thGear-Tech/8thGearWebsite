@@ -5,6 +5,9 @@ import EventsPortfolio from './EventsPortfolio';
 import EventGallery from './EventGallery';
 import "./eventsNew.css";
 
+// import { Events } from '../Events/events';
+
+
 const EventsNew = () => {
     return (
         <div>
@@ -12,6 +15,7 @@ const EventsNew = () => {
             <EventsCalendar />
             <EventsPortfolio />
             <EventGallery />
+            {/* <Events /> */}
         </div>
     );
 }

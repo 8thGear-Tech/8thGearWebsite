@@ -26,8 +26,8 @@ const EventsCalendar = () => {
         <h3 className="fw-semibold py-4">Events Calendar</h3>
       </div>
       <div className={`d-flex justify-content-center align-items-center`}>
-        <button className="button1" onClick={toggleEvent2}> Upcoming Events </button>
-        <button className="button2" onClick={toggleEvent}> Past Events </button>
+        <button className={`button1 ${showFutureEvents ? 'active' : 'inactive'}`} onClick={toggleEvent2}> Upcoming Events </button>
+        <button className={`button2 ${showPastEvents ? 'active' : 'inactive'}`} onClick={toggleEvent}> Past Events </button>
       </div>
       {/* Future Events  */}
       {showFutureEvents && (
@@ -43,8 +43,8 @@ const EventsCalendar = () => {
                     </div>
                   </div>
                   <div className="events2 d-flex flex-row justify-content-between py-3 px-3">
-                    <h3>{event.time}</h3>
-                    <h3>Add to Google Calendar</h3>
+                    <h3 className="">{event.time}</h3>
+                    <h3 className="add-to-calendar">Add to Google Calendar</h3>
                     <h3>{event.format}</h3>
                   </div>
                 </div>

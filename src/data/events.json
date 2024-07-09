@@ -23,27 +23,35 @@
   "newFutureEvents": [
     {
       "id": 1,
-      "date": "July 2024",
+      "date": "23rd July, 2024",
+      "event": "Employee Submit",
+      "link": "#",
+      "format":"Physical and Virtual",
+      "time":"11am - 1pm"
+    },
+    {
+      "id": 2,
+      "date": "25th July, 2024",
       "event": "Career Fair",
       "link": "#",
       "format":"Physical and Virtual",
-      "time":"3pm - 6pm"
+      "time":"Time (TBD)"
     },
     {
-      "id": 1,
+      "id": 3,
       "date": "September 2024",
-      "event": "Founders Meetup",
+      "event": "Founders Meetup Q3",
       "link": "#",
       "format":"Physical and Virtual",
-      "time":"3pm - 6pm"
+      "time":"Time (TBD)"
     },
     {
-      "id": 1,
+      "id": 4,
       "date": "December 2024",
-      "event": "Founders Meetup",
+      "event": "Founders Meetup Q4",
       "link": "#",
        "format":"Physical and Virtual",
-      "time":"3pm - 6pm"
+      "time":"Time (TBD)"
     }
   ]
 }
