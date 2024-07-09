@@ -1,0 +1,16 @@
+/* For the Logo carousel  */
+.small-carousel {
+    width: 200px;
+    margin: auto;
+
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px; /* Adjust based on your logo size */
+        img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
+}
