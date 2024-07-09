@@ -39,12 +39,12 @@ const EventsCalendar = () => {
                     <h3>{event.date}</h3>
                     <h3>{event.event}</h3>
                     <div>
-                      <Link to={event.link}>Register Now</Link>
+                      <a href={event.link} target="_blank" rel="noreferrer">Register Now</a>
                     </div>
                   </div>
                   <div className="events2 d-flex flex-row justify-content-between py-3 px-3">
                     <h3 className="">{event.time}</h3>
-                    <h3 className="add-to-calendar">Add to Google Calendar</h3>
+                    <a target="_blank" href={event.calendarLink} rel="noreferrer" className="text-decoration-none"> <h3 className="add-to-calendar">Add to Google Calendar</h3> </a>
                     <h3>{event.format}</h3>
                   </div>
                 </div>
