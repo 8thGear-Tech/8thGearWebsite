@@ -1,4 +1,4 @@
-import './getToKnowUs.css'
+import "./getToKnowUs.css";
 import TestimonyCard from "./TestimonyCard";
 
 export const Testimonies = () => {
@@ -14,44 +14,52 @@ export const Testimonies = () => {
           {/* Card 1  */}
           <div className="col-12 col-md-6 col-lg-3">
             <div className="card shadow border-end border-bottom border-start border-top-0 cardDiv">
-              <TestimonyCard 
-                imgSrc={'/images/coworkingNew/testimonyImgPlaceholder.jpeg'} 
-                name={"Adekoya Kehinde"} 
-                role={"Product Designer"} 
-                testimony={"I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."} 
+              <TestimonyCard
+                imgSrc={"/images/coworkingNew/testimonyImgPlaceholder.jpeg"}
+                name={"Adekoya Kehinde"}
+                role={"Product Designer"}
+                testimony={
+                  "I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."
+                }
               />
             </div>
           </div>
           {/* Card 2 */}
           <div className="col-12 col-md-6 col-lg-3">
             <div className="card shadow border-end border-bottom border-start border-top-0 cardDiv">
-              <TestimonyCard 
-                imgSrc={'/images/coworkingNew/testimonyImgPlaceholder.jpeg'} 
-                name={"Adekoya Kehinde"} 
-                role={"Product Designer"} 
-                testimony={"I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."} 
+              <TestimonyCard
+                imgSrc={"/images/coworkingNew/testimonyImgPlaceholder.jpeg"}
+                name={"Adekoya Kehinde"}
+                role={"Product Designer"}
+                testimony={
+                  "I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."
+                }
               />
             </div>
           </div>
           {/* Card 3  */}
           <div className="col-12 col-md-6 col-lg-3">
             <div className="card shadow border-end border-bottom border-start border-top-0 cardDiv">
-              <TestimonyCard 
-                imgSrc={'/images/coworkingNew/testimonyImgPlaceholder.jpeg'} 
-                name={"Adekoya Kehinde"} 
-                role={"Product Designer"} 
-                testimony={"I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."} 
+              <TestimonyCard
+                imgSrc={"/images/coworkingNew/testimonyImgPlaceholder.jpeg"}
+                name={"Adekoya Kehinde"}
+                role={"Product Designer"}
+                testimony={
+                  "I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."
+                }
               />
             </div>
           </div>
           {/* Card 4  */}
           <div className="col-12 col-md-6 col-lg-3">
             <div className="card shadow border-end border-bottom border-start border-top-0 cardDiv">
-              <TestimonyCard 
-                imgSrc={'/images/coworkingNew/testimonyImgPlaceholder.jpeg'} 
-                name={"Adekoya Kehinde"} 
-                role={"Product Designer"} 
-                testimony={"I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."} 
+              <TestimonyCard
+                imgSrc={"/images/coworkingNew/testimonyImgPlaceholder.jpeg"}
+                name={"Adekoya Kehinde"}
+                role={"Product Designer"}
+                testimony={
+                  "I recently purchased Wi-Fi service from DigiPlus Connect Cafe, and I must say, it has completely transformed my online experience."
+                }
               />
             </div>
           </div>

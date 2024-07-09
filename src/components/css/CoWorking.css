@@ -78,7 +78,25 @@
   color: white;
 }
 
-.tab-card {
+/* op */
+
+.time-range {
+  font-size: 0.85em; /* Adjust this size as needed */
+  color: #555; /* You can change this color to match your design */
+  font-style: italic; /* Italicize the time range for differentiation */
+  margin-top: 5px; /* Add some space between the title and time range */
+}
+
+.small-text {
+  font-size: 0.8em; /* Change as needed */
+  color: #555; /* Optional, change color if required */
+}
+
+.sub-title {
+  text-align: center; /* Center the text under the title */
+  font-weight: normal; /* Adjust font weight if needed */
+}
+.new-tab-card {
   font-family: "Poppins", sans-serif !important;
   text-align: center !important;
   margin-top: 20px;
@@ -86,20 +104,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tab-card .totalprice {
+.new-tab-card .totalprice {
   font-weight: bold;
   margin-top: 10px;
   color: #6e006a;
 }
 
-.tab-card.card,
-.card-body {
+.new-tab-card.card,
+.price-body {
   background: #f7e1f7 !important;
   border-radius: 24px;
-  width: auto;
-  height: 29rem;
+  /* width: auto; */
+  height: 27rem;
   gap: 5px;
-  box-shadow: 0px 1px 0px 0px #00000029;
+  /* box-shadow: 0px 1px 0px 0px #00000029; */
   border: 0;
   text-align: center;
   flex-direction: column;
@@ -109,7 +127,7 @@
   align-content: center;
 }
 
-.tab-card.card,
+.new-tab-card.card,
 .card-body:first-child {
   background: #ffffff;
 }
@@ -125,19 +143,19 @@
   margin-top: 10px;
   /* border-bottom: 1px solid #a5009f; */
 }
-.tab-card hr {
+.new-tab-card hr {
   color: #a5009f;
   width: 13rem;
   /* margin-left: 55px; */
 }
-.tab-card ul {
+.new-tab-card ul {
   margin: 0 !important;
   position: relative !important;
   left: 0 !important;
   padding: 0 !important;
 }
 
-.tab-card li {
+.new-tab-card li {
   color: #1c1c1c;
   list-style: none;
   margin-bottom: 0;
@@ -252,7 +270,7 @@
   margin: 0 10px !important;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .client-section .row {
     display: flex;
     flex-wrap: nowrap;
@@ -266,8 +284,8 @@
   .hero-content {
     top: 12rem;
   }
-}
-
+} */
+/* 
 @media (max-width: 1024px) {
   .row-content {
     margin-top: 450px !important;
@@ -277,11 +295,11 @@
     margin-top: -300px !important;
   }
 
-  /* .tab-card hr {
+  .new-tab-card hr {
     margin-left: 30px;
-  } */
-}
-
+  }
+} */
+/* 
 @media (max-width: 767.98px) {
   .client-section .row {
     flex-direction: column;
@@ -291,9 +309,9 @@
   .client-logo {
     margin: 0;
   }
-}
+} */
 
-@media (min-width: 1826px) {
+/* @media (min-width: 1826px) {
   .row-content {
     margin-top: 400px !important;
   }
@@ -303,17 +321,17 @@
     font-weight: 700 !important;
   }
 
-  /* .tab-card hr {
+  .new-tab-card hr {
     margin-left: 100px;
-  } */
-}
-
+  }
+} */
+/* 
 @media (max-width: 768px) {
   .row-content {
     margin-top: 300px !important;
   }
 
-  .tab-card.card,
+  .new-tab-card.card,
   .card-body {
     width: auto;
     margin: 0 auto;
@@ -321,7 +339,7 @@
     height: auto;
   }
 
-  .tab-card li {
+  .new-tab-card li {
     margin-top: 15px;
     font-size: 15px !important;
     font-weight: 400 !important;
@@ -341,8 +359,8 @@
   .hero-section {
     margin-top: -200px !important;
   }
-}
-
+} */
+/* 
 @media (max-width: 576px) {
   .price {
     font-size: 25px !important;
@@ -352,7 +370,7 @@
     margin-bottom: -20px;
   }
 
-  .tab-card.card,
+  .new-tab-card.card,
   .card-body {
     width: 300px;
     margin: 0 auto;
@@ -365,7 +383,7 @@
     font-weight: 600 !important;
   }
 
-  .tab-card li {
+  .new-tab-card li {
     font-size: 16px !important;
     font-weight: 400 !important;
     margin-top: 15px;
@@ -387,4 +405,4 @@
   .hero-section {
     margin-top: -150px !important;
   }
-}
+} */

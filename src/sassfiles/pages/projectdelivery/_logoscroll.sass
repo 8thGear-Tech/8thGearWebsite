@@ -1,0 +1,22 @@
+/* src/components/LogoScroll.scss */
+.logo-scroll 
+  width: 100%
+  overflow: hidden
+
+  .scroll-container 
+    display: flex
+    justify-content: space-evenly
+    gap: 50px
+    animation: scroll 20s linear infinite
+    img 
+      height: 60px
+      width: auto
+      margin: 0 10px
+    
+  @keyframes scroll 
+    0% 
+      transform: translateX(0%)
+    
+    100% 
+      transform: translateX(-50%)
+    
