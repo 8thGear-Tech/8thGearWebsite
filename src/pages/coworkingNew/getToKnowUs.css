@@ -7,9 +7,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/* body {
   font-family: "Poppins", sans-serif !important;
-}
+} */
 
 /* Get to Know Us Section */
 .get-to-know-us {
@@ -171,8 +171,8 @@ body {
 }
 
 .newSpaces img {
-  max-width: 15rem;
-  margin: auto;
+  /* max-width: 15rem; */
+  /* margin: auto; */
   border-radius: 2rem;
 }
 

@@ -111,11 +111,11 @@
 }
 
 .new-tab-card.card,
-.card-body {
+.price-body {
   background: #f7e1f7 !important;
   border-radius: 24px;
   /* width: auto; */
-  /* height: 27rem; */
+  height: 27rem;
   gap: 5px;
   /* box-shadow: 0px 1px 0px 0px #00000029; */
   border: 0;
@@ -270,7 +270,7 @@
   margin: 0 10px !important;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .client-section .row {
     display: flex;
     flex-wrap: nowrap;
@@ -284,8 +284,8 @@
   .hero-content {
     top: 12rem;
   }
-}
-
+} */
+/* 
 @media (max-width: 1024px) {
   .row-content {
     margin-top: 450px !important;
@@ -295,11 +295,11 @@
     margin-top: -300px !important;
   }
 
-  /* .new-tab-card hr {
+  .new-tab-card hr {
     margin-left: 30px;
-  } */
-}
-
+  }
+} */
+/* 
 @media (max-width: 767.98px) {
   .client-section .row {
     flex-direction: column;
@@ -309,9 +309,9 @@
   .client-logo {
     margin: 0;
   }
-}
+} */
 
-@media (min-width: 1826px) {
+/* @media (min-width: 1826px) {
   .row-content {
     margin-top: 400px !important;
   }
@@ -321,11 +321,11 @@
     font-weight: 700 !important;
   }
 
-  /* .new-tab-card hr {
+  .new-tab-card hr {
     margin-left: 100px;
-  } */
-}
-
+  }
+} */
+/* 
 @media (max-width: 768px) {
   .row-content {
     margin-top: 300px !important;
@@ -359,8 +359,8 @@
   .hero-section {
     margin-top: -200px !important;
   }
-}
-
+} */
+/* 
 @media (max-width: 576px) {
   .price {
     font-size: 25px !important;
@@ -405,4 +405,4 @@
   .hero-section {
     margin-top: -150px !important;
   }
-}
+} */

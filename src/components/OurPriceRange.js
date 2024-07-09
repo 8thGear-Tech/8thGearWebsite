@@ -81,7 +81,7 @@ const OurPriceRange = () => {
         },
         {
           title: "SATURDAYS",
-          price: "₦5,000",
+          price: "₦5,000 Per Day",
           timeRange: "(10am-3pm)", // Add time range for Saturdays
           features: [
             "Fast, Reliable Internet Access",

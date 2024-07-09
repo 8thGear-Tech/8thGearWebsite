@@ -1,172 +1,176 @@
 .heroText {
-    color: #FFFFFF;
-    top: 50%;
-    font-size: 2rem;
-    margin-left: 2rem;
+  color: #ffffff;
+  top: 50%;
+  font-size: 2rem;
+  margin-left: 2rem;
 }
 
 .heroTextSpan {
-    color: #EDCCEC;
-    transition: opacity 0.5s ease-in-out;
+  color: #edccec;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .fade-in {
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
 }
 
 .fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .hero-background {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('/public/images/eventsNew/eventHero.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    text-align: left;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url("/public/images/eventsNew/eventHero.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: left;
 }
 
 .eventsHead h3 {
-    color: #890084;
+  color: #890084;
 }
 
 .eventsCalendar button {
-    border: none;
-    padding: 0.5rem 0.5rem;
-    border-radius: 1.5rem;
-    margin: 0rem 1rem;
-    font-size: 0.8rem;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 1.5rem;
+  margin: 0rem 1rem;
+  font-size: 0.8rem;
 }
 
 .eventsCalendar .button1 {
-    background-color: #6E006A;
-    color: #FAFAFA;
+  background-color: #6e006a;
+  color: #fafafa;
 }
 
 .eventsCalendar .button1:hover {
-    background-color: #A5009F;
+  background-color: #a5009f;
 }
 
 .eventsCalendar .button2 {
-    background-color: #FAFAFA;
-    color: #A5009F;
-    border: 1px solid #A5009F;
+  background-color: #fafafa;
+  color: #a5009f;
+  border: 1px solid #a5009f;
 }
 
 .eventsCalendar .button2:hover {
-    background-color: #A5009F;
-    color: #FAFAFA;
+  background-color: #a5009f;
+  color: #fafafa;
 }
 
 .events1 {
-    background-color: #EDCCEC;
-    min-width: 600px;
+  background-color: #edccec;
+  min-width: 600px;
 }
 
 .events2 {
-    min-width: 600px;
+  min-width: 600px;
 }
 
 .events1 h3 {
-    color: #1C1C1C;
-    font-size: 1.2rem;
-    font-weight: 500;
+  color: #1c1c1c;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .events1 a {
-    color: #6E006A;
-    font-size: 1rem;
-    font-weight: 500;
+  color: #6e006a;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.events2 h3{
-    font-weight: 500;
-    font-size: 1rem;
-    color: #535353;
-   
+.events2 h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #535353;
 }
 
 .portfolio h3 {
-    color: #2F591C;
-    font-weight: 500;
-    font-size: 2rem;
+  color: #2f591c;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
+/* error */
+/* 
 .card {
-    border: none;
-    position: relative;
+  border: none;
+  position: relative;
 }
 
 .card-body {
-    background-color: #DCF3F2;
-    width: 18rem;
-    height: 32rem;
-    margin: auto;
+  background-color: #dcf3f2;
+  width: 18rem;
+  height: 32rem;
+  margin: auto;
 }
 
 .card-title {
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
 }
 
 .card-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
 }
 
 .card .btn {
-    display: block;
-    background-color: white;
-    border: 2px solid #890084;
-    padding: 0.5rem 0 !important;
-    margin: 0.2rem 2rem !important;
-    color: #890084;
+  display: block;
+  background-color: white;
+  border: 2px solid #890084;
+  padding: 0.5rem 0 !important;
+  margin: 0.2rem 2rem !important;
+  color: #890084;
 }
 
 .card-img-top {
-    width: 12rem;
-    height: 12rem;
-    padding: 1rem;
-}
+  width: 12rem;
+  height: 12rem;
+  padding: 1rem;
+} */
+
+/* error */
 
 .gallery {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.03em;
-    text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .gallery .btn {
-    background-color: #152425;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 27px;
-    text-align: center;
-    color: #FAFAFA;
+  background-color: #152425;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #fafafa;
 }
 
 @media (min-width: 768px) {
-    .heroText {
-        font-size: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .heroText {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1024px) {
-    .heroText {
-        font-size: 5rem;
-    }
+  .heroText {
+    font-size: 5rem;
+  }
 }

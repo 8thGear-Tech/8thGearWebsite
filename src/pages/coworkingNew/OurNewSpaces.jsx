@@ -34,7 +34,7 @@ export const OurNewSpaces = () => {
             <img
               src={images[currentIndex].src}
               alt={`hub${currentIndex + 1}`}
-              className="image"
+              className="image img-fluid w-100"
             />
             <h3 className="position-absolute image-text">
               {images[currentIndex].text}
