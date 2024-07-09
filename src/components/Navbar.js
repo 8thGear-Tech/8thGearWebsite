@@ -68,7 +68,7 @@ const NavBar = (props) => {
                                 className="mx-3"
                                 style={{fontSize: "1.2rem", fontWeight: "300"}}
                             >
-                                Project Delivery
+                                Projects
                             </Nav.Link>
                             <NavDropdown title="Initiatives" id="basic-nav-dropdown" className="h5 mx-3 my-4">
                                 <NavDropdown.Item href="/FUTA-techpic">FUTA-techpic</NavDropdown.Item>

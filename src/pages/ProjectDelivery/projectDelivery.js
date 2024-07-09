@@ -53,12 +53,8 @@ const ProjectDeliveryHero = () => {
     return (
         <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid ">
             <div className="hero-text ">
-                <h1 className="text-lg-center d-inline">Great people building enduring ventures</h1>
-                <p>"Get ready to experience the future!"</p>
-                <p>
-                    Join Us at #DemoDay to witness the latest innovation and groundbreaking technologis that are
-                    changing the world.
-                </p>
+                <h1 className="text-lg-center d-inline">Collaborating with YOU to make your dreams come true</h1>
+                <p>We are your one-stop shop to achieve your Venture Building Dreams.</p>
                 <div className="text-center mb-4">
                     {" "}
                     <Button className="HeroButton">
@@ -153,8 +149,12 @@ const SuccessStoryCards = () => {
             </div>
             <div className="mb-4 ">
                 <div className="gallery">
-                    <div className="gallery-container">
-                        <img src={images[currentIndex.src]} alt={`image ${currentIndex + 1}`} />
+                    <div className="gallery-container container-fluid rounded">
+                        <img
+                            src={images[currentIndex].src}
+                            alt={`image ${currentIndex + 1}`}
+                            className="img-fluid rounded"
+                        />
                         <h3 className="imageCaption">{images[currentIndex].text}</h3>
                     </div>
                     <div className="button-controller">
