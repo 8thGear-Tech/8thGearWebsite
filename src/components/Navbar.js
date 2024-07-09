@@ -872,12 +872,28 @@ export const Navbar27 = () => {
     );
 };
 
-//TRANSPARENT NAVBAR
+//TRANSPARENT Cowrking NAVBAR
 export const Navbar28 = () => {
     return (
         <div className="container-fluid transparent-navbar">
             <div className="row">
                 {text.coworkingspace.map((navbar) => {
+                    return (
+                        <div className="col-sm-12 col-md-12 col-lg-12 p-0 m-0" key={navbar.id}>
+                            <NavBar {...navbar}></NavBar>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+    );
+};
+
+export const ProjectNav = () => {
+    return (
+        <div className="container-fluid transparent-navbar">
+            <div className="row">
+                {text.projectdelivery.map((navbar) => {
                     return (
                         <div className="col-sm-12 col-md-12 col-lg-12 p-0 m-0" key={navbar.id}>
                             <NavBar {...navbar}></NavBar>
