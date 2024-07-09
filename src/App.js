@@ -26,6 +26,9 @@ import PiggeryTrainingPage from "./pages/ProjectDelivery/piggeryTrainingGallery"
 import LSETFPage from "./pages/ProjectDelivery/lsetfGallery";
 import InnkeeperHackathonGalleryPage from "./pages/ProjectDelivery/innkeeperHackathonGallery";
 import ITFGalleryPage from "./pages/ProjectDelivery/ITFGallery";
+import EnterpriseSupport from "./pages/ProjectDelivery/EnterpriseSupport";
+import EcosystemEvents from "./pages/ProjectDelivery/EcosystemEvents";
+import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
@@ -96,6 +99,9 @@ function App() {
                     <Route path="trulance" element={<TrulancePortfolioPage />} />
                     <Route path="project-delivery" element={<ProjectDeliveryPage />} />
                     <Route path="project-delivery-gallery" element={<ProjectDeliveryGalleryPage />} />
+                    <Route path="Enterprise-Support" element={<EnterpriseSupport />} />
+                    <Route path="Ecosystem-Events" element={<EcosystemEvents />} />
+                    <Route path="Talent-Development" element={<TalentDevelopment />} />
                     <Route path="GIZ-employability-gallery" element={<GIZPage />} />
                     <Route path="piggery-training" element={<PiggeryTrainingPage />} />
                     <Route path="LSETF-gallery" element={<LSETFPage />} />

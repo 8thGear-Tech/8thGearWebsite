@@ -36,3 +36,104 @@ THIS IS THE OFFICIAL REPO OOOO
 SO WE HAVE TO BE VERY CAREFUL
 ASK OPE FOR INSTRUCTIONS BEFORE YIU START AND FOLLOW THEM WELL 
  
+ For another components on the projectDelivery page 
+ const OurClients = () => {
+    return (
+        <div className="container-fluid pt-4">
+            {" "}
+            <div className="row g-0">
+                <h3 className="mt-4 text-center mb-4">Our Clients</h3>
+                <div className="row d-flex align-items-center TextAlignCenter justify-content-center justify-content-evenly">
+                    {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+                        <img
+                            src={gizlogo}
+                            className="logo1 col-12 "
+                            // style={{ maxWidth: "100%", maxHeight: "100%" }}
+                        ></img>
+                    </div>
+
+                    <div className="TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+                        <img
+                            src={usadflogo}
+                            className="logo1 col-12 px-3"
+                            // style={{ maxWidth: "100%", maxHeight: "100%" }}
+                        ></img>
+                    </div>
+                    <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mb-4">
+                        <img
+                            src={lsetflogo}
+                            className="logo1 col-12 px-3"
+                            // style={{ maxWidth: "100%", maxHeight: "100%" }}
+                        ></img>
+                    </div>
+                    <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 mb-3">
+                        <img
+                            src={s4plogo}
+                            className="logo1 col-12 px-5"
+                            // style={{ maxWidth: "100%", maxHeight: "100%" }}
+                        ></img>
+                    </div> */}
+                    {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6">
+            <img
+              src={itflogo}
+              className="logo1 col-12 px-5"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+            <img
+              src={fcmblogo}
+              className="logo1 col-12 px-5"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div> */}
+                </div>
+                <div className="row d-flex align-items-center TextAlignCenter justify-content-center mt-4">
+                    {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+            <img
+              src={gizlogo}
+              className="logo1 col-12 "
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+
+          <div className="TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+            <img
+              src={usadflogo}
+              className="logo1 col-12 px-3"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mb-4">
+            <img
+              src={lsetflogo}
+              className="logo1 col-12 px-3"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div> */}
+                    {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 mb-3">
+            <img
+              src={s4plogo}
+              className="logo1 col-12 px-5"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div> */}
+                    <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6">
+                        <img
+                            src={itflogo}
+                            className="logo1 col-12 px-5"
+                            style={{maxWidth: "90%", maxHeight: "100%"}}
+                        ></img>
+                    </div>
+                    <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+                        <img
+                            src={fcmblogo}
+                            className="logo1 col-12 px-5"
+                            style={{maxWidth: "90%", maxHeight: "100%"}}
+                        ></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};

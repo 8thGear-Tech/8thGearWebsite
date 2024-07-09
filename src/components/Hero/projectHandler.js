@@ -1,10 +1,9 @@
 import {useState} from "react";
-import Button from "react-bootstrap/Button";
 
-export const OurNewSpaces = () => {
+export const ProjectHandler = () => {
     const images = [
-        {src: "/images/coworkingNew/slide1.png", text: "Magogo Hub"},
-        {src: "/images/coworkingNew/slide2.png", text: "Downtown Hub"},
+        {src: "../../../public/images/gallerycards/piggerytraining.jpg", text: "Piggery Training GIZ"},
+        {src: "../../../public/images/gallerycards/itf.JPG", text: "ITF training 2022"},
         {src: "/images/coworkingNew/slide3.png", text: "Suburban Hub"},
     ];
 
@@ -35,8 +34,9 @@ export const OurNewSpaces = () => {
                         <i className="bi bi-arrow-down-square-fill" onClick={handleDown} type="button"></i>
                     </div>
                 </div>
-                <Button>Book a Space</Button>
             </div>
         </div>
     );
 };
+
+export default ProjectHandler;
