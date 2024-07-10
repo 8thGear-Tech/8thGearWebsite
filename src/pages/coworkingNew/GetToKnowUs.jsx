@@ -26,12 +26,8 @@ export const GetToKnowUs = () => {
           <div className="col-12 col-md-6">
             {/* Card 2 */}
             <Card
-              imgSrc={"/images/coworkingNew/alarm.svg"}
-              text={
-                <span>
-                  Monday-Friday (9am-5pm) <br /> Saturdays (10am-5pm)
-                </span>
-              }
+              imgSrc={"/images/coworkingNew/kitchenette.png"}
+              text={" Kitchenette"}
             />
           </div>
         </div>

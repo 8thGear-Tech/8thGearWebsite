@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
+import { BsArrowUpSquare, BsArrowDownSquare } from "react-icons/bs";
 
 export const OurNewSpaces = () => {
   const images = [
@@ -40,20 +41,16 @@ export const OurNewSpaces = () => {
               {images[currentIndex].text}
             </h3>
           </div>
-          <div className="button-container">
-            <i
-              className="bi bi-arrow-up-square-fill"
-              onClick={handleUp}
-              type="button"
-            ></i>
-            <i
-              className="bi bi-arrow-down-square-fill"
-              onClick={handleDown}
-              type="button"
-            ></i>
+          <div className="row row-gap-3">
+            <BsArrowUpSquare onClick={handleUp} type="button"  />
+            <BsArrowDownSquare onClick={handleDown} type="button" />
           </div>
         </div>{" "}
-        <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+        <a
+          href="https://forms.gle/pjR1os5hN6WnbzFa9"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Button>Book a Space</Button>
         </a>
       </div>

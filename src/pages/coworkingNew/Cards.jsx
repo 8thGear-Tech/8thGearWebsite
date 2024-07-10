@@ -19,10 +19,10 @@ const Card = ({ imgSrc, text }) => {
     >
       <img
         src={imgSrc}
-        alt="card image"
+        alt="card"
         className={`${isHovered ? "invisible" : ""}`}
       />
-      <div className={`cardText ${isHovered ? "invisible" : ""}`}>
+      <div className={`cardText ${isHovered ? "invisible" : ""} know-us-card`}>
         <p className="text-white fs-6 text-center">{text}</p>
       </div>
     </div>
