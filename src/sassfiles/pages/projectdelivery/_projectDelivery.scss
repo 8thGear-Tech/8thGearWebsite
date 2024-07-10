@@ -14,15 +14,15 @@
 // PURPLE TEXT
 .purple-text {
   color: #821e6b;
-  // font-weight: 800;
-  // font-size: 28px;
+  //   font-weight: 800;
+  //   font-size: 28px;
 }
 
 // HERO SECTION
 .projectHero {
   height: 100vh;
   position: relative;
-  background: url("../../../assets/images/hero/piggerytraininghero.jpg");
+  background: url("../../../assets/demodaysix.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,14 +98,14 @@
 }
 
 /*ENTERPRISE PAGE*/
-// .EnterpriceHero {
-//   height: 100vh;
-//   position: relative;
-//   background: url("../../../assets/demodaysix.JPG");
-//   background-size: cover;
-//   background-position: center;
-//   background-repeat: no-repeat;
-// }
+.EnterpriceHero {
+  height: 100vh;
+  position: relative;
+  background: url("../../../assets/demodaysix.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 //With overlay
 .EnterpriceHero:before {
@@ -169,12 +169,13 @@
 /* Media Queries */
 
 /* Small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 310px) and (max-width: 575.98px) {
   .hero-text {
-    margin-top: 40px;
-    padding-top: 10px;
+    margin-top: 60px !important;
+    padding-top: 15px !important;
 
     h1 {
+      display: inline !important;
       font-size: 2rem !important;
     }
     p {
@@ -213,21 +214,21 @@
   display: flex;
   flex-direction: row;
 }
-.gallery-container {
-  max-width: 700px;
-  height: 350px;
-  border: #821e6b solid 2px;
-  border-radius: 30px;
-}
+// .gallery-container {
+//     max-width: 700px;
+//     height: 350px;
+//     border: #821e6b solid 2px;
+//     border-radius: 30px;
+// }
 .imageCaption {
   position: relative;
-  top: 250px;
+  top: 10px;
   text-align: center;
 }
 .button-controller {
   position: relative;
-  right: -20px;
-  top: 120px;
+  right: -5px;
+  top: 200px;
 
   i {
     color: #821e6b;
@@ -237,7 +238,7 @@
   }
 }
 /* Medium devices (tablets, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 850.34px) {
   .hero-text {
     h1 {
       font-size: 1.75rem;
@@ -248,8 +249,8 @@
   }
   //Impact Card
   .impactRow {
-    display: none !important;
-    flex-direction: column !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
     align-items: center;
     gap: 20px;
   }

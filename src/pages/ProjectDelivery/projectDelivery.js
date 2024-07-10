@@ -166,18 +166,12 @@ const SuccessStoryCards = () => {
       </div>
       <div className="mb-4 ">
         <div className="gallery">
-          <div className="gallery-container">
-            {/* <img
-              src={images[currentIndex.src]}
-              alt={`image ${currentIndex + 1}`}
-            /> */}
-            {/* Access image source from object at current index */}
+          <div className="gallery-container container-fluid rounded">
             <img
               src={images[currentIndex].src}
-              alt={images[currentIndex].text}
-              className="img-fluid"
+              alt={`image ${currentIndex + 1}`}
+              className="img-fluid rounded"
             />
-
             <h3 className="imageCaption">{images[currentIndex].text}</h3>
           </div>
           <div className="button-controller">
