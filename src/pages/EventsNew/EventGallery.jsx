@@ -20,7 +20,7 @@ const EventGallery = () => {
                 >
                   <div className="card successStoryCardBg">
                     <img src={items.image} className="" alt="..." />
-                    <div className="py-3">
+                    <div className="p-3">
                       <Link
                         to={items.link}
                         className="text-decoration-none text-black"

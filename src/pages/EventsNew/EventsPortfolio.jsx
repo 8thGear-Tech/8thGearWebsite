@@ -10,40 +10,40 @@ const EventsPortfolio = () => {
       <div className="container portfolio">
         <div className="row justify-content-center mb-2 px-3">
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card text-center mb-3">
+            <div className="card text-center mb-3 rounded">
               <div className="card-body">
                 <h5 className="card-title">Founders Meetup</h5>
                 <img
-                  src="/images/eventsNew/259.png"
+                  src="/images/FMU_24_Q2/FMU_Q2_8.PNG"
                   alt="Founders Meetup"
                   className="card-img-top"
                 />
-                <p className="card-text py-3">
+                <p className="card-text py-2">
                   Entrepreneurship is more successful and fulfilling when
                   traveled with like-minded individuals, fostering synergy,
                   inspiration, motivation, and growth.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="/founders-meetup" className="btn btn-primary">
                   Read more
                 </a>
               </div>
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="card text-center mb-3">
+            <div className="card text-center mb-3 rounded">
               <div className="card-body">
                 <h5 className="card-title">Demo Day</h5>
                 <img
-                  src="/images/eventsNew/259.png"
+                  src="/images/FMU_24_Q1/FMU_Q1_2.jpg"
                   alt="Demo Day"
                   className="card-img-top"
                 />
-                <p className="card-text py-3">
+                <p className="card-text py-2">
                   Founders Meetup Entrepreneurship is more successful and
                   fulfilling when traveled with like-minded individuals,
                   fostering synergy, inspiration, motivation, and growth.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <a href="/demo-day" className="btn btn-primary" >
                   Read more
                 </a>
               </div>
