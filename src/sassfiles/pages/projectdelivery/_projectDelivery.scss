@@ -166,35 +166,6 @@
     justify-items: center;
 }
 
-/* Media Queries */
-
-/* Small devices (phones, less than 576px) */
-@media (min-width: 310px) and (max-width: 575.98px) {
-    .hero-text {
-        margin-top: 60px !important;
-        padding-top: 15px !important;
-
-        h1 {
-            display: inline !important;
-            font-size: 2rem !important;
-        }
-        p {
-            font-size: 1rem;
-        }
-    }
-    //Impact Card
-    .impactRow {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center;
-        gap: 20px;
-    }
-    .ourImpactCardBg {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-
 // CLIENTS SECTION
 .clients {
     margin-top: 1rem;
@@ -237,6 +208,29 @@
         margin: 5px;
     }
 }
+
+//OUR IMPACT CARD
+.impactRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.ourImpactCardBg {
+    background-color: $lightgreenbg;
+    padding: 10px;
+    width: 300px;
+    p {
+        font-weight: bolder;
+    }
+}
+.traction-text {
+    font-weight: bolder;
+    color: #00683e;
+}
+/* Media Queries */
+
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 850.34px) {
     .hero-text {
@@ -260,23 +254,41 @@
     }
 }
 
-//OUR IMPACT CARD
-.impactRow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-.ourImpactCardBg {
-    background-color: $lightgreenbg;
-    padding: 10px;
-    width: 300px;
-    p {
-        font-weight: bolder;
+/* Small devices (phones, less than 576px) */
+@media (min-width: 310px) and (max-width: 575.98px) {
+    .hero-text {
+        margin-top: 60px !important;
+        padding-top: 15px !important;
+
+        h1 {
+            display: inline !important;
+            font-size: 2rem !important;
+        }
+        p {
+            font-size: 1rem;
+        }
     }
-}
-.traction-text {
-    font-weight: bolder;
-    color: #00683e;
+    //Impact Card
+    .impactRow {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 20px;
+    }
+    .ourImpactCardBg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // BUTTON CONTROLLERS
+    .button-controller {
+        position: relative;
+        right: -5px;
+        top: 60px;
+
+        i {
+            color: #821e6b;
+            font-size: 30px;
+            margin: 5px;
+        }
+    }
 }
