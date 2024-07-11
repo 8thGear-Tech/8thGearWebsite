@@ -5,7 +5,7 @@ const EventsPortfolio = () => {
   return (
     <div className="eventsPortfolio d-flex flex-column">
       <div className="eventsHead d-flex justify-content-center align-items-center">
-        <h3 className="fw-semibold py-4">Exclusive to the Portfolio</h3>
+        <h3 className="fw-semibold py-4">Major Events</h3>
       </div>
       <div className="container portfolio">
         <div className="row justify-content-center mb-2 px-3">
@@ -43,7 +43,7 @@ const EventsPortfolio = () => {
                   fulfilling when traveled with like-minded individuals,
                   fostering synergy, inspiration, motivation, and growth.
                 </p>
-                <a href="/demo-day" className="btn btn-primary" >
+                <a href="/demo-day" className="btn btn-primary">
                   Read more
                 </a>
               </div>

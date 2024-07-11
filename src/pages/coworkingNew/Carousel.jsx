@@ -23,24 +23,27 @@ function HeroCarousel() {
             ideas soar!
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <Button>
-              <span className="px-2">
-                <img
-                  src="/images/coworkingNew/space.svg"
-                  alt=""
-                  className="h-2"
-                />
-              </span>
-              Book a Space
-            </Button>
-            <Button>
-              <span>
-                <img src="/images/coworkingNew/microscope.png" alt="" />
-              </span>
-              Book a Session
-            </Button>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span className="px-2">
+                  <img
+                    src="/images/coworkingNew/space.svg"
+                    alt=""
+                    className="h-2"
+                  />
+                </span>
+                Book a Space
+              </Button>
+            </a>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span>
+                  <img src="/images/coworkingNew/microscope.png" alt="" />
+                </span>
+                Book a Session
+              </Button>
+            </a>
           </div>
-
           <img
             src="/images/coworkingNew/slide_1_short.PNG"
             alt="Overlay"
@@ -72,22 +75,27 @@ function HeroCarousel() {
             community. <br /> Experience the power of collaboration!
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <Button>
-              <span className="px-2">
-                <img
-                  src="/images/coworkingNew/space.svg"
-                  alt=""
-                  className="h-2"
-                />
-              </span>
-              Book a Space
-            </Button>
-            <Button>
-              <span>
-                <img src="/images/coworkingNew/microscope.png" alt="" />
-              </span>
-              Book a Session
-            </Button>
+            {" "}
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span className="px-2">
+                  <img
+                    src="/images/coworkingNew/space.svg"
+                    alt=""
+                    className="h-2"
+                  />
+                </span>
+                Book a Space{" "}
+              </Button>
+            </a>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span>
+                  <img src="/images/coworkingNew/microscope.png" alt="" />
+                </span>
+                Book a Session
+              </Button>
+            </a>
           </div>
 
           <img
@@ -123,22 +131,26 @@ function HeroCarousel() {
             we provide everything you need to bring your podcast to life.
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <Button>
-              <span className="px-2">
-                <img
-                  src="/images/coworkingNew/space.svg"
-                  alt=""
-                  className="h-2"
-                />
-              </span>
-              Book a Space
-            </Button>
-            <Button>
-              <span>
-                <img src="/images/coworkingNew/microscope.png" alt="" />
-              </span>
-              Book a Session
-            </Button>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span className="px-2">
+                  <img
+                    src="/images/coworkingNew/space.svg"
+                    alt=""
+                    className="h-2"
+                  />
+                </span>
+                Book a Space
+              </Button>
+            </a>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span>
+                  <img src="/images/coworkingNew/microscope.png" alt="" />
+                </span>
+                Book a Session
+              </Button>
+            </a>
           </div>
 
           <img
@@ -171,22 +183,26 @@ function HeroCarousel() {
             speed <br /> and a conducive environment.{" "}
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <Button>
-              <span className="px-2">
-                <img
-                  src="/images/coworkingNew/space.svg"
-                  alt=""
-                  className="h-2"
-                />
-              </span>
-              Book a Space
-            </Button>
-            <Button>
-              <span>
-                <img src="/images/coworkingNew/microscope.png" alt="" />
-              </span>
-              Book a Session
-            </Button>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span className="px-2">
+                  <img
+                    src="/images/coworkingNew/space.svg"
+                    alt=""
+                    className="h-2"
+                  />
+                </span>
+                Book a Space
+              </Button>
+            </a>
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+              <Button>
+                <span>
+                  <img src="/images/coworkingNew/microscope.png" alt="" />
+                </span>
+                Book a Session
+              </Button>
+            </a>
           </div>
 
           <img

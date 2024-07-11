@@ -23,8 +23,9 @@ export const OurNewSpaces = () => {
   };
 
   return (
-    <div className="newSpaces text-center">
-      <div className="m-4">
+    <div className="newSpaces text-center mt-3">
+      {/* <div className="newSpaces text-center mt-3"> */}
+      <div className="">
         <h3>OUR CO-WORKING SPACES</h3>
         <p>Three locations, Same Excellent Customer Service.</p>
       </div>
@@ -40,7 +41,7 @@ export const OurNewSpaces = () => {
               {images[currentIndex].text}
             </h3>
           </div>
-          <div className="button-container">
+          <div className="button-container d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
             <i
               className="bi bi-arrow-up-square-fill"
               onClick={handleUp}
@@ -53,9 +54,21 @@ export const OurNewSpaces = () => {
             ></i>
           </div>
         </div>{" "}
+        <div className="mt-3 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+          <i
+            className="bi bi-arrow-up-square-fill mx-1"
+            onClick={handleUp}
+            type="button"
+          ></i>
+          <i
+            className="bi bi-arrow-down-square-fill mx-1"
+            onClick={handleDown}
+            type="button"
+          ></i>
+        </div>{" "}
         <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
           <Button>Book a Space</Button>
-        </a>
+        </a>{" "}
       </div>
     </div>
   );

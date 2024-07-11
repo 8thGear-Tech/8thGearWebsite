@@ -32,7 +32,7 @@
 
 .get-to-know-us h3 {
   color: #1c1c1c;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   line-height: 3rem;
 }
 
@@ -120,15 +120,15 @@
 
 /* Voucher Section */
 .voucher h3 {
-  color: #a5009f;
-  font-size: 2rem;
+  /* color: #a5009f;
+  font-size: 2rem; */
   line-height: 3rem;
 }
 
 .voucher p {
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 2rem;
-  color: #454545;
+  /* color: #454545; */
 }
 
 .voucher a {
@@ -159,15 +159,15 @@
 
 /* Co-Working Spaces Section */
 .newSpaces h3 {
-  color: #a5009f;
-  font-size: 2rem;
+  /* color: #a5009f;
+  font-size: 2rem; */
   line-height: 3rem;
 }
 
 .newSpaces p {
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; */
   line-height: 2rem;
-  color: #454545;
+  /* color: #454545; */
 }
 
 .newSpaces img {
@@ -312,7 +312,7 @@
   }
 
   .newSpaces img {
-    max-width: 25rem;
+    /* max-width: 25rem; */
     border-radius: 2rem;
   }
 

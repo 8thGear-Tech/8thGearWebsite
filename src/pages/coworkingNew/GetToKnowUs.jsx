@@ -7,7 +7,7 @@ export const GetToKnowUs = () => {
       {/* Title  */}
       <div className="text-center p-4">
         <h3 className="fw-semibold">GET TO KNOW US</h3>
-        <p className="fw-normal">The Gears You Need</p>
+        {/* <p className="fw-normal">The Gears You Need</p> */}
       </div>
       {/* Cards row 1  */}
       <div className="container d-flex gap-4 justify-content-center ">
