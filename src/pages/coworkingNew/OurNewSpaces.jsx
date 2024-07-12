@@ -5,7 +5,7 @@ export const OurNewSpaces = () => {
   const images = [
     { src: "/images/coworkingNew/location_1.PNG", text: "8thGear Hub" },
     { src: "/images/coworkingNew/location_2.PNG", text: "Hub One" },
-    // { src: "/images/coworkingNew/slide3.png", text: "Suburban Hub" },
+    // { src: "/images/coworkingNew/location_3.PNG", text: "Suburban Hub" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -23,11 +23,11 @@ export const OurNewSpaces = () => {
   };
 
   return (
-    <div className="newSpaces text-center mt-3">
+    <div className="newSpaces text-center mt-5">
       {/* <div className="newSpaces text-center mt-3"> */}
       <div className="">
         <h3>OUR CO-WORKING SPACES</h3>
-        <p>Three locations, Same Excellent Customer Service.</p>
+        {/* <p>Three locations, Same Excellent Customer Service.</p> */}
       </div>
       <div className="mb-4 ">
         <div className="content container">

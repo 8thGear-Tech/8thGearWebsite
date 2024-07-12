@@ -10,7 +10,7 @@ const Podcast = () => {
         <Row className="justify-content-center row-content">
           <Col md={8} className="hero-column text-center">
             <h5 className="display-5 hero-title">Want to create a podcast?</h5>
-            <p className="lead">We can help.</p>
+            {/* <p className="lead">We can help.</p> */}
             <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
               <Button className="btn btn-primary">Book a Session</Button>
             </a>

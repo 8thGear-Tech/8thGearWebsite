@@ -188,19 +188,36 @@
 }
 
 .newSpaces .image-text {
-  top: 80%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 1rem;
+  font-size: 2rem !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+  /* color: white; */
+  padding: 5px 10px;
+  backdrop-filter: blur(1px); /* Adjust the blur intensity as needed */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border-radius: 5px; /* Optional: Add border radius for a smoother look */
 }
 
-.newSpaces .button-container {
+/* .newSpaces .button-container {
   display: flex;
   flex-direction: column;
   padding-left: 1rem;
-}
+} */
 
+@media (min-width: 768px) {
+  .newSpaces .button-container {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 1rem;
+  }
+}
 /* Hero Section */
 .hero {
   height: 100vh;
