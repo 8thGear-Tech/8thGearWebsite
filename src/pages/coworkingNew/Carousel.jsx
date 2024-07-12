@@ -48,12 +48,12 @@ function HeroCarousel() {
             </a>
           </div>
           <img
-            src="/images/coworkingNew/slide_1_short.PNG"
+            src="/images/coworkingNew/slide_1_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_2_short.PNG"
+            src="/images/coworkingNew/slide_2_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />
@@ -104,12 +104,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_2_short.PNG"
+            src="/images/coworkingNew/slide_2_short.png"
             alt="Overlay"
             className="overlay-image "
           />
           <img
-            src="/images/coworkingNew/slide_3_short.PNG"
+            src="/images/coworkingNew/slide_3_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />
@@ -161,12 +161,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_3_short.PNG"
+            src="/images/coworkingNew/slide_3_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_4_short.PNG"
+            src="/images/coworkingNew/slide_4_short.png"
             alt="Overlay"
             className="overlay-image2"
           />
@@ -215,12 +215,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_4_short.PNG"
+            src="/images/coworkingNew/slide_4_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_1_short.PNG"
+            src="/images/coworkingNew/slide_1_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />
