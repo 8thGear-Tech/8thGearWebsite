@@ -26,7 +26,7 @@ const EventsPage = () => {
       <Navbar14 />
       <EventsPageHero />
       <Events />
-      <EventsCalender />
+      {/* <EventsCalender /> */}
       <SuggestAnEvent />
       <EventsGallery />
     </>

@@ -128,10 +128,10 @@
   align-content: center;
 }
 
-.new-tab-card.card,
+/* .new-tab-card.card,
 .card-body:first-child {
   background: #ffffff;
-}
+} */
 
 .card-title.h5 {
   color: #a5009f;
