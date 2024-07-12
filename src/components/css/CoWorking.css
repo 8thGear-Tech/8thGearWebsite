@@ -40,18 +40,19 @@
 
 .price {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 .button-group {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 .button-group .btn.btn-primary {
+  margin-top: 20px !important;
   width: 229px;
-  height: 52px;
+  /* height: 52px; */
   padding: 8px 16px;
   gap: 6.97px;
   border-radius: 80px;
