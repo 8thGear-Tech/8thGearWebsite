@@ -120,7 +120,7 @@ function HeroCarousel() {
           className="d-block w-100"
           style={{
             backgroundImage:
-              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_3.JPG)",
+              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_3.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "100vh",
@@ -177,7 +177,7 @@ function HeroCarousel() {
           className="d-block w-100"
           style={{
             backgroundImage:
-              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_4.JPG)",
+              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_4.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "100vh",
