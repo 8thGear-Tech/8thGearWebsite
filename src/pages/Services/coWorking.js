@@ -9,7 +9,7 @@ import { OurNewSpaces } from "../coworkingNew/OurNewSpaces";
 
 const CoWorking = () => {
   return (
-    <>
+    <div className="mw-50">
       <Hero />
       <OurNewSpaces />
       <GetToKnowUs />
@@ -18,7 +18,7 @@ const CoWorking = () => {
       <Podcast />
       {/* <Clients /> */}
       {/* <Testimonies /> */}
-    </>
+    </div>
   );
 };
 

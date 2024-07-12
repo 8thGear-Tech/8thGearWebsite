@@ -47,21 +47,22 @@
   border-radius: 0;
   padding: 0.5rem 1.5rem;
   transition: all 0.5s linear;
+  width: 15rem;
   margin: 0 2rem;
 }
 
 .get-to-know-us .card-bg-img {
-  background: url("/public/images/coworkingNew/card-bg-pics.png") no-repeat
-    center center / cover;
+  background: no-repeat center;
   border: none;
   border-radius: 0;
   padding: 1rem 2.5rem;
+  width: 15rem;
   transition: all 0.9s ease-in;
 }
 
 .get-to-know-us .card img {
-  width: 4rem;
-  height: 4rem;
+  width: auto;
+  height: 3.5rem;
   padding-bottom: 0.5rem;
 }
 
@@ -180,7 +181,7 @@
   position: relative;
 }
 
-.newSpaces .container {
+.newSpaces .new-spaces-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,7 +193,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   /* position: absolute; */
   /* top: 50%;
@@ -218,6 +219,10 @@
     padding-left: 1rem;
   }
 }
+.location-arrow-height {
+  height: 1.5rem;
+  color: #525151;
+}
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -241,7 +246,7 @@
 }
 
 .carousel h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 3rem;
   color: #fff;
@@ -256,15 +261,20 @@
   padding: 1rem 0 0 1rem !important;
 }
 
-.carousel .buttons {
-  margin: 1rem 0 0 1rem !important;
+/* hero text */
+.blurred-text-container {
+  display: inline-block;
 }
 
-.carousel button {
+.blurred-text {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.carousel .buttons button {
   background-color: #6e006a;
   border: none;
-  padding: 0.5rem;
-  font-size: 0.7rem;
+  padding: 0.7rem !important;
+  font-size: 0.8rem;
 }
 
 .overlay-image {
@@ -298,19 +308,8 @@
     margin: 0;
   }
 
-  .overlay-image,
-  .overlay-image2 {
-    display: block;
-  }
-
-  .overlay-image {
-    max-width: 7rem;
-    height: 10rem;
-  }
-
-  .overlay-image2 {
-    max-width: 6rem;
-    height: 10rem;
+  .get-to-know-us .card-bg-img {
+    width: 20rem;
   }
 
   .carousel h3 {
@@ -337,11 +336,24 @@
     font-size: 2rem;
   }
 }
+@media (min-width: 320px) and (max-width: 465px) {
+  .carousel .buttons {
+    margin: 0 0 1rem 1rem !important;
+  }
+  .carousel h3 {
+    font-size: 3.2rem;
+  }
+}
 
 @media (min-width: 1025px) {
-  .overlay-image,
-  .overlay-image2 {
-    display: block;
+  .get-to-know-us .card {
+    padding: 1rem 2.5rem;
+    width: 20rem;
+    margin: 0;
+  }
+
+  .get-to-know-us .card-bg-img {
+    width: 20rem;
   }
 
   .carousel h3 {
@@ -360,10 +372,6 @@
     margin: 1rem 0 1rem 5rem !important;
   }
 
-  .carousel button {
-    padding: 1rem;
-  }
-
   .newSpaces img {
     max-width: 50rem;
     border-radius: 2rem;
@@ -376,5 +384,20 @@
   .responsive-iframe {
     width: 60%;
     padding-top: 33.75%; /* 16:9 aspect ratio */
+  }
+}
+
+@media (min-width: 1300px) {
+  .overlay-image,
+  .overlay-image2 {
+    display: block;
+  }
+
+  .carousel-content {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
   }
 }

@@ -19,14 +19,6 @@
 }
 
 // HERO SECTION
-.projectHero {
-  height: 100vh;
-  position: relative;
-  background: url("../../../assets/demodaysix.JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 //With overlay
 .projectHero:before {
@@ -99,9 +91,9 @@
 
 /*ENTERPRISE PAGE*/
 .EnterpriceHero {
-  height: 100vh;
-  position: relative;
-  background: url("../../../assets/demodaysix.JPG");
+  // height: 100vh;
+  // position: relative;
+  // background: url("../../../assets/demodaysix.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
