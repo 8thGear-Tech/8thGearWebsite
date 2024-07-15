@@ -9,9 +9,9 @@ const Card = ({ imgSrc, text, bgImgSrc }) => {
         isHovered ? "card-bg-img" : "card"
       }`}
       style={{
-        backgroundImage: isHovered ? `url(${bgImgSrc})` : 'none',
+        backgroundImage: isHovered ? `url(${bgImgSrc})` : "none",
       }}
-      onMouseEnter={() => setIsHovered(true)}
+      onMouseEnter={() => setIsHovered(false)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
@@ -23,6 +23,25 @@ const Card = ({ imgSrc, text, bgImgSrc }) => {
         <p className="text-white fs-6 text-center">{text}</p>
       </div>
     </div>
+    // <div
+    //   className={`d-flex flex-column align-items-center ${
+    //     isHovered ? "card-bg-img" : "card"
+    //   }`}
+    //   style={{
+    //     backgroundImage: isHovered ? `url(${bgImgSrc})` : 'none',
+    //   }}
+    //   onMouseEnter={() => setIsHovered(true)}
+    //   onMouseLeave={() => setIsHovered(false)}
+    // >
+    //   <img
+    //     src={imgSrc}
+    //     alt="card"
+    //     className={`${isHovered ? "invisible" : ""} py-2`}
+    //   />
+    //   <div className={`cardText ${isHovered ? "invisible" : ""} py-3`}>
+    //     <p className="text-white fs-6 text-center">{text}</p>
+    //   </div>
+    // </div>
   );
 };
 

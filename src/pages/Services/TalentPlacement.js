@@ -81,7 +81,7 @@ const Services = () => {
       <div className="row justify-content-evenly">
         <h4 className="pt-5 text-center">OUR SERVICES</h4>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
-          <div className="cardBgg projectdeliveryCard">
+          <div className="cardBgg talentPlacementCard">
             <img src={recruitment} className="card-img-top" alt="" />
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Full Cycle Recruitment</h4>
@@ -93,7 +93,7 @@ const Services = () => {
           </div>
         </div>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
-          <div className="cardBgg projectdeliveryCard">
+          <div className="cardBgg talentPlacementCard">
             <img src={internshipplacement} className="card-img-top" alt="" />
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Internship Placement</h4>
@@ -105,7 +105,7 @@ const Services = () => {
           </div>
         </div>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
-          <div className="cardBgg projectdeliveryCard">
+          <div className="cardBgg talentPlacementCard">
             <img src={cvscreening} className="card-img-top" alt="" />
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">CV Screening</h4>

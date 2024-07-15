@@ -236,6 +236,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
+  color: #821e6b;
 }
 
 h4 {
@@ -401,7 +402,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -463,7 +464,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-  .next {
+.next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -508,7 +509,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-    animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -1056,11 +1057,8 @@ article h4 {
 }
 
 .projectdeliveryCard {
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 340px;
-  background-color: #f7e1f7;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px !important;
 }
@@ -1095,6 +1093,17 @@ article h4 {
 
 .purple-text {
   color: #821e6b;
+}
+
+.projectHero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  z-index: 1;
 }
 
 /* Centered text */
@@ -1146,6 +1155,24 @@ article h4 {
   justify-items: center;
 }
 
+/*ENTERPRISE PAGE*/
+.EnterpriceHero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.EnterpriceHero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  z-index: 1;
+}
+
 /* Centered text */
 .hero-text {
   position: absolute;
@@ -1185,30 +1212,6 @@ article h4 {
   justify-items: center;
 }
 
-/* Media Queries */
-/* Small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .hero-text {
-    margin-top: 40px;
-    padding-top: 10px;
-  }
-  .hero-text h1 {
-    font-size: 2rem !important;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
-  .impactRow {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center;
-    gap: 20px;
-  }
-  .ourImpactCardBg {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
 .clients {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -1228,23 +1231,16 @@ article h4 {
   flex-direction: row;
 }
 
-.gallery-container {
-  max-width: 700px;
-  height: 350px;
-  border: #821e6b solid 2px;
-  border-radius: 30px;
-}
-
 .imageCaption {
   position: relative;
-  top: 250px;
+  top: 10px;
   text-align: center;
 }
 
 .button-controller {
   position: relative;
-  right: -20px;
-  top: 120px;
+  right: -5px;
+  top: 200px;
 }
 .button-controller i {
   color: #821e6b;
@@ -1253,25 +1249,6 @@ article h4 {
   margin: 5px;
 }
 
-/* Medium devices (tablets, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .hero-text h1 {
-    font-size: 1.75rem;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
-  .impactRow {
-    display: none !important;
-    flex-direction: column !important;
-    align-items: center;
-    gap: 20px;
-  }
-  .ourImpactCardBg {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
 .impactRow {
   display: flex;
   flex-direction: row;
@@ -1294,6 +1271,60 @@ article h4 {
   color: #00683e;
 }
 
+/* Media Queries */
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 850.34px) {
+  .hero-text h1 {
+    font-size: 1.75rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .impactRow {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center;
+    gap: 20px;
+  }
+  .ourImpactCardBg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/* Small devices (phones, less than 576px) */
+@media (min-width: 310px) and (max-width: 575.98px) {
+  .hero-text {
+    margin-top: 60px !important;
+    padding-top: 15px !important;
+  }
+  .hero-text h1 {
+    display: inline !important;
+    font-size: 2rem !important;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .impactRow {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+  .ourImpactCardBg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .button-controller {
+    position: relative;
+    right: -5px;
+    top: 60px;
+  }
+  .button-controller i {
+    color: #821e6b;
+    font-size: 30px;
+    margin: 5px;
+  }
+}
 .howItWorksBg {
   background-color: rgba(0, 164, 149, 0.07);
 }
@@ -2428,21 +2459,21 @@ h2 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-  .ManagedServicesTechHeroBgg::before,
-  .ManagedServicesLegalHeroBgg::before,
-  .ManagedServicesDigitalMargetingHeroBgg::before,
-  .GaaSHeroBgg::before,
-  .Herodemodayy::before,
-  .CoworkingHeroBgg::before {
+.ManagedServicesTechHeroBgg::before,
+.ManagedServicesLegalHeroBgg::before,
+.ManagedServicesDigitalMargetingHeroBgg::before,
+.GaaSHeroBgg::before,
+.Herodemodayy::before,
+.CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-  .ManagedServicesTechHeroBg,
-  .ManagedServicesLegalHeroBg,
-  .ManagedServicesDigitalMargetingHeroBg,
-  .GaaSHeroBg,
-  .Herodemoday,
-  .CoworkingHeroBg {
+.ManagedServicesTechHeroBg,
+.ManagedServicesLegalHeroBg,
+.ManagedServicesDigitalMargetingHeroBg,
+.GaaSHeroBg,
+.Herodemoday,
+.CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2537,14 +2568,7 @@ h2 {
 }
 
 .gradientBg {
-  background-image: linear-gradient(
-    to right,
-    #252c3e,
-    rgba(37, 44, 62, 0.66),
-    rgba(37, 44, 62, 0.42),
-    rgba(37, 44, 62, 0.1),
-    rgba(37, 44, 62, 0)
-  );
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
 }
 
 .overlayBg {
@@ -2916,7 +2940,7 @@ video {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -3628,7 +3652,7 @@ header {
 
 .slider2 .slide2 img {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   height: 100%;
   width: auto;
   margin: auto;
@@ -3651,6 +3675,11 @@ header {
     transform: translateX(-50%);
   }
 }
+.talentPlacementCard {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+}
+
 .eightGearImg {
   border-radius: 20px;
   background: url(/src/assets/images/digiplus/responsibilitymatrix/eightgear.png);

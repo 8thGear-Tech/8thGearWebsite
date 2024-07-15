@@ -16,8 +16,8 @@ const CoWorking = () => {
       <Voucher />
       <OurPriceRange />
       <Podcast />
-      <Clients />
-      <Testimonies />
+      {/* <Clients /> */}
+      {/* <Testimonies /> */}
     </div>
   );
 };

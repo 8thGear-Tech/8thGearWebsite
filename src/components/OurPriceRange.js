@@ -70,19 +70,9 @@ const OurPriceRange = () => {
           ],
         },
         {
-          title: "REGULAR",
-          price: "₦3,000 Per Day",
-          features: [
-            "Fast, Reliable Internet Access",
-            "Uninterrupted Power Supply",
-            "Kitchenette",
-            "Community Events",
-          ],
-        },
-        {
           title: "SATURDAYS",
           price: "₦5,000 Per Day",
-          timeRange: "(10am-3pm)", // Add time range for Saturdays
+          timeRange: "(10am-3pm)",
           features: [
             "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
@@ -120,7 +110,7 @@ const OurPriceRange = () => {
         {
           title: "CLASSIC",
           price: "₦70,000 (Half Day)",
-          timeRange: "(9am-1pm)/(1pm-5pm)", // Add time range for Classic
+          timeRange: "(9am-1pm)/(1pm-5pm)",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -131,7 +121,7 @@ const OurPriceRange = () => {
         {
           title: "DELUXE",
           price: "₦100,000 Per Day",
-          timeRange: "(9am-5pm)", // Add time range for Deluxe
+          timeRange: "(9am-5pm)",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
