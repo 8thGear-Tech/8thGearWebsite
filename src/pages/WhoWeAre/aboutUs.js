@@ -10,6 +10,7 @@ import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
 import { Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
 import coworking from "../../assets/images/coworking/coworking.png";
+import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 
 //team
 import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
@@ -57,6 +58,16 @@ const Partners = () => {
           <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
             <img
               src={ciscologo}
+              className="col-12"
+              // style={{ maxWidth: "100%", maxHeight: "100%" }}
+            ></img>
+          </div>
+          <div
+            className="col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mx-2"
+            style={{ width: "95px" }}
+          >
+            <img
+              src={fcmblogo}
               className="col-12 "
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
@@ -69,7 +80,7 @@ const Partners = () => {
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mx-3">
             <img
               src={gizlogo}
               className="logo1 col-12 "
@@ -83,7 +94,7 @@ const Partners = () => {
               // style={{ maxWidth: "100%", maxHeight: "100%" }}
             ></img>
           </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
+          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mx-3">
             <img
               src={usadflogo}
               className="logo1 col-12 "
