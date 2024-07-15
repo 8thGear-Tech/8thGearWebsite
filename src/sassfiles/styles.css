@@ -236,6 +236,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
+  color: #821e6b;
 }
 
 h4 {
@@ -1021,21 +1022,18 @@ article h4 {
 }
 
 .bg-logo2 {
-  background-image: url(../assets/images/logo.png);
   height: 300px;
   background-size: cover;
   border: 1px solid black;
 }
 
 .bg-logo3 {
-  background-image: url(../assets/images/logo.png);
   height: 300px;
   background-size: cover;
   border: 1px solid black;
 }
 
 .bg-logo4 {
-  background-image: url(../assets/images/logo.png);
   height: 300px;
   background-size: cover;
   border: 1px solid black;
@@ -1059,8 +1057,15 @@ article h4 {
 }
 
 .projectdeliveryCard {
+  justify-content: center;
+  align-items: center;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 40px 40px;
+  border-radius: 30px !important;
+}
+
+.impactSection {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .TractionsBg {
@@ -1082,15 +1087,244 @@ article h4 {
   background-color: rgba(0, 164, 149, 0.07);
 }
 
-.ourImpactCardBg {
-  border: 0px solid rgba(0, 0, 0, 0.9);
-  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
-}
-
 .successStoryBg {
   background-color: rgba(0, 164, 149, 0.07);
 }
 
+.purple-text {
+  color: #821e6b;
+}
+
+.projectHero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  z-index: 1;
+}
+
+/* Centered text */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* White text color */
+  z-index: 2;
+  /* Optional styles for text */
+}
+.hero-text h1 {
+  font-size: 4rem !important; /* Adjust font size as needed */
+  display: inline-block !important;
+  margin-bottom: 0.25rem;
+}
+.hero-text p {
+  margin-top: 1px;
+  padding: auto;
+}
+
+.HeroButton {
+  background-color: #fff !important;
+  border: 2px solid #821e6b !important;
+}
+.HeroButton h4,
+.HeroButton a {
+  text-decoration: none;
+  color: #821e6b !important;
+  font-weight: 500 !important;
+  padding: 2px 1px !important;
+}
+
+.HeroButton:hover {
+  background-color: #821e6b !important;
+}
+.HeroButton:hover a {
+  color: #fff !important;
+}
+
+/*For the compentency Card*/
+.competency-Card {
+  position: relative;
+  height: 500px;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+/*ENTERPRISE PAGE*/
+.EnterpriceHero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.EnterpriceHero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  z-index: 1;
+}
+
+/* Centered text */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* White text color */
+  z-index: 2;
+  /* Optional styles for text */
+}
+.hero-text h1 {
+  font-size: 3rem; /* Adjust font size as needed */
+  display: inline-flex !important;
+  margin-bottom: 0.25rem;
+}
+.hero-text p {
+  margin-top: 1px;
+  padding: auto;
+}
+
+.impactCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf5f5;
+  padding: 10px;
+  width: 300px;
+}
+
+/*For the compentency Card*/
+.competency-Card {
+  position: relative;
+  height: 500px;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.clients {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+.successStory {
+  margin-top: 10px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageCaption {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.button-controller {
+  position: relative;
+  right: -5px;
+  top: 200px;
+}
+.button-controller i {
+  color: #821e6b;
+  font-size: 30px;
+  display: flex;
+  margin: 5px;
+}
+
+.impactRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ourImpactCardBg {
+  background-color: rgba(0, 164, 149, 0.07);
+  padding: 10px;
+  width: 300px;
+}
+.ourImpactCardBg p {
+  font-weight: bolder;
+}
+
+.traction-text {
+  font-weight: bolder;
+  color: #00683e;
+}
+
+/* Media Queries */
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 850.34px) {
+  .hero-text h1 {
+    font-size: 1.75rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .impactRow {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center;
+    gap: 20px;
+  }
+  .ourImpactCardBg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+/* Small devices (phones, less than 576px) */
+@media (min-width: 310px) and (max-width: 575.98px) {
+  .hero-text {
+    margin-top: 60px !important;
+    padding-top: 15px !important;
+  }
+  .hero-text h1 {
+    display: inline !important;
+    font-size: 2rem !important;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .impactRow {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 20px;
+  }
+  .ourImpactCardBg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .button-controller {
+    position: relative;
+    right: -5px;
+    top: 60px;
+  }
+  .button-controller i {
+    color: #821e6b;
+    font-size: 30px;
+    margin: 5px;
+  }
+}
 .howItWorksBg {
   background-color: rgba(0, 164, 149, 0.07);
 }
@@ -1257,12 +1491,40 @@ article h4 {
 }
 
 .NavBar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-  padding-right: 0% !important;
+  box-shadow: none !important;
+  padding-right: 0 !important;
   height: 5.5rem !important;
+  border-bottom: 0 !important;
   --bs-gutter-x: 2.5rem !important;
   font-size: 18px;
   margin-top: 10px;
+}
+
+.transparent-navbar {
+  background-color: transparent !important;
+  border: none;
+  z-index: 10;
+  position: fixed;
+  position: absolute;
+  box-shadow: none !important;
+  border-bottom: none !important;
+  top: 0;
+  width: 100%;
+}
+
+.transparent-navbar .navbar-brand,
+.transparent-navbar .nav-link {
+  color: #fff !important;
+}
+
+.transparent-navbar .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.transparent-navbar h5 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .link {
@@ -3413,6 +3675,11 @@ header {
     transform: translateX(-50%);
   }
 }
+.talentPlacementCard {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+}
+
 .eightGearImg {
   border-radius: 20px;
   background: url(/src/assets/images/digiplus/responsibilitymatrix/eightgear.png);
@@ -3540,30 +3807,5 @@ header {
     right: 10px;
     font-size: 22px;
   }
-}
-.d-flex {
-  display: flex;
-}
-
-.text-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: white; /* Adjust text color as needed */
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better contrast */
-  z-index: 1; /* Ensure text overlay stays on top */
-}
-
-.card-caption {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: white; /* Adjust caption text color as needed */
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); /* Add a slight shadow for better readability */
 }
 /*# sourceMappingURL=styles.css.map */

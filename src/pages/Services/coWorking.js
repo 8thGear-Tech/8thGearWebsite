@@ -9,16 +9,16 @@ import { OurNewSpaces } from "../coworkingNew/OurNewSpaces";
 
 const CoWorking = () => {
   return (
-    <>
+    <div className="mw-50">
       <Hero />
       <OurNewSpaces />
       <GetToKnowUs />
       <Voucher />
       <OurPriceRange />
       <Podcast />
-      <Clients />
-      <Testimonies />
-    </>
+      {/* <Clients /> */}
+      {/* <Testimonies /> */}
+    </div>
   );
 };
 
