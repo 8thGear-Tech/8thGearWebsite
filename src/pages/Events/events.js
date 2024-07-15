@@ -26,7 +26,7 @@ const EventsPage = () => {
       <Navbar14 />
       <EventsPageHero />
       <Events />
-      {/* <EventsCalender /> */}
+      <NewEventsCalendar />
       <SuggestAnEvent />
       <EventsGallery />
     </>
@@ -135,13 +135,14 @@ export const Events = () => {
   );
 };
 
-const EventsCalender = () => {
+const NewEventsCalendar = () => {
   return (
     <div className="container-fluid text-center py-2">
       {" "}
-      <h4 className="mt-5">Events Calender</h4>
+      <h4 className="mt-5">Events Calendar</h4>
       {/* <p>AUGUST 2023</p> */}
       <div className="py-2 table-responsive">
+        {/* <div className="py-2 table-responsive"> */}
         <table className="table table-striped ">
           {/* <thead>
             <tr>
@@ -153,13 +154,13 @@ const EventsCalender = () => {
           </thead> */}
           <tbody>
             <tr>
-              <th scope="row">October 27th, 2023</th>
-              <td></td>
+              <th scope="row">23rd July, 2024</th>
+              <td>Employers Submit</td>
               <td></td>
               <td>
                 {" "}
                 <a
-                  href="https://us06web.zoom.us/meeting/register/tZcrde-rpj0iGdJB4yZ75Srgw5Ba3-9D2Slq"
+                  href="https://lu.ma/qnmllcbh"
                   target="_blank"
                   style={{ color: "#821e6b" }}
                 >
@@ -171,37 +172,48 @@ const EventsCalender = () => {
               {/* <td style={{ color: "#821e6b" }}>Register Now</td> */}
             </tr>
             <tr>
-              <th scope="row">4:00pm - 5:00pm </th>
-              <th className="m-0">GearUp Showcase</th>
+              <th scope="row">11am - 1pm </th>
+              <th className="m-0"></th>
               <td></td>
               {/* <td>Add to Google Calender</td> */}
-              <td>Virtual</td>
+              <td>Physical and Virtual</td>
             </tr>
-            {/* <tr>
-              <th scope="row">June 2022</th>
+            <tr>
+              <th scope="row">25th July, 2024</th>
+              <td></td>
+              <td></td>
+              <td>
+                {" "}
+                <a
+                  href="https://lu.ma/daoj6x7i"
+                  target="_blank"
+                  style={{ color: "#821e6b" }}
+                >
+                  {/* <button className="EventsRegisterBtn" type="submit"> */}
+                  Register Now
+                  {/* </button> */}
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">9am </th>
+              <th className="m-0">Talent Fair</th>
+              <td></td>
+              <td>Physical and Virtual</td>
+            </tr>
+            <tr>
+              <th scope="row">TBD</th>
               <td></td>
               <td></td>
               <td>Register Now</td>
             </tr>
             <tr>
-              <th scope="row">4:00pm - 6:00pm </th>
+              <th scope="row">TBD</th>
               <th className="m-0">Founders Meetup</th>
-              <td>Add to Google Calender</td>
-              <td>Virtual</td>
-            </tr> */}
+              <td></td>
+              <td>Physical and Virtual</td>
+            </tr>
             {/* <tr>
-              <th scope="row">June 2022</th>
-              <td></td>
-              <td></td>
-              <td>Register Now</td>
-            </tr>
-            <tr>
-              <th scope="row">4:00pm - 6:00pm </th>
-              <th className="m-0">Founders Meetup</th>
-              <td>Add to Google Calender</td>
-              <td>Virtual</td>
-            </tr>
-            <tr>
               <th scope="row">June 2022</th>
               <td></td>
               <td></td>
