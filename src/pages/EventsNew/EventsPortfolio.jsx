@@ -40,7 +40,7 @@ const EventsPortfolio = () => {
               <div className="card-body">
                 <h5 className="card-title">Demo Day</h5>
                 <img
-                  src="/images/FMU_24_Q2/demoday.jpg"
+                  src="/images/FMU_24_Q2/demoday.JPG"
                   alt="Demo Day"
                   className="card-img-top"
                 />
