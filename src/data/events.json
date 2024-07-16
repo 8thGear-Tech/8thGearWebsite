@@ -1,0 +1,51 @@
+{
+  "pastEvents": [
+    {
+      "id": 1,
+      "date": "January 2024",
+      "event": "Founders Meetup Q1",
+      "link": "/fmu-q1-gallery",
+      "format": "Physical and Virtual",
+      "time": "3pm - 6pm"
+    },
+    {
+      "id": 2,
+      "image": "../../images/galleryFoundersmeetup/foundersmeetuptwentytwentythree/foundersmeetup.jpg",
+      "event": "Founders Meetup Q2",
+      "link": "/fmu-q2-gallery",
+      "text": "Founders Meetup Q2 2024",
+      "format": "Physical and Virtual",
+      "time": "3pm - 6pm",
+      "date": "June 2024"
+    }
+  ],
+
+  "newFutureEvents": [
+    {
+      "id": 1,
+      "date": "30th July, 2024",
+      "event": "Employer's Forum",
+      "link": "https://lu.ma/qnmllcbh",
+      "format": "Physical and Virtual",
+      "time": "11am - 1pm",
+      "calendarLink": "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M2EzNzh2a3IzbHI3bmNsYmo2aTFnaHNiZzAgc2FueWE0cmVlbEBt&amp;tmsrc=sanya4reel%40gmail.com"
+    },
+    {
+      "id": 2,
+      "date": "2nd August, 2024",
+      "event": "Talent Fair",
+      "link": "https://lu.ma/daoj6x7i",
+      "format": "Physical and Virtual",
+      "time": "9am",
+      "calendarLink": "#"
+    },
+    {
+      "id": 4,
+      "date": "TBD",
+      "event": "Founders Meetup Q4",
+      "link": "#",
+      "format": "Physical and Virtual",
+      "time": "10am"
+    }
+  ]
+}

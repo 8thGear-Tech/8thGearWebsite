@@ -40,18 +40,19 @@
 
 .price {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
 .button-group {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 .button-group .btn.btn-primary {
+  margin-top: 20px !important;
   width: 229px;
-  height: 52px;
+  /* height: 52px; */
   padding: 8px 16px;
   gap: 6.97px;
   border-radius: 80px;
@@ -78,7 +79,25 @@
   color: white;
 }
 
-.tab-card {
+/* op */
+
+.time-range {
+  font-size: 0.85em; /* Adjust this size as needed */
+  color: #555; /* You can change this color to match your design */
+  font-style: italic; /* Italicize the time range for differentiation */
+  margin-top: 5px; /* Add some space between the title and time range */
+}
+
+.small-text {
+  font-size: 0.8em; /* Change as needed */
+  color: #555; /* Optional, change color if required */
+}
+
+.sub-title {
+  text-align: center; /* Center the text under the title */
+  font-weight: normal; /* Adjust font weight if needed */
+}
+.new-tab-card {
   font-family: "Poppins", sans-serif !important;
   text-align: center !important;
   margin-top: 20px;
@@ -86,22 +105,33 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.tab-card .totalprice {
+.new-tab-card .totalprice {
   font-weight: bold;
   margin-top: 10px;
   color: #6e006a;
 }
 
-.tab-card.card,
-.card-body {
-  background: #f7e1f7;
+.new-tab-card.card,
+.price-body {
+  background: #f7e1f7 !important;
   border-radius: 24px;
-  width: auto;
-  height: auto;
+  /* width: auto; */
+  height: 27rem;
   gap: 5px;
-  box-shadow: 0px 1px 0px 0px #00000029;
+  /* box-shadow: 0px 1px 0px 0px #00000029; */
   border: 0;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
+
+/* .new-tab-card.card,
+.card-body:first-child {
+  background: #ffffff;
+} */
 
 .card-title.h5 {
   color: #a5009f;
@@ -109,26 +139,31 @@
   font-family: "Poppins", sans-serif !important;
   font-size: 20px !important;
   font-weight: 600 !important;
-  line-height: 32px !important;
+  line-height: 20px !important;
   text-align: center !important;
-  border-bottom: 1px solid #a5009f;
+  margin-top: 10px;
+  /* border-bottom: 1px solid #a5009f; */
 }
-
-.tab-card ul {
+.new-tab-card hr {
+  color: #a5009f;
+  width: 13rem;
+  /* margin-left: 55px; */
+}
+.new-tab-card ul {
   margin: 0 !important;
   position: relative !important;
   left: 0 !important;
   padding: 0 !important;
 }
 
-.tab-card li {
+.new-tab-card li {
   color: #1c1c1c;
   list-style: none;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif !important;
   font-size: 16px !important;
-  font-weight: 550 !important;
-  line-height: 24px !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
   text-align: center !important;
 }
 
@@ -150,7 +185,7 @@
   height: 80vh;
   color: white;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
-  margin-top: 50px;
+  margin-top: -100px !important;
 }
 
 .hero-overlay {
@@ -168,7 +203,7 @@
   text-align: center;
   /* padding: 10px; */
   height: 580px;
-  top: 8rem;
+  top: 12rem;
 }
 
 .row-content {
@@ -236,7 +271,7 @@
   margin: 0 10px !important;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .client-section .row {
     display: flex;
     flex-wrap: nowrap;
@@ -250,15 +285,22 @@
   .hero-content {
     top: 12rem;
   }
-}
-
+} */
+/* 
 @media (max-width: 1024px) {
   .row-content {
     margin-top: 450px !important;
   }
 
-}
+  .hero-section {
+    margin-top: -300px !important;
+  }
 
+  .new-tab-card hr {
+    margin-left: 30px;
+  }
+} */
+/* 
 @media (max-width: 767.98px) {
   .client-section .row {
     flex-direction: column;
@@ -268,9 +310,9 @@
   .client-logo {
     margin: 0;
   }
-}
+} */
 
-@media (min-width: 1826px) {
+/* @media (min-width: 1826px) {
   .row-content {
     margin-top: 400px !important;
   }
@@ -279,14 +321,18 @@
     font-size: 3.4rem !important;
     font-weight: 700 !important;
   }
-}
 
+  .new-tab-card hr {
+    margin-left: 100px;
+  }
+} */
+/* 
 @media (max-width: 768px) {
   .row-content {
     margin-top: 300px !important;
   }
 
-  .tab-card.card,
+  .new-tab-card.card,
   .card-body {
     width: auto;
     margin: 0 auto;
@@ -294,10 +340,10 @@
     height: auto;
   }
 
-  .tab-card li {
+  .new-tab-card li {
     margin-top: 15px;
     font-size: 15px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
   }
 
   .card-title.h5 {
@@ -310,8 +356,12 @@
     font-size: 16px !important;
     font-weight: 600 !important;
   }
-}
 
+  .hero-section {
+    margin-top: -200px !important;
+  }
+} */
+/* 
 @media (max-width: 576px) {
   .price {
     font-size: 25px !important;
@@ -321,7 +371,7 @@
     margin-bottom: -20px;
   }
 
-  .tab-card.card,
+  .new-tab-card.card,
   .card-body {
     width: 300px;
     margin: 0 auto;
@@ -334,9 +384,9 @@
     font-weight: 600 !important;
   }
 
-  .tab-card li {
+  .new-tab-card li {
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     margin-top: 15px;
   }
 
@@ -352,4 +402,8 @@
   .row-content {
     margin-top: 250px !important;
   }
-}
+
+  .hero-section {
+    margin-top: -150px !important;
+  }
+} */

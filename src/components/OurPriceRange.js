@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Container, Row, Col } from "react-bootstrap";
+import { Button, Card, Container } from "react-bootstrap";
 import "./css/CoWorking.css";
 
 const OurPriceRange = () => {
@@ -12,39 +12,25 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "VIRTUAL OFFICE",
-          price: "Total- N150,000 (Per Year)",
+          price: "₦150,000 Per Year",
           features: [
             "Corporate Address",
+            "Mail Handling",
             "Community Events",
-            "Meeting Room (free per Month) for 1 Hour",
-            "Mail Heading",
+            "Meeting Room - 1hr Free/Month",
           ],
         },
         {
           title: "DEDICATED DESK",
-          price: "Total- N50,000 (Per Month)",
+          price: "₦50,000 Per Month",
           features: [
+            "Fast, Reliable Internet Access",
+            "Uninterrupted Power Supply",
+            "Meeting Room - 3hr Free/Month",
             "Kitchenette",
             "Lounge Area",
             "Community Events",
-            "Meeting Room (free per Month) for 2 Hour",
             "5% Discount on Hub Services",
-            "Internet Access",
-            "Uninterrupted Power Supply",
-          ],
-        },
-        {
-          title: "PRIVATE OFFICE",
-          price: "Total- N200,000 (Per Month)",
-          features: [
-            "Kitchenette",
-            "Lounge Area",
-            "Community Events",
-            "Signage Space",
-            "Meeting Room (free per Month) for 5 Hour",
-            "10% Discount on Hub Services",
-            "Internet Access",
-            "Uninterrupted Power Supply",
           ],
         },
       ],
@@ -55,62 +41,54 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "REGULAR",
-          price: "Amount- N3,000 (1 Day)",
+          price: "₦4,000 Per Day",
           features: [
+            "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
-            "Internet Access",
-            "Community Events",
             "Kitchenette",
+            "Community Events",
           ],
         },
         {
-          title: "REGULAR",
-          price: "Amount- N13,000 (5 Day)",
+          title: "CLASSIC",
+          price: "₦16,000 (5 Days)",
           features: [
+            "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
-            "Internet Access",
-            "Community Events",
             "Kitchenette",
+            "Community Events",
           ],
         },
         {
-          title: "REGULAR",
-          price: "Amount- N26,000 (10 Day)",
+          title: "DELUXE",
+          price: "₦30,000 (10 Days)",
           features: [
+            "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
-            "Internet Access",
-            "Community Events",
             "Kitchenette",
+            "Community Events",
           ],
         },
         {
-          title: "REGULAR",
-          price: "Amount- N3,000 (1 Day)",
+          title: "SATURDAYS",
+          price: "₦5,000 Per Day",
+          timeRange: "(10am-3pm)",
           features: [
+            "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
-            "Internet Access",
-            "Community Events",
             "Kitchenette",
+            "Community Events",
           ],
         },
         {
-          title: "SATURDAYS (10am-5pm)",
-          price: "Amount- N3,500",
+          title: "MEETING ROOM",
+          price: "₦10,000 Per Hour",
           features: [
+            "Fast, Reliable Internet Access",
             "Uninterrupted Power Supply",
-            "Internet Access",
-            "Community Events",
             "Kitchenette",
-          ],
-        },
-        {
-          title: "MEETING ROOM (up to 8 persons)",
-          price: "Amount- N5,000 (Per Hour)",
-          features: [
-            "Uninterrupted Power Supply",
-            "Internet Access",
             "Community Events",
-            "Kitchenette",
+            "Sits up to 8 persons",
           ],
         },
       ],
@@ -121,7 +99,7 @@ const OurPriceRange = () => {
       cards: [
         {
           title: "REGULAR",
-          price: "Amount- N20,000 (Per Hour)",
+          price: "₦20,000 Per Hour",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -130,8 +108,9 @@ const OurPriceRange = () => {
           ],
         },
         {
-          title: "CLASSIC (1am-1pm)(1pm-5pm)",
-          price: "Amount- N50,000 (Half Day)",
+          title: "CLASSIC",
+          price: "₦70,000 (Half Day)",
+          timeRange: "(9am-1pm)/(1pm-5pm)",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -140,8 +119,9 @@ const OurPriceRange = () => {
           ],
         },
         {
-          title: "DELUXE (1pm-5pm)",
-          price: "Amount- N100,000 (1 Day)",
+          title: "DELUXE",
+          price: "₦100,000 Per Day",
+          timeRange: "(9am-5pm)",
           features: [
             "Uninterrupted Power Supply",
             "Projector",
@@ -177,16 +157,55 @@ const OurPriceRange = () => {
           </Button>
         ))}
       </div>
-      <Row>
+      <div className="container">
+        <div className="row justify-content-center">
+          {currentCards.map((card, index) => (
+            <div key={index} className="col-lg-4 col-md-6 mb-4 d-flex">
+              <Card className="new-tab-card w-100 overflow-hidden">
+                <Card.Body className="price-body">
+                  <Card.Title>{card.title}</Card.Title>
+                  {card.timeRange && (
+                    <Card.Text className="time-range">
+                      {card.timeRange}
+                    </Card.Text>
+                  )}
+                  <hr className="mt-0 pt-0" />
+                  <Card.Text>
+                    <ul>
+                      {card.features.map((feature, i) => (
+                        <li key={i} className="py-1">
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </Card.Text>
+                  <Card.Subtitle className="totalprice">
+                    {card.price}
+                  </Card.Subtitle>
+                </Card.Body>
+              </Card>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* <div className="d-flex flex-wrap justify-content-between">
         {currentCards.map((card, index) => (
-          <Col key={index} md={4} sm={12}>
-            <Card className="tab-card">
-              <Card.Body>
+          <div
+            key={index}
+            className="d-flex flex-column flex-grow-1"
+            style={{ flex: "1 0 30%", margin: "10px" }}
+          >
+            <Card className="new-tab-card">
+              <Card.Body className="price-body">
                 <Card.Title>{card.title}</Card.Title>
+                <hr className="mt-0 pt-0" />
                 <Card.Text>
                   <ul>
                     {card.features.map((feature, i) => (
-                      <li key={i}>{feature}</li>
+                      <li key={i} className="py-1">
+                        {feature}
+                      </li>
                     ))}
                   </ul>
                 </Card.Text>
@@ -195,9 +214,15 @@ const OurPriceRange = () => {
                 </Card.Subtitle>
               </Card.Body>
             </Card>
-          </Col>
+          </div>
         ))}
-      </Row>
+      </div> */}
+      <div className="text-center mt-3">
+        {" "}
+        <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+          <Button>Book a Space</Button>
+        </a>
+      </div>
     </Container>
   );
 };

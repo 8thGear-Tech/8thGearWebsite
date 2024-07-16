@@ -84,24 +84,36 @@
   "eventsGallerySection": [
     {
       "id": 1,
-      "image": "../../images/galleryFourthAnniv/annivone.jpg",
+      "image": "../../images/FMU_24_Q2/FMU_Q2_1.PNG",
+      "link": "/fmu-q2-gallery",
+      "text": "Founders Meetup Q2 2024"
+    },
+    {
+      "id": 2,
+      "image": "../../images/FMU_24_Q1/FMU_Q1_12.png",
+      "link": "/fmu-q1-gallery",
+      "text": "Founders Meetup Q1 2024"
+    },
+    {
+      "id": 3,
+      "image": "../../images/FMU_24_Q1/FMU_Q1_13.png",
       "link": "/4th-year-anniversary",
       "text": "4th Year Anniversary"
     },
     {
-      "id": 2,
+      "id": 4,
       "image": "../../images/galleryFoundersmeetup/foundersmeetuptwentytwentythree/foundersmeetup.jpg",
       "link": "/founders-meetup-gallery-2023",
       "text": "Founders Meetup Q1 2023"
     },
     {
-      "id": 3,
+      "id": 5,
       "image": "../../images/galleryFoundersmeetup/foundersmeetup.jpg",
       "link": "/founders-meetup-gallery",
       "text": "Founders Meetup Q4 2022"
     },
     {
-      "id": 4,
+      "id": 6,
       "image": "../../images/gallerydemoday/demodaysix.JPG",
       "link": "/demo-day-gallery",
       "text": "Demo Day Q3 2022"
