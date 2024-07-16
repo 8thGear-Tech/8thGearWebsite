@@ -5,10 +5,13 @@ import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
 import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
 import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
 import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
+import Afrilab from "../../assets/images/projectdelivery/Afrilab logo.png";
+import leadAfrica from "../../assets/images/projectdelivery/Leap Africa.jpeg";
+import Peiges from "../../assets/images/projectdelivery/Peiges.PNG";
 // sass file
 import "../../sassfiles/pages/projectdelivery/_logoscroll.sass";
 
-const logos = [gizlogo, itflogo, lsetflogo, usadflogo, s4plogo, fcmblogo]; // Add more logos to this array
+const logos = [gizlogo, itflogo, lsetflogo, usadflogo, s4plogo, fcmblogo, Afrilab, leadAfrica, Peiges]; // Add more logos to this array
 
 const LogoScroll = () => {
     return (
