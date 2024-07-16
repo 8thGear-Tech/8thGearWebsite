@@ -7,6 +7,7 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 const TalentDevelopment = () => {
   return (
     <div>
+      {/* <div className="d-flex justify-content-center align-content-center mb-2 p-1 "> */}
       <div className="d-flex justify-content-center align-content-center EnterpriceHero mb-2 p-1 ">
         <ProjectNav />
         <div className="hero-text ">

@@ -586,7 +586,7 @@ export const DigiPlusPageHero = () => {
 //old
 export const ProjectDeliveryHero = () => {
   return (
-    <div className="px-4 container-fluid projectDeliveryHeroBg d-flex pt-3 pb-3 align-items-center">
+    <div className="px-4 container-fluid projectHeroBg d-flex pt-3 pb-3 align-items-center">
       <div className="gradientBg overlayBg"></div>
       <div className="row ">
         <div className="col-lg-8 col-md-8 col-sm-12">
