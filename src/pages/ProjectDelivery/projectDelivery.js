@@ -26,6 +26,8 @@ import employabilityGIZ from "../../assets/gallerycards/employabilityGIZ.jpg";
 import innkeeperHackathon from "../../assets/gallerycards/innkeeperhackathon.JPG";
 import itf from "../../assets/gallerycards/itf.JPG";
 import lsetfTraining from "../../assets/gallerycards/LSETFTraining.jpg";
+// import getonlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.jpg";
+import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.JPG";
 
 // Sass File
 import "../../sassfiles/pages/projectdelivery/_projectDelivery.scss";
@@ -56,7 +58,7 @@ const ProjectDeliveryHero = () => {
       {/* <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid"> */}
       <div className="hero-text mt-5 pt-5">
         <h2 className="text-lg-center d-inline fs-1">
-          Collaborating with you to make your dream come true
+          Fueling Innovation, Empowering Entrepreneurs and Transforming futures
         </h2>
         <div className="text-center mb-4">
           {" "}
@@ -140,6 +142,7 @@ const OurClients = () => {
 
 const SuccessStoryCards = () => {
   const images = [
+    { src: getOnlineWithDigiplus, text: "Get Online with Digiplus - 2024" },
     { src: employabilityGIZ, text: "Employability 2022 - GIZ" },
     { src: innkeeperHackathon, text: "Innkeeper Hackathon 2022" },
     { src: itf, text: "ITF Training" },
