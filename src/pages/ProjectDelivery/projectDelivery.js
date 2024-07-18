@@ -18,7 +18,7 @@ import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
 import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 import { NewProjectDeliveryCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
-import { Navbar3, ProjectNav } from "../../components/Navbar";
+import { ProjectNav } from "../../components/Navbar";
 
 // IMPORTED PICTURES FOR OUR SUCESS STORY SECTION
 import piggeryTraining from "../../assets/gallerycards/piggerytraining.jpg";
@@ -26,26 +26,55 @@ import employabilityGIZ from "../../assets/gallerycards/employabilityGIZ.jpg";
 import innkeeperHackathon from "../../assets/gallerycards/innkeeperhackathon.JPG";
 import itf from "../../assets/gallerycards/itf.JPG";
 import lsetfTraining from "../../assets/gallerycards/LSETFTraining.jpg";
+// import getonlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.jpg";
+import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.JPG";
 
 // Sass File
 import "../../sassfiles/pages/projectdelivery/_projectDelivery.scss";
 import Button from "react-bootstrap/esm/Button";
 import { Link } from "react-router-dom";
 import LogoScroll from "../../components/Hero/LogoScroll";
-import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
+// import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
 
-//OLD
+// THE MAIN PROJECT
 const ProjectDeliveryPage = () => {
   return (
     <>
-      <Navbar3 />
+      <ProjectNav />
       <ProjectDeliveryHero />
       {/* <ProjectDeliveryCards /> */}
-      <Competencies />
       <OurImpact />
+      <Competencies />
       <OurClients />
       <SuccessStoryCards />
     </>
+  );
+};
+
+//The Hero Section
+const ProjectDeliveryHero = () => {
+  return (
+    <div className="d-flex justify-content-center align-content-center projectHero mb-2 container-fluid">
+      {/* <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid"> */}
+      <div className="hero-text mt-5 pt-5 col-lg-8 col-md-8 col-sm-12">
+        <h2 className="text-lg-center d-inline fs-1">
+          Fueling Innovation, Empowering Entrepreneurs and Transforming futures
+        </h2>
+        <div className="text-center mb-4">
+          {" "}
+          <Button className="HeroButton">
+            <h4>
+              <a
+                href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
+                target="_blank"
+              >
+                Request for a proposal
+              </a>
+            </h4>
+          </Button>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -53,8 +82,10 @@ const Competencies = () => {
   return (
     <div className="container-fluid">
       <div className="container ">
-        <div className="row justify-content-evenly ">
-          <h4 className="pt-5 text-center">COMPETENCIES</h4>
+        <div className="row justify-content-center">
+          <h3 className="text-center text-heading purple-text pb-2">
+            COMPETENCIES
+          </h3>
           <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
             {" "}
             {Data.ProjectDeliveryContent.map((ProjectDeliveryContent) => {
@@ -75,7 +106,7 @@ const Competencies = () => {
               );
             })}
           </div>
-          <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
+          {/* <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
             {" "}
             {Data.ProjectDeliveryContentThree.map((ProjectDeliveryContent) => {
               return (
@@ -84,12 +115,12 @@ const Competencies = () => {
                 ></NewProjectDeliveryCardThree>
               );
             })}
-          </div>
+          </div> */}
         </div>
-        <div className="text-center mb-4">
-          {" "}
-          <RequestForProposalBtn />
-        </div>
+        {/* <div className="text-center mb-4">
+                    {" "}
+                    <RequestForProposalBtn />
+                </div> */}
       </div>
     </div>
   );
@@ -97,99 +128,12 @@ const Competencies = () => {
 
 const OurClients = () => {
   return (
-    <div className="container-fluid pt-4">
+    <div className="container-fluid py-4 clients">
       {" "}
       <div className="row g-0">
-        <h3 className="mt-4 text-center mb-4">Our Clients</h3>
-        <div className="row d-flex align-items-center TextAlignCenter justify-content-center justify-content-evenly">
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={gizlogo}
-              className="logo1 col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-
-          <div className="TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={usadflogo}
-              className="logo1 col-12 px-3"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mb-4">
-            <img
-              src={lsetflogo}
-              className="logo1 col-12 px-3"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 mb-3">
-            <img
-              src={s4plogo}
-              className="logo1 col-12 px-5"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <img
-              src={itflogo}
-              className="logo1 col-12 px-5"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={fcmblogo}
-              className="logo1 col-12 px-5"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div> */}
-        </div>
-        <div className="row d-flex align-items-center TextAlignCenter justify-content-center mt-4">
-          {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={gizlogo}
-              className="logo1 col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-
-          <div className="TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={usadflogo}
-              className="logo1 col-12 px-3"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3 mb-4">
-            <img
-              src={lsetflogo}
-              className="logo1 col-12 px-3"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div> */}
-          {/* <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 mb-3">
-            <img
-              src={s4plogo}
-              className="logo1 col-12 px-5"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div> */}
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <img
-              src={itflogo}
-              className="logo1 col-12 px-5"
-              style={{ maxWidth: "90%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={fcmblogo}
-              className="logo1 col-12 px-5"
-              style={{ maxWidth: "90%", maxHeight: "100%" }}
-            ></img>
-          </div>
+        <h3 className="mt-7 text-center mb-5 purple-text">OUR PARTNERS</h3>
+        <div className="mb-7">
+          <LogoScroll />
         </div>
       </div>
     </div>
@@ -197,194 +141,60 @@ const OurClients = () => {
 };
 
 const SuccessStoryCards = () => {
+  const images = [
+    { src: getOnlineWithDigiplus, text: "Get Online with Digiplus - 2024" },
+    { src: employabilityGIZ, text: "Employability 2022 - GIZ" },
+    { src: innkeeperHackathon, text: "Innkeeper Hackathon 2022" },
+    { src: itf, text: "ITF Training" },
+    { src: piggeryTraining, text: "Piggery Training - GIZ" },
+    { src: lsetfTraining, text: "USADF/LSETF Training 2021/2022" },
+  ];
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleUp = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleDown = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
-    <>
-      <div className="container-fluid successStoryBg">
-        {" "}
-        <div className="row justify-content-center mt-5 mb-2 pt-5 mx-lg-5 px-3">
-          <h4 className="text-center">SUCCESS STORIES</h4>
-          {successStoryGalleryCard.successStory.map((items) => {
-            return (
-              // <>
-              <div
-                className="col-lg-4 col-md-6 col-sm-10 my-4 d-flex align-items-stretch"
-                key={items.id}
-              >
-                <SinglegalleryCards {...items}></SinglegalleryCards>
-              </div>
-              // </>
-            );
-          })}
-        </div>
-        {/* <div className="d-flex justify-content-center pb-4">
-          <ProjectDeliveryViewMoreBtn />
-        </div> */}
+    <div className="container-fluid py-4 successStory">
+      <div className="m-4">
+        <h3 className="purple-text">ACHIEVEMENTS</h3>
       </div>
-    </>
+      <div className="mb-4 ">
+        <div className="gallery">
+          <div className="gallery-container container-fluid rounded">
+            <img
+              src={images[currentIndex].src}
+              alt={`image ${currentIndex + 1}`}
+              className="img-fluid rounded"
+            />
+            <p className="imageCaption">{images[currentIndex].text}</p>
+          </div>
+          <div className="button-controller">
+            <i
+              className="bi bi-arrow-up-square-fill"
+              onClick={handleUp}
+              type="button"
+            ></i>
+            <i
+              className="bi bi-arrow-down-square-fill"
+              onClick={handleDown}
+              type="button"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
 export default ProjectDeliveryPage;
-
-//NEW
-
-// // THE MAIN PROJECT
-// const ProjectDeliveryPage = () => {
-//   return (
-//     <>
-//       <ProjectNav />
-//       <ProjectDeliveryHero />
-//       {/* <ProjectDeliveryCards /> */}
-//       <Competencies />
-//       <OurImpact />
-//       <OurClients />
-//       <SuccessStoryCards />
-//     </>
-//   );
-// };
-
-// // The Hero Section
-// const ProjectDeliveryHero = () => {
-//   return (
-//     <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid ">
-//       <div className="hero-text ">
-//         <h2 className="text-lg-center d-inline fs-1">
-//           Collaborating with you to make your dream come true
-//         </h2>
-//         <div className="text-center mb-4">
-//           {" "}
-//           <Button className="HeroButton">
-//             <h4>
-//               <a
-//                 href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
-//                 target="_blank"
-//               >
-//                 Request for a proposal
-//               </a>
-//             </h4>
-//           </Button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const Competencies = () => {
-//   return (
-//     <div className="container-fluid">
-//       <div className="container ">
-//         <div className="row justify-content-evenly ">
-//           <h3 className="pt-5 text-center text-heading purple-text pb-2">
-//             WE PROMISE YOU...
-//           </h3>
-//           <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
-//             {" "}
-//             {Data.ProjectDeliveryContent.map((ProjectDeliveryContent) => {
-//               return (
-//                 <NewProjectDeliveryCard
-//                   {...ProjectDeliveryContent}
-//                 ></NewProjectDeliveryCard>
-//               );
-//             })}
-//           </div>
-//           <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
-//             {" "}
-//             {Data.ProjectDeliveryContentTwo.map((ProjectDeliveryContent) => {
-//               return (
-//                 <NewProjectDeliveryCardTwo
-//                   {...ProjectDeliveryContent}
-//                 ></NewProjectDeliveryCardTwo>
-//               );
-//             })}
-//           </div>
-//           <div className="col-lg-4 col-md-6 mt-4 mb-5 px-4 d-flex">
-//             {" "}
-//             {Data.ProjectDeliveryContentThree.map((ProjectDeliveryContent) => {
-//               return (
-//                 <NewProjectDeliveryCardThree
-//                   {...ProjectDeliveryContent}
-//                 ></NewProjectDeliveryCardThree>
-//               );
-//             })}
-//           </div>
-//         </div>
-//         {/* <div className="text-center mb-4">
-//                     {" "}
-//                     <RequestForProposalBtn />
-//                 </div> */}
-//       </div>
-//     </div>
-//   );
-// };
-
-// const OurClients = () => {
-//   return (
-//     <div className="container-fluid py-4 clients">
-//       {" "}
-//       <div className="row g-0">
-//         <h3 className="mt-7 text-center mb-5 purple-text">OUR PARTNERS</h3>
-//         <div className="mb-7">
-//           <LogoScroll />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const SuccessStoryCards = () => {
-//   const images = [
-//     { src: piggeryTraining, text: "Piggery Training" },
-//     { src: employabilityGIZ, text: "GIZ employability" },
-//     { src: innkeeperHackathon, text: "InnKeeper Hackathon" },
-//     { src: itf, text: "ITF training" },
-//     { src: lsetfTraining, text: "LSETF training" },
-//   ];
-
-//   const [currentIndex, setCurrentIndex] = useState(0);
-
-//   const handleUp = () => {
-//     setCurrentIndex((prevIndex) =>
-//       prevIndex === 0 ? images.length - 1 : prevIndex - 1
-//     );
-//   };
-
-//   const handleDown = () => {
-//     setCurrentIndex((prevIndex) =>
-//       prevIndex === images.length - 1 ? 0 : prevIndex + 1
-//     );
-//   };
-
-//   return (
-//     <div className="container-fluid py-4 successStory">
-//       <div className="m-4">
-//         <h3 className="purple-text">OUR SUCCESS STORY</h3>
-//       </div>
-//       <div className="mb-4 ">
-//         <div className="gallery">
-//           <div className="gallery-container container-fluid rounded">
-//             <img
-//               src={images[currentIndex].src}
-//               alt={`image ${currentIndex + 1}`}
-//               className="img-fluid rounded"
-//             />
-//             <h3 className="imageCaption">{images[currentIndex].text}</h3>
-//           </div>
-//           <div className="button-controller">
-//             <i
-//               className="bi bi-arrow-up-square-fill"
-//               onClick={handleUp}
-//               type="button"
-//             ></i>
-//             <i
-//               className="bi bi-arrow-down-square-fill"
-//               onClick={handleDown}
-//               type="button"
-//             ></i>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ProjectDeliveryPage;
