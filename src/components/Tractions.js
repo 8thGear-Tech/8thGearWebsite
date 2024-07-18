@@ -72,7 +72,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body">
+            <div className="">
               <h1 className="card-text">75%</h1>
               <p className="card-text text-nowrap">HAVE FEMALE CO-FOUNDERS</p>
             </div>
@@ -82,7 +82,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text"> 240</h1>
               <p className="card-text">MENTORSHIP HOURS</p>
             </div>
@@ -91,7 +91,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12 my-3 ">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text">12</h1>
               <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
@@ -100,7 +100,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text">20</h1>
               <p className="card-text">JOBS CREATED</p>
             </div>

@@ -106,7 +106,7 @@ const NavBar = (props) => {
                 className="mx-3"
                 style={{ fontSize: "1.2rem", fontWeight: "300" }}
               >
-                Project Delivery
+                Projects
               </Nav.Link>
               <NavDropdown
                 title="Initiatives"
