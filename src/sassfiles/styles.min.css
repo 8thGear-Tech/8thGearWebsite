@@ -994,21 +994,10 @@ article h4 {
 }
 .hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
   text-align: center;
   color: #fff;
   z-index: 2;
-}
-.hero-text h1 {
-  font-size: 4rem !important;
-  display: inline-block !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
 }
 .HeroButton {
   background-color: #fff !important;
@@ -1052,24 +1041,6 @@ article h4 {
     rgb(0, 0, 0) 100%
   );
   z-index: 1;
-}
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  z-index: 2;
-}
-.hero-text h1 {
-  font-size: 3rem;
-  display: inline-flex !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
 }
 .impactCards {
   display: flex;
@@ -1137,12 +1108,6 @@ article h4 {
   color: #00683e;
 }
 @media (min-width: 576px) and (max-width: 850.34px) {
-  .hero-text h1 {
-    font-size: 1.75rem;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -1155,17 +1120,6 @@ article h4 {
   }
 }
 @media (min-width: 310px) and (max-width: 575.98px) {
-  .hero-text {
-    margin-top: 60px !important;
-    padding-top: 15px !important;
-  }
-  .hero-text h1 {
-    display: inline !important;
-    font-size: 2rem !important;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-direction: column !important;

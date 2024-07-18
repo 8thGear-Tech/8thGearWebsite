@@ -56,7 +56,7 @@ const ProjectDeliveryHero = () => {
   return (
     <div className="d-flex justify-content-center align-content-center projectHero mb-2 container-fluid">
       {/* <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid"> */}
-      <div className="hero-text mt-5 pt-5">
+      <div className="hero-text mt-5 pt-5 col-lg-8 col-md-8 col-sm-12">
         <h2 className="text-lg-center d-inline fs-1">
           Fueling Innovation, Empowering Entrepreneurs and Transforming futures
         </h2>
