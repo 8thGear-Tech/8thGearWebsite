@@ -49,6 +49,7 @@ import AboutUs from "./pages/WhoWeAre/aboutUs";
 import About from "./components/About/About";
 import BlogPage from "./pages/Insights/blog";
 
+
 //Events
 import EventsPage from "./pages/Events/events";
 import EventsNew from "./pages/EventsNew/EventsNew";
@@ -115,8 +116,8 @@ function App() {
                     <Route path="coworking" element={<CoWorking />} />
                     <Route path="talent-placement" element={<TalentPlacement />} />
 
-                    {/* <Route path="about" element={<AboutUs />} /> */}
-                    <Route path="about" element={<About />} />
+                    <Route path="about" element={<AboutUs />} />
+                    {/* <Route path="about" element={<About />} /> */}
                     <Route path="team" element={<TeamPage />} />
                     {/* <Route path="blog" element={<BlogPage />} /> */}
                     {/* <Route path="faq" element={<FAQ />} /> */}

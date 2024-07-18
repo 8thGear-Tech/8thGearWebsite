@@ -4,18 +4,14 @@ import "./About.css";
 const HeroSection = () => {
   return (
     <div className="flex flex-row">
-      <div className="about-hero">
-        <h1 className="animated-text">
-          We are <span></span>
+      <div className="d-flex align-items-center justify-content-center text-white">
+        <h1 className="animated-text fw-bold text-white">
+        Who we are
         </h1>
       </div>
-      <div className="about-content">
-        <p>
-          Join us for an unforgettable experience!
-          <p>
-            Don't miss out on the chance to network, gain valuable insights, and
-            be a part of something special!
-          </p>
+      <div className="about-content text-white text-center">
+        <p className="fs-5 fw-normal lh-lg">
+        We are your one-stop shop to achieve your Venture Building Dream.
         </p>
       </div>
     </div>

@@ -579,7 +579,7 @@ export const Navbar9 = () => {
 
 export const Navbar10 = () => {
     return (
-        <div className="container-fluid ">
+        <div className="container-fluid transparent-navbar">
             <div className="row">
                 {text.about.map((navbar) => {
                     return (

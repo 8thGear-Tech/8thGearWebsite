@@ -1,0 +1,19 @@
+.hero-background {
+  background-image: url("../About/image/AboutImg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-layout {
+  background: linear-gradient(to top, rgba(0, 0, 0), transparent);
+  min-height: 100vh;
+}
+
+.valueCard {
+  width: 320px !important;
+  height: 430px;
+}
+
+.descriptionCard {
+  height: 20px;
+}

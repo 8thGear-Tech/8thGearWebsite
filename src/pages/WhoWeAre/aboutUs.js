@@ -17,16 +17,46 @@ import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 // import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
+import "../About/aboutUs.css";
+import HeroSection from "../../components/About/HeroSection";
+import CoreValue from "../About/CoreValue";
+
+//Our Partners
+import german from "../About/image/german.png"
+import funded from "../About/image/co-funded.png"
+import giz from "../About/image/giz.png"
+import usadf from "../About/image/usadf.png"
+import lsetf from "../About/image/lsetf.png"
+import leap from "../About/image/LEAP-Africa.png"
+import lagos from "../About/image/lagosI-logo.png"
+import mtn from "../About/image/mtn.png"
+import vmware from "../About/image/vmware.png"
+import isn from "../About/image/isn_logo.png"
+import zoho from "../About/image/zoho.png"
+import fcmb from "../About/image/fcmb.png"
+import cisco from "../About/image/cisco.png"
+import afrilabs from "../About/image/Afrilabs.png"
+import skills from "../About/image/skills.png"
+import digital from "../About/image/digital.png"
+import SliderComponent from "../About/SliderComponent";
 
 const AboutUs = () => {
   return (
     <>
-      <Navbar10 />
-      <AboutPageHero />
-      <CoreValues />
+      <div className="hero-background">
+        <div className="hero-layout w-100 start-0 d-flex justify-content-center align-items-center">
+          <Navbar10 />
+          {/* <AboutPageHero /> */}
+          <HeroSection />
+        </div>
+      </div>
+      {/* <CoreValues /> */}
+      <CoreValue />
       <Gerians />
       <EIR />
-      <AdvisoryTeamPic />
+      {/* <AdvisoryTeamPic /> */}
+      <SliderComponent />
+      {/* <Partners /> */}
       <Partners />
       <JointheTeam />
     </>
@@ -47,54 +77,157 @@ const CoreValues = () => {
   );
 };
 
-const Partners = () => {
-  return (
-    <div className="container-fluid py-4">
-      {" "}
-      <div className="row g-0">
-        <h3 className="mt-4 text-center mb-4">Our Partners</h3>
-        <div className="row justify-content-center justify-content-evenly">
-          <div className="col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={ciscologo}
-              className="col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
+// const Partners = () => {
+//   return (
+//     <>
+//       <div>
+//         <h4 className="text-center pt-5 pb-3">COMPANIES WHO HAVE TRUSTED US</h4>
+//         <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
+//           <div className="slide-track2">
+//             {[
+//               ecobarter,
+//               firstbank,
+//               aiki,
+//               chekkit,
+//               cloudflex,
+//               propslogo,
+//               esentry,
+//               uba,
+//               npc,
+//               unionbank,
+//               lagosstategovernment,
+//               wouessi,
+//               dangote,
+//               ictflier,
+//               elitecv,
+//               tingomobile,
+//               fuelmetrics,
+//             ].map((src, index) => (
+//               <div
+//                 className="slide2"
+//                 key={index}
+//                 style={index === 0 ? { marginLeft: "0px" } : undefined}
+//               >
+//                 <img
+//                   src={src}
+//                   alt={`Logo ${index + 1}`}
+//                   className="carousel-logo"
+//                   style={{ width: "130px", height: "130px", margin: "0 30px" }}
+//                 />
+//               </div>
+//             ))}
+//             {[
+//               ecobarter,
+//               firstbank,
+//               aiki,
+//               chekkit,
+//               cloudflex,
+//               propslogo,
+//               esentry,
+//               uba,
+//               npc,
+//               unionbank,
+//               lagosstategovernment,
+//               wouessi,
+//               dangote,
+//               ictflier,
+//               elitecv,
+//               tingomobile,
+//               fuelmetrics,
+//             ].map((src, index) => (
+//               <div
+//                 className="slide2"
+//                 key={index}
+//                 style={index === 0 ? { marginLeft: "0px" } : undefined}
+//               >
+//                 <img
+//                   src={src}
+//                   alt={`Logo ${index + 1}`}
+//                   className="carousel-logo"
+//                   style={{ width: "130px", height: "130px", margin: "0 30px" }}
+//                 />
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
-          <div className="TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={afrilabslogo}
-              className="logo1 col-12"
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={gizlogo}
-              className="logo1 col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={lsetflogo}
-              className="logo1 col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
-          <div className=" TextAlignCenter col-lg-2 col-md-4 col-sm-6 col-xs-6 my-3">
-            <img
-              src={usadflogo}
-              className="logo1 col-12 "
-              // style={{ maxWidth: "100%", maxHeight: "100%" }}
-            ></img>
-          </div>
+const Partners = () => (
+  <>
+    <div>
+      <h4 className="text-center pt-5 pb-3">Our Partners</h4>
+      <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
+        <div className="slide-track2">
+          {[
+            german,
+            funded,
+            giz,
+            usadf,
+            digital,
+            lsetf,
+            leap,
+            lagos,
+            mtn,
+            vmware,
+            isn,
+            zoho,
+            fcmb,
+            cisco,
+            afrilabs,
+            skills,
+          ].map((src, index) => (
+            <div
+              className="slide2"
+              key={index}
+              style={index === 0 ? { marginLeft: "0px" } : undefined}
+            >
+              <img
+                src={src}
+                alt={`Logo ${index + 1}`}
+                className="carousel-logo"
+                style={{ width: "130px", height: "130px", margin: "0 30px" }}
+              />
+            </div>
+          ))}
+          {[
+            german,
+            funded,
+            giz,
+            usadf,
+            digital,
+            lsetf,
+            leap,
+            lagos,
+            mtn,
+            vmware,
+            isn,
+            zoho,
+            fcmb,
+            cisco,
+            afrilabs,
+            skills,
+          ].map((src, index) => (
+            <div
+              className="slide2"
+              key={index}
+              style={index === 0 ? { marginLeft: "0px" } : undefined}
+            >
+              <img
+                src={src}
+                alt={`Logo ${index + 1}`}
+                className="carousel-logo"
+                style={{ width: "130px", height: "130px", margin: "0 30px" }}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
-  );
-};
+  </>
+);
 
 const JointheTeam = () => {
   return (

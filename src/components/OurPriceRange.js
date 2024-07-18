@@ -160,15 +160,15 @@ const OurPriceRange = () => {
   const currentCards = plans.find((plan) => plan.id === currentPlan).cards;
 
   return (
-    <Container className="pricetable">
-      <div className="price">
+    <Container className="mt-5">
+      <div className="text-center mb-4 text-uppercase">
         <h3>Our Price Range</h3>
       </div>
-      <div className="button-group">
+      <div className="button-group text-center mb-4">
         {plans.map((plan) => (
           <Button
             key={plan.id}
-            className={`price-button ${
+            className={`btn btn-primary p-2 px-3 rounded-pill fs-6 fw-semibold text-center me-2 text-white ${
               currentPlan === plan.id ? "active" : ""
             }`}
             onClick={() => handlePlanClick(plan.id)}
@@ -184,18 +184,18 @@ const OurPriceRange = () => {
             className="d-flex flex-column flex-grow-1"
             style={{ flex: "1 0 30%", margin: "10px" }}
           >
-            <Card className="tab-card">
-              <Card.Body className="price-body">
-                <Card.Title>{card.title}</Card.Title>
+            <Card className="tab-card text-center mt-3 rounded-3 shadow w-100 d-flex justify-content-between">
+              <Card.Body className="price-body rounded-3 d-flex flex-column justify-content-center align-items-center text-center gap-3 shadow border-0 align-content-center m-auto w-100 justify-content-between">
+                <Card.Title className="price-heading justify-content-center fw-bold fs-5 lh-base text-center mt-2">{card.title}</Card.Title>
                 <hr />
                 <Card.Text>
-                  <ul>
+                  <ul className='m-0 position-relative start-0 p-0'>
                     {card.features.map((feature, i) => (
-                      <li key={i}>{feature}</li>
+                      <li key={i} className='list-unstyled mb-0 fs-6 fw-normal lh-lg text-center'>{feature}</li>
                     ))}
                   </ul>
                 </Card.Text>
-                <Card.Subtitle className="totalprice">
+                <Card.Subtitle className="totalprice fw-bold mt-2 fs-5">
                   {card.price}
                 </Card.Subtitle>
               </Card.Body>

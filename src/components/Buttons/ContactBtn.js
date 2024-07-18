@@ -1,3 +1,5 @@
+import { LinkedInIcon } from "../Icons";
+
 export const JointheStudioBtn = () => {
   return (
     <a
@@ -29,7 +31,7 @@ export const MemberOneViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon className="text-primary"/>
       </a>
     </>
   );
@@ -44,7 +46,7 @@ export const MemberTwoViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -59,7 +61,7 @@ export const MemberThreeViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop3"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -74,7 +76,7 @@ export const MemberFourViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop4"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
