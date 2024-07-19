@@ -91,7 +91,7 @@ export const MemberFiveViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop5"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -106,7 +106,7 @@ export const MemberSixViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop6"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -156,10 +156,10 @@ export const HomeBtn = () => {
     </button>
   );
 };
-export const ContactBtn = () => {
+export const Btn = () => {
   return (
-    <button className="ContactUsBtn" type="">
-      Contact Us
+    <button className="UsBtn" type="">
+       Us
     </button>
   );
 };

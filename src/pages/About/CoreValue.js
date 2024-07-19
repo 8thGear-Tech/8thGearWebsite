@@ -48,7 +48,7 @@ const CoreValue = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="text-center">Who we are</h2>
+      <h2 className="text-center fs-4">WHO WE ARE</h2>
       <div className="row mt-5">
         {/* This is Vision card */}
         <div className="col-md-4">
