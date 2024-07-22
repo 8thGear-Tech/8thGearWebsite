@@ -271,6 +271,16 @@
   margin: 0 10px !important;
 }
 
+/* #dropdown */
+#dropdown-basic-button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #6e006a;
+  height: 2.7rem;
+  transition: background-color 0.3s, color 0.3s;
+  justify-content: center;
+}
+
 /* @media (min-width: 768px) {
   .client-section .row {
     display: flex;

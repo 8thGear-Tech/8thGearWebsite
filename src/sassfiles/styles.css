@@ -1057,8 +1057,11 @@ article h4 {
 }
 
 .projectdeliveryCard {
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 340px;
+  background-color: #f7e1f7;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px !important;
 }
@@ -1095,6 +1098,15 @@ article h4 {
   color: #821e6b;
 }
 
+.projectHero {
+  height: 100vh;
+  position: relative;
+  background: url(../../public/images/FMU_24_Q2/demodaysix.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .projectHero:before {
   content: "";
   position: absolute;
@@ -1109,22 +1121,10 @@ article h4 {
 /* Centered text */
 .hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
   text-align: center;
   color: #fff; /* White text color */
   z-index: 2;
-  /* Optional styles for text */
-}
-.hero-text h1 {
-  font-size: 4rem !important; /* Adjust font size as needed */
-  display: inline-block !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
 }
 
 .HeroButton {
@@ -1136,7 +1136,6 @@ article h4 {
   text-decoration: none;
   color: #821e6b !important;
   font-weight: 500 !important;
-  padding: 2px 1px !important;
 }
 
 .HeroButton:hover {
@@ -1174,31 +1173,10 @@ article h4 {
 }
 
 /* Centered text */
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff; /* White text color */
-  z-index: 2;
-  /* Optional styles for text */
-}
-.hero-text h1 {
-  font-size: 3rem; /* Adjust font size as needed */
-  display: inline-flex !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
-}
-
 .impactCards {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #faf5f5;
   padding: 10px;
   width: 300px;
 }
@@ -1274,12 +1252,6 @@ article h4 {
 /* Media Queries */
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 850.34px) {
-  .hero-text h1 {
-    font-size: 1.75rem;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -1293,17 +1265,6 @@ article h4 {
 }
 /* Small devices (phones, less than 576px) */
 @media (min-width: 310px) and (max-width: 575.98px) {
-  .hero-text {
-    margin-top: 60px !important;
-    padding-top: 15px !important;
-  }
-  .hero-text h1 {
-    display: inline !important;
-    font-size: 2rem !important;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-direction: column !important;

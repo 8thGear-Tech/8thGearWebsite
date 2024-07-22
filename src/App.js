@@ -91,6 +91,7 @@ import AccountingIntern from "./pages/Careers/AccountingIntern";
 function App() {
     return (
         <BrowserRouter>
+            {/* <FooterItemToTop> */}
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="our-model" element={<OurModelPage />} />
@@ -102,7 +103,7 @@ function App() {
                 <Route path="haven" element={<HavenPortfolioPage />} />
                 <Route path="legalmo" element={<LegalMoPortfolioPage />} />
                 <Route path="trulance" element={<TrulancePortfolioPage />} />
-                <Route path="project-delivery" element={<ProjectDeliveryPage />} />
+                <Route path="projects" element={<ProjectDeliveryPage />} />
                 <Route path="project-delivery-gallery" element={<ProjectDeliveryGalleryPage />} />
                 <Route path="Enterprise-Support" element={<EnterpriseSupport />} />
                 <Route path="Ecosystem-Events" element={<EcosystemEvents />} />
@@ -129,6 +130,8 @@ function App() {
                 <Route path="team" element={<TeamPage />} />
                 {/* <Route path="blog" element={<BlogPage />} /> */}
                 {/* <Route path="faq" element={<FAQ />} /> */}
+                {/* <Route path="events" element={<EventsPage />} /> */}
+                <Route path="events" element={<EventsNew />} />
                 <Route path="events-gallery" element={<EventsGalleryPage />} />
                 <Route path="demo-day" element={<DemoDayPage />} />
                 <Route path="founders-meetup" element={<FounderMeetupPage />} />

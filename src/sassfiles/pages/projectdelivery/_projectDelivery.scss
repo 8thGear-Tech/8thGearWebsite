@@ -21,6 +21,14 @@
 // HERO SECTION
 
 //With overlay
+.projectHero {
+    height: 100vh;
+    position: relative;
+    background: url(../../../../public/images/FMU_24_Q2/demodaysix.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .projectHero:before {
     content: "";
     position: absolute;
@@ -40,7 +48,7 @@
 /* Centered text */
 .hero-text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -70,7 +78,7 @@
         text-decoration: none;
         color: #821e6b !important;
         font-weight: 500 !important;
-        padding: 2px 1px !important;
+        // padding: 2px 1px !important;
     }
 }
 
@@ -116,35 +124,12 @@
     z-index: 1;
 }
 
-/* Centered text */
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff; /* White text color */
-    z-index: 2;
-
-    /* Optional styles for text */
-    h1 {
-        font-size: 3rem; /* Adjust font size as needed */
-        display: inline-flex !important;
-        margin-bottom: 0.25rem;
-    }
-
-    p {
-        margin-top: 1px;
-        padding: auto;
-    }
-}
-
 //IMPACT CARD
 .impactCards {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #faf5f5;
+    // background-color: #faf5f5;
     padding: 10px;
     width: 300px;
 }
@@ -225,14 +210,6 @@
 
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 850.34px) {
-    .hero-text {
-        h1 {
-            font-size: 1.75rem;
-        }
-        p {
-            font-size: 1rem;
-        }
-    }
     //Impact Card
     .impactRow {
         display: flex !important;
@@ -248,20 +225,18 @@
 
 /* Small devices (phones, less than 576px) */
 @media (min-width: 310px) and (max-width: 575.98px) {
-    .hero-text {
-        margin-top: 60px !important;
-        padding-top: 15px !important;
+    // .hero-text {
+    //   margin-top: 60px !important;
+    //   padding-top: 15px !important;
 
-        h1 {
-            display: inline !important;
-            font-size: 1rem !important;
-            padding-left: 2px !important ;
-            padding-right: 2px !important;
-        }
-        p {
-            font-size: 1rem;
-        }
-    }
+    //   h1 {
+    //     display: inline !important;
+    //     font-size: 2rem !important;
+    //   }
+    //   p {
+    //     font-size: 1rem;
+    //   }
+    // }
     //Impact Card
     .impactRow {
         display: flex !important;

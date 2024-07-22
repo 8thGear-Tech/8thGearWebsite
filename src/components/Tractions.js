@@ -20,13 +20,13 @@ export const OurImpact = () => {
   return (
     <div className="container-fluid text-center px-5 impactSection">
       <div className="row justify-content-center ">
-        <h3 className="text-center my-5 purple-text">OUR IMPACT</h3>
+        <h3 className="text-center mt-3 mb-5 purple-text">OUR IMPACT</h3>
       </div>
       <div className="impactRow">
         {" "}
         <div className="">
           {" "}
-          <Card className="impactCards ">
+          <Card className="impactCards border-0">
             <div>
               {" "}
               <ProjectsDeliveredIcon className="pt-2" />
@@ -41,7 +41,7 @@ export const OurImpact = () => {
         </div>
         <div className="">
           {" "}
-          <Card className="impactCards">
+          <Card className="impactCards border-0">
             <TechTalentsEmpoweredIcon className="pt-2" />
             <div className="p-1">
               <h5 className="traction-text">{`${countTalents}+`}</h5>
@@ -51,7 +51,7 @@ export const OurImpact = () => {
         </div>
         <div className="">
           {" "}
-          <Card className="impactCards ">
+          <Card className="impactCards border-0">
             <StartupsSupportedIcon className="pt-2" />
             <div className="p-1">
               <h5 className="traction-text">{`${countStartUps}+`}</h5>
@@ -72,7 +72,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text">75%</h1>
               <p className="card-text text-nowrap">HAVE FEMALE CO-FOUNDERS</p>
             </div>
@@ -82,7 +82,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text"> 240</h1>
               <p className="card-text">MENTORSHIP HOURS</p>
             </div>
@@ -91,7 +91,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12 my-3 ">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text">12</h1>
               <p className="card-text">PORTFOLIO BUSINESSES</p>
             </div>
@@ -100,7 +100,7 @@ export const OurModelTractions = () => {
         <div className="col-lg-2 col-md-4 col-sm-12  my-3">
           <div className="align-items-center">
             {/* <OurImpactIcon /> */}
-            <div className="card-body ">
+            <div className="">
               <h1 className="card-text">20</h1>
               <p className="card-text">JOBS CREATED</p>
             </div>
