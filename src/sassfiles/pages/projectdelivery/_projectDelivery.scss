@@ -1,181 +1,181 @@
 @use "../../colors" as *;
 .ourImpactBg {
-  background-color: $lightgreenbg;
+    background-color: $lightgreenbg;
 }
 @mixin OurImpactCardBg {
-  border: 0px solid $heroblackbg;
-  // box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border: 0px solid $heroblackbg;
+    // box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
 .successStoryBg {
-  background-color: $lightgreenbg;
+    background-color: $lightgreenbg;
 }
 
 // PURPLE TEXT
 .purple-text {
-  color: #821e6b;
-  //   font-weight: 800;
-  //   font-size: 28px;
+    color: #821e6b;
+    //   font-weight: 800;
+    //   font-size: 28px;
 }
 
 // HERO SECTION
 
 //With overlay
 .projectHero:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(90, 88, 88, 0.1),
-    rgba(0, 0, 0, 0.7) 50%,
-    rgba(0, 0, 0) 100%
-  ); /* Adjust gradient as needed */
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(90, 88, 88, 0.1),
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0) 100%
+    ); /* Adjust gradient as needed */
+    z-index: 1;
 }
 
 /* Centered text */
 .hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff; /* White text color */
-  z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* White text color */
+    z-index: 2;
 
-  /* Optional styles for text */
-  h1 {
-    font-size: 4rem !important; /* Adjust font size as needed */
-    display: inline-block !important;
-    margin-bottom: 0.25rem;
-  }
+    /* Optional styles for text */
+    h1 {
+        font-size: 4rem !important; /* Adjust font size as needed */
+        display: inline-block !important;
+        margin-bottom: 0.25rem;
+    }
 
-  p {
-    margin-top: 1px;
-    padding: auto;
-  }
+    p {
+        margin-top: 1px;
+        padding: auto;
+    }
 }
 // HERO BUTTON
 .HeroButton {
-  background-color: #fff !important;
-  // font-weight: bold !important;
-  border: 2px solid #821e6b !important;
+    background-color: #fff !important;
+    // font-weight: bold !important;
+    border: 2px solid #821e6b !important;
 
-  h4,
-  a {
-    text-decoration: none;
-    color: #821e6b !important;
-    font-weight: 500 !important;
-    padding: 2px 1px !important;
-  }
+    h4,
+    a {
+        text-decoration: none;
+        color: #821e6b !important;
+        font-weight: 500 !important;
+        padding: 2px 1px !important;
+    }
 }
 
 .HeroButton:hover {
-  background-color: #821e6b !important;
-  a {
-    color: #fff !important;
-  }
+    background-color: #821e6b !important;
+    a {
+        color: #fff !important;
+    }
 }
 /*For the compentency Card*/
 .competency-Card {
-  position: relative;
-  height: 500px;
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
+    position: relative;
+    height: 500px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 /*ENTERPRISE PAGE*/
 .EnterpriceHero {
-  // height: 100vh;
-  // position: relative;
-  // background: url("../../../assets/demodaysix.JPG");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    // height: 100vh;
+    // position: relative;
+    // background: url("../../../assets/demodaysix.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 //With overlay
 .EnterpriceHero:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(90, 88, 88, 0.1),
-    rgba(0, 0, 0, 0.7) 50%,
-    rgba(0, 0, 0) 100%
-  ); /* Adjust gradient as needed */
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(90, 88, 88, 0.1),
+        rgba(0, 0, 0, 0.7) 50%,
+        rgba(0, 0, 0) 100%
+    ); /* Adjust gradient as needed */
+    z-index: 1;
 }
 
 /* Centered text */
 .hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff; /* White text color */
-  z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* White text color */
+    z-index: 2;
 
-  /* Optional styles for text */
-  h1 {
-    font-size: 3rem; /* Adjust font size as needed */
-    display: inline-flex !important;
-    margin-bottom: 0.25rem;
-  }
+    /* Optional styles for text */
+    h1 {
+        font-size: 3rem; /* Adjust font size as needed */
+        display: inline-flex !important;
+        margin-bottom: 0.25rem;
+    }
 
-  p {
-    margin-top: 1px;
-    padding: auto;
-  }
+    p {
+        margin-top: 1px;
+        padding: auto;
+    }
 }
 
 //IMPACT CARD
 .impactCards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #faf5f5;
-  padding: 10px;
-  width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf5f5;
+    padding: 10px;
+    width: 300px;
 }
 
 /*For the compentency Card*/
 .competency-Card {
-  position: relative;
-  height: 500px;
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
+    position: relative;
+    height: 500px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 // CLIENTS SECTION
 .clients {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 10px;
 }
 
 // SUCCESS STORY SECTION
 .successStory {
-  margin-top: 10px;
-  max-width: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-top: 10px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .gallery {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 // .gallery-container {
 //     max-width: 700px;
@@ -184,103 +184,105 @@
 //     border-radius: 30px;
 // }
 .imageCaption {
-  position: relative;
-  top: 10px;
-  text-align: center;
+    position: relative;
+    top: 10px;
+    text-align: center;
 }
 .button-controller {
-  position: relative;
-  right: -5px;
-  top: 200px;
+    position: relative;
+    right: -5px;
+    top: 200px;
 
-  i {
-    color: #821e6b;
-    font-size: 30px;
-    display: flex;
-    margin: 5px;
-  }
+    i {
+        color: #821e6b;
+        font-size: 30px;
+        display: flex;
+        margin: 5px;
+    }
 }
 
 //OUR IMPACT CARD
 .impactRow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 .ourImpactCardBg {
-  background-color: $lightgreenbg;
-  padding: 10px;
-  width: 300px;
-  p {
-    font-weight: bolder;
-  }
+    background-color: $lightgreenbg;
+    padding: 10px;
+    width: 300px;
+    p {
+        font-weight: bolder;
+    }
 }
 .traction-text {
-  font-weight: bolder;
-  color: #00683e;
+    font-weight: bolder;
+    color: #00683e;
 }
 /* Media Queries */
 
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 850.34px) {
-  .hero-text {
-    h1 {
-      font-size: 1.75rem;
+    .hero-text {
+        h1 {
+            font-size: 1.75rem;
+        }
+        p {
+            font-size: 1rem;
+        }
     }
-    p {
-      font-size: 1rem;
+    //Impact Card
+    .impactRow {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center;
+        gap: 20px;
     }
-  }
-  //Impact Card
-  .impactRow {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    align-items: center;
-    gap: 20px;
-  }
-  .ourImpactCardBg {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+    .ourImpactCardBg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 /* Small devices (phones, less than 576px) */
 @media (min-width: 310px) and (max-width: 575.98px) {
-  .hero-text {
-    margin-top: 60px !important;
-    padding-top: 15px !important;
+    .hero-text {
+        margin-top: 60px !important;
+        padding-top: 15px !important;
 
-    h1 {
-      display: inline !important;
-      font-size: 2rem !important;
+        h1 {
+            display: inline !important;
+            font-size: 1rem !important;
+            padding-left: 2px !important ;
+            padding-right: 2px !important;
+        }
+        p {
+            font-size: 1rem;
+        }
     }
-    p {
-      font-size: 1rem;
+    //Impact Card
+    .impactRow {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 20px;
     }
-  }
-  //Impact Card
-  .impactRow {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center;
-    gap: 20px;
-  }
-  .ourImpactCardBg {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  // BUTTON CONTROLLERS
-  .button-controller {
-    position: relative;
-    right: -5px;
-    top: 60px;
+    .ourImpactCardBg {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    // BUTTON CONTROLLERS
+    .button-controller {
+        position: relative;
+        right: -5px;
+        top: 60px;
 
-    i {
-      color: #821e6b;
-      font-size: 30px;
-      margin: 5px;
+        i {
+            color: #821e6b;
+            font-size: 30px;
+            margin: 5px;
+        }
     }
-  }
 }
