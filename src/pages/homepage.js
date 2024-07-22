@@ -43,7 +43,7 @@ const SectionOne = () => {
         </Link>
         &
         <Link
-          to="/project-delivery"
+          to="/projects"
           className=" mx-2"
           // aria-current="page"
           style={{ color: "#000" }}
@@ -118,7 +118,7 @@ const SectionTwo = () => {
               height="70px"
               className="mb-3"
             /> */}
-            <Link to="/project-delivery" className="headerText">
+            <Link to="/projects" className="headerText">
               <h3>PROJECT DELIVERY</h3>
             </Link>
 

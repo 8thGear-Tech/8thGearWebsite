@@ -70,10 +70,7 @@ export const Footer = () => {
               PORTFOLIO
             </Link>
 
-            <Link
-              className=" footerText text-fluid3 d-block"
-              to="./project-delivery"
-            >
+            <Link className=" footerText text-fluid3 d-block" to="./projects">
               PROJECT DELIVERY
             </Link>
             <Link

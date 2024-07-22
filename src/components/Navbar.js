@@ -102,7 +102,7 @@ const NavBar = (props) => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link
-                href="/project-delivery"
+                href="/projects"
                 className="mx-3"
                 style={{ fontSize: "1.2rem", fontWeight: "300" }}
               >
@@ -375,7 +375,7 @@ const OldNavBar = (props) => {
               className=" nav-link  mx-3"
               type="button"
               aria-expanded="false"
-              to="/project-delivery"
+              to="/projects"
             >
               Project Delivery
             </Link>
