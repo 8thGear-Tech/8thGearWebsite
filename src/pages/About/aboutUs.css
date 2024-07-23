@@ -22,12 +22,17 @@
 /* CoreValue */
 .valueCard {
   width: 330px !important;
-  height: 430px;
+  height: 480px;
 }
 
-.descriptionCard {
+.core-accordion-button {
   height: 20px;
 }
+
+.core-accordion-button:focus {
+  box-shadow: none !important;
+}
+
 
 /* Spacing adjustments for 1024px and above */
 @media (max-width: 1024px) {

@@ -53,6 +53,7 @@ const AboutUs = () => {
       </div>
       {/* <CoreValues /> */}
       <CoreValue />
+      <Partners />
       <Gerians />
       <EIR />
       {/* <AdvisoryTeamPic /> */}
@@ -60,7 +61,6 @@ const AboutUs = () => {
       <SliderComponent />
       </div>
       {/* <Partners /> */}
-      <Partners />
       {/* <JointheTeam /> */}
     </>
   );
