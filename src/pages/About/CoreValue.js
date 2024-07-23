@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import visionlogo from "../About/image/Vision-logo.png"
-import missionlogo from "../About/image/Mission-logo.png"
-import valuelogo from "../About/image/Value-logo.png"
-import '../About/aboutUs.css'
+import visionlogo from "../About/image/Vision-logo.png";
+import missionlogo from "../About/image/Mission-logo.png";
+import valuelogo from "../About/image/Value-logo.png";
+import '../About/aboutUs.css';
 
 const Values = {
   vision: "To be established as one of Nigeria’s leading development and enterprise support providers by our fifth year (2024)",
@@ -49,22 +49,22 @@ const CoreValue = () => {
   return (
     <div className="container mt-5">
       <h2 className="text-center fs-4">WHO WE ARE</h2>
-      <div className="row mt-5">
-        {/* This is Vision card */}
-        <div className="col-md-4">
-          <div className="card">
-            <div className="card-body rounded valueCard bg-white shadow heightCard">
-              <img src={visionlogo} alt="Logo" className="img-fluid mx-auto d-block mb-3 mt-3" style={{ maxWidth: '100px' }} />
+      <div className="row mt-5 justify-content-center align-items-center">
+        {/* Vision card */}
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="card CoreCard">
+            <div className="card-body rounded valueCard bg-white shadow">
+              <img src={visionlogo} alt="Vision Logo" className="img-fluid mx-auto d-block mb-3 mt-3" style={{ maxWidth: '100px' }} />
               <h3 className="card-title text-center mt-5">Vision</h3>
               <p className="card-text text-center mt-4">{Values.vision}</p>
             </div>
           </div>
         </div>
-        {/* This is Mission card  */}
-        <div className="col-md-4">
-          <div className="card">
-            <div className="card-body rounded valueCard bg-white shadow heightCard">
-              <img src={missionlogo} alt="Logo" className="img-fluid mx-auto d-block mb-3 mt-3" style={{ maxWidth: '100px' }} />
+        {/* Mission card */}
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="card CoreCard">
+            <div className="card-body rounded valueCard bg-white shadow">
+              <img src={missionlogo} alt="Mission Logo" className="img-fluid mx-auto d-block mb-3 mt-3" style={{ maxWidth: '100px' }} />
               <h3 className="card-title text-center mt-5">Mission</h3>
               <ul className="card-text text-start mt-4">
                 {Values.mission.map((item, index) => (
@@ -74,11 +74,11 @@ const CoreValue = () => {
             </div>
           </div>
         </div>
-        {/* This is Value card */}
-        <div className="col-md-4 ">
-          <div className="card">
+        {/* Value card */}
+        <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="card CoreCard">
             <div className="card-body rounded valueCard bg-white shadow">
-              <img src={valuelogo} alt="Logo" className="img-fluid mx-auto d-block mb-3" style={{ maxWidth: '100px' }} />
+              <img src={valuelogo} alt="Value Logo" className="img-fluid mx-auto d-block mb-3" style={{ maxWidth: '100px' }} />
               <h3 className="card-title text-center">Value</h3>
               <div className="accordion" id="accordionExample">
                 {Values.value.map((item, index) => (

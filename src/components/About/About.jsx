@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./HeroSection";
+// import HeroSection from "./HeroSection";
 import { Navbar30 } from "../Navbar";
 import "./About.css";
 import Image from "./Image";

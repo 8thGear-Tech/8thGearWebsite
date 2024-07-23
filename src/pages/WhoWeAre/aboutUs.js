@@ -18,8 +18,8 @@ import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 // import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
 import "../About/aboutUs.css";
-import HeroSection from "../../components/About/HeroSection";
 import CoreValue from "../About/CoreValue";
+import HeroSection from "../About/HeroSection"
 
 //Our Partners
 import german from "../About/image/german.png"
@@ -48,6 +48,7 @@ const AboutUs = () => {
           <Navbar10 />
           {/* <AboutPageHero /> */}
           <HeroSection />
+          
         </div>
       </div>
       {/* <CoreValues /> */}
@@ -55,10 +56,12 @@ const AboutUs = () => {
       <Gerians />
       <EIR />
       {/* <AdvisoryTeamPic /> */}
+      <div className="SliderBg">
       <SliderComponent />
+      </div>
       {/* <Partners /> */}
       <Partners />
-      <JointheTeam />
+      {/* <JointheTeam /> */}
     </>
   );
 };

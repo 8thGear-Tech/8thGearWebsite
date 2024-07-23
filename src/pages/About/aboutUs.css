@@ -9,6 +9,17 @@
   min-height: 100vh;
 }
 
+.heroAbout {
+  margin-top: 300px;
+}
+
+.animated-text {
+  font-size: 5.1rem;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+/* CoreValue */
 .valueCard {
   width: 320px !important;
   height: 430px;
@@ -18,14 +29,76 @@
   height: 20px;
 }
 
+/* Spacing adjustments for 1024px and above */
+@media (min-width: 1024px) {
+  .CoreCard {
+    margin-right: 30px;
+  }
+  .valueCard {
+    width: 300px !important;
+    height: 430px;
+  }
+}
+
+/* Center cards for screen sizes between 425px and 320px */
+@media (min-width: 425px) {
+  .CoreCard {
+    margin-left: 30px;
+    /* margin-right: 20px; */
+  }
+}
+
+@media (min-width: 375px) {
+  .CoreCard {
+    margin-left: 30px !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .CoreCard {
+    margin-left: 10px;
+  }
+  .valueCard {
+    width: 280px !important;
+    height: 430px;
+  }
+}
+
+/* Slider Card Start*/
 .slideCard {
   width: 267px !important;
   /* height: 377px; */
 }
 
 .SliderBg {
-  background-color: #F6FFFA  ;
+  background-color: #f6fffa;
 }
+
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: inline-block;
+  animation: scrollSlider 40s linear infinite;
+}
+
+.scroll-card {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Slider Card End*/
 
 .arrow-link {
   margin-left: 110px;
