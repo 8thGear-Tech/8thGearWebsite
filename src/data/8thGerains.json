@@ -4,7 +4,8 @@
       "image1": "../../images/team/madamwunmi.png",
       "name1": "HAKEEM IDRIS",
       "title1": "FINANCE AND ACC EXECUTIVE",
-      "id": "staticBackdrop1"
+      "id": "staticBackdrop1",
+      "link": "https://www.linkedin.com/in/hakeemidris010/"
     }
   ],
   "teamcardtwo": [
@@ -12,7 +13,8 @@
       "image1": "../../images/team/damilolaobidairo.png",
       "name1": "LORETTA UDEMBA",
       "title1": "HR & TALENT MANAGER",
-      "id": "staticBackdrop2"
+      "id": "staticBackdrop2",
+      "link": "https://www.linkedin.com/in/lorrettaudemba/"
     }
   ],
   "teamcardthree": [
@@ -20,7 +22,8 @@
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "VINDICATION JOSEPH",
       "title1": "PROGRAMS & PROJECT LEAD",
-      "id": "staticBackdrop3"
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
     }
   ],
   "teamcardfour": [
@@ -37,7 +40,8 @@
       "image1": "../../images/team/opeyemibioku.png",
       "name1": "MOYOSORE AMAO",
       "title1": "AG. BUSINESS DEV LEAD",
-      "id": "staticBackdrop5"
+      "id": "staticBackdrop5",
+      "link": "https://www.linkedin.com/in/moyoamao/"
     }
   ],
   "teamcardsix": [
@@ -45,7 +49,8 @@
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "DR. SEUN OLADELE",
       "title1": "PROJECT DEV CONSULTANT",
-      "id": "staticBackdrop6"
+      "id": "staticBackdrop6",
+      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     }
   ],
 

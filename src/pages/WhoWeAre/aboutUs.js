@@ -43,8 +43,8 @@ import SliderComponent from "../About/SliderComponent";
 const AboutUs = () => {
   return (
     <>
-      <div className="hero-background">
-        <div className="hero-layout w-100 start-0 d-flex justify-content-center align-items-center">
+      <div className="about-background">
+        <div className="about-layout w-100 start-0 d-flex justify-content-center align-items-center">
           <Navbar10 />
           {/* <AboutPageHero /> */}
           <HeroSection />
