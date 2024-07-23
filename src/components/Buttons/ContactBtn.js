@@ -1,3 +1,5 @@
+import { LinkedInIcon } from "../Icons";
+
 export const JointheStudioBtn = () => {
   return (
     <a
@@ -29,7 +31,7 @@ export const MemberOneViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon className="text-primary"/>
       </a>
     </>
   );
@@ -44,7 +46,7 @@ export const MemberTwoViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop2"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -59,7 +61,7 @@ export const MemberThreeViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop3"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -74,7 +76,7 @@ export const MemberFourViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop4"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -89,7 +91,7 @@ export const MemberFiveViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop5"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -104,7 +106,7 @@ export const MemberSixViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop6"
       >
-        View Bio <i className="bi bi-arrow-right"></i>
+        <LinkedInIcon />
       </a>
     </>
   );
@@ -154,10 +156,10 @@ export const HomeBtn = () => {
     </button>
   );
 };
-export const ContactBtn = () => {
+export const Btn = () => {
   return (
-    <button className="ContactUsBtn" type="">
-      Contact Us
+    <button className="UsBtn" type="">
+       Us
     </button>
   );
 };

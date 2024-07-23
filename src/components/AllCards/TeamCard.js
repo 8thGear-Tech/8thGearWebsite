@@ -896,7 +896,7 @@ export const TeamCardEight = (props) => {
 export const Gerians = () => {
   return (
     <div className="container">
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center mt-5 mb-5">
         <h3 className="text-center">OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
@@ -922,6 +922,19 @@ export const Gerians = () => {
             return <TeamCardFour {...card}></TeamCardFour>;
           })}
         </div>
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardfive.map((card) => {
+            return <TeamCardFive {...card}></TeamCardFive>;
+          })}
+        </div>
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardsix.map((card) => {
+            return <TeamCardSix {...card}></TeamCardSix>;
+          })}
+        </div>
+
         {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardeight.map((card) => {
@@ -1134,9 +1147,9 @@ export const EIR = () => {
   return (
     <div className="container ">
       <div className="row d-flex justify-content-center">
-        <h4 className="text-center pt-5 mt-5 mb-4">
+        <h3 className="text-center mt-5 mb-5 purple-text">
           ENTREPRENEURS IN RESIDENCE
-        </h4>
+        </h3>
         {EIRdata.EIRcard.map((card) => {
           return (
             <div

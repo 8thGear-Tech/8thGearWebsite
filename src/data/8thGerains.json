@@ -2,40 +2,25 @@
   "teamcardone": [
     {
       "image1": "../../images/team/madamwunmi.png",
-      "name1": "OMOWUNMI OBIDAIRO",
-      "title1": "EXECUTIVE DIRECTOR",
-      "id": "staticBackdrop1",
-      "image": "../../images/team/madamwunmi.png",
-      "name": "Omowumi Adekoya",
-      "position": "Executive Director",
-      "link": "https://www.linkedin.com/in/omowunmiobidairo/",
-      "text": "In my spare time, I enjoy reading novels."
+      "name1": "HAKEEM IDRIS",
+      "title1": "FINANCE & ACC. EXECUTIVE",
+      "id": "staticBackdrop1"
     }
   ],
   "teamcardtwo": [
     {
       "image1": "../../images/team/damilolaobidairo.png",
-      "name1": "DAMILOLA OBIDAIRO",
-      "title1": "CEO",
-      "id": "staticBackdrop2",
-      "image": "../../images/team/damilolaobidairo.png",
-      "name": " Damilola Obidairo",
-      "position": "CEO",
-      "link": "https://www.linkedin.com/in/damilolaobidairo/",
-      "text": "I create time to intellectually debate with my family. I destress by listening to music or creating music with my voice and guitars. It gives me a lot of pleasure and satisfaction to garden and see my plants grow slowly and suddenly. In my spare time, I engage with thought-provoking books and epic/sci-fi movies."
+      "name1": "LORETTA UDEMBA",
+      "title1": "HR & TALENT MANAGER",
+      "id": "staticBackdrop2"
     }
   ],
   "teamcardthree": [
     {
       "image1": "../../images/team/seunoladele.jpg",
-      "name1": "DR. SEUN OLADELE",
-      "title1": "PROJECT DEV'T CONSULTANT",
-      "id": "staticBackdrop3",
-      "image": "../../images/team/seunoladele.jpg",
-      "name": "Dr. Seun Oladele",
-      "position": "Project Dev't Consultant",
-      "link": "https://www.linkedin.com/in/seun-oladele/",
-      "text": "Music is what I love to do. That’s the only fun thing I know. I play video games a lot and watch movies a lot. For someone considered a researcher, I do not really like reading."
+      "name1": "VINDICATION JOSEPH",
+      "title1": "PROGRAMS & PROJECT LEAD",
+      "id": "staticBackdrop3"
     }
   ],
   "teamcardfour": [
@@ -44,27 +29,46 @@
       "name1": "OPEYEMI BIOKU",
       "title1": "TECH LEAD",
       "id": "staticBackdrop4",
-      "image": "../../images/team/opeyemibioku.png",
-      "name": "Opeyemi Bioku",
-      "position": "Tech Lead",
-      "link": "https://www.linkedin.com/in/opeyemi-bioku",
-      "text": "Enjoying good music across many genres as well as movies in my leisure is my favorite thing to do."
+      "link": "https://www.linkedin.com/in/opeyemi-bioku"
+    }
+  ],
+  "teamcardfive": [
+    {
+      "image1": "../../images/team/opeyemibioku.png",
+      "name1": "MOYOSORE AMAO",
+      "title1": "AG. BUSINESS DEV LEAD",
+      "id": "staticBackdrop5"
+    }
+  ],
+  "teamcardsix": [
+    {
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
+      "title1": "PROJECT DEV CONSULTANT",
+      "id": "staticBackdrop6"
     }
   ],
 
   "EIRcard": [
     {
-      "image1": "../../images/team/damilolaobidairo.png",
-      "name1": "DAMILOLA OBIDAIRO",
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
       "title1": "EIR",
       "id": "1",
-      "link": "https://www.linkedin.com/in/damilolaobidairo/"
+      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
+    },
+    {
+      "image1": "../../images/team/sunkanmiolarewaju.jpg",
+      "name1": "SUNKANMI OLANREWAJU",
+      "title1": "EIR",
+      "id": "2",
+      "link": "https://www.linkedin.com/in/olarewaju-olasunkanmi/"
     },
     {
       "image1": "../../images/team/titilayoekundayo.png",
       "name1": "TITILAYO EKUNDAYO",
       "title1": "EIR",
-      "id": "2",
+      "id": "3",
       "link": "https://www.linkedin.com/in/titilayo-ekundayo-833336a1/"
     }
   ]

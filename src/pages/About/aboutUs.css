@@ -1,0 +1,177 @@
+.about-hero-background {
+  background-image: url("../About/image/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-layout {
+  background: linear-gradient(to top, rgba(0, 0, 0), transparent);
+  min-height: 100vh;
+}
+
+.heroAbout {
+  margin-top: 300px;
+}
+
+.animated-text {
+  font-size: 3rem;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+/* CoreValue */
+/* .valueCard {
+  width: 320px !important;
+  height: 430px;
+} */
+
+.descriptionCard {
+  height: 20px;
+}
+
+/* Spacing adjustments for 1024px and above */
+@media (min-width: 1024px) {
+  .CoreCard {
+    margin-right: 30px;
+  }
+  /* .valueCard {
+    width: 300px !important;
+    height: 430px;
+  } */
+}
+
+/* Center cards for screen sizes between 425px and 320px */
+@media (min-width: 425px) {
+  .CoreCard {
+    margin-left: 30px;
+    /* margin-right: 20px; */
+  }
+}
+
+@media (min-width: 375px) {
+  .CoreCard {
+    margin-left: 30px !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .CoreCard {
+    margin-left: 10px;
+  }
+  /* .valueCard {
+    width: 280px !important;
+    height: 430px;
+  } */
+}
+/* new */
+/* aboutUs.css */
+
+/* Style for the list items under the Mission card */
+.card-body ul.card-text li {
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  font-family: "Open Sans", sans-serif !important;
+  padding-left: 1.5rem;
+}
+
+/* Style for the list items under the Mission card */
+.card-body ul.card-text {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 1.5rem; /* Optional: adjust padding to ensure proper alignment */
+  list-style: none; /* Remove default markers */
+}
+
+.card-body ul.card-text li {
+  position: relative;
+  padding-left: 1.5rem; /* Space for custom marker */
+}
+
+.card-body ul.card-text li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  width: 5px; /* Adjust size */
+  height: 5px; /* Adjust size */
+  background-color: #821e6b; /* Change this to your desired color */
+  border-radius: 50%; /* Makes it a circle */
+}
+
+/* Style for the dropdown titles */
+.accordion-button {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style for the dropdown content items */
+.accordion-body {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style for the dropdown titles */
+.accordion-button {
+  font-size: 1rem;
+  /* font-weight: 600 ; */
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style for the dropdown content items */
+.accordion-body {
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+}
+/* Slider Card Start*/
+.slideCard {
+  width: 267px !important;
+  /* height: 377px; */
+}
+
+.SliderBg {
+  background-color: #f6fffa;
+}
+
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scroll-content {
+  display: inline-block;
+  animation: scrollSlider 40s linear infinite;
+}
+
+.scroll-card {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Slider Card End*/
+
+.arrow-link {
+  margin-left: 110px;
+  margin-top: 0;
+  /* margin-top: 10px; */
+}
+
+.ImgCard {
+  height: 255px;
+}
+
+.bodyBG {
+  background: #152425 !important;
+}

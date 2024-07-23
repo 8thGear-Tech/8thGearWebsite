@@ -402,7 +402,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -464,7 +464,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-.next {
+  .next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -509,7 +509,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -1114,7 +1114,12 @@ article h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  background: linear-gradient(
+    to bottom,
+    rgba(90, 88, 88, 0.1),
+    rgba(0, 0, 0, 0.7) 50%,
+    rgb(0, 0, 0) 100%
+  ); /* Adjust gradient as needed */
   z-index: 1;
 }
 
@@ -1168,7 +1173,12 @@ article h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
+  background: linear-gradient(
+    to bottom,
+    rgba(90, 88, 88, 0.1),
+    rgba(0, 0, 0, 0.7) 50%,
+    rgb(0, 0, 0) 100%
+  ); /* Adjust gradient as needed */
   z-index: 1;
 }
 
@@ -2420,21 +2430,21 @@ h2 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-.ManagedServicesTechHeroBgg::before,
-.ManagedServicesLegalHeroBgg::before,
-.ManagedServicesDigitalMargetingHeroBgg::before,
-.GaaSHeroBgg::before,
-.Herodemodayy::before,
-.CoworkingHeroBgg::before {
+  .ManagedServicesTechHeroBgg::before,
+  .ManagedServicesLegalHeroBgg::before,
+  .ManagedServicesDigitalMargetingHeroBgg::before,
+  .GaaSHeroBgg::before,
+  .Herodemodayy::before,
+  .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-.ManagedServicesTechHeroBg,
-.ManagedServicesLegalHeroBg,
-.ManagedServicesDigitalMargetingHeroBg,
-.GaaSHeroBg,
-.Herodemoday,
-.CoworkingHeroBg {
+  .ManagedServicesTechHeroBg,
+  .ManagedServicesLegalHeroBg,
+  .ManagedServicesDigitalMargetingHeroBg,
+  .GaaSHeroBg,
+  .Herodemoday,
+  .CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2529,7 +2539,14 @@ h2 {
 }
 
 .gradientBg {
-  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
+  background-image: linear-gradient(
+    to right,
+    #252c3e,
+    rgba(37, 44, 62, 0.66),
+    rgba(37, 44, 62, 0.42),
+    rgba(37, 44, 62, 0.1),
+    rgba(37, 44, 62, 0)
+  );
 }
 
 .overlayBg {
@@ -2901,7 +2918,7 @@ video {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -3553,12 +3570,6 @@ header {
   color: #0d6efd;
 }
 
-.card {
-  fill: #fff;
-  stroke-width: 5px !important;
-  stroke: rgba(0, 0, 0, 0.8) !important;
-}
-
 .fade-in {
   opacity: 1;
   transition: opacity 1s;
@@ -3613,7 +3624,7 @@ header {
 
 .slider2 .slide2 img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   height: 100%;
   width: auto;
   margin: auto;
