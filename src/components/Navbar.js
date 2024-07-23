@@ -76,6 +76,28 @@ const NavBar = (props) => {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
+              {" "}
+              <NavDropdown
+                title="Hub Services"
+                id="basic-nav-dropdown"
+                className="h5 mx-3 mb-4"
+              >
+                <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
+                <NavDropdown.Item href="/talent-placement">
+                  Talent Placement
+                </NavDropdown.Item>
+                {/* <NavDropdown.Item href="#">Tech Marketplace</NavDropdown.Item> */}
+                <NavDropdown.Item href="/growth-as-a-service">
+                  Growth Advisory
+                </NavDropdown.Item>
+              </NavDropdown>{" "}
+              <Nav.Link
+                href="/projects"
+                className="mx-3 mb-4"
+                style={{ fontSize: "1.2rem", fontWeight: "300" }}
+              >
+                Projects
+              </Nav.Link>
               <NavDropdown
                 title="Venture Studio"
                 id="basic-nav-dropdown"
@@ -87,50 +109,12 @@ const NavBar = (props) => {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="portfolio">Portfolio</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
-                title="Services"
-                id="basic-nav-dropdown"
-                className="h5 mx-3 mb-4"
-              >
-                <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
-                <NavDropdown.Item href="/talent-placement">
-                  Talent Placement
-                </NavDropdown.Item>
-                {/* <NavDropdown.Item href="#">Tech Marketplace</NavDropdown.Item> */}
-                <NavDropdown.Item href="/growth-as-a-service">
-                  Growth-as-a-Service
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link
-                href="/project-delivery"
-                className="mx-3"
-                style={{ fontSize: "1.2rem", fontWeight: "300" }}
-              >
-                Projects
-              </Nav.Link>
-              <NavDropdown
-                title="Initiatives"
-                id="basic-nav-dropdown"
-                className="h5 mx-3 my-4"
-              >
-                <NavDropdown.Item href="/FUTA-techpic">
-                  FUTA-techpic
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link
-                href="/digiplus"
-                className="mx-3"
-                style={{ fontSize: "1.2rem", fontWeight: "300" }}
-              >
-                DigiPlus
-              </Nav.Link>
-              <br />
               <Nav.Link
                 href="/about"
                 className="h5 mx-3 mb-4"
                 style={{ fontSize: "1.2rem", fontWeight: "300" }}
               >
-                Who we are
+                About Us
               </Nav.Link>
               <Nav.Link
                 href="/events"
@@ -149,7 +133,6 @@ const NavBar = (props) => {
                   Resources
                 </NavDropdown.Item>
               </NavDropdown>
-
               <div className="mx-3">
                 <JointheStudioBtn />
               </div>
