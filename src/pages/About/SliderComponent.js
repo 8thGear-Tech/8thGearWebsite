@@ -18,7 +18,7 @@ const slidesData = [
     link: "https://www.linkedin.com/in/omowunmiobidairo/",
   },
   {
-    image: "/images/team/damilolaobidairo.png",
+    image: "/images/team/rotimi.jpg",
     title: "Rotimi Owowa",
     staff: "Director",
     link: "https://www.linkedin.com/in/rotimi-owowa-bab8b113/",

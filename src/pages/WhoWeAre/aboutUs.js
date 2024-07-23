@@ -44,7 +44,7 @@ const AboutUs = () => {
   return (
     <>
       <div className="about-hero-background">
-        <div className="hero-layout w-100 start-0 d-flex justify-content-center align-items-center">
+        <div className="about-layout w-100 start-0 d-flex justify-content-center align-items-center">
           <Navbar10 />
           <HeroSection />
         </div>

@@ -10,7 +10,7 @@ const Values = {
     "To be established as one of Nigeria’s leading development and enterprise support providers by our fifth year (2024)",
   mission: [
     "To build an ecosystem of value-adding and innovative ventures",
-    "To Facilitate sustainable initiative/project",
+    "To facilitate sustainable initiative/project",
   ],
   value: [
     {
@@ -104,12 +104,15 @@ const CoreValue = () => {
               <h4 className="card-title text-center mb-4">Values</h4>
               <div className="accordion" id="accordionExample">
                 {Values.value.map((item, index) => (
-                  <div className="accordion-item" key={index}>
+                  <div
+                    className="accordion-item mb-2 border-0 rounded shadow-sm"
+                    key={index}
+                  >
                     <h2 className="accordion-header" id={`heading${index}`}>
                       <button
-                        className={`accordion-button descriptionCard ${
+                        className={`accordion-button core-accordion-button ${
                           openIndex === index ? "" : "collapsed"
-                        }`}
+                        } text-dark bg-transparent border-0`}
                         type="button"
                         onClick={() => toggleAccordion(index)}
                       >
