@@ -19,7 +19,6 @@
 }
 
 // HERO SECTION
-
 //With overlay
 .projectHero {
     height: 100vh;
@@ -157,26 +156,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column !important;
 }
 // .gallery-container {
-//     max-width: 700px;
-//     height: 350px;
 //     border: #821e6b solid 2px;
 //     border-radius: 30px;
 // }
+
+.gallery-picutre {
+    background-position: center !important;
+    background-size: cover !important;
+    height: 400px;
+    width: 650px;
+    margin: auto;
+}
+
 .imageCaption {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: -50px !important;
+    color: #fffdfd;
     text-align: center;
+    z-index: 4;
 }
 .button-controller {
+    display: flex !important;
+    flex-direction: row;
     position: relative;
-    right: -5px;
-    top: 200px;
+    left: 45% !important;
+    top: -25px !important;
+    max-height: 100px;
 
     i {
         color: #821e6b;
@@ -206,6 +219,24 @@
     font-weight: bolder;
     color: #00683e;
 }
+
+.achievements-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.achievements-links a {
+    text-decoration: underline;
+    color: #821e6b;
+    padding: 20px;
+}
+
+.left-option {
+    border-right: #8f8f8f solid 2px;
+}
+
 /* Media Queries */
 
 /* Medium devices (tablets, 576px and up) */
@@ -221,10 +252,19 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    // OUR ACHIEVEMENTS
+    .gallery-picutre {
+        height: 250px;
+        width: 500px;
+        margin: auto;
+    }
+    .imageCaption {
+        font-size: 1.5rem !important;
+    }
 }
 
 /* Small devices (phones, less than 576px) */
-@media (min-width: 310px) and (max-width: 575.98px) {
+@media (min-width: 340px) and (max-width: 575.98px) {
     // .hero-text {
     //   margin-top: 60px !important;
     //   padding-top: 15px !important;
@@ -250,14 +290,25 @@
     }
     // BUTTON CONTROLLERS
     .button-controller {
-        position: relative;
-        right: -5px;
-        top: 60px;
-
-        i {
-            color: #821e6b;
-            font-size: 30px;
-            margin: 5px;
-        }
+        left: 40% !important;
+        top: -15px !important;
+    }
+    // OUR ACHIEVEMENTS
+    .gallery-picutre {
+        height: auto;
+        max-width: 300px;
+        margin: auto;
+    }
+    .imageCaption {
+        font-size: 1rem !important;
+        font-weight: bold;
+    }
+    //ACHIEVEMENT LINKS
+    .left-option {
+        border-bottom: none;
+        align-items: center;
+        border-right: none;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
     }
 }
