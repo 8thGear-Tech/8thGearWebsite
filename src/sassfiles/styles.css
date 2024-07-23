@@ -402,7 +402,7 @@ p {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border: 4px solid var(--clr-grey-8);
   box-shadow: var(--dark-shadow);
 }
@@ -464,7 +464,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-  .next {
+.next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -509,7 +509,7 @@ article h4 {
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     -webkit-animation: App-logo-spin infinite 20s linear;
-    animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -1114,34 +1114,17 @@ article h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(90, 88, 88, 0.1),
-    rgba(0, 0, 0, 0.7) 50%,
-    rgb(0, 0, 0) 100%
-  ); /* Adjust gradient as needed */
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
   z-index: 1;
 }
 
 /* Centered text */
 .hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
   text-align: center;
   color: #fff; /* White text color */
   z-index: 2;
-  /* Optional styles for text */
-}
-.hero-text h1 {
-  font-size: 4rem !important; /* Adjust font size as needed */
-  display: inline-block !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
 }
 
 .HeroButton {
@@ -1185,36 +1168,11 @@ article h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(90, 88, 88, 0.1),
-    rgba(0, 0, 0, 0.7) 50%,
-    rgb(0, 0, 0) 100%
-  ); /* Adjust gradient as needed */
+  background: linear-gradient(to bottom, rgba(90, 88, 88, 0.1), rgba(0, 0, 0, 0.7) 50%, rgb(0, 0, 0) 100%); /* Adjust gradient as needed */
   z-index: 1;
 }
 
 /* Centered text */
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff; /* White text color */
-  z-index: 2;
-  /* Optional styles for text */
-}
-.hero-text h1 {
-  font-size: 3rem; /* Adjust font size as needed */
-  display: inline-flex !important;
-  margin-bottom: 0.25rem;
-}
-.hero-text p {
-  margin-top: 1px;
-  padding: auto;
-}
-
 .impactCards {
   display: flex;
   justify-content: center;
@@ -1294,12 +1252,6 @@ article h4 {
 /* Media Queries */
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 850.34px) {
-  .hero-text h1 {
-    font-size: 1.75rem;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -1313,17 +1265,6 @@ article h4 {
 }
 /* Small devices (phones, less than 576px) */
 @media (min-width: 310px) and (max-width: 575.98px) {
-  .hero-text {
-    margin-top: 60px !important;
-    padding-top: 15px !important;
-  }
-  .hero-text h1 {
-    display: inline !important;
-    font-size: 2rem !important;
-  }
-  .hero-text p {
-    font-size: 1rem;
-  }
   .impactRow {
     display: flex !important;
     flex-direction: column !important;
@@ -2479,21 +2420,21 @@ h2 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-  .ManagedServicesTechHeroBgg::before,
-  .ManagedServicesLegalHeroBgg::before,
-  .ManagedServicesDigitalMargetingHeroBgg::before,
-  .GaaSHeroBgg::before,
-  .Herodemodayy::before,
-  .CoworkingHeroBgg::before {
+.ManagedServicesTechHeroBgg::before,
+.ManagedServicesLegalHeroBgg::before,
+.ManagedServicesDigitalMargetingHeroBgg::before,
+.GaaSHeroBgg::before,
+.Herodemodayy::before,
+.CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-  .ManagedServicesTechHeroBg,
-  .ManagedServicesLegalHeroBg,
-  .ManagedServicesDigitalMargetingHeroBg,
-  .GaaSHeroBg,
-  .Herodemoday,
-  .CoworkingHeroBg {
+.ManagedServicesTechHeroBg,
+.ManagedServicesLegalHeroBg,
+.ManagedServicesDigitalMargetingHeroBg,
+.GaaSHeroBg,
+.Herodemoday,
+.CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2588,14 +2529,7 @@ h2 {
 }
 
 .gradientBg {
-  background-image: linear-gradient(
-    to right,
-    #252c3e,
-    rgba(37, 44, 62, 0.66),
-    rgba(37, 44, 62, 0.42),
-    rgba(37, 44, 62, 0.1),
-    rgba(37, 44, 62, 0)
-  );
+  background-image: linear-gradient(to right, #252c3e, rgba(37, 44, 62, 0.66), rgba(37, 44, 62, 0.42), rgba(37, 44, 62, 0.1), rgba(37, 44, 62, 0));
 }
 
 .overlayBg {
@@ -2967,7 +2901,7 @@ video {
   width: 100vw;
   height: 100vh;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -3679,7 +3613,7 @@ header {
 
 .slider2 .slide2 img {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   height: 100%;
   width: auto;
   margin: auto;
