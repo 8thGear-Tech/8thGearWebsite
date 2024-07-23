@@ -7,10 +7,9 @@ import "../About/aboutUs.css";
 
 const Values = {
   vision:
-    "To be established as one of Nigeria’s leading development and enterprise support providers by our fifth year (2024)",
+    "An Africa where everyone with the drive to succeed has access to the resources they need to do so.",
   mission: [
-    "To build an ecosystem of value-adding and innovative ventures",
-    "To facilitate sustainable initiative/project",
+    "8thGear creates a safe space for entrepreneurs to test their innovations, builds an ecosystem of value-adding and innovative solutions, and facilitates sustainable and impact-driven initiatives across Africa.",
   ],
   value: [
     {
@@ -81,13 +80,14 @@ const CoreValue = () => {
                 style={{ maxWidth: "100px" }}
               />
               <h4 className="card-title text-center mt-2">Mission</h4>
-              <ul className="card-text text-start mt-4">
+              <p className="card-text mt-4">{Values.mission}</p>
+              {/* <ul className="card-text text-start mt-4">
                 {Values.mission.map((item, index) => (
                   <li key={index} className="p-0">
                     {item}
                   </li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

@@ -193,7 +193,7 @@ function App() {
       <footer>
         <NewFooter />
         {/* <Footer /> */}
-        <ScrollButton />
+        {/* <ScrollButton /> */}
       </footer>
       {/* </FooterItemToTop> */}
       {/* WhatsApp icon */}

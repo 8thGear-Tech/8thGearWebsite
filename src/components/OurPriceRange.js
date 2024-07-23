@@ -290,11 +290,25 @@ const OurPriceRange = () => {
       <div className="text-center mb-4 text-uppercase">
         <h3>Our Price Range</h3>
       </div>
-      <div className="button-group text-center mb-4">
+      {/* <div className="button-group text-center mb-4">
         {plans.map((plan) => (
           <Button
             key={plan.id}
             className={`btn btn-primary p-2 px-3 rounded-pill fs-6 fw-semibold text-center me-2 text-white ${
+              currentPlan === plan.id ? "active" : ""
+            }`}
+            onClick={() => handlePlanClick(plan.id)}
+          >
+            {plan.planTitle}
+          </Button>
+        ))}
+      </div> */}
+
+      <div className="button-group">
+        {plans.map((plan) => (
+          <Button
+            key={plan.id}
+            className={`price-button ${
               currentPlan === plan.id ? "active" : ""
             }`}
             onClick={() => handlePlanClick(plan.id)}

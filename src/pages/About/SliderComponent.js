@@ -3,6 +3,7 @@ import { Container, Card, Row, Col } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa6";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./aboutUs.css";
+import { LinkedInIcon } from "../../components/Icons";
 
 const slidesData = [
   {
@@ -64,54 +65,70 @@ const SliderComponent = () => {
           <div className="scroll-container">
             <div className="scroll-content">
               {slidesData.map((slide, index) => (
-                <Card key={index} className="scroll-card slideCard mb-5">
-                  <Card.Img
-                    variant="top"
-                    src={slide.image}
-                    className="img-fluid ImgCard"
-                  />
-                  <Card.Body className="rounded-bottom bodyBG text-white">
-                    <Card.Title className="fs-5 mb-0 text-white text-center">
-                      {slide.title}
-                    </Card.Title>
-                    <Card.Text className="fs-6 mb-1 text-center">
-                      {slide.staff}
-                    </Card.Text>
-                    <a
+                <a href={slide.link}>
+                  <Card key={index} className="scroll-card slideCard mb-5">
+                    <Card.Img
+                      variant="top"
+                      src={slide.image}
+                      className="img-fluid ImgCard"
+                    />
+                    <Card.Body className="rounded-bottom bodyBG text-white">
+                      <Card.Title className="fs-5 mb-0 text-white text-center">
+                        {slide.title}
+                      </Card.Title>
+                      <Card.Text className="fs-6 mb-1 text-center">
+                        {slide.staff}
+                      </Card.Text>
+                      <a href={slide.link}>
+                        <div className="text-center" style={{ color: "#fff" }}>
+                          {" "}
+                          <LinkedInIcon />
+                        </div>
+                      </a>
+                      {/* <a
                       href={slide.link}
                       className="arrow-link d-flex align-items-center text-white text-decoration-none"
                     >
                       <FaArrowRight />
-                    </a>
-                  </Card.Body>
-                </Card>
+                    </a> */}
+                    </Card.Body>
+                  </Card>
+                </a>
               ))}
               {/* Repeat the content to create an infinite scroll illusion */}
               {slidesData.map((slide, index) => (
-                <Card
-                  key={index + slidesData.length}
-                  className="scroll-card slideCard"
-                >
-                  <Card.Img
-                    variant="top"
-                    src={slide.image}
-                    className="img-fluid ImgCard"
-                  />
-                  <Card.Body className="rounded-bottom bodyBG text-white">
-                    <Card.Title className="fs-5 mb-0 text-white text-center">
-                      {slide.title}
-                    </Card.Title>
-                    <Card.Text className="fs-6 mb-1 text-center">
-                      {slide.staff}
-                    </Card.Text>
-                    <a
+                <a href={slide.link}>
+                  <Card
+                    key={index + slidesData.length}
+                    className="scroll-card slideCard"
+                  >
+                    <Card.Img
+                      variant="top"
+                      src={slide.image}
+                      className="img-fluid ImgCard"
+                    />
+                    <Card.Body className="rounded-bottom bodyBG text-white">
+                      <Card.Title className="fs-5 mb-0 text-white text-center">
+                        {slide.title}
+                      </Card.Title>
+                      <Card.Text className="fs-6 mb-1 text-center">
+                        {slide.staff}
+                      </Card.Text>
+                      <a href={slide.link}>
+                        <div className="text-center" style={{ color: "#fff" }}>
+                          {" "}
+                          <LinkedInIcon />
+                        </div>
+                      </a>
+                      {/* <a
                       href={slide.link}
                       className="arrow-link d-flex align-items-center text-white text-decoration-none"
                     >
                       <FaArrowRight />
-                    </a>
-                  </Card.Body>
-                </Card>
+                    </a> */}
+                    </Card.Body>
+                  </Card>
+                </a>
               ))}
             </div>
           </div>
