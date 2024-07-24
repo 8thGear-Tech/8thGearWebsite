@@ -4,7 +4,7 @@
       "image1": "../../images/team/lorretta.png",
       "name1": "LORETTA UDEMBA",
       "title1": "HR & TALENT MANAGER",
-      "id": "staticBackdrop2",
+      "id": "staticBackdrop1",
       "link": "https://www.linkedin.com/in/lorrettaudemba/"
     }
   ],
@@ -13,46 +13,38 @@
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "DR. SEUN OLADELE",
       "title1": "PROJECT DEV. CONSULTANT",
-      "id": "staticBackdrop6",
+      "id": "staticBackdrop2",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     }
   ],
   "teamcardthree": [
     {
-      "image1": "../../images/team/moyosore.png",
-      "name1": "MOYOSORE AMAO",
-      "title1": "AG. BUSINESS DEV. LEAD",
-      "id": "staticBackdrop5",
-      "link": "https://www.linkedin.com/in/moyoamao/"
+      "image1": "../../images/team/vindee.png",
+      "name1": "VINDICATION JOSEPH",
+      "title1": "PROGRAMS & PROJECT LEAD",
+      "id": "staticBackdrop4",
+      "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
     }
   ],
   "teamcardfour": [
     {
-      "image1": "../../images/team/vindee.png",
-      "name1": "VINDICATION JOSEPH",
-      "title1": "PROGRAMS & PROJECT LEAD",
-      "id": "staticBackdrop3",
-      "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
+      "image1": "../../images/team/opeyemi.png",
+      "name1": "OPEYEMI BIOKU",
+      "title1": "TECH LEAD",
+      "id": "staticBackdrop5",
+      "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
   "teamcardfive": [
     {
-      "image1": "../../images/team/opeyemi.png",
-      "name1": "OPEYEMI BIOKU",
-      "title1": "TECH LEAD",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/opeyemi-bioku"
-    }
-  ],
-  "teamcardsix": [
-    {
       "image1": "../../images/team/hakeem.png",
       "name1": "HAKEEM IDRIS",
       "title1": "FINANCE & ACC. EXECUTIVE",
-      "id": "staticBackdrop1",
+      "id": "staticBackdrop6",
       "link": "https://www.linkedin.com/in/hakeemidris010/"
     }
   ],
+  "teamcardsix": [],
 
   "EIRcard": [
     {
