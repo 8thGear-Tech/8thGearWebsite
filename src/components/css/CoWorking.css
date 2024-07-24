@@ -1,8 +1,8 @@
-.main {
+.workspace {
   border-top: 1px solid black;
 }
 
-.main h3 {
+.workspace h3 {
   color: #a5009f;
   margin-top: 50px;
   display: flex;
@@ -11,20 +11,20 @@
   text-transform: uppercase;
 }
 
-.main p {
+.workspace p {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   font-size: 16px;
 }
 
-.main a {
+.workspace a {
   margin-left: 3px;
   text-decoration: underline;
   color: inherit;
 }
 
-.main .coworking-img {
+.workspace .coworking-img {
   width: 100%;
   height: 80vh;
   object-fit: cover;
@@ -135,14 +135,6 @@
 
 .card-title.h5 {
   color: #a5009f;
-  justify-content: center;
-  font-family: "Poppins", sans-serif !important;
-  font-size: 20px !important;
-  font-weight: 600 !important;
-  line-height: 20px !important;
-  text-align: center !important;
-  margin-top: 10px;
-  /* border-bottom: 1px solid #a5009f; */
 }
 .new-tab-card hr {
   color: #a5009f;
@@ -255,6 +247,35 @@
   padding: 40px 0;
 }
 
+/* i commented this out */
+
+/* .new-tab-card li {
+  color: #1c1c1c;
+} */
+
+/* .hero-section {
+  background-image: url("../image/radio.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  height: 580px;
+  top: 12rem;
+}
+
+.client-section {
+  background-color: #fff1ff;
+} */
+
+/* i commented this out - up */
+
 .section-title {
   color: #890084;
   text-transform: uppercase;
@@ -269,6 +290,16 @@
   max-height: 100px;
   max-width: 100%;
   margin: 0 10px !important;
+}
+
+/* #dropdown */
+#dropdown-basic-button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #6e006a;
+  height: 2.7rem;
+  transition: background-color 0.3s, color 0.3s;
+  justify-content: center;
 }
 
 /* @media (min-width: 768px) {

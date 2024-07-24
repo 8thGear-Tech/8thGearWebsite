@@ -49,7 +49,6 @@ import DigiPlus from "./pages/DigiPlus";
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
-import About from "./components/About/About";
 import BlogPage from "./pages/Insights/blog";
 
 //Events
