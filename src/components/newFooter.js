@@ -83,15 +83,6 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/about"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    WHO WE ARE
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
                     to="/coWorking"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}

@@ -21,13 +21,14 @@ import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { ProjectNav } from "../../components/Navbar";
 
 // IMPORTED PICTURES FOR OUR SUCESS STORY SECTION
-import piggeryTraining from "../../assets/gallerycards/piggerytraining.jpg";
-import employabilityGIZ from "../../assets/gallerycards/employabilityGIZ.jpg";
-import innkeeperHackathon from "../../assets/gallerycards/innkeeperhackathon.JPG";
-import itf from "../../assets/gallerycards/itf.JPG";
-import lsetfTraining from "../../assets/gallerycards/LSETFTraining.jpg";
+import piggeryTraining from "../../assets/gallerycards/piggerytraining.png";
+import employabilityGIZ from "../../assets/gallerycards/employabilityGIZ.png";
+import innkeeperHackathon from "../../assets/gallerycards/innkeeperhackathon.png";
+import itf from "../../assets/gallerycards/itf.png";
+import lsetfTraining21 from "../../assets/gallerycards/LSETFTraining21.png";
+import lsetfTraining23 from "../../assets/gallerycards/LSETFTraining23.png";
 // import getonlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.jpg";
-import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.JPG";
+import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigiplus.png";
 
 // Sass File
 import "../../sassfiles/pages/projectdelivery/_projectDelivery.scss";
@@ -128,7 +129,7 @@ const Competencies = () => {
 
 const OurClients = () => {
   return (
-    <div className="container-fluid py-4 clients">
+    <div className="container-fluid pt-4 clients">
       {" "}
       <div className="row g-0">
         <h3 className="mt-7 text-center mb-5 purple-text">OUR PARTNERS</h3>
@@ -143,11 +144,12 @@ const OurClients = () => {
 const SuccessStoryCards = () => {
   const images = [
     { src: getOnlineWithDigiplus, text: "Get Online with Digiplus - 2024" },
+    { src: lsetfTraining23, text: "USADF/LSETF Training 2023/2024" },
     { src: employabilityGIZ, text: "Employability 2022 - GIZ" },
     { src: innkeeperHackathon, text: "Innkeeper Hackathon 2022" },
     { src: itf, text: "ITF Training" },
     { src: piggeryTraining, text: "Piggery Training - GIZ" },
-    { src: lsetfTraining, text: "USADF/LSETF Training 2021/2022" },
+    { src: lsetfTraining21, text: "USADF/LSETF Training 2021/2022" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -165,10 +167,22 @@ const SuccessStoryCards = () => {
   };
 
   return (
-    <div className="container-fluid py-4 successStory">
-      <div className="m-4">
-        <h3 className="purple-text">ACHIEVEMENTS</h3>
+    <div className="container-fluid pb-4 successStory">
+      <div className="mx-4">
+        <h3 className="purple-text mb-4">ACHIEVEMENTS</h3>
       </div>
+      {/* <div className="d-flex justify-content-center">
+        <a
+          href="https://drive.google.com/drive/u/0/folders/1h0OUWJXY-ccfANNR9FSkqj7IJ65t7bem"
+          className="mx-1"
+          style={{ color: "#000" }}
+        >
+          <p>Impact Report</p>
+        </a>
+        <a href="#" className="mx-1" style={{ color: "#000" }}>
+          <p>Testimonials</p>
+        </a>
+      </div> */}
       <div className="mb-4 ">
         <div className="gallery">
           <div className="gallery-container container-fluid rounded">
@@ -177,19 +191,60 @@ const SuccessStoryCards = () => {
               alt={`image ${currentIndex + 1}`}
               className="img-fluid rounded"
             />
-            <p className="imageCaption">{images[currentIndex].text}</p>
-          </div>
-          <div className="button-controller">
-            <i
-              className="bi bi-arrow-up-square-fill"
-              onClick={handleUp}
-              type="button"
-            ></i>
-            <i
-              className="bi bi-arrow-down-square-fill"
-              onClick={handleDown}
-              type="button"
-            ></i>
+
+            {/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                      position: absolute;
+                      top: 50%; 
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                    padding: 5px 10px; */}
+            {/* <p
+              className=""
+              //   style={{
+              //     position: "relative",
+              //     color: "#fff",
+              //     top: "-35px",
+              //     fontSize: "1.4rem",
+              //     backdropFilter: "blur(1px)",
+              //     textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+              //   }}
+            >
+              <b> {images[currentIndex].text}</b>
+            </p> */}
+            <p className="imageCaption">
+              <b>{images[currentIndex].text}</b>
+            </p>
+            <div className="d-flex justify-content-center">
+              <a
+                href="https://drive.google.com/drive/u/0/folders/1h0OUWJXY-ccfANNR9FSkqj7IJ65t7bem"
+                className="mx-1"
+                target="_blank"
+                style={{ color: "#000" }}
+              >
+                <p>Impact Reports</p>
+              </a>
+              <a
+                href="https://youtu.be/VDOXY3bu-kQ?si=6Q2eobkPpwcoSn6F"
+                className="mx-1"
+                target="_blank"
+                style={{ color: "#000" }}
+              >
+                <p>Testimonials</p>
+              </a>
+            </div>
+            <div className="button-controller">
+              {/* <div className=""> */}{" "}
+              <i
+                className="bi bi-arrow-left-square-fill mx-1"
+                onClick={handleUp}
+                type="button"
+              ></i>
+              <i
+                className="bi bi-arrow-right-square-fill mx-1"
+                onClick={handleDown}
+                type="button"
+              ></i>
+            </div>
           </div>
         </div>
       </div>

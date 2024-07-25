@@ -1077,16 +1077,9 @@ article h4 {
   top: 10px;
   text-align: center;
 }
-.button-controller {
-  position: relative;
-  right: -5px;
-  top: 200px;
-}
 .button-controller i {
   color: #821e6b;
   font-size: 30px;
-  display: flex;
-  margin: 5px;
 }
 .impactRow {
   display: flex;
@@ -1130,15 +1123,9 @@ article h4 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .button-controller {
-    position: relative;
-    right: -5px;
-    top: 60px;
-  }
   .button-controller i {
     color: #821e6b;
     font-size: 30px;
-    margin: 5px;
   }
 }
 .howItWorksBg {

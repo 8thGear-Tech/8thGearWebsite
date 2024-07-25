@@ -10,6 +10,7 @@ import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
 import { Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
 import coworking from "../../assets/images/coworking/coworking.png";
+import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 
 //team
 import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
