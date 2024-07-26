@@ -224,12 +224,20 @@ const SuccessStoryCards = () => {
                 <p>Impact Reports</p>
               </a>
               <a
-                href="https://youtu.be/VDOXY3bu-kQ?si=6Q2eobkPpwcoSn6F"
+                href="https://www.usadf.gov/story/1090"
                 className="mx-1"
                 target="_blank"
                 style={{ color: "#000" }}
               >
                 <p>Testimonials</p>
+              </a>
+              <a
+                href="https://www.google.com/search?q=8thgearpartners&sca_esv=0816324f79341d82&sxsrf=ADLYWIKKXbmfdYf3gsCCQjpPklcQMenajg%3A1721982091549&ei=i1yjZr-gIdGwhbIPh-CNqQg&ved=0ahUKEwj_kYGXo8SHAxVRWEEAHQdwI4UQ4dUDCBA&uact=5&oq=8thgearpartners&gs_lp=Egxnd3Mtd2l6LXNlcnAiDzh0aGdlYXJwYXJ0bmVyczIHECMYsAMYJzIQEC4YgAQYsAMYxwEYDRivATILEAAYgAQYsAMYogQyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBEg1UABYAHABeACQAQCYAQCgAQCqAQC4AQPIAQCYAgGgAhGYAwCIBgGQBgWSBwExoAcA&sclient=gws-wiz-serp#lrd=0x103b93b1a35e5485:0xadb42002710ea3b0,1,,,,"
+                className="mx-1"
+                target="_blank"
+                style={{ color: "#000" }}
+              >
+                <p>Reviews</p>
               </a>
             </div>
             <div className="button-controller">
