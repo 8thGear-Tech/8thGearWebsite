@@ -1130,6 +1130,7 @@ article h4 {
   text-align: center;
   color: #fff; /* White text color */
   z-index: 2;
+  /* Optional styles for text */
 }
 
 .HeroButton {
@@ -1182,7 +1183,6 @@ article h4 {
   z-index: 1;
 }
 
-/* Centered text */
 .impactCards {
   display: flex;
   justify-content: center;
@@ -1225,16 +1225,9 @@ article h4 {
   text-align: center;
 }
 
-.button-controller {
-  position: relative;
-  right: -5px;
-  top: 200px;
-}
 .button-controller i {
   color: #821e6b;
   font-size: 30px;
-  display: flex;
-  margin: 5px;
 }
 
 .impactRow {
@@ -1285,15 +1278,9 @@ article h4 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .button-controller {
-    position: relative;
-    right: -5px;
-    top: 60px;
-  }
   .button-controller i {
     color: #821e6b;
     font-size: 30px;
-    margin: 5px;
   }
 }
 .howItWorksBg {

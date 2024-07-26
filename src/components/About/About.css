@@ -16,7 +16,7 @@
 }
 
 .animated-text {
-  font-size: srem;
+  /* font-size: rem; */
   font-weight: 600;
   min-width: 280px;
 }
