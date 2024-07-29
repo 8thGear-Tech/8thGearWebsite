@@ -7,7 +7,7 @@ import { InstagramIcon } from "../components/Icons";
 import { LinkedInIcon } from "../components/Icons";
 import { TwitterIcon } from "../components/Icons";
 import { HomeBtn } from "../components/Buttons/ContactBtn";
-import { ContactBtn } from "../components/Buttons/ContactBtn";
+// import { ContactBtn } from "../components/Buttons/ContactBtn";
 import { Link } from "react-router-dom";
 
 // Images
@@ -41,7 +41,7 @@ const Error404 = () => {
             </Link>
             <a href="mailto:info@8thgearpartners.com">
               <div className="ms-3">
-                <ContactBtn />
+                {/* <ContactBtn /> */}
               </div>
             </a>
           </div>

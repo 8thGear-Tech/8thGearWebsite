@@ -48,12 +48,12 @@ function HeroCarousel() {
             </a>
           </div>
           <img
-            src="/images/coworkingNew/slide_1_short.PNG"
+            src="/images/coworkingNew/slide_1_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_2_short.PNG"
+            src="/images/coworkingNew/slide_2_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />
@@ -104,12 +104,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_2_short.PNG"
+            src="/images/coworkingNew/slide_2_short.png"
             alt="Overlay"
             className="overlay-image "
           />
           <img
-            src="/images/coworkingNew/slide_3_short.PNG"
+            src="/images/coworkingNew/slide_3_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />
@@ -120,7 +120,7 @@ function HeroCarousel() {
           className="d-block w-100"
           style={{
             backgroundImage:
-              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_3.JPG)",
+              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_3.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "100vh",
@@ -161,12 +161,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_3_short.PNG"
+            src="/images/coworkingNew/slide_3_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_4_short.PNG"
+            src="/images/coworkingNew/slide_4_short.png"
             alt="Overlay"
             className="overlay-image2"
           />
@@ -177,7 +177,7 @@ function HeroCarousel() {
           className="d-block w-100"
           style={{
             backgroundImage:
-              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_4.JPG)",
+              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_4.jpg)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "100vh",
@@ -215,12 +215,12 @@ function HeroCarousel() {
           </div>
 
           <img
-            src="/images/coworkingNew/slide_4_short.PNG"
+            src="/images/coworkingNew/slide_4_short.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="/images/coworkingNew/slide_1_short.PNG"
+            src="/images/coworkingNew/slide_1_short.png"
             alt="Overlay2"
             className="overlay-image2"
           />

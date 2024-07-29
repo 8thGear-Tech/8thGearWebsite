@@ -4,8 +4,8 @@ import { BsArrowUpSquare, BsArrowDownSquare } from "react-icons/bs";
 
 export const OurNewSpaces = () => {
   const images = [
-    { src: "/images/coworkingNew/location_1.PNG", text: "8thGear Hub" },
-    { src: "/images/coworkingNew/location_2.PNG", text: "Hub One" },
+    { src: "/images/coworkingNew/location_1.png", text: "8thGear Hub" },
+    { src: "/images/coworkingNew/location_2.png", text: "Hub One" },
     // { src: "/images/coworkingNew/location_3.PNG", text: "Suburban Hub" },
   ];
 
@@ -43,7 +43,6 @@ export const OurNewSpaces = () => {
             </h3>
           </div>
           <div className="button-container d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
-            {/* <div className="">
             <div className="row row-gap-3">
               <BsArrowUpSquare
                 onClick={handleUp}
@@ -55,8 +54,8 @@ export const OurNewSpaces = () => {
                 type="button"
                 className="location-arrow-height"
               />
-            </div> */}
-            <i
+            </div>
+            {/* <i
               className="bi bi-arrow-up-square-fill"
               onClick={handleUp}
               type="button"
@@ -65,11 +64,11 @@ export const OurNewSpaces = () => {
               className="bi bi-arrow-down-square-fill"
               onClick={handleDown}
               type="button"
-            ></i>
+            ></i> */}
           </div>
         </div>{" "}
         <div className="mt-3 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
-          {/* <BsArrowUpSquare
+          <BsArrowUpSquare
             onClick={handleUp}
             type="button"
             className="mx-1 location-arrow-height"
@@ -78,8 +77,8 @@ export const OurNewSpaces = () => {
             onClick={handleDown}
             type="button"
             className="mx-1 location-arrow-height"
-          /> */}
-          <i
+          />
+          {/* <i
             className="bi bi-arrow-up-square-fill mx-1"
             onClick={handleUp}
             type="button"
@@ -88,7 +87,7 @@ export const OurNewSpaces = () => {
             className="bi bi-arrow-down-square-fill mx-1"
             onClick={handleDown}
             type="button"
-          ></i>
+          ></i> */}
         </div>{" "}
         <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
           <Button>Book a Space</Button>

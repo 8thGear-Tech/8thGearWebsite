@@ -8,9 +8,9 @@ const EventGallery = () => {
       <div className="container-fluid successStoryBg mt-5">
         {" "}
         <div className="row justify-content-center mt-5 mb-2 py-5 mx-lg-5 px-3">
-        <div className="eventsHead d-flex justify-content-center align-items-center">
-        <h3 className="fw-semibold pt-4">Gallery</h3>
-      </div>
+          <div className="eventsHead d-flex justify-content-center align-items-center">
+            <h3 className="pt-4">GALLERY</h3>
+          </div>
           {eventsGallery.eventsGallerySection.map((items) => {
             return (
               <>

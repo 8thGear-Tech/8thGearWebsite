@@ -49,7 +49,6 @@ import DigiPlus from "./pages/DigiPlus";
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
-import About from "./components/About/About";
 import BlogPage from "./pages/Insights/blog";
 
 //Events
@@ -91,112 +90,112 @@ import AccountingIntern from "./pages/Careers/AccountingIntern";
 function App() {
   return (
     <BrowserRouter>
-      <FooterItemToTop>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="our-model" element={<OurModelPage />} />
-          <Route path="portfolio" element={<PortfolioPage />} />
-          <Route path="resources" element={<Resources />} />
-          <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
-          <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
-          <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
-          <Route path="haven" element={<HavenPortfolioPage />} />
-          <Route path="legalmo" element={<LegalMoPortfolioPage />} />
-          <Route path="trulance" element={<TrulancePortfolioPage />} />
-          <Route path="project-delivery" element={<ProjectDeliveryPage />} />
-          <Route
-            path="project-delivery-gallery"
-            element={<ProjectDeliveryGalleryPage />}
-          />
-          <Route path="Enterprise-Support" element={<EnterpriseSupport />} />
-          <Route path="Ecosystem-Events" element={<EcosystemEvents />} />
-          <Route path="Talent-Development" element={<TalentDevelopment />} />
-          <Route path="GIZ-employability-gallery" element={<GIZPage />} />
-          <Route path="piggery-training" element={<PiggeryTrainingPage />} />
-          <Route path="LSETF-gallery" element={<LSETFPage />} />
-          <Route
-            path="innkeeper-hackathon-gallery"
-            element={<InnkeeperHackathonGalleryPage />}
-          />
-          <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
-          <Route path="hub-services" element={<HubServicesPage />} />
-          <Route path="FUTA-techpic" element={<FUTATechpic />} />
-          <Route path="digiplus" element={<DigiPlus />} />
+      {/* <FooterItemToTop> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="our-model" element={<OurModelPage />} />
+        <Route path="portfolio" element={<PortfolioPage />} />
+        <Route path="resources" element={<Resources />} />
+        <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
+        <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
+        <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
+        <Route path="haven" element={<HavenPortfolioPage />} />
+        <Route path="legalmo" element={<LegalMoPortfolioPage />} />
+        <Route path="trulance" element={<TrulancePortfolioPage />} />
+        <Route path="projects" element={<ProjectDeliveryPage />} />
+        <Route
+          path="project-delivery-gallery"
+          element={<ProjectDeliveryGalleryPage />}
+        />
+        <Route path="Enterprise-Support" element={<EnterpriseSupport />} />
+        <Route path="Ecosystem-Events" element={<EcosystemEvents />} />
+        <Route path="Talent-Development" element={<TalentDevelopment />} />
+        <Route path="GIZ-employability-gallery" element={<GIZPage />} />
+        <Route path="piggery-training" element={<PiggeryTrainingPage />} />
+        <Route path="LSETF-gallery" element={<LSETFPage />} />
+        <Route
+          path="innkeeper-hackathon-gallery"
+          element={<InnkeeperHackathonGalleryPage />}
+        />
+        <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
+        <Route path="hub-services" element={<HubServicesPage />} />
+        <Route path="FUTA-techpic" element={<FUTATechpic />} />
+        <Route path="digiplus" element={<DigiPlus />} />
 
-          <Route
-            path="digitalmarketing"
-            element={<HubServicesDigitalMarketing />}
-          />
-          <Route path="accounting" element={<HubServicesAccounting />} />
-          <Route path="legal" element={<HubServicesLegal />} />
-          <Route path="product-development" element={<HubServicesTech />} />
-          <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
-          <Route path="coworking" element={<CoWorking />} />
-          <Route path="talent-placement" element={<TalentPlacement />} />
+        <Route
+          path="digitalmarketing"
+          element={<HubServicesDigitalMarketing />}
+        />
+        <Route path="accounting" element={<HubServicesAccounting />} />
+        <Route path="legal" element={<HubServicesLegal />} />
+        <Route path="product-development" element={<HubServicesTech />} />
+        <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+        <Route path="coworking" element={<CoWorking />} />
+        <Route path="talent-placement" element={<TalentPlacement />} />
 
-          <Route path="about" element={<AboutUs />} />
-          {/* <Route path="about" element={<About />} /> */}
-          <Route path="team" element={<TeamPage />} />
-          {/* <Route path="blog" element={<BlogPage />} /> */}
-          {/* <Route path="faq" element={<FAQ />} /> */}
-          <Route path="events" element={<EventsPage />} />
-          <Route path="eventsNew" element={<EventsNew />} />
-          <Route path="events-gallery" element={<EventsGalleryPage />} />
-          <Route path="demo-day" element={<DemoDayPage />} />
-          <Route path="founders-meetup" element={<FounderMeetupPage />} />
-          <Route
-            path="founders-meetup-gallery"
-            element={<FoundersMeetupGalleryPage />}
-          />
-          <Route
-            path="founders-meetup-gallery-2023"
-            element={<FoundersPictureGalleryCardsTwo />}
-          />
-          <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
-          <Route
-            path="4th-year-anniversary"
-            element={<FourthYearAnniversary />}
-          />
-          {/* NewEvents Gallery  */}
-          <Route path="fmu-q1-gallery" element={<FMU_Q1 />} />
-          <Route path="fmu-q2-gallery" element={<FMU_Q2 />} />
-          <Route path="gear-up-expose" element={<GearUpExposePage />} />
-          <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
-          <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
-          <Route path="terms-and-conditions" element={<TermsAndConditions />} />
-          <Route path="refund-policy" element={<RefundPolicy />} />
-          <Route path="*" element={<Error404 />} />
-          <Route path="resources" element={<Resources />} />
-          <Route
-            path="ABCBusinessAccounting"
-            element={<ABCBusinessAccountingReadMore />}
-          />
-          <Route
-            path="KeepingAccountingRecords"
-            element={<KeepingAccountingRecordsReadMore />}
-          />
-          <Route
-            path="NigerianStartupActs"
-            element={<NigerianStartupActsReadMore />}
-          />
-          <Route path="video" element={<VideoReadMore />} />
-          <Route path="business-model-canva" element={<VideoDetail />} />
+        <Route path="about" element={<AboutUs />} />
+        {/* <Route path="about" element={<About />} /> */}
+        <Route path="team" element={<TeamPage />} />
+        {/* <Route path="blog" element={<BlogPage />} /> */}
+        {/* <Route path="faq" element={<FAQ />} /> */}
+        {/* <Route path="events" element={<EventsPage />} /> */}
+        <Route path="events" element={<EventsNew />} />
+        <Route path="events-gallery" element={<EventsGalleryPage />} />
+        <Route path="demo-day" element={<DemoDayPage />} />
+        <Route path="founders-meetup" element={<FounderMeetupPage />} />
+        <Route
+          path="founders-meetup-gallery"
+          element={<FoundersMeetupGalleryPage />}
+        />
+        <Route
+          path="founders-meetup-gallery-2023"
+          element={<FoundersPictureGalleryCardsTwo />}
+        />
+        <Route path="demo-day-gallery" element={<DemoDayGalleryPage />} />
+        <Route
+          path="4th-year-anniversary"
+          element={<FourthYearAnniversary />}
+        />
+        {/* NewEvents Gallery  */}
+        <Route path="fmu-q1-gallery" element={<FMU_Q1 />} />
+        <Route path="fmu-q2-gallery" element={<FMU_Q2 />} />
+        <Route path="gear-up-expose" element={<GearUpExposePage />} />
+        <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
+        <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
+        <Route path="terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="refund-policy" element={<RefundPolicy />} />
+        <Route path="*" element={<Error404 />} />
+        <Route path="resources" element={<Resources />} />
+        <Route
+          path="ABCBusinessAccounting"
+          element={<ABCBusinessAccountingReadMore />}
+        />
+        <Route
+          path="KeepingAccountingRecords"
+          element={<KeepingAccountingRecordsReadMore />}
+        />
+        <Route
+          path="NigerianStartupActs"
+          element={<NigerianStartupActsReadMore />}
+        />
+        <Route path="video" element={<VideoReadMore />} />
+        <Route path="business-model-canva" element={<VideoDetail />} />
 
-          {/* Careers */}
-          <Route
-            path="BDandVentureStudioOfficer"
-            element={<BDandVentureStudioOfficer />}
-          />
-          <Route path="HRIntern" element={<HRIntern />} />
-          <Route path="AccountingIntern" element={<AccountingIntern />} />
-        </Routes>
-        {/* https://8thgearpartners.com/digital-skills-scholarship */}
-        <footer>
-          <NewFooter />
-          {/* <Footer /> */}
-          <ScrollButton />
-        </footer>
-      </FooterItemToTop>
+        {/* Careers */}
+        <Route
+          path="BDandVentureStudioOfficer"
+          element={<BDandVentureStudioOfficer />}
+        />
+        <Route path="HRIntern" element={<HRIntern />} />
+        <Route path="AccountingIntern" element={<AccountingIntern />} />
+      </Routes>
+      {/* https://8thgearpartners.com/digital-skills-scholarship */}
+      <footer>
+        <NewFooter />
+        {/* <Footer /> */}
+        {/* <ScrollButton /> */}
+      </footer>
+      {/* </FooterItemToTop> */}
       {/* WhatsApp icon */}
       {/* <a
         href="https://wa.me/2348094818883"

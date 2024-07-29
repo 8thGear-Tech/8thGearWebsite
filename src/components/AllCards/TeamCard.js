@@ -44,18 +44,18 @@ export const TeamCard = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/omowunmiobidairo/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
 
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberOneViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         className="btn btn-primary"
@@ -144,17 +144,17 @@ export const TeamCardTwo = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/damilolaobidairo/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberTwoViewBioBtn />
-            </div>
+            </div> */}
 
             {/* <button
         type="button"
@@ -284,17 +284,17 @@ export const TeamCardThree = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/titilayo-ekundayo-833336a1/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberThreeViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         className="btn btn-primary"
@@ -402,17 +402,17 @@ export const TeamCardFour = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/temitopekazeem/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberFourViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         className="btn btn-primary"
@@ -520,17 +520,17 @@ export const TeamCardFive = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/opeyemi-bioku">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberFiveViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         className="btn btn-primary"
@@ -638,17 +638,17 @@ export const TeamCardSix = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            {/* <a href="https://www.linkedin.com/in/adam-yakub-aca-2848a2170/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
               </div>
-            </a> */}
+            </a>
             {/* <JointheTeamBtn /> */}
-            <div className="text-center">
+            {/* <div className="text-center">
               {" "}
               <MemberSixViewBioBtn />
-            </div>
+            </div> */}
             {/* <button
         type="button"
         className="btn btn-primary"
@@ -896,7 +896,7 @@ export const TeamCardEight = (props) => {
 export const Gerians = () => {
   return (
     <div className="container">
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center mt-5 mb-3">
         <h3 className="text-center">OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
@@ -916,19 +916,36 @@ export const Gerians = () => {
             return <TeamCardThree {...card}></TeamCardThree>;
           })}
         </div>
+      </div>
+      <div className="row justify-content-center mt-3 mb-5">
+        {" "}
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfour.map((card) => {
             return <TeamCardFour {...card}></TeamCardFour>;
           })}
         </div>
-        {/* <div className="col-lg-4 col-md-6 mt-5">
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardfive.map((card) => {
+            return <TeamCardFive {...card}></TeamCardFive>;
+          })}
+        </div>
+      </div>
+
+      {/* <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardsix.map((card) => {
+            return <TeamCardSix {...card}></TeamCardSix>;
+          })}
+        </div> */}
+
+      {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardeight.map((card) => {
             return <TeamCardEight {...card}></TeamCardEight>;
           })}
         </div> */}
-      </div>
     </div>
   );
 };
@@ -1134,9 +1151,9 @@ export const EIR = () => {
   return (
     <div className="container ">
       <div className="row d-flex justify-content-center">
-        <h4 className="text-center pt-5 mt-5 mb-4">
+        <h3 className="text-center mt-5 mb-5 purple-text">
           ENTREPRENEURS IN RESIDENCE
-        </h4>
+        </h3>
         {EIRdata.EIRcard.map((card) => {
           return (
             <div
