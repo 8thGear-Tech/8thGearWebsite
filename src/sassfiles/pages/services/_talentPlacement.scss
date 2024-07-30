@@ -1,8 +1,8 @@
-.card {
-  fill: #fff;
-  stroke-width: 5px !important;
-  stroke: rgba(0, 0, 0, 0.8) !important;
-}
+// .card {
+//   fill: #fff;
+//   stroke-width: 5px !important;
+//   stroke: rgba(0, 0, 0, 0.8) !important;
+// }
 
 .fade-in {
   opacity: 1;
@@ -79,11 +79,7 @@
     transform: translateX(-50%);
   }
 }
-
-// #navbarDarkdropdownMenuLink,
-// .nav-link,
-// .dropdown-toggle,
-// .dropdown {
-//   // padding: 0 !important;
-//   margin: 0 !important;
-// }
+.talentPlacementCard {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 40px 40px;
+}

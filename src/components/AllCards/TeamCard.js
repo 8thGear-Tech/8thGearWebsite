@@ -44,7 +44,7 @@ export const TeamCard = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/hakeemidris010/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -144,7 +144,7 @@ export const TeamCardTwo = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/lorrettaudemba/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -284,7 +284,7 @@ export const TeamCardThree = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -402,7 +402,7 @@ export const TeamCardFour = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/opeyemi-bioku">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -520,7 +520,7 @@ export const TeamCardFive = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/moyoamao/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -638,7 +638,7 @@ export const TeamCardSix = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href="https://www.linkedin.com/in/seun-oladele-676b7623b/">
+            <a href={link} target="_blank">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -896,7 +896,7 @@ export const TeamCardEight = (props) => {
 export const Gerians = () => {
   return (
     <div className="container">
-      <div className="row justify-content-center mt-5">
+      <div className="row justify-content-center mt-5 mb-3">
         <h3 className="text-center">OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
@@ -916,6 +916,9 @@ export const Gerians = () => {
             return <TeamCardThree {...card}></TeamCardThree>;
           })}
         </div>
+      </div>
+      <div className="row justify-content-center mt-3 mb-5">
+        {" "}
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfour.map((card) => {
@@ -928,20 +931,21 @@ export const Gerians = () => {
             return <TeamCardFive {...card}></TeamCardFive>;
           })}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
+      </div>
+
+      {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardsix.map((card) => {
             return <TeamCardSix {...card}></TeamCardSix>;
           })}
-        </div>
+        </div> */}
 
-        {/* <div className="col-lg-4 col-md-6 mt-5">
+      {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardeight.map((card) => {
             return <TeamCardEight {...card}></TeamCardEight>;
           })}
         </div> */}
-      </div>
     </div>
   );
 };
@@ -1147,9 +1151,9 @@ export const EIR = () => {
   return (
     <div className="container ">
       <div className="row d-flex justify-content-center">
-        <h4 className="text-center pt-5 mt-5 mb-4">
+        <h3 className="text-center mt-5 mb-5 purple-text">
           ENTREPRENEURS IN RESIDENCE
-        </h4>
+        </h3>
         {EIRdata.EIRcard.map((card) => {
           return (
             <div

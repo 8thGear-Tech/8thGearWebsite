@@ -15,6 +15,8 @@ import {
 } from "../Buttons/ServicesBtn";
 import { Link } from "react-router-dom";
 
+import "../../sassfiles/components/allCards/_MediaCards.scss";
+
 export const AllPortfoliosLogoCard = (props) => {
   const { logo, link } = props;
   return (
@@ -54,44 +56,46 @@ export const NewProjectDeliveryCard = (props) => {
   const { image, title, description, readmoretitle, readmoretext, id } = props;
   return (
     <>
-      <div className="cardBgg projectdeliveryCard">
-        <img src={image} className="card-img-top" alt="" />
-        <div className="card-body pb-3 px-3">
+      <div className="projectdeliveryCard">
+        {/* <img src={image} className="card-img-top" alt="" /> */}
+        <div className="purpleCard pb-3 px-3">
           <figure className="text-center">
             <h4 className="card-text mt-4">{title}</h4>
             <p className="">{description}</p>
           </figure>
-          <div className="text-center">
-            <OnHoverReadMoreBtn />
-          </div>
-          <div
-            className="modal fade"
-            id={id}
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabIndex="-1"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="d-flex justify-content-end mx-4 my-2">
-                  <button
-                    type="button"
-                    className="btn-close mt-3"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div className="py-4" key={id}>
-                  <div className="card-body">
-                    <h4 className="ms-4">{readmoretitle}</h4>
-                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* <div className="text-center">
+                        <Link to="/Enterprise-Support">
+                            <OnHoverReadMoreBtn />
+                        </Link>
+                    </div> */}
+          {/* <div
+                        className="modal fade"
+                        id={id}
+                        data-bs-backdrop="static"
+                        data-bs-keyboard="false"
+                        tabIndex="-1"
+                        aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true"
+                    >
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="d-flex justify-content-end mx-4 my-2">
+                                    <button
+                                        type="button"
+                                        className="btn-close mt-3"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div className="py-4" key={id}>
+                                    <div className="card-body">
+                                        <h4 className="ms-4">{readmoretitle}</h4>
+                                        <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
         </div>
       </div>
     </>
@@ -101,44 +105,46 @@ export const NewProjectDeliveryCardTwo = (props) => {
   const { image, title, description, readmoretitle, readmoretext, id } = props;
   return (
     <>
-      <div className="cardBgg projectdeliveryCard">
-        <img src={image} className="card-img-top" alt="" />
-        <div className="card-body pb-3 px-3">
+      <div className="projectdeliveryCard">
+        {/* <img src={image} className="card-img-top" alt="" /> */}
+        <div className="pb-3 px-3 m-0">
           <figure className="text-center">
             <h4 className="card-text mt-4">{title}</h4>
             <p className="">{description}</p>
           </figure>
-          <div className="text-center">
-            <OnHoverReadMoreBtnTwo />
-          </div>
-          <div
-            className="modal fade"
-            id={id}
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabIndex="-1"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="d-flex justify-content-end mx-4 my-2">
-                  <button
-                    type="button"
-                    className="btn-close mt-3"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div className="py-4" key={id}>
-                  <div className="card-body">
-                    <h4 className="ms-4">{readmoretitle}</h4>
-                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* <div className="text-center">
+                        <Link to="/Ecosystem-Events">
+                            <OnHoverReadMoreBtnTwo />
+                        </Link>
+                    </div> */}
+          {/* <div
+                        className="modal fade"
+                        id={id}
+                        data-bs-backdrop="static"
+                        data-bs-keyboard="false"
+                        tabIndex="-1"
+                        aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true"
+                    >
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="d-flex justify-content-end mx-4 my-2">
+                                    <button
+                                        type="button"
+                                        className="btn-close mt-3"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div className="py-4" key={id}>
+                                    <div className="card-body">
+                                        <h4 className="ms-4">{readmoretitle}</h4>
+                                        <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
         </div>
       </div>
     </>
@@ -148,44 +154,46 @@ export const NewProjectDeliveryCardThree = (props) => {
   const { image, title, description, readmoretitle, readmoretext, id } = props;
   return (
     <>
-      <div className="cardBgg projectdeliveryCard">
-        <img src={image} className="card-img-top" alt="" />
-        <div className="card-body pb-3 px-3">
+      <div className="projectdeliveryCard">
+        {/* <img src={image} className="card-img-top" alt="" /> */}
+        <div className="pb-3 px-3">
           <figure className="text-center">
             <h4 className="card-text mt-4">{title}</h4>
             <p className="">{description}</p>
           </figure>
-          <div className="text-center">
-            <OnHoverReadMoreBtnThree />
-          </div>
-          <div
-            className="modal fade"
-            id={id}
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabIndex="-1"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="d-flex justify-content-end mx-4 my-2">
-                  <button
-                    type="button"
-                    className="btn-close mt-3"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div className="py-4" key={id}>
-                  <div className="card-body">
-                    <h4 className="ms-4">{readmoretitle}</h4>
-                    <p className="card-text mx-4 mb-4">{readmoretext}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* <div className="text-center">
+                        <Link to="/Talent-Development">
+                            <OnHoverReadMoreBtnThree />
+                        </Link>
+                    </div> */}
+          {/* <div
+                        className="modal fade"
+                        id={id}
+                        data-bs-backdrop="static"
+                        data-bs-keyboard="false"
+                        tabIndex="-1"
+                        aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true"
+                    >
+                        <div className="modal-dialog">
+                            <div className="modal-content">
+                                <div className="d-flex justify-content-end mx-4 my-2">
+                                    <button
+                                        type="button"
+                                        className="btn-close mt-3"
+                                        data-bs-dismiss="modal"
+                                        aria-label="Close"
+                                    ></button>
+                                </div>
+                                <div className="py-4" key={id}>
+                                    <div className="card-body">
+                                        <h4 className="ms-4">{readmoretitle}</h4>
+                                        <p className="card-text mx-4 mb-4">{readmoretext}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
         </div>
       </div>
     </>

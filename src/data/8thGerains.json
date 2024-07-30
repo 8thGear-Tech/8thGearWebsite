@@ -1,58 +1,50 @@
 {
   "teamcardone": [
     {
-      "image1": "../../images/team/madamwunmi.png",
-      "name1": "HAKEEM IDRIS",
-      "title1": "FINANCE AND ACC EXECUTIVE",
+      "image1": "../../images/team/lorretta.png",
+      "name1": "LORETTA UDEMBA",
+      "title1": "HR & TALENT MANAGER",
       "id": "staticBackdrop1",
-      "link": "https://www.linkedin.com/in/hakeemidris010/"
+      "link": "https://www.linkedin.com/in/lorrettaudemba/"
     }
   ],
   "teamcardtwo": [
     {
-      "image1": "../../images/team/damilolaobidairo.png",
-      "name1": "LORETTA UDEMBA",
-      "title1": "HR & TALENT MANAGER",
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
+      "title1": "PROJECT DEV. CONSULTANT",
       "id": "staticBackdrop2",
-      "link": "https://www.linkedin.com/in/lorrettaudemba/"
+      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     }
   ],
   "teamcardthree": [
     {
-      "image1": "../../images/team/seunoladele.jpg",
+      "image1": "../../images/team/vindee.png",
       "name1": "VINDICATION JOSEPH",
       "title1": "PROGRAMS & PROJECT LEAD",
-      "id": "staticBackdrop3",
+      "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
     }
   ],
   "teamcardfour": [
     {
-      "image1": "../../images/team/opeyemibioku.png",
+      "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
       "title1": "TECH LEAD",
-      "id": "staticBackdrop4",
+      "id": "staticBackdrop5",
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
-    "teamcardfive": [
+  "teamcardfive": [
     {
-      "image1": "../../images/team/opeyemibioku.png",
-      "name1": "MOYOSORE AMAO",
-      "title1": "AG. BUSINESS DEV LEAD",
-      "id": "staticBackdrop5",
-      "link": "https://www.linkedin.com/in/moyoamao/"
-    }
-  ],
-  "teamcardsix": [
-    {
-      "image1": "../../images/team/seunoladele.jpg",
-      "name1": "DR. SEUN OLADELE",
-      "title1": "PROJECT DEV CONSULTANT",
+      "image1": "../../images/team/hakeem.png",
+      "name1": "HAKEEM IDRIS",
+      "title1": "FINANCE & ACC. EXECUTIVE",
       "id": "staticBackdrop6",
-      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
+      "link": "https://www.linkedin.com/in/hakeemidris010/"
     }
   ],
+  "teamcardsix": [],
 
   "EIRcard": [
     {
