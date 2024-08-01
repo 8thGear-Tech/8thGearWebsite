@@ -10,12 +10,12 @@ import {
 } from "../../components/AllCards/MediaCards";
 import successStoryGalleryCard from "../../data/gallerycards.json";
 import {ProjectDeliveryViewMoreBtn} from "../../components/Buttons/ProjectDeliveryBtn";
-import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
-import itflogo from "../../assets/images/projectdelivery/itflogo.png";
-import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
-import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
-import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
-import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
+// import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
+// import itflogo from "../../assets/images/projectdelivery/itflogo.png";
+// import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
+// import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
+// import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
+// import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 import {NewProjectDeliveryCard} from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import {ProjectNav} from "../../components/Navbar";
@@ -33,6 +33,18 @@ import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigipl
 import "../../sassfiles/pages/projectdelivery/_projectDelivery.scss";
 import Button from "react-bootstrap/esm/Button";
 import {Link} from "react-router-dom";
+
+// Partners
+import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
+import itflogo from "../../assets/images/projectdelivery/itflogo.png";
+import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
+import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
+import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
+import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
+import Afrilab from "../../assets/images/projectdelivery/Afrilab logo.png";
+import leadAfrica from "../../assets/images/projectdelivery/Leap Africa.jpeg";
+import Peiges from "../../assets/images/projectdelivery/Peiges.PNG";
+// Logo Scroll
 import LogoScroll from "../../components/Hero/LogoScroll";
 // import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
 
@@ -117,13 +129,14 @@ const Competencies = () => {
 };
 
 const OurClients = () => {
+    const partners = [gizlogo, itflogo, lsetflogo, usadflogo, s4plogo, fcmblogo, Afrilab, leadAfrica, Peiges]; // Add more logos to this array
     return (
         <div className="container-fluid py-4 clients">
             {" "}
             <div className="row g-0">
                 <h3 className="mt-7 text-center mb-5 purple-text">OUR PARTNERS</h3>
                 <div className="mb-7">
-                    <LogoScroll />
+                    <LogoScroll logos={partners} />
                 </div>
             </div>
         </div>

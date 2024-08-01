@@ -47,3 +47,24 @@
     font-weight: 600;
     color: #fff;
 }
+
+// NEW NAVBAR
+.Nav-OffCanvas {
+    display: flex !important;
+    align-items: center;
+}
+
+.Nav-Dropdown {
+    align-items: center;
+    text-align: center;
+}
+
+.Nav-Dropdown-Items {
+    padding: 15px 5px;
+}
+.Nav-item {
+    text-align: center;
+    width: 280px;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+}

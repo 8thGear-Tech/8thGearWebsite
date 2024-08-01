@@ -3,6 +3,7 @@ import logos from "../assets/images/logos.png";
 import React from "react";
 import {JointheStudioBtn} from "./Buttons/ContactBtn";
 import text from "../data/navbar.json";
+import {Image} from "react-bootstrap";
 
 import {useState} from "react";
 import Button from "react-bootstrap/Button";
@@ -14,6 +15,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 //Imported Scss to make the navbar transparent
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../sassfiles/components/_navbar.scss";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const NavBar = (props) => {
     const {heading} = props;
@@ -930,5 +933,128 @@ export const ProjectNav = () => {
                 })}
             </div>
         </div>
+    );
+};
+
+// HOMPAGE NAVBAR
+export const HomepageNav = () => {
+    return (
+        <>
+            <Navbar expand="sm" className="bg-white top-0 m-0">
+                <div className="container">
+                    <Row className="w-100">
+                        <div className="d-flex align-items-center justify-content-between">
+                            {/* BRAND */}
+                            <div>
+                                <Navbar.Brand className="d-flex align-items-center w-100 ">
+                                    <Link to="/" className="text-black text-decoration-none">
+                                        <img
+                                            src={logos} // Replace with your logo path
+                                            alt="Company Logo"
+                                            className="d-inline-block align-top"
+                                            width="40"
+                                            height="40"
+                                        />{" "}
+                                        <span className="px-2 d-none d-lg-inline d-md-none"> 8th Gear</span>
+                                    </Link>
+                                </Navbar.Brand>
+                            </div>
+                            {/* TOOGLE MENU */}
+                            <div className="d-lg-none d-md-none text-right">
+                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                {/* OFFCANVAS */}
+                                <Navbar.Offcanvas
+                                    id={`offcanvasNavbar-expand-${"sm"}`}
+                                    aria-labelledby={`offcanvasNavbarLabel-expand-${"sm"}`}
+                                    placement="end"
+                                >
+                                    <Offcanvas.Header closeButton>
+                                        {/* <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"sm"}`}>
+                                            <div>
+                                                <Navbar.Brand className="d-flex align-items-center w-100 ">
+                                                    <Link to="/" className="text-black text-decoration-none">
+                                                        <img
+                                                            src={logos} // Replace with your logo path
+                                                            alt="Company Logo"
+                                                            className="d-inline-block align-top"
+                                                            width="40"
+                                                            height="40"
+                                                        />{" "}
+                                                        <span className="px-2 d-inline d-md-none"> 8th Gear</span>
+                                                    </Link>
+                                                </Navbar.Brand>
+                                            </div>
+                                        </Offcanvas.Title> */}
+                                    </Offcanvas.Header>
+                                    <Offcanvas.Body>
+                                        <Nav className="Nav-OffCanvas">
+                                            <NavDropdown
+                                                title="Hub Services"
+                                                id={`offcanvasNavbarDropdown-expand-${"sm"}`}
+                                                className="Nav-item w-75"
+                                            >
+                                                {/* DROPDOWN MENU */}
+                                                <div className="Nav-Dropdown rounded-3">
+                                                    <NavDropdown.Item
+                                                        href="/talent-placement"
+                                                        className="Nav-Dropdown-Items"
+                                                    >
+                                                        Talents Placement
+                                                        <hr className="w-75 m-auto" />
+                                                    </NavDropdown.Item>
+                                                    <NavDropdown.Item href="/coworking" className="Nav-Dropdown-Items">
+                                                        Coworking
+                                                        <hr className="w-75 m-auto" />
+                                                    </NavDropdown.Item>
+                                                    <NavDropdown.Item
+                                                        href="/growth-as-a-service"
+                                                        className="Nav-Dropdown-Items"
+                                                    >
+                                                        Growth Advisory
+                                                        <hr className="w-75 m-auto" />
+                                                    </NavDropdown.Item>
+                                                    <NavDropdown.Item href="#" className="Nav-Dropdown-Items">
+                                                        Your Community
+                                                        <hr className="w-75 m-auto" />
+                                                    </NavDropdown.Item>
+                                                </div>
+                                            </NavDropdown>
+                                            <Nav.Link href="/projects" className="Nav-item">
+                                                Projects
+                                            </Nav.Link>
+                                            <Nav.Link href="/portfolio" className="Nav-item">
+                                                Venture Studio
+                                            </Nav.Link>
+                                            <Nav.Link href="/about" className="Nav-item">
+                                                About Us
+                                            </Nav.Link>
+                                            <Nav.Link href="/events" className="Nav-item">
+                                                Events
+                                            </Nav.Link>
+                                        </Nav>
+                                    </Offcanvas.Body>
+                                </Navbar.Offcanvas>
+                            </div>
+                            {/* NAV-LINKS */}
+                            <div lg={9} className="d-none d-md-flex">
+                                <Nav className="ml-auto">
+                                    {/*HUB SERVICES */}
+                                    <NavDropdown title="Hub Services" id="basic-nav-dropdown" className="text-black">
+                                        <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
+                                        <NavDropdown.Item href="/talent-placement">Talents Placement</NavDropdown.Item>
+                                        <NavDropdown.Item href="/growth-as-a-service">Growth Advisory</NavDropdown.Item>
+                                        <NavDropdown.Item href="#">Your Community</NavDropdown.Item>
+                                    </NavDropdown>
+                                    <Nav.Link href="/projects">Projects</Nav.Link>
+                                    <Nav.Link href="/portfolio">Venture Studio</Nav.Link>
+                                    <Nav.Link href="/about">About Us</Nav.Link>
+                                    <Nav.Link href="/events">Events</Nav.Link>
+                                </Nav>
+                            </div>
+                        </div>
+                    </Row>
+                </div>
+            </Navbar>
+        </>
     );
 };
