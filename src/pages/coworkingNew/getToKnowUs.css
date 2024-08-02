@@ -201,9 +201,9 @@
   transform: translate(-50%, -50%);
   /* color: white; */
   padding: 5px 10px;
-  backdrop-filter: blur(1px); /* Adjust the blur intensity as needed */
+  backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(10px); /* For Safari support */
-  border-radius: 5px; /* Optional: Add border radius for a smoother look */
+  border-radius: 5px;
 }
 
 /* .newSpaces .button-container {
