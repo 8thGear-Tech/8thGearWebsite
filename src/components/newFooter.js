@@ -1,7 +1,7 @@
 //images
 import logo from "../assets/images/logo.png";
-
 import {Link} from "react-router-dom";
+import "../sassfiles/components/_footer.scss";
 
 export const NewFooter = () => {
     return (
@@ -506,5 +506,137 @@ export const NewFooter = () => {
         </footer> */}
             </div>
         </>
+    );
+};
+
+export const FooterNew = () => {
+    return (
+        <div className="container-fluid mt-0 py-2 ">
+            <div className="d-flex flex-column">
+                {/* BRAND */}
+                <div className="align-items-center py-3 m-auto">
+                    <Link to="/">
+                        {" "}
+                        <img className="" src={logo} width={60} height={70} alt="" />
+                    </Link>
+                </div>
+                {/* Nav-links */}
+                <div className="m-auto w-75 pt-3 pb-1 d-flex justify-content-center footer-links">
+                    <ul className="d-flex gap-1 flex-row align-items-center justify-content-evenly flex-wrap w-75 footer-line sm:flex-col">
+                        {/* HOME */}
+                        <li className="nav-item list-unstyled">
+                            <Link to="/" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                HOME
+                            </Link>
+                        </li>
+                        {/* TALENT PLACEMENT */}
+                        <li className="nav-item list-unstyled">
+                            <Link
+                                to="/talent-placement"
+                                className="nav-link px-2 footerText"
+                                style={{fontSize: "0.8rem"}}
+                            >
+                                TALENT PLACEMENT
+                            </Link>
+                        </li>
+                        {/* COWORKING */}
+                        <li className="nav-item list-unstyled">
+                            <Link to="/coworking" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                CO-WORKING
+                            </Link>
+                        </li>
+                        {/* GROWTH-ADVISORY */}
+                        <li className="nav-item list-unstyled">
+                            <Link
+                                to="/growth-as-a-service"
+                                className="nav-link px-2 footerText"
+                                style={{fontSize: "0.8rem"}}
+                            >
+                                GROWTH ADVISORY
+                            </Link>
+                        </li>
+                        {/* YOUR COMMUNITY */}
+                        <li className="nav-item list-unstyled">
+                            {/* COMMUNITY PAGE NEEDED */}
+                            <Link to="#" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                YOUR COMMUNITY
+                            </Link>
+                        </li>
+                        {/* PROJECTS */}
+                        <li className="nav-item list-unstyled">
+                            <Link to="/projects" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                PROJECTS
+                            </Link>
+                        </li>
+                        {/* VENTURE STUDIO */}
+                        <li className="nav-item list-unstyled">
+                            {/* hub service pagge needed */}
+                            <Link to="/hub-services" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                VENTURE STUDIO
+                            </Link>
+                        </li>
+                        {/* ABOUT US */}
+                        <li className="nav-item list-unstyled">
+                            <Link to="/about" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                ABOUT
+                            </Link>
+                        </li>
+                        {/* EVENTS */}
+                        <li className="nav-item list-unstyled">
+                            <Link to="/events" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>
+                                EVENTS
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                {/* LAST ROW */}
+                <div className="d-flex flex-row flex-wrap gap-2 justify-content-center">
+                    <p> info@8thgearpartners.com</p>
+                    {/* Social Links */}
+                    <div>
+                        <ul className="nav">
+                            <li className="nav-item">
+                                <a
+                                    href="https://www.facebook.com/8thgearhub"
+                                    className="nav-link px-2 text-muted"
+                                    style={{fontSize: "0.8rem"}}
+                                >
+                                    <i className="bi bi-facebook text-dark footer__icons"></i>
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a
+                                    href="https://www.instagram.com/8thgearhub/"
+                                    className="nav-link px-2 text-muted"
+                                    style={{fontSize: "0.8rem"}}
+                                >
+                                    <i className="bi bi-instagram text-dark"></i>
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a
+                                    href="https://www.linkedin.com/company/8thgearhub/"
+                                    className="nav-link px-2 text-muted"
+                                    style={{fontSize: "0.8rem"}}
+                                >
+                                    <i className="bi bi-linkedin text-dark"></i>
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a
+                                    href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+                                    className="nav-link px-2 text-muted"
+                                    style={{fontSize: "0.8rem"}}
+                                >
+                                    <i className="bi bi- text-dark"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p className="px-1">080 9481 8883 | 080 9481 8882</p>
+                    <p className="px-1">8thGear Hub</p>
+                </div>
+            </div>
+        </div>
     );
 };

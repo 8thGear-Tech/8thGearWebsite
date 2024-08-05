@@ -6,111 +6,111 @@ $tablet: 768px;
 $phone: 480px;
 
 .ul_top_hypers {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
 }
 
 .iconsize {
-  font-size: 10px;
-  color: $darkgreenbg;
-  // position: fixed;
-  height: 100%;
-  overflow: visible;
+    font-size: 10px;
+    color: $darkgreenbg;
+    // position: fixed;
+    height: 100%;
+    overflow: visible;
 }
 #iconsize {
-  font-size: 10px;
-  color: $darkgreenbg;
-  // position: fixed;
-  height: 100%;
-  overflow: visible;
+    font-size: 10px;
+    color: $darkgreenbg;
+    // position: fixed;
+    height: 100%;
+    overflow: visible;
 }
 
 .iconsize2 {
-  font-size: 1.4rem;
-  color: $darkgreenbg;
-  // position: fixed;
+    font-size: 1.4rem;
+    color: $darkgreenbg;
+    // position: fixed;
 }
 .mobile-icon {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .md-footer-line {
-  width: 98vw;
+    width: 98vw;
 }
 .newsLetterUnderline {
-  width: 15vw;
+    width: 15vw;
 }
 
 .footerLogo {
-  width: 4.2vw;
+    width: 4.2vw;
 }
 .footerLogo2 {
-  width: 3rem;
+    width: 3rem;
 }
 
 .footerText {
-  text-decoration: none;
-  color: black;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  @media only screen and (max-width: $laptop) {
-    font-size: 0.75rem;
-  }
+    text-decoration: none;
+    color: black;
+    color: var(--white);
+    line-height: 1.75rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    @media only screen and (max-width: $laptop) {
+        font-size: 0.75rem;
+    }
 }
 .icons-for-footer {
-  display: flex;
+    display: flex;
 }
 
 .footerIcon {
-  @media only screen and (max-width: $laptop) {
-    font-size: 0.75rem;
-  }
+    @media only screen and (max-width: $laptop) {
+        font-size: 0.75rem;
+    }
 }
 .footerFormField {
-  outline: none;
-  font-size: 13px;
-  font-weight: lighter;
+    outline: none;
+    font-size: 13px;
+    font-weight: lighter;
 }
 .hrForBigScreen {
-  width: 17vw;
+    width: 17vw;
 }
 
 .firstSignUp {
-  // font-size: 1.1vw;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+    // font-size: 1.1vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
 .secondSignUp {
-  font-size: 1.5vw;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+    font-size: 1.5vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
 .thirdSignUp {
-  font-size: 0.8rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+    font-size: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
 .emailLink {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 .text-fluid {
-  font-size: 1.1vw;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
+    font-size: 1.1vw;
+    color: var(--white);
+    line-height: 1.75rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .footerTextDecoration {
-  text-decoration: none;
-  color: $prytextcolor;
+    text-decoration: none;
+    color: $prytextcolor;
 }
 .inputSizing {
-  width: 18rem;
-  height: 4.5rem;
+    width: 18rem;
+    height: 4.5rem;
 }
 // .subscributton {
 //   // color: $prytextcolor;
@@ -122,78 +122,83 @@ $phone: 480px;
 //   background-color: $InstagramBtn !important;
 // }
 .subscribeButton {
-  border: 3px solid $btncolor;
-  color: $prytextcolor;
-  border-radius: 20px;
-  width: 8.5rem;
-  height: 2.5rem;
-  font-family: "Rubik";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  &:hover {
-    background-color: $btncolor;
-    color: $sectextcolor;
-  }
-  &:focus {
-    background-color: $btncolor;
-    color: $sectextcolor;
-  }
+    border: 3px solid $btncolor;
+    color: $prytextcolor;
+    border-radius: 20px;
+    width: 8.5rem;
+    height: 2.5rem;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    &:hover {
+        background-color: $btncolor;
+        color: $sectextcolor;
+    }
+    &:focus {
+        background-color: $btncolor;
+        color: $sectextcolor;
+    }
 }
 .addressText {
-  color: $btncolor;
+    color: $btncolor;
 }
 
 .text-fluid3 {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 .signupText {
-  font-size: 0.8rem;
+    font-size: 0.8rem;
 }
 
 @media only screen and (max-width: $laptop) {
-  .text-fluid3 {
-    font-size: 0.75rem;
-  }
-  .signupText {
-    font-size: 0.7rem;
-  }
-
-  @media only screen and (max-width: $tablet) {
     .text-fluid3 {
-      font-size: 0.8rem;
+        font-size: 0.75rem;
     }
-  }
-
-  @media only screen and (max-width: $phone) {
     .signupText {
-      font-size: 2rem;
-
-      .text-fluid3 {
-        font-size: 0.8rem;
-      }
-
-      .footer__icons {
-        padding-left: 0rem !important;
-        padding-left: 0rem;
-      }
-
-      .remove__ml {
-        margin-left: 0rem !important;
-        padding-left: 0rem !important;
-      }
-
-      ul.listStyling {
-        list-style-type: none !important;
-        padding-left: 0rem !important;
-        margin-left: 0rem !important;
-      }
+        font-size: 0.7rem;
     }
 
-    .listStyling > li {
-      list-style-type: none !important;
-      padding-left: 0rem !important;
-      margin-left: 0rem !important;
+    @media only screen and (max-width: $tablet) {
+        .text-fluid3 {
+            font-size: 0.8rem;
+        }
     }
-  }
+
+    @media only screen and (max-width: $phone) {
+        .signupText {
+            font-size: 2rem;
+
+            .text-fluid3 {
+                font-size: 0.8rem;
+            }
+
+            .footer__icons {
+                padding-left: 0rem !important;
+                padding-left: 0rem;
+            }
+
+            .remove__ml {
+                margin-left: 0rem !important;
+                padding-left: 0rem !important;
+            }
+
+            ul.listStyling {
+                list-style-type: none !important;
+                padding-left: 0rem !important;
+                margin-left: 0rem !important;
+            }
+        }
+
+        .listStyling > li {
+            list-style-type: none !important;
+            padding-left: 0rem !important;
+            margin-left: 0rem !important;
+        }
+    }
+}
+
+// NEW FOOTER
+.footer-links {
+    border-bottom: 1px solid #00a495;
 }

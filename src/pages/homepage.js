@@ -37,12 +37,12 @@ const Home = () => {
             <HomepageNav />
             <HeroSection />
             <Service />
-            // {/* <Line /> */}
+            {/* <Line /> */}
             <PortCos />
             {/* <SectionTwo /> */}
             <AboutSection />
             {/* <Line /> */}
-            //  <SectionThree />
+            {/* <SectionThree /> */}
         </>
     );
 };
@@ -120,7 +120,7 @@ const PortCos = () => {
     return (
         <>
             <div className="container-fluid mb-5 mt-2">
-                <h2 className="purple-text text-center py-4">PORTCOs</h2>
+                <h2 className="purple-text text-center py-4">PARTNERS</h2>
                 <LogoScroll logos={portcos} />
             </div>
         </>

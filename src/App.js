@@ -65,7 +65,7 @@ import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
 import {Footer} from "./components/Footer";
-import {NewFooter} from "./components/newFooter";
+import {NewFooter, FooterNew} from "./components/newFooter";
 import FAQ from "./pages/Insights/FAQ";
 import {Popupmodal} from "./components/Footer";
 import {RequestForm} from "./components/Forms/ServicesForms";
@@ -162,8 +162,9 @@ function App() {
             </Routes>
             {/* https://8thgearpartners.com/digital-skills-scholarship */}
             <footer>
-                <NewFooter />
+                {/* <NewFooter /> */}
                 {/* <Footer /> */}
+                <FooterNew />
             </footer>
             {/* WhatsApp icon */}
             {/* <a
@@ -174,7 +175,7 @@ function App() {
       >
         <i class="bi bi-whatsapp whatsapp-icon"></i>
       </a> */}
-            {/* <footer>
+            {/* <footer>0
         <Footer />
         <ScrollButton />
       </footer> */}
