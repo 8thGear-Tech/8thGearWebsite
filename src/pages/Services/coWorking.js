@@ -4,7 +4,6 @@ import { Voucher } from "../coworkingNew/Voucher";
 import { Hero } from "../coworkingNew/Hero";
 import OurPriceRange from "../../components/OurPriceRange";
 import Podcast from "../../components/Podcast";
-import Clients from "../../components/Clients";
 import { OurNewSpaces } from "../coworkingNew/OurNewSpaces";
 
 const CoWorking = () => {
@@ -16,8 +15,6 @@ const CoWorking = () => {
       <Voucher />
       <OurPriceRange />
       <Podcast />
-      {/* <Clients /> */}
-      {/* <Testimonies /> */}
     </div>
   );
 };

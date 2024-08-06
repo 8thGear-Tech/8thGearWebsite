@@ -81,13 +81,6 @@ const CoreValue = () => {
               />
               <h4 className="card-title text-center mt-2">Mission</h4>
               <p className="card-text mt-4">{Values.mission}</p>
-              {/* <ul className="card-text text-start mt-4">
-                {Values.mission.map((item, index) => (
-                  <li key={index} className="p-0">
-                    {item}
-                  </li>
-                ))}
-              </ul> */}
             </div>
           </div>
         </div>
@@ -112,7 +105,7 @@ const CoreValue = () => {
                       <button
                         className={`accordion-button core-accordion-button ${
                           openIndex === index ? "" : "collapsed"
-                        } text-dark bg-transparent border-0`}
+                        } text-dark bg-transparent border-0 `}
                         type="button"
                         onClick={() => toggleAccordion(index)}
                       >
