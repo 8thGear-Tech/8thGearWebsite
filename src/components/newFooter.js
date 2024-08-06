@@ -628,7 +628,7 @@ export const FooterNew = () => {
                                     className="nav-link px-2 text-muted"
                                     style={{fontSize: "0.8rem"}}
                                 >
-                                    <i className="bi bi- text-dark"></i>
+                                    <i className="bi bi-twitter text-dark"></i>
                                 </a>
                             </li>
                         </ul>
