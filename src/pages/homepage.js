@@ -79,7 +79,7 @@ const Service = () => {
                     </Card.Body>
                 </Card>
                 {/* PROJECTS */}
-                <Card style={{width: "18rem"}} className="service-card rounded">
+                <Card style={{width: "18rem"}} className="service-card rounded-none">
                     <Card.Img variant="top" src={projects} className="service-thumbnail" thumbnail fluid />
                     <Card.Body className="shadow">
                         <Card.Title className="text-black">Projects</Card.Title>

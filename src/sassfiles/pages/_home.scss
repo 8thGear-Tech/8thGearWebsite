@@ -68,7 +68,7 @@
     background-color: #f1f8ed;
 }
 .service-card {
-    border-radius: 20px !important;
+    border-radius: 10px !important;
 }
 
 .service-body {
@@ -106,7 +106,7 @@
     .HeroSection::before {
         top: 65px;
         width: 100%;
-        height: 81%;
+        height: 80%;
     }
     .HeroSectionContent {
         display: block;
@@ -124,7 +124,7 @@
         background: #fff !important;
         border: 1px solid white !important;
         // border-radius: 5px !important;
-        display: none !important;
+        display: flex !important;
     }
     .service-thumbnail {
         height: 250px !important;
