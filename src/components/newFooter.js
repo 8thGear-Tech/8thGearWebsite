@@ -522,7 +522,7 @@ export const FooterNew = () => {
                 </div>
                 {/* Nav-links */}
                 <div className="m-auto w-75 pt-3 pb-1 d-flex justify-content-center footer-links">
-                    <ul className="d-flex gap-1 flex-row align-items-center justify-content-evenly flex-wrap w-75 footer-line sm:flex-col">
+                    <ul className="d-flex gap-1 flex-row align-items-center justify-content-evenly flex-wrap w-75 footer-line md:justify-content center sm:px-0 ">
                         {/* HOME */}
                         <li className="nav-item list-unstyled">
                             <Link to="/" className="nav-link px-2 footerText" style={{fontSize: "0.8rem"}}>

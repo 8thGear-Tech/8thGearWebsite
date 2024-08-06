@@ -68,7 +68,7 @@
     background-color: #f1f8ed;
 }
 .service-card {
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 .service-body {
@@ -121,6 +121,10 @@
     .service-card {
         width: 600px !important;
         margin-top: 20px;
+        background: #fff !important;
+        border: 1px solid white !important;
+        // border-radius: 5px !important;
+        display: none !important;
     }
     .service-thumbnail {
         height: 250px !important;

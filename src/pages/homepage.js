@@ -68,7 +68,7 @@ const Service = () => {
             <h2 className="purple-text text-center mb-3">Services</h2>
             <div className="d-flex flex-column justify-content-lg-center flex-lg-row  align-items-center flex-sm-column gap-3">
                 {/* Hub Services */}
-                <Card style={{width: "18rem"}} className="service-card">
+                <Card style={{width: "18rem"}} className="service-card rounded">
                     <Card.Img variant="top" src={hubservices} className="service-thumbnail" thumbnail fluid />
                     <Card.Body className="shadow">
                         <Card.Title className="text-black">Hub Services</Card.Title>
@@ -79,7 +79,7 @@ const Service = () => {
                     </Card.Body>
                 </Card>
                 {/* PROJECTS */}
-                <Card style={{width: "18rem"}} className="service-card">
+                <Card style={{width: "18rem"}} className="service-card rounded">
                     <Card.Img variant="top" src={projects} className="service-thumbnail" thumbnail fluid />
                     <Card.Body className="shadow">
                         <Card.Title className="text-black">Projects</Card.Title>
@@ -90,7 +90,7 @@ const Service = () => {
                     </Card.Body>
                 </Card>
                 {/* VENTURE STUDIO */}
-                <Card style={{width: "18rem"}} className="service-card rounded-3">
+                <Card style={{width: "18rem"}} className="service-card rounded">
                     <Card.Img variant="top" src={venture} className="service-thumbnail" thumbnail fluid />
                     <Card.Body className="shadow rounded">
                         <Card.Title className="text-black">Venture Studio</Card.Title>

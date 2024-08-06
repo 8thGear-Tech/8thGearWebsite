@@ -201,4 +201,8 @@ $phone: 480px;
 // NEW FOOTER
 .footer-links {
     border-bottom: 1px solid #00a495;
+
+    ul {
+        padding: 0 !important;
+    }
 }
