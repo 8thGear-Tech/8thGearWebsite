@@ -7,9 +7,18 @@ export const OurNewSpaces = () => {
     // { src: "/images/coworkingNew/location_1.png", text: "8thGear Hub" },
     // { src: "/images/coworkingNew/location_2.png", text: "Hub One" },
     // { src: "/images/coworkingNew/location_3.PNG", text: "Suburban Hub" },
-    { src: "https://www.youtube.com/embed/xw2gPCt1vfE?si=SKv79QNdgE57P6z0", text: "8thGear HQ" },
-    { src: "https://www.youtube.com/embed/MODRgv5Wev0?si=uDkUscOSvy12YJu5", text: "Tech Showroom" },
-    { src: "https://www.youtube.com/embed/0eI0lLgHjAQ?si=CAztrQqxFvAcEMJE", text: "Hub One" },
+    {
+      src: "https://www.youtube.com/embed/xw2gPCt1vfE?si=SKv79QNdgE57P6z0",
+      text: "8thGear HQ",
+    },
+    {
+      src: "https://www.youtube.com/embed/MODRgv5Wev0?si=uDkUscOSvy12YJu5",
+      text: "Tech Showroom",
+    },
+    {
+      src: "https://www.youtube.com/embed/0eI0lLgHjAQ?si=CAztrQqxFvAcEMJE",
+      text: "Hub One",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,7 +40,7 @@ export const OurNewSpaces = () => {
       {/* <div className="newSpaces text-center mt-3"> */}
       <div className="pb-2">
         <h3>OUR CO-WORKING SPACES</h3>
-        {/* <p>Three locations, Same Excellent Customer Service.</p> */}
+        <p>Three locations, Same Excellent Customer Service.</p>
       </div>
       <div className="mb-4 text-center container">
         <div className="content new-spaces-container container justify-content-center ">
@@ -62,8 +71,6 @@ export const OurNewSpaces = () => {
             />
           </div>
         </div>{" "}
-
-
         <div className="mt-3 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
           <BsArrowUpSquare
             onClick={handleUp}
@@ -77,7 +84,11 @@ export const OurNewSpaces = () => {
           />
         </div>{" "}
         <div>
-          <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noreferrer">
+          <a
+            href="https://forms.gle/pjR1os5hN6WnbzFa9"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Button>Book a Space</Button>
           </a>{" "}
         </div>
