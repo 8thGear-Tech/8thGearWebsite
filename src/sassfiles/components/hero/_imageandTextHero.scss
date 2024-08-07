@@ -1,22 +1,22 @@
 @use "../../colors" as *;
 @use "./bgColorandTextHero" as *;
 .bgImg {
-    width: 100%;
-    height: 500px;
-    background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .bgtext {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .bgimage h5 {
-    color: white;
-    text-shadow: 2px 2px #333;
+  color: white;
+  text-shadow: 2px 2px #333;
 }
 
 // .ManagedDigitalMarketServicesHero {
@@ -47,62 +47,62 @@
 
 // HOMEPAGE HERO
 .homeHeroBg {
-    position: relative;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
 }
 
 .homeHeroBg::before {
-    content: "";
-    // background: url(/src/assets/images/hero/homehero.jpg);
-    // background-image: linear-gradient(
-    //   to right,
-    //   #252c3e,
-    //   rgba(37, 44, 62, 0.66),
-    //   rgba(37, 44, 62, 0.42),
-    //   rgba(13, 22, 44, 0.1),
-    //   rgba(37, 44, 62, 0)
-    // );
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
+  content: "";
+  // background: url(/src/assets/images/hero/homehero.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 .homeHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .homeHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .homeHeroText {
-    font-size: 4rem;
-    font-weight: 300;
+  font-size: 4rem;
+  font-weight: 300;
 }
 .GaaSHeroText {
-    font-size: 3.5rem;
-    font-weight: 300;
+  font-size: 3.5rem;
+  font-weight: 300;
 }
 .projectDeliveryHeroText {
-    font-size: 3.5rem;
-    font-weight: 300;
+  font-size: 3.5rem;
+  font-weight: 300;
 }
 .homeHeroTextTwo {
-    font-size: 3rem;
-    font-weight: 300;
+  font-size: 3rem;
+  font-weight: 300;
 }
 @media only screen and (max-width: 440px) {
-    .homeHeroBg {
-        height: 50vh;
-    }
+  .homeHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-    .homeHeroBg {
-        height: 60vh;
-    }
+  .homeHeroBg {
+    height: 60vh;
+  }
 }
 // .GaaSHeroBg {
 //   position: relative;
@@ -137,59 +137,59 @@
 //   position: relative;
 // }
 .callToAction {
-    position: relative;
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
-    .GaaSHeroBg {
-        height: 50vh;
-    }
+  .GaaSHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-    .GaaSHeroBg {
-        height: 60vh;
-    }
+  .GaaSHeroBg {
+    height: 60vh;
+  }
 }
 .EventsHeroBg {
-    position: relative;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
 }
 
 .EventsHeroBg::before {
-    content: "";
-    background: url(/src/assets/images/hero/eventhero.jpg);
-    // background-image: linear-gradient(
-    //   to right,
-    //   #252c3e,
-    //   rgba(37, 44, 62, 0.66),
-    //   rgba(37, 44, 62, 0.42),
-    //   rgba(13, 22, 44, 0.1),
-    //   rgba(37, 44, 62, 0)
-    // );
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    // opacity: 0.6;
+  content: "";
+  background: url(/src/assets/images/hero/eventhero.jpg);
+  // background-image: linear-gradient(
+  //   to right,
+  //   #252c3e,
+  //   rgba(37, 44, 62, 0.66),
+  //   rgba(37, 44, 62, 0.42),
+  //   rgba(13, 22, 44, 0.1),
+  //   rgba(37, 44, 62, 0)
+  // );
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  // opacity: 0.6;
 }
 .EventsHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .EventsHeroBg h3 {
-    position: relative;
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
-    .EventsHeroBg {
-        height: 50vh;
-    }
+  .EventsHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-    .EventsHeroBg {
-        height: 60vh;
-    }
+  .EventsHeroBg {
+    height: 60vh;
+  }
 }
 // .heroFontSize {
 //   line-height: 2.2rem;
@@ -197,143 +197,143 @@
 
 //coworking page section
 .CoworkingHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 80vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
 }
 
 .CoworkingHeroBg {
-    // content: "";
-    background: url(/src/assets/images/hero/coworkinghero.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 80vh;
-    width: 100%;
+  // content: "";
+  background: url(/src/assets/images/hero/coworkinghero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .CoworkingHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .CoworkingHeroBg h3 {
-    position: relative;
+  position: relative;
 }
 .BookNow {
-    position: relative;
+  position: relative;
 }
 
 .CoworkingOffersBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
 
 .CoworkingOffersBg {
-    // content: "";
-    background: url(/src/assets/images/hero/coworkingoffersbg.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 300%;
-    width: 100%;
+  // content: "";
+  background: url(/src/assets/images/hero/coworkingoffersbg.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
 }
 
 .CoworkingOffersBg .coworkingGrid {
-    position: relative;
+  position: relative;
 }
 .CoworkingOffersBg .coworkingGrid {
-    position: relative;
+  position: relative;
 }
 
 .CoworkingTestmonialBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 
 .CoworkingTestmonialBg {
-    // content: "";
-    background: url(/src/assets/images/hero/coworkingtestimonialbg.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 300%;
-    width: 100%;
+  // content: "";
+  background: url(/src/assets/images/hero/coworkingtestimonialbg.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
 }
 
 .CoworkingTestmonialBg h3 {
-    position: relative;
+  position: relative;
 }
 // .CoworkingTestmonialBgg .coworkingTestCards h3 {
 //   position: relative;
 // }
 .coworkingBookBtn,
 .coworkingBookText {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 
 // Tractions
 .CoTractionsBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 
 .CoTractionsBg {
-    // content: "";
-    background: url(/src/assets/images/talentplacement/tractions.png);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 300%;
-    width: 100%;
+  // content: "";
+  background: url(/src/assets/images/talentplacement/tractions.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 300%;
+  width: 100%;
 }
 
 .CoTractionsBg p,
 h3,
 h2 {
-    position: relative;
+  position: relative;
 }
 // .CoworkingTestmonialBgg .coworkingTestCards h3 {
 //   position: relative;
@@ -381,266 +381,266 @@ h2 {
 
 //managedservices digital marketing hero
 .GaaSHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 
 .GaaSHeroBg {
-    background: url(/src/assets/images/founders-MeetUp.png);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/founders-MeetUp.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .GaaSHeroBg h2 {
-    position: relative;
-    line-height: 70px;
+  position: relative;
+  line-height: 70px;
 }
 .GaaSHeroBg h3 {
-    position: relative;
-    line-height: 45px;
-    font-size: 2rem !important;
+  position: relative;
+  line-height: 45px;
+  font-size: 2rem !important;
 }
 
 //Founders-day hero
 .Herodemodayy::before {
-    content: "";
-    position: absolute;
-    // background-color: #2e3133;
-    height: 90vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    // opacity: 0.6;
+  content: "";
+  position: absolute;
+  // background-color: #2e3133;
+  height: 90vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  // opacity: 0.6;
 }
 
 .Herodemoday {
-    background: url(/src/assets/images/founders-MeetUp.png);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 80vh;
-    width: 100%;
+  background: url(/src/assets/images/founders-MeetUp.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .Herodemoday h2 {
-    position: relative;
-    line-height: 40px;
+  position: relative;
+  line-height: 40px;
 }
 .Herodemoday h3 {
-    position: relative;
-    line-height: 25px;
-    font-size: 1.1rem !important;
+  position: relative;
+  line-height: 25px;
+  font-size: 1.1rem !important;
 }
 //demodaygallery hero
 .DemoDayGalleryHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
 
 .DemoDayGalleryHeroBg {
-    background: url(/src/assets/images/hero/demodayhero.JPG);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/demodayhero.JPG);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .DemoDayGalleryHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .DemoDayGalleryHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 //managedservices digital marketing hero
 .ManagedServicesDigitalMargetingHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
 }
 
 .ManagedServicesDigitalMargetingHeroBg {
-    background: url(/src/assets/images/hero/digitalmarketinghero.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/digitalmarketinghero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .ManagedServicesDigitalMargetingHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .ManagedServicesDigitalMargetingHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 //managedservices legal hero
 .ManagedServicesLegalHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
 }
 
 .ManagedServicesLegalHeroBg {
-    background: url(/src/assets/images/hero/legal.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/legal.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .ManagedServicesLegalHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .ManagedServicesLegalHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 
 //managedservices tech hero
 .ManagedServicesTechHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
 
 .ManagedServicesTechHeroBg {
-    background: url(/src/assets/images/hero/techhero.jpeg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/techhero.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .ManagedServicesTechHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .ManagedServicesTechHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 //managedservices accounting hero
 .ManagedServicesAccountingHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 80vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.7;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.7;
 }
 
 .ManagedServicesAccountingHeroBg {
-    background: url(/src/assets/images/hero/acc.jpeg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 80vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/acc.jpeg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .ManagedServicesAccountingHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .ManagedServicesAccountingHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 
 @media only screen and (max-width: 990px) {
-    .ManagedServicesAccountingHeroBgg::before,
-    .ManagedServicesTechHeroBgg::before,
-    .ManagedServicesLegalHeroBgg::before,
-    .ManagedServicesDigitalMargetingHeroBgg::before,
-    .GaaSHeroBgg::before,
-    .Herodemodayy::before,
-    .CoworkingHeroBgg::before {
-        height: 22.5rem;
-    }
-    .ManagedServicesAccountingHeroBg,
-    .ManagedServicesTechHeroBg,
-    .ManagedServicesLegalHeroBg,
-    .ManagedServicesDigitalMargetingHeroBg,
-    .GaaSHeroBg,
-    .Herodemoday,
-    .CoworkingHeroBg {
-        height: 22.5rem;
-    }
+  .ManagedServicesAccountingHeroBgg::before,
+  .ManagedServicesTechHeroBgg::before,
+  .ManagedServicesLegalHeroBgg::before,
+  .ManagedServicesDigitalMargetingHeroBgg::before,
+  .GaaSHeroBgg::before,
+  .Herodemodayy::before,
+  .CoworkingHeroBgg::before {
+    height: 22.5rem;
+  }
+  .ManagedServicesAccountingHeroBg,
+  .ManagedServicesTechHeroBg,
+  .ManagedServicesLegalHeroBg,
+  .ManagedServicesDigitalMargetingHeroBg,
+  .GaaSHeroBg,
+  .Herodemoday,
+  .CoworkingHeroBg {
+    height: 22.5rem;
+  }
 }
 // .ourModelHeroBg {
 //   background: url(/src/assets/images/hero/ourmodel.jpg);
@@ -650,367 +650,368 @@ h2 {
 //   opacity: 1;
 // }
 .ourModelHeroBg {
-    position: relative;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
 }
 
 .ourModelHeroBg::before {
-    content: "";
-    background: url(/src/assets/images/hero/ourmodelhero.jpg);
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 1;
+  content: "";
+  background: url(/src/assets/images/hero/ourmodelhero.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 1;
 }
 .ourModelHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .ourModelHeroBg h3 {
-    position: relative;
+  position: relative;
 }
 .ourModelHeroBg h4 {
-    position: relative;
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
-    .ourModelHeroBg {
-        height: 50vh;
-    }
+  .ourModelHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 575px) and (min-width: 441px) {
-    .ourModelHeroBg {
-        height: 60vh;
-    }
+  .ourModelHeroBg {
+    height: 60vh;
+  }
 }
 
 .projectDeliveryHeroBg {
-    background: url(/src/assets/images/hero/projectdelivery.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    // margin: 20px;
-    // width: 300px;
-    // height: 200px;
-    height: 100vh;
-    // opacity: 1;
+  background: url(/src/assets/images/hero/projectdelivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  // margin: 20px;
+  // width: 300px;
+  // height: 200px;
+  height: 100vh;
+  // opacity: 1;
 }
 .NewTalentPlacementHeroBg {
-    background: url(/src/assets/images/hero/talentplacement.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    // margin: 20px;
-    // width: 300px;
-    // height: 200px;
-    height: 100vh;
-    // opacity: 1;
+  background: url(/src/assets/images/hero/talentplacement.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  // margin: 20px;
+  // width: 300px;
+  // height: 200px;
+  height: 100vh;
+  // opacity: 1;
 }
 
 .NewTalentPlacementHeroText {
-    font-size: 3rem;
-    font-weight: 300;
+  font-size: 3rem;
+  font-weight: 300;
 }
 .NewTalentPlacementHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .NewTalentPlacementHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .NewTalentPlacementHeroBg p {
-    position: relative;
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
-    .NewTalentPlacementHeroBg {
-        height: 50vh;
-    }
+  .NewTalentPlacementHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 650px) and (min-width: 441px) {
-    .NewTalentPlacementHeroBg {
-        height: 60vh;
-    }
+  .NewTalentPlacementHeroBg {
+    height: 60vh;
+  }
 }
 .talentPlacementBtn {
-    position: relative;
+  position: relative;
 }
 .gradientBg {
-    background-image: linear-gradient(
-        to right,
-        #252c3e,
-        rgba(37, 44, 62, 0.66),
-        rgba(37, 44, 62, 0.42),
-        rgba(37, 44, 62, 0.1),
-        rgba(37, 44, 62, 0)
-    );
+  background: rgba(0, 0, 0, 0.678);
+  // background-image: linear-gradient(
+  //     to right,
+  //     #252c3e,
+  //     rgba(37, 44, 62, 0.66),
+  //     rgba(37, 44, 62, 0.42),
+  //     rgba(37, 44, 62, 0.1),
+  //     rgba(37, 44, 62, 0)
+  // );
 }
 .overlayBg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    top: 60;
-    left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 6;
+  //   top: 60;
+  left: 0;
 }
 .projectDeliveryHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .projectDeliveryHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 @media only screen and (max-width: 440px) {
-    .projectDeliveryHeroBg {
-        height: 50vh;
-    }
+  .projectDeliveryHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 650px) and (min-width: 441px) {
-    .projectDeliveryHeroBg {
-        height: 60vh;
-    }
+  .projectDeliveryHeroBg {
+    height: 60vh;
+  }
 }
 
 .piggeryTrainingHeroBg {
-    background: url(/src/assets/images/hero/piggerytraininghero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background: url(/src/assets/images/hero/piggerytraininghero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 @media only screen and (max-width: 440px) {
-    .piggeryTrainingHeroBg {
-        height: 50vh;
-    }
+  .piggeryTrainingHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 575px) and (min-width: 441px) {
-    .piggeryTrainingHeroBg {
-        height: 60vh;
-    }
+  .piggeryTrainingHeroBg {
+    height: 60vh;
+  }
 }
 .piggeryTrainingHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .piggeryTrainingHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 
 //GIZ hero
 .GIZHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.3;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
 }
 
 .GIZHeroBg {
-    background: url(/src/assets/images/hero/GIZhero.jpg);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/hero/GIZhero.jpg);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .GIZHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .GIZHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 .LSETFHeroBg {
-    background: url(/src/assets/images/hero/lsetfhero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background: url(/src/assets/images/hero/lsetfhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 @media only screen and (max-width: 440px) {
-    .LSETFHeroBg {
-        height: 50vh;
-    }
+  .LSETFHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 575px) and (min-width: 441px) {
-    .LSETFHeroBg {
-        height: 60vh;
-    }
+  .LSETFHeroBg {
+    height: 60vh;
+  }
 }
 .LSETFHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .LSETFHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .hackathonHeroBg {
-    background: url(/src/assets/images/hero/hackathon.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background: url(/src/assets/images/hero/hackathon.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 @media only screen and (max-width: 440px) {
-    .hackathonHeroBg {
-        height: 50vh;
-    }
+  .hackathonHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 575px) and (min-width: 441px) {
-    .hackathonHeroBg {
-        height: 60vh;
-    }
+  .hackathonHeroBg {
+    height: 60vh;
+  }
 }
 .hackathonHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .hackathonHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .ITFHeroBg {
-    background: url(/src/assets/images/hero/ITF.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background: url(/src/assets/images/hero/ITF.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 @media only screen and (max-width: 440px) {
-    .ITFHeroBg {
-        height: 50vh;
-    }
+  .ITFHeroBg {
+    height: 50vh;
+  }
 }
 @media only screen and (max-width: 575px) and (min-width: 441px) {
-    .ITFHeroBg {
-        height: 60vh;
-    }
+  .ITFHeroBg {
+    height: 60vh;
+  }
 }
 .ITFHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .ITFHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 
 .heroTextColor {
-    color: $sectextcolor;
+  color: $sectextcolor;
 }
 .cool {
-    width: auto;
-    height: 50vh;
-    background-image: url(https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680);
+  width: auto;
+  height: 50vh;
+  background-image: url(https://media.macphun.com/img/uploads/customer/blog/347/15361508215b8fcd25b13f46.53184133.jpg?q=85&w=1680);
 
-    background-repeat: no-repeat;
-    //   background-position: center;
-    background-size: cover;
-    //   background-attachment: fixed;
+  background-repeat: no-repeat;
+  //   background-position: center;
+  background-size: cover;
+  //   background-attachment: fixed;
 }
 
 .stop {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 //resources hero
 .ResourcesHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 80vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.2;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
 }
 
 .ResourcesHeroBg {
-    background: url(/src/assets/images/resources/resourceshero.png);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 80vh;
-    width: 100%;
+  background: url(/src/assets/images/resources/resourceshero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 80vh;
+  width: 100%;
 }
 
 .ResourcesHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .ResourcesHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 
 @media only screen and (max-width: 440px) {
-    .ResourcesHeroBg {
-        height: 80vh;
-    }
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
 }
 @media only screen and (max-width: 800px) and (min-width: 441px) {
-    .ResourcesHeroBg {
-        height: 80vh;
-    }
+  .ResourcesHeroBg {
+    height: 80vh;
+  }
 }
 //resources hero
 .VideoResourceHeroBgg::before {
-    content: "";
-    position: absolute;
-    // background-color: #2e3133;
-    height: 70vh;
-    width: 100%;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    // opacity: 0.2;
+  content: "";
+  position: absolute;
+  // background-color: #2e3133;
+  height: 70vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  // opacity: 0.2;
 }
 
 .VideoResourceHeroBg {
-    background: url(/src/assets/images/resources/resourceshero.png);
-    background-size: cover;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    height: 70vh;
-    width: 100%;
+  background: url(/src/assets/images/resources/resourceshero.png);
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 70vh;
+  width: 100%;
 }
 
 .VideoResourceHeroBg h2 {
-    position: relative;
-    line-height: 45px;
+  position: relative;
+  line-height: 45px;
 }
 .VideoResourceHeroBg h3 {
-    position: relative;
-    line-height: 35px;
+  position: relative;
+  line-height: 35px;
 }
 
 //FUTA Techpic
 .FUTAHeroBg {
-    background: rgba(0, 164, 149, 0.44);
-    background-blend-mode: darken;
+  background: rgba(0, 164, 149, 0.44);
+  background-blend-mode: darken;
 
-    // background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 41.4%, rgba(0, 194, 255, 0.3) 96.66%);
-    // background-blend-mode: screen;
-    // border: 1px solid #FFFFFF;
-    // backdrop-filter: blur(2px);
-    // /* Note: backdrop-filter has minimal browser support */
+  // background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 41.4%, rgba(0, 194, 255, 0.3) 96.66%);
+  // background-blend-mode: screen;
+  // border: 1px solid #FFFFFF;
+  // backdrop-filter: blur(2px);
+  // /* Note: backdrop-filter has minimal browser support */
 
-    // transform: rotate(-24.36deg);
+  // transform: rotate(-24.36deg);
 }
 
 // .spaceImg {
@@ -1057,99 +1058,99 @@ h2 {
 // }
 
 .spaceImg {
-    border-radius: 20px;
-    background: url(/src/assets/images/coworking/EightGearHub.png);
-    background-size: cover;
-    position: relative;
-    height: 60vh;
-    width: 100%;
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/EightGearHub.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
 }
 
 .hubOneImg {
-    border-radius: 20px;
-    background: url(/src/assets/images/coworking/HubOne.png);
-    background-size: cover;
-    position: relative;
-    height: 60vh;
-    width: 100%;
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/HubOne.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
 }
 
 .innkeeperHackerSpaceImg {
-    border-radius: 20px;
-    background: url(/src/assets/images/coworking/Innkeeper.png);
-    background-size: cover;
-    position: relative;
-    height: 60vh;
-    width: 100%;
+  border-radius: 20px;
+  background: url(/src/assets/images/coworking/Innkeeper.png);
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  width: 100%;
 }
 
 .spaceImgCard {
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0.7rem;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.7rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .spaceTitle {
-    color: $btncolor;
+  color: $btncolor;
 }
 
 .BGG {
-    background-color: $lightgreenbg;
+  background-color: $lightgreenbg;
 }
 
 .DigiPlusPageHeroBgg::before {
-    content: "";
-    position: absolute;
-    background-color: #2e3133;
-    height: 80vh;
-    width: 100%;
+  content: "";
+  position: absolute;
+  background-color: #2e3133;
+  height: 80vh;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width: 650px) {
+  .DigiPlusPageHeroBg {
+    background: url(/src/assets/images/hero/digiplushero.png);
+    background-size: cover;
+    position: relative;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.2;
-}
-
-@media only screen and (min-width: 650px) {
-    .DigiPlusPageHeroBg {
-        background: url(/src/assets/images/hero/digiplushero.png);
-        background-size: cover;
-        position: relative;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        height: 80vh;
-        width: 100%;
-    }
+    height: 80vh;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 650px) {
-    .DigiPlusPageHeroBg {
-        background: url(/src/assets/images/hero/digiplusherosm.png);
-        background-size: cover;
-        position: relative;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        height: 80vh;
-        width: 100%;
-    }
+  .DigiPlusPageHeroBg {
+    background: url(/src/assets/images/hero/digiplusherosm.png);
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 80vh;
+    width: 100%;
+  }
 }
 .DigiPlusPageHeroBg h1 {
-    position: relative;
+  position: relative;
 }
 .DigiPlusPageHeroBg h2 {
-    position: relative;
+  position: relative;
 }
 .AboutPageHeroBg p {
-    position: relative;
+  position: relative;
 }
 .DigiPlusPageHeroBg .DigiPlusRequestBtn {
-    position: relative;
+  position: relative;
 }
