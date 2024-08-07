@@ -23,7 +23,96 @@
     font-size: 2.3rem;
   }
 }
+.homeHeroBig {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
 
+.homeHeroBig::before {
+  content: "";
+  background: url("../About/image/HomepageHero.jpeg");
+
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.homeHeroBig h1 {
+  position: relative;
+}
+.homeHeroBig h3 {
+  position: relative;
+}
+.homeHeroBig p {
+  position: relative;
+}
+.gradientBgg {
+  background: rgba(0, 0, 0, 0.678);
+}
+.overlayBgg {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  opacity: 6;
+  top: 60;
+  left: 0;
+  margin-top: 8px;
+}
+
+.jj {
+  background: linear-gradient(
+    to bottom,
+    rgb(196, 195, 195),
+    rgb(255, 253, 253)
+  );
+}
+.homeHeroSmall {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.homeHeroSmall::before {
+  content: "";
+  background: url("../About/image/HomepageHero\ -\ Copy\ \(2\).jpeg");
+  /* background: url("../About/image/HomepageHeroCopy.jpeg"); */
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+.homeHeroSmall h1 {
+  position: relative;
+}
+.homeHeroSmall h3 {
+  position: relative;
+}
+.homeHeroSmall p {
+  position: relative;
+}
+.gradientBggg {
+  background: rgba(0, 0, 0, 0.678);
+}
+
+.overlayBggg {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  opacity: 6;
+  top: 60;
+  left: 0;
+  margin-top: -15px;
+}
 /* CoreValue */
 /* .valueCard {
   width: 320px !important;

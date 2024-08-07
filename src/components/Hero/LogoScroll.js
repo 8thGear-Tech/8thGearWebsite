@@ -8,6 +8,7 @@ import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 import Afrilab from "../../assets/images/projectdelivery/Afrilab logo.png";
 import leadAfrica from "../../assets/images/projectdelivery/Leap Africa.jpeg";
 import Peiges from "../../assets/images/projectdelivery/Peiges.PNG";
+
 // sass file
 import "../../sassfiles/pages/projectdelivery/_logoscroll.sass";
 

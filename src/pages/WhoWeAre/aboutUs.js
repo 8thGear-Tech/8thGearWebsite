@@ -152,7 +152,7 @@ const CoreValues = () => {
 //   );
 // };
 
-const Partners = () => (
+export const Partners = () => (
   <>
     <div>
       <h3 className="text-center mt-5 mb-5 purple-text">OUR PARTNERS</h3>

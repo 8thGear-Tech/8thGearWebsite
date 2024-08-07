@@ -44,6 +44,8 @@
 // .ManagedDigitalMarketServicesHero h2 {
 //   position: relative;
 // }
+
+// HOMEPAGE HERO
 .homeHeroBg {
   position: relative;
   background-repeat: no-repeat;
@@ -53,7 +55,7 @@
 
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehero.jpg);
+  // background: url(/src/assets/images/hero/homehero.jpg);
   // background-image: linear-gradient(
   //   to right,
   //   #252c3e,
@@ -737,21 +739,22 @@ h2 {
   position: relative;
 }
 .gradientBg {
-  background-image: linear-gradient(
-    to right,
-    #252c3e,
-    rgba(37, 44, 62, 0.66),
-    rgba(37, 44, 62, 0.42),
-    rgba(37, 44, 62, 0.1),
-    rgba(37, 44, 62, 0)
-  );
+  background: rgba(0, 0, 0, 0.678);
+  // background-image: linear-gradient(
+  //     to right,
+  //     #252c3e,
+  //     rgba(37, 44, 62, 0.66),
+  //     rgba(37, 44, 62, 0.42),
+  //     rgba(37, 44, 62, 0.1),
+  //     rgba(37, 44, 62, 0)
+  // );
 }
 .overlayBg {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 1;
-  top: 60;
+  opacity: 6;
+  //   top: 60;
   left: 0;
 }
 .projectDeliveryHeroBg h1 {

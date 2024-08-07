@@ -552,6 +552,126 @@ article h4 {
 .talkToUsText {
   font-weight: 400;
 }
+.homeHeroBg {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+.homeHeroBg::before {
+  content: "";
+  background: url("../../public/images/Homepageassets/HomepageHero.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.homeHeroBg h1 {
+  position: relative;
+}
+.homeHeroBg h3 {
+  position: relative;
+}
+.homeHeroBg p {
+  position: relative;
+}
+.HeroSection {
+  background: url("../../public/images/Homepageassets/HomepageHero.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.HeroSection::before {
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.678);
+  z-index: 1;
+}
+.HeroSectionContent {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, 50%);
+  color: #fff;
+  z-index: 2;
+}
+.serviceSection {
+  margin-top: 0;
+  background-color: #f1f8ed;
+}
+.service-card {
+  border-radius: 20px !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.service-body {
+  height: 170px;
+}
+.aboutUS {
+  background-color: #f1f8ed;
+}
+.aboutbtn {
+  background-color: #fff !important;
+}
+.aboutbtn:hover {
+  background-color: purple;
+}
+@media (min-width: 576px) and (max-width: 850.34px) {
+  .HeroSection {
+    height: 80vh;
+  }
+  .HeroSection::before {
+    top: 65px;
+    width: 100%;
+    height: 81%;
+  }
+  .HeroSectionContent {
+    display: block;
+    top: 10%;
+    width: 70%;
+  }
+  .HeroSectionContent h1 {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+  .service-card {
+    width: 600px !important;
+    margin-top: 20px;
+    background: #fff !important;
+    border: 1px solid #fff !important;
+  }
+  .service-thumbnail {
+    height: 250px !important;
+    background-size: contain;
+  }
+}
+@media (min-width: 340px) and (max-width: 575.98px) {
+  .HeroSection {
+    height: 50vh;
+  }
+  .HeroSection::before {
+    width: 100%;
+    height: 50%;
+  }
+  .HeroSectionContent {
+    display: block;
+    top: 0%;
+    width: 60%;
+  }
+  .HeroSectionContent h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .aboutImage {
+    width: 200px;
+  }
+}
 .PrivacyAndPolicyHero {
   color: rgba(0, 0, 0, 0.9);
   background-color: #f7f7f7;
@@ -1297,6 +1417,23 @@ article h4 {
   font-weight: 600;
   color: #fff;
 }
+.Nav-OffCanvas {
+  display: flex !important;
+  align-items: center;
+}
+.Nav-Dropdown {
+  align-items: center;
+  text-align: center;
+}
+.Nav-Dropdown-Items {
+  padding: 15px 5px;
+}
+.Nav-item {
+  text-align: center;
+  width: 280px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
 .link {
   color: #ef00c0;
   text-align: center;
@@ -1712,7 +1849,6 @@ article h4 {
 }
 .homeHeroBg::before {
   content: "";
-  background: url(/src/assets/images/hero/homehero.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -2234,21 +2370,13 @@ h2 {
   position: relative;
 }
 .gradientBg {
-  background-image: linear-gradient(
-    to right,
-    #252c3e,
-    rgba(37, 44, 62, 0.66),
-    rgba(37, 44, 62, 0.42),
-    rgba(37, 44, 62, 0.1),
-    rgba(37, 44, 62, 0)
-  );
+  background: rgba(0, 0, 0, 0.678);
 }
 .overlayBg {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 1;
-  top: 60;
+  opacity: 6;
   left: 0;
 }
 .projectDeliveryHeroBg h1 {
@@ -2829,6 +2957,12 @@ video {
     padding-left: 0rem !important;
     margin-left: 0rem !important;
   }
+}
+.footer-links {
+  border-bottom: 1px solid #00a495;
+}
+.footer-links ul {
+  padding: 0 !important;
 }
 .managedServicesSection {
   background-color: #faf8f8;
