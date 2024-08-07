@@ -54,6 +54,7 @@ import BlogPage from "./pages/Insights/blog";
 //Events
 import EventsPage from "./pages/Events/events";
 import EventsNew from "./pages/EventsNew/EventsNew";
+import ResourcesNew from "./pages/ResourcesNew/Resources";
 import EventsGalleryPage from "./pages/Events/eventsGallery";
 import FourthYearAnniversary from "./pages/Events/fourthYearAnniversary";
 import DemoDayPage from "./pages/Events/demoDay";
@@ -65,6 +66,7 @@ import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
+import NewFooter2 from "./pages/ResourcesNew/NewFooter2";
 import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { RequestForm } from "./components/Forms/ServicesForms";
@@ -166,6 +168,7 @@ function App() {
         <Route path="refund-policy" element={<RefundPolicy />} />
         <Route path="*" element={<Error404 />} />
         <Route path="resources" element={<Resources />} />
+        <Route path="resourcesnew" element={<ResourcesNew />} />
         <Route
           path="ABCBusinessAccounting"
           element={<ABCBusinessAccountingReadMore />}
@@ -191,7 +194,8 @@ function App() {
       </Routes>
       {/* https://8thgearpartners.com/digital-skills-scholarship */}
       <footer>
-        <NewFooter />
+        {/* <NewFooter /> */}
+        <NewFooter2 />
         {/* <Footer /> */}
         {/* <ScrollButton /> */}
       </footer>
