@@ -74,7 +74,7 @@ const FounderMeetupHero = () => {
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             {/* REGISTER  */}
-            <div className="registerpanel shadow p-4 w-25">
+            <div className="registerpanel shadow p-4 w-25 d-sm-none d-lg-block d-md-block">
                 <h2 className="py-1">REGISTER</h2>
                 <div className="registercontent">
                     <p className="m-0">Enroll for this event here: </p>
@@ -89,9 +89,9 @@ const FounderMeetupHero = () => {
 const EventsWriteUp = () => {
     return (
         <div className="container-fluid d-flex mt-5 mx-5 flex-column flex-wrap">
-            <section className="w-75 m-5">
+            <section className="w-75 m-md-5 mx-sm-0 my-lg-5">
                 {/* FIRST SECTION */}
-                <div className="seection-one">
+                <div className="seection-one mt-5">
                     <p>
                         Founders Meetup is all about bringing Entrepreneurs, and those curious about Startups, together
                         to share ideas while learning from each other! Some sessions have guest speakers and others have
@@ -121,63 +121,70 @@ const EventsWriteUp = () => {
                     </div>
                 </div>
                 {/* SPEAKERS */}
-                <div className="speaker my-5 flex-wrap container-fluid flex-lg-row">
+                <div className="speaker my-5 mx-lg-0 ">
                     <h2 className="mb-3 text-center">SPEAKERS</h2>
-                    {/* Speaker 1 */}
-                    <div className="speaker-detail p-3">
-                        <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
-                        <div className="speaker-info">
-                            <h3>Damilola Obidairo</h3>
-                            <p>Co founder and partner</p>
-                            <p>8th Gear Venture studio.</p>
-                            {/* LinkedIn link */}
-                            <a>
-                                <Linkedin />
-                            </a>
+                    <div className="flex-wrap container-fluid col-lg-12">
+                        {/* 1st row */}
+                        <div className=" row1">
+                            {/* Speaker 1 */}
+                            <div className="speaker-detail p-3 col-lg-6">
+                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <div className="speaker-info">
+                                    <h3>Damilola Obidairo</h3>
+                                    <p>Co founder and partner</p>
+                                    <p>8th Gear Venture studio.</p>
+                                    {/* LinkedIn link */}
+                                    <a>
+                                        <Linkedin />
+                                    </a>
+                                </div>
+                            </div>
+                            {/* Speaker 2 */}
+                            <div className="speaker-detail p-3 col-lg-6">
+                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <div className="speaker-info">
+                                    <h3>Damilola Obidairo</h3>
+                                    <p>Co founder and partner</p>
+                                    <p>8th Gear Venture studio.</p>
+                                    {/* LinkedIn link */}
+                                    <a>
+                                        <Linkedin />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    {/* Speaker 2 */}
-                    <div className="speaker-detail p-3">
-                        <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
-                        <div className="speaker-info">
-                            <h3>Damilola Obidairo</h3>
-                            <p>Co founder and partner</p>
-                            <p>8th Gear Venture studio.</p>
-                            {/* LinkedIn link */}
-                            <a>
-                                <Linkedin />
-                            </a>
-                        </div>
-                    </div>
-                    {/* Speaker 3 */}
-                    <div className="speaker-detail p-3">
-                        <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
-                        <div className="speaker-info">
-                            <h3>Damilola Obidairo</h3>
-                            <p>Co founder and partner</p>
-                            <p>8th Gear Venture studio.</p>
-                            {/* LinkedIn link */}
-                            <a>
-                                <Linkedin />
-                            </a>
-                        </div>
-                    </div>
-                    {/* Speaker 4 */}
-                    <div className="speaker-detail p-3">
-                        <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
-                        <div className="speaker-info">
-                            <h3>Damilola Obidairo</h3>
-                            <p>Co founder and partner</p>
-                            <p>8th Gear Venture studio.</p>
-                            {/* LinkedIn link */}
-                            <a>
-                                <Linkedin />
-                            </a>
+                        {/* 2nd row */}
+                        <div className="row2">
+                            {/* Speaker 3 */}
+                            <div className="speaker-detail p-3 col-lg-6">
+                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <div className="speaker-info">
+                                    <h3>Damilola Obidairo</h3>
+                                    <p>Co founder and partner</p>
+                                    <p>8th Gear Venture studio.</p>
+                                    {/* LinkedIn link */}
+                                    <a>
+                                        <Linkedin />
+                                    </a>
+                                </div>
+                            </div>
+                            {/* Speaker 4 */}
+                            <div className="speaker-detail p-3 col-lg-6">
+                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <div className="speaker-info">
+                                    <h3>Damilola Obidairo</h3>
+                                    <p>Co founder and partner</p>
+                                    <p>8th Gear Venture studio.</p>
+                                    {/* LinkedIn link */}
+                                    <a>
+                                        <Linkedin />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* SPEEAKER SECTION */}
         </div>
     );
 };
