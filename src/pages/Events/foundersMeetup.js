@@ -88,7 +88,7 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 mx-5 flex-column flex-wrap">
+        <div className="container-fluid d-flex mt-5 mx-lg-5 mx-sm-2 flex-column flex-wrap">
             <section className="w-75 m-md-5 mx-sm-0 my-lg-5">
                 {/* FIRST SECTION */}
                 <div className="seection-one mt-5">
