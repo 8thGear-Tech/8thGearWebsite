@@ -1,4 +1,5 @@
 import NewNavbar from "./NewNavbar"
+import ResourcesContent from "./ResourcesContent"
 
 export default function ResourcesNew() {
     return (
@@ -17,11 +18,14 @@ export default function ResourcesNew() {
                         height: '',
                     }}
                 >
-                    <div className="container ">
-                        <h1 className="text-white">Your Hero Title</h1>
-                        <p className="text-white">Your Hero Subtitle</p>
+                    <div className="container text-center align-self-center  justify-content-center position-relative top-50">
+                        <h1 className="text-white fw-semibold fs-2 lh-sm ">Fuel Your Venture’s <span className="text-warning">Success</span> </h1>
+                        <p className="text-white fw-normal fs-6 lh-sm">Unlock the potential of your venture with curated knowledge and practical tools</p>
                     </div>
                 </div>
+            </div>
+            <div>
+                <ResourcesContent />
             </div>
 
         </div>

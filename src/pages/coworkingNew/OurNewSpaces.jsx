@@ -39,7 +39,7 @@ export const OurNewSpaces = () => {
             <iframe
               src={images[currentIndex].src}
               title="YouTube video player"
-              frameBorder="0"
+              // frameBorder="0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>

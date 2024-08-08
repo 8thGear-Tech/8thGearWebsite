@@ -1,12 +1,12 @@
 import * as React from "react";
 // import { Component } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 import { TermsAndConditions } from "./pages/TermsandConditions";
 import { RefundPolicy } from "./pages/Refundpolicy";
 import Error404 from "./pages/error404";
-import FooterItemToTop from "./components/FooterItemToTop";
+// import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
@@ -49,10 +49,10 @@ import DigiPlus from "./pages/DigiPlus";
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
-import BlogPage from "./pages/Insights/blog";
+// import BlogPage from "./pages/Insights/blog";
 
 //Events
-import EventsPage from "./pages/Events/events";
+// import EventsPage from "./pages/Events/events";
 import EventsNew from "./pages/EventsNew/EventsNew";
 import ResourcesNew from "./pages/ResourcesNew/Resources";
 import EventsGalleryPage from "./pages/Events/eventsGallery";
@@ -64,13 +64,13 @@ import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGal
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
-import { Footer } from "./components/Footer";
-import { NewFooter } from "./components/newFooter";
+// import { Footer } from "./components/Footer";
+// import { NewFooter } from "./components/newFooter";
 import NewFooter2 from "./pages/ResourcesNew/NewFooter2";
-import FAQ from "./pages/Insights/FAQ";
-import { Popupmodal } from "./components/Footer";
-import { RequestForm } from "./components/Forms/ServicesForms";
-import { ScrollButton } from "./components/Buttons/scrollToTop";
+// import FAQ from "./pages/Insights/FAQ";
+// import { Popupmodal } from "./components/Footer";
+// import { RequestForm } from "./components/Forms/ServicesForms";
+// import { ScrollButton } from "./components/Buttons/scrollToTop";
 
 // NewEvent PAge
 import FMU_Q1 from "./pages/EventsNew/FMUQ1";
