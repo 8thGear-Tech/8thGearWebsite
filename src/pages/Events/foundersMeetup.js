@@ -75,7 +75,7 @@ const FounderMeetupHero = () => {
             </div>
             {/* REGISTER  */}
             <div className="registercontainer h-100">
-                <div className="registerpanel shadow p-3 w-25 d-sm-none d-lg-block d-md-block">
+                <div className="registerpanel shadow p-3 w-25 d-block d-sm-none d-lg-block d-md-block">
                     <h2 className="py-1">REGISTER</h2>
                     <div className="registercontent">
                         <p className="m-0">Enroll for this event here: </p>
@@ -90,8 +90,8 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mx-sm-2 flex-column flex-wrap event-content">
-            <section className="w-50 m-md-5 mx-sm-0 my-lg-5 px-sm-0 event-section">
+        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mt-sm-1 mx-sm-2 flex-column flex-wrap event-content">
+            <section className="w-50 m-md-5 mx-sm-1 my-lg-5 px-sm-2 event-section">
                 {/* FIRST SECTION */}
                 <div className="seection-one mt-5">
                     <p>
@@ -101,7 +101,7 @@ const EventsWriteUp = () => {
                     </p>
                 </div>
                 {/* WHO SHOULD ATTEND */}
-                <div className="section-two mt-5">
+                <div className="section-two mt-5 mb-3">
                     <h3>WHO TO ATTEND ?</h3>
                     <ul>
                         <li>
@@ -136,6 +136,15 @@ const EventsWriteUp = () => {
                         Feel free to invite other founders to join us as we meet every quarter!
                     </div>
                 </div>
+                {/* REGISSTRATION PANEL FOR SM */}
+                <div className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none d-md-none my-sm-2">
+                    <h2 className="py-1">REGISTER</h2>
+                    <div className="registercontent">
+                        <p className="m-0">Enroll for this event here: </p>
+                        <p className="m-0">Event link..</p>
+                    </div>
+                </div>
+
                 {/* SPEAKERS */}
                 <div className="speaker my-5 mx-lg-0 ">
                     <h2 className="mb-3 text-center">SPEAKERS</h2>

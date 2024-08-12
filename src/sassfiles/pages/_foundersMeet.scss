@@ -329,7 +329,23 @@
         margin-right: 1px !important;
     }
     .registerpanel {
-        display: none;
+        display: none !important;
+    }
+    .registerpanelsm {
+        display: block;
+        width: 300px !important;
+        background-color: white;
+        border-radius: 10px !important;
+        z-index: 20;
+        h2 {
+            font-family: "Rubik", "sans-serif";
+            font-size: 24px;
+            font-weight: 800;
+        }
+        p {
+            font-family: "Open Sans";
+            font-weight: 300;
+        }
     }
     .section-two {
         h3 {
@@ -339,9 +355,11 @@
         }
     }
     .event-section {
-        width: 250px !important;
+        width: 350px !important;
+        margin-top: 10px !important;
     }
     .event-content {
-        text-align: center;
+        text-align: left;
+        justify-content: center !important;
     }
 }
