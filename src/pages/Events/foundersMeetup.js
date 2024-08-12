@@ -31,10 +31,10 @@ const FounderMeetupPage = () => {
 // HERO SECTION
 const FounderMeetupHero = () => {
     return (
-        <div className="px-4 container-fluid heroSection d-flex justify-content-between align-items-center pt-1 pb-2">
+        <div className="px-3 py-3 container-fluid heroSection d-flex justify-content-between align-items-center">
             {/* LEFT SECTION */}
             <div className="align-content-center mt-0 Left-section-text justify-content-sm-start py-sm-0">
-                <div className="d-flex flex-column align-content-center px-4 py-2 mt-0">
+                <div className="d-flex flex-column align-content-center px-2 py-2 mt-0">
                     <p className="hero-pill rounded-pill py-2 px-1 text-center fw-bolder">IN-PERSON EVENT</p>
                     <h1 className="hero-caption">
                         Founder's Meet up: FIND CO-FOUNDERS, MEET POTENTIAL CLIENTS, MAKE NEW FRIENDS.
@@ -74,7 +74,7 @@ const FounderMeetupHero = () => {
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             {/* REGISTER  */}
-            <div className="registerpanel shadow p-4 w-25 d-sm-none d-lg-block d-md-block">
+            <div className="registerpanel shadow p-3 w-25 d-sm-none d-lg-block d-md-block">
                 <h2 className="py-1">REGISTER</h2>
                 <div className="registercontent">
                     <p className="m-0">Enroll for this event here: </p>
@@ -88,8 +88,8 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 mx-lg-5 mx-sm-2 flex-column flex-wrap">
-            <section className="w-75 m-md-5 mx-sm-0 my-lg-5">
+        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mx-sm-2 flex-column flex-wrap">
+            <section className="w-50 m-md-5 mx-sm-0 my-lg-5 px-sm-0">
                 {/* FIRST SECTION */}
                 <div className="seection-one mt-5">
                     <p>
@@ -102,15 +102,29 @@ const EventsWriteUp = () => {
                 <div className="section-two mt-5">
                     <h3>WHO TO ATTEND ?</h3>
                     <ul>
-                        <li>Startup founders</li>
-                        <li>Business owners</li>
-                        <li>Freelancers & service providers (digital marketers, web developers, designers, etc.)</li>
-                        <li>Solo founders looking for founding team members</li>
                         <li>
-                            Aspiring entrepreneurs who are either looking for one or more co-founders Anyone who wishes
-                            to
+                            <p className="no-list">Startup founders</p>
                         </li>
-                        <li>expand their business network</li>
+                        <li>
+                            <p className="no-list">Business owners</p>
+                        </li>
+                        <li>
+                            <p className="no-list">
+                                Freelancers & service providers (digital marketers, web developers, designers, etc.)
+                            </p>
+                        </li>
+                        <li>
+                            <p className="no-list">Solo founders looking for founding team members</p>
+                        </li>
+                        <li>
+                            <p className="no-list">
+                                Aspiring entrepreneurs who are either looking for one or more co-founders Anyone who
+                                wishes to
+                            </p>
+                        </li>
+                        <li>
+                            <p className="no-list">expand their business network</p>
+                        </li>
                     </ul>
                     <div>
                         <p>
@@ -128,26 +142,26 @@ const EventsWriteUp = () => {
                         <div className=" row1">
                             {/* Speaker 1 */}
                             <div className="speaker-detail p-3 col-lg-6">
-                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle img-fluid" />
                                 <div className="speaker-info">
                                     <h3>Damilola Obidairo</h3>
                                     <p>Co founder and partner</p>
                                     <p>8th Gear Venture studio.</p>
                                     {/* LinkedIn link */}
-                                    <a>
+                                    <a href="#">
                                         <Linkedin />
                                     </a>
                                 </div>
                             </div>
                             {/* Speaker 2 */}
                             <div className="speaker-detail p-3 col-lg-6">
-                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <Image src={speaker1} alt="speaker2" className="speaker-img rounded-circle img-fluid" />
                                 <div className="speaker-info">
                                     <h3>Damilola Obidairo</h3>
                                     <p>Co founder and partner</p>
                                     <p>8th Gear Venture studio.</p>
                                     {/* LinkedIn link */}
-                                    <a>
+                                    <a href="#">
                                         <Linkedin />
                                     </a>
                                 </div>
@@ -157,26 +171,26 @@ const EventsWriteUp = () => {
                         <div className="row2">
                             {/* Speaker 3 */}
                             <div className="speaker-detail p-3 col-lg-6">
-                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <Image src={speaker1} alt="speaker3" className="speaker-img rounded-circle img-fluid" />
                                 <div className="speaker-info">
                                     <h3>Damilola Obidairo</h3>
                                     <p>Co founder and partner</p>
                                     <p>8th Gear Venture studio.</p>
                                     {/* LinkedIn link */}
-                                    <a>
+                                    <a href="#">
                                         <Linkedin />
                                     </a>
                                 </div>
                             </div>
                             {/* Speaker 4 */}
                             <div className="speaker-detail p-3 col-lg-6">
-                                <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle" />
+                                <Image src={speaker1} alt="speaker4" className="speaker-img rounded-circle img-fluid" />
                                 <div className="speaker-info">
                                     <h3>Damilola Obidairo</h3>
                                     <p>Co founder and partner</p>
                                     <p>8th Gear Venture studio.</p>
                                     {/* LinkedIn link */}
-                                    <a>
+                                    <a href="#">
                                         <Linkedin />
                                     </a>
                                 </div>
