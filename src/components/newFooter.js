@@ -307,14 +307,14 @@ export const NewFooter = () => {
                     <i className="bi bi-linkedin text-dark"></i>
                   </a>
                 </li>
-                <li className="nav-item ">
+                <li className="nav-item">
                   <a
                     href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
                     target="_blank"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    {/* <img src={XLogo} className="img-fluid" /> */}
+                    {/* <img src={XLogo} className="img-fluid mb-5" /> */}
                     <i className="bi bi-twitter text-dark"></i>
                   </a>
                 </li>
