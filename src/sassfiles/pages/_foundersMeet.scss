@@ -69,6 +69,7 @@
     z-index: 20;
     height: 150px !important;
     right: 250px !important;
+    width: 300px !important;
     h2 {
         font-family: "Rubik", "sans-serif";
         font-size: 24px;
@@ -264,7 +265,7 @@
 }
 
 /* Small devices (phones, less than 576px) */
-@media (min-width: 200px) and (max-width: 575.98px) {
+@media (min-width: 300px) and (max-width: 575.98px) {
     .heroSection {
         height: 100% !important;
         display: flex !important;
