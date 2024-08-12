@@ -5,47 +5,39 @@ import { FaYoutube } from "react-icons/fa";
 import { GoArrowRight } from "react-icons/go";
 
 
-
-
 const data = {
   "knowledgeCenter": [
     {
       "index": 1,
       "videoLink": "https://www.youtube.com/embed/gdW8XHsHNoA",
-      "videoTitle": "Business Model Canvas 1",
+      "videoTitle": "Business Model Canvas",
       "videoText": "A business model canvas is a strategic tool used to quickly and easily define and communicate a business idea or concept."
     },
     {
-      "index": 2,
-      "videoLink": "https://www.youtube.com/embed/gdW8XHsHNoA",
-      "videoTitle": "Business Model Canvas 2",
-      "videoText": "A business model canvas is a strategic tool used to quickly and easily define and communicate a business idea or concept."
-    },
-    {
-      "index": 2,
-      "videoLink": "https://www.youtube.com/embed/gdW8XHsHNoA",
-      "videoTitle": "Business Model Canvas 3",
-      "videoText": "A business model canvas is a strategic tool used to quickly and easily define and communicate a business idea or concept."
+     "index": 2,
+      "videoLink": "https://www.youtube.com/embed/IAwPlkUx4_Y",
+      "videoTitle": "Nigerian Startup Acts",
+      "videoText": "As a Founder, how much do you know about the Startup Act and its enormous benefits to you as a Business Owner?"
     }
   ],
   "startingYourBusiness": [
     {
       "index": 1,
       "videoLink": "https://www.youtube.com/embed/DwuT52ANalI",
-      "videoTitle": "Starting Your Business 1",
-      "videoText": "Here you go"
+      "videoTitle": "ABC of Business Accounting",
+      "videoText": "The importance of Startup Founders having their accounting books right and various source documents that every business must have."
     },
     {
       "index": 2,
-      "videoLink": "https://www.youtube.com/embed/DwuT52ANalI",
-      "videoTitle": "Title 2",
-      "videoText": "Here you go 2"
+      "videoLink": "https://www.youtube.com/embed/IAwPlkUx4_Y",
+      "videoTitle": "Nigerian Startup Acts",
+      "videoText": "As a Founder, how much do you know about the Startup Act and its enormous benefits to you as a Business Owner?"
     },
     {
-      "index": 2,
+      "index": 3,
       "videoLink": "https://www.youtube.com/embed/UKB0m6O8ZRk",
-      "videoTitle": "Title 2",
-      "videoText": "Here you go 2"
+      "videoTitle": "Keeping accounting records",
+      "videoText": "You don't have to have a full-time accountant working in your business if you can't afford it yet. All you need to do is to meticulously keep the basic records, and then you can have an accountant on your retainer."
     }
   ],
   "growingYourBusiness": [
@@ -106,7 +98,7 @@ export default function ResourcesContent() {
   return (
     <div className="text-center pt-3 resourcesNew">
       {/* Tablet and Mobile view  */}
-      <div className="d-lg-none">
+      <div className="d-none">
         <h3>Resources</h3>
         {/* The toggle buttons */}
         <div className='container'>
@@ -146,14 +138,14 @@ export default function ResourcesContent() {
       </div>
 
       {/* Desktop view  */}
-      <div className='d-none d-lg-block'>
+      <div className='d-block'>
         <h3 className='py-4'>Resources</h3>
-        <div className='mx-5'>
+        <div className='mx-lg-5'>
           <div className='row'>
             {/* left  */}
-            <div className='col-8'>{renderDesktopVideos(data.knowledgeCenter)}</div>
+            <div className='col-12 col-lg-8'>{renderDesktopVideos(data.knowledgeCenter)}</div>
             {/* Right */}
-            <div className='col-4'>{renderDesktopVideos(data.startingYourBusiness)}</div>
+            <div className='col-12 col-lg-4'>{renderDesktopVideos(data.startingYourBusiness)}</div>
           </div>
         </div>
       </div>
