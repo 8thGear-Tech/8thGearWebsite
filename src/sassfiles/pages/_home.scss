@@ -1,33 +1,167 @@
 @use "../colors" as *;
 
 .SectionTwoBg {
-  background-color: $lightgreenbg;
+    background-color: $lightgreenbg;
 }
 @mixin CardBg {
-  background-color: $lightgreenbg;
-  border: 3px solid $bordercolor;
+    background-color: $lightgreenbg;
+    border: 3px solid $bordercolor;
 }
 .cardBg {
-  @include CardBg;
+    @include CardBg;
 }
 
 .homePageText {
-  font-size: 1.2rem;
-  // font-weight: 600;
+    font-size: 1.2rem;
+    // font-weight: 600;
 }
 .headerText {
-  text-decoration: none !important;
-  color: $prytextcolor;
-  &:hover {
+    text-decoration: none !important;
     color: $prytextcolor;
-  }
+    &:hover {
+        color: $prytextcolor;
+    }
 }
 .textFont {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 .talkToUsText {
-  font-weight: 400;
+    font-weight: 400;
 }
 // .borderLine {
 //   border: 3px solid black;
 // }
+
+// HERO SECTION
+.HeroSection {
+    background: url("../../assets/images/Homepageassets/HomepageHero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.HeroSection::before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.678); /* Adjust gradient as needed */
+    z-index: 1;
+}
+
+.HeroSectionContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: #fff; /* White text color */
+    z-index: 2;
+}
+
+// SERVICE SECTION
+.serviceSection {
+    margin-top: 0;
+    background-color: #f1f8ed;
+}
+.service-card {
+    border-radius: 10px !important;
+}
+
+.service-body {
+    height: 170px;
+}
+
+// ABOUT US SECTION
+.aboutUS {
+    margin: 0;
+    background-color: #f1f8ed;
+    width: 100vw;
+    padding: 15px;
+}
+.description {
+    // width: 500px;
+    p {
+        display: block;
+        width: 400px;
+    }
+}
+.aboutbtn {
+    background-color: #fff !important;
+}
+.aboutbtn:hover {
+    background-color: purple;
+}
+
+/*MEDIA QUERIES*/
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 850.34px) {
+    .HeroSection {
+        height: 80vh;
+    }
+    .HeroSection::before {
+        top: 65px;
+        width: 100%;
+        height: 80%;
+    }
+    .HeroSectionContent {
+        display: block;
+        top: 10%;
+        width: 70%;
+        h1 {
+            font-size: 4rem;
+            line-height: 80px;
+        }
+    }
+    // SERVICE CARD
+    .service-card {
+        width: 600px !important;
+        margin-top: 20px;
+        background: #fff !important;
+        border: 1px solid white !important;
+        // border-radius: 5px !important;
+        display: flex !important;
+    }
+    .service-thumbnail {
+        height: 250px !important;
+        background-size: contain;
+    }
+}
+
+/* Small devices (phones, less than 576px) */
+@media (min-width: 340px) and (max-width: 575.98px) {
+    .HeroSection {
+        height: 50vh;
+    }
+    .HeroSection::before {
+        width: 100%;
+        height: 50%;
+    }
+    .HeroSectionContent {
+        display: block;
+        top: 0%;
+        width: 60%;
+        h1 {
+            font-size: 2rem;
+            line-height: 40px;
+        }
+    }
+
+    .description {
+        width: 300px;
+        text-align: center;
+        p {
+            display: inline-flex;
+            flex-wrap: wrap;
+            width: 200px;
+            margin: auto;
+        }
+    }
+    .aboutImage {
+        width: 200px;
+    }
+}

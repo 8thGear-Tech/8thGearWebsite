@@ -1,13 +1,5 @@
 import React from "react";
-import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
-import itflogo from "../../assets/images/projectdelivery/itflogo.png";
-import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
-import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
-import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
-import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
-import Afrilab from "../../assets/images/projectdelivery/Afrilab logo.png";
-import leadAfrica from "../../assets/images/projectdelivery/Leap Africa.jpeg";
-import Peiges from "../../assets/images/projectdelivery/Peiges.PNG";
+
 // sass file
 import "../../sassfiles/pages/projectdelivery/_logoscroll.sass";
 
