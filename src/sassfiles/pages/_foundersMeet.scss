@@ -1,6 +1,7 @@
 // HERO SECTION
 .heroSection {
     height: 80%;
+    width: 100vw !important;
     background-color: #f6f6f6;
 }
 
@@ -62,14 +63,13 @@
 }
 
 .registerpanel {
-    position: fixed;
-    top: 500px;
+    position: absolute;
+    top: 450px;
     background-color: white;
     border-radius: 10px !important;
     z-index: 20;
     height: 150px !important;
     right: 250px !important;
-    width: 300px !important;
     h2 {
         font-family: "Rubik", "sans-serif";
         font-size: 24px;
@@ -337,5 +337,11 @@
             font-size: 22px;
             padding: 3px !important;
         }
+    }
+    .event-section {
+        width: 250px !important;
+    }
+    .event-content {
+        text-align: center;
     }
 }

@@ -31,7 +31,7 @@ const FounderMeetupPage = () => {
 // HERO SECTION
 const FounderMeetupHero = () => {
     return (
-        <div className="px-3 py-3 container-fluid heroSection d-flex justify-content-between align-items-center">
+        <div className="px-md-3 px-lg-2 py-md-3 py-lg-2 container-fluid heroSection d-flex justify-content-between align-items-center w-100">
             {/* LEFT SECTION */}
             <div className="align-content-center mt-0 Left-section-text justify-content-sm-start py-sm-0">
                 <div className="d-flex flex-column align-content-center px-2 py-2 mt-0">
@@ -74,11 +74,13 @@ const FounderMeetupHero = () => {
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             {/* REGISTER  */}
-            <div className="registerpanel shadow p-3 w-25 d-sm-none d-lg-block d-md-block">
-                <h2 className="py-1">REGISTER</h2>
-                <div className="registercontent">
-                    <p className="m-0">Enroll for this event here: </p>
-                    <p className="m-0">Event link..</p>
+            <div className="registercontainer h-100">
+                <div className="registerpanel shadow p-3 w-25 d-sm-none d-lg-block d-md-block">
+                    <h2 className="py-1">REGISTER</h2>
+                    <div className="registercontent">
+                        <p className="m-0">Enroll for this event here: </p>
+                        <p className="m-0">Event link..</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,8 +90,8 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mx-sm-2 flex-column flex-wrap">
-            <section className="w-50 m-md-5 mx-sm-0 my-lg-5 px-sm-0">
+        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mx-sm-2 flex-column flex-wrap event-content">
+            <section className="w-50 m-md-5 mx-sm-0 my-lg-5 px-sm-0 event-section">
                 {/* FIRST SECTION */}
                 <div className="seection-one mt-5">
                     <p>
