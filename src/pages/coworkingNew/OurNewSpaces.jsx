@@ -48,30 +48,17 @@ export const OurNewSpaces = () => {
             <iframe
               src={images[currentIndex].src}
               title="YouTube video player"
-              frameBorder="0"
+              // frameBorder="0"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <h3 className="position-absolute image-text">
               {images[currentIndex].text}
             </h3>
-
-            <span className="text-primary">Here</span>
-          </div>
-          <div className="row row-gap-3 button-container d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
-            <BsArrowUpSquare
-              onClick={handleUp}
-              type="button"
-              className="location-arrow-height"
-            />
-            <BsArrowDownSquare
-              onClick={handleDown}
-              type="button"
-              className="location-arrow-height"
-            />
           </div>
         </div>{" "}
-        <div className="mt-3 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+        {/* <div className="mt-3 d-xs-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none"> */}
+        <div className="mt-3 d-xs-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block">
           <BsArrowUpSquare
             onClick={handleUp}
             type="button"

@@ -76,6 +76,7 @@ import FMU_Q2 from "./pages/EventsNew/FMUQ2";
 
 //Resources
 import Resources from "./pages/Resources/Resources";
+import { ResourcesNew } from "./pages/ResourcesNew/Resources";
 import { ABCBusinessAccountingReadMore } from "./pages/Resources/ArticleReadMore";
 import { KeepingAccountingRecordsReadMore } from "./pages/Resources/ArticleReadMore";
 import { NigerianStartupActsReadMore } from "./pages/Resources/ArticleReadMore";
@@ -166,6 +167,7 @@ function App() {
         <Route path="refund-policy" element={<RefundPolicy />} />
         <Route path="*" element={<Error404 />} />
         <Route path="resources" element={<Resources />} />
+        <Route path="resourcesNew" element={<ResourcesNew />} />
         <Route
           path="ABCBusinessAccounting"
           element={<ABCBusinessAccountingReadMore />}
@@ -201,7 +203,7 @@ function App() {
         href="https://wa.me/2348094818883"
         class="whatsapp_float"
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener noreferrer" 
       >
         <i class="bi bi-whatsapp whatsapp-icon"></i>
       </a> */}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, Row, Col } from "react-bootstrap";
-import { FaArrowRight } from "react-icons/fa6";
+// import { FaArrowRight } from "react-icons/fa6";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./aboutUs.css";
 import { LinkedInIcon } from "../../components/Icons";
