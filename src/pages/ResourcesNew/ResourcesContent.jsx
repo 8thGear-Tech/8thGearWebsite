@@ -99,7 +99,7 @@ export default function ResourcesContent() {
     <div className="text-center pt-3 resourcesNew">
       {/* Tablet and Mobile view  */}
       <div className="d-none">
-        <h3>Resources</h3>
+        <h3>KNOWLEDGE CENTER</h3>
         {/* The toggle buttons */}
         <div className='container'>
           <div className='row vids g-0'>
@@ -139,7 +139,7 @@ export default function ResourcesContent() {
 
       {/* Desktop view  */}
       <div className='d-block'>
-        <h3 className='py-4'>Resources</h3>
+        <h3 className='py-4'>KNOWLEDGE CENTER</h3>
         <div className='mx-lg-5'>
           <div className='row m-0'>
             {/* left  */}
@@ -150,9 +150,9 @@ export default function ResourcesContent() {
         </div>
       </div>
 
-      <div className='py-4 px-2 '>
-        <a href="https://www.youtube.com/@8thgearhub" target='_blank' rel='noreferrer' className='link-underline link-underline-opacity-0'>
-          <p className='fs-md-6 fs-6'> <span><FaYoutube className='text-danger fs-3 me-md-2' /></span> CLICK FOR MORE VIDEOS <span><GoArrowRight className='fs-3 fw-normal my-2' />
+      <div className='py-4 px-2'>
+        <a href="https://www.youtube.com/@8thgearhub" target='_blank' rel='noreferrer' className='link-underline link-underline-opacity-0 text-black'>
+          <p className='fs-md-5 fs-6'> <span><FaYoutube className='text-danger fs-4 me-md-2' /></span> CLICK FOR MORE VIDEOS <span><GoArrowRight className='fs-4 pb-1 fw-normal ' />
           </span> </p>
         </a>
       </div>
