@@ -75,7 +75,7 @@ import FMU_Q1 from "./pages/EventsNew/FMUQ1";
 import FMU_Q2 from "./pages/EventsNew/FMUQ2";
 
 //Resources
-import Resources from "./pages/Resources/Resources";
+// import Resources from "./pages/Resources/Resources";
 import { ResourcesNew } from "./pages/ResourcesNew/Resources";
 import { ABCBusinessAccountingReadMore } from "./pages/Resources/ArticleReadMore";
 import { KeepingAccountingRecordsReadMore } from "./pages/Resources/ArticleReadMore";
