@@ -75,7 +75,7 @@ import FMU_Q1 from "./pages/EventsNew/FMUQ1";
 import FMU_Q2 from "./pages/EventsNew/FMUQ2";
 
 //Resources
-import Resources from "./pages/Resources/Resources";
+// import Resources from "./pages/Resources/Resources";
 import { ResourcesNew } from "./pages/ResourcesNew/Resources";
 import { ABCBusinessAccountingReadMore } from "./pages/Resources/ArticleReadMore";
 import { KeepingAccountingRecordsReadMore } from "./pages/Resources/ArticleReadMore";
@@ -96,7 +96,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="our-model" element={<OurModelPage />} />
         <Route path="portfolio" element={<PortfolioPage />} />
-        <Route path="resources" element={<Resources />} />
         <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
         <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
         <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
@@ -166,8 +165,8 @@ function App() {
         <Route path="terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="refund-policy" element={<RefundPolicy />} />
         <Route path="*" element={<Error404 />} />
-        <Route path="resources" element={<Resources />} />
-        <Route path="resourcesNew" element={<ResourcesNew />} />
+        {/* <Route path="resourcesOld" element={<Resources />} /> */}
+        <Route path="resources" element={<ResourcesNew />} />
         <Route
           path="ABCBusinessAccounting"
           element={<ABCBusinessAccountingReadMore />}

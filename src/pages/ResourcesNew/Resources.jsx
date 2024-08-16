@@ -1,3 +1,4 @@
+import { Navbar21 } from "../../components/Navbar";
 import NewNavbar from "./NewNavbar";
 import ResourcesContent from "./ResourcesContent";
 
@@ -5,9 +6,10 @@ export const ResourcesNew = () => {
   return (
     <div className="relative">
       <div>
-        <NewNavbar />
+        <Navbar21 />
+        {/* <NewNavbar /> */}
       </div>
-      <div style={{ height: "80px" }}></div> {/* Spacer div */}
+      <div style={{ height: "90px" }}></div> {/* Spacer div */}
       <div className="">
         <div
           className="hero-section relative"
@@ -19,12 +21,13 @@ export const ResourcesNew = () => {
           }}
         >
           <div className="container text-center align-self-center  justify-content-center position-relative top-50">
-            <h1 className="text-white fw-semibold fs-2 lh-sm ">
-              Fuel Your Venture’s <span className="text-warning">Success</span>{" "}
+            <h1 className="text-white fw-semibold fs-1 lh-sm ">
+              Accelerate Your Business{" "}
+              <span className="text-warning">Growth</span>{" "}
             </h1>
-            <p className="text-white fw-normal fs-6 lh-sm">
-              Unlock the potential of your venture with curated knowledge and
-              practical tools
+            <p className="text-white fw-normal fs-5 lh-sm">
+              Gain the insights and strategies needed to succeed in today’s
+              market.
             </p>
           </div>
         </div>

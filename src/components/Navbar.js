@@ -920,7 +920,7 @@ export const Navbar20 = () => {
 };
 export const Navbar21 = () => {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid my-2">
       <div className="row">
         {text.resources.map((navbar) => {
           return (

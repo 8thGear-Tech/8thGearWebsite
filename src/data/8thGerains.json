@@ -19,6 +19,15 @@
   ],
   "teamcardthree": [
     {
+      "image1": "../../images/team/moyo.jpg",
+      "name1": "MOYOSORE AMAO",
+      "title1": "BUSINESS DEV. EXECUTIVE",
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/moyoamao/"
+    }
+  ],
+  "teamcardfour": [
+    {
       "image1": "../../images/team/vindee.png",
       "name1": "VINDICATION JOSEPH",
       "title1": "PROGRAMS & PROJECT LEAD",
@@ -26,7 +35,7 @@
       "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
     }
   ],
-  "teamcardfour": [
+  "teamcardfive": [
     {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
@@ -35,7 +44,7 @@
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
-  "teamcardfive": [
+  "teamcardsix": [
     {
       "image1": "../../images/team/hakeem.png",
       "name1": "HAKEEM IDRIS",
@@ -44,7 +53,6 @@
       "link": "https://www.linkedin.com/in/hakeemidris010/"
     }
   ],
-  "teamcardsix": [],
 
   "EIRcard": [
     {
