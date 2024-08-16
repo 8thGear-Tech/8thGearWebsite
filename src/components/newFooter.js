@@ -65,11 +65,11 @@ export const NewFooter = () => {
               <ul className="nav">
                 <li className="nav-item">
                   <Link
-                    to="/"
+                    to="/resources"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    BLOG
+                    RESOURCES
                   </Link>
                 </li>
                 <li className="nav-item">

@@ -931,6 +931,12 @@ export const Gerians = () => {
             return <TeamCardFive {...card}></TeamCardFive>;
           })}
         </div>
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardsix.map((card) => {
+            return <TeamCardSix {...card}></TeamCardSix>;
+          })}
+        </div>
       </div>
 
       {/* <div className="col-lg-4 col-md-6 mt-5">
