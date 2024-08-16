@@ -16,7 +16,7 @@ const data = {
     {
       index: 2,
       videoLink: "https://www.youtube.com/embed/IAwPlkUx4_Y",
-      videoTitle: "Nigerian Startup ACTS",
+      videoTitle: "Nigerian Startup ACT",
       videoText:
         "As a Founder, how much do you know about the Startup Act and its enormous benefits to you as a Business Owner?",
     },
@@ -31,10 +31,9 @@ const data = {
     },
     {
       index: 2,
-      videoLink: "https://www.youtube.com/embed/IAwPlkUx4_Y",
-      videoTitle: "Nigerian Startup ACTS",
-      videoText:
-        "As a Founder, how much do you know about the Startup Act and its enormous benefits to you as a Business Owner?",
+      videoLink: "https://www.youtube.com/embed/wJRBSeEB3FQ",
+      videoTitle: "Customer Segementation",
+      videoText: "",
     },
     {
       index: 3,
@@ -90,7 +89,7 @@ export default function ResourcesContent() {
   // This renders desktop video
   const renderDesktopVideos = (videos) => {
     return videos.map((video) => (
-      <div key={video.index} className="text-center mx-5">
+      <div key={video.index} className="text-center mx-3 mx-md-5">
         <div className="desktop-responsive-iframe">
           <iframe
             src={video.videoLink}
@@ -114,7 +113,7 @@ export default function ResourcesContent() {
         <h3>Resources</h3>
         {/* The toggle buttons */}
         <div className="container">
-          <div className="row g-0">
+          <div className="row vids g-0">
             <div className="col-12 col-md-6">
               <Button
                 className={`button-custom ${
@@ -164,7 +163,7 @@ export default function ResourcesContent() {
       <div className="d-block">
         <h3 className="py-4">Resources</h3>
         <div className="mx-lg-5">
-          <div className="row">
+          <div className="row m-0">
             {/* left  */}
             <div className="col-12 col-lg-8">
               {renderDesktopVideos(data.knowledgeCenter)}
@@ -177,18 +176,19 @@ export default function ResourcesContent() {
         </div>
       </div>
 
-      <div className="py-4 ">
+      <div className="py-4 px-2 ">
         <a
           href="https://www.youtube.com/@8thgearhub"
           target="_blank"
           rel="noreferrer"
+          className="link-underline link-underline-opacity-0"
         >
-          <p className="fs-md-6">
+          <p className="fs-md-6 fs-6">
             {" "}
             <span>
               <FaYoutube className="text-danger fs-3 me-md-2" />
             </span>{" "}
-            VISIT YOUTUBE FOR MORE VIDEOS{" "}
+            CLICK FOR MORE VIDEOS{" "}
             <span>
               <GoArrowRight className="fs-3 fw-normal my-2" />
             </span>{" "}

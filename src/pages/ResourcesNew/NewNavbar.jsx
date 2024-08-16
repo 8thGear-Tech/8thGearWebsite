@@ -24,7 +24,7 @@ export default function NewNavbar() {
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
-              <h3 className="py-2 px-3 text-dark">8thGear</h3>
+              <h3 className="py-2 px-3 text-dark">8thGear Hub</h3>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
