@@ -75,6 +75,7 @@ import NewFooter2 from "./pages/ResourcesNew/NewFooter2";
 // NewEvent PAge
 import FMU_Q1 from "./pages/EventsNew/FMUQ1";
 import FMU_Q2 from "./pages/EventsNew/FMUQ2";
+import FMU_Q3 from "./pages/EventsNew/FMUQ3";
 
 //Resources
 import Resources from "./pages/Resources/Resources";
@@ -161,6 +162,7 @@ function App() {
         {/* NewEvents Gallery  */}
         <Route path="fmu-q1-gallery" element={<FMU_Q1 />} />
         <Route path="fmu-q2-gallery" element={<FMU_Q2 />} />
+        <Route path="fmu-q3-gallery" element={<FMU_Q3 />} />
         <Route path="gear-up-expose" element={<GearUpExposePage />} />
         <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
         <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
