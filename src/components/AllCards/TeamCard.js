@@ -278,7 +278,7 @@ export const TeamCardThree = (props) => {
     <>
       <div className="card-deck">
         <div className="card w-75 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <img src={image1} className="card-img-top Teampic " alt="moyo" />
           <div className="card-body teamcardbody">
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
