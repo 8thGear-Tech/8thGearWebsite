@@ -84,6 +84,12 @@
   "eventsGallerySection": [
     {
       "id": 1,
+      "image": "/images/FMU_24_Q3/FMU_Q3_1.JPG",
+      "link": "/fmu-q3-gallery",
+      "text": "Founders Meetup Q3 2024"
+    },
+    {
+      "id": 1,
       "image": "../../images/FMU_24_Q2/FMU_Q2_1.PNG",
       "link": "/fmu-q2-gallery",
       "text": "Founders Meetup Q2 2024"
