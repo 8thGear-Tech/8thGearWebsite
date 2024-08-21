@@ -85,12 +85,6 @@ const SliderComponent = () => {
                           <LinkedInIcon />
                         </div>
                       </a>
-                      {/* <a
-                      href={slide.link}
-                      className="arrow-link d-flex align-items-center text-white text-decoration-none"
-                    >
-                      <FaArrowRight />
-                    </a> */}
                     </Card.Body>
                   </Card>
                 </a>
@@ -120,12 +114,6 @@ const SliderComponent = () => {
                           <LinkedInIcon />
                         </div>
                       </a>
-                      {/* <a
-                      href={slide.link}
-                      className="arrow-link d-flex align-items-center text-white text-decoration-none"
-                    >
-                      <FaArrowRight />
-                    </a> */}
                     </Card.Body>
                   </Card>
                 </a>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./eventsNew.css";
+import { DemoDayReadMoreBtn } from "../../components/Buttons/EventsBtn";
 
 const EventsPortfolio = () => {
   return (
@@ -54,6 +55,7 @@ const EventsPortfolio = () => {
                 {/* <a href="/demo-day" className="btn btn-primary">
                   Read more
                 </a> */}
+                <DemoDayReadMoreBtn />
               </div>
             </div>
           </div>

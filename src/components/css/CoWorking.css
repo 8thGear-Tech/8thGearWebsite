@@ -1,72 +1,10 @@
-.workspace {
-  border-top: 1px solid black;
-}
-
-.workspace h3 {
-  color: #a5009f;
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.workspace p {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-}
-
-.workspace a {
-  margin-left: 3px;
-  text-decoration: underline;
-  color: inherit;
-}
-
-.workspace .coworking-img {
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: 30px;
-}
-
-.pricetable {
-  margin-top: 50px;
-}
-
-.price {
-  text-align: center;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.button-group {
-  text-align: center;
-  margin-bottom: 4px;
-}
-
 .button-group .btn.btn-primary {
-  margin-top: 20px !important;
   width: 229px;
-  /* height: 52px; */
-  padding: 8px 16px;
-  gap: 6.97px;
-  border-radius: 80px;
-  border: 1px solid #a5009f;
   background: #fafafa;
   color: #a5009f;
   font-family: "Poppins", sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  line-height: 24px !important;
-  text-align: center;
   opacity: 1;
   transition: background 0.3s, color 0.3s;
-  margin-right: 10px;
 }
 
 .button-group .btn.btn-primary.active {
@@ -82,101 +20,46 @@
 /* op */
 
 .time-range {
-  font-size: 0.85em; /* Adjust this size as needed */
-  color: #555; /* You can change this color to match your design */
-  font-style: italic; /* Italicize the time range for differentiation */
-  margin-top: 5px; /* Add some space between the title and time range */
+  font-size: 0.85em;
+  color: #555;
+  font-style: italic;
+  margin-top: 5px;
 }
 
-.small-text {
-  font-size: 0.8em; /* Change as needed */
-  color: #555; /* Optional, change color if required */
-}
-
-.sub-title {
-  text-align: center; /* Center the text under the title */
-  font-weight: normal; /* Adjust font weight if needed */
-}
 .new-tab-card {
   font-family: "Poppins", sans-serif !important;
-  text-align: center !important;
-  margin-top: 20px;
-  border-radius: 24px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .new-tab-card .totalprice {
-  font-weight: bold;
-  margin-top: 10px;
   color: #6e006a;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .new-tab-card.card,
 .price-body {
   background: #f7e1f7 !important;
-  border-radius: 24px;
-  /* width: auto; */
-  height: 27rem;
   gap: 5px;
-  /* box-shadow: 0px 1px 0px 0px #00000029; */
-  border: 0;
-  text-align: center;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
-
-/* .new-tab-card.card,
-.card-body:first-child {
-  background: #ffffff;
-} */
 
 .card-title.h5 {
   color: #a5009f;
 }
+
 .new-tab-card hr {
   color: #a5009f;
-  width: 13rem;
-  /* margin-left: 55px; */
-}
-.new-tab-card ul {
-  margin: 0 !important;
-  position: relative !important;
-  left: 0 !important;
-  padding: 0 !important;
 }
 
 .new-tab-card li {
   color: #1c1c1c;
-  list-style: none;
-  margin-bottom: 0;
   font-family: "Poppins", sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 400 !important;
-  line-height: 30px !important;
-  text-align: center !important;
-}
-
-.card-subtitle.h6 {
-  color: #6e006a;
-  font-family: "Poppins", sans-serif !important;
-  font-size: 20px !important;
-  font-weight: 600 !important;
-  line-height: 32px !important;
-  text-align: center !important;
 }
 
 .hero-section {
-  position: relative;
   background-image: url("../image/radio.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  color: white;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
   margin-top: -100px !important;
 }
 
@@ -190,106 +73,22 @@
 }
 
 .hero-content {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  /* padding: 10px; */
-  height: 580px;
   top: 12rem;
 }
 
 .row-content {
   margin-top: 200px !important;
-  width: 100% !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.hero-column {
-  width: 100%;
-}
-
-.hero-title {
-  font-size: 2rem !important;
-  font-weight: 700 !important;
-  font-family: "Poppins", sans-serif !important;
-  font-style: normal;
-  text-transform: uppercase;
-}
-
-.lead {
-  text-transform: uppercase;
-  font-weight: 500 !important;
-  font-family: "Poppins", sans-serif !important;
-  font-style: normal;
-}
-
-.btn.btn-primary {
-  margin-top: 30px;
+.btn.btn-primary { 
   background-color: #6e006a;
   border: 1.46px solid #a5009f;
-  padding: 12px 24px 12px 24px;
-  border-radius: 12px;
-  font-weight: 300 !important;
-  font-family: "Poppins", sans-serif !important;
-  font-style: normal;
 }
 
 .btn.btn-primary:hover {
   background-color: #a5009f;
   color: #fff;
   border: 1.46px solid #a5009f;
-}
-
-.client-section {
-  background-color: #fff1ff;
-  padding: 40px 0;
-}
-
-/* i commented this out */
-
-/* .new-tab-card li {
-  color: #1c1c1c;
-} */
-
-/* .hero-section {
-  background-image: url("../image/radio.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.hero-content {
-  height: 580px;
-  top: 12rem;
-}
-
-.client-section {
-  background-color: #fff1ff;
-} */
-
-/* i commented this out - up */
-
-.section-title {
-  color: #890084;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif !important;
-  font-size: 25px !important;
-  font-weight: 600 !important;
-  line-height: 48px !important;
-  text-align: center !important;
-}
-
-.client-logo {
-  max-height: 100px;
-  max-width: 100%;
-  margin: 0 10px !important;
 }
 
 /* #dropdown */
@@ -302,139 +101,3 @@
   justify-content: center;
 }
 
-/* @media (min-width: 768px) {
-  .client-section .row {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-
-  .client-logo {
-    margin: 0;
-  }
-
-  .hero-content {
-    top: 12rem;
-  }
-} */
-/* 
-@media (max-width: 1024px) {
-  .row-content {
-    margin-top: 450px !important;
-  }
-
-  .hero-section {
-    margin-top: -300px !important;
-  }
-
-  .new-tab-card hr {
-    margin-left: 30px;
-  }
-} */
-/* 
-@media (max-width: 767.98px) {
-  .client-section .row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .client-logo {
-    margin: 0;
-  }
-} */
-
-/* @media (min-width: 1826px) {
-  .row-content {
-    margin-top: 400px !important;
-  }
-
-  .hero-title {
-    font-size: 3.4rem !important;
-    font-weight: 700 !important;
-  }
-
-  .new-tab-card hr {
-    margin-left: 100px;
-  }
-} */
-/* 
-@media (max-width: 768px) {
-  .row-content {
-    margin-top: 300px !important;
-  }
-
-  .new-tab-card.card,
-  .card-body {
-    width: auto;
-    margin: 0 auto;
-    margin-top: 20px;
-    height: auto;
-  }
-
-  .new-tab-card li {
-    margin-top: 15px;
-    font-size: 15px !important;
-    font-weight: 400 !important;
-  }
-
-  .card-title.h5 {
-    margin-top: -10px;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-  }
-
-  .card-subtitle.h6 {
-    font-size: 16px !important;
-    font-weight: 600 !important;
-  }
-
-  .hero-section {
-    margin-top: -200px !important;
-  }
-} */
-/* 
-@media (max-width: 576px) {
-  .price {
-    font-size: 25px !important;
-  }
-
-  .button-group .btn.btn-primary {
-    margin-bottom: -20px;
-  }
-
-  .new-tab-card.card,
-  .card-body {
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-
-  .card-title.h5 {
-    margin-top: -10px;
-    font-size: 18px !important;
-    font-weight: 600 !important;
-  }
-
-  .new-tab-card li {
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    margin-top: 15px;
-  }
-
-  .card-subtitle.h6 {
-    font-size: 18px !important;
-    font-weight: 600 !important;
-  }
-
-  .section-title {
-    font-size: 25px !important;
-  }
-
-  .row-content {
-    margin-top: 250px !important;
-  }
-
-  .hero-section {
-    margin-top: -150px !important;
-  }
-} */

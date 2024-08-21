@@ -1,22 +1,14 @@
 import React from "react";
 
-import ciscologo from "../../assets/images/whoweare/ciscologo.png";
-import afrilabslogo from "../../assets/images/whoweare/afrilabslogo.png";
-import gizlogo from "../../assets/images/whoweare/gizlogo.png";
-import lsetflogo from "../../assets/images/whoweare/lsetflogo.png";
-import usadflogo from "../../assets/images/whoweare/usadflogo.png";
-import corevalues from "../../assets/images/whoweare/corevalues.png";
 import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
 import { Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
 import coworking from "../../assets/images/coworking/coworking.png";
 
 //team
-import { AdvisoryTeamPic } from "../../components/AllCards/TeamCard";
 import { Gerians } from "../../components/AllCards/TeamCard";
 import { EIR } from "../../components/AllCards/TeamCard";
 import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
-// import { JoinTheTeamForm } from "../../components/Forms/EnquiresandSuggestionForm";
 import "../About/aboutUs.css";
 import CoreValue from "../About/CoreValue";
 import HeroSection from "../About/HeroSection";
@@ -64,98 +56,16 @@ const CoreValues = () => {
   return (
     <div className="container py-5">
       <div className="row justify-content-center">
-        <img
-          src={corevaluesnew}
-          className="col-12"
-          // style={{ maxWidth: "100%", maxHeight: "100%" }}
-        ></img>
+        <img src={corevaluesnew} className="col-12"></img>
       </div>
     </div>
   );
 };
 
-// const Partners = () => {
-//   return (
-//     <>
-//       <div>
-//         <h4 className="text-center pt-5 pb-3">COMPANIES WHO HAVE TRUSTED US</h4>
-//         <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
-//           <div className="slide-track2">
-//             {[
-//               ecobarter,
-//               firstbank,
-//               aiki,
-//               chekkit,
-//               cloudflex,
-//               propslogo,
-//               esentry,
-//               uba,
-//               npc,
-//               unionbank,
-//               lagosstategovernment,
-//               wouessi,
-//               dangote,
-//               ictflier,
-//               elitecv,
-//               tingomobile,
-//               fuelmetrics,
-//             ].map((src, index) => (
-//               <div
-//                 className="slide2"
-//                 key={index}
-//                 style={index === 0 ? { marginLeft: "0px" } : undefined}
-//               >
-//                 <img
-//                   src={src}
-//                   alt={`Logo ${index + 1}`}
-//                   className="carousel-logo"
-//                   style={{ width: "130px", height: "130px", margin: "0 30px" }}
-//                 />
-//               </div>
-//             ))}
-//             {[
-//               ecobarter,
-//               firstbank,
-//               aiki,
-//               chekkit,
-//               cloudflex,
-//               propslogo,
-//               esentry,
-//               uba,
-//               npc,
-//               unionbank,
-//               lagosstategovernment,
-//               wouessi,
-//               dangote,
-//               ictflier,
-//               elitecv,
-//               tingomobile,
-//               fuelmetrics,
-//             ].map((src, index) => (
-//               <div
-//                 className="slide2"
-//                 key={index}
-//                 style={index === 0 ? { marginLeft: "0px" } : undefined}
-//               >
-//                 <img
-//                   src={src}
-//                   alt={`Logo ${index + 1}`}
-//                   className="carousel-logo"
-//                   style={{ width: "130px", height: "130px", margin: "0 30px" }}
-//                 />
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
 export const Partners = () => (
   <>
     <div>
-      <h3 className="text-center mt-5 mb-5 purple-text">OUR PARTNERS</h3>
+      <h4 className="text-center pt-5 pb-3">Our Partners</h4>
       <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
         <div className="slide-track2">
           {[
@@ -249,7 +159,6 @@ const JointheTeam = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center mb-3">
-          {/* <JoinTheTeamForm /> */}
           <JointheTeamBtn />
         </div>
       </div>

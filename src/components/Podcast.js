@@ -4,15 +4,14 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 const Podcast = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section position-relative text-white">
       <div className="hero-overlay"></div>
-      <Container className="hero-content">
-        <Row className="justify-content-center row-content">
-          <Col md={8} className="hero-column text-center">
-            <h5 className="display-5 hero-title">Want to create a podcast?</h5>
-            {/* <p className="lead">We can help.</p> */}
+      <Container className="hero-content position-relative text-center z-1">
+        <Row className="justify-content-center row-content w-100 d-flex align-items-center">
+          <Col md={8} className="hero-column text-center w-100">
+            <h5 className="display-5 hero-title fs-1 fw-bold">WANT TO CREATE A PODCAST?</h5>
             <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
-              <Button className="btn btn-primary">Book a Session</Button>
+              <Button className="btn btn-primary mt-5 rounded px-4 py-2 fw-normal fs-6">Book a Session</Button>
             </a>
           </Col>
         </Row>

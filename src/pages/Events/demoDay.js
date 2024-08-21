@@ -1,127 +1,146 @@
 import { Navbar16 } from "../../components/Navbar";
-import { Demoday } from "../../components/Hero/BGColorandTextHero";
-import demodaypictureone from "../../assets/images/events/demodaypictureone.jpg";
-import demodaypicturetwo from "../../assets/images/events/demodaypicturetwo.jpg";
-import { DemoDayRegisterBtn } from "../../components/Buttons/EventsBtn";
+import "./demoDay.css";
+import demoimgone from "../Events/image/demo1.png";
+import demoimgtwo from "../Events/image/demo2.png";
+
 const DemoDayPage = () => {
   return (
     <>
       <Navbar16 />
-      {/* <DemoDayHero /> */}
-      <AboutDemoDay />
+      <div className="demoDay-background">
+        <div className="demoDay-layout w-100 start-0 d-flex justify-content-center align-items-center">
+          <DemoHero />
+        </div>
+      </div>
+      <DemoSection />
+      {/* <AboutDemoDay /> */}
     </>
   );
 };
 
-const AboutDemoDay = () => {
+const DemoHero = () => {
   return (
-    <div className="container py-5 px-4">
-      {" "}
-      {/* <h4 className="">Our Business Creation Platform</h4> */}
-      <div className="">
-        <h2 className="">8thGear Demo Day</h2>
-        <p className="">
-          Join upcoming Demo Day, or rewatch the ones that you've missed here:{" "}
-          <a
-            href="https://www.youtube.com/watch?v=-5lGJLLBavI"
-            className="textLinkColor"
-            target="_blank"
-          >
-            {" "}
-            8thGear Demo Day Highlights - June 2022
-          </a>
+    <div className="container-fluid px-0">
+      <div className="w-100 start-0 d-flex justify-content-center align-items-center flex-column text-center text-white py-5">
+        <h2 className="mb-3">Demo Day</h2>
+        <h3 className="fw-bold fs-4 mb-4 text-white">
+          Showcasing Innovation and Excellence
+        </h3>
+        <p className=" mb-4 mx-3 mx-md-5">
+          From time to time 8thGear Hub hosts Demo days for all its portfolio
+          and select companies
         </p>
-        {/* <a
-          href="https://www.youtube.com/watch?v=-5lGJLLBavI"
-          className="textLinkColor"
-          target="_blank"
-        >
+        <div className="d-lg-flex d-md-flex">
           {" "}
-          <p>8thGear Demo Day Highlights - June 2022</p>
-        </a> */}
-        <div className="mb-4">
-          {" "}
-          <DemoDayRegisterBtn />
+          <p className="mx-2 fs-5">
+            {" "}
+            <i
+              className="bi bi-calendar demoLogo me-2"
+              aria-hidden="true"
+            ></i>{" "}
+            TBD
+          </p>
+          <p className="mx-2 fs-5">
+            <i className="bi bi-geo-alt demoLogo me-2" aria-hidden="true"></i>{" "}
+            8thGear Hub, CMD road, Magodo/Secretariat, Lagos state
+          </p>
+          <p className="mx-2 fs-5">
+            {" "}
+            <i className="bi bi-clock demoLogo me-2" aria-hidden="true"></i> TBD
+          </p>
+        </div>
+        {/* <ul className="list-unstyled d-flex flex-wrap justify-content-center align-items-center fs-5 mb-4 mx-3 mx-md-5">
+          <li className="d-flex align-items-center mx-2 mx-md-3 demoHeroList">
+            <i className="bi bi-calendar demoLogo me-2" aria-hidden="true"></i>{" "}
+            TBD
+          </li>
+          <li className="d-flex align-items-center mx-2 mx-md-3 demoHeroList">
+            <i className="bi bi-geo-alt demoLogo me-2" aria-hidden="true"></i>{" "}
+            8thGear Hub, CMD road, Magodo/Secretariat, Lagos state
+          </li>
+          <li className="d-flex align-items-center mx-2 mx-md-3 demoHeroList">
+            <i className="bi bi-clock demoLogo me-2" aria-hidden="true"></i> TBD
+          </li>
+        </ul> */}
+        <button className="btn btn-primary rounded-pill demoButton mt-4 px-4 py-2 fs-4 fw-bold">
+          Register Now
+        </button>
+      </div>
+    </div>
+  );
+};
+
+const DemoSection = () => {
+  return (
+    <div className="container mt-4 mb-5 align-items-left">
+      {/* Heading and Paragraph */}
+      <div className="text-center mb-4">
+        <h2 className="fw-500 fs-4 demoTextColor">8thGear Hub Demo Day</h2>
+        <p className="">
+          It is a value-packed day where every member of our ecosystem comes
+          together to witness the brilliance of creative minds and hear pitch
+          ideas that have the potential to scale.
+        </p>
+      </div>
+
+      {/* Text and Image Row */}
+      <div className="row mb-5 mt-4 align-items-center">
+        {/* Left Section */}
+        <div className="col-md-6 d-flex flex-column">
+          <h3 className="fw-500 fs-4">What is Demo Day?</h3>
+          <div className="fs-5">
+            <p className="mb-3 ">
+              On Demo Day, 8thGear Hub offers startups an opportunity to pitch
+              their ideas and meet with possible investors.
+            </p>
+            <p className="mb-3">
+              Demo Day is open to all startups who are looking for investors and
+              are willing to take their business to the next level!!
+            </p>
+            <p className="mb-3">
+              We have a couple of investors who are willing and looking for
+              startups to invest in.
+            </p>
+          </div>
+        </div>
+        <div className="col-md-6 d-flex align-items-center">
+          <img
+            src={demoimgone}
+            alt="Demo Day"
+            className="img-fluid rounded-5"
+          />
         </div>
       </div>
-      <img
-        src={demodaypictureone}
-        style={{ maxHeight: "100%", maxWidth: "100%" }}
-      ></img>
-      <div className="float-start float-end">
-        {" "}
-        <p className="pt-5 ">
-          We believe that entrepreneurs need to participate in demo days and
-          gain necessary exposure, which can lead to opportunities for funding,
-          mentorship, and partnerships, all of which are critical for most
-          businesses to thrive.
-        </p>
+
+      {/* Right Section */}
+      <div className="row align-items-center">
+        {/* Image First on Desktop, Last on Mobile */}
+        <div className="col-md-6 d-flex align-items-center order-md-1 order-3">
+          <img src={demoimgtwo} alt="Join Demo Day" className="img-fluid" />
+        </div>
+
+        {/* Heading and Paragraph First on Mobile, Second on Desktop */}
+        <div className="col-md-6 d-flex flex-column order-md-2 order-1">
+          <h3 className="fw-500 fs-4 demoTextColor">
+            Want to be a part of demo day?
+          </h3>
+          <div className="fs-5">
+            <p className="mb-3">
+              1. Must have registered using the link{" "}
+              {/* <a
+                href="https://bit.ly/3WyJVFe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://bit.ly/3WyJVFe
+              </a> */}
+            </p>
+            <p className="mb-3">2. Confident speaking in English</p>
+            <p className="mb-3">3. Must have a business plan</p>
+            <p className="mb-3">4. Should have a good portfolio</p>
+          </div>
+        </div>
       </div>
-      <p className="">
-        The 8thGear Demo Day is a tripartite event. First, a showcase, where
-        businesses in the venture studio intimate members of the community on
-        the progress they have made so far. Second, it serves as an official
-        entrant for new businesses into the venture studio, and thirdly, it
-        serves as the first-level conversation between investors and founders
-        they find interesting.
-      </p>
-      <p className="pb-5">
-        8thGear demo day brings all the major players together: investors,
-        community supporters, corporate partners, and founders to facilitate
-        critical conversations and give the feedback necessary for growth.
-      </p>
-      <img
-        src={demodaypicturetwo}
-        style={{ maxHeight: "100%", maxWidth: "100%" }}
-      ></img>{" "}
-      <p className="pt-5">
-        The entrepreneurs pitching only have a few minutes to convince the
-        audience that they are onto something great. Starting with the problem
-        they solve, moving on to their solution, business viability, and making
-        an investment request. Therefore, founders have to be very concise in
-        their efforts with a strong pitch and first impression.
-      </p>
-      <p className="">
-        Before any demo day, there is an intensive 2-week Bootcamp where
-        interested entrepreneurs are groomed for the big day. Are you interested
-        in being one of our Venture Studio Businesses (VSB) ? or just pitching
-        to investors and other stakeholders on the 8thGear Demo Day? Do click{" "}
-        <a
-          href="https://forms.gle/RyxYFMPtVsXuw33NA"
-          className="textLinkColor"
-          target="_blank"
-        >
-          here
-        </a>{" "}
-        to indicate your interest.
-      </p>
-      <p className="">
-        8thGear Hub has an independent venture studio that was set up to provide
-        hand-holding and support enterprise support for young people who are
-        building amazing ventures in Nigeria and in Africa. At the root of what
-        we want to achieve on our demo day is to encourage, motivate, and
-        challenge young people to help create an Africa of value creators, not
-        just value consumers, by building businesses that endure.
-      </p>
-      <p className="">
-        Register{" "}
-        <a
-          href="https://forms.gle/RyxYFMPtVsXuw33NA"
-          className="textLinkColor"
-          target="_blank"
-        >
-          here
-        </a>{" "}
-        to be part of our next demo day. Click{" "}
-        <a
-          href="https://www.youtube.com/watch?v=kEVKmygbmxo&list=PLSVm1pLRDXp36d077XMaDG_Ol9ayyrpUB"
-          className="textLinkColor"
-          target="_blank"
-        >
-          here
-        </a>{" "}
-        to watch the last demo day.
-      </p>
     </div>
   );
 };
