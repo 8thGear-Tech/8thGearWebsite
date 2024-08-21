@@ -1,0 +1,45 @@
+.demoDay-background {
+  background-image: url("../Events/image/demoimg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.demoDay-layout {
+  background-color: rgba(0, 0, 0, 0.771);
+  min-height: 80vh;
+}
+
+.demoLogo {
+  color: #FF00F6;
+}
+
+.demoButton {
+  background-color: rgba(0, 0, 0, 0.53) !important;
+  width: 239px !important;
+  border-color: #D3D3D3 !important;
+}
+
+.demoButton:hover {
+  background-color: #D3D3D3 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.demoTextColor {
+  color: #771877;
+}
+
+@media (max-width: 768px) {
+  .demoHeroList {
+    margin-top: 1rem;
+  }
+
+  .demoTextColor {
+    text-align: center;
+  }
+
+  .demoDescription {
+    text-align: center;
+  }
+}
+
+
