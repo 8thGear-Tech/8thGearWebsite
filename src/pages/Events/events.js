@@ -1,9 +1,8 @@
-import { SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
+import { DemoDayReadMoreBtn, SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
 
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import {
   FoundersMeetupReadMoreBtn,
-  DemoDayReadMoreBtn,
   GearUpReadMoreBtn,
   GearUpExposeBtn,
 } from "../../components/Buttons/EventsBtn";
