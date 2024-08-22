@@ -1,0 +1,28 @@
+.faqHeading {
+  color: #6E006A;
+}
+
+.faqButton {
+  color: #A5009F;
+  background-color: #ffffff !important;
+  /* width: 229px; */
+}
+
+.faqButton:hover {
+  color: #ffffff;
+  background-color: #A5009F !important;
+}
+
+.faqButton.active {
+  color: #ffffff;
+  background-color: #A5009F !important;
+}
+
+.faqAccordionButton:focus {
+  box-shadow: none;
+}
+
+.faqAccordionButton:first-of-type {
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+}
