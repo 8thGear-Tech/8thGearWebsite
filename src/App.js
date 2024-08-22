@@ -89,6 +89,7 @@ import VideoDetail from "./pages/Resources/VideoCategory";
 import BDandVentureStudioOfficer from "./pages/Careers/BDandVentureStudioOfficer";
 import HRIntern from "./pages/Careers/HRIntern";
 import AccountingIntern from "./pages/Careers/AccountingIntern";
+import TalentFair24 from "./pages/EventsNew/TalentFair24";
 
 function App() {
   return (
@@ -163,6 +164,7 @@ function App() {
         <Route path="fmu-q1-gallery" element={<FMU_Q1 />} />
         <Route path="fmu-q2-gallery" element={<FMU_Q2 />} />
         <Route path="fmu-q3-gallery" element={<FMU_Q3 />} />
+        <Route path="talent-fair-gallery" element={<TalentFair24 />} />
         <Route path="gear-up-expose" element={<GearUpExposePage />} />
         <Route path="gear-up-showcase" element={<GearUpShowcasePage />} />
         <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
