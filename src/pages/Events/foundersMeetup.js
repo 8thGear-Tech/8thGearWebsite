@@ -4,14 +4,18 @@ import {DemodayHero} from "../../components/Hero/ImageandTextHero";
 import {FoundersMeetupHero} from "../../components/Hero/BGColorandTextHero";
 import {EventsRegisterBtn} from "../../components/Buttons/EventsBtn";
 import {Image} from "react-bootstrap";
-import heropic from "../../assets/images/founder'sMeetup/heropic.jpg";
-import herosquare from "../../assets/images/founder'sMeetup/herosquare bg.png";
+// import heropic from "../../assets/images/founder'sMeetup/heropic.jpg";
+// import herosquare from "../../assets/images/founder'sMeetup/herosquare bg.png";
 import herocircle from "../../assets/images/founder'sMeetup/herocircle.png";
 import heropicSM from "../../assets/images/founder'sMeetup/heropicsm.jpg";
-import {Calendar, Clock, Linkedin, PinAngle} from "react-bootstrap-icons";
+import {Calendar, Clock, Linkedin} from "react-bootstrap-icons";
 import locationPin from "../../assets/images/founder'sMeetup/locationIcon.png";
+import clockIcon from "../../assets/images/founder'sMeetup/clockicon.svg";
+import CalendarIcon from "../../assets/images/founder'sMeetup/calenderIcon.svg";
 import speaker1 from "../../assets/images/founder'sMeetup/speaker1.png";
-import {FaLocationArrow} from "react-icons/fa";
+import heroPic1 from "../../assets/images/founder'sMeetup/heropic1.jpg";
+import heroPic2 from "../../assets/images/founder'sMeetup/heropic2.jpg";
+
 import "../../sassfiles/pages/_foundersMeet.scss";
 
 const FounderMeetupPage = () => {
@@ -31,9 +35,9 @@ const FounderMeetupPage = () => {
 // HERO SECTION
 const FounderMeetupHero = () => {
     return (
-        <div className="px-md-3 px-lg-2 py-md-3 py-lg-2 container-fluid heroSection d-flex justify-content-between align-items-center w-100">
+        <div className="px-md-3 px-lg-5 py-md-3 py-lg-2 container-fluid heroSection d-flex justify-content-between align-items-center w-100 overflow-hidden">
             {/* LEFT SECTION */}
-            <div className="align-content-center mt-0 Left-section-text justify-content-sm-start py-sm-0">
+            <div className="align-content-start mt-0 Left-section-text justify-content-sm-start py-sm-0">
                 <div className="d-flex flex-column align-content-center px-2 py-2 mt-0">
                     <p className="hero-pill rounded-pill py-2 px-1 text-center fw-bolder">IN-PERSON EVENT</p>
                     <h1 className="hero-caption">
@@ -42,32 +46,35 @@ const FounderMeetupHero = () => {
                     <p className="hero-subcaption fs-5 pt-4">Network with with local entrepreneurs.</p>
                 </div>
                 {/* Invite Card */}
-                <div className="hero-card px-2 shadow rounded-2">
+                <div className="hero-card px-2">
                     <div className="d-flex flex-row gap-0 justify-content-between">
                         {/* Date */}
-                        <div className="dateicon p-2">
-                            <Calendar /> <span>Date</span>
+                        <div className="dateicon p-2 details">
+                            <Image src={CalendarIcon} alt="Calender" className="event-icon" />{" "}
+                            <span className="event-detail">Date: </span>
                             <p>Aug 2nd,2024</p>
                         </div>
                         {/* Time */}
                         <div className="clockicon p-2">
-                            <Clock /> <span>Time</span>
+                            {/* The "details" was not added here so it's custom styles were placed in it's own class */}
+                            <Image src={clockIcon} className="event-icon" />{" "}
+                            <span className="event-detail">Time: </span>
                             <p>11:00 am - 12:00 pm</p>
                         </div>
                     </div>
                     {/* Location */}
-                    <div className="p-3">
-                        <Image src={locationPin} alt="icon" className="location-icon" />
-                        <span>Location</span>
+                    <div className="py-2 details locationicon">
+                        <Image src={locationPin} alt="icon" className="event-icon" />
+                        <span className="p-1 event-detail">Location: </span>
                         <p>8thGear Hub, CMD Road ,Magodo Secetariat, Lagos State.</p>
                     </div>
                 </div>
             </div>
             {/* RIGHT SECTION */}
             <div className="w-50 sm:none">
-                <Image src={heropic} alt="Hero-Pic" className="hero-pic img-fluid" />
-                <Image src={herocircle} alt="Hero-Circle" className="hero-circle" />
-                <Image src={herosquare} alt="Hero-sqaure" className="hero-square" />
+                <Image src={heroPic1} alt="Hero-Pic1" className="img-fluid hero-pic1" />
+                <Image src={herocircle} alt="Hero-Circle" className="hero-circle img-fluid shadow-1" />
+                <Image src={heroPic2} alt="Hero-Pic2" className="img-fluid hero-pic2" />
             </div>
             {/* Imgage for small device */}
             <div className="d-none d-sm-block d-md-none small-hero">
@@ -75,7 +82,7 @@ const FounderMeetupHero = () => {
             </div>
             {/* REGISTER  */}
             <div className="registercontainer h-100">
-                <div className="registerpanel shadow p-3 w-25 d-sm-none d-lg-block d-md-block">
+                <div className="registerpanel shadow p-3 w-25 d-block d-sm-none d-lg-block d-md-block">
                     <h2 className="py-1">REGISTER</h2>
                     <div className="registercontent">
                         <p className="m-0">Enroll for this event here: </p>
@@ -90,8 +97,8 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 w-100 mx-lg-5 mx-sm-2 flex-column flex-wrap event-content">
-            <section className="w-50 m-md-5 mx-sm-0 my-lg-5 px-sm-0 event-section">
+        <div className="container-fluid d-flex mt-5 w-50 mx-lg-5 mt-sm-1 mx-sm-0 flex-column flex-wrap event-content">
+            <section className="w-75 m-md-5 mx-sm-0 my-lg-5 px-sm-2 event-section">
                 {/* FIRST SECTION */}
                 <div className="seection-one mt-5">
                     <p>
@@ -101,7 +108,7 @@ const EventsWriteUp = () => {
                     </p>
                 </div>
                 {/* WHO SHOULD ATTEND */}
-                <div className="section-two mt-5">
+                <div className="section-two mt-5 mb-3">
                     <h3>WHO TO ATTEND ?</h3>
                     <ul>
                         <li>
@@ -136,14 +143,23 @@ const EventsWriteUp = () => {
                         Feel free to invite other founders to join us as we meet every quarter!
                     </div>
                 </div>
+                {/* REGISSTRATION PANEL FOR SM */}
+                <div className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none d-md-none my-sm-2">
+                    <h2 className="py-1">REGISTER</h2>
+                    <div className="registercontent">
+                        <p className="m-0">Enroll for this event here: </p>
+                        <p className="m-0">Event link..</p>
+                    </div>
+                </div>
+
                 {/* SPEAKERS */}
                 <div className="speaker my-5 mx-lg-0 ">
-                    <h2 className="mb-3 text-center">SPEAKERS</h2>
+                    <h2 className="mb-3 text-center purple-text">SPEAKERS</h2>
                     <div className="flex-wrap container-fluid col-lg-12">
                         {/* 1st row */}
                         <div className=" row1">
                             {/* Speaker 1 */}
-                            <div className="speaker-detail p-3 col-lg-6">
+                            <div className="speaker-detail p-1 col-lg-6">
                                 <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle img-fluid" />
                                 <div className="speaker-info">
                                     <h3>Damilola Obidairo</h3>
