@@ -27,19 +27,20 @@
       "format": "Physical and Virtual",
       "time": "11am - 1pm",
       "date": "30th July, 2024"
+    },
+    {
+      "id": 4,
+      "image":"",
+      "event": "Talent Fair",
+      "link": "/talent-fair-gallery",
+      "text": "Talent Fair 2024",
+      "format": "Physical and Virtual",
+      "time": "9am",
+      "date": "2nd August, 2024"
     }
   ],
 
   "newFutureEvents": [
-    {
-      "id": 1,
-      "date": "2nd August, 2024",
-      "event": "Talent Fair",
-      "link": "https://lu.ma/daoj6x7i",
-      "format": "Physical and Virtual",
-      "time": "9am",
-      "calendarLink": "#"
-    },
     {
       "id": 2,
       "date": "TBD",
