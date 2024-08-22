@@ -26,3 +26,17 @@
   border-top-left-radius: 0rem !important;
   border-top-right-radius: 0rem !important;
 }
+
+/* Remove the default arrow icon */
+.accordion-button::after {
+  content: '\002B'; /* Unicode for the plus sign */
+  font-size: 1.25rem;
+  transform: rotate(0deg);
+  transition: transform 0.2s;
+  background-image: none; /* Remove the default background image */
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(45deg);
+  background-image: none; /* Rotates the plus to an "x" when expanded */
+}
