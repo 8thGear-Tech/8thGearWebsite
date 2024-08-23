@@ -28,15 +28,16 @@
 }
 
 /* Remove the default arrow icon */
-.accordion-button::after {
-  content: '\002B'; /* Unicode for the plus sign */
-  font-size: 1.25rem;
+.faqAccordionButton::after {
+  content: '\002B';
+  font-size: 2rem;
   transform: rotate(0deg);
   transition: transform 0.2s;
-  background-image: none; /* Remove the default background image */
+  background-image: none;
 }
 
-.accordion-button:not(.collapsed)::after {
-  transform: rotate(45deg);
-  background-image: none; /* Rotates the plus to an "x" when expanded */
+.faqAccordionButton:not(.collapsed)::after {
+  transform: rotate(360deg);
+  content: '\2212';
+  background-image: none;
 }
