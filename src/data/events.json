@@ -32,10 +32,11 @@
       "id": 4,
       "image": "",
       "event": "Talent Fair",
-      "link": "#",
-      "format": "Physical",
+      "link": "/talent-fair-gallery",
+      "text": "Talent Fair 2024",
+      "format": "Physical and Virtual",
       "time": "9am",
-      "date": "20th August, 2024"
+      "date": "2nd August, 2024"
     }
   ],
 
