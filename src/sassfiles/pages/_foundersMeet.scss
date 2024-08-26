@@ -430,15 +430,18 @@ body {
     .Left-section-text {
         width: 100% !important;
         font-size: 14px !important;
+        text-align: center;
     }
     .hero-caption {
-        font-size: 17px !important;
+        font-size: 20px !important;
         word-wrap: break-word;
+        margin: auto !important;
+        text-align: center;
         width: 280px !important;
         justify-content: start !important;
     }
     .hero-subcaption {
-        font-size: 14px !important;
+        font-size: 16px !important;
         padding-top: 1px !important;
         padding-bottom: 2px !important;
     }
