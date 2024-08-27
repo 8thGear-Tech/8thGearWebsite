@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden !important;
+}
+
 // HERO SECTION
 .heroSection {
     height: 90%;
@@ -24,11 +29,11 @@
 
 .hero-caption {
     font-size: 2rem !important;
-    width: 600px !important;
+    width: 900px !important;
     text-wrap: wrap;
 }
 .hero-card {
-    width: 600px !important;
+    width: 900px !important;
 }
 .event-detail {
     font-weight: 100 !important;
@@ -133,10 +138,10 @@
 .small-hero {
     display: none;
 }
-// SPEAKER
-// .speaker {
-//     width: 50% !important;
-// }
+//SPEAKER
+.speaker {
+    width: 700px !important;
+}
 // SECTION 2
 .no-list {
     font-weight: 500 !important;
@@ -172,7 +177,7 @@
     p {
         color: #adadad;
         line-height: 5px;
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -211,7 +216,7 @@
     }
 
     .hero-caption {
-        font-size: 18px !important;
+        font-size: 20px !important;
         width: 400px !important;
         padding: 10px !important;
     }
@@ -224,7 +229,7 @@
     }
     // LEFT SECTION
     .hero-card {
-        width: 400px !important;
+        width: 500px !important;
         height: 180px !important;
         font-size: 10px;
     }
@@ -287,7 +292,8 @@
         right: 80px !important;
     }
     .registerpanel {
-        top: 500px;
+        position: fixed;
+        top: 450px;
         width: 250px !important;
     }
     // SMALL HERO
@@ -386,6 +392,7 @@
         right: 30px !important;
     }
     .registerpanel {
+        position: fixed;
         top: 500px;
         right: 10% !important;
         width: 250px !important;
@@ -395,18 +402,17 @@
         display: none !important;
     }
     .speaker-detail {
-        width: 200px;
+        width: 300px;
         height: 240px;
     }
-
     .row1 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
     }
     .row2 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
     }
 }
@@ -424,15 +430,18 @@
     .Left-section-text {
         width: 100% !important;
         font-size: 14px !important;
+        text-align: center;
     }
     .hero-caption {
-        font-size: 17px !important;
+        font-size: 20px !important;
         word-wrap: break-word;
+        margin: auto !important;
+        text-align: center;
         width: 280px !important;
         justify-content: start !important;
     }
     .hero-subcaption {
-        font-size: 14px !important;
+        font-size: 16px !important;
         padding-top: 1px !important;
         padding-bottom: 2px !important;
     }
@@ -554,7 +563,7 @@
         }
     }
     .event-section {
-        width: 250px !important;
+        width: 100% !important;
         margin-top: 10px !important;
     }
     .event-content {
@@ -562,9 +571,19 @@
         justify-content: center !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .speaker {
+        width: 100% !important;
     }
     .speaker-detail {
         width: 200px !important;
         height: 220px;
+    }
+    .row1 {
+        align-items: center;
+    }
+    .row2 {
+        align-items: center;
     }
 }
