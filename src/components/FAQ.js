@@ -40,6 +40,83 @@ const FAQ1 = () => {
         answer:
           "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
       },
+      // New section starts here
+      // Duplicate of Hub Services questions and answers
+      {
+        sectionTitle: "Co-working",  // Added a new section
+      },
+      {
+        question: "What is a venture studio and how can it help my business idea?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question: "What is the selection process for new startups or ideas?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "What services does your venture studio offer to startups and entrepreneurs?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        sectionTitle: "Talent Placement",  // Added a new section
+      },
+      {
+        question: "What is a venture studio and how can it help my business idea?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question: "What is the selection process for new startups or ideas?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "What services does your venture studio offer to startups and entrepreneurs?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        sectionTitle: "Growth Advisory",  // Added a new section
+      },
+      {
+        question: "What is a venture studio and how can it help my business idea?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question: "What is the selection process for new startups or ideas?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "What services does your venture studio offer to startups and entrepreneurs?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
     ],
     Projects: [
       {
@@ -75,6 +152,30 @@ const FAQ1 = () => {
       {
         question:
           "Can I bring my existing team, or do I need to form a new one within the studio?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+    ],
+    "Builder's Collectives": [
+      {
+        question: "What is a venture studio and how can it help my business idea?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question: "What is the selection process for new startups or ideas?",
+        answer:
+          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+      },
+      {
+        question:
+          "What services does your venture studio offer to startups and entrepreneurs?",
         answer:
           "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
       },
@@ -123,36 +224,57 @@ const FAQ1 = () => {
         >
           Venture Studio
         </button>
+        <button
+          className={`btn btn-primary fw-bold mx-2 faqButton rounded-pill fs-6 py-3 px-5 mb-3 ${
+            activeCategory === "Builder's Collectives" ? "active" : ""
+          }`}
+          onClick={() => handleCategoryChange("Builder's Collectives")}
+        >
+          Builder's Collectives
+        </button>
       </div>
 
       <div className="accordion-container mt-5 d-flex justify-content-center">
-        <div className="accordion w-100 w-md-75" id="accordionExample"> {/* Adjusted width for responsiveness */}
+        <div className="accordion w-100 w-md-75" id="accordionExample">
           {/* Mapping over the selected category's questions */}
-          {Question[activeCategory].map((item, index) => (
-            <div className="accordion-item border-0 faqAccordionItem" key={index}>
-              <h2 className="accordion-header faqAccordionHeader" id={`heading${index}`}>
-                <button
-                  className={`accordion-button ${
-                    openIndex === index ? "" : "collapsed"
-                  } py-4 mt-3 text-dark bg-transparent faqAccordionButton border-top`}
-                  type="button"
-                  onClick={() => toggleAccordion(index)}
+          {Question[activeCategory].map((item, index) => {
+            // Check if the item is a section title (e.g., "Co-working")
+            if (item.sectionTitle) {
+              return (
+                <div key={index} className="my-4 text-start">
+                  <h3 className="fw-bold fs-5 text-dark">{item.sectionTitle}</h3>
+                  {/* Display section-specific content if needed */}
+                </div>
+              );
+            }
+
+            // Render accordion items for other questions
+            return (
+              <div className="accordion-item border-0 faqAccordionItem" key={index}>
+                <h2 className="accordion-header faqAccordionHeader" id={`heading${index}`}>
+                  <button
+                    className={`accordion-button ${
+                      openIndex === index ? "" : "collapsed"
+                    } py-4 mt-3 text-dark bg-transparent faqAccordionButton border-top`}
+                    type="button"
+                    onClick={() => toggleAccordion(index)}
+                  >
+                    {item.question}
+                  </button>
+                </h2>
+                <div
+                  id={`collapse${index}`}
+                  className={`accordion-collapse collapse ${
+                    openIndex === index ? "show" : ""
+                  }`}
+                  aria-labelledby={`heading${index}`}
+                  data-bs-parent="#accordionExample"
                 >
-                  {item.question}
-                </button>
-              </h2>
-              <div
-                id={`collapse${index}`}
-                className={`accordion-collapse collapse ${
-                  openIndex === index ? "show" : ""
-                }`}
-                aria-labelledby={`heading${index}`}
-                data-bs-parent="#accordionExample"
-              >
-                <div className="accordion-body text-start">{item.answer}</div>
+                  <div className="accordion-body text-start">{item.answer}</div>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
