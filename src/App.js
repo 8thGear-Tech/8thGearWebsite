@@ -65,7 +65,7 @@ import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
 import { Footer } from "./components/Footer";
 import { NewFooter } from "./components/newFooter";
-import FAQ from "./pages/Insights/FAQ";
+// import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { RequestForm } from "./components/Forms/ServicesForms";
 import { ScrollButton } from "./components/Buttons/scrollToTop";
@@ -89,6 +89,7 @@ import BDandVentureStudioOfficer from "./pages/Careers/BDandVentureStudioOfficer
 import HRIntern from "./pages/Careers/HRIntern";
 import AccountingIntern from "./pages/Careers/AccountingIntern";
 import TalentFair24 from "./pages/EventsNew/TalentFair24";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (

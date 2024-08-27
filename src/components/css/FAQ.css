@@ -1,0 +1,43 @@
+.faqHeading {
+  color: #6E006A;
+}
+
+.faqButton {
+  color: #A5009F;
+  background-color: #ffffff !important;
+  /* width: 229px; */
+}
+
+.faqButton:hover {
+  color: #ffffff;
+  background-color: #A5009F !important;
+}
+
+.faqButton.active {
+  color: #ffffff;
+  background-color: #A5009F !important;
+}
+
+.faqAccordionButton:focus {
+  box-shadow: none;
+}
+
+.faqAccordionButton:first-of-type {
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+}
+
+/* Remove the default arrow icon */
+.faqAccordionButton::after {
+  content: '\002B';
+  font-size: 2rem;
+  transform: rotate(0deg);
+  transition: transform 0.2s;
+  background-image: none;
+}
+
+.faqAccordionButton:not(.collapsed)::after {
+  transform: rotate(360deg);
+  content: '\2212';
+  background-image: none;
+}
