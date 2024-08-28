@@ -81,11 +81,13 @@ const FounderMeetupHero = () => {
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             {/* REGISTER  */}
-            <div className="registerpanel shadow p-3 w-25 d-block d-sm-none d-lg-block d-md-block">
-                <h2 className="py-1">REGISTER</h2>
-                <div className="registercontent">
-                    <p className="m-0">Enroll for this event here: </p>
-                    <p className="m-0">Event link..</p>
+            <div className="registerContainer">
+                <div className="registerpanel shadow p-3 w-25 d-block d-sm-none d-xxl-block d-lg-block d-md-block">
+                    <h2 className="py-1">REGISTER</h2>
+                    <div className="registercontent">
+                        <p className="m-0">Enroll for this event here: </p>
+                        <p className="m-0">Event link..</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -142,7 +144,7 @@ const EventsWriteUp = () => {
                     </div>
                 </div>
                 {/* REGISSTRATION PANEL FOR SM */}
-                <div className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none d-md-none my-sm-2">
+                <div className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none my-sm-2">
                     <h2 className="py-1">REGISTER</h2>
                     <div className="registercontent">
                         <p className="m-0">Enroll for this event here: </p>

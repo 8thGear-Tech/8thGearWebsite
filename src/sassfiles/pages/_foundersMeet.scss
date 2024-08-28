@@ -112,7 +112,11 @@ body {
     right: 8% !important;
     border-radius: 0px 90px 0px 90px !important;
 }
-
+.registerContainer {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
 .registerpanel {
     position: absolute;
     top: 60%;
@@ -208,9 +212,56 @@ body {
 }
 
 // MEDIA QUERY
-
+// XLarge Screens
+@media (min-width: 1440px) {
+    .hero-caption {
+        width: 700px !important;
+    }
+    .hero-card {
+        width: 600px !important;
+    }
+    .registerContainer {
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+    }
+    .registerpanel {
+        position: absolute;
+        display: none !important;
+        top: 80%;
+        background-color: white;
+        border-radius: 10px !important;
+        z-index: 20;
+        height: 150px !important;
+        right: 200px !important;
+        width: 500px !important;
+        h2 {
+            font-size: 25px;
+            color: #920f84;
+            font-weight: 800;
+            display: block;
+        }
+        p {
+            font-family: "Open Sans";
+            font-weight: 300;
+        }
+    }
+    .registerpanelsm {
+        display: block !important;
+        width: 600px !important;
+        margin: 10px;
+        text-align: center !important;
+        border-radius: 20px !important;
+        h2 {
+            color: #920f84;
+        }
+        p {
+            font-size: 18px !important;
+        }
+    }
+}
 /* Large Screens */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1350px) {
     .heroSection {
         height: 80% !important;
     }
@@ -391,11 +442,25 @@ body {
         height: 200px !important;
         right: 30px !important;
     }
+    .registerContainer {
+        display: none !important;
+    }
     .registerpanel {
         position: fixed;
-        top: 500px;
+        display: none !important;
+        top: 200px;
         right: 10% !important;
         width: 250px !important;
+    }
+    .registerpanelsm {
+        display: block;
+        width: 400px !important;
+        margin: 10px;
+        text-align: center !important;
+        border-radius: 20px !important;
+        h2 {
+            color: #920f84;
+        }
     }
     // SMALL HERO
     .small-hero {
@@ -544,6 +609,7 @@ body {
         background-color: white;
         border-radius: 10px !important;
         z-index: 20;
+        padding: 10px;
         h2 {
             font-family: "Rubik", "sans-serif";
             font-size: 22px;
