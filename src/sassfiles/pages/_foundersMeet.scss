@@ -90,26 +90,27 @@ body {
 // RIGHT SECTION
 .hero-pic1 {
     position: absolute;
-    top: 12% !important;
-    right: 27% !important;
-    height: 300px !important;
+
+    top: 100px !important;
+    right: 280px !important;
+    height: 250px !important;
     z-index: 10;
     border-radius: 90px 0px 90px 0px !important;
 }
 .hero-circle {
     position: absolute;
-    top: 250px !important;
-    right: 20% !important;
-    height: 22% !important;
+    top: 200px !important;
+    right: 180px !important;
+    height: 180px !important;
     border-radius: 50% !important;
     box-shadow: -2px 5px 7px;
 }
 
 .hero-pic2 {
     position: absolute;
-    top: 20%;
-    height: 300px !important;
-    right: 8% !important;
+    top: 240px;
+    height: 230px !important;
+    right: 80px !important;
     border-radius: 0px 90px 0px 90px !important;
 }
 .registerContainer {
@@ -118,8 +119,9 @@ body {
     position: relative;
 }
 .registerpanel {
-    position: absolute;
-    top: 60%;
+    position: fixed;
+    top: 450px;
+    width: 250px !important;
     background-color: white;
     border-radius: 10px !important;
     z-index: 20;
@@ -213,7 +215,7 @@ body {
 
 // MEDIA QUERY
 // XLarge Screens
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 2580px) {
     .hero-caption {
         width: 700px !important;
     }
