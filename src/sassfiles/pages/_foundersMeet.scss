@@ -226,15 +226,13 @@ body {
         position: relative;
     }
     .registerpanel {
-        position: absolute;
-        display: none !important;
-        top: 80%;
+        position: fixed;
+        top: 450px;
         background-color: white;
         border-radius: 10px !important;
         z-index: 20;
         height: 150px !important;
         right: 200px !important;
-        width: 500px !important;
         h2 {
             font-size: 25px;
             color: #920f84;
@@ -244,19 +242,6 @@ body {
         p {
             font-family: "Open Sans";
             font-weight: 300;
-        }
-    }
-    .registerpanelsm {
-        display: block !important;
-        width: 600px !important;
-        margin: 10px;
-        text-align: center !important;
-        border-radius: 20px !important;
-        h2 {
-            color: #920f84;
-        }
-        p {
-            font-size: 18px !important;
         }
     }
 }

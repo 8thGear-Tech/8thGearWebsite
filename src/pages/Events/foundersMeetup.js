@@ -81,8 +81,8 @@ const FounderMeetupHero = () => {
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             {/* REGISTER  */}
-            <div className="registerContainer">
-                <div className="registerpanel shadow p-3 w-25 d-block d-sm-none d-xxl-block d-lg-block d-md-block">
+            <div className="registerContainer d-none d-xxl-block d-lg-block d-md-block">
+                <div className="registerpanel shadow p-3 w-25 d-none d-xxl-block d-lg-block d-md-block">
                     <h2 className="py-1">REGISTER</h2>
                     <div className="registercontent">
                         <p className="m-0">Enroll for this event here: </p>
