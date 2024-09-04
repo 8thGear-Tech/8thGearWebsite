@@ -80,15 +80,8 @@ const FounderMeetupHero = () => {
             <div className="d-none d-sm-block d-md-none small-hero">
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
-            {/* REGISTER  */}
-            <div className="registerContainer d-none d-xxl-block d-lg-block d-md-block">
-                <div className="registerpanel shadow p-3 w-25 d-none d-xxl-block d-lg-block d-md-block">
-                    <h2 className="py-1">REGISTER</h2>
-                    <div className="registercontent">
-                        <p className="m-0">Enroll for this event here: </p>
-                        <p className="m-0">Event link..</p>
-                    </div>
-                </div>
+            <div className="smRegisterLink d-none d-sm-block d-md-none rounded-pill my-3 px-3 py-2">
+                <a href="#registration-panel">#View registration link</a>
             </div>
         </div>
     );
@@ -97,148 +90,153 @@ const FounderMeetupHero = () => {
 // THE BODY
 const EventsWriteUp = () => {
     return (
-        <div className="container-fluid d-flex mt-5 w-50 mt-sm-1 mx-sm-0 flex-column flex-wrap event-content">
-            <section className="w-100 m-md-5 mx-sm-0 my-lg-5 px-sm-2 event-section">
-                {/* FIRST SECTION */}
-                <div className="seection-one mt-5">
-                    <p>
-                        Founders Meetup is all about bringing Entrepreneurs, and those curious about Startups, together
-                        to share ideas while learning from each other! Some sessions have guest speakers and others have
-                        a topic of discussion the attendees focus on. (Also, pizza!)
-                    </p>
-                </div>
-                {/* WHO SHOULD ATTEND */}
-                <div className="section-two mt-5 mb-3">
-                    <h3>WHO TO ATTEND ?</h3>
-                    <ul>
-                        <li>
-                            <p className="no-list">Startup founders</p>
-                        </li>
-                        <li>
-                            <p className="no-list">Business owners</p>
-                        </li>
-                        <li>
-                            <p className="no-list">
-                                Freelancers & service providers (digital marketers, web developers, designers, etc.)
-                            </p>
-                        </li>
-                        <li>
-                            <p className="no-list">Solo founders looking for founding team members</p>
-                        </li>
-                        <li>
-                            <p className="no-list">
-                                Aspiring entrepreneurs who are either looking for one or more co-founders Anyone who
-                                wishes to
-                            </p>
-                        </li>
-                        <li>
-                            <p className="no-list">expand their business network</p>
-                        </li>
-                    </ul>
-                    <div>
+        <div className="body-container">
+            <div className="container-fluid d-flex mt-5 w-100 mt-sm-1 mx-sm-0 flex-column flex-wrap event-content">
+                <section className="w-50 mx-lg-5 m-md-3 mx-sm-0 px-sm-2 event-section">
+                    {/* FIRST SECTION */}
+                    <div className="seection-one mt-5">
                         <p>
-                            This event is free to attend. Join us for a fun evening! For more free startup events,
-                            visit https://8thgearpartners.com/events{" "}
+                            Founders Meetup is all about bringing Entrepreneurs, and those curious about Startups,
+                            together to share ideas while learning from each other! Some sessions have guest speakers
+                            and others have a topic of discussion the attendees focus on. (Also, pizza!)
                         </p>
-                        Feel free to invite other founders to join us as we meet every quarter!
                     </div>
-                </div>
-                {/* REGISSTRATION PANEL FOR SM */}
-                <div className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none my-sm-2">
+                    {/* WHO SHOULD ATTEND */}
+                    <div className="section-two mt-5 mb-3">
+                        <h3>WHO TO ATTEND ?</h3>
+                        <ul>
+                            <li>
+                                <p className="no-list">Startup founders</p>
+                            </li>
+                            <li>
+                                <p className="no-list">Business owners</p>
+                            </li>
+                            <li>
+                                <p className="no-list">
+                                    Freelancers & service providers (digital marketers, web developers, designers, etc.)
+                                </p>
+                            </li>
+                            <li>
+                                <p className="no-list">Solo founders looking for founding team members</p>
+                            </li>
+                            <li>
+                                <p className="no-list">
+                                    Aspiring entrepreneurs who are either looking for one or more co-founders Anyone who
+                                    wishes to
+                                </p>
+                            </li>
+                            <li>
+                                <p className="no-list">expand their business network</p>
+                            </li>
+                        </ul>
+                        <div>
+                            <p>
+                                This event is free to attend. Join us for a fun evening! For more free startup events,
+                                visit https://8thgearpartners.com/events{" "}
+                            </p>
+                            Feel free to invite other founders to join us as we meet every quarter!
+                        </div>
+                    </div>
+                    {/* REGISSTRATION PANEL FOR SM */}
+                    <div
+                        className="registerpanelsm shadow p-2 w-25 d-block m-auto d-lg-none my-sm-2"
+                        id="registration-panel"
+                    >
+                        <h2 className="py-1">REGISTER</h2>
+                        <div className="registercontent">
+                            <p className="m-0">Enroll for this event here: </p>
+                            <p className="m-0">Event link..</p>
+                        </div>
+                    </div>
+                    {/* SPEAKERS */}
+                    <div className="speaker my-5 mx-lg-0 ">
+                        <h2 className="mb-3 text-center purple-text align-content-center">SPEAKERS</h2>
+                        <div className="flex-wrap container-fluid col-lg-12">
+                            {/* 1st row */}
+                            <div className=" row1">
+                                {/* Speaker 1 */}
+                                <div className="speaker-detail p-1 col-lg-6">
+                                    <Image
+                                        src={speaker1}
+                                        alt="speaker1"
+                                        className="speaker-img rounded-circle img-fluid"
+                                    />
+                                    <div className="speaker-info">
+                                        <h3>Damilola Obidairo</h3>
+                                        <p>Co founder and partner</p>
+                                        <p>8th Gear Venture studio.</p>
+                                        {/* LinkedIn link */}
+                                        <a href="#">
+                                            <Linkedin />
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* Speaker 2 */}
+                                <div className="speaker-detail p-3 col-lg-6">
+                                    <Image
+                                        src={speaker1}
+                                        alt="speaker2"
+                                        className="speaker-img rounded-circle img-fluid"
+                                    />
+                                    <div className="speaker-info">
+                                        <h3>Damilola Obidairo</h3>
+                                        <p>Co founder and partner</p>
+                                        <p>8th Gear Venture studio.</p>
+                                        {/* LinkedIn link */}
+                                        <a href="#">
+                                            <Linkedin />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* 2nd row */}
+                            <div className="row2">
+                                {/* Speaker 4 */}
+                                <div className="speaker-detail p-3 col-lg-6">
+                                    <Image
+                                        src={speaker1}
+                                        alt="speaker3"
+                                        className="speaker-img rounded-circle img-fluid"
+                                    />
+                                    <div className="speaker-info">
+                                        <h3>Damilola Obidairo</h3>
+                                        <p>Co founder and partner</p>
+                                        <p>8th Gear Venture studio.</p>
+                                        {/* LinkedIn link */}
+                                        <a href="#">
+                                            <Linkedin />
+                                        </a>
+                                    </div>
+                                </div>
+                                {/* Speaker 5 */}
+                                <div className="speaker-detail p-3 col-lg-6">
+                                    <Image
+                                        src={speaker1}
+                                        alt="speaker4"
+                                        className="speaker-img rounded-circle img-fluid"
+                                    />
+                                    <div className="speaker-info">
+                                        <h3>Damilola Obidairo</h3>
+                                        <p>Co founder and partner</p>
+                                        <p>8th Gear Venture studio.</p>
+                                        {/* LinkedIn link */}
+                                        <a href="#">
+                                            <Linkedin />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            {/* REGISTER  */}
+            <div className="registerContainer d-none d-lg-block">
+                <div className="registerpanel shadow p-3 w-25 d-none d-xxl-block d-lg-block d-md-block">
                     <h2 className="py-1">REGISTER</h2>
                     <div className="registercontent">
                         <p className="m-0">Enroll for this event here: </p>
                         <p className="m-0">Event link..</p>
-                    </div>
-                </div>
-            </section>
-            {/* SPEAKERS */}
-            <div className="speaker my-5 mx-lg-0 ">
-                <h2 className="mb-3 text-center purple-text">SPEAKERS</h2>
-                <div className="flex-wrap container-fluid col-lg-12">
-                    {/* 1st row */}
-                    <div className=" row1">
-                        {/* Speaker 1 */}
-                        <div className="speaker-detail p-1 col-lg-6">
-                            <Image src={speaker1} alt="speaker1" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
-                        {/* Speaker 2 */}
-                        <div className="speaker-detail p-3 col-lg-6">
-                            <Image src={speaker1} alt="speaker2" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
-                        {/* Speaker 3 */}
-                        <div className="speaker-detail p-3 col-lg-6">
-                            <Image src={speaker1} alt="speaker2" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    {/* 2nd row */}
-                    <div className="row2">
-                        {/* Speaker 4 */}
-                        <div className="speaker-detail p-3 col-lg-6">
-                            <Image src={speaker1} alt="speaker3" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
-                        {/* Speaker 5 */}
-                        <div className="speaker-detail p-3 col-lg-6">
-                            <Image src={speaker1} alt="speaker4" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
-                        {/* Speaker 6 */}
-                        <div className="speaker-detail p-3 col-lg-6">
-                            <Image src={speaker1} alt="speaker2" className="speaker-img rounded-circle img-fluid" />
-                            <div className="speaker-info">
-                                <h3>Damilola Obidairo</h3>
-                                <p>Co founder and partner</p>
-                                <p>8th Gear Venture studio.</p>
-                                {/* LinkedIn link */}
-                                <a href="#">
-                                    <Linkedin />
-                                </a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

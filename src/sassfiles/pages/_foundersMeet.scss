@@ -53,8 +53,6 @@ body {
 }
 
 .dateicon {
-    // border-right: 1px solid;
-    // border-bottom: 1px solid;
     width: 50%;
     span {
         font-size: 20px;
@@ -62,11 +60,9 @@ body {
     }
 }
 .clockicon {
-    // border-bottom: 1px solid;
     width: 50%;
     align-items: center;
     display: flex;
-    // flex-direction: row;
     gap: 5px;
     align-items: baseline;
     span {
@@ -90,7 +86,6 @@ body {
 // RIGHT SECTION
 .hero-pic1 {
     position: absolute;
-
     top: 100px !important;
     right: 280px !important;
     height: 250px !important;
@@ -113,15 +108,24 @@ body {
     right: 80px !important;
     border-radius: 0px 90px 0px 90px !important;
 }
-.registerContainer {
-    height: 400px;
-    overflow: hidden;
+
+.body-container {
+    display: flex;
+    align-items: flex-start;
     position: relative;
+    margin: auto;
 }
+.registerContainer {
+    height: 1450px;
+    position: relative;
+    right: 200px;
+}
+
 .registerpanel {
-    position: fixed;
-    top: 450px;
-    width: 250px !important;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 20px !important;
+    width: 350px !important;
     background-color: white;
     border-radius: 10px !important;
     z-index: 20;
@@ -137,16 +141,24 @@ body {
         font-weight: 300;
     }
 }
+.smRegisterLink {
+    background-color: #920f84;
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        color: #f6f6f6;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
 .registercontent {
     padding: 0;
 }
 // SMALL HERO
 .small-hero {
     display: none;
-}
-//SPEAKER
-.speaker {
-    width: 700px !important;
 }
 // SECTION 2
 .no-list {
@@ -221,30 +233,6 @@ body {
     }
     .hero-card {
         width: 600px !important;
-    }
-    .registerContainer {
-        height: 400px;
-        overflow: hidden;
-        position: relative;
-    }
-    .registerpanel {
-        position: fixed;
-        top: 450px;
-        background-color: white;
-        border-radius: 10px !important;
-        z-index: 20;
-        height: 150px !important;
-        right: 200px !important;
-        h2 {
-            font-size: 25px;
-            color: #920f84;
-            font-weight: 800;
-            display: block;
-        }
-        p {
-            font-family: "Open Sans";
-            font-weight: 300;
-        }
     }
 }
 /* Large Screens */
@@ -333,6 +321,10 @@ body {
         position: fixed;
         top: 450px;
         width: 250px !important;
+    }
+    //SPEAKER
+    .speaker {
+        width: 500px;
     }
     // SMALL HERO
     .small-hero {
@@ -448,10 +440,25 @@ body {
         h2 {
             color: #920f84;
         }
+        // SPEAKERS
+        .speaker {
+            width: 500px !important;
+        }
     }
     // SMALL HERO
     .small-hero {
         display: none !important;
+    }
+    .smRegisterLink {
+        display: block !important;
+        position: absolute;
+        top: 450px !important;
+        left: 50px !important;
+        margin: 30px;
+        height: 50px;
+        a {
+            font-size: 14px;
+        }
     }
     .speaker-detail {
         width: 300px;
@@ -461,11 +468,13 @@ body {
         display: flex;
         flex-direction: row;
         gap: 15px;
+        width: 500px;
     }
     .row2 {
         display: flex;
         flex-direction: row;
         gap: 15px;
+        width: 500px;
     }
 }
 
@@ -567,6 +576,18 @@ body {
     .small-hero {
         display: block !important;
         width: 100% !important;
+    }
+    .smRegisterLink {
+        display: block !important;
+        background-color: #920f84;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: #f6f6f6;
+            font-weight: bold;
+            font-size: 12px;
+        }
     }
 
     // .event-content {
