@@ -31,6 +31,63 @@
     border-radius: 2rem;
   }
 
+  .coreServiceCard {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .coreServiceCardsIcon{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .coreServiceCard  p {
+    font-size: 1.25rem;
+  }
+
+  .coreServiceCard  hr {
+    color: #6C128C;
+    border-top: 2px solid;
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .howWeDoIt{
+    background-color: #F9FFF5;
+  }
+
+
+
+  @keyframes buttonColorChange {
+    0% {
+      background-color: #6E006A;
+      color: white;
+      border: 1px solid white;
+    }
+    50% {
+      background-color: white;
+      color: #6E006A;
+      border: 1px solid #6E006A;
+    }
+    100% {
+      background-color: #6E006A;
+      color: #F9FFF5;
+      border: 1px solid white;
+    }
+  }
+
+  .ventureStudioBtn {
+    animation: buttonColorChange 5s  ease-in infinite;
+  }
+
+
+
+ 
+
 /* Tablet Screen */
 @media (min-width: 768px) {
   .venture-studio-hero {
