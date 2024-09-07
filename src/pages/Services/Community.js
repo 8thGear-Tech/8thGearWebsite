@@ -159,7 +159,7 @@ const MembershipSection = () => {
 const BecomeAPortCo = () => {
     return (
         <div className="container portCoSect py-4">
-            <h2 className="purple-text text-center my-2">BECOME A PORTFOLIO COMPANY</h2>
+            <h2 className="purple-text text-center my-2 text-small">BECOME A PORTFOLIO COMPANY</h2>
             <div className=" portcoBody d-flex flex-lg-row flex-md-column flex-sm-column gap-3">
                 <div className="PartOne gap-2">
                     <div>
