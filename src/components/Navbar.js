@@ -1013,7 +1013,10 @@ export const HomepageNav = () => {
                                                         Growth Advisory
                                                         <hr className="w-75 m-auto" />
                                                     </NavDropdown.Item>
-                                                    <NavDropdown.Item href="#" className="Nav-Dropdown-Items">
+                                                    <NavDropdown.Item
+                                                        href="/Our-community"
+                                                        className="Nav-Dropdown-Items"
+                                                    >
                                                         Your Community
                                                         <hr className="w-75 m-auto" />
                                                     </NavDropdown.Item>
@@ -1043,7 +1046,7 @@ export const HomepageNav = () => {
                                         <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
                                         <NavDropdown.Item href="/talent-placement">Talents Placement</NavDropdown.Item>
                                         <NavDropdown.Item href="/growth-as-a-service">Growth Advisory</NavDropdown.Item>
-                                        <NavDropdown.Item href="#">Your Community</NavDropdown.Item>
+                                        <NavDropdown.Item href="/Our-community">Your Community</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/projects">Projects</Nav.Link>
                                     <Nav.Link href="/portfolio">Venture Studio</Nav.Link>
