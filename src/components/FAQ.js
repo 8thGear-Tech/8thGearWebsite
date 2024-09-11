@@ -19,26 +19,20 @@ const FAQ1 = () => {
   const Question = {
     "Hub Services": [
       {
-        question: "What is a venture studio and how can it help my business idea?",
+        question: "What services does the Hub Services Division offer?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "The Hub Services division offers a range of business support services, including Co-working space, Growth as a Service for businesses and start-ups, and Talent Placement.",
       },
       {
         question:
-          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+          "What networking opportunities are available through the Hub Services Division?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "We host quarterly founders meetup events for entrepreneurs in our community, we also have seminars where entrepreneurs can connect with other business professionals.",
       },
       {
-        question: "What is the selection process for new startups or ideas?",
+        question: "Is there a minimum commitment period for using the Hub Services?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
-      },
-      {
-        question:
-          "What services does your venture studio offer to startups and entrepreneurs?",
-        answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "The commitment period varies depending on the services you require. For co-working space, we offer both short-term and long-term agreements.",
       },
       // New section starts here
       // Duplicate of Hub Services questions and answers
@@ -46,138 +40,235 @@ const FAQ1 = () => {
         sectionTitle: "Co-working",  // Added a new section
       },
       {
-        question: "What is a venture studio and how can it help my business idea?",
+        question: "How do I apply for office space at 8thGear Hub?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "You can apply for office space by filling out this form or by contacting our team directly through email or phone.",
       },
       {
         question:
-          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+          "Can I access the Hub Services if I’m not renting office space?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "Yes, we offer a variety of flexible membership options, including access to networking events, and virtual office solutions.",
+      },
+        {
+          sectionTitle: "Talent Placement",  // Added a new section
+        },
+        {
+          question: "What is the Talent Placement service?",
+          answer:
+            "Talent Placement is a specialized service by 8thGear that helps companies find and recruit top talent, matching them with skilled professionals who fit their specific business needs.",
+        },
+        {
+          question:
+            "What types of roles does 8thGear’s Talent Placement cover?",
+          answer:
+            "We cover a wide range of roles, from entry-level positions to executive leadership, across various industries including tech, finance, marketing, and more.",
+        },
+        {
+          question: "How does the Talent Placement process work?",
+          answer:
+            "The process begins with an in-depth consultation to understand your company’s needs, followed by sourcing, screening, and interviewing candidates to ensure a perfect fit.",
+        },
+        {
+          question:
+            "Can I use Talent Placement for temporary or contract positions?",
+          answer:
+            "Yes, we offer flexible talent solutions, including temporary, contract, and full-time placements, depending on your business requirements.",
+        },
+        {
+          question:
+            "How long does it take to fill a position through Talent Placement?",
+          answer:
+            "The timeline varies based on the role and market conditions, but we strive to present qualified candidates within",
+        },
+        {
+          question:
+            "What makes 8thGear's Talent Placement service different from other recruitment agencies?",
+          answer:
+            "8thGear’s Talent Placement service goes beyond traditional recruitment by focusing on a deep understanding of your business culture and goals. We not only match skills but we also provide talent pipeline planning services where we train your staffs to help them upskill.",
+        },
+        {
+          question:
+            "What support does 8thGear provide after a candidate is placed?",
+          answer:
+            "After placement, we offer ongoing support to both the employer and the candidate, including onboarding assistance, performance check-ins, and development plans to ensure long-term success and satisfaction.",
+        },
+        {
+          question:
+            "How do you ensure that candidates are a good fit for our company culture?",
+          answer:
+            "We take the time to understand your company’s culture and values, and we incorporate this understanding into our screening process to ensure that candidates align well with your organizational environment.",
+        },
+        {
+          question:
+            "Can you help with onboarding and integration of new hires?",
+          answer:
+            "Yes, we offer onboarding support services to help new hires transition smoothly into their roles and integrate successfully into your company. This includes training, orientation, and ongoing support.",
+        },
+      {
+        sectionTitle: "GaaS (Growth as a Service)",  // Added a new section
       },
       {
-        question: "What is the selection process for new startups or ideas?",
+        question: "What is GaaS?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "Growth as a Service (GaaS) is a tailored business growth solution offered by 8thGear, designed to help companies scale by providing strategic support, market access, and operational efficiency services.",
       },
       {
         question:
-          "What services does your venture studio offer to startups and entrepreneurs?",
+          "Who is GaaS designed for?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "GaaS is ideal for businesses that have a product or service and are looking to scale sustainably. We also offer services for established brands.",
       },
       {
-        sectionTitle: "Talent Placement",  // Added a new section
-      },
-      {
-        question: "What is a venture studio and how can it help my business idea?",
+        question: "What services are included in GaaS?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "GaaS includes services such as brand visibility, market research, digital marketing support services, and customer and sales journey support.",
       },
       {
         question:
-          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+          "Can GaaS help my business enter new markets?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
-      },
-      {
-        question: "What is the selection process for new startups or ideas?",
-        answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "Yes, GaaS includes market research, localization strategies, and partnerships that can help your business successfully enter and thrive in new markets.",
       },
       {
         question:
-          "What services does your venture studio offer to startups and entrepreneurs?",
+          "How do I know if GaaS is right for my business?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
-      },
-      {
-        sectionTitle: "Growth Advisory",  // Added a new section
-      },
-      {
-        question: "What is a venture studio and how can it help my business idea?",
-        answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "If you are ready to scale but need expert guidance and resources to do so effectively, GaaS could be a great fit. Contact us for a consultation to discuss your specific needs.",
       },
       {
         question:
-          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+          "How do I get started with GaaS?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
-      },
-      {
-        question: "What is the selection process for new startups or ideas?",
-        answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
-      },
-      {
-        question:
-          "What services does your venture studio offer to startups and entrepreneurs?",
-        answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "To get started, simply reach out to us through this link to schedule a free 15 minutes initial. We’ll assess your needs and develop a customized growth plan for your business.",
       },
     ],
-    Projects: [
+    "Impact Projects": [
       {
-        question: "What types of industries or sectors do you specialize in?",
+        question: "What is the Impact Projects Division?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "The Impact Projects Division focuses on driving social and environmental change through entrepreneurial initiatives that address critical issues, such as sustainability, education, and economic empowerment.",
       },
       {
-        question: "What happens if my startup doesn’t succeed?",
+        question: "How does the Impact Projects Division support social enterprises?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "We provide mentorship, and strategic partnerships to social enterprises, helping them scale their impact and reach wider audiences.",
       },
       {
         question:
-          "What kind of financial investment can I expect from the venture studio?",
+          "Can I submit my project idea to the Impact Projects Division?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "Yes, we welcome innovative project ideas that have the potential to create significant social or environmental impact. You can submit your proposal through our website.",
+      },
+      {
+        question:
+          "What types of projects are eligible for support?",
+        answer:
+          "Eligible projects typically address issues such as poverty alleviation, environmental sustainability, education, and community development.",
+      },
+      {
+        question:
+          "How does the division measure the impact of supported projects?",
+        answer:
+          "We use a range of metrics and tools to measure the social, economic, and environmental impact of our projects, ensuring that they deliver tangible benefits to the communities they serve.",
+      },
+      {
+        question:
+          "Do you collaborate with other organizations in the Impact Projects Division?",
+        answer:
+          "Yes, we frequently collaborate with NGOs, government agencies, corporations, and other stakeholders to amplify the impact of our projects.",
+      },
+      {
+        question:
+          "How can I get involved with the Impact Projects Division?",
+        answer:
+          "You can get involved by submitting a project proposal to projects@8thgearpartners.com, becoming a partner, volunteering your time, or donating resources to support our initiatives.",
       },
     ],
     "Venture Studio": [
       {
         question:
-          "Will I receive mentorship and guidance from experienced entrepreneurs?",
+          "What is the Venture Studio Division?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "The Venture Studio Division is a unique program that partners with entrepreneurs to co-create, launch, and scale new ventures by providing strategic guidance, operational support, and access to capital.",
       },
       {
         question:
-          "Do you provide office space and other resources for startups?",
+          "How does 8thGear’s Venture Studio support startups?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          " We support startups by offering hands-on involvement in business development, product design, market strategy, and providing funding or access to investors.",
       },
       {
         question:
-          "Can I bring my existing team, or do I need to form a new one within the studio?",
+          "Who can apply to join the Venture Studio?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "The Venture Studio is open to entrepreneurs, innovators, and early-stage startups that have a validated business idea and are seeking support to scale.",
+      },
+      {
+        question:
+          "What is the process to join the Venture Studio?",
+        answer:
+          "Interested entrepreneurs can apply via this link. Selected candidates will undergo a rigorous vetting process, including interviews and pitch presentations, before being accepted into the program.",
+      },
+      {
+        question:
+          "Does the Venture Studio take equity in my startup?",
+        answer:
+          "Yes, in exchange for our services and support, the Venture Studio typically takes a small equity stake in the startups we partner with.",
+      },
+      {
+        question:
+          "How long does a startup stay in the Venture Studio program?",
+        answer:
+          "The duration varies depending on the needs of the startup, but most ventures stay in the program for 6-12 months, during which we help them reach key growth milestones.",
+      },
+      {
+        question:
+          "What kind of resources are available to startups in the Venture Studio?",
+        answer:
+          "Startups have access to a wide range of resources, including expert mentors, industry connections, business tools, and co-working spaces, all aimed at accelerating their growth.",
       },
     ],
     "Builder's Collectives": [
       {
-        question: "What is a venture studio and how can it help my business idea?",
+        question: "What is the Builders Collective?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          " 8thGear Builders' Collective is a subscription-based specially curated closed group for members of our community who are actively building and seeking more support.",
       },
       {
         question:
-          "Do I need a fully developed business idea to apply, or can I start with just a concept?",
+          "How can I join the Builders Collective?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "You can join the Builders Collective by clicking this link. Membership is open to all entrepreneurs, business owners, and innovators.",
       },
       {
-        question: "What is the selection process for new startups or ideas?",
+        question: "What are the benefits of joining the Builders Collective?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "As part of this subscription service, you'll benefit from our accountability service, where we help track your month-on-month growth across locally relevant metrics andcorporate goals. Members enjoy access to exclusive networking events, workshops, peer-to-peer mentoring, and firsthand insights into 8thGear’s services and offerings.",
       },
       {
         question:
-          "What services does your venture studio offer to startups and entrepreneurs?",
+          "What kind of events does the Builders Collective host?",
         answer:
-          "A venture studio is an organization that creates and supports startups by providing resources such as funding, mentorship, and office space. It helps your business idea by offering hands-on support in areas like product development, market validation, and scaling, increasing your chances of success.",
+          "We host a variety of events, including founder's meetups, and venture-building workshops (vBIP Program) designed to help members grow their businesses.",
+      },
+      {
+        question:
+          "Is there a membership fee for the Builders Collective?",
+        answer:
+          "Yes, there is a #10,000 monthly membership fee, which covers accountability services, B2B venture listing on our tech marketplace, special in-house sessions and programs, and other member benefits.",
+      },
+      {
+        question:
+          "Can I showcase my business at Builders Collective events?",
+        answer:
+          "Absolutely! Members are encouraged to showcase their businesses at our quarterly founders meet up and our annual Demo-day.",
+      },
+      {
+        question:
+          "How does the Builders Collective support entrepreneurial growth?",
+        answer:
+          "The Collective fosters a supportive environment where members can learn fromeach other, gain valuable feedback, and leverage 8thGear’s growth services to overcome challenges and scale their ventures.",
       },
     ],
   };
@@ -210,11 +301,11 @@ const FAQ1 = () => {
         </button>
         <button
           className={`btn btn-primary fw-bold mx-2 faqButton rounded-pill fs-6 py-3 px-5 mb-3 ${
-            activeCategory === "Projects" ? "active" : ""
+            activeCategory === "Impact Projects" ? "active" : ""
           }`}
-          onClick={() => handleCategoryChange("Projects")}
+          onClick={() => handleCategoryChange("Impact Projects")}
         >
-          Projects
+          Impact Projects
         </button>
         <button
           className={`btn btn-primary fw-bold mx-2 faqButton rounded-pill fs-6 py-3 px-5 mb-3 ${
