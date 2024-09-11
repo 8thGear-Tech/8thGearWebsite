@@ -42,7 +42,15 @@ const FAQ1 = () => {
       {
         question: "How do I apply for office space at 8thGear Hub?",
         answer:
-          "You can apply for office space by filling out this form or by contacting our team directly through email or phone.",
+        (
+          <>
+            You can apply for office space by filling out this{' '}
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
+              form
+            </a>{' '}
+            or by contacting our team directly through email or phone.
+          </>
+        ),
       },
       {
         question:
@@ -139,8 +147,15 @@ const FAQ1 = () => {
       {
         question:
           "How do I get started with GaaS?",
-        answer:
-          "To get started, simply reach out to us through this link to schedule a free 15 minutes initial. We’ll assess your needs and develop a customized growth plan for your business.",
+        answer:(
+          <>
+            To get started, simply reach out to us through this{' '}
+            <a href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8" target="_blank" rel="noopener noreferrer">
+              link
+            </a>{' '}
+            to schedule a free 15 minutes initial consultation.
+          </>
+        ),
       },
     ],
     "Impact Projects": [
@@ -207,8 +222,14 @@ const FAQ1 = () => {
       {
         question:
           "What is the process to join the Venture Studio?",
-        answer:
-          "Interested entrepreneurs can apply via this link. Selected candidates will undergo a rigorous vetting process, including interviews and pitch presentations, before being accepted into the program.",
+        answer:(
+        <>
+          Interested entrepreneurs can apply via this{' '}
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2tUCaXKrBRYS0hVjU7BGRtdV9lN6j9ThGx-LZGwqwlebE_Q/viewform" target="_blank" rel="noopener noreferrer">
+            link
+          </a>. Selected candidates will undergo a rigorous vetting process.
+        </>
+      ),
       },
       {
         question:
@@ -238,8 +259,14 @@ const FAQ1 = () => {
       {
         question:
           "How can I join the Builders Collective?",
-        answer:
-          "You can join the Builders Collective by clicking this link. Membership is open to all entrepreneurs, business owners, and innovators.",
+        answer:(
+          <>
+            You can join the Builders Collective by clicking this{' '}
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform" target="_blank" rel="noopener noreferrer">
+              link
+            </a>. Membership is open to all entrepreneurs, business owners, and innovators.
+          </>
+        ),
       },
       {
         question: "What are the benefits of joining the Builders Collective?",
