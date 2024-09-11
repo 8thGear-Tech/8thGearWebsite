@@ -322,7 +322,6 @@ const FAQ1 = () => {
       <h2 className="h4 fw-medium fs-4 faqHeading">
         Frequently Asked Questions (FAQs)
       </h2>
-
       <div className="mt-4">
         {/* Buttons for switching between categories */}
         <button
