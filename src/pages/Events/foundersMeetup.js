@@ -46,8 +46,8 @@ const FounderMeetupHero = () => {
                     <p className="hero-subcaption fs-5 pt-4">Network with with local entrepreneurs.</p>
                 </div>
                 {/* Invite Card */}
-                <div className="hero-card px-2">
-                    <div className="d-flex flex-row gap-0 justify-content-between">
+                <div className="hero-card px-2 px-sm-0">
+                    <div className="d-flex flex-row dateandTime gap-0 justify-content-between">
                         {/* Date */}
                         <div className="dateicon p-2 details">
                             <Image src={CalendarIcon} alt="Calender" className="event-icon" />{" "}
@@ -92,7 +92,7 @@ const EventsWriteUp = () => {
     return (
         <div className="body-container">
             <div className="container-fluid d-flex mt-5 w-100 mt-sm-1 mx-sm-0 flex-column flex-wrap event-content">
-                <section className="w-50 mx-lg-5 m-md-3 mx-sm-0 px-sm-2 event-section">
+                <section className="w-75 mx-lg-5 m-md-3 mx-sm-0 px-sm-2 event-section">
                     {/* FIRST SECTION */}
                     <div className="seection-one mt-5">
                         <p>
