@@ -52,7 +52,11 @@ const CoreValue = () => {
 
   return (
     <div className="container mt-5">
-      <h3 className="text-center mt-3 mb-5 purple-text">WHO WE ARE</h3>
+      <h3 className="text-center mt-3 purple-text">WHO WE ARE</h3>
+      <p className="text-center">
+        8thGear® is a brand owned by 8thGear Partners Limited and operates as
+        8thGear Hub & Venture Studio{" "}
+      </p>
       <div className="row mt-5 d-flex justify-content-center align-items-stretch">
         {/* Vision card */}
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">

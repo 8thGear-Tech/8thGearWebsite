@@ -1,0 +1,65 @@
+/* GaaSNew Start */
+.gaasHero-section {
+  background: linear-gradient(135deg, #061b52, #010b23);
+  min-height: 80vh;
+  padding: 50px 0;
+}
+
+.gaasHighlight-text {
+  color: #00d2ff;
+}
+
+.whyCardBg {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+}
+
+.whyTwoCard {
+  background-color: #F0E4EF;
+}
+
+
+.whyTextColor {
+  color: #6E006A;
+}
+
+.whyCardTitle {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.whatTextColor {
+  color: #6E006A;
+}
+
+.whatButton {
+  /* color: #D3D3D3; */
+  border: none !important;
+}
+
+.whatButton:hover {
+  background-color: #D3D3D3 !important;
+  color: #000000 !important;
+}
+
+.readyButton:hover {
+  background-color: #D3D3D3;
+  color: #000000 !important;
+}
+
+@media (min-width: 1024px) {
+  .readyParagraph {
+    padding-left: 250px !important;
+    padding-right: 250px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
