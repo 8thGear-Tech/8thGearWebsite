@@ -41,7 +41,7 @@ import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
-
+import Community from "./pages/Services/Community";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";

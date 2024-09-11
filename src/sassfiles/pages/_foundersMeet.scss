@@ -53,8 +53,6 @@ body {
 }
 
 .dateicon {
-    // border-right: 1px solid;
-    // border-bottom: 1px solid;
     width: 50%;
     span {
         font-size: 20px;
@@ -62,11 +60,9 @@ body {
     }
 }
 .clockicon {
-    // border-bottom: 1px solid;
     width: 50%;
     align-items: center;
     display: flex;
-    // flex-direction: row;
     gap: 5px;
     align-items: baseline;
     span {
@@ -90,32 +86,46 @@ body {
 // RIGHT SECTION
 .hero-pic1 {
     position: absolute;
-    top: 12% !important;
-    right: 27% !important;
-    height: 300px !important;
+    top: 100px !important;
+    right: 280px !important;
+    height: 250px !important;
     z-index: 10;
     border-radius: 90px 0px 90px 0px !important;
 }
 .hero-circle {
     position: absolute;
-    top: 250px !important;
-    right: 20% !important;
-    height: 22% !important;
+    top: 200px !important;
+    right: 180px !important;
+    height: 180px !important;
     border-radius: 50% !important;
     box-shadow: -2px 5px 7px;
 }
 
 .hero-pic2 {
     position: absolute;
-    top: 20%;
-    height: 300px !important;
-    right: 8% !important;
+    top: 240px;
+    height: 230px !important;
+    right: 80px !important;
     border-radius: 0px 90px 0px 90px !important;
 }
 
+.body-container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin: auto;
+}
+.registerContainer {
+    height: 1450px;
+    position: relative;
+    right: 200px;
+}
+
 .registerpanel {
-    position: absolute;
-    top: 60%;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 20px !important;
+    width: 350px !important;
     background-color: white;
     border-radius: 10px !important;
     z-index: 20;
@@ -131,16 +141,24 @@ body {
         font-weight: 300;
     }
 }
+.smRegisterLink {
+    background-color: #920f84;
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        color: #f6f6f6;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
 .registercontent {
     padding: 0;
 }
 // SMALL HERO
 .small-hero {
     display: none;
-}
-//SPEAKER
-.speaker {
-    width: 700px !important;
 }
 // SECTION 2
 .no-list {
@@ -208,9 +226,17 @@ body {
 }
 
 // MEDIA QUERY
-
+// XLarge Screens
+@media (min-width: 1440px) and (max-width: 2580px) {
+    .hero-caption {
+        width: 700px !important;
+    }
+    .hero-card {
+        width: 600px !important;
+    }
+}
 /* Large Screens */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1350px) {
     .heroSection {
         height: 80% !important;
     }
@@ -295,6 +321,10 @@ body {
         position: fixed;
         top: 450px;
         width: 250px !important;
+    }
+    //SPEAKER
+    .speaker {
+        width: 500px;
     }
     // SMALL HERO
     .small-hero {
@@ -391,15 +421,44 @@ body {
         height: 200px !important;
         right: 30px !important;
     }
+    .registerContainer {
+        display: none !important;
+    }
     .registerpanel {
         position: fixed;
-        top: 500px;
+        display: none !important;
+        top: 200px;
         right: 10% !important;
         width: 250px !important;
+    }
+    .registerpanelsm {
+        display: block;
+        width: 400px !important;
+        margin: 10px;
+        text-align: center !important;
+        border-radius: 20px !important;
+        h2 {
+            color: #920f84;
+        }
+        // SPEAKERS
+        .speaker {
+            width: 500px !important;
+        }
     }
     // SMALL HERO
     .small-hero {
         display: none !important;
+    }
+    .smRegisterLink {
+        display: block !important;
+        position: absolute;
+        top: 450px !important;
+        left: 50px !important;
+        margin: 30px;
+        height: 50px;
+        a {
+            font-size: 14px;
+        }
     }
     .speaker-detail {
         width: 300px;
@@ -409,11 +468,13 @@ body {
         display: flex;
         flex-direction: row;
         gap: 15px;
+        width: 500px;
     }
     .row2 {
         display: flex;
         flex-direction: row;
         gap: 15px;
+        width: 500px;
     }
 }
 
@@ -516,6 +577,18 @@ body {
         display: block !important;
         width: 100% !important;
     }
+    .smRegisterLink {
+        display: block !important;
+        background-color: #920f84;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: #f6f6f6;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
 
     // .event-content {
     //     margin: 0 !important;
@@ -544,6 +617,7 @@ body {
         background-color: white;
         border-radius: 10px !important;
         z-index: 20;
+        padding: 10px;
         h2 {
             font-family: "Rubik", "sans-serif";
             font-size: 22px;
