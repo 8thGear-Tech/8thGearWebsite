@@ -135,6 +135,7 @@ function App() {
         <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
         <Route path="coworking" element={<CoWorking />} />
         <Route path="talent-placement" element={<TalentPlacement />} />
+        <Route path="community" element={<Community />} />
 
         <Route path="about" element={<AboutUs />} />
         {/* <Route path="about" element={<About />} /> */}
