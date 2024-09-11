@@ -111,6 +111,7 @@ body {
 
 .body-container {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     position: relative;
     margin: auto;
@@ -118,7 +119,7 @@ body {
 .registerContainer {
     height: 1450px;
     position: relative;
-    right: 200px;
+    right: 100px !important;
 }
 
 .registerpanel {
@@ -130,7 +131,7 @@ body {
     border-radius: 10px !important;
     z-index: 20;
     height: 150px !important;
-    right: 200px !important;
+    right: 150px !important;
     h2 {
         font-size: 25px;
         color: #920f84;
@@ -320,7 +321,7 @@ body {
     .registerpanel {
         position: fixed;
         top: 450px;
-        width: 250px !important;
+        width: 350px !important;
     }
     //SPEAKER
     .speaker {
@@ -349,14 +350,14 @@ body {
     }
     // LEFT SECTION
     .hero-card {
-        width: 300px !important;
+        width: 350px !important;
         height: 180px !important;
         font-size: 10px;
     }
 
     .event-detail {
         font-weight: bold !important;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .details {
@@ -369,7 +370,7 @@ body {
     .dateicon {
         width: 55%;
         span {
-            font-size: 16px;
+            font-size: 12px;
             font-weight: bold;
             font-family: "Open Sans";
         }
@@ -378,7 +379,7 @@ body {
         width: 55%;
         gap: 2px;
         span {
-            font-size: 16px;
+            font-size: 12px;
             font-weight: bold;
             font-family: "Open Sans";
         }
@@ -390,7 +391,7 @@ body {
     .locationicon {
         width: 100%;
         span {
-            font-size: 15px;
+            font-size: 12px;
             font-family: "Open Sans";
         }
         p {
@@ -399,7 +400,7 @@ body {
     }
 
     .event-icon {
-        width: 15px !important;
+        width: 12px !important;
     }
     // RIGHT SECTION
     .hero-pic1 {
@@ -452,10 +453,10 @@ body {
     .smRegisterLink {
         display: block !important;
         position: absolute;
-        top: 450px !important;
+        top: 400px !important;
         left: 50px !important;
-        margin: 30px;
-        height: 50px;
+        margin: 10px;
+        height: 40px;
         a {
             font-size: 14px;
         }
@@ -511,12 +512,13 @@ body {
     .hero-card {
         width: 300px !important;
         height: 180px !important;
+        margin: auto !important;
         font-size: 10px;
     }
 
     .event-detail {
         font-weight: bold !important;
-        font-size: 15px;
+        //font-size: 15px;
     }
 
     .details {
@@ -526,31 +528,40 @@ body {
         }
     }
 
+    .dateandTime {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
     .dateicon {
-        width: 55%;
+        width: 100%;
         span {
-            font-size: 16px;
+            font-size: 12px;
             font-weight: bold;
             font-family: "Open Sans";
         }
+        justify-content: center;
     }
     .clockicon {
-        width: 55%;
+        width: 100%;
         gap: 2px;
         span {
-            font-size: 16px;
+            font-size: 12px;
             font-weight: bold;
             font-family: "Open Sans";
         }
         p {
             font-size: 12px;
         }
+        justify-content: center;
     }
 
     .locationicon {
         width: 100%;
         span {
-            font-size: 15px;
+            font-size: 12px;
             font-family: "Open Sans";
         }
         p {
@@ -559,7 +570,7 @@ body {
     }
 
     .event-icon {
-        width: 15px !important;
+        width: 12px !important;
     }
     // RIGHT SECTION
     .hero-pic1 {
