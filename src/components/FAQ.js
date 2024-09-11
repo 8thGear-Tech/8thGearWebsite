@@ -30,25 +30,28 @@ const FAQ1 = () => {
           "We host quarterly founders meetup events for entrepreneurs in our community, we also have seminars where entrepreneurs can connect with other business professionals.",
       },
       {
-        question: "Is there a minimum commitment period for using the Hub Services?",
+        question:
+          "Is there a minimum commitment period for using the Hub Services?",
         answer:
           "The commitment period varies depending on the services you require. For co-working space, we offer both short-term and long-term agreements.",
       },
       // New section starts here
       // Duplicate of Hub Services questions and answers
       {
-        sectionTitle: "Co-working",  // Added a new section
+        sectionTitle: "Co-working", // Added a new section
       },
       {
         question: "How do I apply for office space at 8thGear Hub?",
-        answer:
-        (
+        answer: (
           <>
-            You can apply for office space by filling out this{' '}
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
+            You can apply for office space by filling out this{" "}
+            <a
+              href="https://forms.gle/pjR1os5hN6WnbzFa9"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               form
-            </a>{' '}
-            or by contacting our team directly through email or phone.
+            </a>{" "}
           </>
         ),
       },
@@ -58,63 +61,56 @@ const FAQ1 = () => {
         answer:
           "Yes, we offer a variety of flexible membership options, including access to networking events, and virtual office solutions.",
       },
-        {
-          sectionTitle: "Talent Placement",  // Added a new section
-        },
-        {
-          question: "What is the Talent Placement service?",
-          answer:
-            "Talent Placement is a specialized service by 8thGear that helps companies find and recruit top talent, matching them with skilled professionals who fit their specific business needs.",
-        },
-        {
-          question:
-            "What types of roles does 8thGear’s Talent Placement cover?",
-          answer:
-            "We cover a wide range of roles, from entry-level positions to executive leadership, across various industries including tech, finance, marketing, and more.",
-        },
-        {
-          question: "How does the Talent Placement process work?",
-          answer:
-            "The process begins with an in-depth consultation to understand your company’s needs, followed by sourcing, screening, and interviewing candidates to ensure a perfect fit.",
-        },
-        {
-          question:
-            "Can I use Talent Placement for temporary or contract positions?",
-          answer:
-            "Yes, we offer flexible talent solutions, including temporary, contract, and full-time placements, depending on your business requirements.",
-        },
-        {
-          question:
-            "How long does it take to fill a position through Talent Placement?",
-          answer:
-            "The timeline varies based on the role and market conditions, but we strive to present qualified candidates within",
-        },
-        {
-          question:
-            "What makes 8thGear's Talent Placement service different from other recruitment agencies?",
-          answer:
-            "8thGear’s Talent Placement service goes beyond traditional recruitment by focusing on a deep understanding of your business culture and goals. We not only match skills but we also provide talent pipeline planning services where we train your staffs to help them upskill.",
-        },
-        {
-          question:
-            "What support does 8thGear provide after a candidate is placed?",
-          answer:
-            "After placement, we offer ongoing support to both the employer and the candidate, including onboarding assistance, performance check-ins, and development plans to ensure long-term success and satisfaction.",
-        },
-        {
-          question:
-            "How do you ensure that candidates are a good fit for our company culture?",
-          answer:
-            "We take the time to understand your company’s culture and values, and we incorporate this understanding into our screening process to ensure that candidates align well with your organizational environment.",
-        },
-        {
-          question:
-            "Can you help with onboarding and integration of new hires?",
-          answer:
-            "Yes, we offer onboarding support services to help new hires transition smoothly into their roles and integrate successfully into your company. This includes training, orientation, and ongoing support.",
-        },
       {
-        sectionTitle: "GaaS (Growth as a Service)",  // Added a new section
+        sectionTitle: "Talent Placement", // Added a new section
+      },
+      {
+        question: "What is the Talent Placement service?",
+        answer:
+          "Talent Placement is a specialized service by 8thGear that helps companies find and recruit top talent, matching them with skilled professionals who fit their specific business needs.",
+      },
+      {
+        question: "What types of roles does 8thGear Talent Placement cover?",
+        answer:
+          "We cover a wide range of roles, from entry-level positions to executive leadership, across various industries including tech, marketing, and more.",
+      },
+      {
+        question: "How does the Talent Placement process work?",
+        answer:
+          "The process begins with an in-depth consultation to understand your company’s needs, followed by sourcing, screening, and interviewing candidates to ensure a perfect fit.",
+      },
+      {
+        question:
+          "Can I use Talent Placement for temporary or contract positions?",
+        answer:
+          "Yes, we offer flexible talent solutions, including temporary, contract, and full-time placements, depending on your business requirements.",
+      },
+      {
+        question:
+          "How long does it take to fill a position through Talent Placement?",
+        answer:
+          "The timeline varies based on the role and market conditions, but we strive to present qualified candidates within",
+      },
+
+      {
+        question:
+          "What support does 8thGear provide after a candidate is placed?",
+        answer:
+          "After placement, we offer ongoing support to both the employer and the candidate, including onboarding assistance, performance check-ins, and development plans to ensure long-term success and satisfaction.",
+      },
+      {
+        question:
+          "How do you ensure that candidates are a good fit for our company culture?",
+        answer:
+          "We take the time to understand your company’s culture and values, and we incorporate this understanding into our screening process to ensure that candidates align well with your organizational environment.",
+      },
+      {
+        question: "Can you help with onboarding and integration of new hires?",
+        answer:
+          "Yes, we offer onboarding support services to help new hires transition smoothly into their roles and integrate successfully into your company. This includes training, orientation, and ongoing support.",
+      },
+      {
+        sectionTitle: "GaaS (Growth as a Service)", // Added a new section
       },
       {
         question: "What is GaaS?",
@@ -122,37 +118,37 @@ const FAQ1 = () => {
           "Growth as a Service (GaaS) is a tailored business growth solution offered by 8thGear, designed to help companies scale by providing strategic support, market access, and operational efficiency services.",
       },
       {
-        question:
-          "Who is GaaS designed for?",
+        question: "Who is GaaS designed for?",
         answer:
           "GaaS is ideal for businesses that have a product or service and are looking to scale sustainably. We also offer services for established brands.",
       },
       {
         question: "What services are included in GaaS?",
         answer:
-          "GaaS includes services such as brand visibility, market research, digital marketing support services, and customer and sales journey support.",
+          "GaaS includes services such as brand visibility, market research, digital marketing support services, and customer & sales journey support.",
       },
       {
-        question:
-          "Can GaaS help my business enter new markets?",
+        question: "Can GaaS help my business enter new markets?",
         answer:
           "Yes, GaaS includes market research, localization strategies, and partnerships that can help your business successfully enter and thrive in new markets.",
       },
       {
-        question:
-          "How do I know if GaaS is right for my business?",
+        question: "How do I know if GaaS is right for my business?",
         answer:
           "If you are ready to scale but need expert guidance and resources to do so effectively, GaaS could be a great fit. Contact us for a consultation to discuss your specific needs.",
       },
       {
-        question:
-          "How do I get started with GaaS?",
-        answer:(
+        question: "How do I get started with GaaS?",
+        answer: (
           <>
-            To get started, simply reach out to us through this{' '}
-            <a href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8" target="_blank" rel="noopener noreferrer">
+            To get started, simply reach out to us through this{" "}
+            <a
+              href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               link
-            </a>{' '}
+            </a>{" "}
             to schedule a free 15 minutes initial consultation.
           </>
         ),
@@ -165,19 +161,14 @@ const FAQ1 = () => {
           "The Impact Projects Division focuses on driving social and environmental change through entrepreneurial initiatives that address critical issues, such as sustainability, education, and economic empowerment.",
       },
       {
-        question: "How does the Impact Projects Division support social enterprises?",
+        question:
+          "How does the Impact Projects Division support social enterprises?",
         answer:
           "We provide mentorship, and strategic partnerships to social enterprises, helping them scale their impact and reach wider audiences.",
       },
+
       {
-        question:
-          "Can I submit my project idea to the Impact Projects Division?",
-        answer:
-          "Yes, we welcome innovative project ideas that have the potential to create significant social or environmental impact. You can submit your proposal through our website.",
-      },
-      {
-        question:
-          "What types of projects are eligible for support?",
+        question: "What types of projects are eligible for support?",
         answer:
           "Eligible projects typically address issues such as poverty alleviation, environmental sustainability, education, and community development.",
       },
@@ -194,52 +185,58 @@ const FAQ1 = () => {
           "Yes, we frequently collaborate with NGOs, government agencies, corporations, and other stakeholders to amplify the impact of our projects.",
       },
       {
-        question:
-          "How can I get involved with the Impact Projects Division?",
-        answer:
-          "You can get involved by submitting a project proposal to projects@8thgearpartners.com, becoming a partner, volunteering your time, or donating resources to support our initiatives.",
+        question: "How can I get involved with the Impact Projects Division?",
+        answer: (
+          <>
+            You can get involved by submitting a project proposal to{" "}
+            <a href="mailto:projects@8thgearpartners.com">
+              projects@8thgearpartners.com
+            </a>
+            , becoming a partner, volunteering your time, or donating resources
+            to support our initiatives.
+          </>
+        ),
       },
     ],
     "Venture Studio": [
       {
-        question:
-          "What is the Venture Studio Division?",
+        question: "What is the Venture Studio Division?",
         answer:
           "The Venture Studio Division is a unique program that partners with entrepreneurs to co-create, launch, and scale new ventures by providing strategic guidance, operational support, and access to capital.",
       },
       {
-        question:
-          "How does 8thGear’s Venture Studio support startups?",
+        question: "How does 8thGear’s Venture Studio support startups?",
         answer:
           " We support startups by offering hands-on involvement in business development, product design, market strategy, and providing funding or access to investors.",
       },
       {
-        question:
-          "Who can apply to join the Venture Studio?",
+        question: "Who can apply to join the Venture Studio?",
         answer:
           "The Venture Studio is open to entrepreneurs, innovators, and early-stage startups that have a validated business idea and are seeking support to scale.",
       },
       {
-        question:
-          "What is the process to join the Venture Studio?",
-        answer:(
-        <>
-          Interested entrepreneurs can apply via this{' '}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2tUCaXKrBRYS0hVjU7BGRtdV9lN6j9ThGx-LZGwqwlebE_Q/viewform" target="_blank" rel="noopener noreferrer">
-            link
-          </a>. Selected candidates will undergo a rigorous vetting process.
-        </>
-      ),
+        question: "What is the process to join the Venture Studio?",
+        answer: (
+          <>
+            Interested entrepreneurs can apply via this{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf2tUCaXKrBRYS0hVjU7BGRtdV9lN6j9ThGx-LZGwqwlebE_Q/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              link
+            </a>
+            . Selected candidates will undergo a rigorous vetting process.
+          </>
+        ),
       },
       {
-        question:
-          "Does the Venture Studio take equity in my startup?",
+        question: "Does the Venture Studio take equity in my startup?",
         answer:
           "Yes, in exchange for our services and support, the Venture Studio typically takes a small equity stake in the startups we partner with.",
       },
       {
-        question:
-          "How long does a startup stay in the Venture Studio program?",
+        question: "How long does a startup stay in the Venture Studio program?",
         answer:
           "The duration varies depending on the needs of the startup, but most ventures stay in the program for 6-12 months, during which we help them reach key growth milestones.",
       },
@@ -250,21 +247,26 @@ const FAQ1 = () => {
           "Startups have access to a wide range of resources, including expert mentors, industry connections, business tools, and co-working spaces, all aimed at accelerating their growth.",
       },
     ],
-    "Builder's Collectives": [
+    "Builders Collective": [
       {
         question: "What is the Builders Collective?",
         answer:
-          " 8thGear Builders' Collective is a subscription-based specially curated closed group for members of our community who are actively building and seeking more support.",
+          " 8thGear Builders Collective is a subscription-based specially curated closed group for members of our community who are actively building and seeking more support.",
       },
       {
-        question:
-          "How can I join the Builders Collective?",
-        answer:(
+        question: "How can I join the Builders Collective?",
+        answer: (
           <>
-            You can join the Builders Collective by clicking this{' '}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform" target="_blank" rel="noopener noreferrer">
+            You can join the Builders Collective by clicking this{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               link
-            </a>. Membership is open to all entrepreneurs, business owners, and innovators.
+            </a>
+            . Membership is open to all entrepreneurs, business owners, and
+            innovators.
           </>
         ),
       },
@@ -274,20 +276,25 @@ const FAQ1 = () => {
           "As part of this subscription service, you'll benefit from our accountability service, where we help track your month-on-month growth across locally relevant metrics andcorporate goals. Members enjoy access to exclusive networking events, workshops, peer-to-peer mentoring, and firsthand insights into 8thGear’s services and offerings.",
       },
       {
-        question:
-          "What kind of events does the Builders Collective host?",
+        question: "What kind of events does the Builders Collective host?",
         answer:
           "We host a variety of events, including founder's meetups, and venture-building workshops (vBIP Program) designed to help members grow their businesses.",
       },
       {
-        question:
-          "Is there a membership fee for the Builders Collective?",
-        answer:
-          "Yes, there is a #10,000 monthly membership fee, which covers accountability services, B2B venture listing on our tech marketplace, special in-house sessions and programs, and other member benefits.",
+        question: "Is there a membership fee for the Builders Collective?",
+        answer: (
+          <>
+            Yes, there is a <b>#10,000 monthly membership fee</b>, which covers{" "}
+            {""}
+            <b>accountability services</b>,{" "}
+            <b>B2B venture listing on our tech marketplace</b>,{" "}
+            <b>special in-house sessions and programs</b>, and other member
+            benefits."
+          </>
+        ),
       },
       {
-        question:
-          "Can I showcase my business at Builders Collective events?",
+        question: "Can I showcase my business at Builders Collective events?",
         answer:
           "Absolutely! Members are encouraged to showcase their businesses at our quarterly founders meet up and our annual Demo-day.",
       },
@@ -295,7 +302,7 @@ const FAQ1 = () => {
         question:
           "How does the Builders Collective support entrepreneurial growth?",
         answer:
-          "The Collective fosters a supportive environment where members can learn fromeach other, gain valuable feedback, and leverage 8thGear’s growth services to overcome challenges and scale their ventures.",
+          "The Collective fosters a supportive environment where members can learn from each other, gain valuable feedback, and leverage 8thGear Growth services to overcome challenges and scale their ventures.",
       },
     ],
   };
@@ -313,7 +320,7 @@ const FAQ1 = () => {
   return (
     <div className="container mt-5 text-center">
       <h2 className="h4 fw-medium fs-4 faqHeading">
-        Frequently Asked Questions (FAQ’s)
+        Frequently Asked Questions (FAQs)
       </h2>
 
       <div className="mt-4">
@@ -344,11 +351,11 @@ const FAQ1 = () => {
         </button>
         <button
           className={`btn btn-primary fw-bold mx-2 faqButton rounded-pill fs-6 py-3 px-5 mb-3 ${
-            activeCategory === "Builder's Collectives" ? "active" : ""
+            activeCategory === "Builders Collective" ? "active" : ""
           }`}
-          onClick={() => handleCategoryChange("Builder's Collectives")}
+          onClick={() => handleCategoryChange("Builders Collective")}
         >
-          Builder's Collectives
+          Builders Collective
         </button>
       </div>
 
@@ -360,7 +367,9 @@ const FAQ1 = () => {
             if (item.sectionTitle) {
               return (
                 <div key={index} className="my-4 text-start">
-                  <h3 className="fw-bold fs-5 text-dark">{item.sectionTitle}</h3>
+                  <h3 className="fw-bold fs-5 text-dark">
+                    {item.sectionTitle}
+                  </h3>
                   {/* Display section-specific content if needed */}
                 </div>
               );
@@ -368,8 +377,14 @@ const FAQ1 = () => {
 
             // Render accordion items for other questions
             return (
-              <div className="accordion-item border-0 faqAccordionItem" key={index}>
-                <h2 className="accordion-header faqAccordionHeader" id={`heading${index}`}>
+              <div
+                className="accordion-item border-0 faqAccordionItem"
+                key={index}
+              >
+                <h2
+                  className="accordion-header faqAccordionHeader"
+                  id={`heading${index}`}
+                >
                   <button
                     className={`accordion-button ${
                       openIndex === index ? "" : "collapsed"
@@ -405,9 +420,6 @@ export default FAQ;
 // 1. Used `w-100 w-md-75` for accordion width to ensure it scales on smaller devices.
 // 2. Buttons and text are already responsive with Bootstrap utility classes.
 // 3. Buttons and accordion are centered, providing a good user experience on all screen sizes (mobile, tablet, desktop).
-
-
-
 
 // import card from "../data/faq.json";
 
