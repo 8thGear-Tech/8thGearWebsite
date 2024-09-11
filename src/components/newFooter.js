@@ -143,7 +143,7 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="#"
+                    scroll-behavior: smooth="#"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
