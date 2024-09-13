@@ -48,10 +48,17 @@
   color: #000000 !important;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1440px) {
   .readyParagraph {
     padding-left: 250px !important;
     padding-right: 250px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .whatPadding {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 }
 

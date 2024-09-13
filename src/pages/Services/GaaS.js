@@ -194,9 +194,9 @@ const WhatWeDo = () => {
   return (
     <div className="container-fluid text-center whatBackground py-5 px-5" style={{ backgroundColor: '#f7f2f7' }}>
       <h2 className="mb-4 fs-4" style={{ color: '#6E006A' }}>WHAT WE DO</h2>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center whatPadding" style={{ paddingLeft: '100px', paddingRight: '100px' }}>
         {whatWeDoItems.map((item, index) => (
-          <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" key={index}> 
+          <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 d-flex justify-content-center" key={index}> 
             {/* Added d-flex and justify-content-center for better alignment */}
             <div className="card d-flex flex-column h-auto border-0" style={{ width: '100%', maxWidth: '250px' }}>
               <img src={item.imageUrl} className="card-img-top" alt={item.title} style={{ height: '200px', objectFit: 'cover' }}/>
@@ -305,7 +305,7 @@ const OurSuccess = () => {
               <div className="col-md-6 col-sm-12 mb-4">
                 {/* // Ensure text is responsive */}
                 <h5 className="fw-bold">{story.title}</h5> {/* // Added Bootstrap class for bold text */}
-                <p className="text-wrap pe-5">{story.description}</p> {/* // Added text-wrap class for responsive text */}
+                <p className="text-wrap pe-lg-5">{story.description}</p> {/* // Added text-wrap class for responsive text */}
               </div>
               <div className="col-md-6 col-sm-12 mb-4">
                 <img src={story.image} className="img-fluid rounded" style={{ maxWidth: '100%' }} alt={story.title} /> {/* // Ensure image is fluid */}
@@ -364,33 +364,39 @@ const Testimonials = () => {
       </div>
       <div className="row justify-content-center">
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="col-lg-3 col-md-4 col-sm-6 mb-4"> {/* Adjusted column classes for responsiveness */}
+          <div 
+            key={testimonial.id} 
+            className="col-lg-3 col-md-6 mb-4 d-md-flex" // Ensure 2 columns on tablets
+          > 
             <div className="card px-4 py-2 border-1 rounded-4 position-relative" style={{ height: 'auto' }}>
               {/* Quote symbol in the top left */}
               <span 
                 className="quote-icon" 
                 style={{
-                  fontSize: '2rem', // Adjusted font size for better responsiveness
+                  fontSize: '2rem',
                   position: 'absolute',
-                  left: '15px', // Adjusted position for better alignment
-                  top: '5px', // Added top positioning
+                  left: '15px',
+                  top: '5px',
                   color: '#000000',
                   fontFamily: 'serif'
                 }}
               >
                 &ldquo;
               </span>
-              <blockquote className="blockquote mt-4"> {/* Adjusted margins for better spacing */}
+              <blockquote className="blockquote mt-4">
                 <p className="mb-0" style={{ fontSize: '15px', lineHeight: '22px' }}>{testimonial.quote}</p>
               </blockquote>
-              <div className="d-flex align-items-center">
+              <div 
+                className="d-flex align-items-center" 
+                style={{ marginTop: (testimonial.id === 3 || testimonial.id === 4) ? '42px' : '0' }}
+              >
                 <img
                   src={testimonial.image}
                   alt={testimonial.author}
-                  className="rounded-circle" // Removed margin classes
+                  className="rounded-circle"
                   style={{ width: '40px', height: '40px' }}
                 />
-                <div className="ms-2"> {/* Added margin-start for spacing */}
+                <div className="ms-2">
                   <footer className="blockquote-footer mt-2 text-dark">
                     <cite title="Source Title">{testimonial.author}</cite>
                   </footer>
