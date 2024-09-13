@@ -20,8 +20,8 @@ const Community = () => {
 
 const HeroSection = () => {
     return (
-        <div className="px-4 container-fluid CollectiveHero d-flex pt-3 pb-4 align-items-center">
-            <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5 CollectiveHeroContent">
+        <div className="px-4 container-fluid CollectiveHero d-flex justify-content-center align-items-center">
+            <div className="col-lg-8 col-md-8 col-sm-12 mx-sm-3 px-lg-5 CollectiveHeroContent">
                 <h1 className="d-lg-block">
                     Unlock the power of collaboration and Innovation with Builder's Collective Membership !
                 </h1>
@@ -35,7 +35,7 @@ const HeroSection = () => {
 
 const SectionOne = () => {
     return (
-        <div className="container-fluid px-3 mx-3 my-4 whySection">
+        <div className="container-fluid px-3 mx-auto py-3 my-4 whySection">
             {/* FIRST PARAGRAPH */}
             <div className="firstPar d-flex flex-lg-row flex-md-column flex-sm-column gap-4 mx-md-3">
                 <div className="flex-wrap text-wrap py-2">
@@ -77,7 +77,7 @@ const Banner = () => {
 const MembershipSection = () => {
     return (
         <div className="container my-4">
-            <div className="membership d-flex flex-lg-row flex-md-column-reverse flex-sm-column-reverse gap-2">
+            <div className="membership d-flex flex-lg-row flex-md-column-reverse align-items-center justify-content-center flex-sm-column-reverse gap-2">
                 {/* Write up */}
                 <div className="membershipBody">
                     <h4 className="purple-text d-block d-lg-block d-md-none d-sm-none MembershipHeaderLG">
@@ -131,21 +131,21 @@ const MembershipSection = () => {
                     </ul>
                 </div>
                 {/* Image */}
-                <div>
+                <div className="">
                     <Image
                         src={memberShipImg}
                         alt="Membership Section"
-                        className="img-fluid membershipPic d-none d-lg-block d-md-none d-sm-none"
+                        className="img-fluid membershipPic d-none d-lg-block d-md-none d-sm-none mx-1"
                     />
                     <Image
                         src={memberShipImgMD}
                         alt="Membership Section"
-                        className="img-fluid membershipPicMD d-none d-lg-none d-md-block d-sm-none"
+                        className="img-fluid membershipPicMD d-none d-lg-none d-md-block d-sm-none mx-1"
                     />
                     <Image
                         src={memberShipImgSM}
                         alt="Memebership Section"
-                        className="img-fluid membershipPicSM d-none d-lg-none d-md-none d-sm-block"
+                        className="img-fluid membershipPicSM d-none d-lg-none d-md-none d-sm-block mx-1"
                     />{" "}
                     <h4 className="purple-text text-small d-block d-lg-none d-md-block d-sm-block text-center my-4">
                         BUILDER COLLECTIVE MEMBERSHIP

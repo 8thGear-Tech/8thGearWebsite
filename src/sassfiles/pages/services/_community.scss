@@ -20,12 +20,15 @@
 
 .CollectiveHeroContent {
     position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translate(-50%, 50%);
+    //top: 15px;
+    //left: 50%;
+    // transform: translate(-50%, 50%);
     text-align: center;
     color: #fff; /* White text color */
     z-index: 2;
+    h1 {
+        font-size: 3rem;
+    }
 }
 
 .CollectiveHeroBtn {
@@ -124,10 +127,17 @@
 
 /*Tablets with larger Screens */
 @media (min-width: 819px) and (max-width: 920px) {
+    .CollectiveHero {
+        height: 60vh;
+    }
+
+    .CollectiveHero::before {
+        height: 60vh;
+    }
     .CollectiveHeroContent {
         h1 {
-            font-size: 4rem;
-            line-height: 65px;
+            font-size: 3rem;
+            line-height: 60px;
         }
     }
     .whySection {
@@ -177,18 +187,15 @@
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 770px) {
     .CollectiveHero {
-        height: 80vh;
+        height: 50vh;
     }
     .CollectiveHero::before {
-        top: 65px;
         width: 100%;
-        height: 80vh;
+        height: 50vh;
     }
     .CollectiveHeroContent {
-        top: 0%;
-        width: 70%;
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
             line-height: 50px;
         }
     }
@@ -252,8 +259,10 @@
 /* Phones with Wider Screens */
 @media (min-width: 380px) and (max-width: 430px) {
     .CollectiveHeroContent {
-        top: 0px;
-        width: 70%;
+        // top: 0px;
+        // width: 70%;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
         h1 {
             font-size: 1.5rem;
             line-height: 40px;
@@ -333,8 +342,10 @@
         height: 50%;
     }
     .CollectiveHeroContent {
-        top: 0px;
-        width: 70%;
+        // top: 0px;
+        // width: 70%
+        margin-left: 10px !important;
+        margin-right: 10px !important;
         h1 {
             font-size: 1.2rem;
             line-height: 27px;
