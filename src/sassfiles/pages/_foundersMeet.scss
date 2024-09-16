@@ -585,8 +585,9 @@ body {
     }
     // SMALL HERO
     .small-hero {
-        display: block !important;
+        display: flex !important;
         width: 100% !important;
+        margin: 20px;
     }
     .smRegisterLink {
         display: block !important;

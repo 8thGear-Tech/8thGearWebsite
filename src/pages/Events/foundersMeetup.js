@@ -77,7 +77,7 @@ const FounderMeetupHero = () => {
                 <Image src={heroPic2} alt="Hero-Pic2" className="img-fluid hero-pic2" />
             </div>
             {/* Imgage for small device */}
-            <div className="d-none d-sm-block d-md-none small-hero">
+            <div className="d-none d-sm-flex justify-content-center d-md-none small-hero">
                 <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
             </div>
             <div className="smRegisterLink d-none d-sm-block d-md-none rounded-pill my-3 px-3 py-2">
