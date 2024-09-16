@@ -5,7 +5,7 @@ const CoreServices = () => {
     return (
         <div className=''>
             <h3 className='text-center'>CORE SERVICES</h3>
-            <div className='py-3'>
+            <div className='m-3'>
                 <CoreServicesCards />
             </div>
         </div>

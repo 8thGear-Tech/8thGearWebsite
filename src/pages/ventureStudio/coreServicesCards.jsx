@@ -16,68 +16,123 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 export default function CoreServicesCards() {
-    const cardData = [
-        {
-            icon: FaShop,
-            text: "Go-To-Market Strategy",
-        },
-        {
-            icon: IoCodeOutline,
-            text: "Visual & UX Design",
-        },
-        {
-            icon: MdOutlineEngineering,
-            text: "Engineering",
-        },
-        {
-            icon: SiSimpleanalytics,
-            text: "Business Analytics",
-        },
-        {
-            icon: FaBuildingColumns,
-            text: "Company Formation",
-        },
-        {
-            icon: MdOutlineAttachMoney,
-            text: "Finance",
-        },
-        {
-            icon: IoMdSettings,
-            text: "Operations",
-        },
-        {
-            icon: IoIosPeople,
-            text: "Legal & HR",
-        },
-        {
-            icon: MdGroupAdd,
-            text: "Recruiting",
-        },
-    ]
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block", background: "black" }}
+                onClick={onClick}
+            />
+        );
+    }
+
+    function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "block", background: "black" }}
+                onClick={onClick}
+            />
+        );
+    }
 
     const settings = {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        initialSlide: 0,
+        className: "center",
+        centerMode: true,
+        centerPadding: "10px",
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        rtl: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            },
+            {
+                breakpoint: 1023,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     return (
-        <div className="m-auto slider-container">
-            <Slider {...settings}>
-                {cardData.map((d) => (
-                    <div className="coreServiceCard mx-3">
-                        <div className="h-50 text-center pt-4">
-                            <d.icon className="coreServiceCardsIcon" />
-                        </div>
+        <div className="slider-container">
+            <div className="">
+                <Slider {...settings}>
+                    <div className="coreServiceCard">
+                        <FaShop className="coreServiceCardsIcon py-2" />
                         <hr />
-                        <div className="h-50 text-center">
-                            <p>{d.text}</p>
-                        </div>
+                        <h6 className="p-3">Go-To-Market Strategy</h6>
                     </div>
-                ))}
-            </Slider>
+                    <div className="coreServiceCard">
+                        <IoCodeOutline className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Visual & UX Design</h6>
+                    </div>
+
+                    <div className="coreServiceCard">
+                        <MdOutlineEngineering className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Engineering</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <SiSimpleanalytics className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Business Analytics</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <FaBuildingColumns className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Company Formation</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <MdOutlineAttachMoney className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Finance</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <IoMdSettings className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Operations</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <IoIosPeople className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Legal & HR</h6>
+                    </div>
+                    <div className="coreServiceCard">
+                        <MdGroupAdd className="coreServiceCardsIcon py-2" />
+                        <hr />
+                        <h6 className="p-3">Recruiting</h6>
+                    </div>
+                </Slider>
+            </div>
+
         </div>
     )
 }

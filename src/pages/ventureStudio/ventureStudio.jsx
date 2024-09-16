@@ -3,6 +3,7 @@ import Hero from './Hero'
 import CoreServices from './coreServices'
 import HowWeDoIt from './howWeDoIt'
 import ImpactMetrics from './impactMetrics'
+import PortfolioCompanies from './PortfolioCompanies'
 
 
 const VentureStudio = () => {
@@ -16,7 +17,7 @@ const VentureStudio = () => {
                 <p>At our venture studio, we create enterprises with sustainable business strategies. We prioritize engaging with potential clients from start and throughout the business lifecycle. Years of iterative learning have honed ability to identity the conditions that increase the chances of an idea’s success.
                     Our in-house team of experts are ready to turn ideas into viable businesses.</p>
             </div>
-            <div>
+            <div className='mx-5'>
                 <CoreServices />
             </div>
             <div>
@@ -24,6 +25,9 @@ const VentureStudio = () => {
             </div>
             <div>
                 <ImpactMetrics />
+            </div>
+            <div>
+                <PortfolioCompanies />
             </div>
         </div>
     )
