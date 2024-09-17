@@ -152,6 +152,7 @@ const MembershipSection = () => {
                     </h4>
                 </div>
             </div>
+            <button className="Banner-btn rounded-pill d-flex justify-content-center my-5">Join Us Now!</button>
         </div>
     );
 };
