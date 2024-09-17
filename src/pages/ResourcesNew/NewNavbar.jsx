@@ -10,7 +10,7 @@ export default function NewNavbar() {
     return (
         <>
             {['md'].map((expand) => (
-                <Navbar key={expand} expand={expand} className="bg-body-primary mb-3 mx-3 d-flex align-items-center">
+                <Navbar key={expand} expand={expand} className="bg-body-primary mx-3 d-flex align-items-center">
                     <Container fluid>
                         <Navbar.Brand href="#" className='d-flex '>
                             <img

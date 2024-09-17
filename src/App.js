@@ -17,6 +17,7 @@ import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
 import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import LegalMoPortfolioPage from "./pages/Studio/LegalMoPortfolio";
 import TrulancePortfolioPage from "./pages/Studio/TrulancePortfolio";
+import VentureStudio from "./pages/ventureStudio/ventureStudio";
 
 //Project Delivery
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
@@ -125,6 +126,9 @@ function App() {
         <Route path="hub-services" element={<HubServicesPage />} />
         <Route path="FUTA-techpic" element={<FUTATechpic />} />
         <Route path="digiplus" element={<DigiPlus />} />
+
+        {/* New ventureStudio  */}
+        <Route path="venture-studio" element={<VentureStudio />} />
 
         <Route
           path="digitalmarketing"
