@@ -205,7 +205,6 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
-  color: #821e6b;
 }
 h4 {
   font-size: 1.3rem;
@@ -552,13 +551,13 @@ article h4 {
 .talkToUsText {
   font-weight: 400;
 }
-.homeHeroBg {
+.homeHeroBig {
   position: relative;
   background-repeat: no-repeat;
   height: 80vh;
   width: 100%;
 }
-.homeHeroBg::before {
+.homeHeroBig::before {
   content: "";
   background: url("../../public/images/Homepageassets/HomepageHero.jpeg");
   background-size: cover;
@@ -568,13 +567,38 @@ article h4 {
   bottom: 0px;
   left: 0px;
 }
-.homeHeroBg h1 {
+.homeHeroBig h1 {
   position: relative;
 }
-.homeHeroBg h3 {
+.homeHeroBig h3 {
   position: relative;
 }
-.homeHeroBg p {
+.homeHeroBig p {
+  position: relative;
+}
+.homeHeroSmall {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+.homeHeroSmall::before {
+  content: "";
+  background: url("../../public/images/Homepageassets/HomepageHero.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.homeHeroSmall h1 {
+  position: relative;
+}
+.homeHeroSmall h3 {
+  position: relative;
+}
+.homeHeroSmall p {
   position: relative;
 }
 .HeroSection {
