@@ -1,21 +1,19 @@
 .faqHeading {
-  color: #6E006A;
+  color: #6e006a;
 }
-
 .faqButton {
-  color: #A5009F;
+  color: #a5009f;
   background-color: #ffffff !important;
   /* width: 229px; */
 }
-
 .faqButton:hover {
   color: #ffffff;
-  background-color: #A5009F !important;
+  background-color: #a5009f !important;
 }
 
 .faqButton.active {
   color: #ffffff;
-  background-color: #A5009F !important;
+  background-color: #a5009f !important;
 }
 
 .faqAccordionButton:focus {
@@ -29,7 +27,7 @@
 
 /* Remove the default arrow icon */
 .faqAccordionButton::after {
-  content: '\002B';
+  content: "\002B";
   font-size: 2rem;
   transform: rotate(0deg);
   transition: transform 0.2s;
@@ -38,6 +36,6 @@
 
 .faqAccordionButton:not(.collapsed)::after {
   transform: rotate(360deg);
-  content: '\2212';
+  content: "\2212";
   background-image: none;
 }

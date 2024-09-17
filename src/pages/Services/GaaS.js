@@ -19,9 +19,9 @@ const GrowthAsAservice = () => {
       {/* <GaaSHero /> */}
       <GaaSNew />
       <WhyChooseUs />
-      {/* <WhatWeDo /> */}
+      <WhatWeDo />
       <OurProcess />
-      {/* <OurSuccess /> */}
+      <OurSuccess />
       {/* <Testimonials /> */}
       <GaasReady />
       {/* <HowWeWork /> */}
@@ -358,16 +358,16 @@ const OurSuccess = () => {
   const successStories = [
     {
       id: 1,
-      title: "dNetgurus - Lagos, Nigeria.",
-      description: `8thGear conducted comprehensive market research and strategic analysis for dNetgurus, helping them identify growth opportunities and enhance their service offerings. By providing strategic guidance and facilitating key industry collaborations, 8thGear enabled dNetgurus to strengthen its market position and expand its reach, establishing the company as a leading provider of innovative IT solutions.
-`,
-      image: "./images/gaasImage/talent_fair_18.JPG",
+      title: "Numo - San Fransisco, US.",
+      description: `Numo sought to expand into the Nigerian FinTech market but faced some challenges. Our team provided the necessary market research, strategic guidance, networking opportunities and support that helped Numo quickly gain traction, establish credibility, and receive positive user feedback. As a result, Numo successfully penetrated the market and with this solid foundation is now set to expand into Kenya, South Africa, Vietnam, Thailand, Malaysia, and the Philippines.`,
+      image: "./images/gaasImage/numo.png",
     },
     {
       id: 2,
-      title: "Numo - San Fransisco, US.",
-      description: `Numo sought to expand into the Nigerian FinTech market but faced some challenges. Our team provided the necessary market research, strategic guidance, networking opportunities and support that helped Numo quickly gain traction, establish credibility, and receive positive user feedback. As a result, Numo successfully penetrated the market and with this solid foundation is now set to expand into Kenya, South Africa, Vietnam, Thailand, Malaysia, and the Philippines.`,
-      image: "./images/gaasImage/foundersmeetupsix.jpg",
+      title: "dNetgurus - Lagos, Nigeria.",
+      description: `8thGear conducted comprehensive market research and strategic analysis for dNetgurus, helping them identify growth opportunities and enhance their service offerings. By providing strategic guidance and facilitating key industry collaborations, 8thGear enabled dNetgurus to strengthen its market position and expand its reach, establishing the company as a leading provider of innovative IT solutions.
+`,
+      // image: "./images/gaasImage/talent_fair_18.JPG",
     },
   ];
 
@@ -392,7 +392,7 @@ const OurSuccess = () => {
                 {/* // Ensure text is responsive */}
                 <h5 className="fw-bold">{story.title}</h5>{" "}
                 {/* // Added Bootstrap class for bold text */}
-                <p className="text-wrap pe-5">{story.description}</p>{" "}
+                <p className="text-wrap pe-lg-5">{story.description}</p>{" "}
                 {/* // Added text-wrap class for responsive text */}
               </div>
               <div className="col-md-6 col-sm-12 mb-4">
@@ -408,21 +408,21 @@ const OurSuccess = () => {
           ) : (
             <>
               {/* Image on the left, Description on the right */}
-              <div className="col-md-6 col-sm-12 mb-4 order-md-2 ps-lg-5">
-                <h5 className="fw-bold">{story.title}</h5>{" "}
+              <div className="col-md-12 col-sm-12">
+                {/* <div className="col-md-6 col-sm-12 mb-4 order-md-2 ps-lg-5"> */}
+                <h5 className="fw-bold ">{story.title}</h5>{" "}
                 {/* // Added Bootstrap class for bold text */}
-                <p className="text-wrap">{story.description}</p>{" "}
+                <p className="text-wrap mx-auto">{story.description}</p>{" "}
                 {/* // Added text-wrap class for responsive text */}
               </div>
-              <div className="col-md-6 col-sm-12 mb-4 order-md-1">
+              {/* <div className="col-md-6 col-sm-12 mb-4 order-md-1">
                 <img
                   src={story.image}
                   className="img-fluid rounded"
                   style={{ maxWidth: "100%" }}
                   alt={story.title}
                 />{" "}
-                {/* // Ensure image is fluid */}
-              </div>
+              </div> */}
             </>
           )}
         </div>
@@ -530,7 +530,7 @@ const GaasReady = () => {
   return (
     <div
       className="container-fluid py-5"
-      style={{ backgroundColor: "#6E006A", color: "white" }}
+      // style={{ backgroundColor: "#6E006A", color: "white" }}
     >
       <div className="text-center">
         {/* Heading with responsive font size */}
@@ -546,15 +546,20 @@ const GaasReady = () => {
         </p>
 
         {/* Button with responsive padding */}
-        <button
-          className="btn btn-outline-light rounded-pill px-3 px-md-4 py-2 fs-5 readyButton"
-          style={{
-            borderColor: "#D3D3D3",
-            color: "#D3D3D3",
-          }}
-        >
-          Discovery Form
-        </button>
+        <a href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8" target="_blank">
+          {" "}
+          <button
+            className="btn btn-primary rounded-pill py-2 px-4 fs-5 whatButton"
+            // className="btn btn-outline-light rounded-pill px-3 px-md-4 py-2 fs-5 readyButton"
+            // style={{
+            //   borderColor: "#D3D3D3",
+            //   color: "#D3D3D3",
+            // }}
+            style={{ color: "#D3D3D3" }}
+          >
+            Book a Growth Session
+          </button>
+        </a>
       </div>
     </div>
   );
