@@ -1,0 +1,131 @@
+.venture-studio {
+  max-width: 1440px;
+  justify-content: center;
+  margin: auto;
+}
+
+.venture-studio-hero {
+  background-image: url("/public/images/ventureStudio/mobileHero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16.5rem;
+}
+
+.venture-studio-hero-text {
+  position: relative;
+  top: 8%;
+  width: 80%;
+  max-width: 30rem;
+}
+
+.venture-studio-hero-text h1 {
+  font-size: 1.25rem;
+  line-height: 1.8rem !important;
+}
+
+.venture-studio .btn {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 2rem;
+}
+
+.coreServiceCard {
+  max-width: 15rem !important;
+  border-radius: 0.5rem;
+  border: 2px solid rgba(230, 224, 224, 0.295);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.coreServiceCardsIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.coreServiceCard p {
+  font-size: 1.25rem;
+}
+
+.coreServiceCard hr {
+  color: #6c128c;
+  border-top: 2px solid;
+}
+
+.howWeDoIt {
+  background-color: #f9fff5;
+}
+
+@keyframes buttonColorChange {
+  0% {
+    background-color: #6e006a;
+    color: white;
+    border: 1px solid white;
+  }
+  50% {
+    background-color: white;
+    color: #6e006a;
+    border: 1px solid #6e006a;
+  }
+  100% {
+    background-color: #6e006a;
+    color: #f9fff5;
+    border: 1px solid white;
+  }
+}
+
+.ventureStudioBtn {
+  animation: buttonColorChange 5s ease-in infinite;
+}
+
+.ventureCard {
+  width: 25rem;
+  height: 45rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+/* Tablet Screen */
+@media (min-width: 768px) {
+  .venture-studio-hero {
+    background-image: url("/public/images/ventureStudio/tabHero.png");
+    height: 20rem;
+  }
+
+  .venture-studio-hero-text {
+    position: relative;
+    top: 25%;
+    width: 75%;
+    max-width: 60rem;
+  }
+
+  .venture-studio-hero-text h1 {
+    font-size: 1.5rem;
+    line-height: 2rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .venture-studio-hero {
+    background-image: url("/public/images/ventureStudio/heroImage1.png");
+    height: 34rem;
+  }
+
+  .venture-studio-hero-text {
+    position: relative;
+    top: 20%;
+    width: 100%;
+  }
+
+  .venture-studio-hero-text h1 {
+    font-size: 3rem;
+    line-height: 4rem !important;
+  }
+
+  .venture-studio .btn {
+    font-size: 1rem;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1.5rem;
+  }
+}

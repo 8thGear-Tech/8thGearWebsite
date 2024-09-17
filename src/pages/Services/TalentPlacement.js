@@ -7,7 +7,7 @@ import { Carousel, Item, Slide, div, img } from "bootstrap";
 // import ReactBootstrap, { Carousel, Item, Slide } from "react-bootstrap";
 
 //internal
-import { Navbar24 } from "../../components/Navbar";
+import { HomepageNav, Navbar24 } from "../../components/Navbar";
 import { NewTalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
 import { TalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
 import recruitment from "../../assets/images/talentplacement/recruitment.png";
@@ -63,7 +63,7 @@ import data from "../../assets/images/talentplacement/talents/data.png";
 const TalentPlacement = () => {
   return (
     <>
-      <Navbar24 />
+      <HomepageNav />
       <NewTalentPlacementHero />
       <Services />
       <OurHiringProcess />

@@ -36,8 +36,7 @@ import { Partners } from "./WhoWeAre/aboutUs";
 const Home = () => {
   return (
     <>
-      <Navbar0 />
-      {/* <HomepageNav /> */}
+      <HomepageNav />
       <BigHeroSection />
       <SmallHeroSection />
       <Service />
@@ -190,7 +189,7 @@ const Service = () => {
               <p className="">
                 Empowering your venture with{" "}
                 <Link
-                  to="/growth-as-a-service"
+                  to="/growth-advisory"
                   style={{ color: "#000", textDecoration: "none" }}
                 >
                   Growth-Advisory

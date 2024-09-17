@@ -32,29 +32,38 @@ export const NewFooter = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/about"
+                    to="/talent-placement"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    ABOUT
+                    TALENT PLACEMENT
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/our-model"
+                    to="/coworking"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    OUR MODEL
+                    COWORKING
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/faq"
+                    to="/growth-advisory"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    FAQ
+                    GROWTH ADVISORY
+                  </Link>
+                </li>{" "}
+                <li className="nav-item">
+                  <Link
+                    to="/builders-collective"
+                    className="nav-link px-2 footerText"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    BUILDERS COLLECTIVE
                   </Link>
                 </li>
               </ul>
@@ -65,29 +74,11 @@ export const NewFooter = () => {
               <ul className="nav">
                 <li className="nav-item">
                   <Link
-                    to="/resources"
+                    to="/projects"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    RESOURCES
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    to="/events"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    EVENTS
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    to="/coWorking"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    COWORKING
+                    PROJECTS
                   </Link>
                 </li>
               </ul>
@@ -106,29 +97,56 @@ export const NewFooter = () => {
               <ul className="nav">
                 <li className="nav-item">
                   <Link
-                    to="/growth-as-a-service"
+                    to="/venture-studio"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    GROWTH AS A SERVICE
+                    VENTURE STUDIO
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/portfolio"
+                    to="/about"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    PORTFOLIO
+                    ABOUT
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/projects"
+                    to="/events"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
-                    PROJECTS
+                    EVENTS
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    to="/resources"
+                    className="nav-link px-2 footerText"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    RESOURCES
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    to="/FAQ"
+                    className="nav-link px-2 footerText"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    FAQ
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    to="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                    className="nav-link px-2 footerText"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    JOIN THE 8THGEAR COMMUNITY
                   </Link>
                 </li>
                 {/* <li className="nav-item">
@@ -586,16 +604,18 @@ export const FooterNew = () => {
               </Link>
             </li>
             {/* PROJECTS */}
+
+            {/* VENTURE STUDIO */}
             <li className="nav-item list-unstyled">
+              {/* hub service pagge needed */}
               <Link
-                to="/projects"
+                to="/hub-services"
                 className="nav-link px-2 footerText"
                 style={{ fontSize: "0.8rem" }}
               >
                 PROJECTS
               </Link>
             </li>
-            {/* VENTURE STUDIO */}
             <li className="nav-item list-unstyled">
               {/* hub service pagge needed */}
               <Link
@@ -613,7 +633,7 @@ export const FooterNew = () => {
                 className="nav-link px-2 footerText"
                 style={{ fontSize: "0.8rem" }}
               >
-                ABOUT
+                ABOUT US
               </Link>
             </li>
             {/* EVENTS */}
@@ -624,6 +644,33 @@ export const FooterNew = () => {
                 style={{ fontSize: "0.8rem" }}
               >
                 EVENTS
+              </Link>
+            </li>
+            <li className="nav-item list-unstyled">
+              <Link
+                to="/events"
+                className="nav-link px-2 footerText"
+                style={{ fontSize: "0.8rem" }}
+              >
+                RESOURCES
+              </Link>
+            </li>
+            <li className="nav-item list-unstyled">
+              <Link
+                to="/events"
+                className="nav-link px-2 footerText"
+                style={{ fontSize: "0.8rem" }}
+              >
+                FAQ
+              </Link>
+            </li>
+            <li className="nav-item list-unstyled">
+              <Link
+                to="/events"
+                className="nav-link px-2 footerText"
+                style={{ fontSize: "0.8rem" }}
+              >
+                YOUR COMMUNITY
               </Link>
             </li>
           </ul>

@@ -1137,15 +1137,15 @@ export const HomepageNav = () => {
                     <img
                       src={logos} // Replace with your logo path
                       alt="Company Logo"
-                      className="d-inline-block align-top"
-                      width="40"
-                      height="40"
+                      className="d-inline-block align-top me-4"
+                      width={60}
+                      height={70}
                     />{" "}
-                    <span className="px-2 d-none d-lg-inline d-md-none">
-                      {" "}
-                      8thGear Hub
-                    </span>
                   </Link>
+                  <span className="px-2 d-none d-lg-inline d-md-none d-flex align-items-center">
+                    {" "}
+                    8thGear Hub
+                  </span>
                 </Navbar.Brand>
               </div>
               {/* TOOGLE MENU */}
@@ -1157,26 +1157,9 @@ export const HomepageNav = () => {
                   aria-labelledby={`offcanvasNavbarLabel-expand-${"sm"}`}
                   placement="end"
                 >
-                  <Offcanvas.Header closeButton>
-                    {/* <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"sm"}`}>
-                                            <div>
-                                                <Navbar.Brand className="d-flex align-items-center w-100 ">
-                                                    <Link to="/" className="text-black text-decoration-none">
-                                                        <img
-                                                            src={logos} // Replace with your logo path
-                                                            alt="Company Logo"
-                                                            className="d-inline-block align-top"
-                                                            width="40"
-                                                            height="40"
-                                                        />{" "}
-                                                        <span className="px-2 d-inline d-md-none"> 8th Gear</span>
-                                                    </Link>
-                                                </Navbar.Brand>
-                                            </div>
-                                        </Offcanvas.Title> */}
-                  </Offcanvas.Header>
+                  <Offcanvas.Header closeButton></Offcanvas.Header>
                   <Offcanvas.Body>
-                    <Nav className="Nav-OffCanvas">
+                    <Nav className="Nav-OffCanvas ">
                       <NavDropdown
                         title="Hub Services"
                         id={`offcanvasNavbarDropdown-expand-${"sm"}`}
@@ -1199,17 +1182,17 @@ export const HomepageNav = () => {
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href="/growth-as-a-service"
+                            href="/growth-advisory"
                             className="Nav-Dropdown-Items"
                           >
                             Growth Advisory
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href="#"
+                            href="/builders-collective"
                             className="Nav-Dropdown-Items"
                           >
-                            Your Community
+                            Builders Collective
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                         </div>
@@ -1217,7 +1200,7 @@ export const HomepageNav = () => {
                       <Nav.Link href="/projects" className="Nav-item">
                         Projects
                       </Nav.Link>
-                      <Nav.Link href="/portfolio" className="Nav-item">
+                      <Nav.Link href="/" className="Nav-item">
                         Venture Studio
                       </Nav.Link>
                       <Nav.Link href="/about" className="Nav-item">
@@ -1232,7 +1215,7 @@ export const HomepageNav = () => {
               </div>
               {/* NAV-LINKS */}
               <div lg={9} className="d-none d-md-flex">
-                <Nav className="ml-auto">
+                <Nav className="ml-auto gap-4">
                   {/*HUB SERVICES */}
                   <NavDropdown
                     title="Hub Services"
@@ -1245,13 +1228,15 @@ export const HomepageNav = () => {
                     <NavDropdown.Item href="/talent-placement">
                       Talent Placement
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/growth-as-a-service">
+                    <NavDropdown.Item href="/growth-advisory">
                       Growth Advisory
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Your Community</NavDropdown.Item>
+                    <NavDropdown.Item href="/builders-collective">
+                      Builders Collective
+                    </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/projects">Projects</Nav.Link>
-                  <Nav.Link href="/portfolio">Venture Studio</Nav.Link>
+                  <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
                 </Nav>

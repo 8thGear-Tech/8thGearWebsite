@@ -7,7 +7,7 @@
 // import { NetworkingIcon } from "../../components/Icons";
 // import { GrowthStrategyIcon } from "../../components/Icons";
 // import { DealManagementIcon } from "../../components/Icons";
-import { Navbar9 } from "../../components/Navbar";
+import { HomepageNav, Navbar9 } from "../../components/Navbar";
 // import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
 // import { GaaSHero } from "../../components/Hero/ImageandTextHero";
 import "../Services/css/GaaS.css";
@@ -15,7 +15,7 @@ import "../Services/css/GaaS.css";
 const GrowthAsAservice = () => {
   return (
     <>
-      <Navbar9 />
+      <HomepageNav />
       {/* <GaaSHero /> */}
       <GaaSNew />
       <WhyChooseUs />
@@ -183,25 +183,25 @@ const WhatWeDo = () => {
       title: "Advisory",
       description:
         "Our team of seasoned advisors provides strategic guidance and insights tailored to your unique business challenges. We help you navigate complex business environments and make informed decisions that drive growth.",
-      imageUrl: "./images/team/damilolaobidairo1.png",
+      imageUrl: "./images/gaasImage/advisory.jpg",
     },
     {
       title: "Networking",
       description:
         "We connect you with a vast network of industry experts, potential partners, and investors. Our extensive connections open doors to new opportunities and collaborations that can accelerate your business growth.",
-      imageUrl: "./images/team/damilolaobidairo1.png",
+      imageUrl: "./images/gaasImage/networking.jpg",
     },
     {
       title: "Growth Strategy",
       description:
         "We work closely with you to develop and implement a comprehensive growth strategy. This includes market analysis, competitive positioning, product development, and customer acquisition tactics designed to drive sustainable growth.",
-      imageUrl: "./images/team/damilolaobidairo1.png",
+      imageUrl: "./images/gaasImage/growthstrategy.jpg",
     },
     {
       title: "Deal Management",
       description:
         "Our GaaS service includes expert deal management support. We help you identify, negotiate, and close deals that align with your growth objectives, ensuring you get the best value and strategic fit for your business.",
-      imageUrl: "./images/team/damilolaobidairo1.png",
+      imageUrl: "./images/gaasImage/dealmgt.jpg",
     },
   ];
 
