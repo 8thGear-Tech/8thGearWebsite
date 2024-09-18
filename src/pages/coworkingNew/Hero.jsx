@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className="hero text-center position-relative">
       <HeroCarousel />
-      <Navbar28 />
+      {/* <Navbar28 /> */}
       {/* <HeroOffcanvas className="position-absolute top-0 start-0 w-100" /> */}
     </div>
   );

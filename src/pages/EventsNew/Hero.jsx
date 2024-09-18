@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar29 } from "../../components/Navbar";
+import { HomepageNav, Navbar29 } from "../../components/Navbar";
 import "./eventsNew.css";
 
 const Hero = () => {
@@ -23,7 +23,8 @@ const Hero = () => {
 
   return (
     <div className="hero text-center position-relative">
-      <Navbar29 />
+      {/* <Navbar29 /> */}
+      <HomepageNav />
       <div className="hero-background">
         <h3 className="heroText">
           Our events are

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import "./css/FAQ.css";
-import { Navbar13 } from "./Navbar";
+import "./css/FAQ.css";
+import { HomepageNav, Navbar13 } from "./Navbar";
 
 const FAQ = () => {
   return (
     <>
-      <Navbar13 />
+      <HomepageNav />
       <FAQ1 />
     </>
   );
@@ -322,7 +322,6 @@ const FAQ1 = () => {
       <h2 className="h4 fw-medium fs-4 faqHeading">
         Frequently Asked Questions (FAQs)
       </h2>
-
       <div className="mt-4">
         {/* Buttons for switching between categories */}
         <button

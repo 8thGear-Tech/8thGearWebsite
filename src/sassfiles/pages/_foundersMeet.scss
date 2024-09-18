@@ -454,7 +454,7 @@ body {
     display: block !important;
     position: absolute;
     top: 400px !important;
-    left: 50px !important;
+    left: 20px !important;
     margin: 10px;
     height: 40px;
     a {
@@ -585,8 +585,9 @@ body {
   }
   // SMALL HERO
   .small-hero {
-    display: block !important;
+    display: flex !important;
     width: 100% !important;
+    margin: 20px;
   }
   .smRegisterLink {
     display: block !important;

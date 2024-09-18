@@ -1,7 +1,7 @@
 import React from "react";
 
 import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
-import { Navbar10 } from "../../components/Navbar";
+import { HomepageNav, Navbar10 } from "../../components/Navbar";
 import { AboutPageHero } from "../../components/Hero/VideoHero";
 import coworking from "../../assets/images/coworking/coworking.png";
 
@@ -35,9 +35,10 @@ import SliderComponent from "../About/SliderComponent";
 const AboutUs = () => {
   return (
     <>
+      <HomepageNav />
       <div className="about-hero-background">
         <div className="about-layout w-100 start-0 d-flex justify-content-center align-items-center">
-          <Navbar10 />
+          {/* <Navbar10 /> */}
           <HeroSection />
         </div>
       </div>
@@ -65,7 +66,7 @@ const CoreValues = () => {
 export const Partners = () => (
   <>
     <div>
-      <h4 className="text-center pt-5 pb-3">Our Partners</h4>
+      <h3 className="purple-text text-center pt-5 pb-3">OUR PARTNERS</h3>
       <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
         <div className="slide-track2">
           {[

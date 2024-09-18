@@ -20,7 +20,7 @@ const EventsCalendar = () => {
   };
 
   return (
-    <div className="eventsCalendar d-flex flex-column">
+    <div className="eventsCalendar d-flex flex-column mt-5 pt-4">
       <div className="eventsHead d-flex justify-content-center align-items-center">
         <h3 className="pb-3 pt-5">EVENTS CALENDAR</h3>
       </div>

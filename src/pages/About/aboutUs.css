@@ -80,7 +80,7 @@
 
 .homeHeroSmall::before {
   content: "";
-  background: url("../About/image/HomepageHero\ -\ Copy\ \(2\).jpeg");
+  /* background: url("../About/image/HomepageHero\ -\ Copy\ \(2\).jpeg"); */
   /* background: url("../About/image/HomepageHeroCopy.jpeg"); */
   background-size: cover;
   position: absolute;
@@ -106,7 +106,7 @@
 
 .overlayBggg {
   position: absolute;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   opacity: 6;
   top: 60;

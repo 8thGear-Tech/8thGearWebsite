@@ -18,7 +18,7 @@ import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
 import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
 import { NewProjectDeliveryCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
-import { ProjectNav } from "../../components/Navbar";
+import { HomepageNav, ProjectNav } from "../../components/Navbar";
 
 // IMPORTED PICTURES FOR OUR SUCESS STORY SECTION
 import piggeryTraining from "../../assets/gallerycards/piggerytraining.png";
@@ -41,7 +41,7 @@ import LogoScroll from "../../components/Hero/LogoScroll";
 const ProjectDeliveryPage = () => {
   return (
     <>
-      <ProjectNav />
+      <HomepageNav />
       <ProjectDeliveryHero />
       {/* <ProjectDeliveryCards /> */}
       <OurImpact />

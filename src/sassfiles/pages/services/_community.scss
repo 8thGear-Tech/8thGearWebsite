@@ -1,404 +1,416 @@
 // HERO SECTION
 .CollectiveHero {
-    background: url("../../../assets/images/BuildersCollective/Herobg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60vh;
+  background: url("../../../assets/images/BuildersCollective/Herobg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 70vh;
 }
 
 .CollectiveHero::before {
-    content: "";
-    position: absolute;
-    top: 65px;
-    left: 0;
-    width: 100%;
-    height: 60vh;
-    background: rgba(68, 68, 68, 0.678); /* Adjust gradient as needed */
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  //   background: rgba(68, 68, 68, 0.678); /* Adjust gradient as needed */
+  z-index: 1;
 }
 
 .CollectiveHeroContent {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    text-align: center;
-    color: #fff; /* White text color */
-    z-index: 2;
+  position: absolute;
+  //top: 15px;
+  //left: 50%;
+  // transform: translate(-50%, 50%);
+  text-align: center;
+  color: #fff; /* White text color */
+  z-index: 2;
+  //   h1 {
+  //     font-size: 3rem;
+  //   }
 }
 
 .CollectiveHeroBtn {
-    border: 1px solid #fff;
-    background-color: transparent;
+  border: 1px solid #fff;
+  background-color: transparent;
 
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 // WHY JOIN OUR BUILDER'S COLLECTIVE
 .whySection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 .firstPar {
-    width: 700px;
-    margin: auto;
-    h2 {
-        font-size: 25px;
-    }
+  width: 750px;
+  margin: auto;
+  h2 {
+    font-size: 25px;
+  }
 }
 .sectionOneImg {
-    width: 300px;
+  width: 300px;
 }
 .secondPar {
-    width: 710px;
-    margin: auto;
+  width: 750px;
+  margin: auto;
 }
 
 // BANNER
 .CommunityBanner {
-    background-color: #f9fff5;
-    align-content: center;
-    margin: auto;
-    padding: 20px;
-    p {
-        text-align: center;
-    }
+  background-color: #f9fff5;
+  align-content: center;
+  //   margin: auto;
+  //   padding: 20px;
+  p {
+    text-align: center;
+  }
 }
 
 .Banner-btn {
-    width: 150px;
-    border: 1px solid #821e6b;
-    color: #821e6b;
-    padding: 10px;
-    background-color: #fff;
-    margin: auto;
+  width: 150px;
+  border: 1px solid #821e6b;
+  color: #821e6b;
+  padding: 10px;
+  background-color: #fff;
+  margin: auto;
 }
 
 // MEMBERSHIP SECTION
 .membershipBody {
-    width: 70%;
-    h4 {
-        text-align: center;
-    }
+  width: 70%;
+  h4 {
+    text-align: center;
+  }
 
-    ul {
-        width: 90%;
-    }
+  ul {
+    width: 90%;
+  }
 }
 
 .benefit-list {
-    line-height: 1rem;
+  line-height: 1rem;
 }
 
 // BECOME A PORTFOLIO COMPANY
 .portCoSect {
-    background-color: #f9fff5;
-    width: 100%;
+  background-color: #f9fff5;
+  width: 100%;
 }
 .portcoBody {
-    width: 80%;
-    margin: auto;
-    align-items: start;
-    justify-content: center;
+  width: 80%;
+  margin: auto;
+  align-items: start;
+  justify-content: center;
 }
 .PartOne {
-    width: 50%;
+  width: 50%;
 }
 .partTwo {
-    width: 50%;
+  width: 50%;
 }
 
 .portco-list {
-    line-height: 20px;
-    padding-bottom: 0;
-    margin-bottom: 0;
+  line-height: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*MEDIA QUERIES*/
 
 /*Tablets with larger Screens */
 @media (min-width: 819px) and (max-width: 920px) {
-    .CollectiveHeroContent {
-        h1 {
-            font-size: 4rem;
-            line-height: 65px;
-        }
-    }
-    .whySection {
-        width: 90%;
-    }
-    .sectionOneImg {
-        width: 90%;
-        height: 400px;
-        margin: auto;
-    }
-    .CommunityBanner {
-        p {
-            width: 600px;
-        }
-    }
-    .membershipBody {
-        width: 100% !important;
-        h4 {
-            text-align: center;
-            display: none !important;
-        }
+  .CollectiveHero {
+    height: 60vh;
+  }
 
-        ul {
-            width: 100%;
-        }
-        li {
-            width: 90%;
-            text-align: justify;
-            margin: auto;
-        }
+  .CollectiveHero::before {
+    height: 60vh;
+  }
+  //   .CollectiveHeroContent {
+  //     h1 {
+  //       font-size: 3rem;
+  //       line-height: 60px;
+  //     }
+  //   }
+  .whySection {
+    width: 90%;
+  }
+  .sectionOneImg {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+  }
+  .CommunityBanner {
+    p {
+      width: 600px;
     }
-    .MembershipHeaderLG {
-        display: none !important;
+  }
+  .membershipBody {
+    width: 100% !important;
+    h4 {
+      text-align: center;
+      display: none !important;
     }
-    .portcoBody {
-        width: 80%;
-        text-align: justify;
+
+    ul {
+      width: 100%;
     }
-    .PartOne {
-        width: 100%;
+    li {
+      width: 90%;
+      text-align: justify;
+      margin: auto;
     }
-    .partTwo {
-        width: 100%;
-    }
+  }
+  .MembershipHeaderLG {
+    display: none !important;
+  }
+  .portcoBody {
+    width: 80%;
+    text-align: justify;
+  }
+  .PartOne {
+    width: 100%;
+  }
+  .partTwo {
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, 576px and up) */
 @media (min-width: 576px) and (max-width: 770px) {
-    .CollectiveHero {
-        height: 80vh;
+  .CollectiveHero {
+    height: 50vh;
+  }
+  .CollectiveHero::before {
+    width: 100%;
+    height: 50vh;
+  }
+  //   .CollectiveHeroContent {
+  //     h1 {
+  //       font-size: 2rem;
+  //       line-height: 50px;
+  //     }
+  //   }
+  .whySection {
+    width: 90%;
+    margin: auto;
+  }
+  .sectionOneImg {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+  }
+  .firstPar {
+    width: 100%;
+    margin: 20px !important;
+    h2 {
+      font-size: 25px;
     }
-    .CollectiveHero::before {
-        top: 65px;
-        width: 100%;
-        height: 80vh;
+  }
+  .secondPar {
+    width: 100%;
+    margin: 20px !important;
+  }
+
+  .CommunityBanner {
+    p {
+      width: 600px;
     }
-    .CollectiveHeroContent {
-        top: 0%;
-        width: 70%;
-        h1 {
-            font-size: 3rem;
-            line-height: 50px;
-        }
-    }
-    .whySection {
-        width: 90%;
-        margin: auto;
-    }
-    .sectionOneImg {
-        width: 80%;
-        height: 400px;
-        margin: auto;
-    }
-    .firstPar {
-        width: 100%;
-        margin: 20px !important;
-        h2 {
-            font-size: 25px;
-        }
-    }
-    .secondPar {
-        width: 100%;
-        margin: 20px !important;
+  }
+  .membershipBody {
+    width: 100%;
+    h4 {
+      text-align: center;
+      display: none !important;
     }
 
-    .CommunityBanner {
-        p {
-            width: 600px;
-        }
+    ul {
+      width: 100%;
     }
-    .membershipBody {
-        width: 100%;
-        h4 {
-            text-align: center;
-            display: none !important;
-        }
-
-        ul {
-            width: 100%;
-        }
-        li {
-            width: 90%;
-            text-align: justify;
-            margin: auto;
-        }
+    li {
+      width: 90%;
+      text-align: justify;
+      margin: auto;
     }
-    .MembershipHeaderLG {
-        display: none !important;
-    }
-    .portcoBody {
-        width: 80%;
-        text-align: justify;
-    }
-    .PartOne {
-        width: 100%;
-    }
-    .partTwo {
-        width: 100%;
-    }
+  }
+  .MembershipHeaderLG {
+    display: none !important;
+  }
+  .portcoBody {
+    width: 80%;
+    text-align: justify;
+  }
+  .PartOne {
+    width: 100%;
+  }
+  .partTwo {
+    width: 100%;
+  }
 }
 
 /* Phones with Wider Screens */
 @media (min-width: 380px) and (max-width: 430px) {
-    .CollectiveHeroContent {
-        top: 0px;
-        width: 70%;
-        h1 {
-            font-size: 1.5rem;
-            line-height: 40px;
-        }
+  .CollectiveHeroContent {
+    // top: 0px;
+    // width: 70%;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    // h1 {
+    //   font-size: 1.5rem;
+    //   line-height: 40px;
+    // }
+  }
+  .firstPar {
+    h2 {
+      font-size: 15px;
     }
-    .firstPar {
-        h2 {
-            font-size: 15px;
-        }
-        width: 100%;
-        margin: auto;
-        flex-direction: column;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .secondPar {
+    width: 100%;
+    margin: auto;
+  }
+  .sectionOneImg {
+    width: 100%;
+    margin: auto;
+  }
+  .CommunityBanner {
+    h3 {
+      font-size: 15px;
     }
-    .secondPar {
-        width: 100%;
-        margin: auto;
+  }
+  .membershipPicSM {
+    display: block !important;
+    width: 100% !important;
+    margin: 20px;
+  }
+  .MembershipHeaderLG {
+    display: none !important;
+  }
+  .membership {
+    flex-direction: column-reverse !important;
+  }
+  .membershipBody {
+    width: 100% !important;
+    h4 {
+      text-align: center;
+      display: none !important;
     }
-    .sectionOneImg {
-        width: 100%;
-        margin: auto;
-    }
-    .CommunityBanner {
-        h3 {
-            font-size: 15px;
-        }
-    }
-    .membershipPicSM {
-        display: block !important;
-        width: 100% !important;
-        margin: 20px;
-    }
-    .MembershipHeaderLG {
-        display: none !important;
-    }
-    .membership {
-        flex-direction: column-reverse !important;
-    }
-    .membershipBody {
-        width: 100% !important;
-        h4 {
-            text-align: center;
-            display: none !important;
-        }
 
-        ul {
-            width: 100%;
-        }
-        li {
-            width: 90%;
-            text-align: left !important;
-            margin: auto;
-        }
+    ul {
+      width: 100%;
     }
-    .text-small {
-        font-size: 16px;
+    li {
+      width: 90%;
+      text-align: left !important;
+      margin: auto;
     }
-    .portcoBody {
-        flex-direction: column !important;
-        width: 100%;
-        text-align: left;
-    }
-    .PartOne {
-        width: 100%;
-    }
-    .partTwo {
-        width: 100%;
-    }
+  }
+  .text-small {
+    font-size: 16px;
+  }
+  .portcoBody {
+    flex-direction: column !important;
+    width: 100%;
+    text-align: left;
+  }
+  .PartOne {
+    width: 100%;
+  }
+  .partTwo {
+    width: 100%;
+  }
 }
 
 /* Small devices (phones, less than 576px) */
 @media (min-width: 320px) and (max-width: 375px) {
-    .CollectiveHero {
-        height: 50vh;
-    }
-    .CollectiveHero::before {
-        width: 100%;
-        height: 50%;
-    }
-    .CollectiveHeroContent {
-        top: 0px;
-        width: 70%;
-        h1 {
-            font-size: 1.2rem;
-            line-height: 27px;
-        }
-    }
-    .firstPar {
-        width: 100%;
-        margin: auto;
-        flex-direction: column;
+  .CollectiveHero {
+    height: 50vh;
+  }
+  .CollectiveHero::before {
+    width: 100%;
+    height: 50%;
+  }
+  .CollectiveHeroContent {
+    // top: 0px;
+    // width: 70%
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    // h1 {
+    //   font-size: 1.2rem;
+    //   line-height: 27px;
+    // }
+  }
+  .firstPar {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
 
-        h2 {
-            font-size: 15px;
-        }
+    h2 {
+      font-size: 15px;
     }
-    .secondPar {
-        width: 100%;
-        margin: auto;
+  }
+  .secondPar {
+    width: 100%;
+    margin: auto;
+  }
+  .CommunityBanner {
+    h3 {
+      font-size: 15px;
     }
-    .CommunityBanner {
-        h3 {
-            font-size: 15px;
-        }
+  }
+  .sectionOneImg {
+    width: 100%;
+    margin: auto;
+  }
+  .membershipPicSM {
+    display: block !important;
+  }
+  .MembershipHeaderLG {
+    display: none !important;
+  }
+  .membership {
+    flex-direction: column-reverse !important;
+  }
+  .membershipBody {
+    width: 100% !important;
+    h4 {
+      text-align: center;
+      display: none !important;
     }
-    .sectionOneImg {
-        width: 100%;
-        margin: auto;
-    }
-    .membershipPicSM {
-        display: block !important;
-    }
-    .MembershipHeaderLG {
-        display: none !important;
-    }
-    .membership {
-        flex-direction: column-reverse !important;
-    }
-    .membershipBody {
-        width: 100% !important;
-        h4 {
-            text-align: center;
-            display: none !important;
-        }
 
-        ul {
-            width: 100%;
-        }
-        li {
-            width: 90%;
-            text-align: left !important;
-            margin: auto;
-        }
+    ul {
+      width: 100%;
     }
-    .text-small {
-        font-size: 16px;
+    li {
+      width: 90%;
+      text-align: left !important;
+      margin: auto;
     }
-    .portcoBody {
-        flex-direction: column !important;
-        width: 100%;
-        text-align: left;
-    }
-    .PartOne {
-        width: 100%;
-    }
-    .partTwo {
-        width: 100%;
-    }
+  }
+  .text-small {
+    font-size: 16px;
+  }
+  .portcoBody {
+    flex-direction: column !important;
+    width: 100%;
+    text-align: left;
+  }
+  .PartOne {
+    width: 100%;
+  }
+  .partTwo {
+    width: 100%;
+  }
 }

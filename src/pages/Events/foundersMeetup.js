@@ -163,6 +163,66 @@ const FounderMeetupHeroo = () => {
       </div> */}
     </div>
   );
+  return (
+    <div className="px-md-3 px-lg-5 py-md-3 py-lg-2 container-fluid heroSection d-flex justify-content-between align-items-center w-100 overflow-hidden">
+      {/* LEFT SECTION */}
+      <div className="align-content-start mt-0 Left-section-text justify-content-sm-start py-sm-0">
+        <div className=" w-100 d-flex flex-column align-content-center px-2 py-2 mt-0">
+          <p className="hero-pill rounded-pill py-2 px-1 text-center fw-bolder">
+            IN-PERSON EVENT
+          </p>
+          <h1 className="hero-caption">
+            Founder's Meet up: FIND CO-FOUNDERS, MEET POTENTIAL CLIENTS, MAKE
+            NEW FRIENDS.
+          </h1>
+          <p className="hero-subcaption fs-5 pt-4">
+            Network with with local entrepreneurs.
+          </p>
+        </div>
+        {/* Invite Card */}
+        <div className="hero-card px-2 px-sm-0">
+          <div className="d-flex flex-row dateandTime gap-0 justify-content-between">
+            {/* Date */}
+            <div className="dateicon p-2 details">
+              <Image src={CalendarIcon} alt="Calender" className="event-icon" />{" "}
+              <span className="event-detail">Date: </span>
+              <p>Aug 2nd,2024</p>
+            </div>
+            {/* Time */}
+            <div className="clockicon p-2">
+              {/* The "details" was not added here so it's custom styles were placed in it's own class */}
+              <Image src={clockIcon} className="event-icon" />{" "}
+              <span className="event-detail">Time: </span>
+              <p>11:00 am - 12:00 pm</p>
+            </div>
+          </div>
+          {/* Location */}
+          <div className="py-2 details locationicon">
+            <Image src={locationPin} alt="icon" className="event-icon" />
+            <span className="p-1 event-detail">Location: </span>
+            <p>8thGear Hub, CMD Road ,Magodo Secetariat, Lagos State.</p>
+          </div>
+        </div>
+      </div>
+      {/* RIGHT SECTION */}
+      <div className="w-50 sm:none">
+        <Image src={heroPic1} alt="Hero-Pic1" className="img-fluid hero-pic1" />
+        <Image
+          src={herocircle}
+          alt="Hero-Circle"
+          className="hero-circle img-fluid shadow-1"
+        />
+        <Image src={heroPic2} alt="Hero-Pic2" className="img-fluid hero-pic2" />
+      </div>
+      {/* Imgage for small device */}
+      <div className="d-none d-sm-flex justify-content-center d-md-none small-hero">
+        <Image src={heropicSM} alt="HeroPIc" className="small-hero-pic" fluid />
+      </div>
+      <div className="smRegisterLink d-none d-sm-block d-md-none rounded-pill my-3 px-3 py-2">
+        <a href="#registration-panel">#View registration link</a>
+      </div>
+    </div>
+  );
 };
 
 // THE BODY

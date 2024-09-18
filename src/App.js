@@ -17,6 +17,7 @@ import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
 import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
 import LegalMoPortfolioPage from "./pages/Studio/LegalMoPortfolio";
 import TrulancePortfolioPage from "./pages/Studio/TrulancePortfolio";
+import VentureStudio from "./pages/ventureStudio/ventureStudio";
 
 //Project Delivery
 import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
@@ -41,7 +42,7 @@ import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
-import Community from "./pages/Services/Community";
+import BuildersCollective from "./pages/Services/BuildersCollective";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -64,7 +65,7 @@ import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
 import { Footer } from "./components/Footer";
-import { NewFooter } from "./components/newFooter";
+import { FooterNew, NewFooter } from "./components/newFooter";
 // import FAQ from "./pages/Insights/FAQ";
 import { Popupmodal } from "./components/Footer";
 import { RequestForm } from "./components/Forms/ServicesForms";
@@ -125,6 +126,9 @@ function App() {
           <Route path="FUTA-techpic" element={<FUTATechpic />} />
           <Route path="digiplus" element={<DigiPlus />} />
 
+          {/* New ventureStudio  */}
+          <Route path="venture-studio" element={<VentureStudio />} />
+
           <Route
             path="digitalmarketing"
             element={<HubServicesDigitalMarketing />}
@@ -132,10 +136,10 @@ function App() {
           <Route path="accounting" element={<HubServicesAccounting />} />
           <Route path="legal" element={<HubServicesLegal />} />
           <Route path="product-development" element={<HubServicesTech />} />
-          <Route path="growth-as-a-service" element={<GrowthAsAservice />} />
+          <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
-          <Route path="community" element={<Community />} />
+          <Route path="builders-collective" element={<BuildersCollective />} />
           <Route path="FAQ" element={<FAQ />} />
 
           <Route path="about" element={<AboutUs />} />
