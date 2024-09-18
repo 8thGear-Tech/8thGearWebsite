@@ -198,7 +198,8 @@ export const NewTalentPlacementHero = () => {
           <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor NewTalentPlacementHeroText">
             Hire Vetted Tech Talents
           </h1>
-          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo">
+          <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+            {/* <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo"> */}
             Hire Vetted Tech Talents
           </h2>
           <p style={{ color: "#ffffff" }} className="ms-lg-5 ms-xs-5">

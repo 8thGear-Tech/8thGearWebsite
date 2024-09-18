@@ -141,13 +141,14 @@ export const NewFooter = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    to="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                  <a
+                    href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                    target="_blank"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
                     JOIN THE 8THGEAR COMMUNITY
-                  </Link>
+                  </a>
                 </li>
                 {/* <li className="nav-item">
                   <a

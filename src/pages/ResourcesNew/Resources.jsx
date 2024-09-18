@@ -1,4 +1,4 @@
-import { Navbar21 } from "../../components/Navbar";
+import { HomepageNav, Navbar21 } from "../../components/Navbar";
 import NewNavbar from "./NewNavbar";
 import ResourcesContent from "./ResourcesContent";
 
@@ -6,7 +6,7 @@ export const ResourcesNew = () => {
   return (
     <div className="relative">
       <div>
-        <Navbar21 />
+        <HomepageNav />
         {/* <NewNavbar /> */}
       </div>
       <div style={{ height: "90px" }}></div> {/* Spacer div */}

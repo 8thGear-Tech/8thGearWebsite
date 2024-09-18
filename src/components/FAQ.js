@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/FAQ.css";
-import { Navbar13 } from "./Navbar";
+import { HomepageNav, Navbar13 } from "./Navbar";
 
 const FAQ = () => {
   return (
     <>
-      <Navbar13 />
+      <HomepageNav />
       <FAQ1 />
     </>
   );

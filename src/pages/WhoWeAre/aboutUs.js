@@ -64,7 +64,7 @@ const CoreValues = () => {
 export const Partners = () => (
   <>
     <div>
-      <h4 className="text-center pt-5 pb-3">Our Partners</h4>
+      <h3 className="purple-text text-center pt-5 pb-3">OUR PARTNERS</h3>
       <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
         <div className="slide-track2">
           {[

@@ -37,6 +37,7 @@ const Home = () => {
   return (
     <>
       <HomepageNav />
+      {/* <Navbar0/> */}
       <BigHeroSection />
       <SmallHeroSection />
       <Service />
@@ -133,7 +134,7 @@ const SmallHeroSection = () => {
   return (
     <div className="d-lg-none d-md-none d-sm-block d-xs-block">
       {/* <div className=""> */}
-      <div className="px-4 container-fluid homeHeroSmall pt-3 pb-4 align-items-center ">
+      <div className="px-4 container-fluid homeHeroSmall pt-3 pb-4 align-items-center">
         {/* <div className="px-4 container-fluid homeHeroSmall d-flex pt-3 pb-4 align-items-center "> */}
         <div className="gradientBggg overlayBggg"></div>
         <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5 mt-3 pb-5">
@@ -169,7 +170,7 @@ const Service = () => {
       style={{ backgroundColor: "#f1f8ed" }}
     >
       <div className="row justify-content-evenly px-lg-5 px-md-5">
-        <h3 className="pt-5 text-center">OFFERINGS</h3>
+        <h3 className="purple-text pt-5 text-center">OFFERINGS</h3>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div
             className="service-card text-center"
@@ -347,7 +348,7 @@ const AboutSection = () => {
     <div className="container-fluid aboutUS py-lg-5 py-md-3">
       <div className="row align-items-center justify-content-center px-4 pt-lg-5 pt-md-3 pb-5">
         <div className="col-lg-5 col-md-7 col-sm-12 pt-lg-3 pt-md-3 my-5">
-          <h3 className="">
+          <h3 className="purple-text">
             ABOUT US
             <br />
           </h3>
