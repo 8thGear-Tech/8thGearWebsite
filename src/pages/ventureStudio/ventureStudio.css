@@ -13,6 +13,15 @@
   height: 16.5rem;
 }
 
+.venture-studio-hero-btn {
+  color: white;
+} 
+
+.venture-studio-hero-btn:hover {
+  background-color: white;
+  color: black;
+}
+
 .venture-studio-hero-text {
   position: relative;
   top: 8%;
@@ -39,12 +48,12 @@
   }
 
   .coreServiceCardsIcon{
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .coreServiceCard  p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .coreServiceCard  hr {
@@ -79,13 +88,19 @@
   }
 
   .ventureCard {
-    width: 18rem;
-    height: 45rem;
+    /* min-width: 18rem; */
+    /* height: 54rem; */
     border: 2px solid white;
     background-color: white;
     border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
 
+  .portco-tag {
+    background-color: #F9FFF5;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
  
 
 /* Tablet Screen */
@@ -105,6 +120,11 @@
   .venture-studio-hero-text h1 {
     font-size: 1.5rem;
     line-height: 2.0rem !important;
+  }
+
+  .ventureCard {
+    /* width: 22rem;
+    height: 50rem; */
   }
 }
 
@@ -131,5 +151,10 @@
     font-size: 1rem;
     margin: 1.5rem 0;
     padding: 0.5rem 1.5rem;
+  }
+
+  .ventureCard {
+    /* width: 22rem;
+    height: 45rem; */
   }
 }
