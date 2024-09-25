@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="venture-studio-hero">
           <div className="venture-studio-hero-text align-self-center justify-content-center px-4 py-2">
             <h1 className="text-white fw-semibold lh-sm">Transforming visionary ideas into thriving sustainable ventures with precision and passion</h1>
-            <button className='btn border text-white'>Transform Your Idea</button>
+            <button className='venture-studio-hero-btn btn border'>Transform Your Idea</button>
           </div>
         </div>
       </div>

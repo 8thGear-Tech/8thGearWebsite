@@ -16,8 +16,8 @@ const PortfolioCompanies = () => {
             imgLink: "/images/ventureStudio/inKeeper.svg",
             headText: "Innkeeper",
             p1: "Innkeeper is a job-tech venture that provides talent development and matching services to corporations and startups in other to support them with top African talents for tech and tech-related roles. Innkeeper focuses on upskilling youths with in-demand tech skills for improved employability and to close talent skill gaps",
-            ps1: "Ed-Tech/Job Tech",
-            ps2: "",
+            ps1: "Ed-Tech/Job",
+            ps2: "Tech",
             ps3: "2021"
         },
         {
@@ -29,7 +29,7 @@ const PortfolioCompanies = () => {
             ps3: "2023"
         },
         {
-            imgLink: "/images/trulance.png",
+            imgLink: "/images/ventureStudio/trulance.svg",
             headText: "Trulance",
             p1: "TruLance is a global marketplace that provides credible technology solutions to businesses and startups, by leveraging on its affiliate communities of vetted freelance developers, designers, content creators and digital marketers. TruLance ensures value is served by taking full responsibility for the quality and timely delivery of agreed outputs.",
             ps1: "Ed-Tech / Job  Tech",
@@ -37,7 +37,7 @@ const PortfolioCompanies = () => {
             ps3: "2023"
         },
         {
-            imgLink: "/images/legalmo.png",
+            imgLink: "/images/ventureStudio/legalMo.svg",
             headText: "LegalMO",
             p1: "LegalMO is a legal tech venture, promoting the legal health and promotion of SMEs and Startups by creating a platform where Startups and SMEs can access affordable legal services.",
             ps1: "Legal Tech",

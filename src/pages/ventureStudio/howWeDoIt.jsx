@@ -39,7 +39,7 @@ const HowWeDoIt = () => {
             <div className='mx-5'>
                 <div className='row'>
                     {content.map((d, index) => (
-                        <div key={index} className='col-6 mb-4'>
+                        <div key={index} className='col-12 col-lg-6 mb-4'>
                             <HowWeDoItSection imgLink={d.imgLink} text1={d.text1} text2={d.text2} />
                         </div>
                     ))}
