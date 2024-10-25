@@ -19,37 +19,19 @@
   ],
   "teamcardthree": [
     {
-      "image1": "../../images/team/Moyo.jpg",
-      "name1": "MOYOSORE AMAO",
-      "title1": "BUSINESS DEV. EXECUTIVE",
+      "image1": "../../images/team/opeyemi.png",
+      "name1": "OPEYEMI BIOKU",
+      "title1": "TECH LEAD",
       "id": "staticBackdrop3",
-      "link": "https://www.linkedin.com/in/moyoamao/"
+      "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
   "teamcardfour": [
     {
-      "image1": "../../images/team/vindee.png",
-      "name1": "VINDICATION JOSEPH",
-      "title1": "PROGRAMS & PROJECT LEAD",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/vindication-busayo-joseph-030293b2/"
-    }
-  ],
-  "teamcardfive": [
-    {
-      "image1": "../../images/team/opeyemi.png",
-      "name1": "OPEYEMI BIOKU",
-      "title1": "TECH LEAD",
-      "id": "staticBackdrop5",
-      "link": "https://www.linkedin.com/in/opeyemi-bioku"
-    }
-  ],
-  "teamcardsix": [
-    {
       "image1": "../../images/team/hakeem.png",
       "name1": "HAKEEM IDRIS",
       "title1": "FINANCE & ACC. EXECUTIVE",
-      "id": "staticBackdrop6",
+      "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/hakeemidris010/"
     }
   ],

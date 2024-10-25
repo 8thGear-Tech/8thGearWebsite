@@ -278,7 +278,7 @@ export const TeamCardThree = (props) => {
     <>
       <div className="card-deck">
         <div className="card w-75 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="moyo" />
+          <img src={image1} className="card-img-top Teampic " alt="opeyemi" />
           <div className="card-body teamcardbody">
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
@@ -925,7 +925,7 @@ export const Gerians = () => {
             return <TeamCardFour {...card}></TeamCardFour>;
           })}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
+        {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfive.map((card) => {
             return <TeamCardFive {...card}></TeamCardFive>;
@@ -936,7 +936,7 @@ export const Gerians = () => {
           {data.teamcardsix.map((card) => {
             return <TeamCardSix {...card}></TeamCardSix>;
           })}
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="col-lg-4 col-md-6 mt-5">
