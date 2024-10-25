@@ -20,12 +20,13 @@ const OurPriceRange = () => {
         "Monthly/Yearly Plan": [
           {
             title: "VIRTUAL OFFICE",
-            price: "₦150,000 Per Year",
+            price: "₦200,000 Per Year",
             features: [
               "Corporate Address",
               "Mail Handling",
               "Community Events",
               "Meeting Room - 1hr Free/Month",
+              "Accountability Services (Builders Collective)",
             ],
           },
           {
@@ -45,7 +46,7 @@ const OurPriceRange = () => {
         "Flexi Plan": [
           {
             title: "REGULAR",
-            price: "₦4,000 Per Day",
+            price: "₦5,000 Per Day",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -55,7 +56,7 @@ const OurPriceRange = () => {
           },
           {
             title: "CLASSIC",
-            price: "₦16,000 (5 Days)",
+            price: "₦18,000 (5 Days)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -65,7 +66,7 @@ const OurPriceRange = () => {
           },
           {
             title: "DELUXE",
-            price: "₦30,000 (10 Days)",
+            price: "₦35,000 (10 Days)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -75,8 +76,19 @@ const OurPriceRange = () => {
           },
           {
             title: "SATURDAYS",
-            price: "₦5,000 Per Day",
+            price: "₦8,000 Per Day",
             timeRange: "(10am-3pm)",
+            features: [
+              "Fast, Reliable Internet Access",
+              "Uninterrupted Power Supply",
+              "Kitchenette",
+              "Community Events",
+            ],
+          },
+          {
+            title: "NIGHT PLAN",
+            price: "₦15,000 Per Day",
+            timeRange: "(6pm-6am)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -98,35 +110,67 @@ const OurPriceRange = () => {
         ],
         "Event/Training Hall": [
           {
-            title: "REGULAR",
-            price: "₦20,000 Per Hour",
+            title: "CLASSIC - Per Hour",
+            price: "₦20,000",
             features: [
               "Uninterrupted Power Supply",
-              "Projector",
+              "Screen",
               "Good Sound System",
               "Sits up to 50 persons",
             ],
           },
           {
-            title: "CLASSIC",
-            price: "₦70,000 (Half Day)",
+            title: "CLASSIC - Half Day",
+            price: "₦60,000 ",
             timeRange: "(9am-1pm)/(1pm-5pm)",
             features: [
               "Uninterrupted Power Supply",
-              "Projector",
+              "Screen",
               "Good Sound System",
               "Sits up to 50 persons",
             ],
           },
           {
-            title: "DELUXE",
-            price: "₦100,000 Per Day",
+            title: "CLASSIC - Per Day",
+            price: "₦100,000 ",
             timeRange: "(9am-5pm)",
             features: [
               "Uninterrupted Power Supply",
-              "Projector",
+              "Screen",
               "Good Sound System",
               "Sits up to 50 persons",
+            ],
+          },
+          {
+            title: "PREMIUM - Per Hour",
+            price: "₦35,000",
+            features: [
+              "Uninterrupted Power Supply",
+              "Interactive Screen & White Board",
+              "Good Sound System",
+              "Sits up to 35 persons",
+            ],
+          },
+          {
+            title: "PREMIUM - Half Day",
+            price: "₦95,000 ",
+            timeRange: "(9am-1pm)/(1pm-5pm)",
+            features: [
+              "Uninterrupted Power Supply",
+              "Interactive Screen & White Board",
+              "Good Sound System",
+              "Sits up to 35 persons",
+            ],
+          },
+          {
+            title: "PREMIUM - Per Day",
+            price: "₦160,000 ",
+            timeRange: "(9am-5pm)",
+            features: [
+              "Uninterrupted Power Supply",
+              "Interactive Screen & White Board",
+              "Good Sound System",
+              "Sits up to 35 persons",
             ],
           },
         ],
@@ -296,7 +340,10 @@ const OurPriceRange = () => {
                   <Card.Text>
                     <ul className="m-0 position-relative start-0 p-0">
                       {card.features.map((feature, i) => (
-                        <li key={i} className="py-1 fw-normal mb-0 list-unstyled lh-lg text-center fs-6">
+                        <li
+                          key={i}
+                          className="py-1 fw-normal mb-0 list-unstyled lh-lg text-center fs-6"
+                        >
                           {feature}
                         </li>
                       ))}
