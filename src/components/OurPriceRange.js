@@ -20,7 +20,7 @@ const OurPriceRange = () => {
         "Monthly/Yearly Plan": [
           {
             title: "VIRTUAL OFFICE",
-            price: "₦150,000 Per Year",
+            price: "₦200,000 Per Year",
             features: [
               "Corporate Address",
               "Mail Handling",
@@ -45,7 +45,7 @@ const OurPriceRange = () => {
         "Flexi Plan": [
           {
             title: "REGULAR",
-            price: "₦4,000 Per Day",
+            price: "₦5,000 Per Day",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -55,7 +55,7 @@ const OurPriceRange = () => {
           },
           {
             title: "CLASSIC",
-            price: "₦16,000 (5 Days)",
+            price: "₦18,000 (5 Days)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -65,7 +65,7 @@ const OurPriceRange = () => {
           },
           {
             title: "DELUXE",
-            price: "₦30,000 (10 Days)",
+            price: "₦35,000 (10 Days)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -75,8 +75,19 @@ const OurPriceRange = () => {
           },
           {
             title: "SATURDAYS",
-            price: "₦5,000 Per Day",
+            price: "₦8,000 Per Day",
             timeRange: "(10am-3pm)",
+            features: [
+              "Fast, Reliable Internet Access",
+              "Uninterrupted Power Supply",
+              "Kitchenette",
+              "Community Events",
+            ],
+          },
+          {
+            title: "NIGHT PLAN",
+            price: "₦15,000 Per Day",
+            timeRange: "(6pm-6am)",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
@@ -296,7 +307,10 @@ const OurPriceRange = () => {
                   <Card.Text>
                     <ul className="m-0 position-relative start-0 p-0">
                       {card.features.map((feature, i) => (
-                        <li key={i} className="py-1 fw-normal mb-0 list-unstyled lh-lg text-center fs-6">
+                        <li
+                          key={i}
+                          className="py-1 fw-normal mb-0 list-unstyled lh-lg text-center fs-6"
+                        >
                           {feature}
                         </li>
                       ))}
