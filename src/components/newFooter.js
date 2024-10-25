@@ -233,7 +233,7 @@ export const NewFooter = () => {
                     className="nav-link px-2 footerText internalLink"
                     style={{ fontSize: "0.8rem", color: "#821e6b" }}
                   >
-                    Copyright &copy; 2023
+                    Copyright &copy; 2024
                   </a>
                 </li>
                 <li className="nav-item">
