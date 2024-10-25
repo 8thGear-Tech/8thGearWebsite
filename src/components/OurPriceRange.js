@@ -31,7 +31,7 @@ const OurPriceRange = () => {
           },
           {
             title: "DEDICATED DESK",
-            price: "₦50,000 Per Months",
+            price: "₦50,000 Per Month",
             features: [
               "Fast, Reliable Internet Access",
               "Uninterrupted Power Supply",
