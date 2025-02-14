@@ -3,6 +3,7 @@ import * as React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
+import { GenderPolicy } from "./pages/genderPolicy";
 import { TermsAndConditions } from "./pages/TermsandConditions";
 import { RefundPolicy } from "./pages/Refundpolicy";
 import Error404 from "./pages/error404";
@@ -175,6 +176,7 @@ function App() {
           <Route path="privacy-policy" element={<PrivacyAndPolicy />} />
           <Route path="terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="refund-policy" element={<RefundPolicy />} />
+          <Route path="genderpolicy" element={<GenderPolicy />} />
           <Route path="*" element={<Error404 />} />
           {/* <Route path="resourcesOld" element={<Resources />} /> */}
           <Route path="resources" element={<ResourcesNew />} />
