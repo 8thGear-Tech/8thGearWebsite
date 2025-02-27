@@ -6,7 +6,7 @@ const Button = ({ buttonText }) => {
     <div>
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
-        target="_blank"
+        target="_blank" rel="noopener noreferrer"
       >
         {" "}
         <button className="btn ventureStudioBtn">{buttonText}</button>

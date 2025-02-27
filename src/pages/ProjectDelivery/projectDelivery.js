@@ -68,6 +68,7 @@ const ProjectDeliveryHero = () => {
               <a
                 href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Request for a proposal
               </a>
@@ -219,6 +220,7 @@ const SuccessStoryCards = () => {
                 href="https://drive.google.com/drive/u/0/folders/1h0OUWJXY-ccfANNR9FSkqj7IJ65t7bem"
                 className="mx-1"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#000" }}
               >
                 <p style={{ fontSize: "0.8rem" }}>Impact Reports</p>
@@ -227,6 +229,7 @@ const SuccessStoryCards = () => {
                 href="https://www.usadf.gov/story/1090"
                 className="mx-1"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#000" }}
               >
                 <p style={{ fontSize: "0.8rem" }}>Testimonials</p>
@@ -235,6 +238,7 @@ const SuccessStoryCards = () => {
                 href="https://www.google.com/search?q=8thgearpartners&sca_esv=0816324f79341d82&sxsrf=ADLYWIKKXbmfdYf3gsCCQjpPklcQMenajg%3A1721982091549&ei=i1yjZr-gIdGwhbIPh-CNqQg&ved=0ahUKEwj_kYGXo8SHAxVRWEEAHQdwI4UQ4dUDCBA&uact=5&oq=8thgearpartners&gs_lp=Egxnd3Mtd2l6LXNlcnAiDzh0aGdlYXJwYXJ0bmVyczIHECMYsAMYJzIQEC4YgAQYsAMYxwEYDRivATILEAAYgAQYsAMYogQyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBEg1UABYAHABeACQAQCYAQCgAQCqAQC4AQPIAQCYAgGgAhGYAwCIBgGQBgWSBwExoAcA&sclient=gws-wiz-serp#lrd=0x103b93b1a35e5485:0xadb42002710ea3b0,1,,,,"
                 className="mx-1"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#000" }}
               >
                 <p style={{ fontSize: "0.8rem" }}>Reviews</p>

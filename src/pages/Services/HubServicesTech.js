@@ -55,6 +55,7 @@ const ManagedServicesTech = () => {
                 <a
                   href="https://docs.google.com/forms/d/1BAlNaY2d3RS4zeghX5WD1CYWxRMJUbFDmCPkAn9AqTM/viewform?edit_requested=true"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   <ManagedServicesRequestBtn />

@@ -27,7 +27,7 @@ export const LetUsKnowBtn = () => {
   return (
     <a
       href="https://docs.google.com/forms/d/149SdikrUqPTgtdQL5lOBKYdF9L5ZAQ4TF1Xj9y1vBIk/edit"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       target="_blank"
     >
       <button
@@ -98,7 +98,11 @@ export const GearUpReadMoreBtn = () => {
 };
 export const EventsRegisterBtn = () => {
   return (
-    <a href="https://bit.ly/8thGearfoundersmeetup2022" target="_blank">
+    <a
+      href="https://bit.ly/8thGearfoundersmeetup2022"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <button className="EventsRegisterBtn" type="submit">
         Register Now
       </button>
@@ -107,7 +111,11 @@ export const EventsRegisterBtn = () => {
 };
 export const DemoDayRegisterBtn = () => {
   return (
-    <a href="https://forms.gle/RyxYFMPtVsXuw33NA" target="_blank">
+    <a
+      href="https://forms.gle/RyxYFMPtVsXuw33NA"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <button className="EventsRegisterBtn" type="submit">
         Register Now
       </button>
@@ -120,6 +128,7 @@ export const GearUpExposeBtn = () => {
     <a
       href="https://us06web.zoom.us/meeting/register/tZcrde-rpj0iGdJB4yZ75Srgw5Ba3-9D2Slq"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <button className="EventsRegisterBtn" type="submit">
         Register Now

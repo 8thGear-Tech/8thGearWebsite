@@ -40,6 +40,7 @@ const HeroSection = () => {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Become a Member
           </a>
@@ -97,6 +98,7 @@ const Banner = () => {
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-center"
         >
           {" "}
@@ -201,6 +203,7 @@ const MembershipSection = () => {
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           <button className="Banner-btn rounded-pill">Join Us Now!</button>
@@ -277,6 +280,7 @@ const BecomeAPortCo = () => {
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           <button className="Banner-btn rounded-pill">Join Us Now!</button>

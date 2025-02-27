@@ -144,7 +144,10 @@ const NavBar = (props) => {
               <br />
               <div className="d-flex justify-content-center mt-5 ">
                 <div className="">
-                  <a href="https://www.facebook.com/8thgearhub">
+                  <a
+                    href="https://www.facebook.com/8thgearhub"
+                    rel="noopener noreferrer"
+                  >
                     <i
                       className="bi bi-facebook mx-3 text-dark"
                       style={{ fontSize: "1.875rem" }}
@@ -153,7 +156,10 @@ const NavBar = (props) => {
                 </div>
 
                 <div>
-                  <a href="https://www.instagram.com/8thgearhub/">
+                  <a
+                    href="https://www.instagram.com/8thgearhub/"
+                    rel="noopener noreferrer"
+                  >
                     <i
                       className="bi bi-instagram mx-3 text-dark"
                       style={{ fontSize: "1.875rem" }}
@@ -162,7 +168,10 @@ const NavBar = (props) => {
                 </div>
 
                 <div>
-                  <a href="https://www.linkedin.com/company/8thgearhub/">
+                  <a
+                    href="https://www.linkedin.com/company/8thgearhub/"
+                    rel="noopener noreferrer"
+                  >
                     <i
                       className="bi bi-linkedin mx-3 text-dark"
                       style={{ fontSize: "1.875rem" }}
@@ -171,7 +180,10 @@ const NavBar = (props) => {
                 </div>
 
                 <div>
-                  <a href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09">
+                  <a
+                    href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
+                    rel="noopener noreferrer"
+                  >
                     <i
                       className="bi bi-twitter mx-3 text-dark"
                       style={{ fontSize: "1.875rem" }}
@@ -459,7 +471,10 @@ const OldNavBar = (props) => {
           <br />
           <div className="d-flex justify-content-center mt-5 ">
             <div className="">
-              <a href="https://www.facebook.com/8thgearhub">
+              <a
+                href="https://www.facebook.com/8thgearhub"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="bi bi-facebook mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -468,7 +483,10 @@ const OldNavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.instagram.com/8thgearhub/">
+              <a
+                href="https://www.instagram.com/8thgearhub/"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="bi bi-instagram mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -477,7 +495,10 @@ const OldNavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://www.linkedin.com/company/8thgearhub/">
+              <a
+                href="https://www.linkedin.com/company/8thgearhub/"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="bi bi-linkedin mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}
@@ -486,7 +507,10 @@ const OldNavBar = (props) => {
             </div>
 
             <div>
-              <a href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg">
+              <a
+                href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
+                rel="noopener noreferrer"
+              >
                 <i
                   className="bi bi-twitter mx-3 text-dark"
                   style={{ fontSize: "1.875rem" }}

@@ -51,6 +51,7 @@ const GaaSNew = () => {
           <a
             href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button className="btn btn-outline-light mt-4 py-2 fs-5 rounded-pill px-lg-3 w-md-50 ms-md-5 mb-4">
               Book a Growth Session
@@ -256,7 +257,11 @@ const WhatWeDo = () => {
           </div>
         ))}
       </div>
-      <a href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8" target="_blank">
+      <a
+        href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {" "}
         <button
           className="btn btn-primary mt-4 rounded-pill py-2 px-4 fs-5 whatButton"
@@ -546,7 +551,11 @@ const GaasReady = () => {
         </p>
 
         {/* Button with responsive padding */}
-        <a href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8" target="_blank">
+        <a
+          href="https://calendar.app.google/t7TiMRDyXA1Ssvxs8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           <button
             className="btn btn-primary rounded-pill py-2 px-4 fs-5 whatButton"

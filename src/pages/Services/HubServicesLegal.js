@@ -67,6 +67,7 @@ const ManagedServicesLegal = () => {
                 <a
                   href="https://docs.google.com/forms/d/10E8zUGMnVJClWJLtL6uvD-AGzFUNh262k7kh2_SqyTI/edit"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   <ManagedServicesRequestBtn />

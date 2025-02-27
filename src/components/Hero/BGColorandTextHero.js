@@ -210,6 +210,7 @@ export const NewTalentPlacementHero = () => {
             <a
               href="https://bit.ly/8thgeartalentrequestform"
               target="_blank"
+              rel="noopener noreferrer"
               className="talentPlacementBtn ms-lg-5 ms-xs-5"
             >
               {" "}
@@ -243,7 +244,11 @@ export const TalentPlacementHero = () => {
           </p>
           <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4"></div>
           <div>
-            <a href="https://bit.ly/8thgeartalentrequestform" target="_blank">
+            <a
+              href="https://bit.ly/8thgeartalentrequestform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               <ManagedServicesRequestBtn />
             </a>

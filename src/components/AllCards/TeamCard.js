@@ -44,7 +44,7 @@ export const TeamCard = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -89,7 +89,7 @@ export const TeamCard = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link} target="_blank">
+                    <a href={link} rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -144,7 +144,7 @@ export const TeamCardTwo = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -284,7 +284,7 @@ export const TeamCardThree = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -328,7 +328,7 @@ export const TeamCardThree = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link} target="_blank">
+                    <a href={link} rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -446,7 +446,7 @@ export const TeamCardFour = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -520,7 +520,7 @@ export const TeamCardFive = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -564,7 +564,7 @@ export const TeamCardFive = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link} target="_blank">
+                    <a href={link} rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -638,7 +638,7 @@ export const TeamCardSix = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -682,7 +682,7 @@ export const TeamCardSix = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -788,7 +788,7 @@ export const TeamCardSeven = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -853,7 +853,7 @@ export const TeamCardEight = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />
@@ -1101,7 +1101,7 @@ export const EIRCard = (props) => {
             <div className="text-center">
               {" "}
               {/* <MemberTwoViewBioBtn /> */}
-              <a href={link} target="_blank">
+              <a href={link} target="_blank" rel="noopener noreferrer">
                 <div className="">
                   {" "}
                   <LinkedInIcon />
@@ -1134,7 +1134,7 @@ export const EIRCard = (props) => {
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
-                    <a href={link} target="_blank">
+                    <a href={link} target="_blank" rel="noopener noreferrer">
                       <div className="">
                         {" "}
                         <LinkedInIcon />

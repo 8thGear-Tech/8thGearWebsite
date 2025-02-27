@@ -16,6 +16,7 @@ export const RequestForProposalBtn = () => {
       <a
         href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
         target="_blank"
+        rel="noopener noreferrer"
       >
         {" "}
         <button className="RequestForProposalBtn">
@@ -40,7 +41,11 @@ export const ProjectDeliveryViewMoreBtn = () => {
 export const RegisterBtn = () => {
   return (
     <>
-      <a href="https://forms.gle/guUTioEKNWV8d7WUA" target="_blank">
+      <a
+        href="https://forms.gle/guUTioEKNWV8d7WUA"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {" "}
         <button className="RegisterBtn" type="submit">
           Register

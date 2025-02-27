@@ -520,6 +520,7 @@ const SectionThree = () => {
       <a
         href="https://calendly.com/inc-consults/15min?month=2022-10"
         target="_blank"
+        rel="noopener noreferrer"
         className="text-decoration-none"
       >
         <p className="mt-3 talkToUsText text-decoration-underline">

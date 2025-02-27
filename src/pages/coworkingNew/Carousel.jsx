@@ -26,7 +26,7 @@ function HeroCarousel() {
             ideas soar!
           </p>
           <div className="d-flex gap-2 py-2 buttons ">
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span className="px-2 ">
                   <img
@@ -38,7 +38,7 @@ function HeroCarousel() {
                 Book a Space
               </Button>
             </a>
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span>
                   <img src="/images/coworkingNew/microscope.png" alt="" />
@@ -81,7 +81,7 @@ function HeroCarousel() {
           </p>
           <div className="d-flex gap-2 py-2 buttons">
             {" "}
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span className="px-2">
                   <img
@@ -93,7 +93,7 @@ function HeroCarousel() {
                 Book a Space{" "}
               </Button>
             </a>
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span>
                   <img src="/images/coworkingNew/microscope.png" alt="" />
@@ -138,7 +138,7 @@ function HeroCarousel() {
             we provide everything you need to bring your podcast to life.
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span className="px-2">
                   <img
@@ -150,7 +150,7 @@ function HeroCarousel() {
                 Book a Space
               </Button>
             </a>
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span>
                   <img src="/images/coworkingNew/microscope.png" alt="" />
@@ -192,7 +192,7 @@ function HeroCarousel() {
             speed <br /> and a conducive environment.{" "}
           </p>
           <div className="d-flex gap-2 py-2 buttons">
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span className="px-2">
                   <img
@@ -204,7 +204,7 @@ function HeroCarousel() {
                 Book a Space
               </Button>
             </a>
-            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+            <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
               <Button>
                 <span>
                   <img src="/images/coworkingNew/microscope.png" alt="" />

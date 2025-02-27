@@ -145,6 +145,7 @@ export const NewFooter = () => {
                   <a
                     href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="nav-link px-2 footerText"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -205,6 +206,7 @@ export const NewFooter = () => {
                     href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"
                     className="nav-link px-2 footerText text-decoration-underline"
                     target="_blank"
+                    rel="noopener noreferrer"
                     style={{ fontSize: "0.8rem", color: "#821e6b" }}
                   >
                     <b>8THGEAR HUB, LAGOS, NIGERIA</b>
@@ -309,6 +311,7 @@ export const NewFooter = () => {
                   <a
                     href="https://www.facebook.com/8thgearhub"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -319,6 +322,7 @@ export const NewFooter = () => {
                   <a
                     href="https://www.instagram.com/8thgearhub/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -329,6 +333,7 @@ export const NewFooter = () => {
                   <a
                     href="https://www.linkedin.com/company/8thgearhub/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >
@@ -339,6 +344,7 @@ export const NewFooter = () => {
                   <a
                     href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="nav-link px-2 text-muted"
                     style={{ fontSize: "0.8rem" }}
                   >

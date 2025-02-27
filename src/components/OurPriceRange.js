@@ -359,7 +359,11 @@ const OurPriceRange = () => {
         </div>
       </div>
       <div className="text-center mt-3">
-        <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+        <a
+          href="https://forms.gle/pjR1os5hN6WnbzFa9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button>Book a Space</Button>
         </a>
       </div>

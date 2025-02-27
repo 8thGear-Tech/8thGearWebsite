@@ -1,7 +1,11 @@
 export const BookNowBtn = () => {
   return (
     <>
-      <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank">
+      <a
+        href="https://forms.gle/pjR1os5hN6WnbzFa9"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {" "}
         <button className="BookNowBtn"> Book Now</button>
       </a>
@@ -14,7 +18,11 @@ export const BookaSessionBtn = () => {
     <>
       <a href="https://calendly.com/inc-consults/15min?month=2021-09">
         {" "}
-        <button className="BookaSessionBtn" target="_blank">
+        <button
+          className="BookaSessionBtn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           Book a session
         </button>
@@ -28,7 +36,11 @@ export const BookaFreeSessionBtn = () => {
     <>
       <a href="https://calendly.com/inc-consults/15min?month=2021-09">
         {" "}
-        <button className="BookaFreeSessionBtn" target="_blank">
+        <button
+          className="BookaFreeSessionBtn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {" "}
           Book a session
         </button>

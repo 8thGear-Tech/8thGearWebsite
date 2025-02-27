@@ -440,6 +440,7 @@ const AboutFounderMeetup = () => {
         <a
           href="https://bit.ly/8thGearfoundersmeetup2022"
           target="_blank"
+          rel="noopener noreferrer"
           className="textLinkColor"
         >
           here

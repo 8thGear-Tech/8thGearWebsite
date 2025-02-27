@@ -83,6 +83,7 @@ export const Footer = () => {
               href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"
               target="_blank"
               className="addressText d-block text-fluid3"
+              rel="noopener noreferrer"
             >
               8THGEAR HUB, LAGOS, NIGERIA
             </a>
@@ -223,21 +224,34 @@ export const FooterIcon = () => {
   return (
     <>
       <nav className="footer__icons remove__ml listStyling d-flex justify-content-md-center justify-content-sm-start">
-        <a href="https://www.facebook.com/8thgearhub" target="_blank">
+        <a
+          href="https://www.facebook.com/8thgearhub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="bi bi-facebook me-2 text-dark footer__icons"></i>
         </a>
 
-        <a href="https://www.instagram.com/8thgearhub/" target="_blank">
+        <a
+          href="https://www.instagram.com/8thgearhub/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="bi bi-instagram me-2 text-dark"></i>
         </a>
 
-        <a href="https://www.linkedin.com/company/8thgearhub/" target="_blank">
+        <a
+          href="https://www.linkedin.com/company/8thgearhub/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="bi bi-linkedin me-2 text-dark"></i>
         </a>
 
         <a
           href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="bi bi-twitter me-2 text-dark"></i>
         </a>

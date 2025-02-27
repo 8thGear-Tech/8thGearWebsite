@@ -1,4 +1,7 @@
-import { DemoDayReadMoreBtn, SuggestAnEventBtn } from "../../components/Buttons/EventsBtn";
+import {
+  DemoDayReadMoreBtn,
+  SuggestAnEventBtn,
+} from "../../components/Buttons/EventsBtn";
 
 import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
 import {
@@ -161,6 +164,7 @@ const NewEventsCalendar = () => {
                 <a
                   href="https://lu.ma/qnmllcbh"
                   target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#821e6b" }}
                 >
                   {/* <button className="EventsRegisterBtn" type="submit"> */}
@@ -186,6 +190,7 @@ const NewEventsCalendar = () => {
                 <a
                   href="https://lu.ma/daoj6x7i"
                   target="_blank"
+                  rel="noopener noreferrer"
                   style={{ color: "#821e6b" }}
                 >
                   {/* <button className="EventsRegisterBtn" type="submit"> */}

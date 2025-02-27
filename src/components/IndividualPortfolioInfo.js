@@ -18,7 +18,7 @@ export const AboutStartup = (props) => {
         <div className="row justify-content-center">
           <div className="d-flex justify-content-center pt-5">
             {" "}
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               {" "}
               <img
                 src={img}
@@ -49,7 +49,12 @@ export const AboutStartup = (props) => {
           <div className="d-flex align-items-center">
             <div className="card-body ms-3">
               <h3 className="card-text">{year}</h3>
-              <a href={link} target="_blank" className="">
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+              >
                 <p>{website}</p>
               </a>
             </div>

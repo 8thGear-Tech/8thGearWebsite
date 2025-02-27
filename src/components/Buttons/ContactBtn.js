@@ -5,6 +5,7 @@ export const JointheStudioBtn = () => {
     <a
       href="https://docs.google.com/forms/d/16LIqDM_6FSIPNuT7HLL1liAOTy2wqQO8eYkkaljA8_A/edit"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <button className="JointheStudioBtn" type="button">
         Join the Studio
@@ -15,7 +16,11 @@ export const JointheStudioBtn = () => {
 
 export const JointheTeamBtn = () => {
   return (
-    <a href="https://bit.ly/8Gjoinourteam" target="_blank">
+    <a
+      href="https://bit.ly/8Gjoinourteam"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <button className="JointheTeamBtn">Join the Team</button>
     </a>
   );
@@ -31,7 +36,7 @@ export const MemberOneViewBioBtn = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop1"
       >
-        <LinkedInIcon className="text-primary"/>
+        <LinkedInIcon className="text-primary" />
       </a>
     </>
   );
@@ -159,7 +164,7 @@ export const HomeBtn = () => {
 export const Btn = () => {
   return (
     <button className="UsBtn" type="">
-       Us
+      Us
     </button>
   );
 };
@@ -167,7 +172,7 @@ export const Btn = () => {
 export const DigiPlusRequestBtn = () => {
   return (
     <>
-      <a href="#" target="_blank">
+      <a href="#" target="_blank" rel="noopener noreferrer">
         <button className="DigiPlusRequestBtn">Request</button>
       </a>
     </>

@@ -51,6 +51,7 @@ const GearUpExpose = () => {
         <a
           href="https://us06web.zoom.us/meeting/register/tZ0ld-mvqzMjH9SL9l0ht3S5KRsXy6ePioaJ "
           target="_blank"
+          rel="noopener noreferrer"
           className="textLinkColor"
         >
           link

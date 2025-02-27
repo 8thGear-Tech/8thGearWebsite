@@ -118,7 +118,11 @@ const Services = () => {
         </div>
         <div className="mb-4 text-center">
           {" "}
-          <a href="https://bit.ly/8thgeartalentrequestform" target="_blank">
+          <a
+            href="https://bit.ly/8thgeartalentrequestform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             <TalentPlacementRequestBtn />
           </a>
@@ -193,7 +197,11 @@ const TransformingTheHiringProcess = () => {
           />
         </div>
         <div className="mt-5 text-center">
-          <a href="https://bit.ly/8thgeartalentrequestform" target="_blank">
+          <a
+            href="https://bit.ly/8thgeartalentrequestform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {" "}
             <ManagedServicesRequestBtn />
           </a>

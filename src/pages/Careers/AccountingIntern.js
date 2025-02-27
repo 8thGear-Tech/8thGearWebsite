@@ -30,6 +30,7 @@ const JobDescription = () => {
             href="https://bit.ly/8Gjoinourteam"
             className="textLinkColor careerCTAfontSize"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             Join the team

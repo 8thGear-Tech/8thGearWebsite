@@ -80,7 +80,11 @@ const managedServicesDigitalMarketing = () => {
               {/* button */}
               <div className="text-center py-4 ">
                 {/* <ManagedServicesRequestForm /> */}
-                <a href="https://bit.ly/8thGearDigitalKYC" target="_blank">
+                <a
+                  href="https://bit.ly/8thGearDigitalKYC"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {" "}
                   <ManagedServicesRequestBtn />
                 </a>
