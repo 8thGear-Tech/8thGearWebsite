@@ -9,8 +9,7 @@ const HeroSection = () => {
           We are your one-stop shop to achieve your Venture Building Dream.
         </h2>
       </div>
-      <div className="about-content text-white text-center">
-      </div>
+      <div className="about-content text-white text-center"></div>
     </div>
   );
 };
