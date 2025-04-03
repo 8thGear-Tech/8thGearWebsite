@@ -93,6 +93,10 @@ import AccountingIntern from "./pages/Careers/AccountingIntern";
 import TalentFair24 from "./pages/EventsNew/TalentFair24";
 import FAQ from "./components/FAQ";
 
+//Insights
+import { Insights } from "./pages/Insights/insights";
+import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
+
 function App() {
   return (
     <BrowserRouter>
@@ -202,6 +206,9 @@ function App() {
           />
           <Route path="HRIntern" element={<HRIntern />} />
           <Route path="AccountingIntern" element={<AccountingIntern />} />
+          <Route path="Insights" element={<Insights />} />
+          {/* <Route path="ReadMoreInsights" element={<ReadMoreInsights />} /> */}
+          <Route path="/read-more/:id" element={<ReadMoreInsights />} />
         </Routes>
         {/* https://8thgearpartners.com/digital-skills-scholarship */}
         <footer>

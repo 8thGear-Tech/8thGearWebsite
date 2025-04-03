@@ -17,7 +17,7 @@ export const JointheStudioBtn = () => {
 export const JointheTeamBtn = () => {
   return (
     <a
-      href="https://bit.ly/8Gjoinourteam"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdFq1Ek40JRapDh-u4YsK-Hse0T-pg9PTlWSsFGcQbOiFxB8w/viewform"
       target="_blank"
       rel="noopener noreferrer"
     >

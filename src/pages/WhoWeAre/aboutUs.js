@@ -49,6 +49,7 @@ const AboutUs = () => {
       <div className="SliderBg">
         <SliderComponent />
       </div>
+      <JointheTeam />
     </>
   );
 };
@@ -140,10 +141,10 @@ export const Partners = () => (
 const JointheTeam = () => {
   return (
     <>
-      <div className="container-fluid py-3 px-lg-5 px-md-5 WhatWeDoBg">
+      <div className="container-fluid py-3 px-lg-5 px-md-5 ">
         <div className="row mt-lg-5 mb-lg-3 mx-lg-3 px-5 justify-content-center ">
           <div className="col-lg-8">
-            <h3 className="text-center pb-2">Become an 8thGearian</h3>
+            <h3 className="text-center pb-2">Join the 8thGear Team</h3>
             <p className="text-center joinTeamFontSize">
               Dream teams are not right for everyone. Some people prefer job
               security, and choose to work at companies that are more focused on

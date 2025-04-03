@@ -1,0 +1,13 @@
+.bg-purple {
+  background-color: #920F84;
+ 
+}
+
+
+.blockquote {
+  font-size: 1.25rem; /* Slightly larger text for quotes */
+}
+
+.img-fluid {
+  max-height: 100%; /* Ensure responsive image scaling */
+}
