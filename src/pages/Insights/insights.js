@@ -272,7 +272,7 @@ const BlogSection = () => {
         "From Startup to Scale-Up: Key Strategies for Navigating the Growth Phase",
       image: blogcard1,
       content: "This is the full blog content for the first post...",
-      author: "Adekoya Boluwatife",
+      author: "ya Boluwatife",
     },
     {
       id: 2,

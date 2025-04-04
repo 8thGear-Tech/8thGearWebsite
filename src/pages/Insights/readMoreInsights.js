@@ -384,8 +384,8 @@ const AuthorSection = () => {
 
       <div>
         <p className="mb-1 text-uppercase fw-bold">Author</p>
-        <h5 className="mb-1">Adekoya Boluwatife</h5>
-        <p className="text-muted">Marketing Executive at 8thGear</p>
+        <h5 className="mb-1">Rantimi Ajibode</h5>
+        <p className="text-muted">Comms Executive at 8thGear</p>
       </div>
     </div>
   );
