@@ -266,7 +266,7 @@ const BlogSection = () => {
     {
       id: 1,
       category: "Startup",
-      date: "April 4, 2025",
+      date: "March 29, 2025",
       readTime: "5 min read",
       title:
         "From Startup to Scale-Up: Key Strategies for Navigating the Growth Phase",
@@ -277,7 +277,7 @@ const BlogSection = () => {
     {
       id: 2,
       category: "Startup",
-      date: "April 4, 2025",
+      date: "April 5, 2025",
       readTime: "5 min read",
       title:
         "The Future of Business Efficiency: A Closer Look at 8thGear’s Transformational Services.",
