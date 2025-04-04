@@ -8,8 +8,8 @@ import {
   FaWhatsapp,
   FaEnvelope,
 } from "react-icons/fa";
-import blogcardimg from "../../assets/images/insights/blogcardimg.png";
-import fullblogimg from "../../assets/images/insights/fullblogimg.png";
+// import blogcardimg from "../../assets/images/insights/blogcardimg.png";
+// import fullblogimg from "../../assets/images/insights/fullblogimg.png";
 import openingquote from "../../assets/images/insights/openingquote.png";
 import closingquote from "../../assets/images/insights/closingquote.png";
 import "../Insights/insights.css";
@@ -30,17 +30,34 @@ export const ReadMoreInsights = () => {
   }
 
   // Destructure the values for the quote section from the post
-  const { quoteText } = post.quoteSection;
-  const { introductionTitle, introductionText } = post.fullcontent;
+  const { quoteImage, quoteText } = post.quoteSection;
+  const {
+    introductionTitle,
+    introText1,
+    introText2,
+    introText3,
+    introText4,
+    fullblogimg,
+  } = post.fullcontent;
+  // const { title, subtitle, description, bullets, source } = post.services;
 
   return (
     <>
       <HomepageNav />
       <Header post={post} />
-      <QuoteSection quoteText={quoteText} />
+      <QuoteSection quoteText={quoteText} quoteImage={quoteImage} />
       <FullBlogPost
         introductionTitle={introductionTitle}
-        introductionText={introductionText}
+        introText1={introText1}
+        introText2={introText2}
+        introText3={introText3}
+        introText4={introText4}
+        fullblogimg={fullblogimg}
+        services={post.fullcontent.services}
+        competitiveEdge={post.fullcontent.competitiveEdge}
+        callToAction={post.fullcontent.callToAction}
+        engagement={post.fullcontent.engagement}
+        sources={post.fullcontent.sources}
       />
       {/* <FullBlogPost content={post.fullcontent} /> */}
       <AuthorSection />
@@ -50,26 +67,6 @@ export const ReadMoreInsights = () => {
 
 const Header = ({ post }) => {
   return (
-    // <div className="container py-5">
-    //   <div className="row">
-    //     <div className="col-md-8 text-start">
-    //       <p className="text-uppercase mb-2" style={{ color: "#A83EAA" }}>
-    //         <b>Startup</b>
-    //       </p>
-    //       <h2 className="fw-bold mb-3">
-    //         From Startup to Scale-Up; Key Strategies for Navigating the Growth
-    //         Phase
-    //       </h2>
-    //       <p style={{ color: "#A83EAA" }}>March 27, 2025 • 4 min read</p>{" "}
-    //       <div className="col-md-4 d-flex align-items-center mt-3 mt-md-0">
-    //         <FaFacebook className="fs-4 mx-2" style={{ color: "#A83EAA" }} />
-    //         <FaInstagram className="fs-4 mx-2" style={{ color: "#A83EAA" }} />
-    //         <FaTwitter className="fs-4 mx-2" style={{ color: "#A83EAA" }} />
-    //         <FaLinkedin className="fs-4 mx-2" style={{ color: "#A83EAA" }} />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="container py-5">
       <div className="row">
         <div className="col-md-8 text-start">
@@ -92,13 +89,13 @@ const Header = ({ post }) => {
   );
 };
 
-const QuoteSection = ({ quoteText }) => {
+const QuoteSection = ({ quoteText, quoteImage }) => {
   return (
     <div className="container-fluid px-0">
       <div className="row g-0">
         <div className="col-12 col-md-6">
           <img
-            src={blogcardimg}
+            src={quoteImage}
             alt="Discussion"
             className="img-fluid w-100"
             style={{ objectFit: "cover", height: "300px" }}
@@ -180,237 +177,172 @@ const QuoteSection = ({ quoteText }) => {
   );
 };
 
-// const FullBlogPost = () => {
-//   return (
-//     <div className="container py-4">
-//       <h3 className="mb-4">Introduction</h3>
+// Helper function for rendering action items
+const renderAction = (action, idx) => {
+  // If action is a string, render it with normal font weight.
+  if (typeof action === "string") {
+    return (
+      <li key={idx}>
+        <span style={{ fontWeight: "normal" }}>{action}</span>
+      </li>
+    );
+  }
 
-//       <div className="row align-items-center mb-5">
-//         <div className="">
-//           <p>
-//             The journey from startup to scale-up is one of the most exciting yet
-//             challenging periods in the lifecycle of a company. Having survived
-//             the initial trials and tribulations of starting a business, you're
-//             now entering a new phase: growth. As your business gains traction,
-//             it must navigate the complexities of scaling—expanding operations,
-//             increasing customer bases, and ensuring sustainable growth without
-//             losing what made the company successful in the first place. Scaling
-//             is not simply about increasing size or revenue; it’s about building
-//             a foundation that can handle future growth.
-//           </p>
-//         </div>
-//       </div>
-//       <div className="">
-//         <img
-//           src={fullblogimg}
-//           alt="Introduction Image"
-//           className="img-fluid "
-//         />
-//       </div>
+  // If action is an object that contains a "text" array, map over the fragments.
+  if (typeof action === "object" && Array.isArray(action.text)) {
+    return (
+      <li key={idx}>
+        {action.text.map((fragment, i) => {
+          if (typeof fragment === "string") {
+            return (
+              <span key={i} style={{ fontWeight: "normal" }}>
+                {fragment}
+              </span>
+            );
+          }
+          if (
+            typeof fragment === "object" &&
+            fragment.linkText &&
+            fragment.url
+          ) {
+            return (
+              <a
+                key={i}
+                href={fragment.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontWeight: "normal" }}
+              >
+                {fragment.linkText}
+              </a>
+            );
+          }
+          return null;
+        })}
+      </li>
+    );
+  }
 
-//       <div>
-//         <p className="mt-5">
-//           Here are the key strategies for effectively navigating the growth
-//           phase of your business:
-//         </p>
-//         <h5 className="mb-3" style={{ color: "#494B5C" }}>
-//           Solidify Your Core Values and Vision
-//         </h5>
-//         <p>
-//           As your business grows, it becomes increasingly important to ensure
-//           that your original vision and company values are preserved. While
-//           expansion and scaling require adjustments in processes, culture, and
-//           roles, staying true to the ethos that defined your startup will ensure
-//           a unified direction for your team. Clear communication of your values
-//           will help guide decision-making as the company grows and diversifies.
-//         </p>
-//         <p>
-//           <strong style={{ color: "#494B5C" }}>Tip:</strong> Establish a mission
-//           statement that resonates across the organization. Revisit your core
-//           values regularly and ensure they align with your scaling goals.
-//         </p>{" "}
-//         <h5 className="mb-3" style={{ color: "#494B5C" }}>
-//           Optimize Operations and Processes
-//         </h5>
-//         <p>
-//           In the early days of a startup, it's common to rely on a lean and
-//           flexible approach to operations. However, when scaling, the same
-//           informal methods that worked when your team was small will no longer
-//           be sufficient. Optimizing processes, adopting new tools, and
-//           automating where possible will help you manage the increased workload
-//           while maintaining quality and efficiency.
-//         </p>
-//         <p>
-//           <strong style={{ color: "#494B5C" }}>Tip:</strong> Invest in software
-//           or systems that can scale with you. Think CRM systems, inventory
-//           management tools, and project management platforms.
-//         </p>{" "}
-//         <h5 className="mb-3" style={{ color: "#494B5C" }}>
-//           Focus on Customer Retention and Experience
-//         </h5>
-//         <p>
-//           As you scale, it’s easy to focus on acquiring new customers. However,
-//           retaining existing customers should be a priority. A strong customer
-//           retention strategy, built around delivering exceptional experiences,
-//           will not only improve your lifetime value per customer but also
-//           generate referrals, which are crucial during the growth phase.
-//         </p>
-//         <p>
-//           <strong style={{ color: "#494B5C" }}>Tip:</strong> Collect and act on
-//           customer feedback regularly. Use this data to refine your offerings
-//           and improve the overall customer journey.
-//         </p>{" "}
-//         <h5 className="mb-3" style={{ color: "#494B5C" }}>
-//           Final Thoughts
-//         </h5>
-//         <p>
-//           The transition from startup to scale-up is a delicate balancing act.
-//           By solidifying your core values, optimizing operations, and nurturing
-//           customer relationships, you lay the groundwork for scalable, long-term
-//           success. A strong team, disciplined financial management, and a keen
-//           eye on innovation will help you stay competitive and adaptable as you
-//           grow. Remember, scaling is not just about growth in size—it’s about
-//           fostering sustainable practices that will allow your business to
-//           thrive in a rapidly changing marketplace.
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
+  return null;
+};
 
-// Updated FullBlogPost component
-// const FullBlogPost = ({ content }) => {
-//   return (
-//     <div className="container py-4">
-//       {/* Introduction Section */}
-//       <h3 className="mb-4">Introduction</h3>
-//       <div className="row align-items-center mb-5">
-//         <div>
-//           <p>{content.introduction}</p>
-//         </div>
-//       </div>
-//       {/* Main Image */}
-//       <div>
-//         <img
-//           src={content.mainImage}
-//           alt="Introduction Image"
-//           className="img-fluid"
-//           style={{ width: "100%", objectFit: "cover" }}
-//         />
-//       </div>
-//       {/* Dynamic Sections */}
-//       <div>
-//         <p className="mt-5">
-//           Here are the key strategies for effectively navigating the growth
-//           phase of your business:
-//         </p>
-//         {content.sections.map((section, index) => (
-//           <div key={index}>
-//             <h5 className="mb-3" style={{ color: "#494B5C" }}>
-//               {section.heading}
-//             </h5>
-//             <p>{section.text}</p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-const FullBlogPost = ({ introductionTitle, introductionText }) => {
+const FullBlogPost = ({
+  introductionTitle,
+  introText1,
+  introText2,
+  introText3,
+  introText4,
+  fullblogimg,
+  services,
+  competitiveEdge,
+  callToAction,
+  engagement,
+  sources,
+}) => {
   return (
     <div className="container py-4">
       {/* Introduction Section */}
       {/* <h3 className="mb-4">{fullcontent.introductionTitle}</h3> */}
-      <div className="row align-items-center mb-5">
+      <div className="row align-items-center my-3">
         <div>
-          <p>{introductionTitle}</p>
+          <h4>{introductionTitle}</h4>
+          <p>{introText1}</p>
+          <p>{introText2}</p>
+          <p>{introText3}</p>
+          <p>{introText4}</p>
         </div>
       </div>
 
       {/* Main Image */}
-      {/* {fullcontent.mainImage && (
+      {fullblogimg && (
         <div>
           <img
-            src={fullcontent.mainImage}
+            src={fullblogimg}
             alt="Introduction Image"
             className="img-fluid"
             style={{ width: "100%", objectFit: "cover" }}
           />
         </div>
-      )} */}
+      )}
 
       {/* Dynamic Services or Sections */}
-      {/* <div>
+      <div>
         <p className="mt-5">
           Here are the key strategies for effectively navigating the growth
           phase of your business:
         </p>
-        {fullcontent.sections.map((section, index) => (
+        {services.map((service, index) => (
           <div key={index}>
-            <h5 className="mb-3" style={{ color: "#494B5C" }}>
-              {section.heading}
-            </h5>
-            <p>{section.description}</p>
-            {section.bullets && (
-              <ul>
-                {section.bullets.map((bullet, idx) => (
-                  <li key={idx}>{bullet}</li>
-                ))}
-              </ul>
-            )}
-            {section.source && (
-              <p style={{ fontStyle: "italic", color: "#666" }}>
-                {section.source}
-              </p>
-            )}
+            <h4>{service.title}</h4>
+            {service.subtitle && <h5>{service.subtitle}</h5>}
+            <p>{service.description}</p>
+            <ul>
+              {service.bullets.map((bullet, i) => (
+                <li key={i}>{bullet}</li>
+              ))}
+            </ul>
+            <p>
+              <strong>Source:</strong> {service.source}
+            </p>
           </div>
         ))}
-      </div> */}
+      </div>
 
       {/* Competitive Edge Section */}
-      {/* {fullcontent.competitiveEdge && (
+      {competitiveEdge && (
         <div className="mt-5">
-          <h4>{fullcontent.competitiveEdge.title}</h4>
+          <h4>{competitiveEdge.title}</h4>
           <ul>
-            {fullcontent.competitiveEdge.points.map((point, idx) => (
+            {competitiveEdge.points.map((point, idx) => (
               <li key={idx}>{point}</li>
             ))}
           </ul>
         </div>
-      )} */}
+      )}
 
       {/* Call-to-Action Section */}
-      {/* {fullcontent.callToAction && (
+      {/* {callToAction && (
         <div className="mt-5">
-          <h4>{fullcontent.callToAction.title}</h4>
-          <p>{fullcontent.callToAction.text}</p>
+          <h4>{callToAction.title}</h4>
+          <p>{callToAction.text}</p>
           <ul>
-            {fullcontent.callToAction.actions.map((action, idx) => (
+            {callToAction.actions.map((action, idx) => (
               <li key={idx}>{action}</li>
             ))}
           </ul>
         </div>
       )} */}
+      {callToAction && (
+        <div className="mt-5">
+          <h4>{callToAction.title}</h4>
+          <p>{callToAction.text}</p>
+          <ul>
+            {callToAction.actions.map((action, idx) =>
+              renderAction(action, idx)
+            )}
+          </ul>
+        </div>
+      )}
 
       {/* Engagement Section */}
-      {/* {fullcontent.engagement && (
+      {engagement && (
         <div className="mt-5">
-          <h5>{fullcontent.engagement.prompt}</h5>
-          <p>{fullcontent.engagement.text}</p>
+          <h5>{engagement.prompt}</h5>
+          <p>{engagement.text}</p>
         </div>
-      )} */}
+      )}
 
       {/* Sources Section */}
-      {/* {fullcontent.sources && fullcontent.sources.length > 0 && (
+      {sources && sources.length > 0 && (
         <div className="mt-5">
           <h6>Sources</h6>
           <ul>
-            {fullcontent.sources.map((source, idx) => (
+            {sources.map((source, idx) => (
               <li key={idx}>{source}</li>
             ))}
           </ul>
         </div>
-      )} */}
+      )}
     </div>
   );
 };
