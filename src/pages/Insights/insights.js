@@ -7,6 +7,7 @@ import blog from "../../assets/images/insights/blog.png";
 import dropdownicon from "../../assets/images/insights/dropdownicon.png";
 import blogcard1 from "../../assets/images/insights/blogcard1.png";
 import blogcard2 from "../../assets/images/insights/blogcard2.png";
+import blogcard3 from "../../assets/images/insights/blogcard3.png";
 import arrowdown from "../../assets/images/insights/arrowdown.png";
 import searchicon from "../../assets/images/insights/searchicon.png";
 import { HomepageNav } from "../../components/Navbar";
@@ -265,34 +266,25 @@ const BlogSection = () => {
     {
       id: 1,
       category: "Startup",
-      date: "March 25, 2021",
-      readTime: "4 min read",
+      date: "April 4, 2025",
+      readTime: "5 min read",
       title:
-        "The Future of Business Efficiency: A Closer Look at 8thGear’s Transformational Services",
+        "From Startup to Scale-Up: Key Strategies for Navigating the Growth Phase",
       image: blogcard1,
       content: "This is the full blog content for the first post...",
       author: "Adekoya Boluwatife",
     },
-    // {
-    //   id: 2,
-    //   category: "Startup",
-    //   date: "March 26, 2021",
-    //   readTime: "5 min read",
-    //   title: "Unlock Business Growth with 8thGear’s Growth-as-a-Service (GaaS)",
-    //   image: blogcard2,
-    //   content: "This is the full blog content for the second post...",
-    //   author: "Adekoya Boluwatife",
-    // },
-    // {
-    //   id: 3,
-    //   category: "Startup",
-    //   date: "March 25, 2021",
-    //   readTime: "4 min read",
-    //   title: "Venture Building Success: Strategies for Startups to Scale-ups",
-    //   image: blogcard1,
-    //   content: "This is the full blog content for the first post...",
-    //   author: "Adekoya Boluwatife",
-    // },
+    {
+      id: 2,
+      category: "Startup",
+      date: "April 4, 2025",
+      readTime: "5 min read",
+      title:
+        "The Future of Business Efficiency: A Closer Look at 8thGear’s Transformational Services.",
+      image: blogcard2,
+      content: "This is the full blog content for the second post...",
+      author: "Adekoya Boluwatife",
+    },
   ];
 
   const filteredBlogPosts = selectedFilter
@@ -300,7 +292,7 @@ const BlogSection = () => {
     : blogPosts;
 
   return (
-    <div className="container mt-2">
+    <div className="container mt-5">
       {/* Filter Dropdown */}
       <select
         className="form-select"

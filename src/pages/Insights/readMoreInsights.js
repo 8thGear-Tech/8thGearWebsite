@@ -267,13 +267,9 @@ const FullBlogPost = ({
 
       {/* Dynamic Services or Sections */}
       <div>
-        <p className="mt-5">
-          Here are the key strategies for effectively navigating the growth
-          phase of your business:
-        </p>
         {services.map((service, index) => (
           <div key={index}>
-            <h4>{service.title}</h4>
+            <h4 className="mt-4">{service.title}</h4>
             {service.subtitle && <h5>{service.subtitle}</h5>}
             <p>{service.description}</p>
             <ul>
@@ -281,9 +277,7 @@ const FullBlogPost = ({
                 <li key={i}>{bullet}</li>
               ))}
             </ul>
-            <p>
-              <strong>Source:</strong> {service.source}
-            </p>
+            <p>{service.source}</p>
           </div>
         ))}
       </div>
