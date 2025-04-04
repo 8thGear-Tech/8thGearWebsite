@@ -84,6 +84,20 @@ export const NewFooter = () => {
                 </li>
               </ul>
             </div>
+            <div className="">
+              {" "}
+              <ul className="nav">
+                <li className="nav-item">
+                  <Link
+                    to="/insights"
+                    className="nav-link px-2 footerText"
+                    style={{ fontSize: "0.8rem" }}
+                  >
+                    BLOG
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </footer>
         <footer className="d-flex flex-wrap justify-content-between align-items-center">
