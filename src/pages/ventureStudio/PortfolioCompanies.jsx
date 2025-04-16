@@ -60,7 +60,7 @@ const PortfolioCompanies = () => {
         <p>
           We transform problems into solutions, spin them off as ventures, and
           build sustainable businesses. Currently we have 6 portfolio companies
-          with 4 spun-off, aiming for 5 spin-offs by the end of 2024.
+          with 4 spun-off, aiming for 5 spin-offs by the end of 2025.
         </p>
       </div>
       <div className="my-3 container">
