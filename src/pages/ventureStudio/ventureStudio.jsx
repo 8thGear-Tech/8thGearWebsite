@@ -5,12 +5,15 @@ import HowWeDoIt from "./howWeDoIt";
 import ImpactMetrics from "./impactMetrics";
 import PortfolioCompanies from "./PortfolioCompanies";
 import { ApplyNowBtn } from "./Button";
-import { Document, Page, pdfjs } from 'react-pdf';
-import { EmbedPDF } from '@simplepdf/react-embed-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import { Document, Page, pdfjs } from "react-pdf";
+import { EmbedPDF } from "@simplepdf/react-embed-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./ventureStudio.css";
-
-
+import IRE1 from "../../assets/images/venture-studio/IRE1.jpg";
+import IRE2 from "../../assets/images/venture-studio/IRE2.jpg";
+import IRE3 from "../../assets/images/venture-studio/IRE3.jpg";
+import IRE4 from "../../assets/images/venture-studio/IRE4.jpg";
+import IRE5 from "../../assets/images/venture-studio/IRE5.jpg";
 
 // Required setup for PDF.js worker
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`;
@@ -21,56 +24,73 @@ const VentureStudio = () => {
       <div>
         <Hero />
       </div>
-      <div className="container mb-5"  style={{ marginTop: '0' }}>
-      <div className="pdf-container">
-          {/* <embed
-            src="/pdfs/IRE_Curriculum&Content.pdf"
-            type="application/pdf"
-            className="responsive-pdf"
-          /> */}
 
-<iframe
+      <div className="container d-flex flex-column align-items-center">
+        <img
+          src={IRE1}
+          alt="IRE"
+          className="img-fluid mb-4"
+          style={{
+            maxWidth: "500px",
+            width: "100%",
+            borderRadius: "12px",
+            objectFit: "cover",
+          }}
+        />
+        <img
+          src={IRE2}
+          alt="IRE"
+          className="img-fluid mb-4"
+          style={{
+            maxWidth: "500px",
+            width: "100%",
+            borderRadius: "12px",
+            objectFit: "cover",
+          }}
+        />
+        <img
+          src={IRE3}
+          alt="IRE"
+          className="img-fluid mb-4"
+          style={{
+            maxWidth: "500px",
+            width: "100%",
+            borderRadius: "12px",
+            objectFit: "cover",
+          }}
+        />
+        <img
+          src={IRE4}
+          alt="Portfolio Image 4"
+          className="img-fluid mb-4"
+          style={{
+            maxWidth: "500px",
+            width: "100%",
+            borderRadius: "12px",
+            objectFit: "cover",
+          }}
+        />
+        <img
+          src={IRE5}
+          alt="IRE"
+          className="img-fluid mb-4"
+          style={{
+            maxWidth: "500px",
+            width: "100%",
+            borderRadius: "12px",
+            objectFit: "cover",
+          }}
+        />
+      </div>
+      {/* <div className="container mb-5" style={{ marginTop: "0" }}>
+        <div className="pdf-container">
+          <iframe
             src="pdfs/IRE_Curriculum&Content.pdf"
             className="responsive-iframe"
             title="PDF Viewer"
           />
         </div>
-
-      {/* <embed
-          src="/pdfs/IRE_Curriculum&Content.pdf"
-          type="application/pdf"
-          width="100%"
-          height="1000px"
-        /> */}
-
-      {/* <embed 
-          src="/pdfs/IRE_Curriculum&Content.pdf" 
-          type="application/pdf"
-          className="w-full h-96"
-        /> */}
-      {/* <iframe
-          src="/pdfs/IRE_Curriculum&Content.pdf#toolbar=0&navpanes=0&scrollbar=0" 
-          className="w-full lg:w-4/5 mx-auto h-screen"
-          style={{ minHeight: "800px" }}
-          title="PDF Document"
-        ></iframe> */}
-         {/* <object
-          data="/pdfs/IRE_Curriculum&Content.pdf"
-          type="application/pdf"
-          className="w-full md:w-4/5 mx-auto"
-          style={{ height: "80vh", minHeight: "500px" }}
-        ></object> */}
-         {/* <embed 
-          src="/pdfs/IRE_Curriculum&Content.pdf" 
-          type="application/pdf"
-          className="w-full h-screen" 
-          style={{ minHeight: "800px" }}
-        /> */}
-      {/* <Document file="/pdfs/IRE_Curriculum&Content.pdf">
-          <Page pageNumber={1} />
-        </Document> */}
-        {/* <PDFSection/> */}
-      </div>
+      </div> */}
       <div className="text-center">
         <ApplyNowBtn buttonText={"Apply Now"} />
       </div>
@@ -121,6 +141,5 @@ const PDFSection = () => {
     </div>
   );
 };
-
 
 export default VentureStudio;
