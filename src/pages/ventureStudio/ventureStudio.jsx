@@ -20,30 +20,31 @@ const VentureStudio = () => {
       <div>
         <Hero />
       </div>
-      <div className="w-full px-0 my-5">
+      <div className="container my-5">
+
+      <embed
+          src="/pdfs/IRE_Curriculum&Content.pdf"
+          type="application/pdf"
+          width="100%"
+          height="1000px"
+        />
+
+      {/* <embed 
+          src="/pdfs/IRE_Curriculum&Content.pdf" 
+          type="application/pdf"
+          className="w-full h-96"
+        /> */}
       {/* <iframe
           src="/pdfs/IRE_Curriculum&Content.pdf#toolbar=0&navpanes=0&scrollbar=0" 
           className="w-full lg:w-4/5 mx-auto h-screen"
           style={{ minHeight: "800px" }}
           title="PDF Document"
         ></iframe> */}
-         <div className="relative w-full center">
-        <div className="absolute left-0 right-0" style={{ width: "100vw", marginLeft: "calc(-50vw + 50%)" }}>
-          <object
-            data="/pdfs/IRE_Curriculum&Content.pdf#toolbar=0"
-            type="application/pdf"
-            className="w-full"
-            style={{ height: "90vh", minHeight: "700px" }}
-          >
-            <p>Your browser doesn't support embedded PDFs.</p>
-          </object>
-        </div>
-      </div>
          {/* <object
           data="/pdfs/IRE_Curriculum&Content.pdf"
           type="application/pdf"
           className="w-full md:w-4/5 mx-auto"
-          style={{ height: "90vh", minHeight: "600px" }}
+          style={{ height: "80vh", minHeight: "500px" }}
         ></object> */}
          {/* <embed 
           src="/pdfs/IRE_Curriculum&Content.pdf" 
