@@ -6,19 +6,19 @@ const ImpactMetrics = () => {
     <div className="text-center w-75 mx-auto">
       <h3 className="py-3 purple-text">IMPACT METRICS</h3>
       <div className="row">
-        <div className="col-6 col-sm-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <h2>75%</h2>
           <p>Have Female Co-owners</p>
         </div>
-        <div className="col-6 col-sm-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <h2>240</h2>
           <p>Mentorship Hours</p>
         </div>
-        <div className="col-6 col-sm-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <h2>12</h2>
           <p>Portfolio Businesses</p>
         </div>
-        <div className="col-6 col-sm-3">
+        <div className="col-lg-3 col-md-6 col-sm-12">
           <h2>20</h2>
           <p>Jobs Created</p>
         </div>

@@ -13,20 +13,35 @@ const VentureStudio = () => {
         <Hero />
       </div>
       <div className="container my-5">
+       {/* <iframe
+  src="/pdfs/IRE_Curriculum&Content.pdf"
+  width="100%"
+  height="800px"
+  style={{
+    border: 'none',
+    outline: 'none',
+    margin: 0,
+    padding: 0,
+  }}
+  title="Embedded PDF"
+/> */}
+
+<embed
+  src="/pdfs/IRE_Curriculum&Content.pdf"
+  type="application/pdf"
+  width="100%"
+  height="800"
+  style={{ border: 'none', margin: 0, padding: 0 }}
+/>
+
+
         {/* <iframe
-          src="/pdfs/IRE _Curriculum&Content.pdf"
-          width="100%"
-          height="800px"
-          style={{ border: 'none' }}
-          title="Embedded PDF"
-        /> */}
-        <iframe
           src="/pdfs/IRE_Curriculum&Content.pdf#toolbar=0&navpanes=0&scrollbar=0"
           width="100%"
           height="800"
           style={{ border: "none" }}
           title="Inline PDF"
-        />
+        /> */}
       </div>
       <div className="text-center">
         <ApplyNowBtn buttonText={"Apply Now"} />
