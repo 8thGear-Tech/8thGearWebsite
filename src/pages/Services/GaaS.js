@@ -1,15 +1,4 @@
-// import { OurImpactIcon } from "../../components/Icons";
-// import { WhatWeDoIcon } from "../../components/Icons";
-// import { StartIcon } from "../../components/Icons";
-// import { BuildIcon } from "../../components/Icons";
-// import { ScaleIcon } from "../../components/Icons";
-// import { AdvisoryIcon } from "../../components/Icons";
-// import { NetworkingIcon } from "../../components/Icons";
-// import { GrowthStrategyIcon } from "../../components/Icons";
-// import { DealManagementIcon } from "../../components/Icons";
 import { HomepageNav, Navbar9 } from "../../components/Navbar";
-// import { BookaFreeSessionBtn } from "../../components/Buttons/ServicesBtn";
-// import { GaaSHero } from "../../components/Hero/ImageandTextHero";
 import "../Services/css/GaaS.css";
 
 const GrowthAsAservice = () => {

@@ -47,7 +47,7 @@ const PortfolioCompanies = () => {
     {
       imgLink: "/images/everythingMeat.png",
       headText: "Everything Meat",
-      p1: "Haven Edu-Services is an extra-curricular childhood educational organization focused on providing training content related to Technology, Languages, and Arts for children/Pre-teenagers ages 4-16.",
+      p1: "Everything Meat is an e-commerce platform that connects buyers and sellers of freshly butchered livestock. It provides a seamless marketplace for smooth transactions, ensuring easy access to high-quality meat products.",
       ps1: "Food Tech",
       ps2: "Lagos",
       ps3: "2024",

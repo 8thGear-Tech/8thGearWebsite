@@ -1,760 +1,590 @@
 //images
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import { Accordion, Container, Row, Col } from "react-bootstrap";
+import { FiPhone, FiMail } from "react-icons/fi"; // Feather icons
 import "../sassfiles/components/_footer.scss";
 import XLogo from "../assets/icons/XLogo.png";
+import { FaXTwitter } from "react-icons/fa6";
+
+import "./newFooter.css";
 
 export const NewFooter = () => {
   return (
-    <>
-      <div className="container-fluid px-lg-5">
-        <footer className="d-flex flex-wrap justify-content-between align-items-center py-1 my-4 border-bottom">
-          {/* <div></div> */}
-          <div className="d-flex col-lg-4">
-            {" "}
-            <Link to="/">
-              {" "}
-              <img className="" src={logo} width={60} height={70} alt="" />
-            </Link>
-            {/* <p className=" col-md-6 mb-0 text-muted">&copy; 2022 Company, Inc</p> */}
-          </div>
-          <div className="d-lg-flex justify-content-end col-lg-8 col-md-12">
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <Link
-                    to="/"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+    <footer style={{ backgroundColor: "#F2E9EE" }}>
+      <Container className="py-5 mt-5">
+        <div className="d-none d-lg-block">
+          <Row className="mb-4">
+            <Col lg={2} className="mb-3">
+              <img src={logo} alt="Brand Logo" style={{ width: "150px" }} />
+            </Col>
+            <Col lg={4} className="mb-3">
+              <p className="text-dark" style={{ fontSize: "0.9rem" }}>
+                8thGear is your trusted partner in venture building, guiding
+                startups and businesses towards sustainable growth and success,
+                developing a thriving ecosystem for enterpreneurs
+              </p>
+              <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
+                <FiPhone className="me-2" style={{ color: "#008261" }} />
+                <span>
+                  <a
+                    href="tel:2348094818883"
+                    className="me-2 text-dark text-decoration-none"
+                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                   >
-                    HOME
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    to="/talent-placement"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    +2348094818883
+                  </a>
+                  <a
+                    href="tel:2348094818882"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                   >
-                    TALENT PLACEMENT
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    to="/coworking"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    COWORKING
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    to="/growth-advisory"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    GROWTH ADVISORY
-                  </Link>
-                </li>{" "}
-                <li className="nav-item">
-                  <Link
-                    to="/builders-collective"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    BUILDERS COLLECTIVE
-                  </Link>
-                </li>
-              </ul>
-            </div>
+                    +2348094818882
+                  </a>
+                </span>
+              </p>
 
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <Link
-                    to="/projects"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+              <p className="text-dark mb-3" style={{ fontSize: "0.85rem" }}>
+                <FiMail className="me-2" style={{ color: "#008261" }} />
+                <span className="text-dark">
+                  <a
+                    href="mailto:info@8thgearpartners.com"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                   >
-                    PROJECTS
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <Link
-                    to="/insights"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    BLOG
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-        <footer className="d-flex flex-wrap justify-content-between align-items-center">
-          {/* <div></div> */}
-          {/* <div className="d-flex col-lg-4">
-            {" "}
-            <p className=" col-md-6 mb-0 text-muted">&copy; 2022 Company, Inc</p>
-          </div> */}
-          <div className="d-lg-flex justify-content-end col-lg-12 col-md-12">
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <Link
-                    to="/venture-studio"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    VENTURE STUDIO
-                  </Link>
-                </li>
-                <li className="nav-item">
+                    info@8thgearpartners.com
+                  </a>
+                </span>
+              </p>
+              <div className="d-flex">
+                <a
+                  href="https://www.facebook.com/8thgearhub"
+                  className="text-dark me-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-facebook" style={{ color: "#008261" }} />
+                </a>
+                <a
+                  href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
+                  className="text-dark me-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter style={{ color: "#008261" }} />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/company/8thgearhub/"
+                  className="text-dark me-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-linkedin" style={{ color: "#008261" }} />
+                </a>
+                <a
+                  href="https://www.instagram.com/8thgearhub/"
+                  className="text-dark"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="bi bi-instagram" style={{ color: "#008261" }} />
+                </a>
+              </div>
+            </Col>
+            <Col lg={2} className="mb-3">
+              <h5 className="text-dark mb-3">Company</h5>
+              <ul className="list-unstyled">
+                <li>
                   <Link
                     to="/about"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    className="text-dark text-decoration-none fw-light"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    ABOUT
+                    About Us
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li>
                   <Link
-                    to="/events"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    to="/projects"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    EVENTS
+                    Projects &amp; Initiatives
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li>
                   <Link
                     to="/resources"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    RESOURCES
+                    Resources &amp; Materials
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li>
+                  <Link
+                    to="/insights"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Insights &amp; Publications
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/events"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Events
+                  </Link>
+                </li>
+                <li>
                   <Link
                     to="/FAQ"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
                     FAQ
                   </Link>
                 </li>
-                <li className="nav-item">
+              </ul>
+            </Col>
+            <Col lg={2} className="mb-3">
+              <h5 className="text-dark mb-3">Hub Services</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <Link
+                    to="/growth-advisory"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Growth Advisory
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/coworking"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Co-working
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/talent-placement"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Talent Placement
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Tech Marketplace
+                  </Link>
+                </li>
+              </ul>
+            </Col>
+            <Col lg={2} className="mb-3">
+              <h5 className="text-dark mb-3">Our Collective</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <Link
+                    to="/venture-studio"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Venture Studio
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/builders-collective"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                    Builders Collective
+                  </Link>
+                </li>
+                <li>
                   <a
                     href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    JOIN THE 8THGEAR COMMUNITY
-                  </a>
-                </li>
-                {/* <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    MANAGED SERVICES
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    scroll-behavior: smooth="#"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    8THGEAR HUB, LAGOS, NIGERIA
-                  </a>
-                </li> */}
-              </ul>
-            </div>
-
-            <div className="">
-              {" "}
-              <ul className="nav">
-                {/* <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    PROJECT DELIVERY
-                  </a>
-                </li> */}
-                {/* <li className="nav-item">
-                  <Link
-                    to="/hub-services"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    HUB SERVICES
-                  </Link>
-                </li> */}
-                <li className="nav-item">
-                  {/* <a
-                    href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"
-                    target="_blank"
-                    className="addressText d-block text-fluid3"
-                  >
-                    8THGEAR HUB, LAGOS, NIGERIA
-                  </a> */}
-                  <a
-                    href="https://maps.app.goo.gl/DFurq3id3D9i5TrE7"
-                    className="nav-link px-2 footerText text-decoration-underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ fontSize: "0.8rem", color: "#821e6b" }}
-                  >
-                    <b>8THGEAR HUB, LAGOS, NIGERIA</b>
-                  </a>
-                </li>
-                {/* <li className="nav-item">
-                  <a
-                    href="#"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    COWORKING
-                  </a>
-                </li> */}
-              </ul>
-            </div>
-          </div>
-        </footer>
-        <footer className="d-flex flex-wrap justify-content-between align-items-center">
-          <div className="d-lg-flex justify-content-end col-lg-12 col-md-12">
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <a
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem", color: "#821e6b" }}
-                  >
-                    Copyright &copy; 2024
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="/privacy-policy"
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Privacy Policy
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="/terms-and-conditions"
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Terms and Conditions
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="/refund-policy"
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Refund Policy
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="/genderpolicy"
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Gender Policy
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="mailto:info@8thgearpartners.com"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    info@8thgearpartners.com
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="tel:2348094818883"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    080 9481 8883
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="tel:2348094818882"
-                    className="nav-link px-2 footerText"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    080 9481 8882
+                    Community
                   </a>
                 </li>
               </ul>
-            </div>
-
-            <div className="">
-              {" "}
-              <ul className="nav">
-                <li className="nav-item">
-                  <a
-                    href="https://www.facebook.com/8thgearhub"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-facebook text-dark footer__icons"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="https://www.instagram.com/8thgearhub/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-instagram text-dark"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="https://www.linkedin.com/company/8thgearhub/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-linkedin text-dark"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    {/* <img src={XLogo} className="img-fluid mb-5" /> */}
-                    <i className="bi bi-twitter text-dark"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-        <footer className="d-flex flex-wrap justify-content-between align-items-center">
-          <div className="d-lg-flex justify-content-end col-lg-12 col-md-12">
-            <div className="">
-              {" "}
-              <ul className="nav">
-                {/* <li className="nav-item">
-                  <a
-                    href="/privacy-policy"
-                    className="nav-link px-2 footerText internalLink"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    Privacy Policy
-                  </a>
-                </li> */}
-              </ul>
-            </div>
-
-            <div className="">
-              {" "}
-              <ul className="nav">
-                {/* <li className="nav-item">
-                  <a
-                    href="https://www.facebook.com/8thgearhub"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-facebook text-dark footer__icons"></i>
-                  </a>
-                </li> */}
-                {/* <li className="nav-item">
-                  <a
-                    href="https://www.instagram.com/8thgearhub/"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-instagram text-dark"></i>
-                  </a>
-                </li> */}
-                {/* <li className="nav-item">
-                  <a
-                    href="https://www.linkedin.com/company/8thgearhub/"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-linkedin text-dark"></i>
-                  </a>
-                </li> */}
-                <li className="nav-item">
-                  {/* <a
-                    href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
-                    className="nav-link px-2 text-muted"
-                    style={{ fontSize: "0.8rem" }}
-                  >
-                    <i className="bi bi-twitter text-dark"></i>
-                  </a> */}
-                </li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-        {/* <footer className="d-flex flex-wrap justify-content-end align-items-center">
-
-          <ul className="nav col-md-8 justify-content-end">
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                GROWTH AS A SERVICE
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                PORTFOLIO
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                PROJECT DELIVERY
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                MANAGED SERVICES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                8THGEAR HUB, LAGOS, NIGERIA
-              </a>
-            </li>
-          </ul>
-        </footer> */}
-        {/* <footer className="d-flex flex-wrap justify-content-end py-2 align-items-center">
-          <ul className="nav col-md-8 justify-content-end">
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                info@8thgearpartners.com
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                080 9481 8883
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                080 9481 8882
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                <i className="bi bi-facebook text-dark footer__icons"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                <i className="bi bi-instagram text-dark"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                <i className="bi bi-linkedin text-dark"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                <i className="bi bi-twitter text-dark"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                href="#"
-                className="nav-link px-2 text-muted"
-                style={{ fontSize: "0.8rem" }}
-              >
-                <i className="bi bi-at text-dark"></i>
-              </a>
-            </li>
-          </ul>
-        </footer> */}
-      </div>
-    </>
-  );
-};
-
-export const FooterNew = () => {
-  return (
-    <div className="container-fluid mt-0 py-2 ">
-      <div className="d-flex flex-column">
-        {/* BRAND */}
-        <div className="align-items-center py-3 m-auto">
-          <Link to="/">
-            {" "}
-            <img className="" src={logo} width={60} height={70} alt="" />
-          </Link>
+            </Col>
+          </Row>
         </div>
-        {/* Nav-links */}
-        <div className="m-auto w-75 pt-3 pb-1 d-flex justify-content-center footer-links">
-          <ul className="d-flex gap-1 flex-row align-items-center justify-content-evenly flex-wrap w-75 footer-line md:justify-content center sm:px-0 ">
-            {/* HOME */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                HOME
-              </Link>
-            </li>
-            {/* TALENT PLACEMENT */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/talent-placement"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                TALENT PLACEMENT
-              </Link>
-            </li>
-            {/* COWORKING */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/coworking"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                CO-WORKING
-              </Link>
-            </li>
-            {/* GROWTH-ADVISORY */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/growth-as-a-service"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                GROWTH ADVISORY
-              </Link>
-            </li>
-            {/* YOUR COMMUNITY */}
-            <li className="nav-item list-unstyled">
-              {/* COMMUNITY PAGE NEEDED */}
-              <Link
-                to="#"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                YOUR COMMUNITY
-              </Link>
-            </li>
-            {/* PROJECTS */}
+        <div className="d-block d-lg-none">
+          <Row className="mb-4">
+            <Col xs={12}>
+              <div className="d-flex flex-column flex-md-row align-items-start gap-3">
+                <img src={logo} alt="Brand Logo" style={{ width: "150px" }} />
+                <div>
+                  <p className="text-dark" style={{ fontSize: "0.9rem" }}>
+                    8thGear is your trusted partner in venture building, guiding
+                    startups and businesses towards sustainable growth and
+                    success, developing a thriving ecosystem for enterpreneurs
+                  </p>
+                  {/* <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
+                    <FiPhone className="me-2" style={{ color: "#008261" }} />
+                    <span
+                      style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
+                    >
+                      <a
+                        href="tel:2348094818883"
+                        className="me-2 text-decoration-none"
+                      >
+                        +2348094818883
+                      </a>
+                      <a
+                        href="tel:2348094818882"
+                        className="text-dark text-decoration-none"
+                      >
+                        +2348094818882
+                      </a>
+                    </span>
+                  </p> */}
 
-            {/* VENTURE STUDIO */}
-            <li className="nav-item list-unstyled">
-              {/* hub service pagge needed */}
-              <Link
-                to="/hub-services"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                PROJECTS
-              </Link>
-            </li>
-            <li className="nav-item list-unstyled">
-              {/* hub service pagge needed */}
-              <Link
-                to="/hub-services"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                VENTURE STUDIO
-              </Link>
-            </li>
-            {/* ABOUT US */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/about"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                ABOUT US
-              </Link>
-            </li>
-            {/* EVENTS */}
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/events"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                EVENTS
-              </Link>
-            </li>
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/events"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                RESOURCES
-              </Link>
-            </li>
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/events"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                FAQ
-              </Link>
-            </li>
-            <li className="nav-item list-unstyled">
-              <Link
-                to="/events"
-                className="nav-link px-2 footerText"
-                style={{ fontSize: "0.8rem" }}
-              >
-                YOUR COMMUNITY
-              </Link>
-            </li>
-          </ul>
+                  <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
+                    <FiPhone className="me-2" style={{ color: "#008261" }} />
+                    <span>
+                      <a
+                        href="tel:2348094818883"
+                        className="me-2 text-dark text-decoration-none"
+                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
+                      >
+                        +2348094818883
+                      </a>
+                      <a
+                        href="tel:2348094818882"
+                        className="text-dark text-decoration-none"
+                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
+                      >
+                        +2348094818882
+                      </a>
+                    </span>
+                  </p>
+
+                  <p className="text-dark mb-3" style={{ fontSize: "0.85rem" }}>
+                    <FiMail className="me-2" />
+                    <span className="text-dark">
+                      <a
+                        href="mailto:info@8thgearpartners.com"
+                        className="text-dark text-decoration-none"
+                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
+                      >
+                        info@8thgearpartners.com
+                      </a>
+                    </span>
+                  </p>
+                  <div className="d-flex">
+                    <a
+                      href="https://www.facebook.com/8thgearhub"
+                      className="text-dark me-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i
+                        className="bi bi-facebook"
+                        style={{ color: "#008261" }}
+                      />
+                    </a>
+                    <a
+                      href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
+                      className="text-dark me-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaXTwitter style={{ color: "#008261" }} />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/8thgearhub/"
+                      className="text-dark me-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i
+                        className="bi bi-linkedin"
+                        style={{ color: "#008261" }}
+                      />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/8thgearhub/"
+                      className="text-dark"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i
+                        className="bi bi-instagram"
+                        style={{ color: "#008261" }}
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Accordion>
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>Company</Accordion.Header>
+              <Accordion.Body style={{ backgroundColor: "transparent" }}>
+                <ul className="list-unstyled">
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/about"
+                      className="text-dark text-decoration-none fw-light"
+                      style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
+                    >
+                      About Us
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/projects"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Projects &amp; Initiatives
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/resources"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Resources &amp; Materials
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/insights"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Insights &amp; Publications
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/events"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Events
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/FAQ"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      FAQ
+                    </Link>
+                  </li>
+                </ul>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>Hub Services</Accordion.Header>
+              <Accordion.Body style={{ backgroundColor: "transparent" }}>
+                <ul className="list-unstyled">
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/growth-advisory"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Growth Advisory
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/coworking"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Co-working
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/talent-placement"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Talent Placement
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Tech Marketplace
+                    </Link>
+                  </li>
+                </ul>
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="2">
+              <Accordion.Header>Our Collective</Accordion.Header>
+              <Accordion.Body style={{ backgroundColor: "transparent" }}>
+                <ul className="list-unstyled">
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/venture-studio"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Venture Studio
+                    </Link>
+                  </li>
+                  <li
+                    style={{
+                      borderBottom: "1px solid #e0e0e0",
+                      paddingBottom: "0.5rem",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    <Link
+                      to="/builders-collective"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Builders Collective
+                    </Link>
+                  </li>
+                  <li>
+                    <a
+                      href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      Community
+                    </a>
+                  </li>
+                </ul>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
-        {/* LAST ROW */}
-        <div className="d-flex flex-row flex-wrap gap-2 justify-content-center">
-          <p> info@8thgearpartners.com</p>
-          {/* Social Links */}
-          <div>
-            <ul className="nav">
-              <li className="nav-item">
-                <a
-                  href="https://www.facebook.com/8thgearhub"
-                  className="nav-link px-2 text-muted"
-                  style={{ fontSize: "0.8rem" }}
+        <Row>
+          <Col>
+            <div className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start align-items-lg-center mt-4">
+              {/* <div className="d-flex flex-column flex-lg-row align-items-start"> */}
+              <div className="d-flex flex-column flex-lg-row align-items-start text-start">
+                <Link
+                  to="/privacy-policy"
+                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                 >
-                  <i className="bi bi-facebook text-dark footer__icons"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="https://www.instagram.com/8thgearhub/"
-                  className="nav-link px-2 text-muted"
-                  style={{ fontSize: "0.8rem" }}
+                  Privacy Policy
+                </Link>
+                <Link
+                  to="/terms-and-conditions"
+                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                 >
-                  <i className="bi bi-instagram text-dark"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="https://www.linkedin.com/company/8thgearhub/"
-                  className="nav-link px-2 text-muted"
-                  style={{ fontSize: "0.8rem" }}
+                  Terms &amp; Conditions
+                </Link>
+                <Link
+                  to="/refund-policy"
+                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                 >
-                  <i className="bi bi-linkedin text-dark"></i>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
-                  className="nav-link px-2 text-muted"
-                  style={{ fontSize: "0.8rem" }}
+                  Refund Policy
+                </Link>
+                <Link
+                  to="/genderpolicy"
+                  className="text-dark text-decoration-none"
+                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                 >
-                  <i className="bi bi-twitter text-dark"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <p className="px-1">080 9481 8883 | 080 9481 8882</p>
-          <p className="px-1">8thGear Hub</p>
-        </div>
-      </div>
-    </div>
+                  Gender Policy
+                </Link>
+              </div>
+              <p
+                className="mb-2 mb-lg-0 text-dark text-start"
+                style={{ fontSize: "0.85rem" }}
+              >
+                © 2025 8thGear Hub. All rights reserved.
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 };

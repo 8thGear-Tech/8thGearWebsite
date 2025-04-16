@@ -1,11 +1,11 @@
 {
   "teamcardone": [
     {
-      "image1": "../../images/team/lorretta.png",
-      "name1": "LORETTA UDEMBA",
-      "title1": "HR & TALENT MANAGER",
-      "id": "staticBackdrop1",
-      "link": "https://www.linkedin.com/in/lorrettaudemba/"
+      "image1": "../../images/team/oluwatobi-new.jpg",
+      "name1": "OLUWATOBILOBA ADEBOLA",
+      "title1": "BUSINESS DEV. EXEC.",
+      "id": "staticBackdrop2",
+      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
   "teamcardtwo": [
@@ -19,6 +19,33 @@
   ],
   "teamcardthree": [
     {
+      "image1": "../../images/team/temiloluwa-new.png",
+      "name1": "TEMILOLUWA ERISAN",
+      "title1": "FINANCE & ACC. EXEC.",
+      "id": "staticBackdrop4",
+      "link": "https://www.linkedin.com/in/temiloluwa-erisan-520b83163/"
+    }
+  ],
+  "teamcardfour": [
+    {
+      "image1": "../../images/team/rantimi-new.png",
+      "name1": "RANTIMI AJIBODE",
+      "title1": "COMMS. LEAD",
+      "id": "staticBackdrop4",
+      "link": "https://www.linkedin.com/in/rantimi-ajibode-8889b515a/"
+    }
+  ],
+"teamcardfive": [
+    {
+      "image1": "../../images/team/oluwatosin-new.jpg",
+      "name1": "OLUWATOSIN ADESANWO",
+      "title1": "HR & TALENT MANAGER",
+      "id": "staticBackdrop1",
+      "link": "https://www.linkedin.com/in/oluwatosin-adesanwo-807235199/"
+    }
+  ],
+  "teamcardsix": [
+    {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
       "title1": "TECH LEAD",
@@ -26,16 +53,6 @@
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
-  "teamcardfour": [
-    {
-      "image1": "../../images/team/hakeem.png",
-      "name1": "HAKEEM IDRIS",
-      "title1": "FINANCE & ACC. EXECUTIVE",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/hakeemidris010/"
-    }
-  ],
-
   "EIRcard": [
     {
       "image1": "../../images/team/seunoladele.jpg",

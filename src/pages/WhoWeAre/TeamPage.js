@@ -17,7 +17,7 @@ const TeamPage = () => {
       {/* <Navbar11 /> */}
       {/* <TeamHero /> */}
       {/* <OurTeamHero /> */}
-      <Gerians />
+      {/* <Gerians /> */}
       {/* <EIR /> */}
       <AdvisoryTeamPic />
       <JointheTeam />

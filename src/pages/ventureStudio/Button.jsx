@@ -14,5 +14,18 @@ const Button = ({ buttonText }) => {
     </div>
   );
 };
+export const ApplyNowBtn = ({ buttonText }) => {
+  return (
+    <div>
+      <a
+        href="https://bit.ly/Entre_Training"
+        target="_blank" rel="noopener noreferrer"
+      >
+        {" "}
+        <button className="btn ventureStudioBtn">{buttonText}</button>
+      </a>
+    </div>
+  );
+};
 
 export default Button;

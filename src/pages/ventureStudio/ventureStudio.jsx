@@ -4,6 +4,7 @@ import CoreServices from "./coreServices";
 import HowWeDoIt from "./howWeDoIt";
 import ImpactMetrics from "./impactMetrics";
 import PortfolioCompanies from "./PortfolioCompanies";
+import { ApplyNowBtn } from "./Button";
 
 const VentureStudio = () => {
   return (
@@ -11,6 +12,26 @@ const VentureStudio = () => {
       <div>
         <Hero />
       </div>
+      <div className="container my-5">
+        {/* <iframe
+          src="/pdfs/IRE _Curriculum&Content.pdf"
+          width="100%"
+          height="800px"
+          style={{ border: 'none' }}
+          title="Embedded PDF"
+        /> */}
+        <iframe
+          src="/pdfs/IRE_Curriculum&Content.pdf#toolbar=0&navpanes=0&scrollbar=0"
+          width="100%"
+          height="800"
+          style={{ border: "none" }}
+          title="Inline PDF"
+        />
+      </div>
+      <div className="text-center">
+        <ApplyNowBtn buttonText={"Apply Now"} />
+      </div>
+
       <div className="d-flex justify-content-center my-5 pt-1 px-3">
         <div className="text-center col-lg-9">
           {/* <div className="text-center my-5 pt-2 px-3 col-lg-6"> */}
