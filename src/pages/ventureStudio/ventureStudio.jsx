@@ -8,6 +8,7 @@ import { ApplyNowBtn } from "./Button";
 import { Document, Page, pdfjs } from 'react-pdf';
 import { EmbedPDF } from '@simplepdf/react-embed-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import "./ventureStudio.css";
 
 
 
@@ -20,14 +21,27 @@ const VentureStudio = () => {
       <div>
         <Hero />
       </div>
-      <div className="container my-5">
+      <div className="container mb-5"  style={{ marginTop: '0' }}>
+      <div className="pdf-container">
+          {/* <embed
+            src="/pdfs/IRE_Curriculum&Content.pdf"
+            type="application/pdf"
+            className="responsive-pdf"
+          /> */}
 
-      <embed
+<iframe
+            src="pdfs/IRE_Curriculum&Content.pdf"
+            className="responsive-iframe"
+            title="PDF Viewer"
+          />
+        </div>
+
+      {/* <embed
           src="/pdfs/IRE_Curriculum&Content.pdf"
           type="application/pdf"
           width="100%"
           height="1000px"
-        />
+        /> */}
 
       {/* <embed 
           src="/pdfs/IRE_Curriculum&Content.pdf" 
