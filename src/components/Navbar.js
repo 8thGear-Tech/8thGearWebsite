@@ -95,11 +95,11 @@ const NavBar = (props) => {
                 </NavDropdown.Item>
               </NavDropdown>{" "}
               <Nav.Link
-                href="/projects"
+                href="/initiatives"
                 className="mx-3 mb-4"
                 style={{ fontSize: "1.2rem", fontWeight: "300" }}
               >
-                Projects
+                Initiatives
               </Nav.Link>
               <NavDropdown
                 title="Venture Studio"
@@ -1221,8 +1221,8 @@ export const HomepageNav = () => {
                           </NavDropdown.Item>
                         </div>
                       </NavDropdown>
-                      <Nav.Link href="/projects" className="Nav-item">
-                        Projects
+                      <Nav.Link href="/initiatives" className="Nav-item">
+                        Initiatives
                       </Nav.Link>
                       <Nav.Link href="/venture-studio" className="Nav-item">
                         Venture Studio
@@ -1259,7 +1259,7 @@ export const HomepageNav = () => {
                       Builders Collective
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/projects">Projects</Nav.Link>
+                  <Nav.Link href="/initiatives">Initiatives</Nav.Link>
                   <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>

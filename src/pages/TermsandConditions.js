@@ -72,7 +72,7 @@ export const TermsAndConditions = () => {
           For any questions or concerns regarding these terms and conditions,
           please contact us at{" "}
           <a href="mailto:info@8thgearpartners.com">info@8thgearpartners.com</a>{" "}
-          / <a href="tel:+2348094818883">+2348094818883</a>
+          / <a href="tel:+2349132462410">+234 913 246 2410</a>
           <br />
         </p>
         <p>

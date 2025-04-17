@@ -52,7 +52,7 @@ export default function NewNavbar() {
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action1">Projects</Nav.Link>
+                  <Nav.Link href="#action1">Initiatives</Nav.Link>
                   <Nav.Link href="#action2">Venture Studio</Nav.Link>
                   <Nav.Link href="#action2">About Us</Nav.Link>
                   <Nav.Link href="#action2"></Nav.Link>

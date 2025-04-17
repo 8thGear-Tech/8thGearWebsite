@@ -110,17 +110,12 @@ export const Footer = () => {
             </a>
 
             <a
-              href="tel:2348094818883"
+              href="tel:2349132462410"
               className="footerTextDecoration text-fluid3 me-3 remove__ml"
             >
-              080 9481 8883
+              +234 913 246 2410
             </a>
-            <a
-              href="tel:23408094818882"
-              className="footerTextDecoration d-block text-fluid3 me-3 remove__ml"
-            >
-              080 9481 8882
-            </a>
+
             <div className="footericonsize   d-none d-md-block d-lg-block  ">
               <FooterIcon />
             </div>

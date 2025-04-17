@@ -111,7 +111,7 @@ function App() {
           <Route path="haven" element={<HavenPortfolioPage />} />
           <Route path="legalmo" element={<LegalMoPortfolioPage />} />
           <Route path="trulance" element={<TrulancePortfolioPage />} />
-          <Route path="projects" element={<ProjectDeliveryPage />} />
+          <Route path="initiatives" element={<ProjectDeliveryPage />} />
           <Route
             path="project-delivery-gallery"
             element={<ProjectDeliveryGalleryPage />}

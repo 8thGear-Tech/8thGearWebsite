@@ -81,7 +81,7 @@ const MainPage = () => {
         </div>
         <div className="d-flex justify-content-center">
           <p>
-            <b>080 9481 8883 | 080 9481 8882</b>{" "}
+            <b>+234 913 246 2410</b>
           </p>
         </div>
       </div>

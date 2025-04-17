@@ -28,18 +28,11 @@ export const NewFooter = () => {
                 <FiPhone className="me-2" style={{ color: "#008261" }} />
                 <span>
                   <a
-                    href="tel:2348094818883"
+                    href="tel:2349132462410"
                     className="me-2 text-dark text-decoration-none"
                     style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                   >
-                    +2348094818883
-                  </a>
-                  <a
-                    href="tel:2348094818882"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                  >
-                    +2348094818882
+                    +234 913 246 2410
                   </a>
                 </span>
               </p>
@@ -106,11 +99,11 @@ export const NewFooter = () => {
                 </li>
                 <li>
                   <Link
-                    to="/projects"
+                    to="/initiatives"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    Projects &amp; Initiatives
+                    Initiatives
                   </Link>
                 </li>
                 <li>
@@ -245,10 +238,10 @@ export const NewFooter = () => {
                       style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                     >
                       <a
-                        href="tel:2348094818883"
+                        href="tel:2349132462410"
                         className="me-2 text-decoration-none"
                       >
-                        +2348094818883
+                      +234 913 246 2410
                       </a>
                       <a
                         href="tel:2348094818882"
@@ -263,18 +256,11 @@ export const NewFooter = () => {
                     <FiPhone className="me-2" style={{ color: "#008261" }} />
                     <span>
                       <a
-                        href="tel:2348094818883"
+                        href="tel:+2349132462410"
                         className="me-2 text-dark text-decoration-none"
                         style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
                       >
-                        +2348094818883
-                      </a>
-                      <a
-                        href="tel:2348094818882"
-                        className="text-dark text-decoration-none"
-                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                      >
-                        +2348094818882
+                        +234 913 246 2410
                       </a>
                     </span>
                   </p>
@@ -366,11 +352,11 @@ export const NewFooter = () => {
                     }}
                   >
                     <Link
-                      to="/projects"
+                      to="/initiatives"
                       className="text-dark text-decoration-none"
                       style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                     >
-                      Projects &amp; Initiatives
+                      Initiatives
                     </Link>
                   </li>
                   <li
@@ -543,43 +529,40 @@ export const NewFooter = () => {
         </div>
         <Row>
           <Col>
-            <div className="d-flex flex-column flex-lg-row justify-content-lg-between align-items-start align-items-lg-center mt-4">
-              {/* <div className="d-flex flex-column flex-lg-row align-items-start"> */}
-              <div className="d-flex flex-column flex-lg-row align-items-start text-start">
-                <Link
-                  to="/privacy-policy"
-                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                >
-                  Privacy Policy
-                </Link>
-                <Link
-                  to="/terms-and-conditions"
-                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                >
-                  Terms &amp; Conditions
-                </Link>
-                <Link
-                  to="/refund-policy"
-                  className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                >
-                  Refund Policy
-                </Link>
-                <Link
-                  to="/genderpolicy"
-                  className="text-dark text-decoration-none"
-                  style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                >
-                  Gender Policy
-                </Link>
-              </div>
-              <p
-                className="mb-2 mb-lg-0 text-dark text-start"
-                style={{ fontSize: "0.85rem" }}
+            <div className="d-flex flex-column flex-lg-row justify-content-lg-start align-items-start align-items-lg-center mt-4 flex-wrap">
+              <Link
+                to="/privacy-policy"
+                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
               >
-                © 2025 8thGear Hub. All rights reserved.
+                Privacy Policy
+              </Link>
+              <Link
+                to="/terms-and-conditions"
+                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+              >
+                Terms &amp; Conditions
+              </Link>
+              <Link
+                to="/refund-policy"
+                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+              >
+                Refund Policy
+              </Link>
+              <Link
+                to="/genderpolicy"
+                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
+                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+              >
+                Gender Policy
+              </Link>
+              <p
+                className="mb-0 text-dark text-start"
+                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+              >
+                © 2025 Partners Ltd. All rights reserved.
               </p>
             </div>
           </Col>
