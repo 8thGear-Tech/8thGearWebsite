@@ -79,7 +79,7 @@ const PortfolioCompanies = () => {
           ))}
         </div>
       </div>
-      <div className="py-4">
+      <div className="pb-2">
         <Button buttonText={"Join Our Portfolio"} />
       </div>
     </div>

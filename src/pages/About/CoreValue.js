@@ -15,7 +15,7 @@ const Values = {
     {
       title: "Purposeful",
       description:
-        "We are big on the Why, rather than What' we do. We own our roles.",
+        "We are big on the Why, rather than What we do. We own our roles.",
     },
     {
       title: "Empathy",

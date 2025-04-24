@@ -145,22 +145,22 @@ const JointheTeam = () => {
         <div className="row mt-lg-5 mb-lg-3 mx-lg-3 px-5 justify-content-center ">
           <div className="col-lg-8">
             <h3 className="text-center pb-2">Join the 8thGear Team</h3>
-            <p className="text-center joinTeamFontSize">
+            <p className="text-center" style={{ fontSize: "1rem" }}>
               Dream teams are not right for everyone. Some people prefer job
               security, and choose to work at companies that are more focused on
               stability and seniority, and less rigorous about performance
               management. Our model works best for people who value excellence
-              and the opportunities it provides.
+              and the opportunities it provides. Does our positioning and
+              mission resonate with you? If yes, we have been waiting to have
+              you!
             </p>
-            <p className="text-center joinTeamFontSize">
-              Do our positioning and mission resonate with you?
-            </p>
-            <p className="text-center joinTeamFontSize">
-              If yes, we have been waiting to have you!
-            </p>
+            {/* <p className="text-center" style={{ fontSize: "1rem" }}>
+              Does our positioning and mission resonate with you? If yes, we
+              have been waiting to have you!
+            </p> */}
           </div>
         </div>
-        <div className="d-flex justify-content-center mb-3">
+        <div className="d-flex justify-content-center">
           <JointheTeamBtn />
         </div>
       </div>

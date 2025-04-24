@@ -2,6 +2,8 @@ import React from "react";
 import NewNavbar from "../ResourcesNew/NewNavbar";
 import "./ventureStudio.css";
 import { HomepageNav } from "../../components/Navbar";
+import Button from "./Button";
+
 
 const Hero = () => {
   return (
@@ -18,9 +20,10 @@ const Hero = () => {
               Transforming visionary ideas into thriving sustainable ventures
               with precision and passion
             </h1>
-            <button className="btn border text-white">
+            {/* <button className="btn border text-white">
               Transform Your Idea
-            </button>
+            </button> */}
+             <Button buttonText={"Transform Your Idea"} />
           </div>
         </div>
       </div>
