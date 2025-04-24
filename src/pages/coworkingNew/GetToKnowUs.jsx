@@ -4,7 +4,7 @@ import "./getToKnowUs.css";
 export const GetToKnowUs = () => {
   const cardData = [
     {
-      title: "Monday-Friday (9am-5pm), Saturday (10am-3pm)",
+      title: "Monday - Friday (9am - 5pm), Saturday (10am - 3pm), Night Plan (6pm - 6am)",
       imgSrc: "/images/coworkingNew/alarm.svg",
       bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
     },
@@ -29,7 +29,7 @@ export const GetToKnowUs = () => {
       bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
     },
     {
-      title: "Lagos Innovative Partnered",
+      title: "Lagos Innovate Voucher",
       imgSrc: "/images/coworkingNew/innovatePartnered.png",
       bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
     },

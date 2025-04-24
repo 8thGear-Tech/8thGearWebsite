@@ -6,14 +6,22 @@ function HeroCarousel() {
     <Carousel controls={false} indicators={true} className="carousel">
       <Carousel.Item>
         <div
-          className="d-block w-100 carousel-content"
-          style={{
-            backgroundImage:
-              "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_1.JPG)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            height: "100vh",
-            textAlign: "left",
+         className="d-block w-100"
+         style={{
+           backgroundImage:
+           "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_1.JPG)",
+           backgroundSize: "cover",
+           backgroundPosition: "center",
+           height: "100vh",
+           textAlign: "left",
+          // className="d-block w-100 carousel-content"
+          // style={{
+          //   backgroundImage:
+              // "linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 2)),url(/images/coworkingNew/slide_1.JPG)",
+          //   backgroundSize: "cover",
+          //   backgroundPosition: "center",
+          //   height: "100vh",
+          //   textAlign: "left",
           }}
         >
           <h3 className="blurred-text-container">

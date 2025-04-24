@@ -170,7 +170,7 @@ const SuccessStoryCards = () => {
   return (
     <div className="container-fluid pb-4 successStory">
       <div className="mx-4">
-        <h3 className="purple-text mb-4">ACHIEVEMENTS</h3>
+        <h3 className="purple-text mb-4">SUCCESS STORIES</h3>
       </div>
       {/* <div className="d-flex justify-content-center">
         <a

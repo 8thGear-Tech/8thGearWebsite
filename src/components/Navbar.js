@@ -1212,6 +1212,25 @@ export const HomepageNav = () => {
                             Growth Advisory
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
+                        </div>
+                      </NavDropdown>
+                      <Nav.Link href="/initiatives" className="Nav-item">
+                        Initiatives
+                      </Nav.Link>
+                      <NavDropdown
+                        title="Venture Studio"
+                        id={`offcanvasNavbarDropdown-expand-${"sm"}`}
+                        className="Nav-item w-75"
+                      >
+                        {/* DROPDOWN MENU */}
+                        <div className="Nav-Dropdown rounded-3">
+                          <NavDropdown.Item
+                            href="/portfolio"
+                            className="Nav-Dropdown-Items"
+                          >
+                            Portfolio
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
                           <NavDropdown.Item
                             href="/hub-membership"
                             className="Nav-Dropdown-Items"
@@ -1221,12 +1240,7 @@ export const HomepageNav = () => {
                           </NavDropdown.Item>
                         </div>
                       </NavDropdown>
-                      <Nav.Link href="/initiatives" className="Nav-item">
-                        Initiatives
-                      </Nav.Link>
-                      <Nav.Link href="/venture-studio" className="Nav-item">
-                        Venture Studio
-                      </Nav.Link>
+
                       <Nav.Link href="/about" className="Nav-item">
                         About Us
                       </Nav.Link>
@@ -1255,12 +1269,20 @@ export const HomepageNav = () => {
                     <NavDropdown.Item href="/growth-advisory">
                       Growth Advisory
                     </NavDropdown.Item>
+                  </NavDropdown>
+                  <Nav.Link href="/initiatives">Initiatives</Nav.Link>
+                  <NavDropdown
+                    title="Venture Studio"
+                    id="basic-nav-dropdown"
+                    className="text-black"
+                  >
+                    <NavDropdown.Item href="/portfolio">
+                      Portfolio
+                    </NavDropdown.Item>
                     <NavDropdown.Item href="/hub-membership">
                       Hub Membership
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="/initiatives">Initiatives</Nav.Link>
-                  <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
                 </Nav>

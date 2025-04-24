@@ -26,14 +26,14 @@ const HeroSection = () => {
       <div className="col-lg-8 col-md-8 col-sm-12 mx-sm-3 px-lg-5 CollectiveHeroContent">
         <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 blurred-text-container">
           <span className="blurred-text">
-            Unlock the Power of collaboration and Innovation with Builders
-            Collective Membership!
+            Unlock the Power of collaboration and Innovation with the 8thGear
+            Hub Membership!
           </span>
         </h2>
         <h3 className="d-xs-block d-sm-block d-md-block d-lg-none blurred-text-container">
           <span className="blurred-text">
-            Unlock the Power of collaboration and Innovation with Builders
-            Collective Membership!
+            Unlock the Power of collaboration and Innovation with the 8thGear
+            Hub Membership!
           </span>
         </h3>
         <button className="CollectiveHeroBtn px-4 py-2 rounded-pill my-3">
@@ -56,12 +56,12 @@ const SectionOne = () => {
       {/* FIRST PARAGRAPH */}
       <div className="firstPar d-flex flex-lg-row flex-md-column flex-sm-column gap-4 mx-md-3">
         <div className="flex-wrap text-wrap py-2">
-          <h3 className="purple-text">WHY JOIN THE BUILDER'S COLLECTIVE?</h3>
+          <h3 className="purple-text">WHY JOIN THE 8THGEAR HUB MEMBERSHIP?</h3>
           <p>
             It is an established fact that entrepreneurs do well when they are
             journeying with people who are also buiding. Only entrepreneurs know
             how to support and give comfort to other entrepreneurs and that is
-            the reason why the builder's collectiive exist.
+            the reason why the Hub Membership exist.
           </p>
         </div>
         <Image
@@ -75,9 +75,9 @@ const SectionOne = () => {
         <p>
           First and foremost, to provide that sounding board, that
           accountability that every entrepreneur needs to continue to push until
-          they get to their final destination. See the services that our
-          Builder's Collectives offers below and join this group of
-          forward-thinking entrepreneurs today!
+          they get to their final destination. See the services that our Hub
+          Membership offers below and join this group of forward-thinking
+          entrepreneurs today!
         </p>
       </div>
     </div>
@@ -89,14 +89,14 @@ const Banner = () => {
     <div className="">
       <div className="CommunityBanner d-flex flex-column flex-wrap justify-content-center py-5">
         <h3 className="purple-text text-center">
-          JOIN THE 8THGEAR COMMUNITY TODAY!
+          JOIN THE 8THGEAR COMMUNITY – IT’S FREE!
         </h3>
         <p>
-          Join a vibrant community where entrepreneurs unite to create, innovate
-          and elevate their ventures.
+          Become part of a vibrant, no-cost community where entrepreneurs come
+          together to create, innovate, and elevate their ventures.
         </p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
+          href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
           target="_blank"
           rel="noopener noreferrer"
           className="text-center"
@@ -118,12 +118,23 @@ const MembershipSection = () => {
           <h4 className="purple-text d-block d-lg-block d-md-none d-sm-none MembershipHeaderLG">
             HUB MEMBERSHIP
           </h4>
+          {/* <p>
+            For a <span className="text-bold">nominal fee of ₦20,000</span>,{" "}
+            {""}you can elevate your membership to become a part of the 8thGear
+            Hub Membership. This premium membership offers a plethora of
+            additional benefits designed to accelerate your business growth:
+          </p> */}
           <p>
-            For a <span className="text-bold">nominal fee of ₦10,000</span>,{" "}
-            {""}you can elevate your membership to become a part of the Builders
-            Collective. This premium membership offers a plethora of additional
-            benefits designed to accelerate your business growth:
+            Join the 8thGear Hub Membership to unlock a premium tier designed to
+            accelerate your business growth through exclusive access to enhanced
+            benefits, resources, and curated opportunities. The membership
+            begins with a{" "}
+            <span className="text-bold">registration fee of ₦20,000</span>,
+            followed by a subscription of{" "}
+            <span className="text-bold">₦50,000 quarterly</span> or{" "}
+            <span className="text-bold">₦150,000 annually</span>.
           </p>
+
           <ul>
             <li>
               <p className="benefit-list">
@@ -195,7 +206,7 @@ const MembershipSection = () => {
             className="img-fluid membershipPicSM d-none d-lg-none d-md-none d-sm-block mx-1"
           />{" "}
           <h4 className="purple-text text-small d-block d-lg-none d-md-block d-sm-block text-center my-4">
-            BUILDER COLLECTIVE MEMBERSHIP
+            8THGEAR HUB MEMBERSHIP
           </h4>
         </div>
       </div>

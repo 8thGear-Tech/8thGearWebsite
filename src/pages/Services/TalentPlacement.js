@@ -198,7 +198,7 @@ const TransformingTheHiringProcess = () => {
         </div>
         <div className="mt-5 text-center">
           <a
-            href="https://bit.ly/8thgeartalentrequestform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -190,7 +190,7 @@ export const NewFooter = () => {
               <ul className="list-unstyled">
                 <li>
                   <Link
-                    to="/venture-studio"
+                    to="/portfolio"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
@@ -489,7 +489,7 @@ export const NewFooter = () => {
                     }}
                   >
                     <Link
-                      to="/venture-studio"
+                      to="/portfolio"
                       className="text-dark text-decoration-none"
                       style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                     >
