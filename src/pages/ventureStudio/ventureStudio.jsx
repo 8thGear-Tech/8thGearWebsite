@@ -25,7 +25,7 @@ const VentureStudio = () => {
         <Hero />
       </div>
 
-      <div className="container d-flex flex-column align-items-center">
+      {/* <div className="container d-flex flex-column align-items-center">
         <img
           src={IRE1}
           alt="IRE"
@@ -81,19 +81,11 @@ const VentureStudio = () => {
             objectFit: "cover",
           }}
         />
-      </div>
-      {/* <div className="container mb-5" style={{ marginTop: "0" }}>
-        <div className="pdf-container">
-          <iframe
-            src="pdfs/IRE_Curriculum&Content.pdf"
-            className="responsive-iframe"
-            title="PDF Viewer"
-          />
-        </div>
       </div> */}
-      <div className="text-center">
+    
+      {/* <div className="text-center">
         <ApplyNowBtn buttonText={"Apply Now"} />
-      </div>
+      </div> */}
 
       <div className="d-flex justify-content-center my-5 pt-1 px-3">
         <div className="text-center col-lg-9">

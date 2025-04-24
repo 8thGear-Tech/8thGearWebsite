@@ -43,7 +43,7 @@ import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
-import BuildersCollective from "./pages/Services/BuildersCollective";
+import HubMembership from "./pages/Services/HubMembership";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -144,7 +144,7 @@ function App() {
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
-          <Route path="builders-collective" element={<BuildersCollective />} />
+          <Route path="hub-membership" element={<HubMembership />} />
           <Route path="FAQ" element={<FAQ />} />
 
           <Route path="about" element={<AboutUs />} />

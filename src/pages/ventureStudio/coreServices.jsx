@@ -4,7 +4,7 @@ import CoreServicesCards from "./coreServicesCards";
 const CoreServices = () => {
   return (
     <div className="">
-      <h3 className="text-center purple-text pt-3 pb-5">CORE SERVICES</h3>
+      <h3 className="text-center purple-text pt-3 pb-5">SHARED SERVICES</h3>
       <div className="m-3">
         <CoreServicesCards />
       </div>

@@ -6,7 +6,7 @@ import memberShipImgMD from "../../assets/images/BuildersCollective/memberSectio
 import memberShipImgSM from "../../assets/images/BuildersCollective/memberSectionSM.jpg";
 import "../../sassfiles/pages/services/_community.scss";
 import NewNavbar from "../ResourcesNew/NewNavbar";
-const BuildersCollective = () => {
+const HubMembership = () => {
   return (
     <div>
       <HomepageNav />
@@ -116,7 +116,7 @@ const MembershipSection = () => {
         {/* Write up */}
         <div className="membershipBody">
           <h4 className="purple-text d-block d-lg-block d-md-none d-sm-none MembershipHeaderLG">
-            BUILDERS COLLECTIVE MEMBERSHIP
+            HUB MEMBERSHIP
           </h4>
           <p>
             For a <span className="text-bold">nominal fee of ₦10,000</span>,{" "}
@@ -290,4 +290,4 @@ const BecomeAPortCo = () => {
   );
 };
 
-export default BuildersCollective;
+export default HubMembership;

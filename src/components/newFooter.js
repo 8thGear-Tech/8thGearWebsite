@@ -199,11 +199,11 @@ export const NewFooter = () => {
                 </li>
                 <li>
                   <Link
-                    to="/builders-collective"
+                    to="/hub-membership"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    Builders Collective
+                    Hub Membership
                   </Link>
                 </li>
                 <li>
@@ -504,11 +504,11 @@ export const NewFooter = () => {
                     }}
                   >
                     <Link
-                      to="/builders-collective"
+                      to="/hub-membership"
                       className="text-dark text-decoration-none"
                       style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                     >
-                      Builders Collective
+                      Hub Membership
                     </Link>
                   </li>
                   <li>
@@ -559,7 +559,7 @@ export const NewFooter = () => {
                 Gender Policy
               </Link>
               <p
-                className="mb-0 text-dark text-start"
+                className="mb-0 text-dark text-start ms-lg-5 ps-lg-5"
                 style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
               >
                 © 2025 Partners Ltd. All rights reserved.

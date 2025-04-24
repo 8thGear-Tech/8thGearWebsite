@@ -26,7 +26,7 @@ const OurPriceRange = () => {
               "Mail Handling",
               "Community Events",
               "Meeting Room - 1hr Free/Month",
-              "Accountability Services (Builders Collective)",
+              "Accountability Services (Hub Membership)",
             ],
           },
           {
