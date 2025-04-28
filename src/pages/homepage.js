@@ -231,10 +231,10 @@ const Service = () => {
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">
                 <Link
-                  to="/projects"
+                  to="/initiatives"
                   style={{ color: "#000", textDecoration: "none" }}
                 >
-                  Projects
+                  Initiatives
                 </Link>
               </h4>
               <p className="">

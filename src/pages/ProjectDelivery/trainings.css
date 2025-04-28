@@ -1,0 +1,77 @@
+.training-card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: linear-gradient(135deg, #821e6b, #00a495);
+  font-weight: bold;
+}
+
+
+.training-hero {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #821e6b, #00a495);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: rem 2rem;
+}
+
+
+.training-hero p {
+  font-size: 1.2rem; /* Slightly smaller for supporting text */
+}
+
+
+.training-hero .training-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+}
+
+.training-hero .training-btn:hover {
+  background-color: #001d87;
+  color: #ffffff;
+}
+
+.training-btn {
+  font-weight: normal; /* No bold */
+  background-color: #821e6b; /* Button base color */
+  color: #ffffff; /* Text color */
+  transition: all 0.3s ease-in-out;
+}
+
+.training-btn:hover {
+  background-color: #940a7a; /* Slightly lighter shade of purple for hover */
+  color: #ffffff;
+}
+
+
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.cta-section h3 {
+  font-size: 1.8rem; 
+  font-weight: 500; 
+}
+
+.cta-section p {
+  font-size: 1rem; 
+}
+
+.cta-section .training-btn {
+  font-size: 1rem; 
+  font-weight: normal; 
+  background-color: #821e6b;
+  color: #ffffff; 
+  padding: 0.75rem 1.5rem; 
+  border-radius: 8px; 
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section .training-btn:hover {
+  background-color: #940a7a; 
+  color: #ffffff; 
+}

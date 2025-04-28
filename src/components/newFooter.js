@@ -86,7 +86,7 @@ export const NewFooter = () => {
               </div>
             </Col>
             <Col lg={2} className="mb-3">
-              <h5 className="text-dark mb-3">Company</h5>
+              {/* <h5 className="text-dark mb-3">Company</h5> */}
               <ul className="list-unstyled">
                 <li>
                   <Link
@@ -186,7 +186,7 @@ export const NewFooter = () => {
               </ul>
             </Col>
             <Col lg={2} className="mb-3">
-              <h5 className="text-dark mb-3">Our Collective</h5>
+              <h5 className="text-dark mb-3">Venture Studio</h5>
               <ul className="list-unstyled">
                 <li>
                   <Link
@@ -194,7 +194,7 @@ export const NewFooter = () => {
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    Venture Studio
+                    Portfolio
                   </Link>
                 </li>
                 <li>
@@ -326,7 +326,7 @@ export const NewFooter = () => {
           </Row>
           <Accordion>
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Company</Accordion.Header>
+              {/* <Accordion.Header>Company</Accordion.Header> */}
               <Accordion.Body style={{ backgroundColor: "transparent" }}>
                 <ul className="list-unstyled">
                   <li
@@ -478,7 +478,7 @@ export const NewFooter = () => {
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Our Collective</Accordion.Header>
+              <Accordion.Header>Venture Studio</Accordion.Header>
               <Accordion.Body style={{ backgroundColor: "transparent" }}>
                 <ul className="list-unstyled">
                   <li
@@ -493,7 +493,7 @@ export const NewFooter = () => {
                       className="text-dark text-decoration-none"
                       style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                     >
-                      Venture Studio
+                      Portfolio
                     </Link>
                   </li>
                   <li

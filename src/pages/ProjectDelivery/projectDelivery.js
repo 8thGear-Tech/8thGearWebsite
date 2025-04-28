@@ -56,15 +56,13 @@ const ProjectDeliveryPage = () => {
 const ProjectDeliveryHero = () => {
   return (
     <div className="d-flex justify-content-center align-content-center projectHero mb-2 container-fluid">
-      {/* <div className="d-flex justify-content-center align-content-center projectHero mb-2 p-1 container-fluid"> */}
       <div className="hero-text mt-5 pt-5 col-lg-8 col-md-8 col-sm-12">
         <h2 className="text-lg-center d-inline fs-1">
           Fueling Innovation, Empowering Entrepreneurs and Transforming futures
         </h2>
-        <div className="text-center mb-4 mt-4">
-          {" "}
+        <div className="text-center mb-4 mt-4 d-flex justify-content-center gap-3">
           <Button className="HeroButton">
-            <h4>
+            <p className="mb-0">
               <a
                 href="https://docs.google.com/forms/d/108Rzj8GqngAeK9_gFRikHqnupR_upycv-NvuasBm4cw/edit"
                 target="_blank"
@@ -72,7 +70,12 @@ const ProjectDeliveryHero = () => {
               >
                 Request for a proposal
               </a>
-            </h4>
+            </p>
+          </Button>
+          <Button className="HeroButton">
+            <p className="mb-0">
+              <Link to="/trainings">Explore our Trainings</Link>
+            </p>
           </Button>
         </div>
       </div>
