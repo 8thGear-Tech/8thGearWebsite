@@ -5,17 +5,17 @@ import "./trainings.css";
 import React, { useState } from "react";
 import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
 import { HomepageNav } from "../../components/Navbar";
-import IRE from "../../assets/images/projectdelivery/IRE.png";
+import IRE from "../../assets/images/projectdelivery/IRE.jpg";
 import trainingsHero from "../../assets/images/projectdelivery/trainingsHero.jpg";
 
 const trainings = [
   {
     id: 1,
-    title: "Investment Readiness for Entrepreneurs",
-    cohort: 2,
+    title: "Market & Investment Readiness for Entrepreneurs - Cohort 2",
     startDate: "July 7, 2025",
     duration: "4 weeks",
-    fee: "₦200,000",
+    appfee: "₦3,000",
+    tfee: "₦200,000",
     flyerImg: IRE,
   },
 ];
@@ -91,14 +91,12 @@ const Trainings = () => {
       <section className="upcoming-trainings pt-5 pb-3" id="programs">
         <Container>
           <h4 className="mb-4 text-center">Upcoming Training</h4>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center ">
             {trainings.map((t) => (
               <Col key={t.id} sm={6} lg={4} className="mb-4">
                 <Card className="h-100 shadow-sm">
                   <Card.Header className="bg-primary text-white text-center">
                     {t.title}
-                    <br />
-                    <small>Cohort {t.cohort}</small>
                   </Card.Header>
                   <Card.Img
                     variant="top"
@@ -112,8 +110,11 @@ const Trainings = () => {
                     <p className="mb-2">
                       <strong>Duration:</strong> {t.duration}
                     </p>
-                    <p className="mb-3">
-                      <strong>Fee:</strong> {t.fee}
+                    <p className="mb-2">
+                      <strong>Application Fee:</strong> {t.appfee}
+                    </p>
+                    <p className="mb-2">
+                      <strong>Training Fee:</strong> {t.tfee}
                     </p>
                   </Card.Body>
                 </Card>

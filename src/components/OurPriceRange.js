@@ -87,7 +87,7 @@ const OurPriceRange = () => {
           },
           {
             title: "NIGHT PLAN",
-            price: "₦15,000 Per Day",
+            price: "₦15,000",
             timeRange: "(6pm-6am)",
             features: [
               "Fast, Reliable Internet Access",
