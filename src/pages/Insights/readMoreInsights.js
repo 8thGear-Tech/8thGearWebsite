@@ -37,6 +37,7 @@ export const ReadMoreInsights = () => {
     introText2,
     introText3,
     introText4,
+    introText5,
     fullblogimg,
   } = post.fullcontent;
   // const { title, subtitle, description, bullets, source } = post.services;
@@ -52,6 +53,7 @@ export const ReadMoreInsights = () => {
         introText2={introText2}
         introText3={introText3}
         introText4={introText4}
+        introText5={introText5}
         fullblogimg={fullblogimg}
         services={post.fullcontent.services}
         competitiveEdge={post.fullcontent.competitiveEdge}
@@ -232,6 +234,7 @@ const FullBlogPost = ({
   introText2,
   introText3,
   introText4,
+  introText5,
   fullblogimg,
   services,
   competitiveEdge,
@@ -250,6 +253,7 @@ const FullBlogPost = ({
           <p>{introText2}</p>
           <p>{introText3}</p>
           <p>{introText4}</p>
+          <p>{introText5}</p>
         </div>
       </div>
 
@@ -270,8 +274,14 @@ const FullBlogPost = ({
         {services.map((service, index) => (
           <div key={index}>
             <h4 className="mt-4">{service.title}</h4>
+
             {service.subtitle && <h5>{service.subtitle}</h5>}
             <p>{service.description}</p>
+            {service.subtitle2 && <h5>{service.subtitle2}</h5>}
+            <p>{service.description2}</p>
+            {service.subtitle3 && <h5>{service.subtitle3}</h5>}
+            <p>{service.description3}</p>
+            <h4 className="mt-4">{service.title2}</h4>
             <ul>
               {service.bullets.map((bullet, i) => (
                 <li key={i}>{bullet}</li>

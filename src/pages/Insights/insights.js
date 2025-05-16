@@ -272,7 +272,6 @@ const BlogSection = () => {
         "From Startup to Scale-Up: Key Strategies for Navigating the Growth Phase",
       image: blogcard1,
       content: "This is the full blog content for the first post...",
-      author: "ya Boluwatife",
     },
     {
       id: 2,
@@ -283,7 +282,15 @@ const BlogSection = () => {
         "The Future of Business Efficiency: A Closer Look at 8thGear’s Transformational Services.",
       image: blogcard2,
       content: "This is the full blog content for the second post...",
-      author: "Adekoya Boluwatife",
+    },
+    {
+      id: 3,
+      category: "Startup",
+      date: "May 16, 2025",
+      readTime: "5 min read",
+      title: "Unlock Business Growth with 8thGear’s Growth-as-a-Service (GaaS)",
+      image: blogcard3,
+      content: "This is the full blog content for the second post...",
     },
   ];
 

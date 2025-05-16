@@ -70,8 +70,8 @@ const Trainings = () => {
             margin: "0 auto",
           }}
         >
-          <h2 className="pt-5">8thGear Training Opportunities</h2>
-          <p className="lead">
+          <h3 className="pt-5">8thGear Training Opportunities</h3>
+          <p className="lead" style={{ fontSize: "1rem" }}>
             Fuel your innovation, empower your journey, and build a brighter
             future with our expert-led trainings.
           </p>
@@ -79,7 +79,7 @@ const Trainings = () => {
             <a
               href="#programs"
               className="training-btn training-btn-lg mr-2 text-decoration-none"
-              style={{ backgroundColor: "#821e6b", fontWeight: "normal" }}
+              style={{ backgroundColor: "#821e6b", fontWeight: "normal", fontSize: "0.8rem" }}
             >
               Explore our Trainings
             </a>
