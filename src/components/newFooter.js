@@ -176,7 +176,7 @@ export const NewFooter = () => {
                 </li>
                 <li>
                   <Link
-                    to="/"
+                    to="/tech-marketplace"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >

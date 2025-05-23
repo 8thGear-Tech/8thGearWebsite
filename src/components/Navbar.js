@@ -93,6 +93,9 @@ const NavBar = (props) => {
                 <NavDropdown.Item href="/growth-as-a-service">
                   Growth Advisory
                 </NavDropdown.Item>
+                <NavDropdown.Item href="/tech-marketplace">
+                  Tech Marketplace
+                </NavDropdown.Item>
               </NavDropdown>{" "}
               <Nav.Link
                 href="/initiatives"
@@ -1212,6 +1215,13 @@ export const HomepageNav = () => {
                             Growth Advisory
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href="/tech-marketplace"
+                            className="Nav-Dropdown-Items"
+                          >
+                            Tech Marketplace
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <Nav.Link href="/initiatives" className="Nav-item">
@@ -1268,6 +1278,9 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/growth-advisory">
                       Growth Advisory
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="/tech-marketplace">
+                      Tech Marketplace
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/initiatives">Initiatives</Nav.Link>
