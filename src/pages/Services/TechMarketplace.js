@@ -145,7 +145,7 @@ const SolutionsSection = () => {
       </div>
 
       {/* Search bar */}
-      <Row className="justify-content-center mb-5">
+      {/* <Row className="justify-content-center mb-5">
         <Col xs={12} md={8} lg={6}>
           <InputGroup>
             <FormControl placeholder="Type your search" />
@@ -154,7 +154,7 @@ const SolutionsSection = () => {
             </Button>
           </InputGroup>
         </Col>
-      </Row>
+      </Row> */}
 
       {/* Top two cards */}
       <Row className="g-4 mb-5">
@@ -294,7 +294,14 @@ const TailoredSolutionsSection = () => {
             If our featured solutions don’t quite match your needs, we’re here
             to create one that does.
           </p>
-          <Button variant="primary">Request a Custom Solution</Button>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfqOovZutZUU8ZQ2Cvc-KPRYDrA5odO8iO_abnr-aRm-D9dEQ/viewform?usp=sharing&ouid=106047966915177609898"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="primary">Request a Custom Solution</Button>
+          </a>
         </div>
 
         {/* Image Content - Right */}
