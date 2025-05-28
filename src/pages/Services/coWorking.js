@@ -1,5 +1,5 @@
 import { GetToKnowUs } from "../coworkingNew/GetToKnowUs";
-import { Testimonies } from "../coworkingNew/Testimonies";
+import { Testimonials } from "../coworkingNew/Testimonies";
 import { Voucher } from "../coworkingNew/Voucher";
 import { Hero } from "../coworkingNew/Hero";
 import OurPriceRange from "../../components/OurPriceRange";
@@ -16,6 +16,7 @@ const CoWorking = () => {
       <GetToKnowUs />
       <Voucher />
       <OurPriceRange />
+      <Testimonials />
       <Podcast />
     </div>
   );

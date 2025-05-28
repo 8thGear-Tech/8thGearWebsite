@@ -4,9 +4,7 @@ import { BsArrowLeftSquare, BsArrowRightSquare } from "react-icons/bs";
 
 export const OurNewSpaces = () => {
   const images = [
-    // { src: "/images/coworkingNew/location_1.png", text: "8thGear Hub" },
-    // { src: "/images/coworkingNew/location_2.png", text: "Hub One" },
-    // { src: "/images/coworkingNew/location_3.PNG", text: "Suburban Hub" },
+
     {
       src: "https://www.youtube.com/embed/xw2gPCt1vfE?si=SKv79QNdgE57P6z0",
       text: "8thGear HQ",

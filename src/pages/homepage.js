@@ -1,11 +1,4 @@
 import { Link } from "react-router-dom";
-import { BookIcon } from "../components/Icons";
-import { HomeBtn, JointheStudioBtn } from "../components/Buttons/ContactBtn";
-import venturestudioicon from "../assets/images/venturestudioicon.png";
-import projectdeliveryicon from "../assets/images/projectdeliveryicon.png";
-import gearupicon from "../assets/images/gearupicon.png";
-import evolveicon from "../assets/images/evolveicon.png";
-import engageicon from "../assets/images/engageicon.png";
 import { HomepageNav, Navbar0 } from "../components/Navbar";
 import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
 import { HomePageHero } from "../components/Hero/ImageandTextHero";
@@ -15,23 +8,16 @@ import { GearUpIcon } from "../components/Icons";
 import { EvolveIcon } from "../components/Icons";
 import { EngageIcon } from "../components/Icons";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-
-//ASSESTS
-// import "../sassfiles/pages/_home.scss";
 import hubservices from "../assets/images/Homepageassets/HubServices.jpg";
 import projects from "../assets/images/Homepageassets/Projects.jpg";
 import venture from "../assets/images/Homepageassets/VentureStudio.jpg";
-// import easesoilless from "../assets/images/Homepageassets/easesoiless.jpg";
-// import heaven from "../assets/images/Homepageassets/haven.png";
-// import innkeeper from "../assets/images/Homepageassets/innkeeperlogo.png";
-// import legalMo from "../assets/images/Homepageassets/legalmo.png";
-// import trulance from "../assets/images/Homepageassets/trulance.png";
 import LogoScroll from "../components/Hero/LogoScroll";
 import aboutusimg from "../assets/images/Homepageassets/aboutImg.png";
 import homeImg from "../assets/images/Homepageassets/homeImg.png";
 import { Image } from "react-bootstrap";
 import { Partners } from "./WhoWeAre/aboutUs";
+import "./homePage.css";
+import { useState } from "react";
 
 const Home = () => {
   return (
@@ -45,8 +31,7 @@ const Home = () => {
       <Partners />
       {/* <SectionTwo /> */}
       <AboutSection />
-      {/* <Line /> */}
-      {/* <SectionThree /> */}
+      <SpotlightSection />
     </>
   );
 };
@@ -274,75 +259,8 @@ const Service = () => {
         </div>
       </div>
     </div>
-    // <div className="container-fluid py-4 serviceSection">
-    //   <h3 className="purple-text text-center mb-3">SERVICES</h3>
-    //   <div className="row d-flex ">
-    //     {/* <div className="d-flex flex-column justify-content-lg-center flex-lg-row align-items-center flex-sm-column gap-3"> */}
-    //     {/* Hub Services */}
-    //     <Card style={{ width: "18rem" }} className="service-card rounded">
-    //       <Card.Img
-    //         variant="top"
-    //         src={hubservices}
-    //         className="service-thumbnail"
-    //         thumbnail
-    //         fluid
-    //       />
-    //       <Card.Body className="shadow text-center">
-    //         <Card.Title className="text-black">Hub Services</Card.Title>
-    //         <Card.Text className="text-center py-2">
-    //           Empowering your venture with Growth-as-a-service, Talent Placement
-    //           & collaborative Co-working services
-    //         </Card.Text>
-    //       </Card.Body>
-    //     </Card>
-    //     {/* PROJECTS */}
-    //     <Card style={{ width: "18rem" }} className="service-card rounded">
-    //       <Card.Img
-    //         variant="top"
-    //         src={projects}
-    //         className="service-thumbnail"
-    //         thumbnail
-    //         fluid
-    //       />
-    //       <Card.Body className="shadow text-center">
-    //         <Card.Title className="text-black">Projects</Card.Title>
-    //         <Card.Text className="text-center py-2">
-    //           Innovate. Execute. Succeed - The Project Experience
-    //         </Card.Text>
-    //       </Card.Body>
-    //     </Card>
-    //     {/* VENTURE STUDIO */}
-    //     <Card style={{ width: "18rem" }} className="service-card rounded">
-    //       <Card.Img
-    //         variant="top"
-    //         src={venture}
-    //         className="service-thumbnail"
-    //         thumbnail
-    //         fluid
-    //       />
-    //       <Card.Body className="shadow text-center rounded">
-    //         <Card.Title className="text-black">Venture Studio</Card.Title>
-    //         <Card.Text className="text-center py-2">
-    //           Crafting Success: Your Idea, Our Expertise, Thriving Ventures
-    //         </Card.Text>
-    //       </Card.Body>
-    //     </Card>
-    //   </div>
-    // </div>
   );
 };
-
-// const Line = () => {
-//     return (
-//         <>
-//             <div className="container">
-//                 <div className="border-top">{/* <hr /> */}</div>
-//             </div>
-//         </>
-//     );
-// };
-
-// ABOUT US
 const AboutSection = () => {
   return (
     <div className="container-fluid aboutUS py-lg-5 py-md-3">
@@ -376,29 +294,6 @@ const AboutSection = () => {
         </div>
       </div>
     </div>
-
-    // <div className="aboutUS container-fluid d-flex flex-lg-row flex-column justify-content-center justify-content-sm-center justify-content-lg-evenly align-items-center py-5">
-    //   <div className="my-1 align-items-center">
-    //     <h3 className="purple-text">ABOUT US</h3>
-    //     <p>
-    //       Your trusted partner in Venture Building, guiding startups and
-    //       Businesses towards sustainable growth and success
-    //     </p>
-    //     <Button className="aboutbtn">
-    //       <Link to="/about" className="purple-text text-decoration-none">
-    //         Who We Are
-    //       </Link>
-    //     </Button>
-    //   </div>
-    //   <div className="aboutimg py-4 d-flex justify-content-center ">
-    //     <Image
-    //       src={aboutusimg}
-    //       alt="About Us Img"
-    //       fluid
-    //       className="aboutImage w-75 "
-    //     />
-    //   </div>
-    // </div>
   );
 };
 
@@ -419,13 +314,7 @@ const SectionTwo = () => {
           {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}
           <div className="col">
             <VentureStudioIcon />
-            {/* <img
-              src={venturestudioicon}
-              alt=""
-              width="50px"
-              height="50px"
-              className="mb-3"
-            /> */}
+
             <Link to="/our-model" className="headerText">
               <h3>VENTURE STUDIO</h3>
             </Link>
@@ -528,6 +417,48 @@ const SectionThree = () => {
         </p>
       </a>
       {/* <JointheStudioBtn /> */}
+    </div>
+  );
+};
+
+const EMBED_URL =
+  "https://www.youtube.com/embed/zrjQ6HTlyEE?si=AdKCjgr9FQgT93Ta&autoplay=1";
+const THUMB_URL = "https://img.youtube.com/vi/zrjQ6HTlyEE/maxresdefault.jpg";
+
+const SpotlightSection = () => {
+  const [src, setSrc] = useState("");
+
+  return (
+    <div className="container-fluid pb-3">
+      <h3 className="purple-text pt-5 mt-2 text-center">
+        8thGear in the Spotlight: Supporting MSMEs Across Nigeria
+      </h3>
+
+      <div className="d-flex justify-content-center mt-4">
+        <div className="col-12 col-md-10 col-lg-6 mx-auto">
+          <div
+            className="gradient-card"
+            onClick={() => !src && setSrc(EMBED_URL)}
+          >
+            <div
+              className="video-placeholder"
+              style={{ backgroundImage: `url(${THUMB_URL})` }}
+            >
+              {!src && <div className="play-button" />}
+              {src && (
+                <iframe
+                  className="video-iframe"
+                  src={src}
+                  title="8thGear Spotlight"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

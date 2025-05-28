@@ -1,5 +1,7 @@
+import { useState } from "react";
 import "./getToKnowUs.css";
 import TestimonyCard from "./TestimonyCard";
+import "../../pages/homePage.css";
 
 export const Testimonies = () => {
   const testimonialCardData = [
@@ -49,3 +51,52 @@ export const Testimonies = () => {
     </div>
   );
 };
+
+
+const EMBED_URL =
+  "https://www.youtube.com/embed/V0JahOeWs4g?si=OPURaA53hQl2P7UX&autoplay=1";
+const THUMB_URL = "https://img.youtube.com/vi/V0JahOeWs4g/hqdefault.jpg";
+// const THUMB_URL = "https://img.youtube.com/vi/V0JahOeWs4g/maxresdefault.jpg";
+
+
+export const Testimonials = () => {
+  const [src, setSrc] = useState("");
+
+  return (
+    <div
+      className="container-fluid"
+    >
+      <h3 className="pt-5 mt-5 text-center">
+       TESTIMONIALS
+      </h3>
+
+      <div className="d-flex justify-content-center mt-4">
+        <div className="col-12 col-md-10 col-lg-6 mx-auto">
+          <div
+            className="gradient-card"
+            onClick={() => !src && setSrc(EMBED_URL)}
+          >
+            <div
+              className="video-placeholder"
+              style={{ backgroundImage: `url(${THUMB_URL})` }}
+            >
+              {!src && <div className="play-button" />}
+              {src && (
+                <iframe
+                  className="video-iframe"
+                  src={src}
+                  title="8thGear Spotlight"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
