@@ -1,13 +1,4 @@
-import {
-  Card,
-  Button,
-  InputGroup,
-  FormControl,
-  Row,
-  Col,
-  Badge,
-  Form,
-} from "react-bootstrap";
+import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 import b2bImage from "../../assets/images/tech-marketplace/b2bImage.png";
 import trulance from "../../assets/images/tech-marketplace/trulance.png";
 import legalmo from "../../assets/images/tech-marketplace/legalmo.png";
@@ -20,6 +11,11 @@ import partnerwithus from "../../assets/images/tech-marketplace/partnerwithus.pn
 import tailoredsolution from "../../assets/images/tech-marketplace/tailoredsolution.png";
 import { HomepageNav } from "../../components/Navbar";
 
+import saveTimeIcon from "../../assets/images/tech-marketplace/save-time.png";
+import getItRightIcon from "../../assets/images/tech-marketplace/get-it-right.png";
+import simplicityIcon from "../../assets/images/tech-marketplace/simplicity.png";
+import scaleEasilyIcon from "../../assets/images/tech-marketplace/scale-easily.png";
+
 const TechMarketplace = () => {
   return (
     <>
@@ -27,11 +23,113 @@ const TechMarketplace = () => {
       <Hero />
       <SolutionsSection />
       <TailoredSolutionsSection />
+      <PartnersLogo />
       <PartnersSection />
     </>
   );
 };
+// const Hero = () => (
+//   <div className="container py-5">
+//     <div className="text-center mb-4">
+//       <Badge pill bg="light" className="text-dark px-3 py-2 mb-3 fs-6 fw-light">
+//         The Smarter Way to Grow
+//       </Badge>
+
+//       <h2 className="fw-bold">
+//         Fuel your Enterprise with
+//         <br />
+//         Proven B2B Tech Solutions
+//       </h2>
+//       <p className="text-muted">
+//         Our Tech Marketplace offers a curated selection of B2B software,{" "}
+//         <br className="d-none d-md-block" />
+//         infrastructure, and IT services, all vetted and resold by our experts{" "}
+//         <br className="d-none d-md-block" /> so you don’t have to start from
+//         scratch.
+//       </p>
+//     </div>
+
+//     {/* Stretch both columns to the same height */}
+//     <div className="row align-items-stretch">
+//       {/* Left Image */}
+//       <div className="col-lg-6 mb-4 mb-lg-0 d-flex">
+//         <img
+//           src={b2bImage}
+//           alt="8thGear Hub"
+//           className="img-fluid rounded flex-grow-1"
+//           style={{ objectFit: "cover" }}
+//         />
+//       </div>
+
+//       {/* Right Info Cards */}
+//       <div className="col-lg-6">
+//         {/* Stretch each card */}
+//         <div className="row g-3 align-items-stretch">
+//           {[
+//             {
+//               icon: saveTimeIcon,
+//               title: "Save Time",
+//               text: "Skip cold outreach and endless vendor demos",
+//             },
+//             {
+//               icon: getItRightIcon,
+//               title: "Get It Right",
+//               text: "Access trusted solutions across various categories",
+//             },
+//             {
+//               icon: simplicityIcon,
+//               title: "Simplicity",
+//               text: "Expert support, clear pricing, no pressure",
+//             },
+//             {
+//               icon: scaleEasilyIcon,
+//               title: "Scale Easily",
+//               text: "Find solutions that grow with your business",
+//             },
+//           ].map(({ icon, title, text }, i) => (
+//             <div className="col-sm-6" key={i}>
+//               <div className="info-card p-3 h-100 shadow-sm rounded bg-light d-flex flex-column">
+//                 <img
+//                   src={icon}
+//                   alt={`${title} icon`}
+//                   className="mb-3"
+//                   style={{ width: "48px", height: "48px" }}
+//                 />
+//                 <h6 className="fw-bold">{title}</h6>
+//                 <p className="mb-0 text-muted">{text}</p>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// );
+
 const Hero = () => {
+  const cards = [
+    {
+      icon: saveTimeIcon,
+      title: "Save Time",
+      text: "Skip cold outreach and endless vendor demos",
+    },
+    {
+      icon: getItRightIcon,
+      title: "Get It Right",
+      text: "Access trusted solutions across various categories",
+    },
+    {
+      icon: simplicityIcon,
+      title: "Simplicity",
+      text: "Expert support, clear pricing, no pressure",
+    },
+    {
+      icon: scaleEasilyIcon,
+      title: "Scale Easily",
+      text: "Find solutions that grow with your business",
+    },
+  ];
+
   return (
     <div className="container py-5">
       <div className="text-center mb-4">
@@ -42,7 +140,6 @@ const Hero = () => {
         >
           The Smarter Way to Grow
         </Badge>
-
         <h2 className="fw-bold">
           Fuel your Enterprise with
           <br />
@@ -50,52 +147,41 @@ const Hero = () => {
         </h2>
         <p className="text-muted">
           Our Tech Marketplace offers a curated selection of B2B software,
-          infrastructure, and IT services—all vetted and resold by our experts
+          <br className="d-none d-md-block" />
+          infrastructure, and IT services, all vetted and resold by our experts
+          <br className="d-none d-md-block" />
           so you don’t have to start from scratch.
         </p>
       </div>
 
-      <div className="row align-items-center">
-        {/* Left Image */}
-        <div className="col-lg-6 mb-4 mb-lg-0">
-          <img src={b2bImage} alt="8thGear Hub" className="img-fluid rounded" />
+      <div className="row align-items-stretch">
+        {/* Image */}
+        <div className="col-lg-6 mb-4 mb-lg-0 d-flex">
+          <img
+            src={b2bImage}
+            alt="8thGear Hub"
+            className="img-fluid rounded flex-fill"
+            style={{ objectFit: "cover" }}
+          />
         </div>
 
-        {/* Right Info Cards */}
+        {/* Cards */}
         <div className="col-lg-6">
-          <div className="row g-3">
-            <div className="col-sm-6">
-              <div className="info-card p-3 h-100 shadow-sm rounded bg-light">
-                <h6 className="fw-bold">Save Time</h6>
-                <p className="mb-0 text-muted">
-                  Skip cold outreach and endless vendor demos
-                </p>
+          <div className="row g-3 info-cards-row">
+            {cards.map(({ icon, title, text }, i) => (
+              <div className="col-sm-6" key={i}>
+                <div className="info-card p-4 shadow-sm rounded bg-light d-flex flex-column">
+                  <img
+                    src={icon}
+                    alt={`${title} icon`}
+                    className="mb-3"
+                    style={{ width: "48px", height: "50px" }}
+                  />
+                  <h6 className="fw-bold">{title}</h6>
+                  <p className="mb-0 text-muted">{text}</p>
+                </div>
               </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="info-card p-3 h-100 shadow-sm rounded bg-light">
-                <h6 className="fw-bold">Get it Right</h6>
-                <p className="mb-0 text-muted">
-                  Access trusted solutions across various categories
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="info-card p-3 h-100 shadow-sm rounded bg-light">
-                <h6 className="fw-bold">Simplicity</h6>
-                <p className="mb-0 text-muted">
-                  Expert support, clear pricing, no pressure
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6">
-              <div className="info-card p-3 h-100 shadow-sm rounded bg-light">
-                <h6 className="fw-bold">Scale Easily</h6>
-                <p className="mb-0 text-muted">
-                  Find solutions that grow with your business
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
@@ -124,7 +210,7 @@ const ACTIONS = [
 
 const SolutionsSection = () => {
   return (
-    <section className="container py-5">
+    <section className="container pb-5">
       {/* Badge + Title */}
       <div className="text-center mb-4">
         <Badge
@@ -318,16 +404,94 @@ const TailoredSolutionsSection = () => {
   );
 };
 
-const PartnersSection = () => {
+// const PartnersLogo = () => {
+//   const logos = [
+//     { src: legalmologo, alt: "Legalmo" },
+//     { src: trulancelogo, alt: "Trulance" },
+//     { src: mtnlogo, alt: "MTN" },
+//     { src: zohologo, alt: "Zoho" },
+//   ];
+//   return (
+//     <div className="min-h-screen bg-gray-50 font-sans antialiased text-gray-800">
+//       {/* Partners Section */}
+//       <section className="py-5 text-center">
+//         <div className="container">
+//           <Badge
+//             pill
+//             bg="light"
+//             className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
+//           >
+//             Our Partners
+//           </Badge>
+//           <h2 className="mb-3 fw-bold">Meet our Trusted B2B Partners</h2>
+//           <p className="text-muted mb-5">
+//             We collaborate with industry-leading platforms and service providers
+//             to bring you the best in business technology.
+//           </p>
+
+//           <div className="row justify-content-center align-items-center g-4">
+//             {logos.map(({ src, alt }, index) => (
+//               <div className="col-6 col-sm-4 col-lg-3" key={index}>
+//                 <div
+//                   className="d-flex align-items-center justify-content-center"
+//                   style={{ height: "100px" }}
+//                 >
+//                   <img
+//                     src={src}
+//                     alt={alt}
+//                     className="img-fluid"
+//                     style={{ maxHeight: "70px", objectFit: "contain" }}
+//                   />
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </section>
+//     </div>
+//   );
+// };
+
+// const PartnersSection = () => {
+//   return (
+//     <>
+//       <div className="container-fluid px-0">
+//         <div
+//           className="hero-section text-white d-flex justify-content-center align-items-center rounded-4"
+//           style={{
+//             backgroundImage: `url(${partnerwithus})`,
+//             backgroundSize: "cover",
+//             backgroundPosition: "center",
+//             height: "500px",
+//           }}
+//         >
+//           <div className="text-center bg-dark bg-opacity-50 p-4 rounded">
+//             <h2 className="fw-bold mb-3">
+//               Want to Offer Your Tech <br className="d-none d-md-block" />
+//               Solution to Growing Businesses?
+//             </h2>
+//             <p className="mb-4">
+//               Join our marketplace and connect with the right B2B audience.
+//               Showcase your product, gain visibility, and grow your reach.
+//             </p>
+//             <button className="btn btn-light">Partner With Us</button>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+const PartnersLogo = () => {
   const logos = [
     { src: legalmologo, alt: "Legalmo" },
     { src: trulancelogo, alt: "Trulance" },
     { src: mtnlogo, alt: "MTN" },
     { src: zohologo, alt: "Zoho" },
   ];
+
   return (
-    <div className="min-h-screen bg-gray-50 font-sans antialiased text-gray-800">
-      {/* Partners Section */}
+    <div className="bg-gray-50 font-sans antialiased text-gray-800">
       <section className="py-5 text-center">
         <div className="container">
           <Badge
@@ -337,6 +501,7 @@ const PartnersSection = () => {
           >
             Our Partners
           </Badge>
+
           <h2 className="mb-3 fw-bold">Meet our Trusted B2B Partners</h2>
           <p className="text-muted mb-5">
             We collaborate with industry-leading platforms and service providers
@@ -362,30 +527,40 @@ const PartnersSection = () => {
           </div>
         </div>
       </section>
+    </div>
+  );
+};
 
-      {/* <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
-          style={{
-            backgroundImage: `url(${partnerwithus})`,
-          }}
-        ></div>
-
-        <div className="relative z-10 max-w-3xl mx-auto text-center bg-gray-800 bg-opacity-70 p-8 rounded-lg">
-          <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">
-            Want to Offer Your Tech Solution to Growing Businesses?
+const PartnersSection = () => {
+  return (
+    <div className="container px-0 mt-5 pt-5">
+      <div
+        className="hero-section text-white d-flex justify-content-center align-items-center rounded-4"
+        style={{
+          backgroundImage: `url(${partnerwithus})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "500px",
+        }}
+      >
+        <div className="text-center p-4 rounded">
+          {/* <div className="text-center bg-dark bg-opacity-50 p-4 rounded"> */}
+          <h2 className="fw-bold mb-3">
+            Want to Offer Your Tech <br className="d-none d-md-block" />
+            Solution to Growing Businesses?
           </h2>
-
-          <p className="text-base sm:text-lg text-gray-300 mb-8">
+          <p className="mb-4">
             Join our marketplace and connect with the right B2B audience.
+            <br className="d-none d-md-block" />
             Showcase your product, gain visibility, and grow your reach.
           </p>
-
-          <button className="bg-white text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300 ease-in-out transform hover:scale-105">
-            Partner with Us
-          </button>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe_k2Vk4CgZKz4-sPtP7h7aflemd-AcpGSpWodxUoGT6UuKJg/viewform"
+            target="_blank"
+          ></a>
+          <button className="btn btn-light">Partner With Us</button>
         </div>
-      </section> */}
+      </div>
     </div>
   );
 };
