@@ -402,8 +402,10 @@ const PartnersSection = () => {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSe_k2Vk4CgZKz4-sPtP7h7aflemd-AcpGSpWodxUoGT6UuKJg/viewform"
             target="_blank"
-          ></a>
-          <button className="btn btn-light">Partner With Us</button>
+          >
+            {" "}
+            <button className="btn btn-light">Partner With Us</button>
+          </a>
         </div>
       </div>
     </div>
