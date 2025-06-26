@@ -187,7 +187,7 @@ const Trainings = () => {
                   business or career.
                 </p>
                 <a
-                  href="https://docs.google.com/forms/d/1j9-AwQHOVerUBa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+                  href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn fw-normal mb-4"
