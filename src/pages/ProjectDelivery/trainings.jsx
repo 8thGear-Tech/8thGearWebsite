@@ -11,7 +11,7 @@ import trainingsHero from "../../assets/images/projectdelivery/trainingsHero.jpg
 const trainings = [
   {
     id: 1,
-    title: "Market & Investment Readiness for Entrepreneurs - Cohort 2",
+    title: "Market & Investment Readiness for Entrepreneurs - Cohort Q2",
     startDate: "July 7, 2025",
     duration: "4 weeks",
     appfee: "₦3,000",
@@ -79,7 +79,11 @@ const Trainings = () => {
             <a
               href="#programs"
               className="training-btn training-btn-lg mr-2 text-decoration-none"
-              style={{ backgroundColor: "#821e6b", fontWeight: "normal", fontSize: "0.8rem" }}
+              style={{
+                backgroundColor: "#821e6b",
+                fontWeight: "normal",
+                fontSize: "0.8rem",
+              }}
             >
               Explore our Trainings
             </a>
@@ -142,34 +146,106 @@ const Trainings = () => {
       </Modal>
 
       <section className="cta-section text-center">
-  <Container>
-    <h4>Ready to Accelerate Your Growth?</h4>
-    <p style={{ fontSize: "1rem" }}>
-      Secure your spot in our next cohort and transform your business or
-      career.
-    </p>
-    <Button
-      as="a"
-      href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        fontSize: "1rem",
-        fontWeight: "normal",
-        backgroundColor: "#821e6b",
-        padding: "0.75rem 1.5rem",
-        borderRadius: "8px",
-        textDecoration: "none", // Important to make sure the link still looks like a button
-        color: "white",         // Make sure text remains visible
-      }}
-      onMouseOver={(e) => (e.target.style.backgroundColor = "#940a7a")}
-      onMouseOut={(e) => (e.target.style.backgroundColor = "#821e6b")}
-    >
-      Apply Now
-    </Button>
-  </Container>
-</section>
+        <section
+          style={{
+            background: "#F2E9EE",
+            position: "relative",
+            overflow: "hidden",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: "-1px",
+              left: 0,
+              width: "100%",
+              overflow: "hidden",
+              lineHeight: 0,
+            }}
+          >
+            <svg
+              viewBox="0 0 500 80"
+              preserveAspectRatio="none"
+              style={{ height: "40px", width: "100%" }}
+            >
+              <path
+                d="M0,30 C150,80 350,0 500,50 L500,00 L0,0 Z"
+                style={{ fill: "#ffffff" }}
+              ></path>
+            </svg>
+          </div>
 
+          <div className="container py-5">
+            <div className="row align-items-center justify-content-center gx-5">
+              {/* LEFT SIDE */}
+              <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
+                <h3 className="fw-bold mb-3">
+                  Ready to Accelerate Your Growth?
+                </h3>
+                <p className="lead text-muted mb-4">
+                  Secure your spot in our next cohort and transform your
+                  business or career.
+                </p>
+                <a
+                  href="https://docs.google.com/forms/d/1j9-AwQHOVerUBa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn rounded-pill fw-normal"
+                  style={{
+                    backgroundColor: "#821e6b",
+                    color: "#fff",
+                    fontSize: "1.125rem",
+                    padding: "0.75rem 1.5rem",
+                    border: "none",
+                  }}
+                >
+                  Apply Now
+                </a>
+              </div>
+
+              {/* RIGHT SIDE */}
+              <div className="col-md-6 d-flex justify-content-center">
+                <div
+                  className="glass-card text-center"
+                  style={{
+                    maxWidth: "340px",
+                    width: "100%",
+                    padding: "1.5rem",
+                    borderRadius: "1rem",
+                    background:
+                      "linear-gradient(135deg, rgba(255,255,255,0.8), rgba(245,245,245,0.7))",
+                    boxShadow: "0 6px 20px rgba(0,0,0,0.05)",
+                    border: "1px solid rgba(0,0,0,0.05)",
+                    backdropFilter: "blur(8px)",
+                  }}
+                >
+                  <p className="text-muted small mb-3">
+                    Not sure if this is right for you? Let's talk it through.
+                  </p>
+                  <a
+                    href="https://wa.me/message/QB4KO7TXNSKKD1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn w-100 rounded-pill"
+                    style={{
+                      backgroundColor: "#f8f9fa",
+                      color: "#333",
+                      fontSize: "0.9rem",
+                      padding: "0.5rem 0.75rem",
+                      boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
+                      transition: "background 0.2s ease",
+                      border: "1px solid rgba(0,0,0,0.08)",
+                    }}
+                  >
+                    <i className="bi bi-chat-dots-fill me-2" />
+                    Chat With Us
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
     </>
   );
 };
