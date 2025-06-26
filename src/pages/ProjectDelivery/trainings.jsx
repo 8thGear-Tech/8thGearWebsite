@@ -175,11 +175,11 @@ const Trainings = () => {
             </svg>
           </div>
 
-          <div className="container py-5">
+          <div className="container py-5 ">
             <div className="row align-items-center justify-content-center gx-5">
               {/* LEFT SIDE */}
               <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
-                <h3 className="fw-bold mb-3">
+                <h3 className="fw-bold mb-3 mt-5">
                   Ready to Accelerate Your Growth?
                 </h3>
                 <p className="lead text-muted mb-4">
@@ -190,13 +190,13 @@ const Trainings = () => {
                   href="https://docs.google.com/forms/d/1j9-AwQHOVerUBa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn rounded-pill fw-normal"
+                  className="btn fw-normal mb-4"
                   style={{
                     backgroundColor: "#821e6b",
                     color: "#fff",
                     fontSize: "1.125rem",
                     padding: "0.75rem 1.5rem",
-                    border: "none",
+                    // borderRadius: "1.rem",
                   }}
                 >
                   Apply Now
@@ -204,7 +204,7 @@ const Trainings = () => {
               </div>
 
               {/* RIGHT SIDE */}
-              <div className="col-md-6 d-flex justify-content-center">
+              <div className="col-md-6 d-flex justify-content-center py-4">
                 <div
                   className="glass-card text-center"
                   style={{
@@ -226,7 +226,7 @@ const Trainings = () => {
                     href="https://wa.me/message/QB4KO7TXNSKKD1"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn w-100 rounded-pill"
+                    className="btn w-100"
                     style={{
                       backgroundColor: "#f8f9fa",
                       color: "#333",
@@ -235,6 +235,7 @@ const Trainings = () => {
                       boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
                       transition: "background 0.2s ease",
                       border: "1px solid rgba(0,0,0,0.08)",
+                      //  borderRadius: "1rem",
                     }}
                   >
                     <i className="bi bi-chat-dots-fill me-2" />
