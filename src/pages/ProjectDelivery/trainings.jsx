@@ -75,7 +75,7 @@ const Trainings = () => {
             Fuel your innovation, empower your journey, and build a brighter
             future with our expert-led trainings.
           </p>
-          <div className="mt-4 pb-5">
+          {/* <div className="mt-4 pb-5">
             <a
               href="#programs"
               className="training-btn training-btn-lg mr-2 text-decoration-none"
@@ -87,7 +87,7 @@ const Trainings = () => {
             >
               Explore our Trainings
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
 
