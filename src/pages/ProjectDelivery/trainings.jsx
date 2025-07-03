@@ -91,6 +91,76 @@ const Trainings = () => {
         </div>
       </section>
 
+
+ {/* <div className="mb-5">
+      <p className="lead text-muted mb-4">
+        Secure your spot in our next MIRE cohort and transform your business.
+      </p>
+      <a
+        href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn fw-normal rounded-pill"
+        style={{
+          backgroundColor: "#821e6b",
+          color: "#fff",
+          fontSize: "1.125rem",
+          padding: "0.4rem 1.5rem",
+          border: "none"
+        }}
+      >
+        Apply Now
+      </a>
+    </div> */}
+
+    <section className="text-center py-5" style={{ backgroundColor: "#f9f9f9" }}>
+  <div className="container">
+    <p className="text-muted mb-4">
+      Secure your spot in our next MIRE cohort and transform your business.
+    </p>
+    <a
+      href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn fw-normal rounded-pill mb-5"
+      style={{
+        backgroundColor: "#821e6b",
+        color: "#fff",
+        fontSize: "1.125rem",
+        padding: "0.4rem 1.5rem",
+        border: "none"
+      }}
+    >
+      Apply Now
+    </a>
+
+    <div className="d-flex justify-content-center flex-wrap gap-4">
+      <div style={{ width: "320px", height: "568px", position: "relative" }}>
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/0eRPbnmkksc"
+          title="MIRE Testimonial 1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+      {/* <div style={{ width: "320px", height: "568px", position: "relative" }}>
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/I2nkhwwovyg"
+          title="YouTube Short 2"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div> */}
+    </div>
+  </div>
+</section>
+
       {/* UPCOMING TRAININGS */}
       <section className="upcoming-trainings pt-5 pb-3" id="programs">
         <Container>
@@ -151,7 +221,7 @@ const Trainings = () => {
     <div className="mb-5">
       <h3 className="fw-bold mb-3">Ready to Accelerate Your Growth?</h3>
       <p className="lead text-muted mb-4">
-        Secure your spot in our next cohort and transform your business or career.
+        Secure your spot in our next MIRE cohort and transform your business.
       </p>
       <a
         href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
