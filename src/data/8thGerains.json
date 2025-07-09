@@ -53,6 +53,13 @@
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
+  "teamcardseven": [
+    {
+      "image1": "../../images/team/ai-frontdesk.jpeg",
+      "name1": "AI FRONTDESK",
+      "id": "staticBackdrop3"
+    }
+  ],
   "EIRcard": [
     {
       "image1": "../../images/team/seunoladele.jpg",

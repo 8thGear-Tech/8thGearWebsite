@@ -410,7 +410,7 @@ export const TeamCardSix = (props) => {
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
                     <a href={link} target="_blank" rel="noopener noreferrer">
-                      <div className="">
+                      <div className=" " style={{ color: "#000" }}>
                         {" "}
                         <LinkedInIcon />
                       </div>
@@ -471,24 +471,32 @@ export const TeamCardSix = (props) => {
 //   );
 // };
 export const TeamCardSeven = (props) => {
-  const { image1, name1, title1, id, image, name, position, text, link } =
-    props;
+  const { image1, name1, id, image, name, position, text } = props;
   return (
     <>
       <div className="card-deck">
-        <div className="card w-75 mx-auto ">
+        <div className="card w-100 mx-auto ">
           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
           <div className="card-body teamcardbody">
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
-              <p className="Text mb-3 mt-3">{title1}</p>
+              <a
+                href="https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/03/15/20250703154905-YT5UFUNU.json"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn rounded-pill mt-3"
+                style={{
+                  color: "#821e6b",
+                  fontSize: "0.9rem",
+                  padding: "0.4rem 0.75rem",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
+                  border: "1px solid rgba(0,0,0,0.08)",
+                }}
+              >
+                <i className="bi bi-chat-dots-fill me-2" />
+                Talk to Big Fay
+              </a>
             </figure>
-
-            {/* <JointheTeamBtn /> */}
-            <div className="text-center">
-              {" "}
-              <MemberSevenViewBioBtn />
-            </div>
 
             <div
               className="modal fade"
@@ -514,21 +522,38 @@ export const TeamCardSeven = (props) => {
                   <div className="cards" key={id}>
                     <img src={image} className="w-25 mb-4" alt="..." />
                     <h4>{name}</h4>
-                    <h6 className="">{position}</h6>{" "}
-                    <a href={link} target="_blank" rel="noopener noreferrer">
-                      <div className="">
-                        {" "}
-                        <LinkedInIcon />
-                      </div>
-                    </a>
+                    <h6 className="">{position}</h6>
+
                     <div className="card-body">
-                      <p className="card-text ">{text}</p>
+                      <p className="card-text">{text}</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             {/* <EightgeariansPopUpCard1 /> */}
+
+            {/* <a href="">
+              {popup} */}
+            {/* <MemberOneViewBioBtn /> */}
+            {/* </a> */}
+
+            {/* <a href="#" className="nav-link active link">
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a> */}
           </div>
         </div>
       </div>
@@ -662,6 +687,12 @@ export const Gerians = () => {
           {" "}
           {data.teamcardsix.map((card) => {
             return <TeamCardSix {...card}></TeamCardSix>;
+          })}
+        </div>
+        <div className="col-lg-4 col-md-6 mt-5">
+          {" "}
+          {data.teamcardseven.map((card) => {
+            return <TeamCardSeven {...card}></TeamCardSeven>;
           })}
         </div>
       </div>

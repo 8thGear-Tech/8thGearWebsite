@@ -12,7 +12,7 @@ const trainings = [
   {
     id: 1,
     title: "Market & Investment Readiness for Entrepreneurs - Cohort Q3",
-    startDate: "July 7, 2025",
+    startDate: "August 4, 2025",
     duration: "4 weeks",
     appfee: "₦3,000",
     tfee: "₦200,000",
