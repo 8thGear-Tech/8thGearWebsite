@@ -1,5 +1,6 @@
 import React from "react";
 import "../About/aboutUs.css";
+import { JointheTeamBtn } from "../../components/Buttons/ContactBtn";
 
 const HeroSection = () => {
   return (
@@ -10,6 +11,9 @@ const HeroSection = () => {
         </h2>
       </div>
       <div className="about-content text-white text-center"></div>
+      <div className="d-flex justify-content-center">
+        <JointheTeamBtn />
+      </div>
     </div>
   );
 };
