@@ -223,9 +223,9 @@ const SolutionsSection = () => {
             className="h-100 border-0 shadow-sm overflow-hidden"
             style={{ backgroundColor: "#F6F6F6" }}
           >
-            <Card.Img src={mtn} alt="All Products" />
+            <Card.Img src={mtn} alt="Connectivity Tools & Devices" />
             <Card.Body className="">
-              <h4 className="fw-bold">All Products</h4>
+              <h4 className="fw-bold">Connectivity Tools & Devices</h4>
               <Card.Text className="text-muted">
                 Discover everything we offer in one place.
               </Card.Text>

@@ -131,8 +131,7 @@ const MembershipSection = () => {
             begins with a{" "}
             <span className="text-bold">registration fee of ₦20,000</span>,
             followed by a subscription of{" "}
-            <span className="text-bold">₦50,000 quarterly</span> or{" "}
-            <span className="text-bold">₦150,000 annually</span>.
+            <span className="text-bold">₦150,000 quarterly</span>.
           </p>
 
           <ul>
@@ -147,7 +146,8 @@ const MembershipSection = () => {
                 <span className="text-bold">
                   5% affiliate discounts across our co-working,
                 </span>{" "}
-                talent placement and growth strategy services.
+                <span className="text-bold">talent placement</span> and{" "}
+                <span className="text-bold">growth strategy</span> services.
               </p>
             </li>
             <li>
@@ -178,12 +178,6 @@ const MembershipSection = () => {
                   Special in-house sessions and programs{" "}
                 </span>{" "}
                 designed to accelerate your company's growth.
-              </p>
-            </li>
-            <li>
-              <p className="benefit-list">
-                Support with announcements for your ventures and initiatives.
-                B2B ventures can be listed on our tech marketplace.
               </p>
             </li>
           </ul>
