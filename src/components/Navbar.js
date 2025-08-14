@@ -1228,11 +1228,25 @@ export const HomepageNav = () => {
                         Initiatives
                       </Nav.Link>
                       <NavDropdown
+                        title="Programs"
+                        id={`offcanvasNavbarDropdown-expand-${"sm"}`}
+                        className="Nav-item w-75"
+                      >
+                        <div className="Nav-Dropdown rounded-3">
+                          <NavDropdown.Item
+                            href="/MIREPlus"
+                            className="Nav-Dropdown-Items"
+                          >
+                            MIREPlus
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
+                        </div>
+                      </NavDropdown>
+                      <NavDropdown
                         title="Venture Studio"
                         id={`offcanvasNavbarDropdown-expand-${"sm"}`}
                         className="Nav-item w-75"
                       >
-                        {/* DROPDOWN MENU */}
                         <div className="Nav-Dropdown rounded-3">
                           <NavDropdown.Item
                             href="/portfolio"
@@ -1285,6 +1299,15 @@ export const HomepageNav = () => {
                   </NavDropdown>
                   <Nav.Link href="/initiatives">Initiatives</Nav.Link>
                   <NavDropdown
+                    title="Programs"
+                    id="basic-nav-dropdown"
+                    className="text-black"
+                  >
+                    <NavDropdown.Item href="/MIREPlus">
+                      MIREPlus
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                  <NavDropdown
                     title="Venture Studio"
                     id="basic-nav-dropdown"
                     className="text-black"
@@ -1296,6 +1319,7 @@ export const HomepageNav = () => {
                       Hub Membership
                     </NavDropdown.Item>
                   </NavDropdown>
+
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
                 </Nav>

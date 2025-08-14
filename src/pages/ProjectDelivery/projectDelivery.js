@@ -72,11 +72,6 @@ const ProjectDeliveryHero = () => {
               </a>
             </p>
           </Button>
-          <Button className="HeroButton">
-            <p className="mb-0">
-              <Link to="/trainings">Explore our Trainings</Link>
-            </p>
-          </Button>
         </div>
       </div>
     </div>

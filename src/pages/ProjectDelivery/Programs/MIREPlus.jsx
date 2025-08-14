@@ -1,26 +1,25 @@
-// import React, { useState } from "react";
-// import { HomepageNav } from "../../components/Navbar";
-import "./trainings.css";
+import "./MIREPlus.css";
 
 import React, { useState } from "react";
 import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
-import { HomepageNav } from "../../components/Navbar";
-import IRE from "../../assets/images/projectdelivery/IRE.jpg";
-import trainingsHero from "../../assets/images/projectdelivery/trainingsHero.jpg";
+import { HomepageNav } from "../../../components/Navbar";
+import MIREPlusImg from "../../../assets/images/projectdelivery/MIREPlusImg.jpeg";
+import trainingsHero from "../../../assets/images/projectdelivery/trainingsHero.jpg";
 
 const trainings = [
   {
     id: 1,
     title: "Market & Investment Readiness for Entrepreneurs - Cohort Q3",
-    startDate: "August 4, 2025",
-    duration: "4 weeks",
-    appfee: "₦3,000",
-    tfee: "₦200,000",
-    flyerImg: IRE,
+    startDate: "September 8, 2025",
+    // duration: "4 weeks",
+    // appfee: "₦5,000",
+    // tfee: "₦200,000",
+    flyerImg: MIREPlusImg,
+    flyerLink: "Apply Now",
   },
 ];
 
-const Trainings = () => {
+const MIREPlus = () => {
   const [modalImg, setModalImg] = useState(null);
 
   return (
@@ -70,62 +69,19 @@ const Trainings = () => {
             margin: "0 auto",
           }}
         >
-          <h3 className="pt-5">8thGear Training Opportunities</h3>
-          <p className="lead" style={{ fontSize: "1rem" }}>
-            Fuel your innovation, empower your journey, and build a brighter
-            future with our expert-led trainings.
-          </p>
-          {/* <div className="mt-4 pb-5">
-            <a
-              href="#programs"
-              className="training-btn training-btn-lg mr-2 text-decoration-none"
-              style={{
-                backgroundColor: "#821e6b",
-                fontWeight: "normal",
-                fontSize: "0.8rem",
-              }}
-            >
-              Explore our Trainings
-            </a>
-          </div> */}
-        </div>
-      </section>
-
-      {/* <div className="mb-5">
-      <p className="lead text-muted mb-4">
-        Secure your spot in our next MIRE cohort and transform your business.
-      </p>
-      <a
-        href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn fw-normal rounded-pill"
-        style={{
-          backgroundColor: "#821e6b",
-          color: "#fff",
-          fontSize: "1.125rem",
-          padding: "0.4rem 1.5rem",
-          border: "none"
-        }}
-      >
-        Apply Now
-      </a>
-    </div> */}
-
-      <section
-        className="text-center py-5"
-        style={{ backgroundColor: "#f9f9f9" }}
-      >
-        <div className="container">
-          <p className="text-muted mb-4">
+          <h2 className="pt-5">
             Secure your spot in our next MIRE cohort and transform your
             business.
+          </h2>
+          <p className="lead" style={{ fontSize: "1rem" }}>
+            Grant-Ready | Loan-Ready | Investor-Ready
           </p>
+
           <a
-            href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+            href="https://bit.ly/MIREPlus"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn fw-normal rounded-pill mb-5"
+            className="btn fw-normal rounded-pill mb-3"
             style={{
               backgroundColor: "#821e6b",
               color: "#fff",
@@ -137,6 +93,60 @@ const Trainings = () => {
             Apply Now
           </a>
 
+          {/* <h3 className="pt-5">8thGear Training Opportunities</h3>
+          <p className="lead" style={{ fontSize: "1rem" }}>
+            Fuel your innovation, empower your journey, and build a brighter
+            future with our expert-led trainings.
+          </p> */}
+        </div>
+      </section>
+
+      {/* UPCOMING TRAININGS */}
+      <section className="upcoming-trainings pt-5 pb-3" id="programs">
+        <Container>
+          <Row className="justify-content-center ">
+            {trainings.map((t) => (
+              <Col key={t.id} sm={6} lg={4} className="mb-4">
+                <Card className="h-100 shadow-sm">
+                  <Card.Header className="bg-primary text-white text-center">
+                    {t.title}
+                  </Card.Header>
+                  <Card.Img
+                    variant="top"
+                    src={t.flyerImg}
+                    alt={`${t.title} Flyer`}
+                  />
+                  <Card.Body className="d-flex flex-column">
+                    <p className="mb-2">
+                      <strong>Starts:</strong> {t.startDate}
+                    </p>
+                    {/* <p className="mb-2">
+                      <strong>Duration:</strong> {t.duration}
+                    </p>
+                    <p className="mb-2">
+                      <strong>Application Fee:</strong> {t.appfee}
+                    </p>
+                    <p className="mb-2">
+                      <strong>Training Fee:</strong> {t.tfee}
+                    </p> */}
+                  </Card.Body>
+                  <a href="https://bit.ly/MIREPlus" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                    <Card.Header className="bg-primary text-white text-center">
+                      {t.flyerLink}
+                    </Card.Header>
+                  </a>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </section>
+
+      <section
+        className="text-center py-5"
+        style={{ backgroundColor: "#f9f9f9" }}
+      >
+        <div className="container">
           <div className="d-flex justify-content-center flex-wrap gap-4">
             <div
               style={{ width: "320px", height: "568px", position: "relative" }}
@@ -166,43 +176,6 @@ const Trainings = () => {
         </div>
       </section>
 
-      {/* UPCOMING TRAININGS */}
-      <section className="upcoming-trainings pt-5 pb-3" id="programs">
-        <Container>
-          <h4 className="mb-4 text-center">Upcoming Training</h4>
-          <Row className="justify-content-center ">
-            {trainings.map((t) => (
-              <Col key={t.id} sm={6} lg={4} className="mb-4">
-                <Card className="h-100 shadow-sm">
-                  <Card.Header className="bg-primary text-white text-center">
-                    {t.title}
-                  </Card.Header>
-                  <Card.Img
-                    variant="top"
-                    src={t.flyerImg}
-                    alt={`${t.title} Flyer`}
-                  />
-                  <Card.Body className="d-flex flex-column">
-                    <p className="mb-2">
-                      <strong>Starts:</strong> {t.startDate}
-                    </p>
-                    <p className="mb-2">
-                      <strong>Duration:</strong> {t.duration}
-                    </p>
-                    <p className="mb-2">
-                      <strong>Application Fee:</strong> {t.appfee}
-                    </p>
-                    <p className="mb-2">
-                      <strong>Training Fee:</strong> {t.tfee}
-                    </p>
-                  </Card.Body>
-                </Card>
-              </Col>
-            ))}
-          </Row>
-        </Container>
-      </section>
-
       {/* FLYER MODAL */}
       <Modal
         show={modalImg !== null}
@@ -219,17 +192,17 @@ const Trainings = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-      <section className="cta-section text-center py-5">
+      <section className="cta-section text-center pt-5 pb-3">
         <div className="container">
           {/* Section 1: Call to Action */}
-          <div className="mb-5">
+          <div className="">
             <h3 className="fw-bold mb-3">Ready to Accelerate Your Growth?</h3>
             <p className="lead text-muted mb-4">
               Secure your spot in our next MIRE cohort and transform your
               business.
             </p>
             <a
-              href="https://docs.google.com/forms/d/1j9-AwQHOVerUBAPa1i9ErZuQyDHyUBTsZ-3SYrW2uZ4/viewform?edit_requested=true"
+              href="https://bit.ly/MIREPlus"
               target="_blank"
               rel="noopener noreferrer"
               className="btn fw-normal rounded-pill"
@@ -246,7 +219,7 @@ const Trainings = () => {
           </div>
 
           {/* Section 2: Chat Support */}
-          <div className="d-flex justify-content-center">
+          {/* <div className="d-flex justify-content-center">
             <div
               className="glass-card text-center"
               style={{
@@ -282,11 +255,11 @@ const Trainings = () => {
                 Chat With Us
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
   );
 };
 
-export default Trainings;
+export default MIREPlus;
