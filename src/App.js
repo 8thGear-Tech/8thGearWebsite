@@ -98,6 +98,7 @@ import FAQ from "./components/FAQ";
 import { Insights } from "./pages/Insights/insights";
 import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
+import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
           <Route path="trulance" element={<TrulancePortfolioPage />} />
           <Route path="initiatives" element={<ProjectDeliveryPage />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
+          <Route path="GearUp" element={<GearUp />} />
           <Route
             path="project-delivery-gallery"
             element={<ProjectDeliveryGalleryPage />}

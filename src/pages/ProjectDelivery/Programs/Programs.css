@@ -1,0 +1,152 @@
+.training-card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: linear-gradient(135deg, #821e6b, #00a495);
+  font-weight: bold;
+}
+
+
+.training-hero {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #821e6b, #00a495);
+  color: #ffffff;
+  border-radius: 12px;
+  padding: rem 2rem;
+}
+
+
+.training-hero p {
+  font-size: 1.2rem; /* Slightly smaller for supporting text */
+}
+
+
+.training-hero .training-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+}
+
+.training-hero .training-btn:hover {
+  background-color: #001d87;
+  color: #ffffff;
+}
+
+.training-btn {
+  font-weight: normal; /* No bold */
+  background-color: #821e6b; /* Button base color */
+  color: #ffffff; /* Text color */
+  transition: all 0.3s ease-in-out;
+}
+
+.training-btn:hover {
+  background-color: #940a7a; /* Slightly lighter shade of purple for hover */
+  color: #ffffff;
+}
+
+
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.cta-section h3 {
+  font-size: 1.8rem; 
+  font-weight: 500; 
+}
+
+.cta-section p {
+  font-size: 1rem; 
+}
+
+.cta-section .training-btn {
+  font-size: 1rem; 
+  font-weight: normal; 
+  background-color: #821e6b;
+  color: #ffffff; 
+  padding: 0.75rem 1.5rem; 
+  border-radius: 8px; 
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section .training-btn:hover {
+  background-color: #940a7a; 
+  color: #ffffff; 
+}
+
+
+/* new */
+
+/* Gradient button */
+.btn-gradient {
+  background: linear-gradient(135deg, #6f42c1 0%, #20c997 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 20px rgba(32, 201, 151, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(32, 201, 151, 0.4);
+}
+
+/* Frosted-glass card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Modern outline chat button */
+.btn-modern {
+  background: rgba(255, 255, 255, 0.6);
+  color: #333;
+  border: none;
+  box-shadow: inset 0 0 0 1px rgba(51, 51, 51, 0.2);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.btn-modern:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+}
+
+/* Custom scrollbar styles - GearUp */
+/* This is an optional style to hide the scrollbar */
+/* Custom styles for horizontal scrolling */
+.custom-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scroll-container {
+  scrollbar-width: none;
+  padding: 0 1rem;
+}
+
+/* Responsive Pagination Dots */
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6E006A;
+  opacity: 0.5;
+  margin: 0 5px;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-dot.active {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+.hero-pattern {
+  background-image: url("../../../assets/images/projectdelivery/gearup-training/herosection.jpeg");
+}
