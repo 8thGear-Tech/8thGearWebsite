@@ -500,7 +500,7 @@ const WhyJoinGearUp = () => {
             </Col>
             <Col md={6} className="d-flex align-items-stretch">
               <img
-                src={imgOne}
+                src={imgTwo}
                 alt="Entrepreneurs"
                 className="img-fluid rounded-bottom rounded-md-end rounded-top-0 rounded-md-top"
               />
@@ -527,7 +527,7 @@ const WhyJoinGearUp = () => {
             </Col>
             <Col md={6} className="d-flex align-items-stretch">
               <img
-                src={imgTwo}
+                src={imgThree}
                 alt="Mentors"
                 className="img-fluid rounded-bottom rounded-md-start rounded-top-0 rounded-md-top"
               />
