@@ -116,7 +116,7 @@
 /* Custom scrollbar styles - GearUp */
 /* This is an optional style to hide the scrollbar */
 /* Custom styles for horizontal scrolling */
-.custom-scroll-container::-webkit-scrollbar {
+/* .custom-scroll-container::-webkit-scrollbar {
   display: none;
 }
 
@@ -125,7 +125,38 @@
   padding: 0 1rem;
 }
 
-/* Responsive Pagination Dots */
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6E006A;
+  opacity: 0.5;
+  margin: 0 5px;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-dot.active {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
+  }
+} */
+
+.custom-scroll-container {
+  scrollbar-width: none;
+  padding: 0 1rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.custom-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
 .carousel-dot {
   width: 10px;
   height: 10px;
@@ -146,6 +177,7 @@
     height: 8px;
   }
 }
+
 
 .hero-pattern {
   background-image: url("../../../assets/images/projectdelivery/gearup-training/herosection.jpeg");

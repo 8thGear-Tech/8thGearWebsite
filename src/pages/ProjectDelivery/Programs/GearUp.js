@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import "./Programs.css";
 import { HomepageNav } from "../../../components/Navbar";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
@@ -6,6 +7,8 @@ import imgOne from "../../../assets/images/projectdelivery/gearup-training/imgOn
 import imgTwo from "../../../assets/images/projectdelivery/gearup-training/imgTwo.png";
 import imgThree from "../../../assets/images/projectdelivery/gearup-training/imgThree.png";
 import applyNowTimer from "../../../assets/images/projectdelivery/gearup-training/applyNowTimer.png";
+
+import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
 const GearUp = () => {
   return (
@@ -154,6 +157,9 @@ const CardCarousel = () => {
     },
   ];
 
+  const carouselRef = useRef(null);
+  const dotRefs = useRef([]);
+
   const cardStyle = {
     minWidth: "250px",
     flex: "0 0 auto",
@@ -163,6 +169,7 @@ const CardCarousel = () => {
     border: "1px solid #D3D3D3",
     padding: "2rem",
     textAlign: "center",
+    scrollSnapAlign: "center", // Changed from "start" to "center"
   };
 
   const titleStyle = {
@@ -170,29 +177,136 @@ const CardCarousel = () => {
     marginBottom: "0.5rem",
   };
 
+  const arrowButtonStyle = {
+    backgroundColor: "white",
+    border: "1px solid #ccc",
+    borderRadius: "50%",
+    width: "30px",
+    height: "30px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    cursor: "pointer",
+    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+    zIndex: 1,
+    position: "absolute",
+    top: "50%",
+    transform: "translateY(-50%)",
+    color: "#444",
+  };
+
+  const scrollCarousel = (direction) => {
+    const carouselElement = carouselRef.current;
+    if (!carouselElement) return;
+
+    const firstCard = carouselElement.querySelector(".card");
+    if (!firstCard) return;
+
+    const cardStyle = window.getComputedStyle(firstCard);
+    const cardMarginRight = parseFloat(cardStyle.marginRight);
+    const cardWidth = firstCard.offsetWidth + cardMarginRight;
+
+    if (direction === "left") {
+      carouselElement.scrollLeft -= cardWidth;
+    } else {
+      carouselElement.scrollLeft += cardWidth;
+    }
+  };
+
+  useEffect(() => {
+    const carouselElement = carouselRef.current;
+    if (!carouselElement) return;
+
+    const handleScroll = () => {
+      const firstCard = carouselElement.querySelector(".card");
+      if (!firstCard) return;
+
+      const cardStyle = window.getComputedStyle(firstCard);
+      const cardMarginRight = parseFloat(cardStyle.marginRight);
+      const cardWidth = firstCard.offsetWidth + cardMarginRight;
+      const scrollPosition = carouselElement.scrollLeft;
+
+      const maxScrollLeft =
+        carouselElement.scrollWidth - carouselElement.clientWidth;
+      let activeIndex;
+
+      if (scrollPosition >= maxScrollLeft - 10) {
+        activeIndex = carouselItems.length - 1;
+      } else {
+        activeIndex = Math.round(scrollPosition / cardWidth);
+      }
+
+      dotRefs.current.forEach((dot, index) => {
+        if (dot) {
+          if (index === activeIndex) {
+            dot.classList.add("active");
+          } else {
+            dot.classList.remove("active");
+          }
+        }
+      });
+    };
+
+    const handleKeyDown = (event) => {
+      if (event.key === "ArrowLeft") {
+        scrollCarousel("left");
+      } else if (event.key === "ArrowRight") {
+        scrollCarousel("right");
+      }
+    };
+
+    carouselElement.addEventListener("scroll", handleScroll);
+    window.addEventListener("keydown", handleKeyDown);
+    handleScroll();
+
+    return () => {
+      carouselElement.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   return (
     <Container fluid style={{ backgroundColor: "#F1F8ED", padding: "3rem 0" }}>
       <h4 className="text-uppercase fw-bold mb-3 text-center">
-        WHAT WILL SELECTED ENTREPRENEURS RECIEVE?
+        WHAT WILL SELECTED ENTREPRENEURS RECEIVE?
       </h4>
 
-      {/* Horizontal Scrolling Carousel */}
-      <div className="d-flex overflow-auto custom-scroll-container">
-        {carouselItems.map((item, index) => (
-          <Card key={index} style={cardStyle}>
-            <Card.Body>
-              <h4 style={titleStyle}>{item.title}</h4>
-              <p className="text-secondary">{item.description}</p>
-            </Card.Body>
-          </Card>
-        ))}
+      <div className="d-flex align-items-center justify-content-center position-relative">
+        <div
+          onClick={() => scrollCarousel("left")}
+          style={{ ...arrowButtonStyle, left: "20px" }}
+          className="d-none d-md-flex"
+        >
+          <ArrowLeft size={16} />
+        </div>
+        <div
+          ref={carouselRef}
+          className="d-flex overflow-auto custom-scroll-container px-4"
+          style={{ width: "100%" }}
+        >
+          {carouselItems.map((item, index) => (
+            <Card key={index} style={cardStyle}>
+              <Card.Body>
+                <h4 style={titleStyle}>{item.title}</h4>
+                <p className="text-secondary">{item.description}</p>
+              </Card.Body>
+            </Card>
+          ))}
+        </div>
+        <div
+          onClick={() => scrollCarousel("right")}
+          style={{ ...arrowButtonStyle, right: "20px" }}
+          className="d-none d-md-flex"
+        >
+          <ArrowRight size={16} />
+        </div>
       </div>
 
-      {/* Responsive Pagination Dots */}
       <div className="d-flex justify-content-center mt-4">
         {carouselItems.map((_, index) => (
           <div
             key={index}
+            ref={(el) => (dotRefs.current[index] = el)}
             className={`carousel-dot ${index === 0 ? "active" : ""}`}
           ></div>
         ))}
@@ -361,18 +475,6 @@ const WhyJoinGearUp = () => {
     padding: "3rem 0",
   };
 
-  const imageStyle = {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-    borderRadius: "0 10px 10px 0",
-  };
-
-  const reverseImageStyle = {
-    ...imageStyle,
-    borderRadius: "10px 0 0 10px",
-  };
-
   return (
     <Container fluid style={{ backgroundColor: "#F7E1F7", ...sectionPadding }}>
       <h4 className="text-center text-uppercase fw-bold mb-5 text-center">
@@ -398,10 +500,9 @@ const WhyJoinGearUp = () => {
             </Col>
             <Col md={6} className="d-flex align-items-stretch">
               <img
-                src={imgTwo}
+                src={imgOne}
                 alt="Entrepreneurs"
-                className="img-fluid"
-                style={imageStyle}
+                className="img-fluid rounded-bottom rounded-md-end rounded-top-0 rounded-md-top"
               />
             </Col>
           </Row>
@@ -426,10 +527,9 @@ const WhyJoinGearUp = () => {
             </Col>
             <Col md={6} className="d-flex align-items-stretch">
               <img
-                src={imgThree}
+                src={imgTwo}
                 alt="Mentors"
-                className="img-fluid"
-                style={reverseImageStyle}
+                className="img-fluid rounded-bottom rounded-md-start rounded-top-0 rounded-md-top"
               />
             </Col>
           </Row>
