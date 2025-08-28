@@ -1240,13 +1240,13 @@ export const HomepageNav = () => {
                             MIREPlus
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
-                          {/* <NavDropdown.Item
+                          <NavDropdown.Item
                             href="/GearUp"
                             className="Nav-Dropdown-Items"
                           >
                             GearUp
                             <hr className="w-75 m-auto" />
-                          </NavDropdown.Item> */}
+                          </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <NavDropdown
@@ -1313,7 +1313,7 @@ export const HomepageNav = () => {
                     <NavDropdown.Item href="/MIREPlus">
                       MIREPlus
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item href="/GearUp">GearUp</NavDropdown.Item> */}
+                    <NavDropdown.Item href="/GearUp">GearUp</NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
                     title="Venture Studio"

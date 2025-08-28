@@ -69,12 +69,19 @@ const HeroSection = () => {
               <b> Your Launchpad to Building a Globally Relevant Business</b>
             </p>
             <p style={{ fontSize: "0.9rem", marginBottom: "2rem" }}>
-              Powered by 8thGear Hub & Venture Studio, GearUp Incubation Program
-              is the first phase of a bold, multi-country initiative designed to
-              spotlight and scale women and youth-led businesses across Africa;
-              starting right here in Southwest, Nigeria.
+              Powered by 8thGear Hub & Venture Studio, the GearUp Incubation
+              Program is the first phase of a bold, multi-country initiative
+              designed to spotlight and scale businesses with health-related
+              outputs such as food, wellness, and hospital management, starting
+              right here in Southwest Nigeria.
             </p>
-            <Button style={buttonStyle}>Apply Now!</Button>
+            <a
+              href="https://incubation.bridgeforbillions.org/signup?organization=224&program=586"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button style={buttonStyle}>Apply Now!</Button>
+            </a>
           </Col>
           <Col lg={6} className="text-center mt-4 mt-lg-0 d-none d-lg-block">
             <img
@@ -118,11 +125,12 @@ const AboutTheProgram = () => {
               What is GearUp Incubation Program?
             </h4>
             <p>
-              In just 4 months, GearUp Incubation Program will equip early-stage
-              entrepreneurs with the tools, mentorship, and network to transform
-              their ideas into investment-ready ventures. You will join a
-              vibrant Pan-African founder community and get hands-on support
-              every step of the way.
+              In just 4 months, the GearUp Incubation Program will equip
+              early-stage entrepreneurs in healthcare and related sectors, such
+              as health tech, nutrition, hospital management, and more with the
+              tools, mentorship, and network to transform their ideas into
+              investment-ready ventures. You’ll join a vibrant Pan-African
+              founder community and get hands-on support every step of the way.
             </p>
           </div>
 
@@ -317,18 +325,19 @@ const CardCarousel = () => {
 
 const WhoCanApply = () => {
   const entrepreneurRequirements = [
-    "Under 40 years of age (with strong preference for women-led businesses)",
     "Reside in or operate primarily from Southwest Nigeria (Lagos, Ogun, Oyo, Osun, Ondo, Ekiti)",
-    "Must be the founder or co-founder of an early-stage startup or defined business idea",
+    "You must be the founder or co-founder of an early-stage startup or a clearly defined business idea with health-related outputs (e.g., food, wellness, hospital management, or related solutions).",
     "Business must be problem-solving and scalable",
+    "Be building a solution in healthcare or a related sector (e.g., health tech, food/nutrition, hospital management, wellness, etc.)",
+    "Have prior experience or background in the healthcare or health-related sector",
     "Must commit 6-7 hours per week for 4 months",
     "Must not be currently enrolled in another full-time incubation/acceleration program",
     "Must actively participate in virtual sessions and mentorship check-ins",
   ];
 
   const mentorRequirements = [
-    "5+ years of experience building or running a business",
-    "Passion for empowering youth and women-led startups",
+    "5+ years of experience building or running a business (preferably in healthcare or a related sector)",
+    "Passion for supporting innovation in healthcare and improving lives across Africa",
     "Available for 1-2 hours/week to support a founder",
     "Available for 1 hour/month to collaborate with other mentors",
     "Strong communication skills and ability to give feedback",
@@ -384,7 +393,8 @@ const WhoCanApply = () => {
                     <h4 style={cardHeaderStyle}>Entrepreneurs</h4>
                     <p className="text-center text-secondary mb-4">
                       We are looking for bold, innovative founders with ideas
-                      that solve real problems and have the potential to scale.
+                      that solve real problems in healthcare and related sectors
+                      with the potential to scale and make lasting impact.
                     </p>
                     <ul className="p-0">
                       {entrepreneurRequirements.map((item, index) => (
@@ -394,9 +404,16 @@ const WhoCanApply = () => {
                       ))}
                     </ul>
                     <div className="mt-auto text-center">
-                      <Button style={buttonStyle}>
-                        Apply As An Entrepreneur
-                      </Button>
+                      <a
+                        href="https://incubation.bridgeforbillions.org/signup?organization=224&program=586"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {" "}
+                        <Button style={buttonStyle}>
+                          Apply As An Entrepreneur
+                        </Button>
+                      </a>
                     </div>
                   </Card.Body>
                 </Card>
@@ -420,7 +437,14 @@ const WhoCanApply = () => {
                       ))}
                     </ul>
                     <div className="mt-auto text-center">
-                      <Button style={buttonStyle}>Apply As A Mentor</Button>
+                      <a
+                        href="https://incubation.bridgeforbillions.org/signup?organization=224&program=586"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {" "}
+                        <Button style={buttonStyle}>Apply As A Mentor</Button>
+                      </a>
                     </div>
                   </Card.Body>
                 </Card>
@@ -624,10 +648,24 @@ const ApplyNowSection = () => {
           </Row>
           <Row className="justify-content-center g-3">
             <Col xs="auto">
-              <Button style={buttonStyle}>Apply As An Entrepreneur</Button>
+              <a
+                href="https://incubation.bridgeforbillions.org/signup?organization=224&program=586"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <Button style={buttonStyle}>Apply As An Entrepreneur</Button>
+              </a>
             </Col>
             <Col xs="auto">
-              <Button style={buttonStyle}>Apply As A Mentor</Button>
+              <a
+                href="https://incubation.bridgeforbillions.org/signup?organization=224&program=586"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                <Button style={buttonStyle}>Apply As A Mentor</Button>
+              </a>
             </Col>
           </Row>
         </div>
