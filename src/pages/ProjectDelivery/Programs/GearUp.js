@@ -328,7 +328,6 @@ const WhoCanApply = () => {
     "Reside in or operate primarily from Southwest Nigeria (Lagos, Ogun, Oyo, Osun, Ondo, Ekiti)",
     "You must be the founder or co-founder of an early-stage startup or a clearly defined business idea with health-related outputs (e.g., food, wellness, hospital management, or related solutions).",
     "Business must be problem-solving and scalable",
-    "Be building a solution in healthcare or a related sector (e.g., health tech, food/nutrition, hospital management, wellness, etc.)",
     "Have prior experience or background in the healthcare or health-related sector",
     "Must commit 6-7 hours per week for 4 months",
     "Must not be currently enrolled in another full-time incubation/acceleration program",
@@ -643,6 +642,10 @@ const ApplyNowSection = () => {
                 />
                 Spots are limited! Don't miss your chance to launch, grow, and
                 connect through this continent-wide movement.
+              </p>{" "}
+              <p style={textStyle}>
+                {" "}
+                <b style={{ color: "#6E006A" }}>Deadline: September 12, 2025</b>
               </p>
             </Col>
           </Row>
