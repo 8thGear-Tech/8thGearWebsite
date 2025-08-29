@@ -29,14 +29,8 @@ const HeroSection = () => {
   const heroStyle = {
     backgroundColor: "#6E006A",
     color: "#FFFFFF",
-    padding: "4rem 0",
+    // padding: "4rem 0",
   };
-
-  // const headingStyle = {
-  //   fontWeight: "bold",
-  //   fontSize: "2.5rem",
-  //   marginBottom: "1.5rem",
-  // };
 
   const subHeadingStyle = {
     fontSize: "1.2rem",

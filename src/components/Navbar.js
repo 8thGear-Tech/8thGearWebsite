@@ -1234,6 +1234,13 @@ export const HomepageNav = () => {
                       >
                         <div className="Nav-Dropdown rounded-3">
                           <NavDropdown.Item
+                            href="/DBN"
+                            className="Nav-Dropdown-Items"
+                          >
+                            DBN
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
                             href="/MIREPlus"
                             className="Nav-Dropdown-Items"
                           >
@@ -1310,6 +1317,7 @@ export const HomepageNav = () => {
                     id="basic-nav-dropdown"
                     className="text-black"
                   >
+                    <NavDropdown.Item href="/DBN">DBN</NavDropdown.Item>
                     <NavDropdown.Item href="/MIREPlus">
                       MIREPlus
                     </NavDropdown.Item>

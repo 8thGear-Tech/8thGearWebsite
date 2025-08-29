@@ -97,6 +97,7 @@ import FAQ from "./components/FAQ";
 //Insights
 import { Insights } from "./pages/Insights/insights";
 import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
+import DBN from "./pages/ProjectDelivery/Programs/DBN";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 
@@ -115,6 +116,7 @@ function App() {
           <Route path="legalmo" element={<LegalMoPortfolioPage />} />
           <Route path="trulance" element={<TrulancePortfolioPage />} />
           <Route path="initiatives" element={<ProjectDeliveryPage />} />
+          <Route path="DBN" element={<DBN />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route
