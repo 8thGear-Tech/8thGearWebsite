@@ -31,7 +31,7 @@ const Error404 = () => {
         </h3>
         <p className="d-flex justify-content-center">
           The page you are looking for does not exist. Please click on the
-          buttons below to either go back to the homepage or contact us
+          button below to either go back to the homepage or contact us
         </p>
 
         <div className=" d-block justify-content-start my-4">
@@ -40,50 +40,9 @@ const Error404 = () => {
               <HomeBtn />
             </Link>
             <a href="mailto:info@8thgearpartners.com">
-              <div className="ms-3">
-                {/* <ContactBtn /> */}
-              </div>
+              <div className="ms-3">{/* <ContactBtn /> */}</div>
             </a>
           </div>
-
-          {/* <div className="d-flex justify-content-start  herotextColored ">
-            <a
-              href="https://www.facebook.com/8thgearpartners"
-              className="herotextColored d-flex justify-content-end px-2 pb-3"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <FacebookIcon />
-            </a>
-
-            <a
-              href="https://www.instagram.com/8thgearpartners/"
-              className="herotextColored d-flex justify-content-end px-2 pb-3"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <InstagramIcon />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/8thgearpartners/"
-              className="herotextColored d-flex justify-content-end px-2 pb-3"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <LinkedInIcon />
-            </a>
-            <a
-              href="https://twitter.com/8thGearPartners?t=yFaw9REm-T7YQu0kxtFlIg&s=09"
-              className="herotextColored d-flex justify-content-end px-2 pb-3"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
-              <TwitterIcon />
-            </a>
-          </div> */}
         </div>
       </div>
     </div>
