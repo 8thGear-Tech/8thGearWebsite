@@ -31,7 +31,7 @@ const Error404 = () => {
         </h3>
         <p className="d-flex justify-content-center">
           The page you are looking for does not exist. Please click on the
-          button below to either go back to the homepage or contact us
+          button below to go back to the homepage
         </p>
 
         <div className=" d-block justify-content-start my-4">
