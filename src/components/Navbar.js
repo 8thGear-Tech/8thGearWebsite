@@ -1257,7 +1257,7 @@ export const HomepageNav = () => {
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href="/https://lagosgreen.meristemng.com/"
+                            href="https://lagosgreen.meristemng.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="Nav-Dropdown-Items"
@@ -1349,7 +1349,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/https://lagosgreen.meristemng.com/"
+                      href="https://lagosgreen.meristemng.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
