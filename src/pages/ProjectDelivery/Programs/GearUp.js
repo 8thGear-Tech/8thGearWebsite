@@ -29,7 +29,7 @@ const HeroSection = () => {
   const heroStyle = {
     backgroundColor: "#6E006A",
     color: "#FFFFFF",
-    // padding: "4rem 0",
+    padding: "4rem 0",
   };
 
   const subHeadingStyle = {
