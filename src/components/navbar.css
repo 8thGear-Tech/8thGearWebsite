@@ -1,0 +1,9 @@
+.custom-dropdown-item {
+  white-space: normal; 
+  word-break: break-word; 
+}
+
+.dropdown-item-separated {
+  background-color: #f8f9fa; /* A light gray background */
+  border-bottom: 1px solid #e9ecef; /* A very light gray border to separate items */
+}

@@ -18,6 +18,8 @@ import "../sassfiles/components/_navbar.scss";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+import "./navbar.css";
+
 const NavBar = (props) => {
   const { heading } = props;
   const [show, setShow] = useState(false);
@@ -1237,21 +1239,30 @@ export const HomepageNav = () => {
                             href="/DBN"
                             className="Nav-Dropdown-Items"
                           >
-                            DBN
+                            DBN Workshop & Grants
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
                             href="/MIREPlus"
-                            className="Nav-Dropdown-Items"
+                            className="Nav-Dropdown-Items custom-dropdown-item"
                           >
-                            MIREPlus
+                            MIRE+ (Investment Readiness)
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
                             href="/GearUp"
                             className="Nav-Dropdown-Items"
                           >
-                            GearUp
+                            GearUp Incubation
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
+                            href="/https://lagosgreen.meristemng.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="Nav-Dropdown-Items"
+                          >
+                            Meristem Lagos Green
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                         </div>
@@ -1317,11 +1328,33 @@ export const HomepageNav = () => {
                     id="basic-nav-dropdown"
                     className="text-black"
                   >
-                    <NavDropdown.Item href="/DBN">DBN</NavDropdown.Item>
-                    <NavDropdown.Item href="/MIREPlus">
-                      MIREPlus
+                    <NavDropdown.Item
+                      href="/DBN"
+                      className="dropdown-item-separated"
+                    >
+                      DBN Workshop & Grants
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/GearUp">GearUp</NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/MIREPlus"
+                      className="dropdown-item-separated"
+                    >
+                      MIRE+ (Investment Readiness)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/GearUp"
+                      className="dropdown-item-separated"
+                    >
+                      {" "}
+                      GearUp Incubation
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/https://lagosgreen.meristemng.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Meristem Lagos Green
+                    </NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
                     title="Venture Studio"
