@@ -232,13 +232,13 @@ const MIREPlus = () => {
       {/* Right Side - Funders */}
       <Col md={6}>
         <div className="p-4 rounded shadow-lg bg-white text-dark">
-          <h5 className="fw-bold mb-3">For access to Funders we will facilitate access to:</h5>
+          <h5 className="fw-bold mb-3">For access to Funders, we will facilitate access to:</h5>
           <ul className="list-unstyled mb-3">
             <li className="mb-2">
-              ✔ Development Bank of Nigeria (DBN) – Single Digit Debt Finance and Grants of up to ₦5m
+              ✔ Development Bank of Nigeria (DBN) - Single Digit Debt Finance and Grants of up to ₦5m
             </li>
             <li className="mb-2">
-              ✔ Lagos State Employment Trust Fund (LSETF) – Single Digit Debt Finance
+              ✔ Lagos State Employment Trust Fund (LSETF) - Single Digit Debt Finance
             </li>
             <li className="mb-2">
               ✔ Access to Equity investment from Avon Africa VC
