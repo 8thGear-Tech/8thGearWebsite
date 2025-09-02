@@ -3,7 +3,7 @@ import "./Programs.css";
 import React, { useState } from "react";
 import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
-import MIREPlusImg from "../../../assets/images/projectdelivery/MIREPlusImg.jpeg";
+import MIREPlusImg from "../../../assets/images/projectdelivery/MIREPlusImg.JPG";
 import trainingsHero from "../../../assets/images/projectdelivery/trainingsHero.jpg";
 
 const trainings = [
@@ -192,6 +192,81 @@ const MIREPlus = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <section
+  className="clarity-section py-5 text-white"
+  style={{
+    background: "linear-gradient(135deg, #821E6B 0%, #00A495 100%)",
+  }}
+>
+  <Container>
+    <Row className="align-items-start">
+      {/* Left Side - Story */}
+      <Col md={6} className="mb-4 mb-md-0">
+        <h3 className="fw-bold mb-3">
+          If clarity is worth anything to you and your business, read on.
+        </h3>
+        <p className="opacity-90">
+          The Coaches and Team at <strong>8thGear® Hub & Venture Studio</strong> will help switch on 
+          the lights so you can clearly see if you need <strong>Funding</strong> (and what type), 
+          <strong> Talent</strong> (and what type), <strong> Tech</strong> (and what type), & 
+          <strong> Market access</strong> (are you in the right market or should you pivot?).
+        </p>
+
+        {/* Four Pillars */}
+       <Row className=" mt-4">
+  {[
+    { title: "Funding", icon: "bi-cash-coin" },
+    { title: "Talent", icon: "bi-people-fill" },
+    { title: "Tech", icon: "bi-cpu-fill" },
+    { title: "Market", icon: "bi-graph-up-arrow" }
+  ].map((item, idx) => (
+    <Col key={idx} xs={3} className="mb-3">
+      <i className={`bi ${item.icon} fs-3 text-white`} />
+      <p className="small fw-bold mb-0">{item.title}</p>
+    </Col>
+  ))}
+</Row>
+      </Col>
+
+      {/* Right Side - Funders */}
+      <Col md={6}>
+        <div className="p-4 rounded shadow-lg bg-white text-dark">
+          <h5 className="fw-bold mb-3">For access to Funders we will facilitate access to:</h5>
+          <ul className="list-unstyled mb-3">
+            <li className="mb-2">
+              ✔ Development Bank of Nigeria (DBN) – Single Digit Debt Finance and Grants of up to ₦5m
+            </li>
+            <li className="mb-2">
+              ✔ Lagos State Employment Trust Fund (LSETF) – Single Digit Debt Finance
+            </li>
+            <li className="mb-2">
+              ✔ Access to Equity investment from Avon Africa VC
+            </li>
+          </ul>
+
+          <p className="small mb-0">
+            After the program you can optionally access follow on accountability/ad-hoc advisory board services 
+            through our Subscribed Hub Membership to actually prepare you for the Market and/or investors.
+          </p>
+
+          {/* Talk to Us inside card */}
+          <div className="text-center mt-4">
+            <a
+              href="https://api.whatsapp.com/send/?phone=2348094818883"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary rounded-pill px-4"
+            >
+              Talk to Us
+            </a>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
       <section className="cta-section text-center pt-5 pb-3">
         <div className="container">
           {/* Section 1: Call to Action */}
@@ -202,7 +277,7 @@ const MIREPlus = () => {
               business.
             </p>
             <a
-              href="https://bit.ly/MIREPlus"
+              href="https://api.whatsapp.com/send/?phone=2348094818883"
               target="_blank"
               rel="noopener noreferrer"
               className="btn fw-normal rounded-pill"
