@@ -7,6 +7,13 @@ import imgOne from "../../../assets/images/projectdelivery/gearup-training/imgOn
 import imgTwo from "../../../assets/images/projectdelivery/gearup-training/imgTwo.png";
 import imgThree from "../../../assets/images/projectdelivery/gearup-training/imgThree.png";
 import applyNowTimer from "../../../assets/images/projectdelivery/gearup-training/applyNowTimer.png";
+import bridgeforbillions from "../../../assets/images/projectdelivery/gearup-training/partners-logo/bridgeforbillions.png";
+import cocacola from "../../../assets/images/projectdelivery/gearup-training/partners-logo/cocacola.jpeg";
+import idrccrdis from "../../../assets/images/projectdelivery/gearup-training/partners-logo/idrccrdi.png";
+import poul from "../../../assets/images/projectdelivery/gearup-training/partners-logo/poul.png";
+import strathmore from "../../../assets/images/projectdelivery/gearup-training/partners-logo/strathmore.jpeg";
+import melaninkapital from "../../../assets/images/projectdelivery/gearup-training/partners-logo/melaninkapitall.png";
+import aspen from "../../../assets/images/projectdelivery/gearup-training/partners-logo/aspen.png";
 
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
@@ -21,6 +28,7 @@ const GearUp = () => {
       <WhyJoinGearUp />
       <ReadyToLaunch />
       <ApplyNowSection />
+      <Partners />
     </>
   );
 };
@@ -670,5 +678,61 @@ const ApplyNowSection = () => {
     </div>
   );
 };
+
+export const Partners = () => (
+  <>
+    <div>
+      <h3 className="purple-text text-center pt-5 pb-3">OUR PARTNERS</h3>
+      <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
+        <div className="slide-track2">
+          {[
+            bridgeforbillions,
+            cocacola,
+            idrccrdis,
+            poul,
+            strathmore,
+            melaninkapital,
+            aspen,
+          ].map((src, index) => (
+            <div
+              className="slide2"
+              key={index}
+              style={index === 0 ? { marginLeft: "0px" } : undefined}
+            >
+              <img
+                src={src}
+                alt={`Logo ${index + 1}`}
+                className="carousel-logo"
+                style={{ width: "160px", height: "160px", margin: "0 30px" }}
+              />
+            </div>
+          ))}
+          {[
+            bridgeforbillions,
+            cocacola,
+            idrccrdis,
+            poul,
+            strathmore,
+            melaninkapital,
+            aspen,
+          ].map((src, index) => (
+            <div
+              className="slide2"
+              key={index}
+              style={index === 0 ? { marginLeft: "0px" } : undefined}
+            >
+              <img
+                src={src}
+                alt={`Logo ${index + 1}`}
+                className="carousel-logo"
+                style={{ width: "160px", height: "160px", margin: "0 30px" }}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </>
+);
 
 export default GearUp;
