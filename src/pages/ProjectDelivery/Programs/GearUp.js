@@ -2,6 +2,16 @@ import { useEffect, useRef } from "react";
 import "./Programs.css";
 import { HomepageNav } from "../../../components/Navbar";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import {
+  FaLightbulb,
+  FaDollarSign,
+  FaUsers,
+  FaChartLine,
+  FaHandshake,
+  FaBullseye,
+  FaChartPie,
+  FaArrowUp,
+} from "react-icons/fa";
 import rocket from "../../../assets/images/projectdelivery/gearup-training/rocket.png";
 import imgOne from "../../../assets/images/projectdelivery/gearup-training/imgOne.png";
 import imgTwo from "../../../assets/images/projectdelivery/gearup-training/imgTwo.png";
@@ -14,6 +24,14 @@ import poul from "../../../assets/images/projectdelivery/gearup-training/partner
 import strathmore from "../../../assets/images/projectdelivery/gearup-training/partners-logo/strathmore.jpeg";
 import melaninkapital from "../../../assets/images/projectdelivery/gearup-training/partners-logo/melaninkapitall.png";
 import aspen from "../../../assets/images/projectdelivery/gearup-training/partners-logo/aspen.png";
+import valueproposition from "../../../assets/images/projectdelivery/gearup-training/icons/value-proposition.png";
+import pricing from "../../../assets/images/projectdelivery/gearup-training/icons/pricing.png";
+import competitionmap from "../../../assets/images/projectdelivery/gearup-training/icons/competition-map.png";
+import financial from "../../../assets/images/projectdelivery/gearup-training/icons/financial.png";
+import stakeholder from "../../../assets/images/projectdelivery/gearup-training/icons/stakeholder.png";
+import impactplan from "../../../assets/images/projectdelivery/gearup-training/icons/impact-plan.png";
+import businessmodel from "../../../assets/images/projectdelivery/gearup-training/icons/business-model.png";
+import growthplan from "../../../assets/images/projectdelivery/gearup-training/icons/growth-plan.png";
 
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
@@ -26,6 +44,7 @@ const GearUp = () => {
       <CardCarousel />
       <WhoCanApply />
       <WhyJoinGearUp />
+      <ModulesGrid />
       <ReadyToLaunch />
       <ApplyNowSection />
       <Partners />
@@ -560,6 +579,92 @@ const WhyJoinGearUp = () => {
           </Row>
         </Card>
       </Container>
+    </Container>
+  );
+};
+
+const modules = [
+  {
+    title: "Value Proposition",
+    description:
+      "Understand the problem you're solving, uncover market opportunities, and identify your customers' needs. Define the unique benefits your product or service offers.",
+    icon: valueproposition,
+  },
+  {
+    title: "Pricing & Business Viability",
+    description:
+      "Discover the true cost of acquiring customers and set a pricing strategy that ensures financial sustainability.",
+    icon: pricing,
+  },
+  {
+    title: "Competition Map",
+    description:
+      "Analyze your competitors, identify your unique edge, and clearly position your offering in the market to stand out with confidence.",
+    icon: competitionmap,
+  },
+  {
+    title: "Financial Projections",
+    description:
+      "Break down your costs, project your revenue, explore financial scenarios, and pinpoint your break-even point with confidence.",
+    icon: financial,
+  },
+  {
+    title: "Stakeholder Map",
+    description:
+      "Map out your key partners, allies, and distribution channels. Learn who you need to involve to launch and scale your business.",
+    icon: stakeholder,
+  },
+  {
+    title: "Impact Plan",
+    description:
+      "Clarify your mission and vision, define the positive impact you aim to create, and learn how to measure it effectively.",
+    icon: impactplan,
+  },
+  {
+    title: "Business Model & Marketing",
+    description:
+      "Define your core business activities and build a marketing strategy that not only attracts customers but keeps them coming back.",
+    icon: businessmodel,
+  },
+  {
+    title: "Growth Plan",
+    description:
+      "Develop a 3-year growth roadmap, anticipate key risks, and create mitigation strategies to stay resilient and future-ready.",
+    icon: growthplan,
+  },
+];
+
+const ModulesGrid = () => {
+  return (
+    <Container className="py-5">
+      <h4 className="text-center text-uppercase fw-bold text-center">
+        YOUR 8-MODULE JOURNEY
+      </h4>
+      <p
+        className="mb-0 px-3 py-4 mx-auto text-center"
+        style={{ maxWidth: "700px" }}
+      >
+        The Online Incubation Tools That Power Your Startup Success
+      </p>
+
+      <Row className="justify-content-center">
+        {modules.map((module, index) => (
+          <Col key={index} xs={12} md={12} lg={5} className="mb-4">
+            <Card className="h-100 shadow-sm">
+              <Card.Body className="d-flex flex-column align-items-start">
+                <img
+                  src={module.icon}
+                  alt={module.title}
+                  style={{ width: "32px", height: "32px" }}
+                  className="mb-2"
+                />
+                <Card.Title className="mt-2">{module.title}</Card.Title>
+                <Card.Text className="mt-2">{module.description}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
     </Container>
   );
 };
