@@ -78,7 +78,7 @@ const MIREPlus = () => {
           </p>
 
           <a
-            href="https://bit.ly/MIREPlus"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform?usp=sharing&ouid=106047966915177609898"
             target="_blank"
             rel="noopener noreferrer"
             className="btn fw-normal rounded-pill mb-3"
@@ -130,7 +130,7 @@ const MIREPlus = () => {
                       <strong>Training Fee:</strong> {t.tfee}
                     </p> */}
                   </Card.Body>
-                  <a href="https://bit.ly/MIREPlus" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform?usp=sharing&ouid=106047966915177609898" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                     <Card.Header className="bg-primary text-white text-center">
                       {t.flyerLink}
                     </Card.Header>
@@ -277,7 +277,7 @@ const MIREPlus = () => {
               business.
             </p>
             <a
-              href="https://api.whatsapp.com/send/?phone=2348094818883"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform?usp=sharing&ouid=106047966915177609898"
               target="_blank"
               rel="noopener noreferrer"
               className="btn fw-normal rounded-pill"
