@@ -136,7 +136,7 @@ function App() {
             element={<InnkeeperHackathonGalleryPage />}
           />
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
-          <Route path="hub-services" element={<HubServicesPage />} />
+          {/* <Route path="hub-services" element={<HubServicesPage />} /> */}
           <Route path="FUTA-techpic" element={<FUTATechpic />} />
           <Route path="digiplus" element={<DigiPlus />} />
 
