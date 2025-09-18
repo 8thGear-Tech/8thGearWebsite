@@ -13,10 +13,10 @@ export const OurNewSpaces = () => {
       src: "https://www.youtube.com/embed/MODRgv5Wev0?si=uDkUscOSvy12YJu5",
       text: "Tech Showroom",
     },
-    {
-      src: "https://www.youtube.com/embed/0eI0lLgHjAQ?si=CAztrQqxFvAcEMJE",
-      text: "Hub One",
-    },
+    // {
+    //   src: "https://www.youtube.com/embed/0eI0lLgHjAQ?si=CAztrQqxFvAcEMJE",
+    //   text: "Hub One",
+    // },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -38,7 +38,7 @@ export const OurNewSpaces = () => {
       {/* <div className="newSpaces text-center mt-3"> */}
       <div className="pb-2">
         <h3>OUR CO-WORKING SPACES</h3>
-        <p>Three locations, same excellent customer service.</p>
+        <p>Two locations, same excellent customer service.</p>
       </div>
       <div className="mb-4 text-center container">
         <div className="content new-spaces-container container justify-content-center ">

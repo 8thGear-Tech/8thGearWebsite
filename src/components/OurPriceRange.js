@@ -15,7 +15,7 @@ const OurPriceRange = () => {
   const plans = [
     {
       id: "1",
-      planTitle: "Location 1, CMD Road",
+      planTitle: "Location: 41 CMD Road",
       packages: {
         "Monthly/Yearly Plan": [
           {
@@ -176,100 +176,100 @@ const OurPriceRange = () => {
         ],
       },
     },
-    {
-      id: "2",
-      planTitle: "Location 2, Yaba",
-      packages: {
-        "Flexi Plan": [
-          {
-            title: "DAILY PLAN",
-            price: "₦4,500 Per Day",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette & Lounge Area",
-            ],
-          },
-          {
-            title: "WEEKLY PLAN",
-            price: "₦15,000 (5 Days)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette, Print & Lounge Area",
-              "Meeting Room (Free for 1 hour)",
-            ],
-          },
-          {
-            title: "MEETING ROOM",
-            price: "₦5,500 (Per Hour)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Projectors & Sound System ",
-              "Kitchenette, Printer",
-            ],
-          },
-          {
-            title: "EVENT/TRAINING HALL",
-            price: "₦16,000 Per Hour",
+    // {
+    //   id: "2",
+    //   planTitle: "Location 2, Yaba",
+    //   packages: {
+    //     "Flexi Plan": [
+    //       {
+    //         title: "DAILY PLAN",
+    //         price: "₦4,500 Per Day",
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Kitchenette & Lounge Area",
+    //         ],
+    //       },
+    //       {
+    //         title: "WEEKLY PLAN",
+    //         price: "₦15,000 (5 Days)",
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Kitchenette, Print & Lounge Area",
+    //           "Meeting Room (Free for 1 hour)",
+    //         ],
+    //       },
+    //       {
+    //         title: "MEETING ROOM",
+    //         price: "₦5,500 (Per Hour)",
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Projectors & Sound System ",
+    //           "Kitchenette, Printer",
+    //         ],
+    //       },
+    //       {
+    //         title: "EVENT/TRAINING HALL",
+    //         price: "₦16,000 Per Hour",
 
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Projectors & Sound System",
-            ],
-          },
-        ],
-        "Monthly/Yearly Plan": [
-          {
-            title: "FLEXI PLAN",
-            price: "₦33,500 (12 days)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette, printer, locker & Lounge",
-              "Meeting Room (Free for 2 Hours)",
-              "Lounge Area",
-              "Community Events",
-            ],
-          },
-          {
-            title: "DEDICATED DESK",
-            price: "₦45,000 (20 days)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette, printer, locker & Lounge",
-              "Meeting Room (Free for 2 Hours)",
-              "Lounge Area",
-              "Community Events",
-            ],
-          },
-          {
-            title: "VIRTUAL LITE",
-            price: "₦65,000 Per Year",
-            timeRange: "(9am-5pm)",
-            features: [
-              "Corporate Address",
-              "Mail Handling",
-              "Community Events",
-              "Meeting Room (50 hours per year / 4 hours per month)",
-            ],
-          },
-          {
-            title: "VIRTUAL OFFICE",
-            price: "₦150,000 Per Year",
-            features: [
-              "Corporate Address",
-              "Mail Handling",
-              "Community Events",
-              "Meeting Room (4 hours free / month)",
-            ],
-          },
-        ],
-      },
-    },
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Projectors & Sound System",
+    //         ],
+    //       },
+    //     ],
+    //     "Monthly/Yearly Plan": [
+    //       {
+    //         title: "FLEXI PLAN",
+    //         price: "₦33,500 (12 days)",
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Kitchenette, printer, locker & Lounge",
+    //           "Meeting Room (Free for 2 Hours)",
+    //           "Lounge Area",
+    //           "Community Events",
+    //         ],
+    //       },
+    //       {
+    //         title: "DEDICATED DESK",
+    //         price: "₦45,000 (20 days)",
+    //         features: [
+    //           "Fast, Reliable Internet Access",
+    //           "Uninterrupted Power Supply",
+    //           "Kitchenette, printer, locker & Lounge",
+    //           "Meeting Room (Free for 2 Hours)",
+    //           "Lounge Area",
+    //           "Community Events",
+    //         ],
+    //       },
+    //       {
+    //         title: "VIRTUAL LITE",
+    //         price: "₦65,000 Per Year",
+    //         timeRange: "(9am-5pm)",
+    //         features: [
+    //           "Corporate Address",
+    //           "Mail Handling",
+    //           "Community Events",
+    //           "Meeting Room (50 hours per year / 4 hours per month)",
+    //         ],
+    //       },
+    //       {
+    //         title: "VIRTUAL OFFICE",
+    //         price: "₦150,000 Per Year",
+    //         features: [
+    //           "Corporate Address",
+    //           "Mail Handling",
+    //           "Community Events",
+    //           "Meeting Room (4 hours free / month)",
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
   ];
 
   const handlePlanClick = (planId) => {
