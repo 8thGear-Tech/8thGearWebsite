@@ -1265,15 +1265,13 @@ export const HomepageNav = () => {
                             Meristem Lagos Green
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
-                          {/* <NavDropdown.Item
+                          <NavDropdown.Item
                             href="/ESP"
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="Nav-Dropdown-Items"
                           >
                             Employability Support Project
                             <hr className="w-75 m-auto" />
-                          </NavDropdown.Item> */}
+                          </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <NavDropdown
@@ -1364,14 +1362,12 @@ export const HomepageNav = () => {
                     >
                       Meristem Lagos Green
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item
+                    <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/ESP"
-                      target="_blank"
-                      rel="noopener noreferrer"
                     >
                       Employability Support Project
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
                     title="Venture Studio"
