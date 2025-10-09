@@ -5,7 +5,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import {
   FaLightbulb,
   FaDollarSign,
-  FaUsers,
+  // FaUsers,
   FaChartLine,
   FaHandshake,
   FaBullseye,
