@@ -752,7 +752,7 @@ const ApplyNowSection = () => {
               </p>{" "}
               <p style={textStyle}>
                 {" "}
-                <b style={{ color: "#6E006A" }}>Deadline: September 12, 2025</b>
+                <b style={{ color: "#6E006A" }}>Deadline: October 21, 2025</b>
               </p>
             </Col>
           </Row>

@@ -373,6 +373,70 @@ const ESP = () => {
 
       {/* Footer — Border Removed */}
       {/* Footer */}
+      <footer
+        style={{
+          backgroundColor: "#ffffff",
+          marginTop: "auto",
+          paddingTop: "3rem",
+          paddingBottom: "1rem",
+        }}
+      >
+        <Container className="text-center">
+          <div className="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+            {/* Executed by: 8thGear Hub (with logo) */}
+            <div className="d-flex align-items-center gap-2">
+              <span className="text-muted small">Executed by:</span>
+              <img
+                src={eightgearlogo}
+                alt="8thGear Hub"
+                style={{
+                  height: "32px",
+                  objectFit: "contain",
+                }}
+              />
+            </div>
+
+            <span className="text-muted d-none d-md-inline">|</span>
+
+            {/* Supported by: LSETF & GIZ (with logos) */}
+            <div className="d-flex align-items-center gap-2">
+              <span className="text-muted small">Supported by:</span>
+              <img
+                src={lsetf}
+                alt="Lagos State Employment Trust Fund (LSETF)"
+                style={{
+                  height: "28px",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={swissagency}
+                alt="Swiss Agency for Development and Cooperation (SDC)"
+                style={{
+                  height: "28px",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={germancooperation}
+                alt="German Cooperation"
+                style={{
+                  height: "28px",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={giz}
+                alt="GIZ"
+                style={{
+                  height: "28px",
+                  objectFit: "contain",
+                }}
+              />
+            </div>
+          </div>
+        </Container>
+      </footer>
     </div>
   );
 };
