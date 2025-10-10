@@ -481,7 +481,7 @@ export const TeamCardSeven = (props) => {
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <a
-                href="https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/03/15/20250703154905-YT5UFUNU.json"
+                href="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn rounded-pill mt-3"
