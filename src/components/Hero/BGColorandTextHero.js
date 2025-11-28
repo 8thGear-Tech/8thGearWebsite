@@ -7,6 +7,7 @@ import {
 } from "../../components/Buttons/ServicesBtn";
 import talentsplaced from "../../assets/images/talentplacement/talentsplaced.png";
 import satisfiedclients from "../../assets/images/talentplacement/satisfiedclients.png";
+import { Button } from "react-bootstrap";
 
 export const ManagedServicesHero = () => {
   return (
@@ -206,17 +207,21 @@ export const NewTalentPlacementHero = () => {
             Scale your business with our top-tier tech talent. <br />
             Expert sourcing, development, and management for excellence.
           </p>{" "}
-          <div>
+           <div className="mb-4 ms-lg-5 ms-xs-5">
+          {" "}
+          <Button className="aboutbtn m-0 talentPlacementBtn">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
               target="_blank"
               rel="noopener noreferrer"
-              className="talentPlacementBtn ms-lg-5 ms-xs-5"
+              className="text-decoration-none purple-text"
             >
               {" "}
-              <TalentPlacementBtn />
+             Build Your Dream Team
             </a>
-          </div>
+          </Button>
+        </div>
+         
         </div>
       </div>
     </div>

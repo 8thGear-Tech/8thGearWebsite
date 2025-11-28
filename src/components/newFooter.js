@@ -562,7 +562,7 @@ export const NewFooter = () => {
                 className="mb-0 text-dark text-start ms-lg-5 ps-lg-5"
                 style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
               >
-                © 2025 Partners Ltd. All rights reserved.
+                © 2025 8thGear Partners Ltd. All rights reserved.
               </p>
             </div>
           </Col>
