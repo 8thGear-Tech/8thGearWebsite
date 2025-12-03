@@ -314,24 +314,12 @@ const WhyRecruitFromUs = () => {
 
 const MigrantAdvisoryDesk = () => {
   return (
-    <div className="container-fluid py-5 mt-5" style={{ background: "linear-gradient(135deg, rgba(130, 30, 107, 0.05) 0%, rgba(130, 30, 107, 0.15) 100%)" }}>
+    <div className="container-fluid py-5 mt-5" style={{ background: "linear-gradient(135deg, rgba(130, 30, 107, 0.05) 0%, rgba(130, 30, 107, 0.15) 100%)" }} id="migrant-advisory-desk">
       <div className="container">
         <div className="row align-items-center">
           {/* Text Content */}
           <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
             <div className="pe-lg-4">
-              {/* <span
-                className="badge mb-3 px-3 py-2"
-                style={{
-                  background: "#821E6B",
-                  color: "#fff",
-                  fontSize: "0.85rem",
-                  fontWeight: "500"
-                }}
-              >
-                GIZ PARTNERSHIP
-              </span> */}
-
                 <h4 className="pt-2">
                 Migrant Advisory Desk
               </h4>
@@ -529,7 +517,7 @@ const Tractions = () => {
           <div className="col-lg-3 col-md-4 col-sm-10">
             {" "}
             <div className="text-center text-white mt-5">
-              <h2>250</h2>
+              <h2>500+</h2>
             </div>
             <div className="card-body">
               <p className="card-title text-center text-white">Tech Talents</p>

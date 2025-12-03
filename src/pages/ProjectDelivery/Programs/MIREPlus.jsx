@@ -80,32 +80,31 @@ const MIREPlus = () => {
             Grant-Ready | Loan-Ready | Investor-Ready
           </p>
 
-        <Button
-                    className="aboutbtn m-0"
-                    style={{
-                      transition: "all 0.3s ease",
-                      transform: "translateY(0)",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "translateY(-3px)";
-                      e.currentTarget.style.boxShadow =
-                        "0 4px 10px rgba(0,0,0,0.15)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow = "none";
-                    }}
-                  >
-                    <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-decoration-none purple-text"
-                      style={{ fontWeight: 600 }}
-                    >
-                      Apply Now
-                    </a>
-                  </Button>
+          <Button
+            className="aboutbtn m-0"
+            style={{
+              transition: "all 0.3s ease",
+              transform: "translateY(0)",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-3px)";
+              e.currentTarget.style.boxShadow = "0 4px 10px rgba(0,0,0,0.15)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow = "none";
+            }}
+          >
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none purple-text"
+              style={{ fontWeight: 600 }}
+            >
+              Apply Now
+            </a>
+          </Button>
         </div>
       </section>
 
@@ -167,15 +166,15 @@ const MIREPlus = () => {
                   boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
                 }}
               >
-                <h4
+                <h5
                   style={{
                     fontWeight: "bold",
-                    marginBottom: "1.5rem",
-                    fontSize: "1.5rem",
+                    marginBottom: "1rem",
+                    fontSize: "1.2rem",
                   }}
                 >
                   Who is this for?
-                </h4>
+                </h5>
                 <div
                   style={{
                     display: "flex",
@@ -218,40 +217,42 @@ const MIREPlus = () => {
                   ))}
                 </div>
 
-                <div className="mt-5 text-center">
-                  {" "}
-                
+                <div className="mt-5">
                   <Button
-                    className="aboutbtn m-0"
+                    className="aboutbtn m-0 px-5 py-2"
                     style={{
+                      // POPPING STYLES
+
+                      color: "#000000", // Black text
+
+
+                      // AUTOMATIC PULSE/POP ANIMATION
+                      animation: "pulsePop 2s infinite alternate ease-in-out",
+
+                      // Static styles for initial look
+                      boxShadow: "0 8px 15px rgba(0, 0, 0, 0.4)",
                       transition: "all 0.3s ease",
                       transform: "translateY(0)",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "translateY(-3px)";
-                      e.currentTarget.style.boxShadow =
-                        "0 4px 10px rgba(0,0,0,0.15)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow = "none";
                     }}
                   >
                     <a
                       href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-decoration-none purple-text"
-                      style={{ fontWeight: 600 }}
+                      className="text-decoration-none"
+                      style={{
+                        fontWeight: 700,
+                        color: "#000000", // Ensure link text is black
+                      }}
                     >
                       Apply Now
                     </a>
-                  </Button>
+                  </Button>{" "}
                   <p
                     style={{
-                      textAlign: "center",
+                      // textAlign: "center",
                       fontSize: "0.875rem",
-
+                      fontStyle: "italic",
                       marginTop: "0.75rem",
                       fontStyle: "italic",
                       margin: "1rem 0 0 0",
@@ -269,135 +270,206 @@ const MIREPlus = () => {
                   padding: "2rem",
                   borderRadius: "1rem",
                   boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'space-between',
-                  minHeight: '400px',
+                  display: "flex",
+                  // flexDirection: 'column',
+                  // justifyContent: 'space-between',
+                  // minHeight: '400px',
+                  flexDirection: "column",
+                  gap: "1.5rem",
                 }}
               >
-                <div
+                {/* <div
                   style={{
                     display: "flex",
                     alignItems: "center",
                     gap: "1.5rem",
                     marginTop: "1rem",
                   }}
-                >
-                  <div>
-                    {" "}
-                    {/* Program Duration */}
-                    <div>
-                      <h5>Program Duration</h5>
-                      <p>4 Weeks</p>
-                    </div>
+                > */}
+
+                {/* What You'll Gain */}
+                <div>
+                  <h5
+                    style={{
+                      fontWeight: "bold",
+                      marginBottom: "1rem",
+                      fontSize: "1.15rem",
+                    }}
+                  >
+                    What You'll Gain:
+                  </h5>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "1rem",
+                      paddingBottom: "1rem",
+                      borderBottom: "2px solid #f0f0f0",
+                      // marginBottom: "1rem",
+                    }}
+                  >
+                    {[
+                      "Hands-on workshop on cash flow projection,business & revenue models",
+                      "Access to Debt & Equity Funding (T & C applies)",
+                      "Post-program mentorship (1 Month)",
+                      "Demo Day - Opportunity to Pitch to Investors",
+                    ].map((item, idx) => (
+                      <div
+                        key={idx}
+                        style={{ display: "flex", alignItems: "flex-start" }}
+                      >
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 20 20"
+                          style={{
+                            marginRight: "1rem",
+                            flexShrink: 0,
+                            marginTop: "2px",
+                          }}
+                        >
+                          <rect width="20" height="20" rx="3" fill="#821E6B" />
+                          <path
+                            d="M5 10l3 3 7-7"
+                            stroke="white"
+                            strokeWidth="2"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                        <p
+                          style={{
+                            margin: 0,
+                            lineHeight: "1.6",
+                            fontSize: "1rem",
+                            color: "#333",
+                          }}
+                        >
+                          {item}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                {/* TEXT CONTENT BLOCK */}
+                <div style={{ marginBottom: "1.5rem" }}>
+                  {/* NEW FLEX CONTAINER for Application Fee and Training Fee */}
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: "5em",
+                      // justifyContent: "space-between", // Space items out nicely
+                      paddingBottom: "1rem",
+                      borderBottom: "2px solid #f0f0f0",
+                      marginBottom: "1rem",
+                    }}
+                  >
                     {/* Application Fee */}
                     <div>
-                      <h5 > Application Fee</h5>
-                      <p   className="m-0 p-0">₦5,000</p>
+                      <h5> Application Fee</h5>
+                      <p className="m-0 p-0">₦5,000</p>
                       <p
                         style={{
                           fontSize: "0.875rem",
                           color: "#666",
-                         
+                          margin: 0, // Ensure no extra margin is applied
                         }}
-                      
                       >
                         (Non-refundable)
                       </p>
                     </div>{" "}
                     {/* Training Fee */}
-                    <div style={{ marginBottom: "1.5rem" }}>
+                    <div>
                       <h5>Training Fee</h5>
-                      <p>₦200,000</p>
+
+                      <p className="m-0 p-0">₦200,000</p>
                     </div>
                   </div>
-                 
-                </div>
 
-                {/* Spacer to push Supported By to bottom */}
-                <div style={{ flex: 1 }}></div>
-
-                {/* Supported By */}
-                <div
-                  style={{
-                    marginTop: "auto",
-                    paddingTop: "1.5rem",
-                    // borderTop: '2px solid #f0f0f0'
-                  }}
-                >
-                  <h5
-                    style={{
-                      fontWeight: "bold",
-                      marginBottom: "1rem",
-                      fontSize: "1rem",
-                      fontStyle: "italic",
-                      color: "#333",
-                    }}
-                  >
-                    SUPPORTED BY
-                  </h5>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "1.5rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    <div
+                  <div style={{}}>
+                    <h5>Program Duration</h5>
+                    <p className="m-0 p-0">4 Weeks</p>
+                    <p
                       style={{
-                        display: "flex",
-
-                        // minWidth: "140px",
-                        height: "50px",
+                        fontSize: "0.875rem",
+                        color: "#666",
+                        margin: 0,
                       }}
-                      className="py-2"
                     >
-                      <img
-                        src={digiplusalliance}
-                        alt="DigiPlus Alliance"
-                        style={{
-                          maxHeight: "100%",
-                          maxWidth: "100%",
-                          objectFit: "contain",
-                        }}
-                      />
-                    </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        // minWidth: "140px",
-                        height: "42px",
-                      }}
-                      className="py-2"
-                    >
-                      <img
-                        src={avonafrica}
-                        alt="Avon Africa"
-                        style={{
-                          maxHeight: "100%",
-                          maxWidth: "100%",
-                          objectFit: "contain",
-                        }}
-                      />
-                    </div>
+                      Start Date to be Announced
+                    </p>
                   </div>
-                  <p
-                    style={{
-                      textAlign: "center",
-                      fontSize: "0.875rem",
-                      color: "#666",
-                      marginTop: "0.75rem",
-                      fontStyle: "italic",
-                      margin: "1rem 0 0 0",
-                    }}
-                  >
-                    Start Date to be Announced
-                  </p>
                 </div>
+
+                {/* </div> */}
               </div>
+            </div>
+          </div>
+          {/* Supported By */}
+          <div
+            style={{
+              marginTop: "auto",
+              paddingTop: "1.5rem",
+              // borderTop: '2px solid #f0f0f0'
+            }}
+          >
+            <h5
+              style={{
+                fontWeight: "bold",
+                marginBottom: "1rem",
+                fontSize: "1rem",
+                fontStyle: "italic",
+                color: "#333",
+              }}
+            >
+              SUPPORTED BY
+            </h5>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "1.5rem",
+                flexWrap: "wrap",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
 
-              
+                  // minWidth: "140px",
+                  height: "50px",
+                }}
+                className="py-2"
+              >
+                <img
+                  src={digiplusalliance}
+                  alt="DigiPlus Alliance"
+                  style={{
+                    maxHeight: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // minWidth: "140px",
+                  height: "42px",
+                }}
+                className="py-2"
+              >
+                <img
+                  src={avonafrica}
+                  alt="Avon Africa"
+                  style={{
+                    maxHeight: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -522,7 +594,7 @@ const MIREPlus = () => {
 
                 {/* Talk to Us inside card */}
                 <div className="text-center mt-4">
-                   <Button
+                  <Button
                     className="aboutbtn m-0"
                     style={{
                       transition: "all 0.3s ease",
@@ -539,7 +611,7 @@ const MIREPlus = () => {
                     }}
                   >
                     <a
-                     href="https://api.whatsapp.com/send/?phone=2348094818883"
+                      href="https://api.whatsapp.com/send/?phone=2348094818883"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-decoration-none purple-text"
@@ -548,7 +620,6 @@ const MIREPlus = () => {
                       Talk to Us
                     </a>
                   </Button>
-                
                 </div>
               </div>
             </Col>
@@ -566,34 +637,31 @@ const MIREPlus = () => {
               business.
             </p>
             <Button
-                    className="aboutbtn m-0"
-                    style={{
-                      transition: "all 0.3s ease",
-                      transform: "translateY(0)",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "translateY(-3px)";
-                      e.currentTarget.style.boxShadow =
-                        "0 4px 10px rgba(0,0,0,0.15)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow = "none";
-                    }}
-                  >
-                    <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-decoration-none purple-text"
-                      style={{ fontWeight: 600 }}
-                    >
-                      Apply Now
-                    </a>
-                  </Button>
+              className="aboutbtn m-0"
+              style={{
+                transition: "all 0.3s ease",
+                transform: "translateY(0)",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-3px)";
+                e.currentTarget.style.boxShadow = "0 4px 10px rgba(0,0,0,0.15)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow = "none";
+              }}
+            >
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none purple-text"
+                style={{ fontWeight: 600 }}
+              >
+                Apply Now
+              </a>
+            </Button>
           </div>
-
-          
         </div>
       </section>
     </>

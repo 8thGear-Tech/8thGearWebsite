@@ -725,6 +725,9 @@ h2 {
 .NewTalentPlacementHeroBg p {
   position: relative;
 }
+.NewTalentPlacementHeroBg div {
+  position: relative;
+}
 @media only screen and (max-width: 440px) {
   .NewTalentPlacementHeroBg {
     height: 50vh;

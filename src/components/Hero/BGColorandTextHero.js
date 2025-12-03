@@ -9,6 +9,8 @@ import talentsplaced from "../../assets/images/talentplacement/talentsplaced.png
 import satisfiedclients from "../../assets/images/talentplacement/satisfiedclients.png";
 import { Button } from "react-bootstrap";
 
+import "./hero.css";
+
 export const ManagedServicesHero = () => {
   return (
     <div className="container-fluid pt-5 pb-4">
@@ -190,6 +192,58 @@ export const ArticleReadMoreHero = () => {
   );
 };
 
+// export const NewTalentPlacementHero = () => {
+//   return (
+//     <div className="px-4 container-fluid NewTalentPlacementHeroBg d-flex pt-3 pb-3 align-items-center">
+//       <div className="gradientBg overlayBg"></div>
+//       <div className="row">
+//         <div className="col-lg-12 col-md-8 col-sm-12">
+//           <h1 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor NewTalentPlacementHeroText">
+//             Hire Vetted Tech Talents
+//           </h1>
+//           <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
+//             {/* <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo"> */}
+//             Hire Vetted Tech Talents
+//           </h2>
+//           <p style={{ color: "#ffffff" }} className="ms-lg-5 ms-xs-5">
+//             Scale your business with our top-tier tech talent. <br />
+//             Expert sourcing, development, and management for excellence.
+//           </p>{" "}
+//            <div className="mb-4 ms-lg-5 ms-xs-5">
+//           {" "}
+//           <Button className="aboutbtn m-0 talentPlacementBtn">
+//             <a
+//               href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
+//               target="_blank"
+//               rel="noopener noreferrer"
+//               className="text-decoration-none purple-text"
+//             >
+//               {" "}
+//              Build Your Dream Team
+//             </a>
+//           </Button>
+//           <p className="mt-3 text-muted small">
+//                 <em>
+//                   <a
+//                     href="#migrant-advisory-desk"
+//                     style={{
+//                       color: "#ffffff",
+//                       textDecoration: "none",
+//                       fontWeight: "500",
+//                     }}
+//                   >
+//                     Individuals: Learn more about Migrant Advisory Desk ↴
+//                   </a>
+//                 </em>
+//               </p>
+//         </div>
+
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
 export const NewTalentPlacementHero = () => {
   return (
     <div className="px-4 container-fluid NewTalentPlacementHeroBg d-flex pt-3 pb-3 align-items-center">
@@ -200,31 +254,66 @@ export const NewTalentPlacementHero = () => {
             Hire Vetted Tech Talents
           </h1>
           <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor">
-            {/* <h2 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor homeHeroTextTwo"> */}
             Hire Vetted Tech Talents
           </h2>
           <p style={{ color: "#ffffff" }} className="ms-lg-5 ms-xs-5">
             Scale your business with our top-tier tech talent. <br />
             Expert sourcing, development, and management for excellence.
-          </p>{" "}
-           <div className="mb-4 ms-lg-5 ms-xs-5">
-          {" "}
-          <Button className="aboutbtn m-0 talentPlacementBtn">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-decoration-none purple-text"
-            >
-              {" "}
-             Build Your Dream Team
-            </a>
-          </Button>
-        </div>
-         
+          </p>
+
+          {/* Card Layout CTAs */}
+          <div className="mb-4 ms-lg-5 ms-xs-5">
+            <div className="row g-3" style={{ maxWidth: "800px" }}>
+              {/* MSME Card */}
+              <div className="col-12 col-md-6">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none d-block cta-card"
+                >
+                  <div className="card border-0 p-4 glass-card">
+                    <div className="d-flex align-items-center gap-2 mb-3">
+                      <div className="icon-box">
+                        <i className="bi bi-briefcase"></i>
+                      </div>
+                      <span className="card-label">FOR MSMES</span>
+                    </div>
+                    <div className="d-flex align-items-center justify-content-between">
+                      <span className="card-title">Build Your Dream Team</span>
+                      <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            {/* Individuals Card */}
+            <div className="col-12 col-md-6">
+              <a
+                href="#migrant-advisory-desk"
+                className="text-decoration-none d-block cta-card"
+              >
+                <div className="card border-0 p-4 glass-card">
+                  <div className="d-flex align-items-center gap-2 mb-3">
+                    <div className="icon-box">
+                      <i className="bi bi-person"></i>
+                    </div>
+                    <span className="card-label">FOR INDIVIDUALS</span>
+                  </div>
+                  <div className="d-flex align-items-center justify-content-between">
+                    <span className="card-title">Migrant Advisory Desk</span>
+                    <i className="bi bi-arrow-down"></i>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+      //{" "}
     </div>
+    // </div>
   );
 };
 

@@ -182,3 +182,18 @@
 .hero-pattern {
   background-image: url("../../../assets/images/projectdelivery/gearup-training/herosection.jpeg");
 }
+
+@keyframes pulsePop {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(31, 33, 25, 0.8); /* Glow effect matches #E0FF4F */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size (Pop in) */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  }
+}
