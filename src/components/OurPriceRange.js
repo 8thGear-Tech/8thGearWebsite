@@ -10,24 +10,28 @@ import "./css/CoWorking.css";
 
 const OurPriceRange = () => {
   const [currentPlan, setCurrentPlan] = useState("1");
-  const [currentPackage, setCurrentPackage] = useState("Monthly/Yearly Plan"); // Default package for 8thG
+  const [currentPackage, setCurrentPackage] = useState("Quarterly/Monthly/Yearly Plan"); // Default package for 8thG
 
   const plans = [
     {
       id: "1",
       planTitle: "Location: 41 CMD Road",
       packages: {
-        "Monthly/Yearly Plan": [
+        "Quarterly/Monthly/Yearly Plan": [
           {
             title: "VIRTUAL OFFICE",
-            price: "₦200,000 Per Year",
+            price: "₦150,000 Per Quarter",
             features: [
-              "Corporate Address",
-              "Mail Handling",
-              "Community Events",
-              "Meeting Room - 1hr Free/Month",
-              "Accountability Services (Hub Membership)",
+              "Verified Official Business Address",
+              "Logo displayed at the 8thGear Hub",
+              "Address Verification Documents",
+              "Mail & Parcel Handling",
+              "Guest Reception",
+              "10hrs Meeting Room per quarter",
+              "Professional recognition and credibility for your busines",
             ],
+
+
           },
           {
             title: "DEDICATED DESK",
