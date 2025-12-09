@@ -657,7 +657,7 @@ export const Gerians = () => {
           })}
         </div> */}
         <div className="col-lg-4 col-md-6 mt-5">
-          {" "}
+          
           {data.teamcardseven.map((card) => {
             return <TeamCardSeven {...card}></TeamCardSeven>;
           })}
