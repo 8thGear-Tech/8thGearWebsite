@@ -1,63 +1,45 @@
 {
   "teamcardone": [
     {
-      "image1": "../../images/team/oluwatobi-new.jpg",
-      "name1": "OLUWATOBILOBA ADEBOLA",
-      "title1": "BUSINESS DEV. EXEC.",
-      "id": "staticBackdrop2",
-      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
+       "image1": "../../images/team/basiratabdullahi.png",
+      "name1": "BASIRAT ABDULLAHI",
+      "title1": "OPERATIONS ASSOCIATE",
+      "id": "staticBackdrop1",
+      "link": "https://www.linkedin.com/in/basirat-arike-abdullahi/"
     }
   ],
   "teamcardtwo": [
     {
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "DR. SEUN OLADELE",
-      "title1": "PROJECT DEV. CONSULTANT",
+      "title1": "PROJECT DEV. ASSOCIATE",
       "id": "staticBackdrop2",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     }
   ],
   "teamcardthree": [
     {
-      "image1": "../../images/team/temiloluwa-new.png",
-      "name1": "TEMILOLUWA ERISAN",
-      "title1": "FINANCE & ACC. EXEC.",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/temiloluwa-erisan-520b83163/"
+     "image1": "../../images/team/oluwatobi.jpg",
+      "name1": "OLUWATOBILOBA ADEBOLA",
+      "title1": "PROGRAMS ANALYST",
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
   "teamcardfour": [
     {
-      "image1": "../../images/team/rantimi-new.png",
-      "name1": "RANTIMI AJIBODE",
-      "title1": "COMMS. EXEC.",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/rantimi-ajibode-8889b515a/"
-    }
-  ],
-"teamcardfive": [
-    {
-      "image1": "../../images/team/Elizabeth.jpg",
-      "name1": "ELIZABETH ELENDU",
-      "title1": "HR & ADMIN",
-      "id": "staticBackdrop1",
-      "link": "https://www.linkedin.com/in/elizabeth-madukwe-a2b446219/"
-    }
-  ],
-  "teamcardsix": [
-    {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
-      "title1": "TECH LEAD",
-      "id": "staticBackdrop3",
+      "title1": "IT SUPPORT ASSOCIATE",
+      "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
   ],
-  "teamcardseven": [
+  "teamcardfive": [
     {
-      "image1": "../../images/team/ai-frontdesk.jpeg",
+      "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
-      "id": "staticBackdrop3"
+      "id": "staticBackdrop5"
     }
   ],
   "EIRcard": [
