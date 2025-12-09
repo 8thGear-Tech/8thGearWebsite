@@ -288,70 +288,70 @@ export const TeamCardFour = (props) => {
   );
 };
 
-export const TeamCardFive = (props) => {
-  const { image1, name1, title1, id, image, name, position, text, link } =
-    props;
-  return (
-    <>
-      <div className="card-deck">
-        <div className="card w-100 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
-          <div className="card-body teamcardbody">
-            <figure className="text-center">
-              <figcaption className="card-text mt-1">{name1}</figcaption>
-              <p className="Text mb-3 mt-3">{title1}</p>
-            </figure>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <div className="text-center">
-                {" "}
-                <LinkedInIcon />
-              </div>
-            </a>
+// export const TeamCardFive = (props) => {
+//   const { image1, name1, title1, id, image, name, position, text, link } =
+//     props;
+//   return (
+//     <>
+//       <div className="card-deck">
+//         <div className="card w-100 mx-auto ">
+//           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+//           <div className="card-body teamcardbody">
+//             <figure className="text-center">
+//               <figcaption className="card-text mt-1">{name1}</figcaption>
+//               <p className="Text mb-3 mt-3">{title1}</p>
+//             </figure>
+//             <a href={link} target="_blank" rel="noopener noreferrer">
+//               <div className="text-center">
+//                 {" "}
+//                 <LinkedInIcon />
+//               </div>
+//             </a>
 
-            <div
-              className="modal fade"
-              id={id}
-              data-bs-backdrop="static"
-              data-bs-keyboard="false"
-              tabIndex="-1"
-              aria-labelledby="staticBackdropLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
+//             <div
+//               className="modal fade"
+//               id={id}
+//               data-bs-backdrop="static"
+//               data-bs-keyboard="false"
+//               tabIndex="-1"
+//               aria-labelledby="staticBackdropLabel"
+//               aria-hidden="true"
+//             >
+//               <div className="modal-dialog">
+//                 <div className="modal-content">
+//                   <div className="d-flex justify-content-between mx-4 my-2">
+//                     <img src={logo} width={40} id="staticBackdropLabel" />
+//                     <button
+//                       type="button"
+//                       className="btn-close"
+//                       data-bs-dismiss="modal"
+//                       aria-label="Close"
+//                     ></button>
+//                   </div>
 
-                  <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
-                    <h4>{name}</h4>
-                    <h6 className="">{position}</h6>{" "}
-                    <a href={link} rel="noopener noreferrer">
-                      <div className="">
-                        {" "}
-                        <LinkedInIcon />
-                      </div>
-                    </a>
-                    <div className="card-body">
-                      <p className="card-text">{text}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+//                   <div className="cards" key={id}>
+//                     <img src={image} className="w-25 mb-4" alt="..." />
+//                     <h4>{name}</h4>
+//                     <h6 className="">{position}</h6>{" "}
+//                     <a href={link} rel="noopener noreferrer">
+//                       <div className="">
+//                         {" "}
+//                         <LinkedInIcon />
+//                       </div>
+//                     </a>
+//                     <div className="card-body">
+//                       <p className="card-text">{text}</p>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
 // export const TeamCardSix = (props) => {
 //   const { image1, name1, title1, id, image, name, position, text, link } =
@@ -437,96 +437,96 @@ export const TeamCardFive = (props) => {
 //     </div>
 //   );
 // };
-// export const TeamCardSeven = (props) => {
-//   const { image1, name1, id, image, name, position, text } = props;
-//   return (
-//     <>
-//       <div className="card-deck">
-//         <div className="card w-100 mx-auto ">
-//           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
-//           <div className="card-body teamcardbody">
-//             <figure className="text-center">
-//               <figcaption className="card-text mt-1">{name1}</figcaption>
-//               <a
-//                 href="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//                 className="btn rounded-pill mt-3"
-//                 style={{
-//                   color: "#821e6b",
-//                   fontSize: "0.9rem",
-//                   padding: "0.4rem 0.75rem",
-//                   boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
-//                   border: "1px solid rgba(0,0,0,0.08)",
-//                 }}
-//               >
-//                 <i className="bi bi-chat-dots-fill me-2" />
-//                 Talk to Big Fay
-//               </a>
-//             </figure>
+export const TeamCardSeven = (props) => {
+  const { image1, name1, id, image, name, position, text } = props;
+  return (
+    <>
+      <div className="card-deck">
+        <div className="card w-100 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
+              <a
+                href="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn rounded-pill mt-3"
+                style={{
+                  color: "#821e6b",
+                  fontSize: "0.9rem",
+                  padding: "0.4rem 0.75rem",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
+                  border: "1px solid rgba(0,0,0,0.08)",
+                }}
+              >
+                <i className="bi bi-chat-dots-fill me-2" />
+                Talk to Big Fay
+              </a>
+            </figure>
 
-//             <div
-//               className="modal fade"
-//               id={id}
-//               data-bs-backdrop="static"
-//               data-bs-keyboard="false"
-//               tabIndex="-1"
-//               aria-labelledby="staticBackdropLabel"
-//               aria-hidden="true"
-//             >
-//               <div className="modal-dialog">
-//                 <div className="modal-content">
-//                   <div className="d-flex justify-content-between mx-4 my-2">
-//                     <img src={logo} width={40} id="staticBackdropLabel" />
-//                     <button
-//                       type="button"
-//                       className="btn-close"
-//                       data-bs-dismiss="modal"
-//                       aria-label="Close"
-//                     ></button>
-//                   </div>
+            <div
+              className="modal fade"
+              id={id}
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabIndex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="d-flex justify-content-between mx-4 my-2">
+                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
 
-//                   <div className="cards" key={id}>
-//                     <img src={image} className="w-25 mb-4" alt="..." />
-//                     <h4>{name}</h4>
-//                     <h6 className="">{position}</h6>
+                  <div className="cards" key={id}>
+                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <h4>{name}</h4>
+                    <h6 className="">{position}</h6>
 
-//                     <div className="card-body">
-//                       <p className="card-text">{text}</p>
-//                     </div>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//             {/* <EightgeariansPopUpCard1 /> */}
+                    <div className="card-body">
+                      <p className="card-text">{text}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <EightgeariansPopUpCard1 /> */}
 
-//             {/* <a href="">
-//               {popup} */}
-//             {/* <MemberOneViewBioBtn /> */}
-//             {/* </a> */}
+            {/* <a href="">
+              {popup} */}
+            {/* <MemberOneViewBioBtn /> */}
+            {/* </a> */}
 
-//             {/* <a href="#" className="nav-link active link">
-//               View More
-//               <svg
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 width="16"
-//                 height="16"
-//                 fill="currentColor"
-//                 className="bi bi-arrow-right"
-//                 viewBox="0 0 16 16"
-//               >
-//                 <path
-//                   fill-rule="evenodd"
-//                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-//                 />
-//               </svg>
-//             </a> */}
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
+            {/* <a href="#" className="nav-link active link">
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 // export const TeamCardEight = (props) => {
 //   const { image1, name1, title1, id, image, name, position, text, link } =
 //     props;
@@ -644,24 +644,24 @@ export const Gerians = () => {
             return <TeamCardFour {...card}></TeamCardFour>;
           })}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
+        {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfive.map((card) => {
             return <TeamCardFive {...card}></TeamCardFive>;
           })}
-        </div>
+        </div> */}
         {/* <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardsix.map((card) => {
             return <TeamCardSix {...card}></TeamCardSix>;
           })}
         </div> */}
-        {/* <div className="col-lg-4 col-md-6 mt-5">
+        <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardseven.map((card) => {
             return <TeamCardSeven {...card}></TeamCardSeven>;
           })}
-        </div> */}
+        </div>
       </div>
     </div>
   );
