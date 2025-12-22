@@ -59,6 +59,15 @@ const PortfolioCompanies = () => {
       ps3: "2024",
     },
     {
+      imgLink: "/images/finamo.jpg",
+      headText: "FinaMo",
+      subheading: "Portfolio",
+      p1: "A specialised venture providing affordable, professional, tech-enabled accounting and financial management services to 8thGear’s community and the wider Nigerian market.",
+      ps1: "FinTech",
+      ps2: "Lagos",
+      ps3: "2025",
+    },
+    {
       imgLink: "/images/aikiservices.png",
       headText: "Aiki Services",
       subheading: "Hub Member",

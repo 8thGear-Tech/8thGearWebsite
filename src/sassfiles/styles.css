@@ -4,7 +4,6 @@
 
 .blogarticle {
   width: 100%;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -21,7 +20,6 @@
 }
 
 .blogPagE {
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -469,7 +467,7 @@ article h4 {
     max-width: 45em;
   }
   .prev,
-.next {
+  .next {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
@@ -513,8 +511,7 @@ article h4 {
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    -webkit-animation: App-logo-spin infinite 20s linear;
-            animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 .App-header {
@@ -530,15 +527,6 @@ article h4 {
 
 .App-link {
   color: #61dafb;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes App-logo-spin {
@@ -2599,21 +2587,21 @@ h2 {
 
 @media only screen and (max-width: 990px) {
   .ManagedServicesAccountingHeroBgg::before,
-.ManagedServicesTechHeroBgg::before,
-.ManagedServicesLegalHeroBgg::before,
-.ManagedServicesDigitalMargetingHeroBgg::before,
-.GaaSHeroBgg::before,
-.Herodemodayy::before,
-.CoworkingHeroBgg::before {
+  .ManagedServicesTechHeroBgg::before,
+  .ManagedServicesLegalHeroBgg::before,
+  .ManagedServicesDigitalMargetingHeroBgg::before,
+  .GaaSHeroBgg::before,
+  .Herodemodayy::before,
+  .CoworkingHeroBgg::before {
     height: 22.5rem;
   }
   .ManagedServicesAccountingHeroBg,
-.ManagedServicesTechHeroBg,
-.ManagedServicesLegalHeroBg,
-.ManagedServicesDigitalMargetingHeroBg,
-.GaaSHeroBg,
-.Herodemoday,
-.CoworkingHeroBg {
+  .ManagedServicesTechHeroBg,
+  .ManagedServicesLegalHeroBg,
+  .ManagedServicesDigitalMargetingHeroBg,
+  .GaaSHeroBg,
+  .Herodemoday,
+  .CoworkingHeroBg {
     height: 22.5rem;
   }
 }
@@ -2690,6 +2678,10 @@ h2 {
 }
 
 .NewTalentPlacementHeroBg p {
+  position: relative;
+}
+
+.NewTalentPlacementHeroBg div {
   position: relative;
 }
 
@@ -3777,10 +3769,8 @@ header {
 }
 
 .slider2 .slide-track2 {
-  -webkit-animation: scroll 45s linear infinite;
   animation: scroll 45s linear infinite;
   display: flex;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -3796,15 +3786,6 @@ header {
   height: 100%;
   width: auto;
   margin: auto;
-}
-
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
 }
 @keyframes scroll {
   0% {
@@ -3947,5 +3928,4 @@ header {
     right: 10px;
     font-size: 22px;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

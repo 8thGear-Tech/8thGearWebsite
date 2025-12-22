@@ -96,7 +96,7 @@ const MIREPlus = () => {
             }}
           >
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
+              href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
               target="_blank"
               rel="noopener noreferrer"
               className="text-decoration-none purple-text"
@@ -236,7 +236,7 @@ const MIREPlus = () => {
                     }}
                   >
                     <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
+                      href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-decoration-none"
@@ -652,7 +652,7 @@ const MIREPlus = () => {
               }}
             >
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScV0KcNcjJd3mHL1cvUJLf7NqkOuu9Y6FPdLuXE3TYsxjJLLw/viewform"
+                href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none purple-text"

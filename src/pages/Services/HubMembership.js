@@ -38,7 +38,7 @@ const HeroSection = () => {
         </h3>
         <button className="CollectiveHeroBtn px-4 py-2 rounded-pill my-3">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
+            href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -206,13 +206,13 @@ const MembershipSection = () => {
       </div>
       <div className="text-center pt-5">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
+          href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
           target="_blank"
           rel="noopener noreferrer"
         >
           {" "}
-          <button className="Banner-btn rounded-pill">Join Us Now!</button>
-        </a>
+          <button className="hub-member-btn rounded-pill">Become a Member</button>
+        </a> 
       </div>
     </div>
   );
@@ -275,7 +275,10 @@ const BecomeAPortCo = () => {
                 <p className="portco-list">Everything Meat</p>
               </li>
               <li>
-                <p className="portco-list">Legal Mo</p>
+                <p className="portco-list">LegalMo</p>
+              </li>
+              <li>
+                <p className="portco-list">FinaMo</p>
               </li>
             </ul>
           </p>
@@ -283,12 +286,12 @@ const BecomeAPortCo = () => {
       </div>
       <div className="text-center pt-3">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform"
+          href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
           target="_blank"
           rel="noopener noreferrer"
         >
           {" "}
-          <button className="Banner-btn rounded-pill">Join Us Now!</button>
+          <button className="hub-member-btn rounded-pill">Become a Member</button>
         </a>
       </div>
     </div>

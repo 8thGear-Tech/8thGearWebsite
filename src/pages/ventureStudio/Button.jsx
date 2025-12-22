@@ -5,7 +5,7 @@ const Button = ({ buttonText }) => {
   return (
     <div>
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScYKIGrYhSeAHBQ8jLP07eH18UcTMCVxoUIaFtPj8-soyr_Xw/viewform?usp=pp_url"
+        href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
         target="_blank" rel="noopener noreferrer"
       >
         {" "}
@@ -18,7 +18,7 @@ export const ApplyNowBtn = ({ buttonText }) => {
   return (
     <div>
       <a
-        href="https://bit.ly/Entre_Training"
+        href="https://forms.gle/WJEYcDTdFkgZ6rwUA"
         target="_blank" rel="noopener noreferrer"
       >
         {" "}
