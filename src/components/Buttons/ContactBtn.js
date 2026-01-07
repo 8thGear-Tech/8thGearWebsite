@@ -17,7 +17,7 @@ export const JointheStudioBtn = () => {
 export const JointheTeamBtn = () => {
   return (
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSdFq1Ek40JRapDh-u4YsK-Hse0T-pg9PTlWSsFGcQbOiFxB8w/viewform"
+      href="https://forms.gle/nVJCg8PsMhw1VGFu7"
       target="_blank"
       rel="noopener noreferrer"
     >
