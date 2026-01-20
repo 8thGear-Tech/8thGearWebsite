@@ -16,7 +16,7 @@ import getItRightIcon from "../../assets/images/tech-marketplace/get-it-right.pn
 import simplicityIcon from "../../assets/images/tech-marketplace/simplicity.png";
 import scaleEasilyIcon from "../../assets/images/tech-marketplace/scale-easily.png";
 
-const TechMarketplace = () => {
+const MSMEMarketplace = () => {
   return (
     <>
       <HomepageNav />
@@ -69,7 +69,7 @@ const Hero = () => {
           Proven B2B Tech Solutions
         </h2>
         <p className="text-muted">
-          Our Tech Marketplace offers a curated selection of B2B software,
+          Our MSMS Marketplace offers a curated selection of B2B software,
           <br className="d-none d-md-block" />
           infrastructure, and IT services, all vetted and resold by our experts
           <br className="d-none d-md-block" />
@@ -412,4 +412,4 @@ const PartnersSection = () => {
   );
 };
 
-export default TechMarketplace;
+export default MSMEMarketplace;

@@ -44,7 +44,7 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
-import TechMarketplace from "./pages/Services/TechMarketplace";
+import MSMEMarketplace from "./pages/Services/MSMEMarketplace";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -154,7 +154,7 @@ function App() {
           <Route path="coworking" element={<CoWorking />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
           <Route path="hub-membership" element={<HubMembership />} />
-          <Route path="tech-marketplace" element={<TechMarketplace />} />
+          <Route path="msme-marketplace" element={<MSMEMarketplace />} />
           <Route path="FAQ" element={<FAQ />} />
 
           <Route path="about" element={<AboutUs />} />

@@ -1218,10 +1218,10 @@ export const HomepageNav = () => {
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
-                            href="/tech-marketplace"
+                            href="/msme-marketplace"
                             className="Nav-Dropdown-Items"
                           >
-                            Tech Marketplace
+                            MSMS Marketplace
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                         </div>
@@ -1325,8 +1325,8 @@ export const HomepageNav = () => {
                     <NavDropdown.Item href="/growth-advisory">
                       Growth Advisory
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/tech-marketplace">
-                      Tech Marketplace
+                    <NavDropdown.Item href="/msme-marketplace">
+                MSME Marketplace
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/initiatives">Initiatives</Nav.Link>

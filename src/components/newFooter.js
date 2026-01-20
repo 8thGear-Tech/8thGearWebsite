@@ -133,7 +133,7 @@ export const NewFooter = () => {
                     Events
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="/FAQ"
                     className="text-dark text-decoration-none"
@@ -141,7 +141,7 @@ export const NewFooter = () => {
                   >
                     FAQ
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </Col>
             <Col lg={2} className="mb-3">
@@ -176,11 +176,11 @@ export const NewFooter = () => {
                 </li>
                 <li>
                   <Link
-                    to="/tech-marketplace"
+                    to="/msme-marketplace"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                   >
-                    Tech Marketplace
+                  MSME Marketplace
                   </Link>
                 </li>
               </ul>
@@ -467,11 +467,11 @@ export const NewFooter = () => {
                   </li>
                   <li>
                     <Link
-                      to="/"
+                    to="/msme-marketplace"
                       className="text-dark text-decoration-none"
                       style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
                     >
-                      Tech Marketplace
+                      MSME Marketplace
                     </Link>
                   </li>
                 </ul>
