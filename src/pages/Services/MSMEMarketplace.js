@@ -305,7 +305,7 @@ const TailoredSolutionsSection = () => {
           </p>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqOovZutZUU8ZQ2Cvc-KPRYDrA5odO8iO_abnr-aRm-D9dEQ/viewform?usp=sharing&ouid=106047966915177609898"
+            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
             target="_blank"
             rel="noopener noreferrer"
           >
