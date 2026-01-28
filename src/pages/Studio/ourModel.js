@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
 import { WhatWeDoIcon } from "../../components/Icons";
-import steponeicon from "../../assets/images/steponeicon.png";
 import { IdeationIcon } from "../../components/Icons";
 import { ValidationIcon } from "../../components/Icons";
 import { CreationIcon } from "../../components/Icons";

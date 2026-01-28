@@ -1,25 +1,24 @@
 import {
   DemoDayReadMoreBtn,
-  SuggestAnEventBtn,
+  
 } from "../../components/Buttons/EventsBtn";
 
-import { BlogReadMoreBtn } from "../../components/Buttons/BlogBtn";
+
 import {
   FoundersMeetupReadMoreBtn,
   GearUpReadMoreBtn,
-  GearUpExposeBtn,
+  
 } from "../../components/Buttons/EventsBtn";
 
-import { LetUsKnowBtn } from "../../components/Buttons/EventsBtn";
 import demoday from "../../assets/images/events/demoday.JPG";
 import gearup from "../../assets/images/events/gearup.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
 import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";
-import { EventsViewMoreBtn } from "../../components/Buttons/EventsBtn";
+
 import SuggestAnEventForm from "../../components/Forms/EnquiresandSuggestionForm";
-import { EventPageHero } from "../../components/Hero/CarouselHero";
+
 import { EventsPageHero } from "../../components/Hero/ImageandTextHero";
 
 const EventsPage = () => {

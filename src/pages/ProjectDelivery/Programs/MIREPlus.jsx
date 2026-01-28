@@ -1,26 +1,14 @@
 import "./Programs.css";
 
 import React, { useState } from "react";
-import { Container, Row, Col, Card, Button, Modal } from "react-bootstrap";
+import { Container, Row, Col, Button, Modal } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 import MIREPlusImg from "../../../assets/images/projectdelivery/MIREPlusImg.JPG";
 import trainingsHero from "../../../assets/images/projectdelivery/trainingsHero.jpg";
 import digiplusalliance from "../../../assets/images/projectdelivery/MIREPlus/digiplusalliance.png";
 import avonafrica from "../../../assets/images/projectdelivery/MIREPlus/avonafrica.png";
-import avon from "../../../assets/images/projectdelivery/MIREPlus/black-businessman-happy-expression.jpg";
 
-const trainings = [
-  {
-    id: 1,
-    title: "Market & Investment Readiness for Entrepreneurs - Cohort Q3",
-    startDate: "September 8, 2025",
-    // duration: "4 weeks",
-    // appfee: "₦5,000",
-    // tfee: "₦200,000",
-    flyerImg: MIREPlusImg,
-    flyerLink: "Apply Now",
-  },
-];
+
 
 const MIREPlus = () => {
   const [modalImg, setModalImg] = useState(null);
@@ -252,7 +240,7 @@ const MIREPlus = () => {
                     style={{
                       // textAlign: "center",
                       fontSize: "0.875rem",
-                      fontStyle: "italic",
+                    
                       marginTop: "0.75rem",
                       fontStyle: "italic",
                       margin: "1rem 0 0 0",

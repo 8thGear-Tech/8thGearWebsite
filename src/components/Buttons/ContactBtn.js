@@ -30,7 +30,7 @@ export const MemberOneViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -45,7 +45,7 @@ export const MemberTwoViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -60,7 +60,7 @@ export const MemberThreeViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -75,7 +75,7 @@ export const MemberFourViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -90,7 +90,7 @@ export const MemberFiveViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -105,7 +105,7 @@ export const MemberSixViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -120,7 +120,7 @@ export const MemberSevenViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -135,7 +135,7 @@ export const MemberEightViewBioBtn = () => {
   return (
     <>
       <a
-        href=""
+        href="https://www.8thgearpartners.com/"
         className="text-decoration-none team-button-color"
         type="button"
         data-bs-toggle="modal"
@@ -172,7 +172,7 @@ export const Btn = () => {
 export const DigiPlusRequestBtn = () => {
   return (
     <>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.8thgearpartners.com/" target="_blank" rel="noopener noreferrer">
         <button className="DigiPlusRequestBtn">Request</button>
       </a>
     </>

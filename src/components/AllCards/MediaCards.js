@@ -1,18 +1,7 @@
 import galleryData from "../../data/gallerypiggerytraining.json";
-import gallerypictures from "../../data/galleryEmployabilityGIZ.json";
 import galleryusadfData from "../../data/galleryusadf.json";
-import galleryinnkeeperData from "../../data/galleryinnkeeperhackathon.json";
-import gallerylsetfvisitData from "../../data/gallerylsetfvisit.json";
-import gallerylsetfData from "../../data/gallerylsetf.json";
-import galleryfounderData from "../../data/galleryFoundermeetup.json";
-import galleryprojectData from "../../data/projectdelivery.json";
-import gallerydemodayData from "../../data/gallerydemoday.json";
 import gallerycardsData from "../../data/gallerycards.json";
-import {
-  OnHoverReadMoreBtn,
-  OnHoverReadMoreBtnThree,
-  OnHoverReadMoreBtnTwo,
-} from "../Buttons/ServicesBtn";
+import galleryprojectData from "../../data/projectdelivery.json";
 import { Link } from "react-router-dom";
 
 import "../../sassfiles/components/allCards/_MediaCards.scss";
@@ -53,7 +42,7 @@ export const ProjectDeliveryCard = (props) => {
   );
 };
 export const NewProjectDeliveryCard = (props) => {
-  const { image, title, description, readmoretitle, readmoretext, id } = props;
+  const { title, description} = props;
   return (
     <>
       <div className="projectdeliveryCard">
@@ -102,7 +91,7 @@ export const NewProjectDeliveryCard = (props) => {
   );
 };
 export const NewProjectDeliveryCardTwo = (props) => {
-  const { image, title, description, readmoretitle, readmoretext, id } = props;
+  const {  title, description } = props;
   return (
     <>
       <div className="projectdeliveryCard">
@@ -151,7 +140,7 @@ export const NewProjectDeliveryCardTwo = (props) => {
   );
 };
 export const NewProjectDeliveryCardThree = (props) => {
-  const { image, title, description, readmoretitle, readmoretext, id } = props;
+  const {  title, description } = props;
   return (
     <>
       <div className="projectdeliveryCard">
@@ -466,7 +455,7 @@ export const GalleryCards = () => {
 };
 
 export const SinglegalleryVideoCards = (props) => {
-  const { video, id } = props;
+  const { video} = props;
   return (
     <>
       <div className="responsive-iframe">
@@ -477,6 +466,7 @@ export const SinglegalleryVideoCards = (props) => {
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
+            title="Gallery video"
         ></iframe>
       </div>
     </>
@@ -502,13 +492,14 @@ export const GalleryVideoCards = () => {
 };
 
 export const SinglegalleryVideo = (props) => {
-  const { video, id } = props;
+  const { video } = props;
   return (
     <>
       <div className="card">
         <iframe
           src={video}
           height="280"
+            title="Gallery video"
           allowFullScreen
           className=""
           alt="..."

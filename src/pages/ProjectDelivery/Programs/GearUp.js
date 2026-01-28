@@ -2,16 +2,7 @@ import { useEffect, useRef } from "react";
 import "./Programs.css";
 import { HomepageNav } from "../../../components/Navbar";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import {
-  FaLightbulb,
-  FaDollarSign,
-  // FaUsers,
-  FaChartLine,
-  FaHandshake,
-  FaBullseye,
-  FaChartPie,
-  FaArrowUp,
-} from "react-icons/fa";
+
 import rocket from "../../../assets/images/projectdelivery/gearup-training/rocket.png";
 import imgOne from "../../../assets/images/projectdelivery/gearup-training/imgOne.png";
 import imgTwo from "../../../assets/images/projectdelivery/gearup-training/imgTwo.png";
@@ -707,12 +698,12 @@ const ApplyNowSection = () => {
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
   };
 
-  const titleStyle = {
-    color: "#8A2BE2",
-    fontWeight: "bold",
-    marginBottom: "2rem",
-    fontSize: "1.5rem",
-  };
+  // const titleStyle = {
+  //   color: "#8A2BE2",
+  //   fontWeight: "bold",
+  //   marginBottom: "2rem",
+  //   fontSize: "1.5rem",
+  // };
 
   const textStyle = {
     color: "#555555",

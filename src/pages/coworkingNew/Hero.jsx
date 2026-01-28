@@ -1,6 +1,6 @@
 // import HeroOffcanvas from "./Navbar"
 import HeroCarousel from "./Carousel";
-import { Navbar28 } from "../../components/Navbar";
+// import { Navbar28 } from "../../components/Navbar";
 
 export const Hero = () => {
   return (

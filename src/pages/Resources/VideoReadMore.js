@@ -2,8 +2,7 @@
 import { Navbar21 } from "../../components/Navbar";
 import { VideoResourceHero } from "../../components/Hero/ImageandTextHero";
 
-//images
-import resourceshero from "../../assets/images/resources/resourceshero.png";
+
 
 const VideoReadMore = () => {
   return (
@@ -26,6 +25,7 @@ const Video = () => {
           //   frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="managed-services"
         ></iframe>
       </div>
       <div className="text-center mt-4">

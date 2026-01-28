@@ -1,6 +1,5 @@
 import gallerypictures from "../../data/galleryEmployabilityGIZ.json";
 import { SingleGalleryGizCards } from "../../components/AllCards/MediaCards";
-import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
 import { GIZEmployabilityGalleryHero } from "../../components/Hero/ImageandTextHero";
 

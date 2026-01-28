@@ -3,11 +3,11 @@ import { EventsRegisterBtn } from "../Buttons/EventsBtn";
 import TalentPlacementHeroImg from "../../assets/images/hero/TalentPlacementHero.png";
 import {
   ManagedServicesRequestBtn,
-  TalentPlacementBtn,
+  
 } from "../../components/Buttons/ServicesBtn";
 import talentsplaced from "../../assets/images/talentplacement/talentsplaced.png";
 import satisfiedclients from "../../assets/images/talentplacement/satisfiedclients.png";
-import { Button } from "react-bootstrap";
+
 
 import "./hero.css";
 
@@ -421,7 +421,7 @@ export const TalentPlacementHero = () => {
           <div className="d-flex mt-4">
             <div className="d-flex align-items-center">
               <div>
-                <img src={talentsplaced} className="img-fluid" />
+                <img src={talentsplaced} className="img-fluid" alt="talentsplaced" />
               </div>
               <div className="ms-2">
                 <p className="p-0 m-0">
@@ -432,7 +432,7 @@ export const TalentPlacementHero = () => {
             </div>
             <div className="d-flex align-items-center ms-3">
               <div>
-                <img src={satisfiedclients} className="img-fluid" />
+                <img src={satisfiedclients} className="img-fluid" alt="satisfiedclients"/>
               </div>
               <div className="ms-2">
                 <p className="p-0 m-0">

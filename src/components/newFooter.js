@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { Accordion, Container, Row, Col } from "react-bootstrap";
 import { FiPhone, FiMail } from "react-icons/fi"; // Feather icons
 import "../sassfiles/components/_footer.scss";
-import XLogo from "../assets/icons/XLogo.png";
 import { FaXTwitter } from "react-icons/fa6";
 
 import "./newFooter.css";

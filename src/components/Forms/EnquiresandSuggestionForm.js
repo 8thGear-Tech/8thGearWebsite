@@ -7,7 +7,7 @@ import logo from "../../assets/images/logo.png";
 import { LetUsKnowBtn } from "../Buttons/EventsBtn";
 import { SubmitFormBtn } from "../Buttons/ContactBtn";
 import { JointheStudioBtn } from "../Buttons/ContactBtn";
-import { JointheTeamBtn } from "../Buttons/ContactBtn";
+
 
 export const JoinTheStudioForm = () => {
   const [firstname, setFirstName] = useState("");
@@ -18,7 +18,7 @@ export const JoinTheStudioForm = () => {
   const [aboutcompany, setAboutCompany] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
-  const [people, setPeople] = useState([]);
+  const [ setPeople] = useState([]);
 
   const Handle = (e) => {
     e.preventDefault();
@@ -89,6 +89,7 @@ export const JoinTheStudioForm = () => {
                 width={40}
                 className=""
                 id="staticBackdropLabel"
+                alt="logo"
               />
               <button
                 type="button"
@@ -294,6 +295,7 @@ const SuggestAnEventForm = () => {
                 width={40}
                 className=""
                 id="staticBackdropLabel"
+                alt="logo"
               />
               <button
                 type="button"

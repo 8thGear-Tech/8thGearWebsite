@@ -1,9 +1,7 @@
 import React from "react";
 
-import corevaluesnew from "../../assets/images/whoweare/corevaluesnew.png";
-import { HomepageNav, Navbar10 } from "../../components/Navbar";
-import { AboutPageHero } from "../../components/Hero/VideoHero";
-import coworking from "../../assets/images/coworking/coworking.png";
+import { HomepageNav } from "../../components/Navbar";
+
 
 //team
 import { Gerians } from "../../components/AllCards/TeamCard";
@@ -54,15 +52,15 @@ const AboutUs = () => {
   );
 };
 
-const CoreValues = () => {
-  return (
-    <div className="container py-5">
-      <div className="row justify-content-center">
-        <img src={corevaluesnew} className="col-12"></img>
-      </div>
-    </div>
-  );
-};
+// const CoreValues = () => {
+//   return (
+//     <div className="container py-5">
+//       <div className="row justify-content-center">
+//         <img src={corevaluesnew} className="col-12" alt="corevaluesnew"></img>
+//       </div>
+//     </div>
+//   );
+// };
 
 export const Partners = () => (
   <>

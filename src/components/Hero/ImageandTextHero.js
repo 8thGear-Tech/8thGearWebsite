@@ -2,15 +2,12 @@
 
 import React from "react";
 import {Carousel} from "react-bootstrap";
-import {useState} from "react";
-import {Card} from "react-bootstrap";
 
-import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import {BookaSessionBtn} from "../Buttons/ServicesBtn";
 import {RegisterBtn} from "../Buttons/ProjectDeliveryBtn";
 import {BookNowBtn} from "../Buttons/ServicesBtn";
-import {DigiPlusRequestBtn} from "../Buttons/ContactBtn";
+
 
 export const ManageServicesDigitalMarketingHero = () => {
     return (

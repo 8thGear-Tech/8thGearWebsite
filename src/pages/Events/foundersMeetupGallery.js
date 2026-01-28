@@ -43,22 +43,22 @@ export const FoundersPictureGalleryCardsTwo = () => {
     </div>
   );
 };
-const FoundersVideoCards = () => {
-  return (
-    <>
-      <div className="row justify-content-center m-4 p-5">
-        {galleryfoundersData.galleryvideocards.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SinglegalleryVideo {...items} />
-              </div>
-            </>
-          );
-        })}
-      </div>
-    </>
-  );
-};
+// const FoundersVideoCards = () => {
+//   return (
+//     <>
+//       <div className="row justify-content-center m-4 p-5">
+//         {galleryfoundersData.galleryvideocards.map((items) => {
+//           return (
+//             <>
+//               <div className="col-md-4" key={items.id}>
+//                 <SinglegalleryVideo {...items} />
+//               </div>
+//             </>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// };
 
 export default FoundersMeetupGalleryPage;

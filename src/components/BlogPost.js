@@ -42,7 +42,7 @@ export const BlogPost = () => {
                     <h2>{text1}</h2>
                     <p>{text2} </p>
                     <p>{text3}</p>
-                    <img className="blogImage" src={bodyImage}></img>
+                    <img className="blogImage" src={bodyImage} alt="blog"></img>
                     <p>{text4} </p>
                     <div>
                       <FacebookBtn></FacebookBtn>
@@ -104,7 +104,7 @@ export const SideBlogPost = () => {
               </div>
               <div className="offcanvas-body d-lg">
                 <header className="">
-                  <img src={heroImage} />
+                  <img src={heroImage} alt="hero"/>
                 </header>
                 <div>
                   <h6 className="mt-4">{date}</h6>
@@ -112,7 +112,7 @@ export const SideBlogPost = () => {
                     <h2>{text1}</h2>
                     <p>{text2} </p>
                     <p>{text3}</p>
-                    <img className="blogImage" src={bodyImage}></img>
+                    <img className="blogImage" src={bodyImage} alt="image"></img>
                     <p>{text4} </p>
                     <div>
                       <FacebookBtn></FacebookBtn>

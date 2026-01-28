@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { HomepageNav, Navbar0 } from "../components/Navbar";
+import { HomepageNav} from "../components/Navbar";
 import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
-import { HomePageHero } from "../components/Hero/ImageandTextHero";
+
 import { VentureStudioIcon } from "../components/Icons";
 import { ProjectDeliveryIcon } from "../components/Icons";
 import { GearUpIcon } from "../components/Icons";
@@ -11,10 +11,10 @@ import Button from "react-bootstrap/Button";
 import hubservices from "../assets/images/Homepageassets/HubServices.jpg";
 import projects from "../assets/images/Homepageassets/Projects.jpg";
 import venture from "../assets/images/Homepageassets/VentureStudio.jpg";
-import LogoScroll from "../components/Hero/LogoScroll";
+
 import aboutusimg from "../assets/images/Homepageassets/aboutImg.png";
 import homeImg from "../assets/images/Homepageassets/homeImg.png";
-import { Image } from "react-bootstrap";
+
 import { Partners } from "./WhoWeAre/aboutUs";
 import "./homePage.css";
 import { useState } from "react";
@@ -73,48 +73,8 @@ const BigHeroSection = () => {
 };
 
 // ABOUT US
-const SmallHerooSection = () => {
-  return (
-    <div className="d-lg-none d-md-none d-sm-block d-xs-block">
-      <div
-        className="container-fluid jj"
-        // style={{ backgroundColor: "linear-gradient(to bottom, grey, white)" }}
-      >
-        <div className="row align-items-center justify-content-center">
-          <div className="col-sm-12 pt-lg-3 pt-md-3 my-5">
-            <h2
-              className="blurred-text-container homedesktophero"
-              style={{ fontSize: "2.2rem", color: "#fff" }}
-            >
-              <span className="blurred-text homedesktophero">
-                {" "}
-                Great people building enduring ventures
-              </span>
-            </h2>
 
-            <p
-              className="blurred-text-container homedesktophero"
-              style={{ fontSize: "1.2rem", color: "#fff" }}
-            >
-              <span className="blurred-text homedesktophero">
-                {" "}
-                Developing a Thriving Ecosystem for Enterpreneurs
-              </span>
-            </p>
-          </div>
-          <div className="col-sm-12">
-            <img
-              src={homeImg}
-              className="d-block img-fluid"
-              alt=""
-              loading=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
+
 const SmallHeroSection = () => {
   return (
     <div className="d-lg-none d-md-none d-sm-block d-xs-block">
@@ -297,129 +257,129 @@ const AboutSection = () => {
   );
 };
 
-const SectionTwo = () => {
-  return (
-    <div className="container p-5 d-flex justify-content-center">
-      {/* <div className="border-end"></div> */}
-      <div className="row ">
-        <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 d-flex align-items-center">
-          <h2 className="pb-4 d-none d-lg-block d-md-none d-sm-none d-xs-none">
-            We are value creators, building profitable and enduring businesses.
-          </h2>
-          <h3 className="pb-4 d-xs-block d-sm-block d-md-block d-lg-none">
-            We are value creators, building profitable and enduring businesses.
-          </h3>
-        </div>
-        <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
-          {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}
-          <div className="col">
-            <VentureStudioIcon />
+// const SectionTwo = () => {
+//   return (
+//     <div className="container p-5 d-flex justify-content-center">
+//       {/* <div className="border-end"></div> */}
+//       <div className="row ">
+//         <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 d-flex align-items-center">
+//           <h2 className="pb-4 d-none d-lg-block d-md-none d-sm-none d-xs-none">
+//             We are value creators, building profitable and enduring businesses.
+//           </h2>
+//           <h3 className="pb-4 d-xs-block d-sm-block d-md-block d-lg-none">
+//             We are value creators, building profitable and enduring businesses.
+//           </h3>
+//         </div>
+//         <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
+//           {/* <div className="col d-lg-flex d-md-flex mb-5 float-end"> */}
+//           <div className="col">
+//             <VentureStudioIcon />
 
-            <Link to="/our-model" className="headerText">
-              <h3>VENTURE STUDIO</h3>
-            </Link>
+//             <Link to="/our-model" className="headerText">
+//               <h3>VENTURE STUDIO</h3>
+//             </Link>
 
-            <p className="textFont">
-              Turning ideas either ours or yours into sustainable businesses is
-              what we do best.
-            </p>
-          </div>
-          {/* </div> */}
-          {/* <div className="col d-lg-flex d-md-flex float-end"> */}
-          <div className="col">
-            <ProjectDeliveryIcon />
-            {/* <img
-              src={projectdeliveryicon}
-              alt=""
-              width="70px"
-              height="70px"
-              className="mb-3"
-            /> */}
-            <Link to="/projects" className="headerText">
-              <h3>PROJECT DELIVERY</h3>
-            </Link>
+//             <p className="textFont">
+//               Turning ideas either ours or yours into sustainable businesses is
+//               what we do best.
+//             </p>
+//           </div>
+//           {/* </div> */}
+//           {/* <div className="col d-lg-flex d-md-flex float-end"> */}
+//           <div className="col">
+//             <ProjectDeliveryIcon />
+//             {/* <img
+//               src={projectdeliveryicon}
+//               alt=""
+//               width="70px"
+//               height="70px"
+//               className="mb-3"
+//             /> */}
+//             <Link to="/projects" className="headerText">
+//               <h3>PROJECT DELIVERY</h3>
+//             </Link>
 
-            <p className="textFont">
-              {" "}
-              Executing impact and self sustaining initiatives is our forte.
-            </p>
-          </div>
-          {/* </div> */}
-        </div>
-      </div>
-    </div>
-  );
-};
-const SectionThree = () => {
-  return (
-    <div className="container-fluid text-center px-5 pt-5 pb-3 SectionTwoBg mt-5">
-      {" "}
-      <h4 className="">PILLARS</h4>
-      <p className="textFont">
-        On these three pillars, we are creating an Africa of value creators by
-        delving deep to cultivate the most innovative startups.
-      </p>
-      <div className="row justify-content-evenly mt-5">
-        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          <div className="card mb-5 py-4 cardBg">
-            <div className="text-center">
-              <GearUpIcon />
-            </div>
-            <div className="card-body">
-              <h4 className="card-title">GEAR UP</h4>
-              <p className="card-text">
-                Mentally and physically prepare for the journey ahead. Bringing
-                ideas to life is no small feat but it is a laudable one.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          {" "}
-          <div className="card mb-5 py-4 cardBg">
-            <div className="text-center">
-              <EvolveIcon />
-            </div>
-            <div className="card-body">
-              <h4 className="card-title">EVOLVE</h4>
-              <p className="card-text">
-                Be fluid and dynamic, ready to adjust to market demands while
-                offering value.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
-          {" "}
-          <div className="card mb-5 py-4 cardBg">
-            <div className="text-center">
-              <EngageIcon />
-            </div>
-            <div className="card-body">
-              <h4 className="card-title">ENGAGE</h4>
-              <p className="card-text">
-                Don't keep that idea under the bushel, actively engage customers
-                for feedback while shouting about it on the rooftop.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <JoinTheStudioForm />
-      <a
-        href="https://calendly.com/inc-consults/15min?month=2022-10"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-decoration-none"
-      >
-        <p className="mt-3 talkToUsText text-decoration-underline">
-          Talk to us
-        </p>
-      </a>
-      {/* <JointheStudioBtn /> */}
-    </div>
-  );
-};
+//             <p className="textFont">
+//               {" "}
+//               Executing impact and self sustaining initiatives is our forte.
+//             </p>
+//           </div>
+//           {/* </div> */}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+// const SectionThree = () => {
+//   return (
+//     <div className="container-fluid text-center px-5 pt-5 pb-3 SectionTwoBg mt-5">
+//       {" "}
+//       <h4 className="">PILLARS</h4>
+//       <p className="textFont">
+//         On these three pillars, we are creating an Africa of value creators by
+//         delving deep to cultivate the most innovative startups.
+//       </p>
+//       <div className="row justify-content-evenly mt-5">
+//         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
+//           <div className="card mb-5 py-4 cardBg">
+//             <div className="text-center">
+//               <GearUpIcon />
+//             </div>
+//             <div className="card-body">
+//               <h4 className="card-title">GEAR UP</h4>
+//               <p className="card-text">
+//                 Mentally and physically prepare for the journey ahead. Bringing
+//                 ideas to life is no small feat but it is a laudable one.
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
+//           {" "}
+//           <div className="card mb-5 py-4 cardBg">
+//             <div className="text-center">
+//               <EvolveIcon />
+//             </div>
+//             <div className="card-body">
+//               <h4 className="card-title">EVOLVE</h4>
+//               <p className="card-text">
+//                 Be fluid and dynamic, ready to adjust to market demands while
+//                 offering value.
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//         <div className="col-lg-4 col-md-4 col-sm-10 px-lg-5 px-md-4 px-sm-5 d-flex align-items-stretch">
+//           {" "}
+//           <div className="card mb-5 py-4 cardBg">
+//             <div className="text-center">
+//               <EngageIcon />
+//             </div>
+//             <div className="card-body">
+//               <h4 className="card-title">ENGAGE</h4>
+//               <p className="card-text">
+//                 Don't keep that idea under the bushel, actively engage customers
+//                 for feedback while shouting about it on the rooftop.
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       <JoinTheStudioForm />
+//       <a
+//         href="https://calendly.com/inc-consults/15min?month=2022-10"
+//         target="_blank"
+//         rel="noopener noreferrer"
+//         className="text-decoration-none"
+//       >
+//         <p className="mt-3 talkToUsText text-decoration-underline">
+//           Talk to us
+//         </p>
+//       </a>
+//       {/* <JointheStudioBtn /> */}
+//     </div>
+//   );
+// };
 
 const EMBED_URL =
   "https://www.youtube.com/embed/zrjQ6HTlyEE?si=AdKCjgr9FQgT93Ta&autoplay=1";

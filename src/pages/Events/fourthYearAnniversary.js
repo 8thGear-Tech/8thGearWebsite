@@ -2,7 +2,6 @@ import galleryData from "../../data/fourthYearAnniversary.json";
 import { SingleDemodayCards } from "../../components/AllCards/MediaCards";
 import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
-import { DemoDayGalleryHero } from "../../components/Hero/ImageandTextHero";
 
 const FourthYearAnniversary = () => {
   return (

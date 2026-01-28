@@ -69,10 +69,7 @@ import startupsupported from "../assets/icons/projectdelivery/startupsupported.p
 import projectsdelivered from "../assets/icons/projectdelivery/projectsdelivered.png";
 import techtalentsempowered from "../assets/icons/projectdelivery/techtalentsempowered.png";
 
-// Why Recruit From Us
-import expertism from "../assets/images/talentplacement/expertism.png";
-import professionalism from "../assets/images/talentplacement/professionalism.png";
-import swiftprocess from "../assets/images/talentplacement/swiftprocess.png";
+
 
 export const WhatWeDoIcon = () => {
   return (

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 
 import data from "../../data/coworkingPageTestimonialCard.json";
 
@@ -282,7 +281,7 @@ export const ManagedServicesPageTestimonialCard = () => {
 };
 
 export const CoWorkingPageTestimonialCard = (props) => {
-  const { image, name, position, text } = props;
+  const { name, position, text } = props;
   return (
     <div className="card w-100 mt-5">
       <div className="card-body">
