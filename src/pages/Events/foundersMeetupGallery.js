@@ -1,7 +1,6 @@
 import galleryfoundersData from "../../data/galleryFoundermeetup.json";
 import galleryfoundersDataTwo from "../../data/galleryFoundermeetup.json";
 import { SingleGalleryFounderCards } from "../../components/AllCards/MediaCards";
-import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
 
 const FoundersMeetupGalleryPage = () => {

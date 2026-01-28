@@ -283,7 +283,7 @@ const CardCarousel = () => {
       carouselElement.removeEventListener("scroll", handleScroll);
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [carouselItems.length]);
 
   return (
     <Container fluid style={{ backgroundColor: "#F1F8ED", padding: "3rem 0" }}>

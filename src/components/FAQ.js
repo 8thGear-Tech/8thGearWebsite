@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/FAQ.css";
-import { HomepageNav, Navbar13 } from "./Navbar";
+import { HomepageNav} from "./Navbar";
 
 const FAQ = () => {
   return (

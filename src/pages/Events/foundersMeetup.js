@@ -1,4 +1,4 @@
-import { Navbar15, HomepageNav } from "../../components/Navbar";
+import { Navbar15 } from "../../components/Navbar";
 // import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
 
 import { Image } from "react-bootstrap";

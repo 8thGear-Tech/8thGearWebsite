@@ -44,41 +44,9 @@ export const OnHoverCard = () => {
   );
 };
 
-{
-  /* <div className="row">
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
-        </a>
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
-        </a>
-      </div>
-    </div>
-  </div>
-</div>; */
-}
-//ProjectDeliveryPopUpCard
-
-//8thgeariansPopUpCard
-//EIRDataPopUpCard
-//AdvisoryBoardOnHoverCard
+// //8thgeariansPopUpCard
+// //EIRDataPopUpCard
+// //AdvisoryBoardOnHoverCard
 
 export const EightgeariansPopUpCard1 = (props) => {
   const { image, name, position, text, id } = props;
@@ -736,11 +704,7 @@ export const EIRDataPopUpCard6 = (props) => {
     </>
   );
 };
-{
-  /* <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
-  <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
-</div>; */
-}
+
 export const AdvisoryBoardOnHoverCard = (props) => {
   const { image, name, position, link } = props;
   return (

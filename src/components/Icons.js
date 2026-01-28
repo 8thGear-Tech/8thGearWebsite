@@ -1,3 +1,513 @@
+// //Coworking
+// import advisoryservices from "../assets/icons/coworking/advisoryservices.png";
+// import sereneenvironment from "../assets/icons/coworking/sereneenvironment.png";
+// import event from "../assets/icons/coworking/event.png";
+// import lagosinnovate from "../assets/icons/coworking/lagosinnovate.png";
+// import meetingroom from "../assets/icons/coworking/meetingroom.png";
+
+// //GaaS Pictures
+// import start from "../assets/icons/start.png";
+// import build from "../assets/icons/build.png";
+// import scale from "../assets/icons/scale.png";
+// import advisory from "../assets/icons/advisory.png";
+// import networking from "../assets/icons/networking.png";
+// import growthstrategy from "../assets/icons/growthstrategy.png";
+// import dealmanagement from "../assets/icons/dealmanagement.png";
+
+// //Project Delivery Pictures
+// import howitworks from "../assets/icons/managedservices/howitworks.png";
+
+// //Digital Marketing
+// import contentmarketing from "../assets/icons/managedservices/contentmarketing.png";
+// import copywriting from "../assets/icons/managedservices/copywriting.png";
+// import emailmarketing from "../assets/icons/managedservices/emailmarketing.png";
+// import influencermarketing from "../assets/icons/managedservices/influencermarketing.png";
+// import searchengineoptimization from "../assets/icons/managedservices/searchengineoptimization.png";
+// import searchenginemarketing from "../assets/icons/managedservices/searchenginemarketing.png";
+// import socialmediamarketing from "../assets/icons/managedservices/socialmediamarketing.png";
+
+// //Accounting
+// import managementaccounting from "../assets/icons/managedservices/managementaccounting.png";
+// import internalaudit from "../assets/icons/managedservices/internalaudit.png";
+// import publicsector from "../assets/icons/managedservices/publicsector.png";
+// import taxaccounting from "../assets/icons/managedservices/taxaccounting.png";
+
+// //Tech
+// import uiux from "../assets/icons/managedservices/uiux.png";
+// import webdev from "../assets/icons/managedservices/webdevelopment.png";
+// import appdev from "../assets/icons/managedservices/appdevelopment.png";
+// import devops from "../assets/icons/managedservices/devops.png";
+// import productdev from "../assets/icons/managedservices/productdevelopment.png";
+
+// //Legal
+// import arbitration from "../assets/icons/managedservices/arbitration.png";
+// import mediation from "../assets/icons/managedservices/mediation.png";
+// import consultation from "../assets/icons/managedservices/consultation.png";
+// import representation from "../assets/icons/managedservices/representation.png";
+// import legaldocuments from "../assets/icons/managedservices/legaldocuments.png";
+
+// //Our Model
+// import ideation from "../assets/icons/ourmodel/ideation.png";
+// import validation from "../assets/icons/ourmodel/validation.png";
+// import creation from "../assets/icons/ourmodel/creation.png";
+// import spinout from "../assets/icons/ourmodel/spinout.png";
+// import scaleup from "../assets/icons/ourmodel/scaleup.png";
+
+// //home
+// import venturestudio from "../assets/icons/home/venturestudio.png";
+// import projectdelivery from "../assets/icons/home/projectdelivery.png";
+// import gearup from "../assets/icons/home/gearup.png";
+// import evolve from "../assets/icons/home/evolve.png";
+// import engage from "../assets/icons/home/engage.png";
+
+// //projectdelivery
+// import businessinhouse from "../assets/icons/projectdelivery/businessinhouse.png";
+// import jobssaved from "../assets/icons/projectdelivery/jobssaved.png";
+// import jobscreated from "../assets/icons/projectdelivery/jobscreated.png";
+// import jobsplaced from "../assets/icons/projectdelivery/jobsplaced.png";
+// import startupsupported from "../assets/icons/projectdelivery/startupsupported.png";
+// import projectsdelivered from "../assets/icons/projectdelivery/projectsdelivered.png";
+// import techtalentsempowered from "../assets/icons/projectdelivery/techtalentsempowered.png";
+
+
+
+// export const WhatWeDoIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-bag-check" style={{ fontSize: "20px" }}></i>
+//     </div>
+//   );
+// };
+
+// //project delivery
+// export const OurImpactIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-bag-check" style={{ fontSize: "30px" }}></i>
+//     </div>
+//   );
+// };
+// export const BusinessInHouseIcon = () => {
+//   return (
+//     <div>
+//       <img
+//         src={businessinhouse}
+//         style={{ maxWidth: "21%", maxHeight: "21%" }}
+//       ></img>
+//     </div>
+//   );
+// };
+// export const JobsSavedIcon = () => {
+//   return (
+//     <div>
+//       <img src={jobssaved} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+//     </div>
+//   );
+// };
+// export const JobsCreatedIcon = () => {
+//   return (
+//     <div>
+//       <img
+//         src={jobscreated}
+//         style={{ maxWidth: "21%", maxHeight: "21%" }}
+//       ></img>
+//     </div>
+//   );
+// };
+// export const JobsPlacedIcon = () => {
+//   return (
+//     <div>
+//       <img src={jobsplaced} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+//     </div>
+//   );
+// };
+
+// export const ProjectsDeliveredIcon = () => {
+//   return (
+//     <div>
+//       <img
+//         src={projectsdelivered}
+//         style={{ maxWidth: "18%", maxHeight: "18%" }}
+//       ></img>
+//     </div>
+//   );
+// };
+// export const TechTalentsEmpoweredIcon = () => {
+//   return (
+//     <div>
+//       <img
+//         src={techtalentsempowered}
+//         style={{ maxWidth: "28%", maxHeight: "28%" }}
+//       ></img>
+//     </div>
+//   );
+// };
+// export const StartupsSupportedIcon = () => {
+//   return (
+//     <div>
+//       <img
+//         src={startupsupported}
+//         style={{ maxWidth: "14%", maxHeight: "14%" }}
+//       ></img>
+//     </div>
+//   );
+// };
+// export const ArrowRightIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-arrow-right"></i>
+//     </div>
+//   );
+// };
+
+// export const FacebookIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-facebook"></i>
+//     </div>
+//   );
+// };
+// export const InstagramIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-instagram"></i>
+//     </div>
+//   );
+// };
+// export const LinkedInIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-linkedin" style={{ fontSize: "20px" }}></i>
+//     </div>
+//   );
+// };
+// export const TwitterIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-twitter"></i>
+//     </div>
+//   );
+// };
+// export const MailIcon = () => {
+//   return (
+//     <div>
+//       <i className="bi bi-at"></i>
+//     </div>
+//   );
+// };
+
+// //Growth-as-a-Service
+// export const StartIcon = () => {
+//   return (
+//     <div>
+//       <img src={start} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+//     </div>
+//   );
+// };
+// export const BuildIcon = () => {
+//   return (
+//     <div>
+//       <img src={build} style={{ maxWidth: "29%", maxHeight: "29%" }}></img>
+//     </div>
+//   );
+// };
+// export const ScaleIcon = () => {
+//   return (
+//     <div>
+//       <img src={scale} style={{ maxWidth: "32%", maxHeight: "32%" }}></img>
+//     </div>
+//   );
+// };
+
+// export const AdvisoryIcon = () => {
+//   return (
+//     <img src={advisory} style={{ maxWidth: "30%", maxHeight: "30%" }}></img>
+//   );
+// };
+// export const NetworkingIcon = () => {
+//   return (
+//     <img src={networking} style={{ maxWidth: "30%", maxHeight: "30%" }}></img>
+//   );
+// };
+// export const GrowthStrategyIcon = () => {
+//   return (
+//     <img
+//       src={growthstrategy}
+//       style={{ maxWidth: "30%", maxHeight: "30%" }}
+//     ></img>
+//   );
+// };
+// export const DealManagementIcon = () => {
+//   return (
+//     <img
+//       src={dealmanagement}
+//       style={{ maxWidth: "30%", maxHeight: "30%" }}
+//     ></img>
+//   );
+// };
+
+// //Project Delivery
+// export const HowItWorksIcon = () => {
+//   return (
+//     // <div>
+//     <img src={howitworks} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
+//     // </div>
+//   );
+// };
+
+// //Digital Marketing
+// export const ContentMarketingIcon = () => {
+//   return (
+//     <img
+//       src={contentmarketing}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const CopyWritingIcon = () => {
+//   return (
+//     <img src={copywriting} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const EmailMarketingIcon = () => {
+//   return (
+//     <img
+//       src={emailmarketing}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const InfluencerMarketingIcon = () => {
+//   return (
+//     <img
+//       src={influencermarketing}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const SearchEngineMarketingIcon = () => {
+//   return (
+//     <img
+//       src={searchenginemarketing}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const SearchEngineOptimizationIcon = () => {
+//   return (
+//     <img
+//       src={searchengineoptimization}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const SocialMediaMarketingIcon = () => {
+//   return (
+//     <img
+//       src={socialmediamarketing}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+
+// //Accounting
+// export const ManagementAccountingIcon = () => {
+//   return (
+//     <img
+//       src={managementaccounting}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const InternalAuditIcon = () => {
+//   return (
+//     <img
+//       src={internalaudit}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const PublicSectorIcon = () => {
+//   return (
+//     <img src={publicsector} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const TaxAccountingIcon = () => {
+//   return (
+//     <img
+//       src={taxaccounting}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+
+// //Tech
+
+// export const UIUXIcon = () => {
+//   return <img src={uiux} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+// };
+// export const WebDevIcon = () => {
+//   return <img src={webdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+// };
+// export const AppDevIcon = () => {
+//   return <img src={appdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+// };
+// export const DevOpsIcon = () => {
+//   return <img src={devops} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+// };
+// export const ProductDevIcon = () => {
+//   return (
+//     <img src={productdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+
+// //Legal
+
+// export const ArbitrationIcon = () => {
+//   return (
+//     <img src={arbitration} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const MediationIcon = () => {
+//   return (
+//     <img src={mediation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const ConsultationIcon = () => {
+//   return (
+//     <img src={consultation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const RepresentationIcon = () => {
+//   return (
+//     <img
+//       src={representation}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const LegalDocumentsIcon = () => {
+//   return (
+//     <img
+//       src={legaldocuments}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+
+// //Our Model
+// export const IdeationIcon = () => {
+//   return (
+//     <img src={ideation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const ValidationIcon = () => {
+//   return (
+//     <img src={validation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const CreationIcon = () => {
+//   return (
+//     <img src={creation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+//   );
+// };
+// export const SpinOutIcon = () => {
+//   return (
+//     <img src={spinout} style={{ maxWidth: "35%", maxHeight: "35%" }}></img>
+//   );
+// };
+// export const ScaleUpIcon = () => {
+//   return (
+//     <img src={scaleup} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
+//   );
+// };
+// // Team
+
+// // export const LinkedInIcon = () => {
+// //   return (
+// //     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+// //     <div>
+// //       <i className="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
+// //     </div>
+// //   );
+// // };
+
+// //home
+// export const VentureStudioIcon = () => {
+//   return (
+//     <img
+//       src={venturestudio}
+//       style={{ maxWidth: "18%", maxHeight: "18%" }}
+//     ></img>
+//   );
+// };
+// export const ProjectDeliveryIcon = () => {
+//   return (
+//     <img
+//       src={projectdelivery}
+//       style={{ maxWidth: "18%", maxHeight: "18%" }}
+//     ></img>
+//   );
+// };
+// export const GearUpIcon = () => {
+//   return <img src={gearup} style={{ maxWidth: "70%", maxHeight: "70%" }}></img>;
+// };
+// export const EvolveIcon = () => {
+//   return <img src={evolve} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+// };
+// export const EngageIcon = () => {
+//   return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+// };
+
+// export const ArrowUpIcon = () => {
+//   return <i className="bi bi-arrow-up-square"></i>;
+// };
+
+// //coworking page icons
+// export const AdvisoryServicesIcon = () => {
+//   return (
+//     <img
+//       src={advisoryservices}
+//       style={{ maxWidth: "60%", maxHeight: "60%" }}
+//     ></img>
+//   );
+// };
+// export const SereneEnvironmentIcon = () => {
+//   return (
+//     <img
+//       src={sereneenvironment}
+//       style={{ maxWidth: "40%", maxHeight: "40%" }}
+//     ></img>
+//   );
+// };
+// export const EventIcon = () => {
+//   return <img src={event} style={{ maxWidth: "45%", maxHeight: "45%" }}></img>;
+// };
+// export const LagosInnovateIcon = () => {
+//   return (
+//     <img
+//       src={lagosinnovate}
+//       style={{ maxWidth: "45%", maxHeight: "45%" }}
+//     ></img>
+//   );
+// };
+// export const MeetingRoomIcon = () => {
+//   return (
+//     <img src={meetingroom} style={{ maxWidth: "50%", maxHeight: "50%" }}></img>
+//   );
+// };
+
+// // // Why Recruit From Us
+
+// // export const ExpertismIcon = () => {
+// //   return (
+// //     <div>
+// //       <img src={expertism} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+// //     </div>
+// //   );
+// // };
+
+
 //Coworking
 import advisoryservices from "../assets/icons/coworking/advisoryservices.png";
 import sereneenvironment from "../assets/icons/coworking/sereneenvironment.png";
@@ -92,15 +602,20 @@ export const BusinessInHouseIcon = () => {
     <div>
       <img
         src={businessinhouse}
+        alt="Business in house icon"
         style={{ maxWidth: "21%", maxHeight: "21%" }}
-      ></img>
+      />
     </div>
   );
 };
 export const JobsSavedIcon = () => {
   return (
     <div>
-      <img src={jobssaved} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+      <img 
+        src={jobssaved} 
+        alt="Jobs saved icon"
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      />
     </div>
   );
 };
@@ -109,15 +624,20 @@ export const JobsCreatedIcon = () => {
     <div>
       <img
         src={jobscreated}
+        alt="Jobs created icon"
         style={{ maxWidth: "21%", maxHeight: "21%" }}
-      ></img>
+      />
     </div>
   );
 };
 export const JobsPlacedIcon = () => {
   return (
     <div>
-      <img src={jobsplaced} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+      <img 
+        src={jobsplaced} 
+        alt="Jobs placed icon"
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      />
     </div>
   );
 };
@@ -127,8 +647,9 @@ export const ProjectsDeliveredIcon = () => {
     <div>
       <img
         src={projectsdelivered}
+        alt="Projects delivered icon"
         style={{ maxWidth: "18%", maxHeight: "18%" }}
-      ></img>
+      />
     </div>
   );
 };
@@ -137,8 +658,9 @@ export const TechTalentsEmpoweredIcon = () => {
     <div>
       <img
         src={techtalentsempowered}
+        alt="Tech talents empowered icon"
         style={{ maxWidth: "28%", maxHeight: "28%" }}
-      ></img>
+      />
     </div>
   );
 };
@@ -147,8 +669,9 @@ export const StartupsSupportedIcon = () => {
     <div>
       <img
         src={startupsupported}
+        alt="Startups supported icon"
         style={{ maxWidth: "14%", maxHeight: "14%" }}
-      ></img>
+      />
     </div>
   );
 };
@@ -200,58 +723,82 @@ export const MailIcon = () => {
 export const StartIcon = () => {
   return (
     <div>
-      <img src={start} style={{ maxWidth: "21%", maxHeight: "21%" }}></img>
+      <img 
+        src={start} 
+        alt="Start phase icon"
+        style={{ maxWidth: "21%", maxHeight: "21%" }}
+      />
     </div>
   );
 };
 export const BuildIcon = () => {
   return (
     <div>
-      <img src={build} style={{ maxWidth: "29%", maxHeight: "29%" }}></img>
+      <img 
+        src={build} 
+        alt="Build phase icon"
+        style={{ maxWidth: "29%", maxHeight: "29%" }}
+      />
     </div>
   );
 };
 export const ScaleIcon = () => {
   return (
     <div>
-      <img src={scale} style={{ maxWidth: "32%", maxHeight: "32%" }}></img>
+      <img 
+        src={scale} 
+        alt="Scale phase icon"
+        style={{ maxWidth: "32%", maxHeight: "32%" }}
+      />
     </div>
   );
 };
 
 export const AdvisoryIcon = () => {
   return (
-    <img src={advisory} style={{ maxWidth: "30%", maxHeight: "30%" }}></img>
+    <img 
+      src={advisory} 
+      alt="Advisory services icon"
+      style={{ maxWidth: "30%", maxHeight: "30%" }}
+    />
   );
 };
 export const NetworkingIcon = () => {
   return (
-    <img src={networking} style={{ maxWidth: "30%", maxHeight: "30%" }}></img>
+    <img 
+      src={networking} 
+      alt="Networking icon"
+      style={{ maxWidth: "30%", maxHeight: "30%" }}
+    />
   );
 };
 export const GrowthStrategyIcon = () => {
   return (
     <img
       src={growthstrategy}
+      alt="Growth strategy icon"
       style={{ maxWidth: "30%", maxHeight: "30%" }}
-    ></img>
+    />
   );
 };
 export const DealManagementIcon = () => {
   return (
     <img
       src={dealmanagement}
+      alt="Deal management icon"
       style={{ maxWidth: "30%", maxHeight: "30%" }}
-    ></img>
+    />
   );
 };
 
 //Project Delivery
 export const HowItWorksIcon = () => {
   return (
-    // <div>
-    <img src={howitworks} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
-    // </div>
+    <img 
+      src={howitworks} 
+      alt="How it works diagram"
+      style={{ maxWidth: "40%", maxHeight: "40%" }}
+    />
   );
 };
 
@@ -260,53 +807,63 @@ export const ContentMarketingIcon = () => {
   return (
     <img
       src={contentmarketing}
+      alt="Content marketing icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const CopyWritingIcon = () => {
   return (
-    <img src={copywriting} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={copywriting} 
+      alt="Copywriting icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const EmailMarketingIcon = () => {
   return (
     <img
       src={emailmarketing}
+      alt="Email marketing icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const InfluencerMarketingIcon = () => {
   return (
     <img
       src={influencermarketing}
+      alt="Influencer marketing icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const SearchEngineMarketingIcon = () => {
   return (
     <img
       src={searchenginemarketing}
+      alt="Search engine marketing icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const SearchEngineOptimizationIcon = () => {
   return (
     <img
       src={searchengineoptimization}
+      alt="Search engine optimization icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const SocialMediaMarketingIcon = () => {
   return (
     <img
       src={socialmediamarketing}
+      alt="Social media marketing icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 
@@ -315,49 +872,84 @@ export const ManagementAccountingIcon = () => {
   return (
     <img
       src={managementaccounting}
+      alt="Management accounting icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const InternalAuditIcon = () => {
   return (
     <img
       src={internalaudit}
+      alt="Internal audit icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const PublicSectorIcon = () => {
   return (
-    <img src={publicsector} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={publicsector} 
+      alt="Public sector icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const TaxAccountingIcon = () => {
   return (
     <img
       src={taxaccounting}
+      alt="Tax accounting icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 
 //Tech
 
 export const UIUXIcon = () => {
-  return <img src={uiux} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+  return (
+    <img 
+      src={uiux} 
+      alt="UI/UX design icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
+  );
 };
 export const WebDevIcon = () => {
-  return <img src={webdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+  return (
+    <img 
+      src={webdev} 
+      alt="Web development icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
+  );
 };
 export const AppDevIcon = () => {
-  return <img src={appdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+  return (
+    <img 
+      src={appdev} 
+      alt="App development icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
+  );
 };
 export const DevOpsIcon = () => {
-  return <img src={devops} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>;
+  return (
+    <img 
+      src={devops} 
+      alt="DevOps icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
+  );
 };
 export const ProductDevIcon = () => {
   return (
-    <img src={productdev} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={productdev} 
+      alt="Product development icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 
@@ -365,98 +957,142 @@ export const ProductDevIcon = () => {
 
 export const ArbitrationIcon = () => {
   return (
-    <img src={arbitration} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={arbitration} 
+      alt="Arbitration services icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const MediationIcon = () => {
   return (
-    <img src={mediation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={mediation} 
+      alt="Mediation services icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const ConsultationIcon = () => {
   return (
-    <img src={consultation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={consultation} 
+      alt="Legal consultation icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const RepresentationIcon = () => {
   return (
     <img
       src={representation}
+      alt="Legal representation icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const LegalDocumentsIcon = () => {
   return (
     <img
       src={legaldocuments}
+      alt="Legal documents icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 
 //Our Model
 export const IdeationIcon = () => {
   return (
-    <img src={ideation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={ideation} 
+      alt="Ideation phase icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const ValidationIcon = () => {
   return (
-    <img src={validation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={validation} 
+      alt="Validation phase icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const CreationIcon = () => {
   return (
-    <img src={creation} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
+    <img 
+      src={creation} 
+      alt="Creation phase icon"
+      style={{ maxWidth: "60%", maxHeight: "60%" }}
+    />
   );
 };
 export const SpinOutIcon = () => {
   return (
-    <img src={spinout} style={{ maxWidth: "35%", maxHeight: "35%" }}></img>
+    <img 
+      src={spinout} 
+      alt="Spin out phase icon"
+      style={{ maxWidth: "35%", maxHeight: "35%" }}
+    />
   );
 };
 export const ScaleUpIcon = () => {
   return (
-    <img src={scaleup} style={{ maxWidth: "40%", maxHeight: "40%" }}></img>
+    <img 
+      src={scaleup} 
+      alt="Scale up phase icon"
+      style={{ maxWidth: "40%", maxHeight: "40%" }}
+    />
   );
 };
-// Team
-
-// export const LinkedInIcon = () => {
-//   return (
-//     // <img src={scaleup} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
-//     <div>
-//       <i className="bi bi-linkedin" style={{ fontSize: "30px" }}></i>
-//     </div>
-//   );
-// };
 
 //home
 export const VentureStudioIcon = () => {
   return (
     <img
       src={venturestudio}
+      alt="Venture studio icon"
       style={{ maxWidth: "18%", maxHeight: "18%" }}
-    ></img>
+    />
   );
 };
 export const ProjectDeliveryIcon = () => {
   return (
     <img
       src={projectdelivery}
+      alt="Project delivery icon"
       style={{ maxWidth: "18%", maxHeight: "18%" }}
-    ></img>
+    />
   );
 };
 export const GearUpIcon = () => {
-  return <img src={gearup} style={{ maxWidth: "70%", maxHeight: "70%" }}></img>;
+  return (
+    <img 
+      src={gearup} 
+      alt="Gear up icon"
+      style={{ maxWidth: "70%", maxHeight: "70%" }}
+    />
+  );
 };
 export const EvolveIcon = () => {
-  return <img src={evolve} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+  return (
+    <img 
+      src={evolve} 
+      alt="Evolve icon"
+      style={{ maxWidth: "65%", maxHeight: "65%" }}
+    />
+  );
 };
 export const EngageIcon = () => {
-  return <img src={engage} style={{ maxWidth: "65%", maxHeight: "65%" }}></img>;
+  return (
+    <img 
+      src={engage} 
+      alt="Engage icon"
+      style={{ maxWidth: "65%", maxHeight: "65%" }}
+    />
+  );
 };
 
 export const ArrowUpIcon = () => {
@@ -468,41 +1104,44 @@ export const AdvisoryServicesIcon = () => {
   return (
     <img
       src={advisoryservices}
+      alt="Advisory services icon"
       style={{ maxWidth: "60%", maxHeight: "60%" }}
-    ></img>
+    />
   );
 };
 export const SereneEnvironmentIcon = () => {
   return (
     <img
       src={sereneenvironment}
+      alt="Serene environment icon"
       style={{ maxWidth: "40%", maxHeight: "40%" }}
-    ></img>
+    />
   );
 };
 export const EventIcon = () => {
-  return <img src={event} style={{ maxWidth: "45%", maxHeight: "45%" }}></img>;
+  return (
+    <img 
+      src={event} 
+      alt="Event space icon"
+      style={{ maxWidth: "45%", maxHeight: "45%" }}
+    />
+  );
 };
 export const LagosInnovateIcon = () => {
   return (
     <img
       src={lagosinnovate}
+      alt="Lagos innovate icon"
       style={{ maxWidth: "45%", maxHeight: "45%" }}
-    ></img>
+    />
   );
 };
 export const MeetingRoomIcon = () => {
   return (
-    <img src={meetingroom} style={{ maxWidth: "50%", maxHeight: "50%" }}></img>
+    <img 
+      src={meetingroom} 
+      alt="Meeting room icon"
+      style={{ maxWidth: "50%", maxHeight: "50%" }}
+    />
   );
 };
-
-// // Why Recruit From Us
-
-// export const ExpertismIcon = () => {
-//   return (
-//     <div>
-//       <img src={expertism} style={{ maxWidth: "60%", maxHeight: "60%" }}></img>
-//     </div>
-//   );
-// };

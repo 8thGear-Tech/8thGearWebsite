@@ -1,6 +1,5 @@
 import galleryInnkeeperData from "../../data/galleryinnkeeperhackathon.json";
 import { SingleInnkeeperHackathonGalleryCards } from "../../components/AllCards/MediaCards";
-import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
 import { HackathonGalleryHero } from "../../components/Hero/ImageandTextHero";
 

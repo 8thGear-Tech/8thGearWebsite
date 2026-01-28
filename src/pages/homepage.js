@@ -1,19 +1,12 @@
 import { Link } from "react-router-dom";
 import { HomepageNav} from "../components/Navbar";
-import { JoinTheStudioForm } from "../components/Forms/EnquiresandSuggestionForm";
 
-import { VentureStudioIcon } from "../components/Icons";
-import { ProjectDeliveryIcon } from "../components/Icons";
-import { GearUpIcon } from "../components/Icons";
-import { EvolveIcon } from "../components/Icons";
-import { EngageIcon } from "../components/Icons";
 import Button from "react-bootstrap/Button";
 import hubservices from "../assets/images/Homepageassets/HubServices.jpg";
 import projects from "../assets/images/Homepageassets/Projects.jpg";
 import venture from "../assets/images/Homepageassets/VentureStudio.jpg";
 
 import aboutusimg from "../assets/images/Homepageassets/aboutImg.png";
-import homeImg from "../assets/images/Homepageassets/homeImg.png";
 
 import { Partners } from "./WhoWeAre/aboutUs";
 import "./homePage.css";

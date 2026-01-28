@@ -1,5 +1,4 @@
-import { HomepageNav, Navbar21 } from "../../components/Navbar";
-import NewNavbar from "./NewNavbar";
+import { HomepageNav} from "../../components/Navbar";
 import ResourcesContent from "./ResourcesContent";
 
 export const ResourcesNew = () => {

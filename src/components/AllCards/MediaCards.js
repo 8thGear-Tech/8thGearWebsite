@@ -281,7 +281,7 @@ export const SingleGalleryGizCards = (props) => {
   );
 };
 export const SingleProjectCards = (props) => {
-  const { image, id, text } = props;
+  const { image, text } = props;
   return (
     <>
       <div className="card" style={{ width: 250 }}>

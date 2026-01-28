@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import Hero from "./Hero";
 import CoreServices from "./coreServices";
 import HowWeDoIt from "./howWeDoIt";
 import ImpactMetrics from "./impactMetrics";
 import PortfolioCompanies from "./PortfolioCompanies";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./ventureStudio.css";
 

@@ -3,7 +3,6 @@ import "./Programs.css";
 import React, { useState } from "react";
 import { Container, Row, Col, Button, Modal } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
-import MIREPlusImg from "../../../assets/images/projectdelivery/MIREPlusImg.JPG";
 import trainingsHero from "../../../assets/images/projectdelivery/trainingsHero.jpg";
 import digiplusalliance from "../../../assets/images/projectdelivery/MIREPlus/digiplusalliance.png";
 import avonafrica from "../../../assets/images/projectdelivery/MIREPlus/avonafrica.png";

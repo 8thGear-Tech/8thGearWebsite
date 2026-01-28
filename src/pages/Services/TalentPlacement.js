@@ -13,14 +13,6 @@ import recruitment from "../../assets/images/talentplacement/recruitment.png";
 import internshipplacement from "../../assets/images/talentplacement/internshipplacement.png";
 import cvscreening from "../../assets/images/talentplacement/cvscreening.png";
 import whyrecruitfromus from "../../assets/images/talentplacement/whyrecruitfromus.png";
-import {
-  ManagedServicesRequestBtn,
-  TalentPlacementRequestBtn,
-} from "../../components/Buttons/ServicesBtn";
-import hiringsm from "../../assets/images/talentplacement/hiringsm.png";
-import hiringlg from "../../assets/images/talentplacement/hiringlg.png";
-import line from "../../assets/images/talentplacement/line.png";
-import downarrow from "../../assets/images/talentplacement/downarrow.png";
 
 import ecobarter from "../../assets/images/talentplacement/companylogo/ecobarter.png";
 import propslogo from "../../assets/images/talentplacement/companylogo/propslogo.png";
@@ -225,6 +217,7 @@ const OurHiringProcess = () => {
             //   frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="hiring"
           ></iframe>
         </div>
       </div>

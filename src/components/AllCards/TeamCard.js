@@ -218,7 +218,7 @@ export const TeamCardFour = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
