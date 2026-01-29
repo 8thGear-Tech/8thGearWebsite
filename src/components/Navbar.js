@@ -895,7 +895,7 @@ export const HomepageNav = () => {
                             href="/msme-marketplace"
                             className="Nav-Dropdown-Items"
                           >
-                            MSMS Marketplace
+                            MSME Marketplace
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                         </div>
