@@ -13,11 +13,11 @@ export const GetToKnowUs = () => {
       imgSrc: "/images/coworkingNew/Vector.svg",
       bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
     },
-    {
-      title: "Access to Advisory Services",
-      imgSrc: "/images/coworkingNew/advisoryServices.png",
-      bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
-    },
+    // {
+    //   title: "Access to Advisory Services",
+    //   imgSrc: "/images/coworkingNew/advisoryServices.png",
+    //   bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
+    // },
     {
       title: "Serene Environment",
       imgSrc: "/images/coworkingNew/sereneEnvironment.png",
@@ -28,11 +28,11 @@ export const GetToKnowUs = () => {
       imgSrc: "/images/coworkingNew/ecosystemEvents.png",
       bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
     },
-    {
-      title: "Lagos Innovate Voucher",
-      imgSrc: "/images/coworkingNew/innovatePartnered.png",
-      bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
-    },
+    // {
+    //   title: "Lagos Innovate Voucher",
+    //   imgSrc: "/images/coworkingNew/innovatePartnered.png",
+    //   bgImgSrc: "/images/coworkingNew/card-bg-pics.png",
+    // },
     {
       title: "Meeting Room / Training Room",
       imgSrc: "/images/coworkingNew/meetingRoom.png",

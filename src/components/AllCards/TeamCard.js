@@ -1,30 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { ArrowRightIcon } from "../Icons";
-import Data from "../../data/TriggeredCard.json";
 import data from "../../data/8thGerains.json";
-import datatwo from "../../data/8thGerains.json";
-import datathree from "../../data/8thGerains.json";
-import datafour from "../../data/8thGerains.json";
-import datafive from "../../data/8thGerains.json";
-import datasix from "../../data/8thGerains.json";
-import dataseven from "../../data/8thGerains.json";
 import EIRdata from "../../data/8thGerains.json";
-import TeamImage from "../../assets/images/Teamone.png";
-import field from "../../data/advisory.json";
-import { EightgeariansPopUpCard1 } from "./TriggeredCards";
-import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberTwoViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberThreeViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberFourViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberFiveViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberSixViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberSevenViewBioBtn } from "../Buttons/ContactBtn";
-import { MemberEightViewBioBtn } from "../Buttons/ContactBtn";
 import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
 import Info from "../../data/advisory.json";
 import logo from "../../assets/images/logo.png";
-import linkedin from "../../assets/images/LinkedIn_icon.png";
 import { LinkedInIcon } from "../Icons";
 
 // persononestarts
@@ -60,7 +38,7 @@ export const TeamCard = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
                     <button
                       type="button"
                       className="btn-close"
@@ -70,7 +48,7 @@ export const TeamCard = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
                     <a href={link} rel="noopener noreferrer">
@@ -125,7 +103,7 @@ export const TeamCardTwo = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
                     <button
                       type="button"
                       className="btn-close"
@@ -135,7 +113,7 @@ export const TeamCardTwo = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
                     <a href={link}>
@@ -190,7 +168,7 @@ export const TeamCardThree = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
                     <button
                       type="button"
                       className="btn-close"
@@ -200,7 +178,7 @@ export const TeamCardThree = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
                     <a href={link} rel="noopener noreferrer">
@@ -255,7 +233,7 @@ export const TeamCardFour = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
                     <button
                       type="button"
                       className="btn-close"
@@ -265,7 +243,7 @@ export const TeamCardFour = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
                     <a href={link} target="_blank" rel="noopener noreferrer">
@@ -320,7 +298,7 @@ export const TeamCardFive = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -330,7 +308,7 @@ export const TeamCardFive = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>{" "}
                     <a href={link} rel="noopener noreferrer">
@@ -477,7 +455,7 @@ export const TeamCardSeven = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -487,7 +465,7 @@ export const TeamCardSeven = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
 
@@ -706,7 +684,7 @@ export const EIRCard = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
                     <button
                       type="button"
                       className="btn-close"
@@ -716,7 +694,7 @@ export const EIRCard = (props) => {
                   </div>
 
                   <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <img src={image} className="w-25 mb-4" alt="Teamimage" />
                     <h4>{name}</h4>
                     <h6 className="">{position}</h6>
                     <a href={link} target="_blank" rel="noopener noreferrer">

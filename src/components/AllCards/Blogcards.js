@@ -1,5 +1,4 @@
 import cardData from "../../data/blog.json";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { BlogReadMoreBtn } from "../Buttons/BlogBtn";
 import info from "../../data/blog.json";

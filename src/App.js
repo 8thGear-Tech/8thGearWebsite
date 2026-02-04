@@ -1,6 +1,6 @@
 import * as React from "react";
 // import { Component } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 import { GenderPolicy } from "./pages/genderPolicy";
@@ -11,7 +11,7 @@ import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
-import PortfolioPage from "./pages/Studio/portfolio";
+
 import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
 import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
 import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
@@ -35,7 +35,6 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
 //Hub Services
-import HubServicesPage from "./pages/Services/HubServices";
 import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
 import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
 import HubServicesLegal from "./pages/Services/HubServicesLegal";
@@ -52,10 +51,8 @@ import DigiPlus from "./pages/DigiPlus";
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
 import AboutUs from "./pages/WhoWeAre/aboutUs";
-import BlogPage from "./pages/Insights/blog";
 
 //Events
-import EventsPage from "./pages/Events/events";
 import EventsNew from "./pages/EventsNew/EventsNew";
 import EventsGalleryPage from "./pages/Events/eventsGallery";
 import FourthYearAnniversary from "./pages/Events/fourthYearAnniversary";
@@ -66,12 +63,8 @@ import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGal
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
-import { Footer } from "./components/Footer";
-import { FooterNew, NewFooter } from "./components/newFooter";
-// import FAQ from "./pages/Insights/FAQ";
-import { Popupmodal } from "./components/Footer";
-import { RequestForm } from "./components/Forms/ServicesForms";
-import { ScrollButton } from "./components/Buttons/scrollToTop";
+import { NewFooter } from "./components/newFooter";
+
 
 // NewEvent PAge
 import FMU_Q1 from "./pages/EventsNew/FMUQ1";
