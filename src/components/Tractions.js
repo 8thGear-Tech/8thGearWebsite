@@ -1,8 +1,3 @@
-import { OurImpactIcon } from "../components/Icons";
-import { BusinessInHouseIcon } from "../components/Icons";
-import { JobsCreatedIcon } from "../components/Icons";
-import { JobsPlacedIcon } from "../components/Icons";
-import { JobsSavedIcon } from "../components/Icons";
 import { StartupsSupportedIcon } from "../components/Icons";
 import { ProjectsDeliveredIcon } from "../components/Icons";
 import { TechTalentsEmpoweredIcon } from "../components/Icons";

@@ -192,15 +192,3 @@ export default function ResourcesContent() {
     </div>
   );
 }
-{
-  /* <p className="fs-md-5 fs-6 ">
-            {" "}
-            <span>
-              <FaYoutube className="text-danger fs-4 me-md-2" />
-            </span>{" "}
-            CLICK FOR MORE VIDEOS{" "}
-            <span>
-              <GoArrowRight className="fs-4 pb-1 fw-normal " />
-            </span>{" "}
-          </p> */
-}

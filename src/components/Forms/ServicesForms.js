@@ -13,7 +13,7 @@ const CoworkingSpaceForm = () => {
   const [durationQuantity, setDurationQuantity] = useState("");
   const [date, setdate] = useState("");
 
-  const [people, setPeople] = useState([]);
+  const [ setPeople] = useState([]);
 
   const Handle = (e) => {
     e.preventDefault();
@@ -86,6 +86,7 @@ const CoworkingSpaceForm = () => {
                 width={40}
                 className=""
                 id="staticBackdropLabel"
+                alt="logo"
               />
               <button
                 type="button"

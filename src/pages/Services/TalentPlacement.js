@@ -1,30 +1,19 @@
 //external
 // import Carousel from "react-bootstrap/Carousel";
-import React, { useState, useEffect, useRef } from "react";
+// import React, { useState, useEffect, useRef } from "react";
 // import { Carousel } from "react-bootstrap";
 
-import { Carousel, Item, Slide, div, img } from "bootstrap";
+// import { Carousel, Item, Slide, div, img } from "bootstrap";
 // import ReactBootstrap, { Carousel, Item, Slide } from "react-bootstrap";
 
 //internal
-import { HomepageNav, Navbar24 } from "../../components/Navbar";
+import { HomepageNav} from "../../components/Navbar";
 import { NewTalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
-import { TalentPlacementHero } from "../../components/Hero/BGColorandTextHero";
 import recruitment from "../../assets/images/talentplacement/recruitment.png";
 import internshipplacement from "../../assets/images/talentplacement/internshipplacement.png";
 import cvscreening from "../../assets/images/talentplacement/cvscreening.png";
 import whyrecruitfromus from "../../assets/images/talentplacement/whyrecruitfromus.png";
-import {
-  ManagedServicesRequestBtn,
-  TalentPlacementRequestBtn,
-} from "../../components/Buttons/ServicesBtn";
-import hiringsm from "../../assets/images/talentplacement/hiringsm.png";
-import hiringlg from "../../assets/images/talentplacement/hiringlg.png";
-import line from "../../assets/images/talentplacement/line.png";
-import downarrow from "../../assets/images/talentplacement/downarrow.png";
-import expertism from "../../assets/images/talentplacement/expertism.png";
-import professionalism from "../../assets/images/talentplacement/professionalism.png";
-import swiftprocess from "../../assets/images/talentplacement/swiftprocess.png";
+
 import ecobarter from "../../assets/images/talentplacement/companylogo/ecobarter.png";
 import propslogo from "../../assets/images/talentplacement/companylogo/propslogo.png";
 import aiki from "../../assets/images/talentplacement/companylogo/aiki.png";
@@ -52,15 +41,8 @@ import productdesigners from "../../assets/images/talentplacement/talents/Produc
 import productmanagers from "../../assets/images/talentplacement/talents/ProductManagers.png";
 import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
 import codingandrobotics from "../../assets/images/talentplacement/talents/Codingandrobotics.png";
-import frontend from "../../assets/images/talentplacement/talents/frontend.png";
-import sales from "../../assets/images/talentplacement/talents/sales.png";
-import fullstack from "../../assets/images/talentplacement/talents/fullstack.png";
-// import customerexperience from "../../assets/images/talentplacement/talents/customerexperience.png";
-import backend from "../../assets/images/talentplacement/talents/backend.png";
-// import digitalmarketers from "../../assets/images/talentplacement/talents/digitalmarketers.png";
-import data from "../../assets/images/talentplacement/talents/data.png";
+
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import migrationadvisorydesk from "../../assets/images/talentplacement/migrationadvisorydesk.jpg";
 
 const TalentPlacement = () => {
@@ -86,7 +68,7 @@ const Services = () => {
         <h4 className="pt-5 text-center">OUR SERVICES</h4>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div className="cardBgg talentPlacementCard">
-            <img src={recruitment} className="card-img-top" alt="" />
+            <img src={recruitment} className="card-img-top" alt="talentplacement" />
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Full Cycle Recruitment</h4>
               <p className="">
@@ -98,7 +80,7 @@ const Services = () => {
         </div>
         <div className="col-lg-4 col-md-6 mt-3 mb-5 px-4 d-flex">
           <div className="cardBgg talentPlacementCard">
-            <img src={internshipplacement} className="card-img-top" alt="" />
+            <img src={internshipplacement} className="card-img-top" alt="talentplacement" />
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Internship Placement</h4>
               <p className="">
@@ -140,84 +122,84 @@ const Services = () => {
   );
 };
 
-const TransformingTheHiringProcess = () => {
-  return (
-    <div className="container-fluid talentHeroBg">
-      <h4 className="pt-5 text-center">TRANSFORMING THE HIRING PROCESS</h4>
-      <div className="row d-flex justify-content-center align-items-center  px-4 pb-4">
-        <div className="col-lg-1 col-md-1 d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <img
-            src={line}
-            className="d-block mx-auto img-fluid p-0"
-            alt=""
-            loading=""
-            // width="2000"
-            height="100"
-          />
-        </div>
-        <div className="col-lg-2 col-md-3 col-sm-12 d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <h4 className="my-5">Request</h4>
-          <h4 className="my-5">Source</h4>
-          <h4 className="my-5">Shortlist</h4>
-          <h4 className="my-5">Interview</h4>
-          <h4 className="my-5">Selection</h4>
-        </div>
-        <div className="col-lg-2 col-md-3 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
-          <h4 className="mb-3 mt-5 text-center">Request</h4>
-          <div className="text-center">
-            <img src={downarrow} className="img-fluid text-center" />
-          </div>
+// const TransformingTheHiringProcess = () => {
+//   return (
+//     <div className="container-fluid talentHeroBg">
+//       <h4 className="pt-5 text-center">TRANSFORMING THE HIRING PROCESS</h4>
+//       <div className="row d-flex justify-content-center align-items-center  px-4 pb-4">
+//         <div className="col-lg-1 col-md-1 d-none d-lg-block d-md-block d-sm-none d-xs-none">
+//           <img
+//             src={line}
+//             className="d-block mx-auto img-fluid p-0"
+//             alt=""
+//             loading=""
+//             // width="2000"
+//             height="100"
+//           />
+//         </div>
+//         <div className="col-lg-2 col-md-3 col-sm-12 d-none d-lg-block d-md-block d-sm-none d-xs-none">
+//           <h4 className="my-5">Request</h4>
+//           <h4 className="my-5">Source</h4>
+//           <h4 className="my-5">Shortlist</h4>
+//           <h4 className="my-5">Interview</h4>
+//           <h4 className="my-5">Selection</h4>
+//         </div>
+//         <div className="col-lg-2 col-md-3 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
+//           <h4 className="mb-3 mt-5 text-center">Request</h4>
+//           <div className="text-center">
+//             <img src={downarrow} className="img-fluid text-center" />
+//           </div>
 
-          <h4 className="my-3 text-center">Source</h4>
-          <div className="text-center">
-            <img src={downarrow} className="img-fluid text-center" />
-          </div>
-          <h4 className="my-3 text-center">Shortlist</h4>
-          <div className="text-center">
-            <img src={downarrow} className="img-fluid text-center" />
-          </div>
-          <h4 className="my-3 text-center">Interview</h4>
-          <div className="text-center">
-            <img src={downarrow} className="img-fluid text-center" />
-          </div>
-          <h4 className="mb-5 mt-3 text-center">Selection</h4>
-        </div>
-        <div className="col-lg-5 col-md-7 col-sm-12 d-none d-lg-block d-md-block d-sm-none d-xs-none">
-          <img
-            src={hiringlg}
-            // src={hiringprocess}
-            className="d-block mx-auto img-fluid"
-            alt=""
-            loading=""
-            width="2000"
-            height="2000"
-          />
-        </div>
-        <div className="col-lg-5 col-md-7 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
-          <img
-            src={hiringsm}
-            // src={hiringprocess}
-            className="d-block mx-auto img-fluid"
-            alt=""
-            loading=""
-            width="2000"
-            height="2000"
-          />
-        </div>
-        <div className="mt-5 text-center">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            <ManagedServicesRequestBtn />
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-};
+//           <h4 className="my-3 text-center">Source</h4>
+//           <div className="text-center">
+//             <img src={downarrow} className="img-fluid text-center" />
+//           </div>
+//           <h4 className="my-3 text-center">Shortlist</h4>
+//           <div className="text-center">
+//             <img src={downarrow} className="img-fluid text-center" />
+//           </div>
+//           <h4 className="my-3 text-center">Interview</h4>
+//           <div className="text-center">
+//             <img src={downarrow} className="img-fluid text-center" />
+//           </div>
+//           <h4 className="mb-5 mt-3 text-center">Selection</h4>
+//         </div>
+//         <div className="col-lg-5 col-md-7 col-sm-12 d-none d-lg-block d-md-block d-sm-none d-xs-none">
+//           <img
+//             src={hiringlg}
+//             // src={hiringprocess}
+//             className="d-block mx-auto img-fluid"
+//             alt=""
+//             loading=""
+//             width="2000"
+//             height="2000"
+//           />
+//         </div>
+//         <div className="col-lg-5 col-md-7 col-sm-12 d-xs-block d-sm-block d-md-none d-lg-none">
+//           <img
+//             src={hiringsm}
+//             // src={hiringprocess}
+//             className="d-block mx-auto img-fluid"
+//             alt=""
+//             loading=""
+//             width="2000"
+//             height="2000"
+//           />
+//         </div>
+//         <div className="mt-5 text-center">
+//           <a
+//             href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/viewform"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             {" "}
+//             <ManagedServicesRequestBtn />
+//           </a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 const OurHiringProcess = () => {
   return (
     <div
@@ -235,6 +217,7 @@ const OurHiringProcess = () => {
             //   frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="hiring"
           ></iframe>
         </div>
       </div>
@@ -247,7 +230,7 @@ const WhyRecruitFromUs = () => {
       <h4 className="pt-4 text-center">WHY RECRUIT FROM US</h4>
       <div className="row justify-content-center justify-content-evenly">
         <div className="col-lg-8 col-md-12 col-sm-12">
-          <img src={whyrecruitfromus} className="img-fluid" />
+          <img src={whyrecruitfromus} className="img-fluid" alt="talentplacement"/>
         </div>
       </div>
       {/* <div className="row justify-content-center">
@@ -552,6 +535,7 @@ const OurAvailableTalents = () => {
                 className="img-fluid"
                 width="100"
                 height="100"
+                alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -571,6 +555,7 @@ const OurAvailableTalents = () => {
                 className="img-fluid"
                 width="100"
                 height="100"
+                alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -589,6 +574,7 @@ const OurAvailableTalents = () => {
                 className="img-fluid"
                 width="100"
                 height="100"
+                alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -604,7 +590,7 @@ const OurAvailableTalents = () => {
                 src={digitalmarketers}
                 className="img-fluid"
                 width="100"
-                height="100"
+                height="100" alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -625,6 +611,7 @@ const OurAvailableTalents = () => {
                 className="img-fluid"
                 width="100"
                 height="100"
+                alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -642,7 +629,7 @@ const OurAvailableTalents = () => {
                 src={productmanagers}
                 className="img-fluid"
                 width="100"
-                height="100"
+                height="100" alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -660,7 +647,7 @@ const OurAvailableTalents = () => {
                 src={customerexperience}
                 className="img-fluid"
                 width="100"
-                height="100"
+                height="100" alt="talentplacement"
               />
             </div>
             <div className="card-body">
@@ -678,7 +665,7 @@ const OurAvailableTalents = () => {
                 src={codingandrobotics}
                 className="img-fluid"
                 width="100"
-                height="100"
+                height="100" alt="talentplacement"
               />
             </div>
             <div className="card-body">

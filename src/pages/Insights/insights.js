@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col, Form, InputGroup } from "react-bootstrap";
-import { FaArrowDown, FaSearch, FaTimes } from "react-icons/fa";
+
+import {  FaSearch, FaTimes } from "react-icons/fa";
 import "../Insights/insights.css";
 import insightsheroimg from "../../assets/images/insights/insights-hero-img.png";
 import blog from "../../assets/images/insights/blog.png";
@@ -8,8 +8,7 @@ import dropdownicon from "../../assets/images/insights/dropdownicon.png";
 import blogcard1 from "../../assets/images/insights/blogcard1.png";
 import blogcard2 from "../../assets/images/insights/blogcard2.png";
 import blogcard3 from "../../assets/images/insights/blogcard3.png";
-import arrowdown from "../../assets/images/insights/arrowdown.png";
-import searchicon from "../../assets/images/insights/searchicon.png";
+
 import { HomepageNav } from "../../components/Navbar";
 import { Link } from "react-router-dom";
 

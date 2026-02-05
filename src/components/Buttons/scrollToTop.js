@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
-import { ArrowIcon } from "../Icons";
-
+ 
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

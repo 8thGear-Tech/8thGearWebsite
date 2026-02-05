@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+
 import { useParams } from "react-router-dom";
 import {
   FaFacebook,
@@ -262,7 +262,7 @@ const FullBlogPost = ({
         <div>
           <img
             src={fullblogimg}
-            alt="Introduction Image"
+            alt="blog-intro"
             className="img-fluid"
             style={{ width: "100%", objectFit: "cover" }}
           />

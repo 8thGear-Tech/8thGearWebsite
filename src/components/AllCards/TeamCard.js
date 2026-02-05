@@ -1,8 +1,12 @@
+
 import data from "../../data/8thGerains.json";
+
 import EIRdata from "../../data/8thGerains.json";
+
 import { AdvisoryBoardOnHoverCard } from "./TriggeredCards";
 import Info from "../../data/advisory.json";
 import logo from "../../assets/images/logo.png";
+
 import { LinkedInIcon } from "../Icons";
 
 // persononestarts
@@ -38,7 +42,7 @@ export const TeamCard = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo" />
                     <button
                       type="button"
                       className="btn-close"
@@ -103,7 +107,7 @@ export const TeamCardTwo = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -168,7 +172,7 @@ export const TeamCardThree = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -214,7 +218,7 @@ export const TeamCardFour = (props) => {
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
             </figure>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               <div className="text-center">
                 {" "}
                 <LinkedInIcon />
@@ -233,7 +237,7 @@ export const TeamCardFour = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo" />
                     <button
                       type="button"
                       className="btn-close"
@@ -298,7 +302,7 @@ export const TeamCardFive = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage"/>
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -455,7 +459,7 @@ export const TeamCardSeven = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage"/>
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo" />
                     <button
                       type="button"
                       className="btn-close"
@@ -684,7 +688,7 @@ export const EIRCard = (props) => {
               <div className="modal-dialog">
                 <div className="modal-content">
                   <div className="d-flex justify-content-between mx-4 my-2">
-                    <img src={logo} width={40} id="staticBackdropLabel" alt="Teamimage" />
+                    <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
                     <button
                       type="button"
                       className="btn-close"
@@ -739,16 +743,16 @@ export const EIR = () => {
 };
 
 /* <br></br>; */
-const AdvisoryBoardCard = (props) => {
-  const { image } = props;
-  return (
-    // <div className="card-deck">
-    <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
-      <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
-    </div>
-    // </div>
-  );
-};
+// const AdvisoryBoardCard = (props) => {
+//   const { image } = props;
+//   return (
+//     // <div className="card-deck">
+//     <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
+//       <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
+//     </div>
+//     // </div>
+//   );
+// };
 export const AdvisoryTeamPic = () => {
   return (
     <div className="container-fluid partnersBg ">

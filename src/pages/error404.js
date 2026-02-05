@@ -2,10 +2,10 @@
 import React from "react";
 
 // Components
-import { FacebookIcon } from "../components/Icons";
-import { InstagramIcon } from "../components/Icons";
-import { LinkedInIcon } from "../components/Icons";
-import { TwitterIcon } from "../components/Icons";
+// import { FacebookIcon } from "../components/Icons";
+// import { InstagramIcon } from "../components/Icons";
+// import { LinkedInIcon } from "../components/Icons";
+// import { TwitterIcon } from "../components/Icons";
 import { HomeBtn } from "../components/Buttons/ContactBtn";
 // import { ContactBtn } from "../components/Buttons/ContactBtn";
 import { Link } from "react-router-dom";

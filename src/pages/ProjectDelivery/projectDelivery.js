@@ -2,23 +2,16 @@
 import React from "react";
 import { useState } from "react";
 import { OurImpact } from "../../components/Tractions";
-import { RequestForProposalBtn } from "../../components/Buttons/ProjectDeliveryBtn";
+
 import {
   NewProjectDeliveryCardTwo,
-  NewProjectDeliveryCardThree,
-  SinglegalleryCards,
+
 } from "../../components/AllCards/MediaCards";
-import successStoryGalleryCard from "../../data/gallerycards.json";
-import { ProjectDeliveryViewMoreBtn } from "../../components/Buttons/ProjectDeliveryBtn";
-import gizlogo from "../../assets/images/projectdelivery/gizlogo.png";
-import itflogo from "../../assets/images/projectdelivery/itflogo.png";
-import lsetflogo from "../../assets/images/projectdelivery/lsetflogo.png";
-import usadflogo from "../../assets/images/projectdelivery/usadflogo.png";
-import s4plogo from "../../assets/images/projectdelivery/s4plogo.png";
-import fcmblogo from "../../assets/images/projectdelivery/fcmblogo.png";
+
+
 import { NewProjectDeliveryCard } from "../../components/AllCards/MediaCards";
 import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
-import { HomepageNav, ProjectNav } from "../../components/Navbar";
+import { HomepageNav} from "../../components/Navbar";
 
 // IMPORTED PICTURES FOR OUR SUCESS STORY SECTION
 import piggeryTraining from "../../assets/gallerycards/piggerytraining.png";
@@ -33,7 +26,6 @@ import getOnlineWithDigiplus from "../../assets/gallerycards/getOnlineWithDigipl
 // Sass File
 import "../../sassfiles/pages/projectdelivery/_projectDelivery.scss";
 import Button from "react-bootstrap/esm/Button";
-import { Link } from "react-router-dom";
 import LogoScroll from "../../components/Hero/LogoScroll";
 // import { ProjectDeliveryHero } from "../../components/Hero/ImageandTextHero";
 
@@ -187,7 +179,7 @@ const SuccessStoryCards = () => {
           <div className="gallery-container container-fluid rounded">
             <img
               src={images[currentIndex].src}
-              alt={`image ${currentIndex + 1}`}
+              alt={`gallery ${currentIndex + 1}`}
               className="img-fluid rounded"
             />
 

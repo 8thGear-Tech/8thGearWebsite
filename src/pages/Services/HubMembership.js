@@ -5,7 +5,7 @@ import memberShipImg from "../../assets/images/BuildersCollective/membersSection
 import memberShipImgMD from "../../assets/images/BuildersCollective/memberSectionMD.jpg";
 import memberShipImgSM from "../../assets/images/BuildersCollective/memberSectionSM.jpg";
 import "../../sassfiles/pages/services/_community.scss";
-import NewNavbar from "../ResourcesNew/NewNavbar";
+
 const HubMembership = () => {
   return (
     <div>

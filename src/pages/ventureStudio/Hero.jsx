@@ -1,5 +1,5 @@
 import React from "react";
-import NewNavbar from "../ResourcesNew/NewNavbar";
+
 import "./ventureStudio.css";
 import { HomepageNav } from "../../components/Navbar";
 import Button from "./Button";

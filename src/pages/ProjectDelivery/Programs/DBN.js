@@ -5,7 +5,7 @@ import {
   Button,
   Card,
   ListGroup,
-  Image,
+
 } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 

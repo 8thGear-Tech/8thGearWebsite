@@ -1,7 +1,6 @@
 import galleryfoundersData from "../../data/galleryFoundermeetup.json";
 import galleryfoundersDataTwo from "../../data/galleryFoundermeetup.json";
 import { SingleGalleryFounderCards } from "../../components/AllCards/MediaCards";
-import { SinglegalleryVideo } from "../../components/AllCards/MediaCards";
 import { Navbar17 } from "../../components/Navbar";
 
 const FoundersMeetupGalleryPage = () => {
@@ -43,22 +42,22 @@ export const FoundersPictureGalleryCardsTwo = () => {
     </div>
   );
 };
-const FoundersVideoCards = () => {
-  return (
-    <>
-      <div className="row justify-content-center m-4 p-5">
-        {galleryfoundersData.galleryvideocards.map((items) => {
-          return (
-            <>
-              <div className="col-md-4" key={items.id}>
-                <SinglegalleryVideo {...items} />
-              </div>
-            </>
-          );
-        })}
-      </div>
-    </>
-  );
-};
+// const FoundersVideoCards = () => {
+//   return (
+//     <>
+//       <div className="row justify-content-center m-4 p-5">
+//         {galleryfoundersData.galleryvideocards.map((items) => {
+//           return (
+//             <>
+//               <div className="col-md-4" key={items.id}>
+//                 <SinglegalleryVideo {...items} />
+//               </div>
+//             </>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// };
 
 export default FoundersMeetupGalleryPage;

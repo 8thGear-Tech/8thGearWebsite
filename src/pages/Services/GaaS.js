@@ -1,4 +1,4 @@
-import { HomepageNav, Navbar9 } from "../../components/Navbar";
+import { HomepageNav } from "../../components/Navbar";
 import "../Services/css/GaaS.css";
 
 const GrowthAsAservice = () => {
@@ -50,7 +50,7 @@ const GaaSNew = () => {
         <div className="col-md-6 d-none d-md-block">
           <img
             src="./images/gaasImage/gaasHero.png"
-            alt="Growth Image"
+            alt="Growth"
             className="img-fluid w-100 h-auto"
           />
         </div>
@@ -425,100 +425,100 @@ const OurSuccess = () => {
   );
 };
 
-const Testimonials = () => {
-  const testimonials = [
-    {
-      id: 1,
-      quote:
-        "8thGear Hub's GaaS service transformed our business. Their strategic guidance and hands-on support were invaluable in achieving our growth objectives.",
-      author: "CEO, Company A",
-      image: "./images/team/damilolaobidairo.png",
-    },
-    {
-      id: 2,
-      quote:
-        "The team at 8thGear Hub helped us navigate complex market conditions and provided the tools we needed to succeed. We couldn't have done it without them.",
-      author: "Founder, Company B",
-      image: "./images/team/damilolaobidairo.png",
-    },
-    {
-      id: 3,
-      quote:
-        "Amazing experience! The service exceeded my expectations and delivered exactly what I needed on time.",
-      author: "Jane D.",
-      image: "./images/team/damilolaobidairo.png",
-    },
-    {
-      id: 4,
-      quote:
-        "Amazing experience! The service exceeded my expectations and delivered exactly what I needed on time.",
-      author: "Jane D.",
-      image: "./images/team/damilolaobidairo.png",
-    },
-  ];
+// const Testimonials = () => {
+//   const testimonials = [
+//     {
+//       id: 1,
+//       quote:
+//         "8thGear Hub's GaaS service transformed our business. Their strategic guidance and hands-on support were invaluable in achieving our growth objectives.",
+//       author: "CEO, Company A",
+//       image: "./images/team/damilolaobidairo.png",
+//     },
+//     {
+//       id: 2,
+//       quote:
+//         "The team at 8thGear Hub helped us navigate complex market conditions and provided the tools we needed to succeed. We couldn't have done it without them.",
+//       author: "Founder, Company B",
+//       image: "./images/team/damilolaobidairo.png",
+//     },
+//     {
+//       id: 3,
+//       quote:
+//         "Amazing experience! The service exceeded my expectations and delivered exactly what I needed on time.",
+//       author: "Jane D.",
+//       image: "./images/team/damilolaobidairo.png",
+//     },
+//     {
+//       id: 4,
+//       quote:
+//         "Amazing experience! The service exceeded my expectations and delivered exactly what I needed on time.",
+//       author: "Jane D.",
+//       image: "./images/team/damilolaobidairo.png",
+//     },
+//   ];
 
-  return (
-    <div className="container my-5">
-      <div className="row text-center mb-4">
-        <h2 className="col-12 fs-4" style={{ color: "#6E006A" }}>
-          TESTIMONIALS
-        </h2>
-      </div>
-      <div className="row justify-content-center">
-        {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
-            {" "}
-            {/* Adjusted column classes for responsiveness */}
-            <div
-              className="card px-4 py-2 border-1 rounded-4 position-relative"
-              style={{ height: "auto" }}
-            >
-              {/* Quote symbol in the top left */}
-              <span
-                className="quote-icon"
-                style={{
-                  fontSize: "2rem", // Adjusted font size for better responsiveness
-                  position: "absolute",
-                  left: "15px", // Adjusted position for better alignment
-                  top: "5px", // Added top positioning
-                  color: "#000000",
-                  fontFamily: "serif",
-                }}
-              >
-                &ldquo;
-              </span>
-              <blockquote className="blockquote mt-4">
-                {" "}
-                {/* Adjusted margins for better spacing */}
-                <p
-                  className="mb-0"
-                  style={{ fontSize: "15px", lineHeight: "22px" }}
-                >
-                  {testimonial.quote}
-                </p>
-              </blockquote>
-              <div className="d-flex align-items-center">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.author}
-                  className="rounded-circle" // Removed margin classes
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <div className="ms-2">
-                  {" "}
-                  {/* Added margin-start for spacing */}
-                  <footer className="blockquote-footer mt-2 text-dark">
-                    <cite title="Source Title">{testimonial.author}</cite>
-                  </footer>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+//   return (
+//     <div className="container my-5">
+//       <div className="row text-center mb-4">
+//         <h2 className="col-12 fs-4" style={{ color: "#6E006A" }}>
+//           TESTIMONIALS
+//         </h2>
+//       </div>
+//       <div className="row justify-content-center">
+//         {testimonials.map((testimonial) => (
+//           <div key={testimonial.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
+//             {" "}
+//             {/* Adjusted column classes for responsiveness */}
+//             <div
+//               className="card px-4 py-2 border-1 rounded-4 position-relative"
+//               style={{ height: "auto" }}
+//             >
+//               {/* Quote symbol in the top left */}
+//               <span
+//                 className="quote-icon"
+//                 style={{
+//                   fontSize: "2rem", // Adjusted font size for better responsiveness
+//                   position: "absolute",
+//                   left: "15px", // Adjusted position for better alignment
+//                   top: "5px", // Added top positioning
+//                   color: "#000000",
+//                   fontFamily: "serif",
+//                 }}
+//               >
+//                 &ldquo;
+//               </span>
+//               <blockquote className="blockquote mt-4">
+//                 {" "}
+//                 {/* Adjusted margins for better spacing */}
+//                 <p
+//                   className="mb-0"
+//                   style={{ fontSize: "15px", lineHeight: "22px" }}
+//                 >
+//                   {testimonial.quote}
+//                 </p>
+//               </blockquote>
+//               <div className="d-flex align-items-center">
+//                 <img
+//                   src={testimonial.image}
+//                   alt={testimonial.author}
+//                   className="rounded-circle" // Removed margin classes
+//                   style={{ width: "40px", height: "40px" }}
+//                 />
+//                 <div className="ms-2">
+//                   {" "}
+//                   {/* Added margin-start for spacing */}
+//                   <footer className="blockquote-footer mt-2 text-dark">
+//                     <cite title="Source Title">{testimonial.author}</cite>
+//                   </footer>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 const GaasReady = () => {
   return (

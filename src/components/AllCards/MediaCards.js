@@ -1,9 +1,7 @@
 import galleryData from "../../data/gallerypiggerytraining.json";
 import galleryusadfData from "../../data/galleryusadf.json";
-import galleryprojectData from "../../data/projectdelivery.json";
-
 import gallerycardsData from "../../data/gallerycards.json";
-
+import galleryprojectData from "../../data/projectdelivery.json";
 import { Link } from "react-router-dom";
 
 import "../../sassfiles/components/allCards/_MediaCards.scss";
@@ -44,7 +42,7 @@ export const ProjectDeliveryCard = (props) => {
   );
 };
 export const NewProjectDeliveryCard = (props) => {
-  const { title, description, } = props;
+  const { title, description} = props;
   return (
     <>
       <div className="projectdeliveryCard">
@@ -93,7 +91,7 @@ export const NewProjectDeliveryCard = (props) => {
   );
 };
 export const NewProjectDeliveryCardTwo = (props) => {
-  const { title, description} = props;
+  const {  title, description } = props;
   return (
     <>
       <div className="projectdeliveryCard">
@@ -283,7 +281,7 @@ export const SingleGalleryGizCards = (props) => {
   );
 };
 export const SingleProjectCards = (props) => {
-  const { image, id, text } = props;
+  const { image, text } = props;
   return (
     <>
       <div className="card" style={{ width: 250 }}>
@@ -468,7 +466,7 @@ export const SinglegalleryVideoCards = (props) => {
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
-          title="Video full view"
+            title="Gallery video"
         ></iframe>
       </div>
     </>
@@ -494,17 +492,18 @@ export const GalleryVideoCards = () => {
 };
 
 export const SinglegalleryVideo = (props) => {
-  const { video, id } = props;
+  const { video } = props;
   return (
     <>
       <div className="card">
         <iframe
           src={video}
           height="280"
+            title="Gallery video"
           allowFullScreen
           className=""
           alt="..."
-          title="Video full view"
+    
         />
       </div>
     </>

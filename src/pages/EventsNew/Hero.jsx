@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { HomepageNav, Navbar29 } from "../../components/Navbar";
+import { HomepageNav} from "../../components/Navbar";
 import "./eventsNew.css";
 
 const Hero = () => {

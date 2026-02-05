@@ -1,9 +1,5 @@
 //internal import
 import { Navbar21 } from "../../components/Navbar";
-import { ArticleReadMoreHero } from "../../components/Hero/BGColorandTextHero";
-
-//images
-import resourceshero from "../../assets/images/resources/resourceshero.png";
 
 export const ABCBusinessAccountingReadMore = () => {
   return (
@@ -27,6 +23,7 @@ const ABCBusinessAccounting = () => {
           //   frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="ABCBusiness"
         ></iframe>
       </div>
 
@@ -124,6 +121,7 @@ const KeepingAccountingRecords = () => {
           //   frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="keepingaccountingrecords"
         ></iframe>
       </div>
       <div className="float-start float-end">
@@ -182,6 +180,7 @@ const NigerianStartupActs = () => {
           //   frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           //   allowFullscreen
+          title="NigerianStartupActs"
         ></iframe>
       </div>
       <div className="float-start float-end">

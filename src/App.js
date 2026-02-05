@@ -1,5 +1,3 @@
-import * as React from "react";
-// import { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
@@ -11,7 +9,6 @@ import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
-
 import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
 import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
 import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
@@ -63,7 +60,7 @@ import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGal
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
-import { NewFooter } from "./components/newFooter";
+import {  NewFooter } from "./components/newFooter";
 
 
 // NewEvent PAge

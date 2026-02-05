@@ -4,8 +4,8 @@ export const Voucher = () => {
       <div className="m-4">
         <h3>LAGOS INNOVATES: FREE WORKSPACE VOUCHER</h3>
         <p>
-          Redeem your workspace voucher <a href="#">here</a>. To apply for your
-          workspace grant, click <a href="#">here</a>.
+          Redeem your workspace voucher <a href="https://www.8thgearpartners.com/">here</a>. To apply for your
+          workspace grant, click <a href="https://www.8thgearpartners.com/">here</a>.
         </p>
       </div>
       <div className="video-container">

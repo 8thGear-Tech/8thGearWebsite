@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
-import { ManagedServicesCard } from "../../components/AllCards/MediaCards";
+
 import { NewProjectDeliveryManagedServicesCard } from "../../components/AllCards/MediaCards";
 import { ManagedServicesTractions } from "../../components/Tractions";
-import Data from "../../data/ProjectDeliveryManagedServicesCardMap.json";
+
 import Data2 from "../../data/ProjectDeliveryManagedServicesCardMap.json";
 import { Navbar4 } from "../../components/Navbar";
 import { ManagedServicesHero } from "../../components/Hero/BGColorandTextHero";
 import { HowItWorksIcon } from "../../components/Icons";
-import { ManagedServicesPageTestimonialCard } from "../../components/AllCards/TestimonialCards";
 
 const ManagedServicesPage = () => {
   return (

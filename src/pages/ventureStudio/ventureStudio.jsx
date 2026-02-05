@@ -1,19 +1,12 @@
-import React, { useState } from "react";
 import Hero from "./Hero";
 import CoreServices from "./coreServices";
 import HowWeDoIt from "./howWeDoIt";
 import ImpactMetrics from "./impactMetrics";
 import PortfolioCompanies from "./PortfolioCompanies";
-import { ApplyNowBtn } from "./Button";
-import { Document, Page, pdfjs } from "react-pdf";
-import { EmbedPDF } from "@simplepdf/react-embed-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./ventureStudio.css";
-import IRE1 from "../../assets/images/venture-studio/IRE1.jpg";
-import IRE2 from "../../assets/images/venture-studio/IRE2.jpg";
-import IRE3 from "../../assets/images/venture-studio/IRE3.jpg";
-import IRE4 from "../../assets/images/venture-studio/IRE4.jpg";
-import IRE5 from "../../assets/images/venture-studio/IRE5.jpg";
+
 
 // Required setup for PDF.js worker
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`;
@@ -117,21 +110,21 @@ const VentureStudio = () => {
   );
 };
 
-const PDFSection = () => {
-  const [numPages, setNumPages] = useState(null);
+// const PDFSection = () => {
+//   const [numPages, setNumPages] = useState(null);
 
-  return (
-    <div className="flex flex-col items-center my-10">
-      <Document
-        file="/pdfs/IRE_Curriculum&Content.pdf"
-        onLoadSuccess={({ numPages }) => setNumPages(numPages)}
-      >
-        {Array.from(new Array(numPages), (el, index) => (
-          <Page key={`page_${index + 1}`} pageNumber={index + 1} width={900} />
-        ))}
-      </Document>
-    </div>
-  );
-};
+//   return (
+//     <div className="flex flex-col items-center my-10">
+//       <Document
+//         file="/pdfs/IRE_Curriculum&Content.pdf"
+//         onLoadSuccess={({ numPages }) => setNumPages(numPages)}
+//       >
+//         {Array.from(new Array(numPages), (el, index) => (
+//           <Page key={`page_${index + 1}`} pageNumber={index + 1} width={900} />
+//         ))}
+//       </Document>
+//     </div>
+//   );
+// };
 
 export default VentureStudio;

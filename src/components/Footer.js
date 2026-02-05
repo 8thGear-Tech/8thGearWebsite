@@ -1,17 +1,8 @@
-import React from "react";
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 import logo from "./../assets/images/logo.png";
-import { FacebookIcon } from "./Icons";
-import { InstagramIcon } from "./Icons";
-import { LinkedInIcon } from "./Icons";
-import { TwitterIcon } from "./Icons";
-import { MailIcon } from "./Icons";
 import { GoToTop } from "./Buttons/scrollToTop";
 
 export const Footer = () => {
@@ -139,7 +130,7 @@ export const Footer = () => {
 export const SubscribeForm = () => {
   const [email, setEmail] = useState("");
   // const [message, setMessage] = useState("");
-  const [people, setPeople] = useState([]);
+  const [ setPeople] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -251,7 +242,7 @@ export const FooterIcon = () => {
           <i className="bi bi-twitter me-2 text-dark"></i>
         </a>
 
-        <a href="mailto:info@8thgearpartners.com" target="_blank">
+        <a href="mailto:info@8thgearpartners.com" target="_blank" rel="noopener noreferrer">
           <i className="bi bi-at text-dark"></i>
         </a>
       </nav>

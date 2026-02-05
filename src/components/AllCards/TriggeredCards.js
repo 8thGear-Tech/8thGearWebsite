@@ -3,13 +3,14 @@ import hoverData from "../../data/triggeredCards.json";
 import { OnHoverReadMoreBtn } from "../Buttons/ServicesBtn";
 import logo from "../../assets/images/logo.png";
 import link from "../../assets/images/LinkedIn_icon.png";
+
 import { MemberOneViewBioBtn } from "../Buttons/ContactBtn";
 import { MemberTwoViewBioBtn } from "../Buttons/ContactBtn";
-//import img from "../../assets/images/TeamImage.jpg"
+
 import { LinkedInIcon } from "../Icons";
 
 const SingleOnhoverCard = (props) => {
-  const { text } = props;
+  const {  text } = props;
 
   return (
     <>
@@ -43,41 +44,9 @@ export const OnHoverCard = () => {
   );
 };
 
-{
-  /* <div className="row">
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
-        </a>
-      </div>
-    </div>
-  </div>
-  <div className="col-sm-6">
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Special title treatment</h5>
-        <p className="card-text">
-          With supporting text below as a natural lead-in to additional content.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
-        </a>
-      </div>
-    </div>
-  </div>
-</div>; */
-}
-//ProjectDeliveryPopUpCard
-
-//8thgeariansPopUpCard
-//EIRDataPopUpCard
-//AdvisoryBoardOnHoverCard
+// //8thgeariansPopUpCard
+// //EIRDataPopUpCard
+// //AdvisoryBoardOnHoverCard
 
 export const EightgeariansPopUpCard1 = (props) => {
   const { image, name, position, text, id } = props;
@@ -105,7 +74,7 @@ export const EightgeariansPopUpCard1 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card" />
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo" />
               <button
                 type="button"
                 className="btn-close"
@@ -115,13 +84,13 @@ export const EightgeariansPopUpCard1 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card" />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card" />
+              <img src={link} className="mb-4" width={25} alt="logo"/>
             </div>
           </div>
         </div>
@@ -155,7 +124,7 @@ export const EightgeariansPopUpCard2 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card" />
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
               <button
                 type="button"
                 className="btn-close"
@@ -165,13 +134,13 @@ export const EightgeariansPopUpCard2 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card"  />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card" />
+              <img src={link} className="mb-4" width={25} alt="logo"/>
             </div>
           </div>
         </div>
@@ -204,7 +173,7 @@ export const EightgeariansPopUpCard3 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card"/>
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
               <button
                 type="button"
                 className="btn-close"
@@ -214,13 +183,13 @@ export const EightgeariansPopUpCard3 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card" />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card" />
+              <img src={link} className="mb-4" width={25} alt="logo"/>
             </div>
           </div>
         </div>
@@ -253,7 +222,7 @@ export const EightgeariansPopUpCard4 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card"/>
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
               <button
                 type="button"
                 className="btn-close"
@@ -263,13 +232,13 @@ export const EightgeariansPopUpCard4 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card" />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card"/>
+              <img src={link} className="mb-4" width={25} alt="logo"/>
             </div>
           </div>
         </div>
@@ -302,7 +271,7 @@ export const EightgeariansPopUpCard5 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card"/>
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
               <button
                 type="button"
                 className="btn-close"
@@ -312,13 +281,13 @@ export const EightgeariansPopUpCard5 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card" />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card"/>
+              <img src={link} className="mb-4" width={25} alt="logo"/>
             </div>
           </div>
         </div>
@@ -351,7 +320,7 @@ export const EightgeariansPopUpCard6 = (props) => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="d-flex justify-content-between mx-4 my-2">
-              <img src={logo} width={40} id="staticBackdropLabel" alt="team-card"/>
+              <img src={logo} width={40} id="staticBackdropLabel" alt="logo"/>
               <button
                 type="button"
                 className="btn-close"
@@ -361,13 +330,13 @@ export const EightgeariansPopUpCard6 = (props) => {
             </div>
 
             <div className="cards" key={id}>
-              <img src={image} className="w-25 mb-4" alt="team-card" />
+              <img src={image} className="w-25 mb-4" alt="logo" />
               <h4>{name}</h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
                 <p className="card-text mb-4">{text}</p>
               </div>
-              <img src={link} className="mb-4" width={25} alt="team-card" />
+              <img src={link} className="mb-4" width={25} alt="logo" />
             </div>
           </div>
         </div>
@@ -400,7 +369,7 @@ export const EIRDataPopUpCard1 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4" alt="team-card"/>
+            <img src={image} className="w-100 mb-4" alt="logo"/>
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
@@ -408,7 +377,7 @@ export const EIRDataPopUpCard1 = (props) => {
                   width={40}
                   className="modal-title"
                   id="staticBackdropLabel"
-                  alt="team-card"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -422,7 +391,7 @@ export const EIRDataPopUpCard1 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25}  alt="team-card"/>
+                {name} <img src={link} className="" width={25} alt="logo"/>
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -460,14 +429,15 @@ export const EIRDataPopUpCard2 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4"  alt="team-card" />
+            <img src={image} className="w-100 mb-4" alt="logo"/>
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
                   src={logo}
                   width={40}
                   className="modal-title"
-                  id="staticBackdropLabel" alt="team-card"
+                  id="staticBackdropLabel"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -481,7 +451,7 @@ export const EIRDataPopUpCard2 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25} alt="team-card" />
+                {name} <img src={link} className="" width={25} alt="logo"/>
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -519,7 +489,7 @@ export const EIRDataPopUpCard3 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4" alt="team-card" />
+            <img src={image} className="w-100 mb-4" alt="logo" />
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
@@ -527,7 +497,7 @@ export const EIRDataPopUpCard3 = (props) => {
                   width={40}
                   className="modal-title"
                   id="staticBackdropLabel"
-                  alt="team-card"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -541,7 +511,7 @@ export const EIRDataPopUpCard3 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25} alt="team-card" />
+                {name} <img src={link} className="" width={25} alt="logo"/>
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -579,7 +549,7 @@ export const EIRDataPopUpCard4 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4" alt="team-card" />
+            <img src={image} className="w-100 mb-4" alt="logo" />
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
@@ -587,7 +557,7 @@ export const EIRDataPopUpCard4 = (props) => {
                   width={40}
                   className="modal-title"
                   id="staticBackdropLabel"
-                  alt="team-card"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -601,7 +571,7 @@ export const EIRDataPopUpCard4 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25} alt="team-card"/>
+                {name} <img src={link} className="" width={25} alt="logo" />
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -639,7 +609,7 @@ export const EIRDataPopUpCard5 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4" alt="team-card" />
+            <img src={image} className="w-100 mb-4" alt="logo"/>
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
@@ -647,7 +617,7 @@ export const EIRDataPopUpCard5 = (props) => {
                   width={40}
                   className="modal-title"
                   id="staticBackdropLabel"
-                  alt="team-card"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -661,7 +631,7 @@ export const EIRDataPopUpCard5 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25} alt="team-card" />
+                {name} <img src={link} className="" width={25} alt="logo" />
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -699,7 +669,7 @@ export const EIRDataPopUpCard6 = (props) => {
       >
         <div className="modal-dialog">
           <div className="modal-content" key={id}>
-            <img src={image} className="w-100 mb-4" alt="team-card" />
+            <img src={image} className="w-100 mb-4" alt="logo" />
             <div className="card-img-overlay">
               <div className="d-flex justify-content-between mx-1 my-1">
                 <img
@@ -707,7 +677,7 @@ export const EIRDataPopUpCard6 = (props) => {
                   width={40}
                   className="modal-title"
                   id="staticBackdropLabel"
-                  alt="team-card"
+                  alt="logo"
                 />
                 <button
                   type="button"
@@ -721,7 +691,7 @@ export const EIRDataPopUpCard6 = (props) => {
             <div className="cards">
               <br></br>
               <h4 className="">
-                {name} <img src={link} className="" width={25} alt="team-card"/>
+                {name} <img src={link} className="" width={25} alt="logo"/>
               </h4>
               <h6 className="">{position}</h6>
               <div className="card-body">
@@ -734,11 +704,7 @@ export const EIRDataPopUpCard6 = (props) => {
     </>
   );
 };
-{
-  /* <div className="card col-sm-mb-1 col-md-mb-1 w-75 mx-auto">
-  <img src={image} className=" img-fluid Boardimage" alt="Teamimage" />
-</div>; */
-}
+
 export const AdvisoryBoardOnHoverCard = (props) => {
   const { image, name, position, link } = props;
   return (
@@ -748,7 +714,7 @@ export const AdvisoryBoardOnHoverCard = (props) => {
       {/* <div className=""> */}
       <div className="AdvisoryImage">
         {" "}
-        <img src={image} alt="team-card" />
+        <img src={image} alt="logo" />
         <h6 className="AdvisoryName">{name}</h6>
         <h6 className="AdvisoryPosition">{position}</h6>
         <div className="AdvisoryLink">

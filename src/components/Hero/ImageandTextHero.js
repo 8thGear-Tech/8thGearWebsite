@@ -2,15 +2,12 @@
 
 import React from "react";
 import {Carousel} from "react-bootstrap";
-import {useState} from "react";
-import {Card} from "react-bootstrap";
 
-import projectdelivery from "../../assets/images/hero/projectdelivery.jpg";
 import futatechpichero from "../../assets/images/initiatives/futatechpic/futatechpichero.png";
 import {BookaSessionBtn} from "../Buttons/ServicesBtn";
 import {RegisterBtn} from "../Buttons/ProjectDeliveryBtn";
 import {BookNowBtn} from "../Buttons/ServicesBtn";
-import {DigiPlusRequestBtn} from "../Buttons/ContactBtn";
+
 
 export const ManageServicesDigitalMarketingHero = () => {
     return (
@@ -476,7 +473,7 @@ export const ResourcesHero = () => {
                 <div className="px-3 container-fluid ResourcesHeroBgg d-flex pt-3 pb-4">
                     <div className="row justify-content-center ">
                         <div className="col-lg-12 col-md-12 col-sm-12 ">
-                            <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center"></h2>
+                            {/* <h2 className="d-none d-lg-block d-md-none d-sm-none d-xs-none ms-5 heroTextColor text-center"></h2> */}
                             <h3 className="d-xs-block d-sm-block d-md-block d-lg-none heroTextColor text-center"> </h3>
                         </div>
                     </div>

@@ -69,12 +69,19 @@ const Hero = () => {
           Proven B2B Tech Solutions
         </h2>
         <p className="text-muted">
-          Our MSMS Marketplace offers a curated selection of B2B software,
+          Our MSME Marketplace offers a curated selection of B2B software,
           <br className="d-none d-md-block" />
           infrastructure, and IT services, all vetted and resold by our experts
           <br className="d-none d-md-block" />
           so you don’t have to start from scratch.
         </p>
+         <a
+            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="primary">Get Started</Button>
+          </a>
       </div>
 
       <div className="row align-items-stretch">
@@ -305,7 +312,7 @@ const TailoredSolutionsSection = () => {
           </p>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqOovZutZUU8ZQ2Cvc-KPRYDrA5odO8iO_abnr-aRm-D9dEQ/viewform?usp=sharing&ouid=106047966915177609898"
+            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -402,6 +409,7 @@ const PartnersSection = () => {
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSe_k2Vk4CgZKz4-sPtP7h7aflemd-AcpGSpWodxUoGT6UuKJg/viewform"
             target="_blank"
+             rel="noopener noreferrer"
           >
             {" "}
             <button className="btn btn-light">Partner With Us</button>
