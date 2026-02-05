@@ -148,6 +148,15 @@ export const NewFooter = () => {
               <ul className="list-unstyled">
                 <li>
                   <Link
+                    to="/msme-marketplace"
+                    className="text-dark text-decoration-none"
+                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                  >
+                  MSME Marketplace
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/growth-advisory"
                     className="text-dark text-decoration-none"
                     style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
@@ -164,24 +173,8 @@ export const NewFooter = () => {
                     Co-working
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/talent-placement"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Talent Placement
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/msme-marketplace"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                  MSME Marketplace
-                  </Link>
-                </li>
+               
+                
               </ul>
             </Col>
             <Col lg={2} className="mb-3">
