@@ -91,6 +91,7 @@ import DBN from "./pages/ProjectDelivery/Programs/DBN";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 import ESP from "./pages/ProjectDelivery/Programs/ESP";
+import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
 
 function App() {
   return (
@@ -111,6 +112,7 @@ function App() {
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="ESP" element={<ESP />} />
+          <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
           <Route
             path="project-delivery-gallery"
             element={<ProjectDeliveryGalleryPage />}

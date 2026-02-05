@@ -96,7 +96,7 @@ const Banner = () => {
           together to create, innovate, and elevate their ventures.
         </p>
         <a
-          href="https://chat.whatsapp.com/DqUUKyzRn742GmrpWAeqMz?mode=ems_copy_t"
+          href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK"
           target="_blank"
           rel="noopener noreferrer"
           className="text-center"

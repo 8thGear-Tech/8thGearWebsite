@@ -2,6 +2,8 @@ import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 import b2bImage from "../../assets/images/tech-marketplace/b2bImage.png";
 import trulance from "../../assets/images/tech-marketplace/trulance.png";
 import legalmo from "../../assets/images/tech-marketplace/legalmo.png";
+import finamo from "../../assets/images/tech-marketplace/finamo.png";
+import talenmo from "../../assets/images/tech-marketplace/talenmo.png";
 import mtn from "../../assets/images/tech-marketplace/mtn.png";
 import legalmologo from "../../assets/images/tech-marketplace/legalmo-logo.png";
 import trulancelogo from "../../assets/images/tech-marketplace/trulance-logo.png";
@@ -79,8 +81,9 @@ const Hero = () => {
             href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
             target="_blank"
             rel="noopener noreferrer"
+            
           >
-            <Button variant="primary">Get Started</Button>
+            <Button variant="primary" className="mt-2 mb-5">Get Started</Button>
           </a>
       </div>
 
@@ -207,7 +210,7 @@ const SolutionsSection = () => {
             <Card.Body className="">
               <h4 className="fw-bold">Simplify Legal Processes</h4>
               <Card.Text className="text-muted">
-                Access reliable legal services designed for businesses— contract
+                Access reliable legal services designed for businesses, contract
                 creation, compliance, IP protection, and more.
               </Card.Text>
               <a
@@ -234,7 +237,7 @@ const SolutionsSection = () => {
             <Card.Body className="">
               <h4 className="fw-bold">Connectivity Tools & Devices</h4>
               <Card.Text className="text-muted">
-                Discover everything we offer in one place.
+             Stay connected with enterprise-grade solutions built for Nigerian businesses, from high-speed broadband and dedicated networks to smart IoT devices and unified communication tools.
               </Card.Text>
               <a
                 href="https://shop.mtn.ng/all-products.html?affiliate_code=8thGearHub"
@@ -280,6 +283,50 @@ const SolutionsSection = () => {
                 rel="noopener noreferrer"
               >
                 <Button variant="primary">Check out Zoho Solutions</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+         <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={finamo} alt="Financial Systems" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Run Your Business on Solid Financial Systems</h4>
+           
+              <Card.Text className="text-muted">
+              Access reliable financial services for bookkeeping, tax compliance, reporting, budgeting, and business structuring.
+              </Card.Text>
+              <a
+                href="https://www.finamo.biz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out FinaMo</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+         <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={talenmo} alt="Talent Placement" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Talent Placement Made Simple</h4>
+              <Card.Text className="text-muted">
+          
+            Access end-to-end talent sourcing, screening, training, and placement for internships, contract, and full-time roles.
+              </Card.Text>
+              <a
+                href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out TalenMo</Button>
               </a>
             </Card.Body>
           </Card>

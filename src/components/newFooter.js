@@ -207,7 +207,7 @@ export const NewFooter = () => {
                 </li>
                 <li>
                   <a
-                    href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                    href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-dark text-decoration-none"
@@ -512,7 +512,7 @@ export const NewFooter = () => {
                   </li>
                   <li>
                     <a
-                      href="https://chat.whatsapp.com/FaFa7y2RJRV0PU6ycOaGNq"
+                      href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-dark text-decoration-none"
