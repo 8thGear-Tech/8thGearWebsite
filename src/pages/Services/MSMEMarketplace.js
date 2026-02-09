@@ -45,7 +45,7 @@ export const TasterSessionModal = () => {
     // Mark that user has seen the modal in this session
     sessionStorage.setItem('hasSeenTasterModal', 'true');
   };
-  
+
   const handleCloseBanner = () => {
     setShowBanner(false);
   };
@@ -184,7 +184,7 @@ export const TasterSessionModal = () => {
                     className="mb-0 fw-bold"
                     style={{ color: "#6E006A", fontSize: "0.9rem" }}
                   >
-                    📅 Wednesday
+                    Wednesday
                   </p>
                   <h5 className="mb-0 fw-bold" style={{ color: "#6E006A" }}>
                     18th Feb, 2026
