@@ -40,7 +40,7 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
-import MSMEMarketplace from "./pages/Services/MSMEMarketplace";
+import MSMEMarketplace, { TasterSessionModal } from "./pages/Services/MSMEMarketplace";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -96,6 +96,7 @@ import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisor
 function App() {
   return (
     <BrowserRouter>
+    <TasterSessionModal/>
       <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />

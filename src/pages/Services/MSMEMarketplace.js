@@ -21,28 +21,37 @@ import simplicityIcon from "../../assets/images/tech-marketplace/simplicity.png"
 import scaleEasilyIcon from "../../assets/images/tech-marketplace/scale-easily.png";
 import { useEffect, useState } from "react";
 
-const MSMEMarketplace = () => {
+export const TasterSessionModal = () => {
   const [showModal, setShowModal] = useState(false);
   const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
-    // Show modal on page load
-    setShowModal(true);
+    // Check if modal has been shown in this session
+    const hasSeenModal = sessionStorage.getItem('hasSeenTasterModal');
+    
+    if (!hasSeenModal) {
+      // Show modal only if user hasn't seen it
+      setShowModal(true);
+    } else {
+      // If they've already seen it, show banner instead
+      setShowBanner(true);
+    }
   }, []);
+
 
   const handleCloseModal = () => {
     setShowModal(false);
     setShowBanner(true);
+    // Mark that user has seen the modal in this session
+    sessionStorage.setItem('hasSeenTasterModal', 'true');
   };
-
+  
   const handleCloseBanner = () => {
     setShowBanner(false);
   };
 
   return (
     <>
-      <HomepageNav />
-
       {/* Modal */}
       <Modal
         show={showModal}
@@ -322,7 +331,14 @@ const MSMEMarketplace = () => {
           </div>
         </div>
       )}
+    </>
+  );
+};
 
+const MSMEMarketplace = () => {
+   return (
+    <>
+    <HomepageNav/>
       <Hero />
       <SolutionsSection />
       <TailoredSolutionsSection />
@@ -331,6 +347,7 @@ const MSMEMarketplace = () => {
     </>
   );
 };
+
 
 const Hero = () => {
   const cards = [
