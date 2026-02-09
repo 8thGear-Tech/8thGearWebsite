@@ -211,8 +211,10 @@ const MembershipSection = () => {
           rel="noopener noreferrer"
         >
           {" "}
-          <button className="hub-member-btn rounded-pill">Become a Member</button>
-        </a> 
+          <button className="hub-member-btn rounded-pill">
+            Become a Member
+          </button>
+        </a>
       </div>
     </div>
   );
@@ -259,26 +261,71 @@ const BecomeAPortCo = () => {
           <p>
             <span className="text-bold">PortCo's Include:</span>
             <ul>
-              <li>
-                <p className="portco-list">Innkeeper Talent Accelerator</p>
-              </li>
+              <a
+                href="https://innkeeper.work/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none text-black"
+              >
+                <li>
+                  {" "}
+                  <p className="portco-list">Innkeeper Talent Accelerator</p>
+                </li>
+              </a>
+               <a
+                  href="https://www.haveneduservices.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none text-black"
+
+                >
               <li>
                 <p className="portco-list">Haven Edu-Services</p>
               </li>
+              </a>
+
               <li>
                 <p className="portco-list">DigiPlus Connect Café</p>
               </li>
+              <a
+                  href="https://www.trulance.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none text-black"
+
+                >
               <li>
                 <p className="portco-list">TruLance</p>
               </li>
+              </a>
+              
               <li>
                 <p className="portco-list">Everything Meat</p>
               </li>
+                 <a
+                  href="https://www.legalmo.biz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none text-black"
+
+                >
               <li>
                 <p className="portco-list">LegalMo</p>
               </li>
+              </a>
+                 <a
+                  href="https://finamo.biz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-decoration-none text-black"
+
+                >
               <li>
                 <p className="portco-list">FinaMo</p>
+              </li>
+              </a>
+              <li>
+                <p className="portco-list">TalenMo</p>
               </li>
             </ul>
           </p>
@@ -291,7 +338,9 @@ const BecomeAPortCo = () => {
           rel="noopener noreferrer"
         >
           {" "}
-          <button className="hub-member-btn rounded-pill">Become a Member</button>
+          <button className="hub-member-btn rounded-pill">
+            Become a Member
+          </button>
         </a>
       </div>
     </div>

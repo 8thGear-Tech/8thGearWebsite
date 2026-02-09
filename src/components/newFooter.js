@@ -412,6 +412,15 @@ export const NewFooter = () => {
               <Accordion.Header>Hub Services</Accordion.Header>
               <Accordion.Body style={{ backgroundColor: "transparent" }}>
                 <ul className="list-unstyled">
+                   <li>
+                    <Link
+                    to="/msme-marketplace"
+                      className="text-dark text-decoration-none"
+                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
+                    >
+                      MSME Marketplace
+                    </Link>
+                  </li>
                   <li
                     style={{
                       borderBottom: "1px solid #e0e0e0",
@@ -442,30 +451,8 @@ export const NewFooter = () => {
                       Co-working
                     </Link>
                   </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/talent-placement"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Talent Placement
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                    to="/msme-marketplace"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      MSME Marketplace
-                    </Link>
-                  </li>
+                
+                 
                 </ul>
               </Accordion.Body>
             </Accordion.Item>
