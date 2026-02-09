@@ -281,6 +281,101 @@ export const TasterSessionModal = () => {
 
       {/* Sticky Banner */}
       {showBanner && (
+  <div
+    className="w-100 py-2 px-3"
+    style={{
+      top: 0,
+      background: "linear-gradient(90deg, #6E006A 0%, #9B1B96 100%)",
+      zIndex: 1050,
+      boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+    }}
+  >
+    <div className="container">
+      {/* Desktop layout - single row */}
+      <div className="d-none d-md-flex justify-content-between align-items-center">
+        <div className="d-flex align-items-center gap-3 text-white">
+          <img
+            src={crmlogo}
+            alt="Zoho CRM"
+            style={{ height: "28px", filter: "brightness(0) invert(1)" }}
+          />
+          <span className="fw-semibold">
+            Taster Session • <strong>Feb 18, 2026 | 4PM WAT</strong>
+          </span>
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <a
+            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-sm fw-semibold"
+            style={{
+              background: "white",
+              color: "#6E006A",
+              borderRadius: "8px",
+              padding: "8px 24px",
+              fontSize: "0.9rem",
+              border: "none",
+            }}
+          >
+            Register Now →
+          </a>
+          <button
+            onClick={handleCloseBanner}
+            className="btn-close btn-close-white"
+            aria-label="Close"
+            style={{ fontSize: "0.6rem" }}
+          />
+        </div>
+      </div>
+
+      {/* Mobile layout - stacked */}
+      <div className="d-flex d-md-none flex-column gap-2">
+        {/* Top row: logo, text, close button */}
+        <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex align-items-center gap-2 text-white">
+            <img
+              src={crmlogo}
+              alt="Zoho CRM"
+              style={{ height: "24px", filter: "brightness(0) invert(1)" }}
+            />
+            <div className="d-flex flex-column" style={{ lineHeight: "1.3" }}>
+              <span className="fw-semibold" style={{ fontSize: "0.85rem" }}>
+                Taster Session
+              </span>
+              <strong style={{ fontSize: "0.8rem" }}>Feb 18, 2026 | 4PM WAT</strong>
+            </div>
+          </div>
+          <button
+            onClick={handleCloseBanner}
+            className="btn-close btn-close-white"
+            aria-label="Close"
+            style={{ fontSize: "0.6rem" }}
+          />
+        </div>
+
+        {/* Bottom row: register button (full width) */}
+        <a
+          href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-sm fw-semibold w-100"
+          style={{
+            background: "white",
+            color: "#6E006A",
+            borderRadius: "8px",
+            padding: "8px",
+            fontSize: "0.85rem",
+            border: "none",
+          }}
+        >
+          Register Now →
+        </a>
+      </div>
+    </div>
+  </div>
+)}
+      {/* {showBanner && (
         <div
           className="w-100 py-2 px-3"
           // className="position-fixed w-100 py-2 px-3"
@@ -330,7 +425,7 @@ export const TasterSessionModal = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 };
