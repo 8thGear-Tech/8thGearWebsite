@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logos from "../assets/images/logos.png";
-import React from "react";
 import { JointheStudioBtn } from "./Buttons/ContactBtn";
 import text from "../data/navbar.json";
 

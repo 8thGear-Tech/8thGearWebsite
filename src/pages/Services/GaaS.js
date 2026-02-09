@@ -365,6 +365,7 @@ const OurGrowthPrograms = () => {
               <a
                 href={program.link}
                 target="_blank"
+                rel="noreferrer"
                 className="d-inline-flex align-items-center text-decoration-none fw-semibold"
                 style={{
                   color: program.accentColor,
