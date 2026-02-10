@@ -75,14 +75,21 @@ const Hero = () => {
           <br className="d-none d-md-block" />
           so you don’t have to start from scratch.
         </p>
+          <a
+            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="primary">Get Started</Button>
+          </a>
       </div>
 
-      <div className="row align-items-stretch">
+      <div className="row align-items-stretch mt-5 pt-3">
         {/* Image */}
         <div className="col-lg-6 mb-4 mb-lg-0 d-flex">
           <img
             src={b2bImage}
-            alt="8thGear Hub"
+            alt="8thGear Hub" 
             className="img-fluid rounded flex-fill"
             style={{ objectFit: "cover" }}
           />
