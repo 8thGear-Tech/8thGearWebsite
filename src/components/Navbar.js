@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logos from "../assets/images/logos.png";
-import React from "react";
 import { JointheStudioBtn } from "./Buttons/ContactBtn";
 import text from "../data/navbar.json";
 
@@ -870,18 +869,11 @@ export const HomepageNav = () => {
                       >
                         {/* DROPDOWN MENU */}
                         <div className="Nav-Dropdown rounded-3">
-                          <NavDropdown.Item
-                            href="/talent-placement"
+                            <NavDropdown.Item
+                            href="/msme-marketplace"
                             className="Nav-Dropdown-Items"
                           >
-                            Talent Placement
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/coworking"
-                            className="Nav-Dropdown-Items"
-                          >
-                            Coworking
+                            MSME Marketplace
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
@@ -891,11 +883,11 @@ export const HomepageNav = () => {
                             Growth Advisory
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/msme-marketplace"
+                            <NavDropdown.Item
+                            href="/coworking"
                             className="Nav-Dropdown-Items"
                           >
-                            MSME Marketplace
+                            Coworking
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                         </div>
@@ -910,42 +902,62 @@ export const HomepageNav = () => {
                       >
                         <div className="Nav-Dropdown rounded-3">
                           <NavDropdown.Item
-                            href="/DBN"
-                            className="Nav-Dropdown-Items"
-                          >
-                            DBN Workshop & Grants
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/MIREPlus"
-                            className="Nav-Dropdown-Items custom-dropdown-item"
-                          >
-                            MIRE+ (Investment Readiness)
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/GearUp"
-                            className="Nav-Dropdown-Items"
-                          >
-                            GearUp Incubation
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="https://lagosgreen.meristemng.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="Nav-Dropdown-Items"
-                          >
-                            Meristem Lagos Green
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/ESP"
-                            className="Nav-Dropdown-Items"
-                          >
-                            Employability Support Project
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
+                      href="/MIREPlus"
+                      className="dropdown-item-separated"
+                    >
+                      MIRE+ (Investment Readiness)
+                    </NavDropdown.Item>
+                   
+                    <NavDropdown.Item
+                      href="/DSE"
+                      className="dropdown-item-separated"
+                    >
+                    DSE (Digital Skills for Entrepreneurs)
+                    </NavDropdown.Item>
+                      <NavDropdown.Item href="/hub-membership"  className="dropdown-item-separated">
+                      Hub Membership
+                    </NavDropdown.Item>
+                     <NavDropdown.Item
+                      href="/GearUp"
+                      className="dropdown-item-separated"
+                    >
+                      {" "}
+                      GearUp Incubation
+                    </NavDropdown.Item>
+
+<NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="https://lagosgreen.meristemng.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Meristem Lagos Green
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/DBN"
+                      className="dropdown-item-separated"
+                    >
+                     DBN/ETP (Workshops & Grants)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/migrant-advisory-desk"
+                      className="dropdown-item-separated"
+                    >
+                   8thGear Job Center (Advisory Desk)
+                    </NavDropdown.Item>
+                    
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/ESP"
+                    >
+                      Employability Support Project
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/3MTT"
+                    >
+                 DeepTech Upskiling
+                    </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <NavDropdown
@@ -963,7 +975,7 @@ export const HomepageNav = () => {
                           </NavDropdown.Item>
                           <NavDropdown.Item
                             href="/hub-membership"
-                            className="Nav-Dropdown-Items"
+                            className="Nav-Dropdown-Items dropdown-item-separated"
                           >
                             Hub Membership
                             <hr className="w-75 m-auto" />
@@ -990,17 +1002,14 @@ export const HomepageNav = () => {
                     id="basic-nav-dropdown"
                     className="text-black"
                   >
-                    <NavDropdown.Item href="/coworking">
-                      Coworking
+                    <NavDropdown.Item href="/msme-marketplace">
+                     MSME Marketplace
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/talent-placement">
-                      Talent Placement
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="/growth-advisory">
+                      <NavDropdown.Item href="/growth-advisory">
                       Growth Advisory
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/msme-marketplace">
-                MSME Marketplace
+                       <NavDropdown.Item href="/coworking">
+                      Coworking
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/initiatives">Initiatives</Nav.Link>
@@ -1010,25 +1019,30 @@ export const HomepageNav = () => {
                     className="text-black"
                   >
                     <NavDropdown.Item
-                      href="/DBN"
-                      className="dropdown-item-separated"
-                    >
-                      DBN Workshop & Grants
-                    </NavDropdown.Item>
-                    <NavDropdown.Item
                       href="/MIREPlus"
                       className="dropdown-item-separated"
                     >
                       MIRE+ (Investment Readiness)
                     </NavDropdown.Item>
+                   
                     <NavDropdown.Item
+                      href="/DSE"
+                      className="dropdown-item-separated"
+                    >
+                    DSE (Digital Skills for Entrepreneurs)
+                    </NavDropdown.Item>
+                      <NavDropdown.Item href="/hub-membership" className="dropdown-item-separated">
+                      Hub Membership
+                    </NavDropdown.Item>
+                     <NavDropdown.Item
                       href="/GearUp"
                       className="dropdown-item-separated"
                     >
                       {" "}
                       GearUp Incubation
                     </NavDropdown.Item>
-                    <NavDropdown.Item
+
+<NavDropdown.Item
                       className="dropdown-item-separated"
                       href="https://lagosgreen.meristemng.com/"
                       target="_blank"
@@ -1037,11 +1051,31 @@ export const HomepageNav = () => {
                       Meristem Lagos Green
                     </NavDropdown.Item>
                     <NavDropdown.Item
+                      href="/DBN"
+                      className="dropdown-item-separated"
+                    >
+                     DBN/ETP (Workshops & Grants)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/migrant-advisory-desk"
+                      className="dropdown-item-separated"
+                    >
+                   8thGear Job Center (Advisory Desk)
+                    </NavDropdown.Item>
+                    
+                    <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/ESP"
                     >
                       Employability Support Project
                     </NavDropdown.Item>
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/3MTT"
+                    >
+                 DeepTech Upskiling
+                    </NavDropdown.Item>
+                    
                   </NavDropdown>
                   <NavDropdown
                     title="Venture Studio"
@@ -1051,9 +1085,13 @@ export const HomepageNav = () => {
                     <NavDropdown.Item href="/portfolio">
                       Portfolio
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/hub-membership">
+                     <NavDropdown.Item href="/hub-membership">
                       Hub Membership
                     </NavDropdown.Item>
+                     <NavDropdown.Item href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank">
+                     Community
+                    </NavDropdown.Item>
+                   
                   </NavDropdown>
 
                   <Nav.Link href="/about">About Us</Nav.Link>

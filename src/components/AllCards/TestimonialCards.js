@@ -1,4 +1,3 @@
-
 import data from "../../data/coworkingPageTestimonialCard.json";
 
 export const ManagedServicesPageTestimonialCard = () => {

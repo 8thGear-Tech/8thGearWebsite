@@ -503,6 +503,7 @@ export const SinglegalleryVideo = (props) => {
           allowFullScreen
           className=""
           alt="..."
+    
         />
       </div>
     </>

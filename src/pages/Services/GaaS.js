@@ -9,6 +9,7 @@ const GrowthAsAservice = () => {
       <GaaSNew />
       <WhyChooseUs />
       <WhatWeDo />
+      <OurGrowthPrograms />
       <OurProcess />
       <OurSuccess />
       {/* <Testimonials /> */}
@@ -65,19 +66,19 @@ const WhyChooseUs = () => {
       title: "Start",
       image: "./images/gaasImage/gaasprocess.png",
       description:
-        "At 8thGear Hub, we believe in laying a strong foundation for growth. Our GaaS service begins by thoroughly understanding your business needs, goals, and challenges. We work with you to create a tailored growth strategy that aligns with your vision, ensuring a successful launch and sustainable growth from the get-go.",
+        "We build strong foundations by understanding your business needs and goals, then create a tailored growth strategy for successful launch and sustainable growth.",
     },
     {
       title: "Build",
       image: "./images/gaasImage/gaasbusiness.png",
       description:
-        "Building a successful business requires more than just a great idea; it requires the right strategy, resources, and execution. Our experienced team provides hands-on support in key areas such as marketing, sales, product development, and customer engagement.",
+        "Our experienced team provides hands-on support in marketing, sales, product development, and customer engagement to execute your strategy.",
     },
     {
       title: "Scale",
       image: "./images/gaasImage/gaaspeople.png",
       description:
-        "Scaling your business is where the magic happens. Our GaaS service offers the expertise and tools needed to expand your market reach, optimize operations, and drive revenue growth, ensuring your business reaches its full potential.",
+        "We provide the expertise and tools to expand your market reach, optimize operations, and drive revenue growth to full potential.",
     },
   ];
 
@@ -200,9 +201,13 @@ const WhatWeDo = () => {
       className="container-fluid text-center whatBackground py-5 px-5"
       style={{ backgroundColor: "#f7f2f7" }}
     >
-      <h2 className="mb-4 fs-4" style={{ color: "#6E006A" }}>
+      <h4
+        className="text-center mb-5 text-uppercase"
+        style={{ color: "#6E005A" }}
+      >
         WHAT WE DO
-      </h2>
+      </h4>
+
       <div className="row justify-content-center">
         {whatWeDoItems.map((item, index) => (
           <div
@@ -259,6 +264,127 @@ const WhatWeDo = () => {
           Book a Growth Session
         </button>
       </a>
+    </div>
+  );
+};
+
+const OurGrowthPrograms = () => {
+  const programs = [
+    {
+      title: "MIRE",
+      subtitle: "Market & Investment Readiness for Entrepreneurs",
+      description:
+        "Grant-ready, loan-ready, and investor-ready support for high-potential entrepreneurs. Access up to ₦5M in funding, workshops, mentorship, and investor pitch opportunities.",
+      link: "/MIREPlus",
+      accentColor: "#8B2A7F",
+      icon: "💼",
+    },
+    {
+      title: "DSE",
+      subtitle: "Digital Skills for Entrepreneurs",
+      description:
+        "3-week intensive program in Digital Marketing, E-Commerce, Financial Management and AI for MSMEs. Build your Digital Transformation Roadmap and scale sustainably.",
+      link: "/DSE",
+      accentColor: "#6E006A", // Main brand purple
+      icon: "🚀",
+    },
+    {
+      title: "Hub Membership",
+      subtitle: "Premium Growth Ecosystem",
+      description:
+        "Access accountability support, ecosystem connections, and exclusive growth sessions to accelerate your business.",
+      link: "/hub-membership",
+      accentColor: "#9B1B96", // Medium purple
+      icon: "⭐",
+    },
+  ];
+
+  return (
+    <div className="container-fluid py-5 px-3 px-md-5">
+      {/* style={{ background: "#f7f2f7" }} */}
+      <div className="row text-center mb-5">
+        <div className="col-12">
+          <h4
+            className="text-center text-uppercase"
+            style={{ color: "#6E005A" }}
+          >
+            OUR PROGRAMS
+          </h4>
+          <p className="text-muted fs-6">Choose your growth path</p>
+        </div>
+      </div>
+
+      <div className="row g-4 justify-content-center">
+        {programs.map((program, index) => (
+          <div key={index} className="col-12 col-md-6 col-lg-4">
+            <div
+              className="position-relative h-100 bg-white"
+              style={{
+                borderLeft: `6px solid ${program.accentColor}`,
+                borderRadius: "0",
+                padding: "40px 30px",
+                transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+                cursor: "pointer",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(10px)";
+                e.currentTarget.style.boxShadow = `-10px 10px 0px ${program.accentColor}`;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+                e.currentTarget.style.boxShadow = "none";
+              }}
+            >
+              <div className="mb-4" style={{ fontSize: "3rem" }}>
+                {program.icon}
+              </div>
+
+              {/* 
+                 <h4
+        className="text-center text-uppercase"
+        style={{ color: "#6E005A" }}
+      >OUR PROGRAMS</h4> */}
+              <h4 className="fw-bold mb-2" style={{ color: "#1a1a1a" }}>
+                {program.title}
+              </h4>
+
+              <p className="text-muted mb-4">{program.subtitle}</p>
+
+              <p
+                className="mb-4"
+                style={{
+                  fontSize: "0.95rem",
+                  lineHeight: "1.7",
+                  color: "#4a5568",
+                  minHeight: "100px",
+                }}
+              >
+                {program.description}
+              </p>
+              <a
+                href={program.link}
+                target="_blank"
+                rel="noreferrer"
+                className="d-inline-flex align-items-center text-decoration-none fw-semibold"
+                style={{
+                  color: program.accentColor,
+                  fontSize: "0.95rem",
+                  transition: "all 0.3s ease",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = "translateX(5px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateX(0)";
+                }}
+              >
+                Explore Program
+                <span style={{ marginLeft: "8px", fontSize: "1.2rem" }}>→</span>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

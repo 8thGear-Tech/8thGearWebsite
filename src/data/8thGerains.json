@@ -1,5 +1,14 @@
 {
   "teamcardone": [
+     {
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
+      "title1": "PROJECT DEV. ASSOCIATE",
+      "id": "staticBackdrop2",
+      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
+    }
+  ],
+  "teamcardtwo": [
     {
        "image1": "../../images/team/basiratabdullahi.png",
       "name1": "BASIRAT ABDULLAHI",
@@ -8,23 +17,15 @@
       "link": "https://www.linkedin.com/in/basirat-arike-abdullahi/"
     }
   ],
-  "teamcardtwo": [
-    {
-      "image1": "../../images/team/seunoladele.jpg",
-      "name1": "DR. SEUN OLADELE",
-      "title1": "PROJECT DEV. ASSOCIATE",
-      "id": "staticBackdrop2",
-      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
-    }
-  ],
   "teamcardthree": [
-    {
-     "image1": "../../images/team/oluwatobi.jpg",
-      "name1": "OLUWATOBILOBA ADEBOLA",
-      "title1": "PROGRAMS ANALYST",
-      "id": "staticBackdrop3",
-      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
+     {
+      "image1": "../../images/team/yusuf.png",
+      "name1": "YUSUF UMAR",
+      "title1": "GROWTH ASSOCIATE",
+      "id": "staticBackdrop4",
+      "link": "https://www.linkedin.com/in/yusuf-umaru/"
     }
+   
   ],
   "teamcardfour": [
     {
@@ -44,7 +45,25 @@
       "link": "https://www.linkedin.com/in/clement-alenoghena-a05604312"
     }
   ],
+  "teamcardsix": [
+    {
+     "image1": "../../images/team/oluwatobi.jpg",
+      "name1": "OLUWATOBILOBA ADEBOLA",
+      "title1": "PROGRAMS ANALYST",
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
+    }
+  ],
   "teamcardseven": [
+    {
+     "image1": "../../images/team/mercy.png",
+      "name1": "MERCY ADEGEYE",
+      "title1": "HR ANALYST",
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/boluwatife-mercy/"
+    }
+  ],
+  "teamcardeight": [
     {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",

@@ -32,7 +32,6 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
 //Hub Services
-
 import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
 import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
 import HubServicesLegal from "./pages/Services/HubServicesLegal";
@@ -41,7 +40,7 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
-import MSMEMarketplace from "./pages/Services/MSMEMarketplace";
+import MSMEMarketplace, { TasterSessionModal } from "./pages/Services/MSMEMarketplace";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -92,10 +91,14 @@ import DBN from "./pages/ProjectDelivery/Programs/DBN";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 import ESP from "./pages/ProjectDelivery/Programs/ESP";
+import DSE from "./pages/ProjectDelivery/Programs/DSE";
+import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
+import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
 
 function App() {
   return (
     <BrowserRouter>
+    <TasterSessionModal/>
       <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -112,6 +115,9 @@ function App() {
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="ESP" element={<ESP />} />
+          <Route path="DSE" element={<DSE />} />
+          <Route path="3MTT" element={<ThreeMTT/>} />
+          <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
           <Route
             path="project-delivery-gallery"
             element={<ProjectDeliveryGalleryPage />}
