@@ -953,12 +953,12 @@ export const HomepageNav = () => {
                     >
                       Employability Support Project
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item
+                    <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/ESP"
+                      href="/3MTT"
                     >
                  DeepTech Upskiling
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <NavDropdown
@@ -1071,12 +1071,12 @@ export const HomepageNav = () => {
                     >
                       Employability Support Project
                     </NavDropdown.Item>
-                    {/* <NavDropdown.Item
+                    <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/ESP"
+                      href="/3MTT"
                     >
                  DeepTech Upskiling
-                    </NavDropdown.Item> */}
+                    </NavDropdown.Item>
                     
                   </NavDropdown>
                   <NavDropdown
