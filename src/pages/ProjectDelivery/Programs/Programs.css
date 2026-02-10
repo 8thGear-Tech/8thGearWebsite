@@ -230,20 +230,20 @@
 
 /* Logo Section */
 .programme-logos {
-  /* display: flex;
-  align-items: center;
-  gap: 30px; */
+  display: flex;
+  align-items: left;
+  gap: 10px;
   margin-bottom: 25px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .programme-logos img {
-  /* height: 60px;
-  width: auto; */
-   max-width: 320px;   /* controls overall size */
+  height: 60px;
+  width: auto;
+   /* max-width: 320px;
   width: 100%;
   height: auto;
-  display: block;
+  display: block; */
 }
 
 .hero-title {
@@ -1054,7 +1054,7 @@
   }
   
   .programme-logos {
-    justify-content: center;
+    justify-content: left;
   }
 }
 

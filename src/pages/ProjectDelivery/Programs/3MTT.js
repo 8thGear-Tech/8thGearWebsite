@@ -1,15 +1,11 @@
 import { HomepageNav } from "../../../components/Navbar";
-// import { Footer } from "../../../components/website/footer";
 import { useState } from "react";
 
-// // Import your images
-// import hero3mtt1 from "../../../assets/website/images/3mtt/3mtt-hero-1.jpeg";
-import deepTechLogo from "../../../assets/images/projectdelivery/3MTT/deepTechLogo.jpg";
+import deepTechLogo from "../../../assets/images/projectdelivery/3MTT/DeepTech_Ready-short-logo1.png";
+import ThreeMTTLogo from "../../../assets/images/projectdelivery/3MTT/3MTTLogo.png";
 import location from "../../../assets/images/projectdelivery/3MTT/location.jpeg";
-// import threeMTTLogo from "../../../assets/website/images/3mtt/3mtt-logo.png";
-// import nitdaLogo from "../../../assets/website/images/3mtt/nitda-logo.png";
 
-import ThreeMTTHero from "../../../assets/images/projectdelivery/3MTT/3MTT.jpg"
+import ThreeMTTHero from "../../../assets/images/projectdelivery/3MTT/3MTTHero.jpg"
 
 const ThreeMTT = () => {
   return (
@@ -36,6 +32,7 @@ const HeroSection = () => {
             {/* Programme Logos */}
             <div className="programme-logos">
               <img src={deepTechLogo} alt="DeepTech Ready by Data Science Nigeria" />
+              <img src={ThreeMTTLogo} alt="3MTT" />
               {/* <img src={threeMTTLogo} alt="3MTT Programme" />
               <img src={nitdaLogo} alt="NITDA - Federal Ministry of Communications" /> */}
               {/* <div style={{height: '60px', background: '#e0e0e0', width: '150px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem', color: '#666'}}>DeepTech Logo</div>
