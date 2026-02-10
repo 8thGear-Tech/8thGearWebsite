@@ -1,6 +1,6 @@
 import { HomepageNav } from "../../../components/Navbar";
 // import { Footer } from "../../../components/website/footer";
-import React, { useState } from "react";
+import { useState } from "react";
 
 // // Import your images
 // import hero3mtt1 from "../../../assets/website/images/3mtt/3mtt-hero-1.jpeg";
