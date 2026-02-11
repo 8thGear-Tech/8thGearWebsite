@@ -927,9 +927,7 @@ export const HomepageNav = () => {
 
 <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="https://lagosgreen.meristemng.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/meristem-lagos-green"
                     >
                       Meristem Lagos Green
                     </NavDropdown.Item>
@@ -1044,9 +1042,7 @@ export const HomepageNav = () => {
 
 <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="https://lagosgreen.meristemng.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/meristem-lagos-green"
                     >
                       Meristem Lagos Green
                     </NavDropdown.Item>
