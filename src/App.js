@@ -94,6 +94,7 @@ import ESP from "./pages/ProjectDelivery/Programs/ESP";
 import DSE from "./pages/ProjectDelivery/Programs/DSE";
 import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
 import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
+import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
 
 function App() {
   return (
@@ -118,6 +119,7 @@ function App() {
           <Route path="DSE" element={<DSE />} />
           <Route path="3MTT" element={<ThreeMTT/>} />
           <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
+          <Route path="meristem-lagos-green" element={<MeristemGreenLagos />} />
           <Route
             path="project-delivery-gallery"
             element={<ProjectDeliveryGalleryPage />}
