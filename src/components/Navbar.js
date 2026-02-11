@@ -9,7 +9,6 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-//Imported Scss to make the navbar transparent
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../sassfiles/components/_navbar.scss";
 
