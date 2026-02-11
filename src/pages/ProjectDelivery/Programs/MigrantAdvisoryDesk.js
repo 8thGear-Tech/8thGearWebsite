@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Card, Badge } from "react-bootstrap";
+import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 
 import migrationadvisorydesk from "../../../assets/images/talentplacement/migrationadvisorydesk.jpg";

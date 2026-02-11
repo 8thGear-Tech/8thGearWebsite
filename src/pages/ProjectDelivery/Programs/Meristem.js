@@ -1,6 +1,6 @@
 // meristem-lagos-green
 
-import { Container, Row, Col, Button, Card, Badge } from "react-bootstrap";
+import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 
 import meristemLogo from "../../../assets/images/projectdelivery/meristem/meristem.png";
@@ -8,7 +8,6 @@ import meristemLogo from "../../../assets/images/projectdelivery/meristem/merist
 const PRIMARY_PURPLE = "#6E006A";
 const SECONDARY_PURPLE = "#9B1B96";
 const MERISTEM_GREEN = "#3D7C5E";
-const MERISTEM_LIGHT_GREEN = "#5A9B7D";
 const MERISTEM_YELLOW = "#F4A460";
 
 const MeristemGreenLagos = () => {
