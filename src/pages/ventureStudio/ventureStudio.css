@@ -78,13 +78,53 @@
   animation: buttonColorChange 5s ease-in infinite;
 }
 
-.ventureCard {
+/* .ventureCard {
   width: 25rem;
   height: 45rem;
   border: 2px solid white;
   background-color: white;
   border-radius: 1rem;
+} */
+
+
+/* Modern Portfolio Cards Styles */
+
+/* Remove old .ventureCard styles and use the inline styles from the component */
+
+/* Optional: Add any additional hover effects or animations */
+.portfolio-card {
+  position: relative;
 }
+
+/* Smooth transitions for all interactive elements */
+.portfolio-card * {
+  transition: all 0.2s ease;
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .portfolio-card {
+    max-width: 100% !important;
+  }
+}
+
+/* Optional: Add a subtle gradient overlay on hover for extra visual interest */
+.portfolio-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #6E006A 0%, #9B1B96 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-card:hover::before {
+  opacity: 1;
+}
+
 
 /* Tablet Screen */
 @media (min-width: 768px) {
