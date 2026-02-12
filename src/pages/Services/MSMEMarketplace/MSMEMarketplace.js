@@ -485,638 +485,226 @@ const Hero = () => {
   );
 };
 
-// const ACTIONS = [
-//   {
-//     label: "Manage leads and customers",
-//     href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=ae47982fb7c4b5113a610e0121d21857",
-//   },
-//   {
-//     label: "Automate campaigns",
-//     href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=b84f92df5adc867e3a5a0c4aa473792d",
-//   },
-//   {
-//     label: "Track expenses and revenue",
-//     href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=1957eae31aff62948c7fe7f162b916b5",
-//   },
-//   {
-//     label: "Engage visitors with chat",
-//     href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=d0fe091c79341ca579bdc34f362c4c35",
-//   },
-// ];
+const ACTIONS = [
+  {
+    label: "Manage leads and customers",
+    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=ae47982fb7c4b5113a610e0121d21857",
+  },
+  {
+    label: "Automate campaigns",
+    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=b84f92df5adc867e3a5a0c4aa473792d",
+  },
+  {
+    label: "Track expenses and revenue",
+    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=1957eae31aff62948c7fe7f162b916b5",
+  },
+  {
+    label: "Engage visitors with chat",
+    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=d0fe091c79341ca579bdc34f362c4c35",
+  },
+];
 
-// const SolutionsSection = () => {
-//   return (
-//     <section className="container pb-5">
-//       {/* Badge + Title */}
-//       <div className="text-center mb-4">
-//         <Badge
-//           pill
-//           bg="light"
-//           className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
-//         >
-//           Solution
-//         </Badge>
-//         <h2 className="fw-bold">
-//           Explore Solutions from our <br className="d-none d-md-block" />
-//           Trusted Tech Providers
-//         </h2>
-//         <p className="text-muted">
-//           Our marketplace features top-rated software and tools handpicked for
-//           scalability.
-//         </p>
-//       </div>
-
-//       {/* Search bar */}
-//       {/* <Row className="justify-content-center mb-5">
-//         <Col xs={12} md={8} lg={6}>
-//           <InputGroup>
-//             <FormControl placeholder="Type your search" />
-//             <Button variant="outline-secondary">
-//               <i className="bi bi-search"></i>
-//             </Button>
-//           </InputGroup>
-//         </Col>
-//       </Row> */}
-
-//       {/* Top two cards */}
-//       <Row className="g-4 mb-5">
-//         <Col lg={6}>
-//           <Card
-//             className="h-100 border-0 shadow-sm overflow-hidden"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Img src={trulance} alt="Grow your digital presence" />
-//             <Card.Body className="">
-//               <h4 className="fw-bold">Grow Your Digital Presence</h4>
-//               <Card.Text className="text-muted">
-//                 Launch and scale your online footprint with expert support in
-//                 web development, content creation, digital marketing, and data
-//                 analysis.
-//               </Card.Text>
-//               <a
-//                 href="https://trulance.io/"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out Trulance</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-
-//         <Col lg={6}>
-//           <Card
-//             className="h-100 border-0 shadow-sm overflow-hidden"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Img src={legalmo} alt="Simplify legal processes" />
-//             <Card.Body className="">
-//               <h4 className="fw-bold">Simplify Legal Processes</h4>
-//               <Card.Text className="text-muted">
-//                 Access reliable legal services designed for businesses, contract
-//                 creation, compliance, IP protection, and more.
-//               </Card.Text>
-//               <a
-//                 href="https://www.legalmo.biz/"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out LegalMo</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       </Row>
-
-//       {/* Bottom two sections */}
-//       <Row className="g-4">
-//         {/* All Products */}
-//         <Col lg={6}>
-//           <Card
-//             className="h-100 border-0 shadow-sm overflow-hidden"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Img src={mtn} alt="Connectivity Tools & Devices" />
-//             <Card.Body className="">
-//               <h4 className="fw-bold">Connectivity Tools & Devices</h4>
-//               <Card.Text className="text-muted">
-//                 Stay connected with enterprise-grade solutions built for
-//                 Nigerian businesses, from high-speed broadband and dedicated
-//                 networks to smart IoT devices and unified communication tools.
-//               </Card.Text>
-//               <a
-//                 href="https://shop.mtn.ng/all-products.html?affiliate_code=8thGearHub"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out MTN Solutions</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-
-//         {/* All-in-One Business Suite */}
-//         <Col lg={6}>
-//           <Card
-//             className="p-4 rounded-3 border-0 shadow-sm"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Body className="p-0">
-//               <Card.Title as="h5" className="fw-bold mb-2">
-//                 All-in-One Business Suite for Smarter Growth
-//               </Card.Title>
-//               <Card.Text as="p" className="text-muted small mb-4">
-//                 This integrated toolset helps you:
-//               </Card.Text>
-
-//               <div className="d-grid gap-2 mb-4">
-//                 {ACTIONS.map((item, i) => (
-//                   <a
-//                     key={i}
-//                     href={item.href}
-//                     className="btn btn-outline-secondary text-start d-flex justify-content-between align-items-center rounded"
-//                     style={{ padding: "0.75rem 1rem" }}
-//                   >
-//                     <span>{item.label}</span>
-//                     <i className="bi bi-arrow-right"></i>
-//                   </a>
-//                 ))}
-//               </div>
-//               <a
-//                 href="https://store.zoho.com/ResellerCustomerSignUp.do?id=42fa030e987f359f5efd652e6d6d4e9aed081382a36fde6a336d3388cdac81ab"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out Zoho Solutions</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//         <Col lg={6}>
-//           <Card
-//             className="h-100 border-0 shadow-sm overflow-hidden"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Img src={finamo} alt="Financial Systems" />
-//             <Card.Body className="">
-//               <h4 className="fw-bold">
-//                 Run Your Business on Solid Financial Systems
-//               </h4>
-
-//               <Card.Text className="text-muted">
-//                 Access reliable financial services for bookkeeping, tax
-//                 compliance, reporting, budgeting, and business structuring.
-//               </Card.Text>
-//               <a
-//                 href="https://www.finamo.biz"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out FinaMo</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//         <Col lg={6}>
-//           <Card
-//             className="h-100 border-0 shadow-sm overflow-hidden"
-//             style={{ backgroundColor: "#F6F6F6" }}
-//           >
-//             <Card.Img src={talenmo} alt="Talent Placement" />
-//             <Card.Body className="">
-//               <h4 className="fw-bold">Talent Placement Made Simple</h4>
-//               <Card.Text className="text-muted">
-//                 Access end-to-end talent sourcing, screening, training, and
-//                 placement for internships, contract, and full-time roles.
-//               </Card.Text>
-//               <a
-//                 href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 <Button variant="primary">Check out TalenMo</Button>
-//               </a>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       </Row>
-//     </section>
-//   );
-// };
-
-
-const ModernSolutionCard = ({ 
-  image, 
-  title, 
-  description, 
-  link, 
-  ctaText, 
-  variant = "screenshot", // "screenshot" or "custom"
-  accent = "#6E006A" 
-}) => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <div
-      className="position-relative overflow-hidden rounded-4 shadow-lg h-100"
-      style={{
-        transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
-        transform: isHovered ? "translateY(-8px)" : "translateY(0)",
-      }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      {/* Image Container */}
-      <div 
-        className="position-relative overflow-hidden"
-        style={{ 
-          height: variant === "screenshot" ? "280px" : "240px",
-          background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
-        }}
-      >
-        <img
-          src={image}
-          alt={title}
-          className="w-100 h-100"
-          style={{
-            objectFit: "cover",
-            transition: "transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
-            transform: isHovered ? "scale(1.05)" : "scale(1)",
-          }}
-        />
-        
-        {/* Gradient Overlay */}
-        <div
-          className="position-absolute bottom-0 start-0 w-100"
-          style={{
-            height: "120px",
-            background: `linear-gradient(to top, ${accent}ee, transparent)`,
-            opacity: isHovered ? 1 : 0.8,
-            transition: "opacity 0.3s ease",
-          }}
-        />
-      </div>
-
-      {/* Content */}
-      <div className="p-4 bg-white">
-        <h4 
-          className="fw-bold mb-3"
-          style={{
-            color: "#1a1a1a",
-            fontSize: "1.4rem",
-            lineHeight: "1.3",
-          }}
-        >
-          {title}
-        </h4>
-        
-        <p 
-          className="mb-4"
-          style={{
-            color: "#666",
-            fontSize: "0.95rem",
-            lineHeight: "1.6",
-          }}
-        >
-          {description}
-        </p>
-
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <button
-            className="btn w-100 fw-semibold d-flex align-items-center justify-content-center gap-2"
-            style={{
-              background: isHovered 
-                ? `linear-gradient(135deg, ${accent} 0%, ${accent}cc 100%)`
-                : "#fff",
-              color: isHovered ? "#fff" : accent,
-              border: `2px solid ${accent}`,
-              padding: "12px 24px",
-              borderRadius: "12px",
-              transition: "all 0.3s ease",
-              fontSize: "0.95rem",
-            }}
-          >
-            {ctaText}
-            <i className="bi bi-arrow-right" style={{ 
-              transition: "transform 0.3s ease",
-              transform: isHovered ? "translateX(4px)" : "translateX(0)"
-            }}></i>
-          </button>
-        </a>
-      </div>
-    </div>
-  );
-};
-
-// Zoho interactive card with action buttons
-const ZohoInteractiveCard = () => {
-  const [hoveredAction, setHoveredAction] = useState(null);
-
-  const ZOHO_ACTIONS = [
-    {
-      label: "Manage leads and customers",
-      icon: "people",
-      color: "#E91E63",
-      href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=ae47982fb7c4b5113a610e0121d21857",
-    },
-    {
-      label: "Automate campaigns",
-      icon: "lightning-charge",
-      color: "#9C27B0",
-      href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=b84f92df5adc867e3a5a0c4aa473792d",
-    },
-    {
-      label: "Track expenses and revenue",
-      icon: "graph-up-arrow",
-      color: "#3F51B5",
-      href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=1957eae31aff62948c7fe7f162b916b5",
-    },
-    {
-      label: "Engage visitors with chat",
-      icon: "chat-dots",
-      color: "#009688",
-      href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=d0fe091c79341ca579bdc34f362c4c35",
-    },
-  ];
-
-  return (
-    <div className="rounded-4 shadow-lg overflow-hidden h-100 bg-white">
-      {/* Header with gradient */}
-      <div
-        className="p-4 text-white position-relative overflow-hidden"
-        style={{
-          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-        }}
-      >
-        {/* Decorative elements */}
-        <div
-          className="position-absolute"
-          style={{
-            top: "-50px",
-            right: "-50px",
-            width: "200px",
-            height: "200px",
-            background: "rgba(255,255,255,0.1)",
-            borderRadius: "50%",
-          }}
-        />
-        <div
-          className="position-absolute"
-          style={{
-            bottom: "-30px",
-            left: "-30px",
-            width: "150px",
-            height: "150px",
-            background: "rgba(255,255,255,0.08)",
-            borderRadius: "50%",
-          }}
-        />
-
-        <div className="position-relative">
-          <img
-            src={zohologo}
-            alt="Zoho"
-            style={{
-              height: "48px",
-              filter: "brightness(0) invert(1)",
-              marginBottom: "16px",
-            }}
-          />
-          <h4 className="fw-bold mb-2" style={{ fontSize: "1.5rem" }}>
-            All-in-One Business Suite
-          </h4>
-          <p className="mb-0" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
-            Integrated tools for smarter growth
-          </p>
-        </div>
-      </div>
-
-      {/* Actions Grid */}
-      <div className="p-4">
-        <div className="d-grid gap-3 mb-4">
-          {ZOHO_ACTIONS.map((action, i) => (
-            <a
-              key={i}
-              href={action.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-decoration-none"
-              onMouseEnter={() => setHoveredAction(i)}
-              onMouseLeave={() => setHoveredAction(null)}
-            >
-              <div
-                className="p-3 rounded-3 d-flex align-items-center justify-content-between"
-                style={{
-                  background: hoveredAction === i 
-                    ? `${action.color}15` 
-                    : "#f8f9fa",
-                  border: `2px solid ${hoveredAction === i ? action.color : "transparent"}`,
-                  transition: "all 0.3s ease",
-                  transform: hoveredAction === i ? "translateX(8px)" : "translateX(0)",
-                }}
-              >
-                <div className="d-flex align-items-center gap-3">
-                  <div
-                    className="rounded-2 d-flex align-items-center justify-content-center"
-                    style={{
-                      width: "40px",
-                      height: "40px",
-                      background: hoveredAction === i 
-                        ? action.color 
-                        : `${action.color}20`,
-                      transition: "all 0.3s ease",
-                    }}
-                  >
-                    <i
-                      className={`bi bi-${action.icon}`}
-                      style={{
-                        fontSize: "1.2rem",
-                        color: hoveredAction === i ? "#fff" : action.color,
-                        transition: "all 0.3s ease",
-                      }}
-                    ></i>
-                  </div>
-                  <span
-                    className="fw-semibold"
-                    style={{
-                      color: hoveredAction === i ? action.color : "#333",
-                      transition: "color 0.3s ease",
-                    }}
-                  >
-                    {action.label}
-                  </span>
-                </div>
-                <i
-                  className="bi bi-arrow-right"
-                  style={{
-                    color: action.color,
-                    fontSize: "1.2rem",
-                    transition: "transform 0.3s ease",
-                    transform: hoveredAction === i ? "translateX(4px)" : "translateX(0)",
-                  }}
-                ></i>
-              </div>
-            </a>
-          ))}
-        </div>
-
-        {/* Main CTA */}
-        <a
-          href="https://store.zoho.com/ResellerCustomerSignUp.do?id=42fa030e987f359f5efd652e6d6d4e9aed081382a36fde6a336d3388cdac81ab"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button
-            variant="primary"
-            className="w-100 fw-bold py-3"
-            style={{
-              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-              border: "none",
-              borderRadius: "12px",
-              fontSize: "1rem",
-            }}
-          >
-            Explore All Zoho Solutions
-          </Button>
-        </a>
-      </div>
-    </div>
-  );
-};
-
-// Main Solutions Section
 const SolutionsSection = () => {
   return (
-    <section className="py-5" style={{ background: "#fafbfc" }}>
-      <div className="container">
-        {/* Section Header */}
-        <div className="text-center mb-5 pb-3">
-          <Badge
-            pill
-            className="px-4 py-2 mb-4"
-            style={{
-              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-              color: "white",
-              fontSize: "0.85rem",
-              fontWeight: "600",
-              letterSpacing: "0.5px",
-            }}
-          >
-            SOLUTIONS
-          </Badge>
-          
-          <h2 
-            className="fw-bold mb-3"
-            style={{
-              fontSize: "2.5rem",
-              color: "#1a1a1a",
-              lineHeight: "1.2",
-            }}
-          >
-            Explore Solutions from our
-            <br />
-            <span style={{ 
-              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}>
-              Trusted Tech Providers
-            </span>
-          </h2>
-          
-          <p 
-            className="mx-auto"
-            style={{
-              maxWidth: "600px",
-              color: "#666",
-              fontSize: "1.1rem",
-              lineHeight: "1.6",
-            }}
-          >
-            Our marketplace features top-rated software and tools handpicked for scalability
-          </p>
-        </div>
-
-        {/* Grid Layout */}
-        <Row className="g-4 mb-4">
-          {/* Trulance - Full width on mobile, half on desktop */}
-          <Col lg={6}>
-            <ModernSolutionCard
-              image={trulance}
-              title="Grow Your Digital Presence"
-              description="Launch and scale your online footprint with expert support in web development, content creation, digital marketing, and data analysis."
-              link="https://trulance.io/"
-              ctaText="Explore Trulance"
-              accent="#FF6B6B"
-            />
-          </Col>
-
-          {/* LegalMo */}
-          <Col lg={6}>
-            <ModernSolutionCard
-              image={legalmo}
-              title="Simplify Legal Processes"
-              description="Access reliable legal services designed for businesses, contract creation, compliance, IP protection, and more."
-              link="https://www.legalmo.biz/"
-              ctaText="Explore LegalMo"
-              accent="#4ECDC4"
-            />
-          </Col>
-        </Row>
-
-        <Row className="g-4 mb-4">
-          {/* MTN */}
-          <Col lg={6}>
-            <ModernSolutionCard
-              image={mtn}
-              title="Connectivity Tools & Devices"
-              description="Stay connected with enterprise-grade solutions built for Nigerian businesses, from high-speed broadband to unified communication tools."
-              link="https://shop.mtn.ng/all-products.html?affiliate_code=8thGearHub"
-              ctaText="Explore MTN Solutions"
-              accent="#FFCA28"
-            />
-          </Col>
-
-          {/* Zoho Interactive Card */}
-          <Col lg={6}>
-            <ZohoInteractiveCard />
-          </Col>
-        </Row>
-
-        <Row className="g-4">
-          {/* FinaMo */}
-          <Col lg={6}>
-            <ModernSolutionCard
-              image={finamo}
-              title="Run Your Business on Solid Financial Systems"
-              description="Access reliable financial services for bookkeeping, tax compliance, reporting, budgeting, and business structuring."
-              link="https://www.finamo.biz"
-              ctaText="Explore FinaMo"
-              accent="#9B59B6"
-            />
-          </Col>
-
-          {/* TalenMo */}
-          <Col lg={6}>
-            <ModernSolutionCard
-              image={talenmo}
-              title="Talent Placement Made Simple"
-              description="Access end-to-end talent sourcing, screening, training, and placement for internships, contract, and full-time roles."
-              link="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-              ctaText="Explore TalenMo"
-              accent="#3498DB"
-            />
-          </Col>
-        </Row>
+    <section className="container pb-5">
+      {/* Badge + Title */}
+      <div className="text-center mb-4">
+        <Badge
+          pill
+          bg="light"
+          className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
+        >
+          Solution
+        </Badge>
+        <h2 className="fw-bold">
+          Explore Solutions from our <br className="d-none d-md-block" />
+          Trusted Tech Providers
+        </h2>
+        <p className="text-muted">
+          Our marketplace features top-rated software and tools handpicked for
+          scalability.
+        </p>
       </div>
+
+      {/* Search bar */}
+      {/* <Row className="justify-content-center mb-5">
+        <Col xs={12} md={8} lg={6}>
+          <InputGroup>
+            <FormControl placeholder="Type your search" />
+            <Button variant="outline-secondary">
+              <i className="bi bi-search"></i>
+            </Button>
+          </InputGroup>
+        </Col>
+      </Row> */}
+
+      {/* Top two cards */}
+      <Row className="g-4 mb-5">
+        <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={trulance} alt="Grow your digital presence" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Grow Your Digital Presence</h4>
+              <Card.Text className="text-muted">
+                Launch and scale your online footprint with expert support in
+                web development, content creation, digital marketing, and data
+                analysis.
+              </Card.Text>
+              <a
+                href="https://trulance.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out Trulance</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={legalmo} alt="Simplify legal processes" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Simplify Legal Processes</h4>
+              <Card.Text className="text-muted">
+                Access reliable legal services designed for businesses, contract
+                creation, compliance, IP protection, and more.
+              </Card.Text>
+              <a
+                href="https://www.legalmo.biz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out LegalMo</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
+      {/* Bottom two sections */}
+      <Row className="g-4">
+        {/* All Products */}
+        <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={mtn} alt="Connectivity Tools & Devices" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Connectivity Tools & Devices</h4>
+              <Card.Text className="text-muted">
+                Stay connected with enterprise-grade solutions built for
+                Nigerian businesses, from high-speed broadband and dedicated
+                networks to smart IoT devices and unified communication tools.
+              </Card.Text>
+              <a
+                href="https://shop.mtn.ng/all-products.html?affiliate_code=8thGearHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out MTN Solutions</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        {/* All-in-One Business Suite */}
+        <Col lg={6}>
+          <Card
+            className="p-4 rounded-3 border-0 shadow-sm"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Body className="p-0">
+              <Card.Title as="h5" className="fw-bold mb-2">
+                All-in-One Business Suite for Smarter Growth
+              </Card.Title>
+              <Card.Text as="p" className="text-muted small mb-4">
+                This integrated toolset helps you:
+              </Card.Text>
+
+              <div className="d-grid gap-2 mb-4">
+                {ACTIONS.map((item, i) => (
+                  <a
+                    key={i}
+                    href={item.href}
+                    className="btn btn-outline-secondary text-start d-flex justify-content-between align-items-center rounded"
+                    style={{ padding: "0.75rem 1rem" }}
+                  >
+                    <span>{item.label}</span>
+                    <i className="bi bi-arrow-right"></i>
+                  </a>
+                ))}
+              </div>
+              <a
+                href="https://store.zoho.com/ResellerCustomerSignUp.do?id=42fa030e987f359f5efd652e6d6d4e9aed081382a36fde6a336d3388cdac81ab"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out Zoho Solutions</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={finamo} alt="Financial Systems" />
+            <Card.Body className="">
+              <h4 className="fw-bold">
+                Run Your Business on Solid Financial Systems
+              </h4>
+
+              <Card.Text className="text-muted">
+                Access reliable financial services for bookkeeping, tax
+                compliance, reporting, budgeting, and business structuring.
+              </Card.Text>
+              <a
+                href="https://www.finamo.biz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out FinaMo</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col lg={6}>
+          <Card
+            className="h-100 border-0 shadow-sm overflow-hidden"
+            style={{ backgroundColor: "#F6F6F6" }}
+          >
+            <Card.Img src={talenmo} alt="Talent Placement" />
+            <Card.Body className="">
+              <h4 className="fw-bold">Talent Placement Made Simple</h4>
+              <Card.Text className="text-muted">
+                Access end-to-end talent sourcing, screening, training, and
+                placement for internships, contract, and full-time roles.
+              </Card.Text>
+              <a
+                href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="primary">Check out TalenMo</Button>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
     </section>
   );
 };
+
+
 
 
 const TailoredSolutionsSection = () => {
