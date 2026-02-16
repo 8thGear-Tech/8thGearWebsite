@@ -393,7 +393,7 @@ const TalentAccessCTA = () => {
 const TalentApplicationSection = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const applicationLink = "https://forms.gle/kzxe9y7GswjtpQ57A";
-  const applicationDeadline = "February 15, 2026";
+  const applicationDeadline = "February 27, 2026";
 
   return (
     <section className="talent-section" id="talent-section">
