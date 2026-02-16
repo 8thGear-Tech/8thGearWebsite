@@ -40,9 +40,9 @@ const HeroSection = () => {
               <div style={{height: '60px', background: '#e0e0e0', width: '120px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.75rem', color: '#666'}}>NITDA Logo</div> */}
             </div>
             
-            <div className="hero-label mb-3">
+            {/* <div className="hero-label mb-3">
               <span className="badge-govt">Federal Government Initiative</span>
-            </div>
+            </div> */}
             <h1 className=" mb-4">
               Access <span className="text-highlight">Job-Ready AI Talent</span> for Your Business
             </h1>

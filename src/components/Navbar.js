@@ -951,7 +951,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/Deeptech_DSN_Google"
+                      href="/DeepTech_DSN_Google"
                     >
                  DeepTech Upskiling (DSN/Google)
                     </NavDropdown.Item>
@@ -1066,7 +1066,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/Deeptech_DSN_Google"
+                      href="/DeepTech_DSN_Google"
                     >
                  DeepTech Upskiling (DSN/Google)
                     </NavDropdown.Item>

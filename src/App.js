@@ -117,7 +117,7 @@ function App() {
           <Route path="GearUp" element={<GearUp />} />
           <Route path="ESP" element={<ESP />} />
           <Route path="DSE" element={<DSE />} />
-          <Route path="Deeptech_DSN_Google" element={<ThreeMTT/>} />
+          <Route path="DeepTech_DSN_Google" element={<ThreeMTT/>} />
           <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
           <Route path="meristem-lagos-green" element={<MeristemGreenLagos />} />
           <Route
