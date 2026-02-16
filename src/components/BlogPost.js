@@ -42,11 +42,7 @@ export const BlogPost = () => {
                     <h2>{text1}</h2>
                     <p>{text2} </p>
                     <p>{text3}</p>
-<<<<<<< HEAD
                     <img className="blogImage" src={bodyImage} alt="body-image"></img>
-=======
-                    <img className="blogImage" src={bodyImage} alt="blog"></img>
->>>>>>> aa3efee8dfd35f4aab7b4e9c6e2182a993eacd58
                     <p>{text4} </p>
                     <div>
                       <FacebookBtn></FacebookBtn>
@@ -108,23 +104,15 @@ export const SideBlogPost = () => {
               </div>
               <div className="offcanvas-body d-lg">
                 <header className="">
-<<<<<<< HEAD
                   <img src={heroImage} alt="hero-image"/>
-=======
-                  <img src={heroImage} alt="hero"/>
->>>>>>> aa3efee8dfd35f4aab7b4e9c6e2182a993eacd58
                 </header>
                 <div>
                   <h6 className="mt-4">{date}</h6>
                   <div className="blogBody">
                     <h2>{text1}</h2>
-                    <p>{text2} </p>
+                    <p>{text2} </p> 
                     <p>{text3}</p>
-<<<<<<< HEAD
                     <img className="blogImage" src={bodyImage} alt="body-image"></img>
-=======
-                    <img className="blogImage" src={bodyImage} alt="image"></img>
->>>>>>> aa3efee8dfd35f4aab7b4e9c6e2182a993eacd58
                     <p>{text4} </p>
                     <div>
                       <FacebookBtn></FacebookBtn>

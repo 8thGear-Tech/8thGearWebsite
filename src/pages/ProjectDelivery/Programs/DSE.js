@@ -288,7 +288,7 @@ const DSETrainingDetails = () => {
   const curriculum = [
     "Digital Competence & Mindset",
     "Entrepreneurs Mindset in Nigeria’s Digital Economy",
-    "Ideas, Opportunities and and Innovation",
+    "Ideas, Opportunities and Innovation",
     "Mobilising Resources, Talents, Technology and Partnerships",
     "Creating Online Presence",
      "Digital Marketing",
