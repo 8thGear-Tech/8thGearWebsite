@@ -224,7 +224,7 @@ const DSEWhoShouldApply = () => {
                 {
                   icon: "💼",
                   title: "Business Experience",
-                  description: "Business owners with at least 3 years of operation",
+                  description: "Own a business in operation for the past 3 years",
                   color: "#E91E63",
                 },
                 {
@@ -237,7 +237,7 @@ const DSEWhoShouldApply = () => {
                   icon: "🏪",
                   title: "Industry Focus",
                   description:
-                    "Founders in Trade, Retail, Wholesale, Hospitality, Food Services, Education, Transport & Logistics",
+                    "Founders in Trade (Retail, Wholesale, Hospitality, Food Services), Education, Transport & Logistics",
                   color: "#3F51B5",
                 },
                 {
