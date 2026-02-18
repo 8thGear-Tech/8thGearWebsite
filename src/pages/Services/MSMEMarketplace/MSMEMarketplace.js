@@ -1,4 +1,4 @@
-import { Card, Button, Row, Col, Badge, Modal } from "react-bootstrap";
+import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 import b2bImage from "../../../assets/images/tech-marketplace/b2bImage.png";
 import trulance from "../../../assets/images/tech-marketplace/trulance.png";
 import legalmo from "../../../assets/images/tech-marketplace/legalmo.png";
@@ -9,8 +9,8 @@ import legalmologo from "../../../assets/images/tech-marketplace/legalmo-logo.pn
 import trulancelogo from "../../../assets/images/tech-marketplace/trulance-logo.png";
 import mtnlogo from "../../../assets/images/tech-marketplace/mtn-logo.png";
 import zohologo from "../../../assets/images/tech-marketplace/zoho-logo.png";
-import crmlogo from "../../../assets/images/tech-marketplace/crm.png";
-import eighthgearlogo from "../../../LOGO/8thgearlogo.png";
+// import crmlogo from "../../../assets/images/tech-marketplace/crm.png";
+// import eighthgearlogo from "../../../LOGO/8thgearlogo.png";
 import partnerwithus from "../../../assets/images/tech-marketplace/partnerwithus.png";
 import tailoredsolution from "../../../assets/images/tech-marketplace/tailoredsolution.png";
 import { HomepageNav } from "../../../components/Navbar"; 
@@ -19,7 +19,7 @@ import saveTimeIcon from "../../../assets/images/tech-marketplace/save-time.png"
 import getItRightIcon from "../../../assets/images/tech-marketplace/get-it-right.png";
 import simplicityIcon from "../../../assets/images/tech-marketplace/simplicity.png";
 import scaleEasilyIcon from "../../../assets/images/tech-marketplace/scale-easily.png";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 // export const TasterSessionModal = () => {
 //   const [showModal, setShowModal] = useState(false);
