@@ -21,363 +21,363 @@ import simplicityIcon from "../../../assets/images/tech-marketplace/simplicity.p
 import scaleEasilyIcon from "../../../assets/images/tech-marketplace/scale-easily.png";
 import { useEffect, useState } from "react";
 
-export const TasterSessionModal = () => {
-  const [showModal, setShowModal] = useState(false);
-  const [showBanner, setShowBanner] = useState(false);
+// export const TasterSessionModal = () => {
+//   const [showModal, setShowModal] = useState(false);
+//   const [showBanner, setShowBanner] = useState(false);
 
-  useEffect(() => {
-    // Check if modal has been shown in this session
-    const hasSeenModal = sessionStorage.getItem('hasSeenTasterModal');
+//   useEffect(() => {
+//     // Check if modal has been shown in this session
+//     const hasSeenModal = sessionStorage.getItem('hasSeenTasterModal');
     
-    if (!hasSeenModal) {
-      // Show modal only if user hasn't seen it
-      setShowModal(true);
-    } else {
-      // If they've already seen it, show banner instead
-      setShowBanner(true);
-    }
-  }, []);
+//     if (!hasSeenModal) {
+//       // Show modal only if user hasn't seen it
+//       setShowModal(true);
+//     } else {
+//       // If they've already seen it, show banner instead
+//       setShowBanner(true);
+//     }
+//   }, []);
 
 
-  const handleCloseModal = () => {
-    setShowModal(false);
-    setShowBanner(true);
-    // Mark that user has seen the modal in this session
-    sessionStorage.setItem('hasSeenTasterModal', 'true');
-  };
+//   const handleCloseModal = () => {
+//     setShowModal(false);
+//     setShowBanner(true);
+//     // Mark that user has seen the modal in this session
+//     sessionStorage.setItem('hasSeenTasterModal', 'true');
+//   };
 
-  const handleCloseBanner = () => {
-    setShowBanner(false);
-  };
+//   const handleCloseBanner = () => {
+//     setShowBanner(false);
+//   };
 
-  return (
-    <>
-      {/* Modal */}
-      <Modal
-        show={showModal}
-        onHide={handleCloseModal}
-        size="md"
-        centered
-        className="zoho-modal"
-      >
-        <Modal.Body
-          className="p-0"
-          style={{ borderRadius: "16px", overflow: "hidden" }}
-        >
-          {/* Header Section - White background for colorful logos */}
-          <div
-            className="px-4 py-3"
-            style={{
-              background: "#fff",
-              borderBottom: "3px solid #6E006A",
-            }}
-          >
-            <div className="d-flex justify-content-between align-items-center">
-              {/* 8thGear x Zoho Logos */}
-              <div className="d-flex align-items-center gap-3">
-                <img
-                  src={eighthgearlogo}
-                  alt="8thGear Hub"
-                  style={{ height: "60px" }}
-                />
-                <span
-                  style={{
-                    color: "#6E006A",
-                    fontWeight: "bold",
-                    fontSize: "1.6rem",
-                  }}
-                >
-                  ×
-                </span>
-                <img src={zohologo} alt="Zoho CRM" style={{ height: "50px" }} />
-              </div>
+//   return (
+//     <>
+//       {/* Modal */}
+//       <Modal
+//         show={showModal}
+//         onHide={handleCloseModal}
+//         size="md"
+//         centered
+//         className="zoho-modal"
+//       >
+//         <Modal.Body
+//           className="p-0"
+//           style={{ borderRadius: "16px", overflow: "hidden" }}
+//         >
+//           {/* Header Section - White background for colorful logos */}
+//           <div
+//             className="px-4 py-3"
+//             style={{
+//               background: "#fff",
+//               borderBottom: "3px solid #6E006A",
+//             }}
+//           >
+//             <div className="d-flex justify-content-between align-items-center">
+//               {/* 8thGear x Zoho Logos */}
+//               <div className="d-flex align-items-center gap-3">
+//                 <img
+//                   src={eighthgearlogo}
+//                   alt="8thGear Hub"
+//                   style={{ height: "60px" }}
+//                 />
+//                 <span
+//                   style={{
+//                     color: "#6E006A",
+//                     fontWeight: "bold",
+//                     fontSize: "1.6rem",
+//                   }}
+//                 >
+//                   ×
+//                 </span>
+//                 <img src={zohologo} alt="Zoho CRM" style={{ height: "50px" }} />
+//               </div>
 
-              <button
-                onClick={handleCloseModal}
-                className="btn-close"
-                style={{ fontSize: "0.8rem" }}
-              />
-            </div>
-          </div>
+//               <button
+//                 onClick={handleCloseModal}
+//                 className="btn-close"
+//                 style={{ fontSize: "0.8rem" }}
+//               />
+//             </div>
+//           </div>
 
-          {/* Content Section */}
-          <div className="px-4 py-3" style={{ background: "#fff" }}>
-            {/* Title */}
-            <div className="text-center mb-3">
-              <p
-                className="mb-3"
-                style={{
-                  color: "#6E006A",
-                  fontWeight: "600",
-                  fontSize: "0.85rem",
-                }}
-              >
-                YOU'RE INVITED TO OUR UPCOMING
-              </p>
+//           {/* Content Section */}
+//           <div className="px-4 py-3" style={{ background: "#fff" }}>
+//             {/* Title */}
+//             <div className="text-center mb-3">
+//               <p
+//                 className="mb-3"
+//                 style={{
+//                   color: "#6E006A",
+//                   fontWeight: "600",
+//                   fontSize: "0.85rem",
+//                 }}
+//               >
+//                 YOU'RE INVITED TO OUR UPCOMING
+//               </p>
 
-              {/* Zoho CRM Logo - Smaller */}
-              <div className="mb-3 d-flex justify-content-center">
-                <img src={crmlogo} alt="Zoho CRM" style={{ height: "60px" }} />
-              </div>
+//               {/* Zoho CRM Logo - Smaller */}
+//               <div className="mb-3 d-flex justify-content-center">
+//                 <img src={crmlogo} alt="Zoho CRM" style={{ height: "60px" }} />
+//               </div>
 
-              <h4
-                className="fw-bold mb-3"
-                style={{
-                  color: "#9B1B96",
-                  fontSize: "1.4rem",
-                }}
-              >
-                Taster Session
-              </h4>
-            </div>
+//               <h4
+//                 className="fw-bold mb-3"
+//                 style={{
+//                   color: "#9B1B96",
+//                   fontSize: "1.4rem",
+//                 }}
+//               >
+//                 Taster Session
+//               </h4>
+//             </div>
 
-            {/* Benefits */}
-            <div className="mb-3">
-              <p
-                className="mb-2 small"
-                style={{ color: "#333", fontWeight: "500" }}
-              >
-                See how Zoho CRM helps you:
-              </p>
-              <div className="row g-2">
-                {[
-                  { text: "Organize customers", color: "#E91E63" },
-                  { text: "Automate follow-ups", color: "#9C27B0" },
-                  { text: "Track sales", color: "#3F51B5" },
-                  { text: "Grow smarter", color: "#009688" },
-                ].map((item, i) => (
-                  <div className="col-6" key={i}>
-                    <div
-                      className="p-2 text-white rounded d-flex align-items-center"
-                      style={{
-                        background: item.color,
-                        fontSize: "0.8rem",
-                      }}
-                    >
-                      <span
-                        className="me-2"
-                        style={{
-                          width: "6px",
-                          height: "6px",
-                          background: "#fff",
-                          borderRadius: "50%",
-                          display: "inline-block",
-                        }}
-                      />
-                      <span className="fw-semibold">{item.text}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+//             {/* Benefits */}
+//             <div className="mb-3">
+//               <p
+//                 className="mb-2 small"
+//                 style={{ color: "#333", fontWeight: "500" }}
+//               >
+//                 See how Zoho CRM helps you:
+//               </p>
+//               <div className="row g-2">
+//                 {[
+//                   { text: "Organize customers", color: "#E91E63" },
+//                   { text: "Automate follow-ups", color: "#9C27B0" },
+//                   { text: "Track sales", color: "#3F51B5" },
+//                   { text: "Grow smarter", color: "#009688" },
+//                 ].map((item, i) => (
+//                   <div className="col-6" key={i}>
+//                     <div
+//                       className="p-2 text-white rounded d-flex align-items-center"
+//                       style={{
+//                         background: item.color,
+//                         fontSize: "0.8rem",
+//                       }}
+//                     >
+//                       <span
+//                         className="me-2"
+//                         style={{
+//                           width: "6px",
+//                           height: "6px",
+//                           background: "#fff",
+//                           borderRadius: "50%",
+//                           display: "inline-block",
+//                         }}
+//                       />
+//                       <span className="fw-semibold">{item.text}</span>
+//                     </div>
+//                   </div>
+//                 ))}
+//               </div>
+//             </div>
 
-            {/* Date and Time */}
-            <div
-              className="text-center py-3 mb-3 rounded"
-              style={{
-                background: "linear-gradient(135deg, #F5E6F5 0%, #E8D4E8 100%)",
-              }}
-            >
-              <div className="d-flex justify-content-center align-items-center gap-3">
-                <div>
-                  <p
-                    className="mb-0 fw-bold"
-                    style={{ color: "#6E006A", fontSize: "0.9rem" }}
-                  >
-                    Wednesday
-                  </p>
-                  <h5 className="mb-0 fw-bold" style={{ color: "#6E006A" }}>
-                    18th Feb, 2026
-                  </h5>
-                </div>
-                <div
-                  style={{
-                    width: "2px",
-                    height: "40px",
-                    background: "#6E006A",
-                    opacity: "0.3",
-                  }}
-                />
-                <div>
-                  <p
-                    className="mb-0 fw-bold"
-                    style={{ color: "#6E006A", fontSize: "0.9rem" }}
-                  >
-                    🕐 Time
-                  </p>
-                  <h5 className="mb-0 fw-bold" style={{ color: "#6E006A" }}>
-                    4:00 PM WAT
-                  </h5>
-                </div>
-              </div>
-            </div>
+//             {/* Date and Time */}
+//             <div
+//               className="text-center py-3 mb-3 rounded"
+//               style={{
+//                 background: "linear-gradient(135deg, #F5E6F5 0%, #E8D4E8 100%)",
+//               }}
+//             >
+//               <div className="d-flex justify-content-center align-items-center gap-3">
+//                 <div>
+//                   <p
+//                     className="mb-0 fw-bold"
+//                     style={{ color: "#6E006A", fontSize: "0.9rem" }}
+//                   >
+//                     Wednesday
+//                   </p>
+//                   <h5 className="mb-0 fw-bold" style={{ color: "#6E006A" }}>
+//                     18th Feb, 2026
+//                   </h5>
+//                 </div>
+//                 <div
+//                   style={{
+//                     width: "2px",
+//                     height: "40px",
+//                     background: "#6E006A",
+//                     opacity: "0.3",
+//                   }}
+//                 />
+//                 <div>
+//                   <p
+//                     className="mb-0 fw-bold"
+//                     style={{ color: "#6E006A", fontSize: "0.9rem" }}
+//                   >
+//                     🕐 Time
+//                   </p>
+//                   <h5 className="mb-0 fw-bold" style={{ color: "#6E006A" }}>
+//                     4:00 PM WAT
+//                   </h5>
+//                 </div>
+//               </div>
+//             </div>
 
-            {/* CTA Button - Not rounded */}
-            <div className="text-center mb-3">
-              <a
-                href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-lg w-100 fw-bold"
-                style={{
-                  background:
-                    "linear-gradient(135deg, #6E006A 0%, #9B1B96 100%)",
-                  color: "white",
-                  borderRadius: "8px",
-                  border: "none",
-                  padding: "12px",
-                  fontSize: "1rem",
-                  transition: "all 0.3s ease",
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "translateY(-2px)";
-                  e.currentTarget.style.boxShadow =
-                    "0 8px 20px rgba(110, 0, 106, 0.3)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "translateY(0)";
-                  e.currentTarget.style.boxShadow = "none";
-                }}
-              >
-                Register Now →
-              </a>
-            </div>
+//             {/* CTA Button - Not rounded */}
+//             <div className="text-center mb-3">
+//               <a
+//                 href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//                 className="btn btn-lg w-100 fw-bold"
+//                 style={{
+//                   background:
+//                     "linear-gradient(135deg, #6E006A 0%, #9B1B96 100%)",
+//                   color: "white",
+//                   borderRadius: "8px",
+//                   border: "none",
+//                   padding: "12px",
+//                   fontSize: "1rem",
+//                   transition: "all 0.3s ease",
+//                 }}
+//                 onMouseEnter={(e) => {
+//                   e.currentTarget.style.transform = "translateY(-2px)";
+//                   e.currentTarget.style.boxShadow =
+//                     "0 8px 20px rgba(110, 0, 106, 0.3)";
+//                 }}
+//                 onMouseLeave={(e) => {
+//                   e.currentTarget.style.transform = "translateY(0)";
+//                   e.currentTarget.style.boxShadow = "none";
+//                 }}
+//               >
+//                 Register Now →
+//               </a>
+//             </div>
 
-            {/* Footer with Social Icons */}
-            <div className="text-center">
-              <div className="d-flex justify-content-center align-items-center gap-2">
-                <p className="mb-0 small text-muted">📞 +234 913 246 2410</p>
-                <span className="text-muted">|</span>
-                <div className="d-flex align-items-center gap-2">
-                  <a
-                    href="https://www.linkedin.com/company/msme-marketplace"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#6E006A" }}
-                  >
-                    <i
-                      className="bi bi-linkedin"
-                      style={{ fontSize: "1.1rem" }}
-                    ></i>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/msme_marketplace"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#6E006A" }}
-                  >
-                    <i
-                      className="bi bi-instagram"
-                      style={{ fontSize: "1.1rem" }}
-                    ></i>
-                  </a>
-                  <span className="small text-muted">@msme_marketplace</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Modal.Body>
-      </Modal>
+//             {/* Footer with Social Icons */}
+//             <div className="text-center">
+//               <div className="d-flex justify-content-center align-items-center gap-2">
+//                 <p className="mb-0 small text-muted">📞 +234 913 246 2410</p>
+//                 <span className="text-muted">|</span>
+//                 <div className="d-flex align-items-center gap-2">
+//                   <a
+//                     href="https://www.linkedin.com/company/msme-marketplace"
+//                     target="_blank"
+//                     rel="noopener noreferrer"
+//                     style={{ color: "#6E006A" }}
+//                   >
+//                     <i
+//                       className="bi bi-linkedin"
+//                       style={{ fontSize: "1.1rem" }}
+//                     ></i>
+//                   </a>
+//                   <a
+//                     href="https://www.instagram.com/msme_marketplace"
+//                     target="_blank"
+//                     rel="noopener noreferrer"
+//                     style={{ color: "#6E006A" }}
+//                   >
+//                     <i
+//                       className="bi bi-instagram"
+//                       style={{ fontSize: "1.1rem" }}
+//                     ></i>
+//                   </a>
+//                   <span className="small text-muted">@msme_marketplace</span>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </Modal.Body>
+//       </Modal>
 
-      {/* Sticky Banner */}
-      {showBanner && (
-  <div
-    className="w-100 py-2 px-3"
-    style={{
-      top: 0,
-      background: "linear-gradient(90deg, #6E006A 0%, #9B1B96 100%)",
-      zIndex: 1050,
-      boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
-    }}
-  >
-    <div className="container">
-      {/* Desktop layout - single row */}
-      <div className="d-none d-md-flex justify-content-between align-items-center">
-        <div className="d-flex align-items-center gap-3 text-white">
-          <img
-            src={crmlogo}
-            alt="Zoho CRM"
-            style={{ height: "28px", filter: "brightness(0) invert(1)" }}
-          />
-          <span className="fw-semibold">
-            Taster Session • <strong>Feb 18, 2026 | 4PM WAT</strong>
-          </span>
-        </div>
-        <div className="d-flex align-items-center gap-2">
-          <a
-            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-sm fw-semibold"
-            style={{
-              background: "white",
-              color: "#6E006A",
-              borderRadius: "8px",
-              padding: "8px 24px",
-              fontSize: "0.9rem",
-              border: "none",
-            }}
-          >
-            Register Now →
-          </a>
-          <button
-            onClick={handleCloseBanner}
-            className="btn-close btn-close-white"
-            aria-label="Close"
-            style={{ fontSize: "0.6rem" }}
-          />
-        </div>
-      </div>
+//       {/* Sticky Banner */}
+//       {showBanner && (
+//   <div
+//     className="w-100 py-2 px-3"
+//     style={{
+//       top: 0,
+//       background: "linear-gradient(90deg, #6E006A 0%, #9B1B96 100%)",
+//       zIndex: 1050,
+//       boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+//     }}
+//   >
+//     <div className="container">
+//       {/* Desktop layout - single row */}
+//       <div className="d-none d-md-flex justify-content-between align-items-center">
+//         <div className="d-flex align-items-center gap-3 text-white">
+//           <img
+//             src={crmlogo}
+//             alt="Zoho CRM"
+//             style={{ height: "28px", filter: "brightness(0) invert(1)" }}
+//           />
+//           <span className="fw-semibold">
+//             Taster Session • <strong>Feb 18, 2026 | 4PM WAT</strong>
+//           </span>
+//         </div>
+//         <div className="d-flex align-items-center gap-2">
+//           <a
+//             href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="btn btn-sm fw-semibold"
+//             style={{
+//               background: "white",
+//               color: "#6E006A",
+//               borderRadius: "8px",
+//               padding: "8px 24px",
+//               fontSize: "0.9rem",
+//               border: "none",
+//             }}
+//           >
+//             Register Now →
+//           </a>
+//           <button
+//             onClick={handleCloseBanner}
+//             className="btn-close btn-close-white"
+//             aria-label="Close"
+//             style={{ fontSize: "0.6rem" }}
+//           />
+//         </div>
+//       </div>
 
-      {/* Mobile layout - stacked */}
-      <div className="d-flex d-md-none flex-column gap-2">
-        {/* Top row: logo, text, close button */}
-        <div className="d-flex justify-content-between align-items-center">
-          <div className="d-flex align-items-center gap-2 text-white">
-            <img
-              src={crmlogo}
-              alt="Zoho CRM"
-              style={{ height: "24px", filter: "brightness(0) invert(1)" }}
-            />
-            <div className="d-flex flex-column" style={{ lineHeight: "1.3" }}>
-              <span className="fw-semibold" style={{ fontSize: "0.85rem" }}>
-                Taster Session
-              </span>
-              <strong style={{ fontSize: "0.8rem" }}>Feb 18, 2026 | 4PM WAT</strong>
-            </div>
-          </div>
-          <button
-            onClick={handleCloseBanner}
-            className="btn-close btn-close-white"
-            aria-label="Close"
-            style={{ fontSize: "0.6rem" }}
-          />
-        </div>
+//       {/* Mobile layout - stacked */}
+//       <div className="d-flex d-md-none flex-column gap-2">
+//         {/* Top row: logo, text, close button */}
+//         <div className="d-flex justify-content-between align-items-center">
+//           <div className="d-flex align-items-center gap-2 text-white">
+//             <img
+//               src={crmlogo}
+//               alt="Zoho CRM"
+//               style={{ height: "24px", filter: "brightness(0) invert(1)" }}
+//             />
+//             <div className="d-flex flex-column" style={{ lineHeight: "1.3" }}>
+//               <span className="fw-semibold" style={{ fontSize: "0.85rem" }}>
+//                 Taster Session
+//               </span>
+//               <strong style={{ fontSize: "0.8rem" }}>Feb 18, 2026 | 4PM WAT</strong>
+//             </div>
+//           </div>
+//           <button
+//             onClick={handleCloseBanner}
+//             className="btn-close btn-close-white"
+//             aria-label="Close"
+//             style={{ fontSize: "0.6rem" }}
+//           />
+//         </div>
 
-        {/* Bottom row: register button (full width) */}
-        <a
-          href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-sm fw-semibold w-100"
-          style={{
-            background: "white",
-            color: "#6E006A",
-            borderRadius: "8px",
-            padding: "8px",
-            fontSize: "0.85rem",
-            border: "none",
-          }}
-        >
-          Register Now →
-        </a>
-      </div>
-    </div>
-  </div>
-)}
-    </>
-  );
-};
+//         {/* Bottom row: register button (full width) */}
+//         <a
+//           href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
+//           target="_blank"
+//           rel="noopener noreferrer"
+//           className="btn btn-sm fw-semibold w-100"
+//           style={{
+//             background: "white",
+//             color: "#6E006A",
+//             borderRadius: "8px",
+//             padding: "8px",
+//             fontSize: "0.85rem",
+//             border: "none",
+//           }}
+//         >
+//           Register Now →
+//         </a>
+//       </div>
+//     </div>
+//   </div>
+// )}
+//     </>
+//   );
+// };
 
 const MSMEMarketplace = () => {
    return (

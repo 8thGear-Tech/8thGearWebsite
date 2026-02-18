@@ -40,7 +40,7 @@ import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
-import MSMEMarketplace, { TasterSessionModal } from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
+import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -99,7 +99,7 @@ import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
 function App() {
   return (
     <BrowserRouter>
-    <TasterSessionModal/>
+    {/* <TasterSessionModal/> */}
       <FooterItemToTop>
         <Routes>
           <Route path="/" element={<Home />} />
