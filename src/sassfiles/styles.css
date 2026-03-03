@@ -110,10 +110,6 @@ body {
 
 .LinkedInBtn {
   background-color: rgb(12, 97, 191);
-  border-radius: 2.1875rem;
-  color: white;
-  width: 9rem;
-  height: 2.8125rem;
 }
 .LinkedInBtn:hover {
   background-color: rgb(12, 97, 191);
@@ -123,6 +119,12 @@ body {
   background-color: rgb(12, 97, 191);
   color: #ffffff;
 }
+.LinkedInBtn {
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
+}
 
 .icon {
   margin-right: 0.5rem;
@@ -130,10 +132,6 @@ body {
 
 .InstagramBtn {
   background-color: rgb(216, 43, 117);
-  border-radius: 2.1875rem;
-  color: white;
-  width: 9rem;
-  height: 2.8125rem;
 }
 .InstagramBtn:hover {
   background-color: rgb(216, 43, 117);
@@ -143,13 +141,15 @@ body {
   background-color: rgb(216, 43, 117);
   color: #ffffff;
 }
-
-.ShareBtn {
-  background-color: rgb(183, 255, 65);
+.InstagramBtn {
   border-radius: 2.1875rem;
   color: white;
   width: 9rem;
   height: 2.8125rem;
+}
+
+.ShareBtn {
+  background-color: rgb(183, 255, 65);
 }
 .ShareBtn:hover {
   background-color: rgb(183, 255, 65);
@@ -158,6 +158,12 @@ body {
 .ShareBtn:focus {
   background-color: rgb(183, 255, 65);
   color: #ffffff;
+}
+.ShareBtn {
+  border-radius: 2.1875rem;
+  color: white;
+  width: 9rem;
+  height: 2.8125rem;
 }
 
 .BlogReadMoreBtn {
@@ -3678,19 +3684,19 @@ header {
   font-weight: 700;
 }
 
-.text-decoration {
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--white);
-  line-height: 1.75rem;
-  font-family: "Open Sans", sans-serif;
-}
 .text-decoration:hover {
   border-bottom: 0.125rem solid #821e6b;
 }
 .text-decoration:focus {
   font-weight: 600;
   border-bottom: 0.125rem solid #821e6b;
+}
+.text-decoration {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .border-right {
