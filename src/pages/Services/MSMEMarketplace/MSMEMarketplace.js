@@ -286,7 +286,7 @@ const SolutionsSection = () => {
                 ))}
               </div>
               <a href="/msme-marketplace/zoho">
-                   <Button>View Zoho Solutions</Button>
+                   <Button>Check out Zoho Solutions</Button>
               </a>
             </Card.Body>
           </Card>
