@@ -88,7 +88,7 @@ export const NewFooter = () => (
       <div className="ft-mob-wrap ft-mob">
         <img src={logo} alt="8thGear" style={{ width: "120px", marginBottom: "0.75rem" }} />
         <p className="ft-tagline" style={{ marginBottom: "1rem" }}>
-          Your trusted partner in venture building — guiding startups towards sustainable growth.
+         Your trusted partner in venture building, guiding startups and businesses towards sustainable growth and success, developing a thriving ecosystem for enterpreneurs
         </p>
         <div className="ft-addr-card mb-2">
           <div className="d-flex align-items-start gap-2">
