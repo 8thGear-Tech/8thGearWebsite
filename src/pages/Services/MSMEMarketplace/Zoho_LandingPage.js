@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 import { motion, useInView } from "framer-motion";
