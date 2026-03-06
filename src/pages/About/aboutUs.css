@@ -1,4 +1,4 @@
-.about-hero-background {
+/* .about-hero-background {
   background-image: url("../About/image/about-img.jpg");
   background-size: cover;
   background-position: center;
@@ -11,6 +11,112 @@
 
 .heroAbout {
   margin-top: 300px;
+} */
+
+/* ── Hero Section ─────────────────────────────── */
+.heroAbout-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* Animated gradient line at bottom */
+.heroAbout-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #1a988f,
+    #c0258f,
+    #f4a01c,
+    #7b2d8b,
+    #1a988f
+  );
+  background-size: 200% 100%;
+  animation: gradientSlide 4s linear infinite;
+}
+
+@keyframes gradientSlide {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* Glows */
+.hero-glow {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(120px);
+  z-index: 0;
+}
+
+.hero-glow--teal {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(26, 152, 143, 0.15) 0%, transparent 70%);
+  top: -150px;
+  left: -100px;
+}
+
+.hero-glow--magenta {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(192, 37, 143, 0.12) 0%, transparent 70%);
+  bottom: -120px;
+  right: -80px;
+}
+
+/* Content */
+.heroAbout {
+  position: relative;
+  z-index: 1;
+  padding: 0 1.5rem;
+  max-width: 780px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #1a988f;
+  border: 1px solid rgba(26, 152, 143, 0.3);
+  border-radius: 100px;
+  padding: 5px 16px;
+  margin-bottom: 1.5rem;
+}
+
+.animated-text {
+  font-size: 2.9rem;
+  line-height: 1.22;
+  color: #0f2020 !important;
+  margin: 0;
+  font-weight: 700;
+}
+
+.hero-highlight {
+  color: #c0258f !important;
+}
+
+@media (max-width: 768px) {
+  .animated-text { font-size: 2.1rem; }
+  .heroAbout-wrapper { min-height: 100svh; }
+}
+
+@media (max-width: 425px) {
+  .animated-text { font-size: 1.75rem; }
 }
 
 .animated-text {
