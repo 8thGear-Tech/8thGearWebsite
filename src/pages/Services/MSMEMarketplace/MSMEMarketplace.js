@@ -285,12 +285,8 @@ const SolutionsSection = () => {
                   </a>
                 ))}
               </div>
-              <a
-                href="https://store.zoho.com/ResellerCustomerSignUp.do?id=42fa030e987f359f5efd652e6d6d4e9aed081382a36fde6a336d3388cdac81ab"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out Zoho Solutions</Button>
+              <a href="/msme-marketplace/zoho">
+                   <Button>View Zoho Solutions</Button>
               </a>
             </Card.Body>
           </Card>

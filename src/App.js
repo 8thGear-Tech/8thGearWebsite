@@ -41,6 +41,7 @@ import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
+import ZohoLandingPage from "./pages/Services/MSMEMarketplace/Zoho_LandingPage";
 //Initiatives
 import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 import DigiPlus from "./pages/DigiPlus";
@@ -154,6 +155,7 @@ function App() {
           <Route path="talent-placement" element={<TalentPlacement />} />
           <Route path="hub-membership" element={<HubMembership />} />
           <Route path="msme-marketplace" element={<MSMEMarketplace />} />
+          <Route path="/msme-marketplace/zoho" element={<ZohoLandingPage />} />
           <Route path="FAQ" element={<FAQ />} />
 
           <Route path="about" element={<AboutUs />} />
