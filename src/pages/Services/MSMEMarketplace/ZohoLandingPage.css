@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600&display=swap');
-
-/* ── CSS Variables ─────────────────────────── */
-:root {
+/* ── Variables scoped to zoho-page only ──────── */
+.zoho-page {
   --pink:        #920f84;
   --pink-dark:   #6b0a60;
   --pink-mid:    #b8178a;
@@ -18,13 +16,8 @@
   --shadow-md:   0 8px 32px rgba(146, 15, 132, 0.14);
   --shadow-lg:   0 20px 60px rgba(146, 15, 132, 0.18);
   --transition:  all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-/* ── Base ──────────────────────────────────── */
-* { box-sizing: border-box; }
-
-.zoho-page {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   color: var(--text-dark);
 }
 

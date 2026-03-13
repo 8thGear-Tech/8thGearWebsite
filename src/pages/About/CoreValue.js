@@ -69,7 +69,7 @@ const CoreValue = () => {
                 style={{ maxWidth: "100px" }}
               />
               <h4 className="card-title text-center mt-2">Vision</h4>
-              <p className="card-text mt-4 text-black">{Values.vision}</p>
+              <p className="card-text mt-4">{Values.vision}</p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const CoreValue = () => {
                 style={{ maxWidth: "100px" }}
               />
               <h4 className="card-title text-center mt-2">Mission</h4>
-              <p className="card-text mt-4 text-black">{Values.mission}</p>
+              <p className="card-text mt-4">{Values.mission}</p>
             </div>
           </div>
         </div>
