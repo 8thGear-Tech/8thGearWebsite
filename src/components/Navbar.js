@@ -931,6 +931,12 @@ export const HomepageNav = () => {
                       Meristem Lagos Green
                     </NavDropdown.Item>
                     <NavDropdown.Item
+                      href="/iDICE"
+                      className="dropdown-item-separated"
+                    >
+                    iDICE
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
                       href="/DBN"
                       className="dropdown-item-separated"
                     >
@@ -1044,6 +1050,12 @@ export const HomepageNav = () => {
                       href="/meristem-lagos-green"
                     >
                       Meristem Lagos Green
+                    </NavDropdown.Item>
+                     <NavDropdown.Item
+                      href="/iDICE"
+                      className="dropdown-item-separated"
+                    >
+                    iDICE
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       href="/DBN"

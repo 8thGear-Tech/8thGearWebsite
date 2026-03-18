@@ -31,7 +31,7 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
-// //Hub Services
+//Hub Services
 // import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
 // import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
 // import HubServicesLegal from "./pages/Services/HubServicesLegal";
@@ -42,7 +42,7 @@ import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
 import ZohoLandingPage from "./pages/Services/MSMEMarketplace/Zoho_LandingPage";
-//Initiatives
+// //Initiatives
 // import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 // import DigiPlus from "./pages/DigiPlus";
 
@@ -106,7 +106,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="our-model" element={<OurModelPage />} />
           {/* <Route path="portfolio" element={<PortfolioPage />} /> */}
-          {/* <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} /> */}
+             {/* <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} /> */}
           {/* <Route path="innkeeper" element={<InnkeeperPortfolioPage />} /> */}
           {/* <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} /> */}
           {/* <Route path="haven" element={<HavenPortfolioPage />} /> */}
@@ -142,14 +142,14 @@ function App() {
 
           {/* New ventureStudio  */}
           <Route path="portfolio" element={<VentureStudio />} />
-{/* 
-          <Route
+
+          {/* <Route
             path="digitalmarketing"
             element={<HubServicesDigitalMarketing />}
-          />
-          <Route path="accounting" element={<HubServicesAccounting />} />
-          <Route path="legal" element={<HubServicesLegal />} />
-          <Route path="product-development" element={<HubServicesTech />} /> */}
+          /> */}
+          {/* <Route path="accounting" element={<HubServicesAccounting />} /> */}
+          {/* <Route path="legal" element={<HubServicesLegal />} /> */}
+          {/* <Route path="product-development" element={<HubServicesTech />} /> */}
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
