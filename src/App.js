@@ -9,12 +9,12 @@ import FooterItemToTop from "./components/FooterItemToTop";
 
 //Studio
 import OurModelPage from "./pages/Studio/ourModel";
-import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
-import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
-import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
-import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
-import LegalMoPortfolioPage from "./pages/Studio/LegalMoPortfolio";
-import TrulancePortfolioPage from "./pages/Studio/TrulancePortfolio";
+// import InnkeeperPortfolioPage from "./pages/Studio/InnkeeperPortfolio";
+// import HavenPortfolioPage from "./pages/Studio/HavenPortfolio";
+// import MindAfrikPortfolioPage from "./pages/Studio/MindAfrikPortfolio";
+// import EaseSoilessPortfolioPage from "./pages/Studio/EaseSoilessPortfolio";
+// import LegalMoPortfolioPage from "./pages/Studio/LegalMoPortfolio";
+// import TrulancePortfolioPage from "./pages/Studio/TrulancePortfolio";
 import VentureStudio from "./pages/ventureStudio/ventureStudio";
 
 //Project Delivery
@@ -31,11 +31,11 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import LSETFGalleryPage from "./pages/Events/LSETFVisitGallery";
 // import USADFGalleryPage from "./pages/Events/usadfGallery";
 
-//Hub Services
-import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
-import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
-import HubServicesLegal from "./pages/Services/HubServicesLegal";
-import HubServicesTech from "./pages/Services/HubServicesTech";
+// //Hub Services
+// import HubServicesDigitalMarketing from "./pages/Services/HubServicesDigitalMarketing";
+// import HubServicesAccounting from "./pages/Services/HubServicesAccounting";
+// import HubServicesLegal from "./pages/Services/HubServicesLegal";
+// import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
 import TalentPlacement from "./pages/Services/TalentPlacement";
@@ -43,8 +43,8 @@ import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
 import ZohoLandingPage from "./pages/Services/MSMEMarketplace/Zoho_LandingPage";
 //Initiatives
-import FUTATechpic from "./pages/Initiatives/FUTATechpic";
-import DigiPlus from "./pages/DigiPlus";
+// import FUTATechpic from "./pages/Initiatives/FUTATechpic";
+// import DigiPlus from "./pages/DigiPlus";
 
 //WhoWeAre
 import TeamPage from "./pages/WhoWeAre/TeamPage";
@@ -61,7 +61,7 @@ import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGal
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
-import {  NewFooter } from "./components/newFooter";
+import { NewFooter } from "./components/newFooter";
 
 
 // NewEvent PAge
@@ -106,12 +106,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="our-model" element={<OurModelPage />} />
           {/* <Route path="portfolio" element={<PortfolioPage />} /> */}
-          <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} />
-          <Route path="innkeeper" element={<InnkeeperPortfolioPage />} />
-          <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} />
-          <Route path="haven" element={<HavenPortfolioPage />} />
-          <Route path="legalmo" element={<LegalMoPortfolioPage />} />
-          <Route path="trulance" element={<TrulancePortfolioPage />} />
+          {/* <Route path="ease-soiless" element={<EaseSoilessPortfolioPage />} /> */}
+          {/* <Route path="innkeeper" element={<InnkeeperPortfolioPage />} /> */}
+          {/* <Route path="mind-afrik" element={<MindAfrikPortfolioPage />} /> */}
+          {/* <Route path="haven" element={<HavenPortfolioPage />} /> */}
+          {/* <Route path="legalmo" element={<LegalMoPortfolioPage />} /> */}
+          {/* <Route path="trulance" element={<TrulancePortfolioPage />} /> */}
           <Route path="initiatives" element={<ProjectDeliveryPage />} />
           <Route path="DBN" element={<DBN />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
@@ -137,19 +137,19 @@ function App() {
           />
           <Route path="ITF-training-gallery" element={<ITFGalleryPage />} />
           {/* <Route path="hub-services" element={<HubServicesPage />} /> */}
-          <Route path="FUTA-techpic" element={<FUTATechpic />} />
-          <Route path="digiplus" element={<DigiPlus />} />
+          {/* <Route path="FUTA-techpic" element={<FUTATechpic />} /> */}
+          {/* <Route path="digiplus" element={<DigiPlus />} /> */}
 
           {/* New ventureStudio  */}
           <Route path="portfolio" element={<VentureStudio />} />
-
+{/* 
           <Route
             path="digitalmarketing"
             element={<HubServicesDigitalMarketing />}
           />
           <Route path="accounting" element={<HubServicesAccounting />} />
           <Route path="legal" element={<HubServicesLegal />} />
-          <Route path="product-development" element={<HubServicesTech />} />
+          <Route path="product-development" element={<HubServicesTech />} /> */}
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
           <Route path="talent-placement" element={<TalentPlacement />} />

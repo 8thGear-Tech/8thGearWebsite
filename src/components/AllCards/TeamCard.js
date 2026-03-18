@@ -604,19 +604,19 @@ export const Gerians = () => {
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardone.map((card) => {
-            return <TeamCard {...card}></TeamCard>;
+            return <TeamCard key={card.id}></TeamCard>;
           })}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardtwo.map((card) => {
-            return <TeamCardTwo {...card}></TeamCardTwo>;
+            return <TeamCardTwo key={card.id}></TeamCardTwo>;
           })}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardthree.map((card) => {
-            return <TeamCardThree {...card}></TeamCardThree>;
+            return <TeamCardThree key={card.id}></TeamCardThree>;
           })}
         </div>
       </div>
@@ -625,25 +625,25 @@ export const Gerians = () => {
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfour.map((card) => {
-            return <TeamCardFour {...card}></TeamCardFour>;
+            return <TeamCardFour key={card.id}></TeamCardFour>;
           })}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfive.map((card) => {
-            return <TeamCardFive {...card}></TeamCardFive>;
+            return <TeamCardFive key={card.id}></TeamCardFive>;
           })}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardsix.map((card) => {
-            return <TeamCardSix {...card}></TeamCardSix>;
+            return <TeamCardSix key={card.id}></TeamCardSix>;
           })}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           
           {data.teamcardseven.map((card) => {
-            return <TeamCardSeven {...card}></TeamCardSeven>;
+            return <TeamCardSeven key={card.id}></TeamCardSeven>;
           })}
         </div>
        
