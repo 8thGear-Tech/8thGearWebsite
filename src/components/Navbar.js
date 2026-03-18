@@ -934,7 +934,7 @@ export const HomepageNav = () => {
                       href="/iDICE"
                       className="dropdown-item-separated"
                     >
-                    iDICE
+                    BOI/iDICE Startup Bridge
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       href="/DBN"
@@ -942,12 +942,7 @@ export const HomepageNav = () => {
                     >
                      DBN/ETP (Workshops & Grants)
                     </NavDropdown.Item>
-                    <NavDropdown.Item
-                      href="/IDICE"
-                      className="dropdown-item-separated"
-                    >
-                     IDICE Founders Lab
-                    </NavDropdown.Item>
+                    
                     <NavDropdown.Item
                       href="/migrant-advisory-desk"
                       className="dropdown-item-separated"
@@ -1057,11 +1052,11 @@ export const HomepageNav = () => {
                     >
                       Meristem Lagos Green
                     </NavDropdown.Item>
-                     <NavDropdown.Item
+                    <NavDropdown.Item
                       href="/iDICE"
                       className="dropdown-item-separated"
                     >
-                    iDICE
+                    BOI/iDICE Startup Bridge
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       href="/DBN"
@@ -1069,12 +1064,7 @@ export const HomepageNav = () => {
                     >
                      DBN/ETP (Workshops & Grants)
                     </NavDropdown.Item>
-                    <NavDropdown.Item
-                      href="/IDICE"
-                      className="dropdown-item-separated"
-                    >
-                     IDICE Founders Lab
-                    </NavDropdown.Item>
+                   
                     <NavDropdown.Item
                       href="/migrant-advisory-desk"
                       className="dropdown-item-separated"
