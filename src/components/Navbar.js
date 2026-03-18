@@ -943,6 +943,12 @@ export const HomepageNav = () => {
                      DBN/ETP (Workshops & Grants)
                     </NavDropdown.Item>
                     <NavDropdown.Item
+                      href="/IDICE"
+                      className="dropdown-item-separated"
+                    >
+                     IDICE Founders Lab
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
                       href="/migrant-advisory-desk"
                       className="dropdown-item-separated"
                     >
@@ -1062,6 +1068,12 @@ export const HomepageNav = () => {
                       className="dropdown-item-separated"
                     >
                      DBN/ETP (Workshops & Grants)
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
+                      href="/IDICE"
+                      className="dropdown-item-separated"
+                    >
+                     IDICE Founders Lab
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       href="/migrant-advisory-desk"
