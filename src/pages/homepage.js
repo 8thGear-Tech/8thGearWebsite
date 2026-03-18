@@ -126,28 +126,26 @@ const Service = () => {
             <div className="card-body pb-3 px-3">
               <h4 className="card-text mt-4">Hub Services</h4>
               <p className="">
-                Empowering your venture with{" "}
+              Supporting your venture with{" "}
                 <Link
                   to="/growth-advisory"
                   style={{ color: "#000", textDecoration: "none" }}
                 >
-                  Growth-Advisory
+                  Growth-Advisory,{" "}
                 </Link>
-                ,{" "}
-                <Link
-                  to="/talent-placement"
-                  style={{ color: "#000", textDecoration: "none" }}
-                >
-                  Talent Placement
-                </Link>{" "}
-                & collaborative{" "}
                 <Link
                   to="/coworking"
                   style={{ color: "#000", textDecoration: "none" }}
                 >
                   Co-working
                 </Link>{" "}
-                services.
+                services & B2B solutions in our {" "}
+               <Link
+                  to="/msme-marketplace"
+                  style={{ color: "#000", textDecoration: "none" }}
+                >
+                 MSME Marketplace
+                </Link>.{" "}
               </p>
             </div>
           </div>

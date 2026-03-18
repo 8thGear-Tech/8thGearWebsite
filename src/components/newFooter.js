@@ -1,552 +1,138 @@
-//images
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
-import { Accordion, Container, Row, Col } from "react-bootstrap";
-import { FiPhone, FiMail } from "react-icons/fi"; // Feather icons
+import { Accordion, Container } from "react-bootstrap";
+import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 import "../sassfiles/components/_footer.scss";
 import { FaXTwitter } from "react-icons/fa6";
-
 import "./newFooter.css";
 
-export const NewFooter = () => {
-  return (
-    <footer style={{ backgroundColor: "#F2E9EE" }}>
-      <Container className="py-5 mt-5">
-        <div className="d-none d-lg-block">
-          <Row className="mb-4">
-            <Col lg={2} className="mb-3">
-              <img src={logo} alt="Brand Logo" style={{ width: "150px" }} />
-            </Col>
-            <Col lg={4} className="mb-3">
-              <p className="text-dark" style={{ fontSize: "0.9rem" }}>
-                8thGear is your trusted partner in venture building, guiding
-                startups and businesses towards sustainable growth and success,
-                developing a thriving ecosystem for enterpreneurs
-              </p>
-              <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
-                <FiPhone className="me-2" style={{ color: "#008261" }} />
-                <span>
-                  <a
-                    href="tel:2349132462410"
-                    className="me-2 text-dark text-decoration-none"
-                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                  >
-                    +234 913 246 2410
-                  </a>
-                </span>
-              </p>
+export const NewFooter = () => (
+  <footer className="ft">
+    <Container>
 
-              <p className="text-dark mb-3" style={{ fontSize: "0.85rem" }}>
-                <FiMail className="me-2" style={{ color: "#008261" }} />
-                <span className="text-dark">
-                  <a
-                    href="mailto:info@8thgearpartners.com"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                  >
-                    info@8thgearpartners.com
-                  </a>
-                </span>
-              </p>
-              <div className="d-flex">
-                <a
-                  href="https://www.facebook.com/8thgearhub"
-                  className="text-dark me-3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-facebook" style={{ color: "#008261" }} />
-                </a>
-                <a
-                  href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
-                  className="text-dark me-3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaXTwitter style={{ color: "#008261" }} />
-                </a>
+      <div className="ft-grid ft-desktop">
 
-                <a
-                  href="https://www.linkedin.com/company/8thgearhub/"
-                  className="text-dark me-3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-linkedin" style={{ color: "#008261" }} />
-                </a>
-                <a
-                  href="https://www.instagram.com/8thgearhub/"
-                  className="text-dark"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-instagram" style={{ color: "#008261" }} />
-                </a>
-              </div>
-            </Col>
-            <Col lg={2} className="mb-3">
-              {/* <h5 className="text-dark mb-3">Company</h5> */}
-              <ul className="list-unstyled">
-                <li>
-                  <Link
-                    to="/about"
-                    className="text-dark text-decoration-none fw-light"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/initiatives"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Initiatives
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/resources"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Resources &amp; Materials
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/insights"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Insights &amp; Publications
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/events"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Events
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link
-                    to="/FAQ"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    FAQ
-                  </Link>
-                </li> */}
-              </ul>
-            </Col>
-            <Col lg={2} className="mb-3">
-              <h5 className="text-dark mb-3">Hub Services</h5>
-              <ul className="list-unstyled">
-                <li>
-                  <Link
-                    to="/msme-marketplace"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                  MSME Marketplace
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/growth-advisory"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Growth Advisory
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/coworking"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Co-working
-                  </Link>
-                </li>
-               
-                
-              </ul>
-            </Col>
-            <Col lg={2} className="mb-3">
-              <h5 className="text-dark mb-3">Venture Studio</h5>
-              <ul className="list-unstyled">
-                <li>
-                  <Link
-                    to="/portfolio"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/hub-membership"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Hub Membership
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-dark text-decoration-none"
-                    style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                  >
-                    Community
-                  </a>
-                </li>
-              </ul>
-            </Col>
-          </Row>
+        {/* Col 1 – Logo + tagline + socials */}
+        <div>
+          <img src={logo} alt="8thGear" style={{ width: "125px" }} />
+          <p className="ft-tagline">
+            Your trusted partner in venture building, guiding startups and businesses towards sustainable growth and success, developing a thriving ecosystem for enterpreneurs
+          </p>
+          <div className="ft-socials">
+            <a href="https://www.facebook.com/8thgearhub" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook" /></a>
+            <a href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg" className="ft-social" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
+            <a href="https://www.linkedin.com/company/8thgearhub/" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin" /></a>
+            <a href="https://www.instagram.com/8thgearhub/" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram" /></a>
+          </div>
         </div>
-        <div className="d-block d-lg-none">
-          <Row className="mb-4">
-            <Col xs={12}>
-              <div className="d-flex flex-column flex-md-row align-items-start gap-3">
-                <img src={logo} alt="Brand Logo" style={{ width: "150px" }} />
-                <div>
-                  <p className="text-dark" style={{ fontSize: "0.9rem" }}>
-                    8thGear is your trusted partner in venture building, guiding
-                    startups and businesses towards sustainable growth and
-                    success, developing a thriving ecosystem for enterpreneurs
-                  </p>
-                  {/* <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
-                    <FiPhone className="me-2" style={{ color: "#008261" }} />
-                    <span
-                      style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                    >
-                      <a
-                        href="tel:2349132462410"
-                        className="me-2 text-decoration-none"
-                      >
-                      +234 913 246 2410
-                      </a>
-                      <a
-                        href="tel:2348094818882"
-                        className="text-dark text-decoration-none"
-                      >
-                        +2348094818882
-                      </a>
-                    </span>
-                  </p> */}
 
-                  <p className="text-dark mb-1" style={{ fontSize: "0.85rem" }}>
-                    <FiPhone className="me-2" style={{ color: "#008261" }} />
-                    <span>
-                      <a
-                        href="tel:+2349132462410"
-                        className="me-2 text-dark text-decoration-none"
-                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                      >
-                        +234 913 246 2410
-                      </a>
-                    </span>
-                  </p>
-
-                  <p className="text-dark mb-3" style={{ fontSize: "0.85rem" }}>
-                    <FiMail className="me-2" />
-                    <span className="text-dark">
-                      <a
-                        href="mailto:info@8thgearpartners.com"
-                        className="text-dark text-decoration-none"
-                        style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                      >
-                        info@8thgearpartners.com
-                      </a>
-                    </span>
-                  </p>
-                  <div className="d-flex">
-                    <a
-                      href="https://www.facebook.com/8thgearhub"
-                      className="text-dark me-3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i
-                        className="bi bi-facebook"
-                        style={{ color: "#008261" }}
-                      />
-                    </a>
-                    <a
-                      href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg"
-                      className="text-dark me-3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaXTwitter style={{ color: "#008261" }} />
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/company/8thgearhub/"
-                      className="text-dark me-3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i
-                        className="bi bi-linkedin"
-                        style={{ color: "#008261" }}
-                      />
-                    </a>
-                    <a
-                      href="https://www.instagram.com/8thgearhub/"
-                      className="text-dark"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i
-                        className="bi bi-instagram"
-                        style={{ color: "#008261" }}
-                      />
-                    </a>
-                  </div>
-                </div>
+        {/* Col 2 – Offices + contact */}
+        <div>
+          <p className="ft-col-head">Our Offices</p>
+          <div className="ft-addr-card">
+            <div className="d-flex align-items-start gap-2">
+              <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
+              <div>
+                <p className="ft-addr-name">8thGear HQ</p>
+                <p className="ft-addr-text">41 CMD Road, Secretariat/Magodo, Lagos</p>
               </div>
-            </Col>
-          </Row>
-          <Accordion>
-            <Accordion.Item eventKey="0">
-              {/* <Accordion.Header>Company</Accordion.Header> */}
-              <Accordion.Body style={{ backgroundColor: "transparent" }}>
-                <ul className="list-unstyled">
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/about"
-                      className="text-dark text-decoration-none fw-light"
-                      style={{ fontSize: "0.9rem", fontFamily: "open-sans" }}
-                    >
-                      About Us
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/initiatives"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Initiatives
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/resources"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Resources &amp; Materials
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/insights"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Insights &amp; Publications
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/events"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Events
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/FAQ"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      FAQ
-                    </Link>
-                  </li>
-                </ul>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Hub Services</Accordion.Header>
-              <Accordion.Body style={{ backgroundColor: "transparent" }}>
-                <ul className="list-unstyled">
-                   <li>
-                    <Link
-                    to="/msme-marketplace"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      MSME Marketplace
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/growth-advisory"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Growth Advisory
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/coworking"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Co-working
-                    </Link>
-                  </li>
-                
-                 
-                </ul>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>Venture Studio</Accordion.Header>
-              <Accordion.Body style={{ backgroundColor: "transparent" }}>
-                <ul className="list-unstyled">
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/portfolio"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Portfolio
-                    </Link>
-                  </li>
-                  <li
-                    style={{
-                      borderBottom: "1px solid #e0e0e0",
-                      paddingBottom: "0.5rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    <Link
-                      to="/hub-membership"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Hub Membership
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-dark text-decoration-none"
-                      style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-                    >
-                      Community
-                    </a>
-                  </li>
-                </ul>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </div>
-        <Row>
-          <Col>
-            <div className="d-flex flex-column flex-lg-row justify-content-lg-start align-items-start align-items-lg-center mt-4 flex-wrap">
-              <Link
-                to="/privacy-policy"
-                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                to="/terms-and-conditions"
-                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-              >
-                Terms &amp; Conditions
-              </Link>
-              <Link
-                to="/refund-policy"
-                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-              >
-                Refund Policy
-              </Link>
-              <Link
-                to="/genderpolicy"
-                className="text-dark text-decoration-none mb-2 mb-lg-0 me-lg-3"
-                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-              >
-                Gender Policy
-              </Link>
-              <p
-                className="mb-0 text-dark text-start ms-lg-5 ps-lg-5"
-                style={{ fontSize: "0.85rem", fontFamily: "open-sans" }}
-              >
-                © 2025 8thGear Partners Ltd. All rights reserved.
-              </p>
             </div>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
-  );
-};
+          </div>
+          <div className="ft-addr-card">
+            <div className="d-flex align-items-start gap-2">
+              <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
+              <div>
+                <p className="ft-addr-name">8thGear Ondo Liaison Office</p>
+                <p className="ft-addr-text">Technology Park and Incubation Centre (TechPIC), Federal University of Technology, Akure, Ondo</p>
+              </div>
+            </div>
+          </div>
+          <hr className="ft-inner-divider" />
+          <p className="ft-col-head">Get in Touch</p>
+          <div className="ft-contact-item"><FiPhone size={12} /><a href="tel:2349132462410">+234 913 246 2410</a></div>
+          <div className="ft-contact-item"><FiMail size={12} /><a href="mailto:info@8thgearpartners.com">info@8thgearpartners.com</a></div>
+        </div>
+
+        {/* Col 3 – Hub Services + Explore */}
+        <div>
+          <p className="ft-col-head">Hub Services</p>
+          <Link to="/msme-marketplace" className="ft-nav-link">MSME Marketplace</Link>
+          <Link to="/growth-advisory" className="ft-nav-link">Growth Advisory</Link>
+          <Link to="/coworking" className="ft-nav-link">Co-working</Link>
+          <hr className="ft-inner-divider" />
+          <p className="ft-col-head">Explore</p>
+          <Link to="/about" className="ft-nav-link">About Us</Link>
+          <Link to="/initiatives" className="ft-nav-link">Initiatives</Link>
+          <Link to="/resources" className="ft-nav-link">Resources &amp; Materials</Link>
+          <Link to="/insights" className="ft-nav-link">Insights &amp; Publications</Link>
+          <Link to="/events" className="ft-nav-link">Events</Link>
+        </div>
+
+        {/* Col 4 – Venture Studio + Legal */}
+        <div>
+          <p className="ft-col-head">Venture Studio</p>
+          <Link to="/portfolio" className="ft-nav-link">Portfolio</Link>
+          <Link to="/hub-membership" className="ft-nav-link">Hub Membership</Link>
+          <a href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer" className="ft-nav-link">Community</a>
+          <hr className="ft-inner-divider" />
+          <p className="ft-col-head">Legal</p>
+          <Link to="/privacy-policy" className="ft-nav-link">Privacy Policy</Link>
+          <Link to="/terms-and-conditions" className="ft-nav-link">Terms &amp; Conditions</Link>
+          <Link to="/refund-policy" className="ft-nav-link">Refund Policy</Link>
+          <Link to="/genderpolicy" className="ft-nav-link">Gender Policy</Link>
+        </div>
+
+      </div>
+
+      {/* ── MOBILE ── */}
+      <div className="ft-mob-wrap ft-mob">
+        <img src={logo} alt="8thGear" style={{ width: "120px", marginBottom: "0.75rem" }} />
+        <p className="ft-tagline" style={{ marginBottom: "1rem" }}>
+         Your trusted partner in venture building, guiding startups and businesses towards sustainable growth and success, developing a thriving ecosystem for enterpreneurs
+        </p>
+        <div className="ft-addr-card mb-2">
+          <div className="d-flex align-items-start gap-2">
+            <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
+            <div><p className="ft-addr-name">8thGear HQ</p><p className="ft-addr-text">41 CMD Road, Secretariat/Magodo, Lagos</p></div>
+          </div>
+        </div>
+        <div className="ft-addr-card mb-2">
+          <div className="d-flex align-items-start gap-2">
+            <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
+            <div><p className="ft-addr-name">8thGear Ondo Liaison Office</p><p className="ft-addr-text">Technology Park and Incubation Centre (TechPIC), Federal University of Technology, Akure.</p></div>
+          </div>
+        </div>
+        <div className="ft-contact-item mt-2"><FiPhone size={12} /><a href="tel:+2349132462410">+234 913 246 2410</a></div>
+        <div className="ft-contact-item" style={{ marginBottom: "1rem" }}><FiMail size={12} /><a href="mailto:info@8thgearpartners.com">info@8thgearpartners.com</a></div>
+        <div className="ft-socials mb-4">
+          <a href="https://www.facebook.com/8thgearhub" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook" /></a>
+          <a href="https://twitter.com/8thGearHub?s=20&t=Ttt07nAvnFJbTFVGup2Ugg" className="ft-social" target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
+          <a href="https://www.linkedin.com/company/8thgearhub/" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin" /></a>
+          <a href="https://www.instagram.com/8thgearhub/" className="ft-social" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram" /></a>
+        </div>
+        <Accordion>
+          {[
+            { key: "0", label: "Hub Services", links: [{ to: "/msme-marketplace", l: "MSME Marketplace" }, { to: "/growth-advisory", l: "Growth Advisory" }, { to: "/coworking", l: "Co-working" }] },
+            { key: "1", label: "Explore", links: [{ to: "/about", l: "About Us" }, { to: "/initiatives", l: "Initiatives" }, { to: "/resources", l: "Resources & Materials" }, { to: "/insights", l: "Insights & Publications" }, { to: "/events", l: "Events" }] },
+            { key: "2", label: "Venture Studio", links: [{ to: "/portfolio", l: "Portfolio" }, { to: "/hub-membership", l: "Hub Membership" }] },
+            { key: "3", label: "Legal", links: [{ to: "/privacy-policy", l: "Privacy Policy" }, { to: "/terms-and-conditions", l: "Terms & Conditions" }, { to: "/refund-policy", l: "Refund Policy" }, { to: "/genderpolicy", l: "Gender Policy" }] },
+          ].map(({ key, label, links }) => (
+            <Accordion.Item key={key} eventKey={key}>
+              <Accordion.Header>{label}</Accordion.Header>
+              <Accordion.Body>
+                {links.map(({ to, l }) => <Link key={to} to={to} className="ft-nav-link">{l}</Link>)}
+                {key === "2" && <a href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer" className="ft-nav-link">Community</a>}
+              </Accordion.Body>
+            </Accordion.Item>
+          ))}
+        </Accordion>
+      </div>
+
+      {/* ── COPYRIGHT BAR ── */}
+      <div className="ft-copy-bar">
+        <p className="ft-copy">© 2026 8thGear Partners Ltd. All rights reserved.</p>
+      </div>
+
+    </Container>
+  </footer>
+);

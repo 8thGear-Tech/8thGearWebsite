@@ -139,8 +139,8 @@ export const Partners = () => (
 const JointheTeam = () => {
   return (
     <>
-      <div className="container-fluid py-3 px-lg-5 px-md-5 ">
-        <div className="row mt-lg-5 mb-lg-3 mx-lg-3 px-5 justify-content-center ">
+      <div className="container-fluid pt-3 pb-5 px-lg-5 px-md-3">
+        <div className="row mt-lg-5 mb-lg-3 mx-lg-3 px-3 justify-content-center ">
           <div className="col-lg-8">
             <h3 className="text-center pb-2">Join the 8thGear Team</h3>
             <p className="text-center" style={{ fontSize: "1rem" }}>
