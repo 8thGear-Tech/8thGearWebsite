@@ -931,11 +931,18 @@ export const HomepageNav = () => {
                       Meristem Lagos Green
                     </NavDropdown.Item>
                     <NavDropdown.Item
+                      href="/iDICE"
+                      className="dropdown-item-separated"
+                    >
+                    BOI/iDICE Startup Bridge
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
                       href="/DBN"
                       className="dropdown-item-separated"
                     >
                      DBN/ETP (Workshops & Grants)
                     </NavDropdown.Item>
+                    
                     <NavDropdown.Item
                       href="/migrant-advisory-desk"
                       className="dropdown-item-separated"
@@ -1046,11 +1053,18 @@ export const HomepageNav = () => {
                       Meristem Lagos Green
                     </NavDropdown.Item>
                     <NavDropdown.Item
+                      href="/iDICE"
+                      className="dropdown-item-separated"
+                    >
+                    BOI/iDICE Startup Bridge
+                    </NavDropdown.Item>
+                    <NavDropdown.Item
                       href="/DBN"
                       className="dropdown-item-separated"
                     >
                      DBN/ETP (Workshops & Grants)
                     </NavDropdown.Item>
+                   
                     <NavDropdown.Item
                       href="/migrant-advisory-desk"
                       className="dropdown-item-separated"

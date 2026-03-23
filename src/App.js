@@ -61,7 +61,7 @@ import { FoundersPictureGalleryCardsTwo } from "./pages/Events/foundersMeetupGal
 import DemoDayGalleryPage from "./pages/Events/demoDayGallery";
 import GearUpExposePage from "./pages/Events/GearUp/gearUpExpose";
 import GearUpShowcasePage from "./pages/Events/GearUp/gearUpShowcase";
-import {  NewFooter } from "./components/newFooter";
+import { NewFooter } from "./components/newFooter";
 
 
 // NewEvent PAge
@@ -89,6 +89,7 @@ import FAQ from "./components/FAQ";
 import { Insights } from "./pages/Insights/insights";
 import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
 import DBN from "./pages/ProjectDelivery/Programs/DBN";
+import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 import ESP from "./pages/ProjectDelivery/Programs/ESP";
@@ -114,6 +115,7 @@ function App() {
           {/* <Route path="trulance" element={<TrulancePortfolioPage />} /> */}
           <Route path="initiatives" element={<ProjectDeliveryPage />} />
           <Route path="DBN" element={<DBN />} />
+          <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="ESP" element={<ESP />} />

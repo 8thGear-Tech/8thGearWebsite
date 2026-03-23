@@ -65,7 +65,7 @@ const SliderComponent = () => {
           <div className="scroll-container">
             <div className="scroll-content">
               {slidesData.map((slide, index) => (
-                <a href={slide.link}>
+                <a key={index} href={slide.link}>
                   <Card key={index} className="scroll-card slideCard mb-5">
                     <Card.Img
                       variant="top"
@@ -91,32 +91,57 @@ const SliderComponent = () => {
               ))}
               {/* Repeat the content to create an infinite scroll illusion */}
               {slidesData.map((slide, index) => (
-                <a href={slide.link}>
-                  <Card
-                    key={index + slidesData.length}
-                    className="scroll-card slideCard"
-                  >
-                    <Card.Img
-                      variant="top"
-                      src={slide.image}
-                      className="img-fluid ImgCard"
-                    />
-                    <Card.Body className="rounded-bottom bodyBG text-white">
-                      <Card.Title className="fs-5 mb-0 text-white text-center">
-                        {slide.title}
-                      </Card.Title>
-                      <Card.Text className="fs-6 mb-1 text-center">
-                        {slide.staff}
-                      </Card.Text>
-                      <a href={slide.link}>
-                        <div className="text-center" style={{ color: "#fff" }}>
-                          {" "}
-                          <LinkedInIcon />
-                        </div>
-                      </a>
-                    </Card.Body>
-                  </Card>
-                </a>
+
+                <a key={index} href={slide.link} target="_blank" rel="noopener noreferrer">
+  <Card className="scroll-card slideCard mb-5">
+    <Card.Img
+      variant="top"
+      src={slide.image}
+      className="img-fluid ImgCard"
+    />
+
+    <Card.Body className="rounded-bottom bodyBG text-white">
+      <Card.Title className="fs-5 mb-0 text-white text-center">
+        {slide.title}
+      </Card.Title>
+
+      <Card.Text className="fs-6 mb-1 text-center">
+        {slide.staff}
+      </Card.Text>
+
+      {/* NOT an anchor anymore */}
+      <div className="text-center" style={{ color: "#fff" }}>
+        <LinkedInIcon />
+      </div>
+    </Card.Body>
+  </Card>
+</a>
+                // <a key={`duplicate-${index}`} href={slide.link}>
+                //   <Card
+                //     key={index + slidesData.length}
+                //     className="scroll-card slideCard"
+                //   >
+                //     <Card.Img
+                //       variant="top"
+                //       src={slide.image}
+                //       className="img-fluid ImgCard"
+                //     />
+                //     <Card.Body className="rounded-bottom bodyBG text-white">
+                //       <Card.Title className="fs-5 mb-0 text-white text-center">
+                //         {slide.title}
+                //       </Card.Title>
+                //       <Card.Text className="fs-6 mb-1 text-center">
+                //         {slide.staff}
+                //       </Card.Text>
+                //       <a href={slide.link}>
+                //         <div className="text-center" style={{ color: "#fff" }}>
+                //           {" "}
+                //           <LinkedInIcon />
+                //         </div>
+                //       </a>
+                //     </Card.Body>
+                //   </Card>
+                // </a>
               ))}
             </div>
           </div>
