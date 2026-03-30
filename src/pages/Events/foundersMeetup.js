@@ -1,4 +1,4 @@
-import { Navbar15  } from "../../components/Navbar";
+import { HomepageNav, Navbar15  } from "../../components/Navbar";
 // import { FoundersMeetupHero } from "../../components/Hero/BGColorandTextHero";
 
 import { Image } from "react-bootstrap";
@@ -16,7 +16,7 @@ import "../../sassfiles/pages/_foundersMeet.scss";
 const FounderMeetupPage = () => {
   return (
     <>
-      <Navbar15 />
+       <HomepageNav/>
       {/* <HomepageNav /> */}
       {/* <DemodayHero /> */}
       <FounderMeetupHero />

@@ -21,7 +21,7 @@ const slidesData = [
   {
     image: "/images/team/rotimi.jpg",
     title: "Rotimi Owowa",
-    staff: "Director",
+    staff: "Board Chairman",
     link: "https://www.linkedin.com/in/rotimi-owowa-bab8b113/",
   },
   {
@@ -35,12 +35,6 @@ const slidesData = [
     title: "Seyi Bioku",
     staff: "Advisor & Board Secretary",
     link: "https://www.linkedin.com/in/seyi-bioku-870539116/",
-  },
-  {
-    image: "/images/advisoryImage/morenikejibuari.png",
-    title: "Morenikeji Buari",
-    staff: "Finance Advisor",
-    link: "https://www.linkedin.com/in/morenikeji-dayo-adebanjo-buari-fca-acit-mba-3b5b4172/",
   },
   {
     image: "/images/advisoryImage/Sholeye.jpg",

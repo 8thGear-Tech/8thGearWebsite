@@ -10,16 +10,13 @@
     },
     {
       "id": 3,
-      "image": "../../images/team/morenikejibuari.png"
-    },
-    {
-      "id": 4,
       "image": "../../images/team/sutinyang.png"
     },
     {
-      "id": 5,
-      "image": "../../images/team/seyibioku.png"
+       "id": 4,
+       "image": "../../images/team/seyibioku.png"
     }
+   
   ],
   "FirstHoverCard": [
     {
@@ -36,22 +33,16 @@
       "position": "STRATEGY ADVISOR",
       "link": "https://linkedin.com/"
     },
+  
     {
       "id": 3,
-      "image": "../images/advisoryImage/morenikejibuari.png",
-      "name": "MORENIKEJI BUARI",
-      "position": "FINANCE ADVISOR",
-      "link": "https://www.linkedin.com/in/morenikeji-dayo-adebanjo-buari-fca-acit-mba-3b5b4172/"
-    },
-    {
-      "id": 4,
       "image": "../images/advisoryImage/sutinyang.png",
       "name": "SUTIN YANG",
       "position": "PARTNERSHIPS ADVISOR",
       "link": "https://www.linkedin.com/in/sutiny/"
     },
     {
-      "id": 5,
+      "id": 4,
       "image": "../images/advisoryImage/seyibioku.png",
       "name": "SEYI BIOKU",
       "position": "ADVISOR & BOARD SECRETARY",
@@ -85,14 +76,14 @@
       "image": "../../images/projectdelivery/employability.jpg",
       "title": "EMPLOYABILITY",
       "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
-      "link": "https://www.linkedin.com/in/morenikeji-adebanjo-buari-fca-mba-acit-3b5b4172/"
+      "link": "https://www.linkedin.com/"
     },
     {
       "id": 5,
       "image": "../../images/projectdelivery/employability.jpg",
       "title": "TALENT ACQUISITION",
       "text": "The Venture Studio model for entrepreneurship, combining comapny building with venture funding.",
-      "link": "https://www.linkedin.com/in/morenikeji-adebanjo-buari-fca-mba-acit-3b5b4172/"
+      "link": "https://www.linkedin.com/"
     }
   ]
 }
