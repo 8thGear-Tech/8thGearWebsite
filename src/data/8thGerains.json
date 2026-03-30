@@ -29,15 +29,6 @@
   ],
   "teamcardfour": [
    {
-      "image1": "../../images/team/clementalenoghena.png",
-      "name1": "CLEMENT ALENOGHENA",
-      "title1": "FINANCE & ACC. ASSOCIATE",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/clement-alenoghena-a05604312"
-    }
-  ],
-  "teamcardfive": [
-    {
      "image1": "../../images/team/oluwatobi.jpg",
       "name1": "OLUWATOBILOBA ADEBOLA",
       "title1": "PROGRAMS ANALYST",
@@ -45,7 +36,7 @@
       "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
-  "teamcardsix": [
+  "teamcardfive": [
    {
      "image1": "../../images/team/mercy.png",
       "name1": "MERCY ADEGEYE",
@@ -54,8 +45,8 @@
       "link": "https://www.linkedin.com/in/boluwatife-mercy/"
     }
   ],
-  "teamcardseven": [
-       {
+  "teamcardsix": [
+     {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
       "id": "staticBackdrop7"
