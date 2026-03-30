@@ -335,72 +335,72 @@ export const TeamCardFive = (props) => {
   );
 };
 
-export const TeamCardSix = (props) => {
-  const { image1, name1, title1, id, image, name, position, text, link } =
-    props;
-  return (
-    <>
-      <div className="card-deck">
-        <div className="card w-100 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
-          <div className="card-body teamcardbody">
-            <figure className="text-center">
-              <figcaption className="card-text mt-1">{name1}</figcaption>
-              <p className="Text mb-3 mt-3">{title1}</p>
-            </figure>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <div className="text-center">
-                {" "}
-                <LinkedInIcon />
-              </div>
-            </a>
+// export const TeamCardSix = (props) => {
+//   const { image1, name1, title1, id, image, name, position, text, link } =
+//     props;
+//   return (
+//     <>
+//       <div className="card-deck">
+//         <div className="card w-100 mx-auto ">
+//           <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+//           <div className="card-body teamcardbody">
+//             <figure className="text-center">
+//               <figcaption className="card-text mt-1">{name1}</figcaption>
+//               <p className="Text mb-3 mt-3">{title1}</p>
+//             </figure>
+//             <a href={link} target="_blank" rel="noopener noreferrer">
+//               <div className="text-center">
+//                 {" "}
+//                 <LinkedInIcon />
+//               </div>
+//             </a>
            
-            <div
-              className="modal fade"
-              id={id}
-              data-bs-backdrop="static"
-              data-bs-keyboard="false"
-              tabIndex="-1"
-              aria-labelledby="staticBackdropLabel"
-              aria-hidden="true"
-            >
-              <div className="modal-dialog">
-                <div className="modal-content">
-                  <div className="d-flex justify-content-between mx-4 my-2">
-                    {/* <img src={logo} width={40} id="staticBackdropLabel" al/> */}
-                    <button
-                      type="button"
-                      className="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
+//             <div
+//               className="modal fade"
+//               id={id}
+//               data-bs-backdrop="static"
+//               data-bs-keyboard="false"
+//               tabIndex="-1"
+//               aria-labelledby="staticBackdropLabel"
+//               aria-hidden="true"
+//             >
+//               <div className="modal-dialog">
+//                 <div className="modal-content">
+//                   <div className="d-flex justify-content-between mx-4 my-2">
+//                     {/* <img src={logo} width={40} id="staticBackdropLabel" al/> */}
+//                     <button
+//                       type="button"
+//                       className="btn-close"
+//                       data-bs-dismiss="modal"
+//                       aria-label="Close"
+//                     ></button>
+//                   </div>
 
-                  <div className="cards" key={id}>
-                    <img src={image} className="w-25 mb-4" alt="..." />
-                    <h4>{name}</h4>
-                    <h6 className="">{position}</h6>
-                    <a href={link} target="_blank" rel="noopener noreferrer">
-                      <div className=" " style={{ color: "#000" }}>
-                        {" "}
-                        <LinkedInIcon />
-                      </div>
-                    </a>
-                    <div className="card-body">
-                      <p className="card-text">{text}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+//                   <div className="cards" key={id}>
+//                     <img src={image} className="w-25 mb-4" alt="..." />
+//                     <h4>{name}</h4>
+//                     <h6 className="">{position}</h6>
+//                     <a href={link} target="_blank" rel="noopener noreferrer">
+//                       <div className=" " style={{ color: "#000" }}>
+//                         {" "}
+//                         <LinkedInIcon />
+//                       </div>
+//                     </a>
+//                     <div className="card-body">
+//                       <p className="card-text">{text}</p>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
         
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-export const TeamCardSeven = (props) => {
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+export const TeamCardSix = (props) => {
     const { image1, name1, id, image, name, position, text } = props;
   return (
     <>
@@ -603,49 +603,52 @@ export const Gerians = () => {
         <h3 className="text-center">OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
-          {data.teamcardone.map((card) => {
+          {/* {data.teamcardone.map((card) => {
             return <TeamCard key={card.id}></TeamCard>;
-          })}
+          })} */}
+          {data.teamcardone.map((card) => {
+  return <TeamCard key={card.id} {...card} />;
+})}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
-          {data.teamcardtwo.map((card) => {
-            return <TeamCardTwo key={card.id}></TeamCardTwo>;
-          })}
+         {data.teamcardtwo.map((card) => {
+  return <TeamCardTwo key={card.id} {...card} />;
+})}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
-          {data.teamcardthree.map((card) => {
-            return <TeamCardThree key={card.id}></TeamCardThree>;
-          })}
+        {data.teamcardthree.map((card) => {
+  return <TeamCardThree key={card.id} {...card} />;
+})}
         </div>
       </div>
       <div className="row justify-content-center mt-3 mb-5">
         {" "}
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
-          {data.teamcardfour.map((card) => {
-            return <TeamCardFour key={card.id}></TeamCardFour>;
-          })}
+         {data.teamcardfour.map((card) => {
+  return <TeamCardFour key={card.id} {...card} />;
+})}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {data.teamcardfive.map((card) => {
-            return <TeamCardFive key={card.id}></TeamCardFive>;
-          })}
+  return <TeamCardFive key={card.id} {...card} />;
+})}
         </div>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
-          {data.teamcardsix.map((card) => {
-            return <TeamCardSix key={card.id}></TeamCardSix>;
-          })}
+         {data.teamcardsix.map((card) => {
+  return <TeamCardSix key={card.id} {...card} />;
+})}
         </div>
-        <div className="col-lg-4 col-md-6 mt-5">
+        {/* <div className="col-lg-4 col-md-6 mt-5">
           
-          {data.teamcardseven.map((card) => {
-            return <TeamCardSeven key={card.id}></TeamCardSeven>;
-          })}
-        </div>
+         {data.teamcardseven.map((card) => {
+  return <TeamCardSeven key={card.id} {...card} />;
+})}
+        </div> */}
        
       </div>
     </div>

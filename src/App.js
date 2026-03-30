@@ -43,6 +43,7 @@ import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
 import ZohoLandingPage from "./pages/Services/MSMEMarketplace/Zoho_LandingPage";
 // //Initiatives
+import InitiativesSection from "./pages/Initiatives/Initiative";
 // import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 // import DigiPlus from "./pages/DigiPlus";
 
@@ -113,7 +114,7 @@ function App() {
           {/* <Route path="haven" element={<HavenPortfolioPage />} /> */}
           {/* <Route path="legalmo" element={<LegalMoPortfolioPage />} /> */}
           {/* <Route path="trulance" element={<TrulancePortfolioPage />} /> */}
-          <Route path="initiatives" element={<ProjectDeliveryPage />} />
+          <Route path="initiatives" element={<InitiativesSection />} />
           <Route path="DBN" element={<DBN />} />
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
