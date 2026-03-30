@@ -400,7 +400,73 @@ export const TeamCardSix = (props) => {
     </>
   );
 };
+
 export const TeamCardSeven = (props) => {
+  const { image1, name1, title1, id, image, name, position, text, link } =
+    props;
+  return (
+    <>
+      <div className="card-deck">
+        <div className="card w-100 mx-auto ">
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <div className="card-body teamcardbody">
+            <figure className="text-center">
+              <figcaption className="card-text mt-1">{name1}</figcaption>
+              <p className="Text mb-3 mt-3">{title1}</p>
+            </figure>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <div className="text-center">
+                {" "}
+                <LinkedInIcon />
+              </div>
+            </a>
+           
+            <div
+              className="modal fade"
+              id={id}
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabIndex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="d-flex justify-content-between mx-4 my-2">
+                    {/* <img src={logo} width={40} id="staticBackdropLabel" al/> */}
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div className="cards" key={id}>
+                    <img src={image} className="w-25 mb-4" alt="..." />
+                    <h4>{name}</h4>
+                    <h6 className="">{position}</h6>
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                      <div className=" " style={{ color: "#000" }}>
+                        {" "}
+                        <LinkedInIcon />
+                      </div>
+                    </a>
+                    <div className="card-body">
+                      <p className="card-text">{text}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+export const TeamCardEight = (props) => {
     const { image1, name1, id, image, name, position, text } = props;
   return (
     <>
@@ -647,6 +713,11 @@ export const Gerians = () => {
           
          {data.teamcardseven.map((card) => {
   return <TeamCardSeven key={card.id} {...card} />;
+})}
+</div>
+<div className="col-lg-4 col-md-6 mt-5">
+         {data.teamcardeight.map((card) => {
+  return <TeamCardEight key={card.id} {...card} />;
 })}
         </div>
        

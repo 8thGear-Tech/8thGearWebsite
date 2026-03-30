@@ -4,7 +4,7 @@
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "DR. SEUN OLADELE",
       "title1": "PROJECT DEV. ASSOCIATE",
-      "id": "staticBackdrop2",
+      "id": "staticBackdrop1",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     }
   ],
@@ -13,7 +13,7 @@
        "image1": "../../images/team/basiratabdullahi.png",
       "name1": "BASIRAT ABDULLAHI",
       "title1": "OPERATIONS ASSOCIATE",
-      "id": "staticBackdrop1",
+      "id": "staticBackdrop2",
       "link": "https://www.linkedin.com/in/basirat-arike-abdullahi/"
     }
   ],
@@ -22,7 +22,7 @@
       "image1": "../../images/team/adam.png",
       "name1": "ADAM YAKUB",
       "title1": "FINANCE & ACC. CONSULTANT",
-      "id": "staticBackdrop4",
+      "id": "staticBackdrop3",
       "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/"
     }
    
@@ -41,7 +41,7 @@
      "image1": "../../images/team/oluwatobi.jpg",
       "name1": "OLUWATOBILOBA ADEBOLA",
       "title1": "PROGRAMS ANALYST",
-      "id": "staticBackdrop3",
+      "id": "staticBackdrop5",
       "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
@@ -50,15 +50,24 @@
      "image1": "../../images/team/mercy.png",
       "name1": "MERCY ADEGEYE",
       "title1": "HR ANALYST",
-      "id": "staticBackdrop3",
+      "id": "staticBackdrop6",
       "link": "https://www.linkedin.com/in/boluwatife-mercy/"
     }
   ],
   "teamcardseven": [
+    {
+     "image1": "../../images/team/boluwatife.png",
+      "name1": "BOLUWATIFE ADEKOYA",
+      "title1": "SALES ANALYST",
+      "id": "staticBackdrop7",
+      "link": "https://www.linkedin.com/in/boluwatife-adenike-adekoya-10a605284/"
+    }
+  ],
+  "teamcardeight": [
      {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
-      "id": "staticBackdrop7"
+      "id": "staticBackdrop8"
     }
   ],
   "EIRcard": [
