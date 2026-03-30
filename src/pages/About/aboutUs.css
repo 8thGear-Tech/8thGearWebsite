@@ -558,3 +558,165 @@
 .bodyBG {
   background: #152425 !important;
 }
+
+
+/* ============================================
+   JOIN THE TEAM SECTION
+   ============================================ */
+
+.join-team-section {
+  background: linear-gradient(135deg, #fdf4ff 0%, #f0fdfc 100%);
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.join-team-section::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(130, 30, 107, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.join-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #1a988f;
+  margin-bottom: 1rem;
+}
+
+.join-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0f1f20;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.02em;
+}
+
+.join-highlight {
+  color: #821e6b;
+}
+
+.join-resource-link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(130, 30, 107, 0.15) !important;
+  border-radius: 14px !important;
+  padding: 1rem 1.25rem !important;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+.join-resource-link:hover {
+  border-color: #821e6b !important;
+  box-shadow: 0 6px 24px rgba(130, 30, 107, 0.15) !important;
+  transform: translateX(4px) !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.join-resource-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #d946ef, #821e6b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white !important;
+  flex-shrink: 0;
+}
+
+.join-resource-icon--cyan {
+  background: linear-gradient(135deg, #06b6d4, #0891b2) !important;
+}
+
+.join-resource-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.join-resource-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f1f20 !important;
+  display: block;
+}
+
+.join-resource-sub {
+  font-size: 0.8rem;
+  color: rgba(15, 31, 32, 0.5) !important;
+  margin-top: 2px;
+  display: block;
+}
+
+.join-resource-arrow {
+  font-size: 1rem;
+  color: #821e6b !important;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.join-resource-link:hover .join-resource-arrow {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
+.join-team-inner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.join-team-text {
+  flex: 1;
+  min-width: 0; /* Prevents overflow */
+}
+
+.join-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.join-resources {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Stack on tablets and mobile */
+@media (max-width: 768px) {
+  .join-team-inner {
+    flex-direction: column;
+    align-items: stretch;  /* Full width on mobile */
+    gap: 2.5rem;
+  }
+
+  .join-team-text {
+    order: 1;  /* Text section appears first */
+  }
+
+  .join-resources {
+    order: 2;  /* Resources appear second */
+  }
+}

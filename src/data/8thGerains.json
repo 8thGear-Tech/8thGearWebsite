@@ -19,15 +19,24 @@
   ],
   "teamcardthree": [
        {
+      "image1": "../../images/team/adam.png",
+      "name1": "ADAM YAKUB",
+      "title1": "FINANCE & ACC. CONSULTANT",
+      "id": "staticBackdrop4",
+      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/"
+    }
+   
+  ],
+  "teamcardfour": [
+        {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
       "title1": "IT SUPPORT ASSOCIATE",
       "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
-   
   ],
-  "teamcardfour": [
+  "teamcardfive": [
    {
      "image1": "../../images/team/oluwatobi.jpg",
       "name1": "OLUWATOBILOBA ADEBOLA",
@@ -36,8 +45,8 @@
       "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
-  "teamcardfive": [
-   {
+  "teamcardsix": [
+    {
      "image1": "../../images/team/mercy.png",
       "name1": "MERCY ADEGEYE",
       "title1": "HR ANALYST",
@@ -45,7 +54,7 @@
       "link": "https://www.linkedin.com/in/boluwatife-mercy/"
     }
   ],
-  "teamcardsix": [
+  "teamcardseven": [
      {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
