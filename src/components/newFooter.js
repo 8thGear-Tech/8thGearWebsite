@@ -34,7 +34,7 @@ export const NewFooter = () => (
               <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
               <div>
                 <p className="ft-addr-name">8thGear HQ</p>
-                <p className="ft-addr-text">41 CMD Road, Secretariat/Magodo, Lagos</p>
+                <p className="ft-addr-text">41 CMD Road, Secretariat/Magodo, Lagos State, Nigeria</p>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export const NewFooter = () => (
               <FiMapPin size={11} style={{ color: "#008261", marginTop: "2px", flexShrink: 0 }} />
               <div>
                 <p className="ft-addr-name">8thGear Ondo Liaison Office</p>
-                <p className="ft-addr-text">Technology Park and Incubation Centre (TechPIC), Federal University of Technology, Akure, Ondo</p>
+                <p className="ft-addr-text">Technology Park and Incubation Centre (TechPIC), Federal University of Technology, Akure, Ondo State, Nigeria</p>
               </div>
             </div>
           </div>

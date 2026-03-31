@@ -100,8 +100,8 @@ const EventsSection = () => {
     {
       id: 2,
       name: "Connecta Africa/MIRE Demo Day",
-      date: "April 2026",
-      time: "TBD",
+      date: "April 9, 2026",
+      time: "11 AM WAT",
       registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
       icon: "bi-rocket",
     },
