@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div className="hero-stats-mobile">
             <div className="hero-stat-item">
               <span className="stat-number">2000+</span>
-              <span className="stat-label">MSMES IMPACTED</span>
+              <span className="stat-label">MSMEs Supported</span>
             </div>
             {/* <div className="hero-stat-divider" /> */}
             {/* <div className="hero-stat-item">
@@ -82,7 +82,7 @@ const HeroSection = () => {
           <div className="visual-card visual-card--front">
             <div className="visual-stat">
               <span className="stat-number">2000+</span>
-              <span className="stat-label">MSME <span></span>s SUPPORTED</span>
+             <span className="stat-label">MSMEs Supported</span>
             </div>
             {/* <div className="visual-divider" /> */}
             {/* <div className="visual-stat">

@@ -258,7 +258,7 @@
   color: rgba(15, 32, 32, 0.5);
   font-weight: 500;
   margin-top: 4px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.1em;
 }
 
@@ -301,7 +301,7 @@
   color: rgba(15, 32, 32, 0.5);
   font-weight: 500;
   margin-top: 4px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 0.08em;
   text-align: center;
 }
