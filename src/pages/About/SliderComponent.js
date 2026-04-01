@@ -7,19 +7,19 @@ import { LinkedInIcon } from "../../components/Icons";
 
 const slidesData = [
   {
-    image: "/images/team/damilolaobidairo.png",
+    image: "/images/team/damilola.png",
     title: "Damilola Obidairo",
     staff: "CEO",
     link: "https://www.linkedin.com/in/damilolaobidairo/",
   },
   {
-    image: "/images/team/madamwunmi.png",
+    image: "/images/team/omowunmi.png",
     title: "Omowunmi Obidairo",
     staff: "Executive Director",
     link: "https://www.linkedin.com/in/omowunmiobidairo/",
   },
   {
-    image: "/images/team/rotimi.jpg",
+    image: "/images/team/rotimi.png",
     title: "Rotimi Owowa",
     staff: "Board Chairman",
     link: "https://www.linkedin.com/in/rotimi-owowa-bab8b113/",
@@ -31,7 +31,7 @@ const slidesData = [
     link: "https://www.linkedin.com/in/sutiny/",
   },
   {
-    image: "/images/advisoryImage/Seyi Bioku.jpg",
+    image: "/images/advisoryImage/seyibioku.png",
     title: "Seyi Bioku",
     staff: "Advisor & Board Secretary",
     link: "https://www.linkedin.com/in/seyi-bioku-870539116/",

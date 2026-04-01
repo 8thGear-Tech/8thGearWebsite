@@ -1,15 +1,7 @@
 {
   "teamcardone": [
+
      {
-      "image1": "../../images/team/seunoladele.jpg",
-      "name1": "DR. SEUN OLADELE",
-      "title1": "PROJECT DEV. ASSOCIATE",
-      "id": "staticBackdrop1",
-      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
-    }
-  ],
-  "teamcardtwo": [
-    {
        "image1": "../../images/team/basiratabdullahi.png",
       "name1": "BASIRAT ABDULLAHI",
       "title1": "OPERATIONS ASSOCIATE",
@@ -17,44 +9,44 @@
       "link": "https://www.linkedin.com/in/basirat-arike-abdullahi/"
     }
   ],
+  "teamcardtwo": [
+   {
+      "image1": "../../images/team/seunoladele.jpg",
+      "name1": "DR. SEUN OLADELE",
+      "title1": "PROJECT DEV. ASSOCIATE",
+      "id": "staticBackdrop1",
+      "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
+    }
+  ],
   "teamcardthree": [
        {
-      "image1": "../../images/team/adam.png",
-      "name1": "ADAM YAKUB",
-      "title1": "FINANCE & ACC. CONSULTANT",
-      "id": "staticBackdrop3",
-      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/"
-    }
-   
-  ],
-  "teamcardfour": [
-        {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
       "title1": "IT SUPPORT ASSOCIATE",
       "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
+    
   ],
-  "teamcardfive": [
-   {
-     "image1": "../../images/team/oluwatobi.jpg",
+  "teamcardfour": [
+    {
+     "image1": "../../images/team/oluwatobi.png",
       "name1": "OLUWATOBILOBA ADEBOLA",
       "title1": "PROGRAMS ANALYST",
       "id": "staticBackdrop5",
       "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
     }
   ],
-  "teamcardsix": [
-    {
-     "image1": "../../images/team/mercy.png",
-      "name1": "MERCY ADEGEYE",
-      "title1": "HR ANALYST",
-      "id": "staticBackdrop6",
-      "link": "https://www.linkedin.com/in/boluwatife-mercy/"
+  "teamcardfive": [
+     {
+      "image1": "../../images/team/adam.png",
+      "name1": "ADAM YAKUB",
+      "title1": "FINANCE & ACC. CONSULTANT",
+      "id": "staticBackdrop3",
+      "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/"
     }
   ],
-  "teamcardseven": [
+  "teamcardsix": [
     {
      "image1": "../../images/team/boluwatife.png",
       "name1": "BOLUWATIFE ADEKOYA",
@@ -63,11 +55,29 @@
       "link": "https://www.linkedin.com/in/boluwatife-adenike-adekoya-10a605284/"
     }
   ],
-  "teamcardeight": [
+  "teamcardseven": [
      {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
       "id": "staticBackdrop8"
+    }
+  ],
+  "teamcardeight": [
+    {
+     "image1": "../../images/team/chris.png",
+      "name1": "CHRIS EHIDIAMEN",
+      "title1": "HR CONSULTANT",
+      "id": "staticBackdrop6",
+      "link": "https://www.linkedin.com/in/christopher-ehidiamen-5873b734/"
+    }
+  ],
+  "teamcardnine": [
+     {
+     "image1": "../../images/team/mercy.png",
+      "name1": "MERCY ADEGEYE",
+      "title1": "HR ANALYST",
+      "id": "staticBackdrop6",
+      "link": "https://www.linkedin.com/in/boluwatife-mercy/"
     }
   ],
   "EIRcard": [
@@ -86,7 +96,7 @@
       "link": "https://www.linkedin.com/in/olarewaju-olasunkanmi/"
     },
     {
-      "image1": "../../images/team/titilayoekundayo.png",
+      "image1": "../../images/team/titilayo.png",
       "name1": "TITILAYO EKUNDAYO",
       "title1": "EIR",
       "id": "3",

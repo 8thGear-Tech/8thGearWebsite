@@ -60,7 +60,7 @@ const HeroSection = () => {
           <div className="hero-stats-mobile">
             <div className="hero-stat-item">
               <span className="stat-number">2000+</span>
-              <span className="stat-label">MSMEs IMPACTED</span>
+              <span className="stat-label">MSMES IMPACTED</span>
             </div>
             {/* <div className="hero-stat-divider" /> */}
             {/* <div className="hero-stat-item">
