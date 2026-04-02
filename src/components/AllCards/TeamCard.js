@@ -762,6 +762,7 @@ export const Gerians = () => {
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {/* {data.teamcardone.map((card) => {
+          {/* {data.teamcardone.map((card) => {
             return <TeamCard key={card.id}></TeamCard>;
           })} */}
           {data.teamcardone.map((card) => {

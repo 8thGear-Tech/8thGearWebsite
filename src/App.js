@@ -43,6 +43,7 @@ import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
 import ZohoLandingPage from "./pages/Services/MSMEMarketplace/Zoho_LandingPage";
 // //Initiatives
+// import InitiativesSection from "./pages/Initiatives/Initiative";
 // import FUTATechpic from "./pages/Initiatives/FUTATechpic";
 // import DigiPlus from "./pages/DigiPlus";
 

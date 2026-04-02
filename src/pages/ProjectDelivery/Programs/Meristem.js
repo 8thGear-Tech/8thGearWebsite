@@ -17,6 +17,7 @@ const MeristemGreenLagos = () => {
       <MeristemHero />
       {/* <MeristemHeroo /> */}
       <MeristemJourney />
+        <MeristemCohortII /> 
       <MeristemDeliverables />
       <MeristemImpact />
     </div>
@@ -276,6 +277,133 @@ const MeristemJourney = () => {
             ))}
           </Row>
         </div>
+      </Container>
+    </section>
+  );
+};
+
+const MeristemCohortII = () => {
+  return (
+    <section
+      style={{
+        paddingTop: 80,
+        paddingBottom: 80,
+        background: "#fff",
+        borderTop: `6px solid ${MERISTEM_GREEN}`,
+      }}
+    >
+      <Container>
+        <Row className="align-items-center justify-content-center">
+          <Col lg={10}>
+            <div
+              className="p-5 rounded-4 position-relative overflow-hidden"
+              style={{
+                background: `linear-gradient(135deg, ${PRIMARY_PURPLE}10 0%, ${MERISTEM_GREEN}15 100%)`,
+                border: `2px solid ${MERISTEM_GREEN}30`,
+                boxShadow: "0 20px 60px rgba(0,0,0,0.08)",
+              }}
+            >
+              {/* Decorative blob */}
+              <div
+                className="position-absolute"
+                style={{
+                  width: 300,
+                  height: 300,
+                  background: `radial-gradient(circle, ${MERISTEM_GREEN}20, transparent 70%)`,
+                  top: -80,
+                  right: -80,
+                  pointerEvents: "none",
+                }}
+              />
+
+              <Row className="align-items-center position-relative" style={{ zIndex: 1 }}>
+                <Col lg={7} className="mb-4 mb-lg-0">
+                  <Badge
+                    bg=""
+                    className="mb-3"
+                    style={{
+                      backgroundColor: `${MERISTEM_YELLOW}`,
+                      color: "#333",
+                      fontSize: "0.8rem",
+                      padding: "8px 16px",
+                      fontWeight: "700",
+                      letterSpacing: "0.05em",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Applications Open
+                  </Badge>
+
+                  <h3 className="fw-bold mb-3" style={{ color: PRIMARY_PURPLE }}>
+                    MIRE Meristem Cohort II
+                  </h3>
+
+                  <p style={{ fontSize: "1.05rem", lineHeight: "1.8", color: "#4a5568", maxWidth: 520 }}>
+                    Applications are now open for the second cohort of the More Investment-Ready 
+                    Entrepreneurs (MIRE) accelerator. Express your interest today and take the 
+                    first step toward building an investment-ready business.
+                  </p>
+
+                
+                </Col>
+
+                <Col lg={5} className="text-center">
+                  <div
+                    className="d-inline-block p-4 rounded-4"
+                    style={{
+                      background: "#fff",
+                      boxShadow: "0 10px 40px rgba(0,0,0,0.1)",
+                      maxWidth: 320,
+                      width: "100%",
+                    }}
+                  >
+                    <div
+                      className="mb-3 mx-auto d-flex align-items-center justify-content-center"
+                      style={{
+                        width: 64,
+                        height: 64,
+                        background: `${MERISTEM_GREEN}15`,
+                        borderRadius: 16,
+                        fontSize: "2rem",
+                      }}
+                    >
+                      📝
+                    </div>
+                    <h5 className="fw-bold mb-1 text-center" style={{ color: PRIMARY_PURPLE }}>
+                      Expression of Interest
+                    </h5>
+                    <p className="text-muted mb-4 text-center" style={{ fontSize: "0.88rem" }}>
+                      Complete the form to register your interest for Cohort II
+                    </p>
+                    <a
+                      href="https://forms.cloud.microsoft/r/jCwR0wC256"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn d-block fw-bold"
+                      style={{
+                        background: `linear-gradient(135deg, ${PRIMARY_PURPLE}, ${MERISTEM_GREEN})`,
+                        color: "#fff",
+                        padding: "14px 24px",
+                        borderRadius: 10,
+                        fontSize: "1rem",
+                        textDecoration: "none",
+                        border: "none",
+                        transition: "opacity 0.2s",
+                      }}
+                      onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.88")}
+                      onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+                    >
+                      Apply Now →
+                    </a>
+                    <p className="text-muted mt-3 mb-0" style={{ fontSize: "0.8rem" }}>
+                      Limited spots available
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+        </Row>
       </Container>
     </section>
   );
