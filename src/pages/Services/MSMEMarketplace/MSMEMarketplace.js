@@ -1,445 +1,349 @@
-import { Card, Button, Row, Col, Badge } from "react-bootstrap";
+import { useEffect } from "react";
+import { HomepageNav } from "../../../components/Navbar";
+import SolutionCard from "./SolutionCard";
+import FeatureCard from "./FeatureCard";
+import PartnerCard from "./PartnerCard";
+import { SOLUTIONS, FEATURES, PARTNERS } from "./data";
+import {
+  C, F,
+  bodyTxt,
+  Btn, Icon,
+  Chip, Div, FadeUp,
+  injectFonts,
+} from "../../../Tokens.js";
+
 import b2bImage from "../../../assets/images/tech-marketplace/b2bImage.png";
-import trulance from "../../../assets/images/tech-marketplace/trulance.png";
-import legalmo from "../../../assets/images/tech-marketplace/legalmo.png";
-import finamo from "../../../assets/images/tech-marketplace/finamo.png";
-import talenmo from "../../../assets/images/tech-marketplace/talenmo.png";
-import mtn from "../../../assets/images/tech-marketplace/mtn.png";
-import legalmologo from "../../../assets/images/tech-marketplace/legalmo-logo.png";
-import trulancelogo from "../../../assets/images/tech-marketplace/trulance-logo.png";
-import mtnlogo from "../../../assets/images/tech-marketplace/mtn-logo.png";
-import zohologo from "../../../assets/images/tech-marketplace/zoho-logo.png";
-// import crmlogo from "../../../assets/images/tech-marketplace/crm.png";
-// import eighthgearlogo from "../../../LOGO/8thgearlogo.png";
 import partnerwithus from "../../../assets/images/tech-marketplace/partnerwithus.png";
 import tailoredsolution from "../../../assets/images/tech-marketplace/tailoredsolution.png";
-import { HomepageNav } from "../../../components/Navbar"; 
 
-import saveTimeIcon from "../../../assets/images/tech-marketplace/save-time.png";
-import getItRightIcon from "../../../assets/images/tech-marketplace/get-it-right.png";
-import simplicityIcon from "../../../assets/images/tech-marketplace/simplicity.png";
-import scaleEasilyIcon from "../../../assets/images/tech-marketplace/scale-easily.png";
-// import { useEffect, useState } from "react";
-
-
-const MSMEMarketplace = () => {
-   return (
-    <>
-    <HomepageNav/>
-      <Hero />
-      <SolutionsSection />
-      <TailoredSolutionsSection />
-      <PartnersLogo />
-      <PartnersSection />
-    </>
-  );
-};
-
-
-const Hero = () => {
-  const cards = [
-    {
-      icon: saveTimeIcon,
-      title: "Save Time",
-      text: "Skip cold outreach and endless vendor demos",
-    },
-    {
-      icon: getItRightIcon,
-      title: "Get It Right",
-      text: "Access trusted solutions across various categories",
-    },
-    {
-      icon: simplicityIcon,
-      title: "Simplicity",
-      text: "Expert support, clear pricing, no pressure",
-    },
-    {
-      icon: scaleEasilyIcon,
-      title: "Scale Easily",
-      text: "Find solutions that grow with your business",
-    },
-  ];
+export default function MSMEMarketplace() {
+  // Fonts are declared in index.css — injectFonts() is a no-op if already loaded.
+  useEffect(() => { injectFonts(); }, []);
 
   return (
-    <div className="container py-5">
-      <div className="text-center mb-4">
-        <Badge
-          pill
-          bg="light"
-          className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
-        >
-          The Smarter Way to Grow
-        </Badge>
-        <h2 className="fw-bold">
-          Fuel your Enterprise with
-          <br />
-          Proven B2B Tech Solutions
-        </h2>
-        <p className="text-muted">
-          Our MSME Marketplace offers a curated selection of B2B software,
-          <br className="d-none d-md-block" />
-          infrastructure, and IT services, all vetted and resold by our experts
-          <br className="d-none d-md-block" />
-          so you don’t have to start from scratch.
-        </p>
-        <a
-          href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button variant="primary" className="mt-2 mb-5">
-            Get Started
-          </Button>
-        </a>
-      </div>
+    <>
+      <HomepageNav />
 
-      <div className="row align-items-stretch mt-5 pt-3">
-        {/* Image */}
-        <div className="col-lg-6 mb-4 mb-lg-0 d-flex">
-          <img
-            src={b2bImage}
-            alt="8thGear Hub" 
-            className="img-fluid rounded flex-fill"
-            style={{ objectFit: "cover" }}
-          />
-        </div>
+      <style>{`
+        /* Responsive */
+        @media(max-width:991px) {
+          .msm-why-grid { grid-template-columns:repeat(2, minmax(0, 1fr)) !important; }
+          .msm-solutions-grid { grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) !important; }
+        }
+        @media(max-width:767px) {
+          .msm-why-grid { grid-template-columns:1fr !important; }
+          .msm-hero-grid { gap:24px !important; }
+        }
+      `}</style>
 
-        {/* Cards */}
-        <div className="col-lg-6">
-          <div className="row g-3 info-cards-row">
-            {cards.map(({ icon, title, text }, i) => (
-              <div className="col-sm-6" key={i}>
-                <div className="info-card p-4 shadow-sm rounded bg-light d-flex flex-column">
-                  <img
-                    src={icon}
-                    alt={`${title} icon`}
-                    className="mb-3"
-                    style={{ width: "48px", height: "50px" }}
-                  />
-                  <h6 className="fw-bold">{title}</h6>
-                  <p className="mb-0 text-muted">{text}</p>
+      { // HERO
+         }
+      <section style={{
+        background: `linear-gradient(135deg, ${C.purple} 0%, ${C.teal} 50%, ${C.tealDark} 100%)`,
+        padding: "70px 0 100px",
+        position: "relative",
+        overflow: "hidden",
+        minHeight: "100vh",
+        display: "flex",
+        alignItems: "center",
+      }}>
+        {/* Background decorative elements */}
+        <div style={{
+          position: "absolute",
+          top: "10%",
+          left: "5%",
+          width: "300px",
+          height: "300px",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.1)",
+          filter: "blur(40px)",
+          pointerEvents: "none"
+        }}/>
+        <div style={{
+          position: "absolute",
+          bottom: "15%",
+          right: "8%",
+          width: "250px",
+          height: "250px",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.08)",
+          filter: "blur(30px)",
+          pointerEvents: "none"
+        }}/>
+        <div style={{
+          position: "absolute",
+          top: "50%",
+          right: "15%",
+          width: "150px",
+          height: "150px",
+          borderRadius: "50%",
+          background: "rgba(255,255,255,0.05)",
+          filter: "blur(20px)",
+          pointerEvents: "none"
+        }}/>
+
+        <div className="container" style={{ position: "relative", zIndex: 1 }}>
+          <div className="row align-items-center g-5">
+            {/* Left side - Content */}
+            <div className="col-lg-6">
+              <FadeUp>
+                <div style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 10,
+                  background: "rgba(255,255,255,0.15)",
+                  backdropFilter: "blur(10px)",
+                  border: "1px solid rgba(255,255,255,0.2)",
+                  borderRadius: "50px",
+                  padding: "8px 20px",
+                  fontFamily: F.open,
+                  fontSize: 11,
+                  fontWeight: 700,
+                  letterSpacing: "0.1em",
+                  textTransform: "uppercase",
+                  color: C.teal, // Using website's main teal color
+                  marginBottom: 20,
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.1)"
+                }}>
+                  MSME Marketplace
                 </div>
-              </div>
-            ))}
+                <h1 style={{
+                  fontFamily: F.rubik,
+                  fontSize: "clamp(2.5rem, 6vw, 4rem)",
+                  fontWeight: 800,
+                  lineHeight: 1.1,
+                  letterSpacing: "-0.03em",
+                  color: C.white,
+                  marginBottom: 24,
+                }}>
+                  Transform Your Business with
+                  <span style={{
+                    background: "linear-gradient(45deg, #ffffff, rgba(255,255,255,0.8))",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    display: "block"
+                  }}>
+                    Cutting-Edge Solutions
+                  </span>
+                </h1>
+                <p style={{
+                  ...bodyTxt(true),
+                  fontSize: "1.1rem",
+                  lineHeight: "1.6",
+                  marginBottom: 32,
+                  maxWidth: "500px"
+                }}>
+                  Discover vetted B2B tools and services that drive growth, streamline operations, and give you a competitive edge in today's digital marketplace.
+                </p>
+
+                <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+                  <a href="https://forms.gle/ehFzYU6fiDFyZ2Qb7" target="_blank" rel="noopener noreferrer">
+                    <button style={Btn.whiteOutline(false)}
+                      onMouseEnter={(e) => e.target.style.background = "rgba(255,255,255,0.13)"}
+                      onMouseLeave={(e) => e.target.style.background = "transparent"}>
+                      Get Started Today {Icon.arrowR(C.white)}
+                    </button>
+                  </a>
+                </div>
+              </FadeUp>
+            </div>
+
+            {/* Right side - Visual */}
+            <div className="col-lg-6">
+              <FadeUp delay={200}>
+                <div style={{
+                  position: "relative",
+                  textAlign: "center"
+                }}>
+                  <img src={b2bImage} alt="B2B Solutions"
+                    style={{
+                      width: "100%",
+                      maxWidth: "500px",
+                      borderRadius: C.radius,
+                      boxShadow: "0 20px 60px rgba(0,0,0,0.3)",
+                      transform: "rotate(-2deg)",
+                      marginBottom: 40
+                    }} />
+                </div>
+              </FadeUp>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+      </section>
 
-const ACTIONS = [
-  {
-    label: "Manage leads and customers",
-    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=ae47982fb7c4b5113a610e0121d21857",
-  },
-  {
-    label: "Automate campaigns",
-    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=b84f92df5adc867e3a5a0c4aa473792d",
-  },
-  {
-    label: "Track expenses and revenue",
-    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=1957eae31aff62948c7fe7f162b916b5",
-  },
-  {
-    label: "Engage visitors with chat",
-    href: "https://store.zoho.com/ResellerCustomerSignUp.do?id=d0fe091c79341ca579bdc34f362c4c35",
-  },
-];
+      {/* WHY CHOOSE US (Feature Cards Section) */}
+      <section style={{background: C.greyBg, padding: "100px 0 80px", position: "relative"}}>
+        {/* Background decoration */}
+        <div style={{
+          position: "absolute",
+          top: "20%",
+          left: "10%",
+          width: "200px",
+          height: "200px",
+          borderRadius: "50%",
+          background: `linear-gradient(45deg, ${C.tealLight}, ${C.purpleLight})`,
+          opacity: 0.3,
+          filter: "blur(60px)",
+          pointerEvents: "none"
+        }}/>
+        <div style={{
+          position: "absolute",
+          bottom: "15%",
+          right: "8%",
+          width: "150px",
+          height: "150px",
+          borderRadius: "50%",
+          background: `linear-gradient(45deg, ${C.purpleLight}, ${C.tealLight})`,
+          opacity: 0.2,
+          filter: "blur(40px)",
+          pointerEvents: "none"
+        }}/>
 
-const SolutionsSection = () => {
-  return (
-    <section className="container pb-5">
-      {/* Badge + Title */}
-      <div className="text-center mb-4">
-        <Badge
-          pill
-          bg="light"
-          className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
-        >
-          Solution
-        </Badge>
-        <h2 className="fw-bold">
-          Explore Solutions from our <br className="d-none d-md-block" />
-          Trusted Tech Providers
-        </h2>
-        <p className="text-muted">
-          Our marketplace features top-rated software and tools handpicked for
-          scalability.
-        </p>
-      </div>
+        <div className="container" style={{position: "relative", zIndex: 1}}>
+          <div className="text-center mb-5">
+            <FadeUp>
+              <Chip label="Why Choose Us" col="teal"/>
+              <Div center/>
+              <h2 style={{
+                fontFamily: F.rubik,
+                color: C.dark,
+                letterSpacing: "-0.02em",
+                marginBottom: 16,
+                fontSize: "clamp(2rem, 4vw, 2.5rem)",
+                fontWeight: 700
+              }}>
+                Why Businesses Choose <span style={{color: C.teal}}>Our Marketplace</span>
+              </h2>
+              <p style={{
+                ...bodyTxt(),
+                maxWidth: 700,
+                margin: "0 auto",
+                fontSize: "1.1rem",
+                lineHeight: "1.6"
+              }}>
+                Join hundreds of growing businesses who trust our curated marketplace for reliable, scalable B2B solutions that drive real results.
+              </p>
+            </FadeUp>
+          </div>
 
-      {/* Search bar */}
-      {/* <Row className="justify-content-center mb-5">
-        <Col xs={12} md={8} lg={6}>
-          <InputGroup>
-            <FormControl placeholder="Type your search" />
-            <Button variant="outline-secondary">
-              <i className="bi bi-search"></i>
-            </Button>
-          </InputGroup>
-        </Col>
-      </Row> */}
-
-      {/* Top two cards */}
-      <Row className="g-4 mb-5">
-        <Col lg={6}>
-          <Card
-            className="h-100 border-0 shadow-sm overflow-hidden"
-            style={{ backgroundColor: "#F6F6F6" }}
+          <div
+            className="msm-why-grid"
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+              gap: 28,
+              maxWidth: "1000px",
+              margin: "0 auto"
+            }}
           >
-            <Card.Img src={trulance} alt="Grow your digital presence" />
-            <Card.Body className="">
-              <h4 className="fw-bold">Grow Your Digital Presence</h4>
-              <Card.Text className="text-muted">
-                Launch and scale your online footprint with expert support in
-                web development, content creation, digital marketing, and data
-                analysis.
-              </Card.Text>
-              <a
-                href="https://trulance.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out Trulance</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        <Col lg={6}>
-          <Card
-            className="h-100 border-0 shadow-sm overflow-hidden"
-            style={{ backgroundColor: "#F6F6F6" }}
-          >
-            <Card.Img src={legalmo} alt="Simplify legal processes" />
-            <Card.Body className="">
-              <h4 className="fw-bold">Simplify Legal Processes</h4>
-              <Card.Text className="text-muted">
-                Access reliable legal services designed for businesses, contract
-                creation, compliance, IP protection, and more.
-              </Card.Text>
-              <a
-                href="https://www.legalmo.biz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out LegalMo</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-
-      {/* Bottom two sections */}
-      <Row className="g-4">
-        {/* All Products */}
-        <Col lg={6}>
-          <Card
-            className="h-100 border-0 shadow-sm overflow-hidden"
-            style={{ backgroundColor: "#F6F6F6" }}
-          >
-            <Card.Img src={mtn} alt="Connectivity Tools & Devices" />
-            <Card.Body className="">
-              <h4 className="fw-bold">Connectivity Tools & Devices</h4>
-              <Card.Text className="text-muted">
-                Stay connected with enterprise-grade solutions built for
-                Nigerian businesses, from high-speed broadband and dedicated
-                networks to smart IoT devices and unified communication tools.
-              </Card.Text>
-              <a
-                href="https://shop.mtn.ng/all-products.html?affiliate_code=8thGearHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out MTN Solutions</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        {/* All-in-One Business Suite */}
-        <Col lg={6}>
-          <Card
-            className="p-4 rounded-3 border-0 shadow-sm"
-            style={{ backgroundColor: "#F6F6F6" }}
-          >
-            <Card.Body className="p-0">
-              <Card.Title as="h5" className="fw-bold mb-2">
-                All-in-One Business Suite for Smarter Growth
-              </Card.Title>
-              <Card.Text as="p" className="text-muted small mb-4">
-                This integrated toolset helps you:
-              </Card.Text>
-
-              <div className="d-grid gap-2 mb-4">
-                {ACTIONS.map((item, i) => (
-                  <a
-                    key={i}
-                    href={item.href}
-                    className="btn btn-outline-secondary text-start d-flex justify-content-between align-items-center rounded"
-                    style={{ padding: "0.75rem 1rem" }}
-                  >
-                    <span>{item.label}</span>
-                    <i className="bi bi-arrow-right"></i>
-                  </a>
-                ))}
-              </div>
-              <a href="/msme-marketplace/zoho">
-                   <Button>Check out Zoho Solutions</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg={6}>
-          <Card
-            className="h-100 border-0 shadow-sm overflow-hidden"
-            style={{ backgroundColor: "#F6F6F6" }}
-          >
-            <Card.Img src={finamo} alt="Financial Systems" />
-            <Card.Body className="">
-              <h4 className="fw-bold">
-                Run Your Business on Solid Financial Systems
-              </h4>
-
-              <Card.Text className="text-muted">
-                Access reliable financial services for bookkeeping, tax
-                compliance, reporting, budgeting, and business structuring.
-              </Card.Text>
-              <a
-                href="https://www.finamo.biz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out FinaMo</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col lg={6}>
-          <Card
-            className="h-100 border-0 shadow-sm overflow-hidden"
-            style={{ backgroundColor: "#F6F6F6" }}
-          >
-            <Card.Img src={talenmo} alt="Talent Placement" />
-            <Card.Body className="">
-              <h4 className="fw-bold">Talent Placement Made Simple</h4>
-              <Card.Text className="text-muted">
-                Access end-to-end talent sourcing, screening, training, and
-                placement for internships, contract, and full-time roles.
-              </Card.Text>
-              <a
-                href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="primary">Check out TalenMo</Button>
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </section>
-  );
-};
-
-
-
-
-const TailoredSolutionsSection = () => {
-  return (
-    <section className="container py-5">
-      <div className="row align-items-center">
-        {/* Text Content - Left */}
-        <div className="col-md-6 mb-4 mb-md-0">
-          <Badge
-            pill
-            bg="light"
-            className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
-          >
-            Tailored Solutions
-          </Badge>
-          <h2 className="fw-bold">
-            Tell Us What You Need, <br className="d-none d-md-block" />
-            We’ll Make It Happen
-          </h2>
-          <p className="text-muted">
-            If our featured solutions don’t quite match your needs, we’re here
-            to create one that does.
-          </p>
-
-          <a
-            href="https://forms.gle/ehFzYU6fiDFyZ2Qb7"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button variant="primary">Request a Custom Solution</Button>
-          </a>
-        </div>
-
-        {/* Image Content - Right */}
-        <div className="col-md-6 text-center">
-          <img
-            src={tailoredsolution}
-            alt="Tailored Solution"
-            className="img-fluid rounded"
-            style={{ maxHeight: "400px", objectFit: "cover" }}
-          />
-        </div>
-      </div>
-    </section>
-  );
-};
-
-const PartnersLogo = () => {
-  const logos = [
-    { src: legalmologo, alt: "Legalmo" },
-    { src: trulancelogo, alt: "Trulance" },
-    { src: mtnlogo, alt: "MTN" },
-    { src: zohologo, alt: "Zoho" },
-  ];
-
-  return (
-    <div className="bg-gray-50 font-sans antialiased text-gray-800">
-      <section className="py-5 text-center">
-        <div className="container">
-          <Badge
-            pill
-            bg="light"
-            className="text-dark px-3 py-2 mb-3 fs-6 fw-light"
-          >
-            Our Partners
-          </Badge>
-
-          <h2 className="mb-3 fw-bold">Meet our Trusted B2B Partners</h2>
-          <p className="text-muted mb-5">
-            We collaborate with industry-leading platforms and service providers
-            to bring you the best in business technology.
-          </p>
-
-          <div className="row justify-content-center align-items-center g-4">
-            {logos.map(({ src, alt }, index) => (
-              <div className="col-6 col-sm-4 col-lg-3" key={index}>
-                <div
-                  className="d-flex align-items-center justify-content-center"
-                  style={{ height: "100px" }}
-                >
-                  <img
-                    src={src}
-                    alt={alt}
-                    className="img-fluid"
-                    style={{ maxHeight: "70px", objectFit: "contain" }}
-                  />
-                </div>
-              </div>
+            {/* Feature Cards */}
+            {FEATURES.map((f, i) => (
+              <FadeUp key={f.title} delay={i * 150}>
+                <FeatureCard feature={f} index={i} />
+              </FadeUp>
             ))}
           </div>
         </div>
       </section>
-    </div>
-  );
-};
 
+      { // SOLUTIONS
+        }
+      <section style={{background:C.purple,padding:"92px 0"}}> 
+        <div className="container">
+          <div className="text-center mb-5">
+            <Chip label="Our Solutions"/>
+            <Div center/>
+            <h2 style={{fontFamily:F.rubik,color:C.white,letterSpacing:"-0.02em",marginBottom:10}}>
+              Explore Trusted <span style={{color:C.teal}}>Tech Providers</span>
+            </h2>
+            <p style={{...bodyTxt(true),maxWidth:600,margin:"0 auto"}}>
+              Handpicked software and tools designed for scalability and reliability.
+            </p>
+          </div>
+          <div className="msm-solutions-grid" style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",gap:24,maxWidth:"1180px",margin:"0 auto"}}>
+            {SOLUTIONS.map((sol,i)=>(
+              <FadeUp key={sol.title} delay={i*100}>
+                <SolutionCard {...sol} />
+              </FadeUp>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      { // TAILORED SOLUTIONS
+      }
+      <section style={{background:C.white,padding:"92px 0"}}>
+        <div className="container">
+          <div className="row align-items-center g-5">
+            <div className="col-lg-6">
+              <FadeUp>
+                <Chip label="Tailored Solutions"/>
+                <Div/>
+                <h2 style={{fontFamily:F.rubik,color:C.dark,letterSpacing:"-0.02em",marginBottom:16}}>
+                  Tell Us What You Need,<br/><span style={{color:C.teal}}>We’ll Make It Happen</span>
+                </h2>
+                <p style={{...bodyTxt(),marginBottom:24}}>
+                  If our featured solutions don’t match your needs, we’re here to create custom solutions that do.
+                </p>
+                  <a href="https://forms.gle/ehFzYU6fiDFyZ2Qb7" target="_blank" rel="noopener noreferrer">
+                    <button
+                      style={Btn.tealOutline(false)}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = C.teal;
+                        e.currentTarget.style.color = C.white;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = "transparent";
+                        e.currentTarget.style.color = C.teal;
+                      }}
+                    >
+                      Request Custom Solution {Icon.arrowR("currentColor")}
+                    </button>
+                  </a>
+              </FadeUp>
+            </div>
+            <div className="col-lg-6">
+              <FadeUp delay={200}>
+                <img src={tailoredsolution} alt="Tailored Solutions" style={{width:"100%", borderRadius:C.radius, boxShadow:C.shadowMd}} />
+              </FadeUp>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      { // PARTNERS LOGOS
+      }
+      <section style={{background:C.greyBg,padding:"72px 0"}}>
+        <div className="container text-center">
+          <FadeUp>
+            <Chip label="Our Partners"/>
+            <Div center/>
+            <h2 style={{fontFamily:F.rubik,color:C.dark,letterSpacing:"-0.02em",marginBottom:10}}>
+              Meet Our <span style={{color:C.teal}}>Trusted Partners</span>
+            </h2>
+            <p style={{...bodyTxt(),maxWidth:500,margin:"0 auto 40px"}}>
+              We collaborate with industry-leading platforms to bring you the best in business technology.
+            </p>
+          </FadeUp>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(150px,1fr))",gap:40,alignItems:"center"}}>
+            {PARTNERS.map((partner,i)=>(
+              <FadeUp key={partner.name} delay={i*100}>
+                <PartnerCard partner={partner} />
+              </FadeUp>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      { // PARTNERS CTA (UNCHANGED)
+          }
+      <PartnersSection />
+    </>
+  );
+}
+
+// Original PartnersSection (unchanged)
 const PartnersSection = () => {
   return (
     <div className="container px-0 mt-5 pt-5">
@@ -453,7 +357,6 @@ const PartnersSection = () => {
         }}
       >
         <div className="text-center p-4 rounded">
-          {/* <div className="text-center bg-dark bg-opacity-50 p-4 rounded"> */}
           <h2 className="fw-bold mb-3">
             Want to Offer Your Tech <br className="d-none d-md-block" />
             Solution to Growing Businesses?
@@ -476,5 +379,3 @@ const PartnersSection = () => {
     </div>
   );
 };
-
-export default MSMEMarketplace;

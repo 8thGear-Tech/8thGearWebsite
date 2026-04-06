@@ -9,7 +9,7 @@ import zohoonelogo     from "../../../assets/images/tech-marketplace/zohoone-log
 import crmlogo         from "../../../assets/images/tech-marketplace/crm.png";
 import zohobookslogo   from "../../../assets/images/tech-marketplace/zohobooks-logo.png";
 import zohosalesiqlogo from "../../../assets/images/tech-marketplace/zohosalesiq-logo.png";
-import zohodesklogo    from "../../../assets/images/tech-marketplace/zohodesk-logo.png";
+import zohocommercelogo   from "../../../assets/images/tech-marketplace/zoho_commerce.png";
 import zohocampaigns   from "../../../assets/images/tech-marketplace/zohocampaigns-logo.png";
 
 /* ── Constants ──────────────────────────────── */
@@ -107,9 +107,9 @@ const PRODUCTS = [
     desc: "Live chat and visitor intelligence tool that helps you engage website visitors in real time and convert them into customers.",
   },
   {
-    logo: zohodesklogo, name: "Zoho Desk",
-    link: "https://store.zoho.com/ResellerCustomerSignUp.do?id=9b1685071c85ac29a55a03ec2b7ab2e2",
-    desc: "Context-aware helpdesk software to manage support tickets, automate workflows, and boost customer satisfaction scores.",
+    logo: zohocommercelogo, name: "Zoho Commerce",
+    link: "https://store.zoho.com/ResellerCustomerSignUp.do?id=0755c2d5f4c2664cb06af372be5cef32",
+    desc: "An all-in-one eCommerce platform that helps businesses create online stores, manage products, accept payments, track inventory, and deliver seamless shopping experiences across web and mobile.",
   },
   {
     logo: zohocampaigns, name: "Zoho Campaigns",
@@ -148,11 +148,11 @@ const PRICING = [
     features: ["Live chat & visitor tracking", "AI-powered chatbot builder", "Lead scoring & hot prospects", "CRM and Social Media integration", "Contact management", "Real-time chat analytics"],
   },
   {
-    logo: zohodesklogo, name: "Zoho Desk", featured: false,
-    price: "₦6,930", yearlyPrice: "₦5,390", period: "/ user / month",
-    tagline: "World-class customer support",
-    link: "https://store.zoho.com/ResellerCustomerSignUp.do?id=9b1685071c85ac29a55a03ec2b7ab2e2",
-    features: ["Omni-channel ticket management", "SLA management & escalations", "AI-powered ticket routing", "Self-service knowledge base", "Reports & CSAT tracking", "Zoho CRM & Books integration"],
+    logo: zohocommercelogo, name: "Zoho Commerce", featured: false,
+    price: "₦7,299", yearlyPrice: "₦5,299", period: "/ user / month",
+    tagline: "E-commerce Made Easy",
+    link: "https://store.zoho.com/ResellerCustomerSignUp.do?id=0755c2d5f4c2664cb06af372be5cef32",
+    features: ["Customisable templates", "Custom domain", "Free hosting & unlimited bandwidth", "Built-in SEO & Blog", "500 product listings", "Zoho CRM & other Zoho product integration"],
   },
   {
     logo: zohocampaigns, name: "Zoho Campaigns", featured: false,
