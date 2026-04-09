@@ -39,7 +39,7 @@ export const EIRApplySection = () => (
           rel="noopener noreferrer"
           className="eir-cta"
         >
-          Apply to Become an EIR Mentor
+          Apply to Become an EIR
           <i className="bi bi-arrow-up-right eir-cta-icon-right" />
         </a>
       </div>
