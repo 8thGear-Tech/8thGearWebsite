@@ -1,28 +1,5 @@
 import "../About/aboutUs.css";
 
-const PERKS = [
-  {
-    icon: "bi bi-people-fill",
-    title: "Structured Journey",
-    body: "A focused 6-month mentorship & accountability programme.",
-  },
-  {
-    icon: "bi bi-graph-up-arrow",
-    title: "Real Impact",
-    body: "Shape high-potential entrepreneurs across all 8thGear programmes.",
-  },
-  {
-    icon: "bi bi-lightbulb-fill",
-    title: "Strategic Role",
-    body: "Provide guidance, industry insight, and hands-on business support.",
-  },
-  {
-    icon: "bi bi-globe2",
-    title: "Ecosystem Builder",
-    body: "Foster scalable, sustainable ventures that move Africa forward.",
-  },
-];
-
 export const EIRApplySection = () => (
   <section id="eir-apply" className="eir-section">
     <div className="eir-blob eir-blob--pink" />
@@ -31,10 +8,6 @@ export const EIRApplySection = () => (
     <div className="eir-inner">
       {/* Left: copy */}
       <div className="eir-left">
-        {/* <span className="eir-eyebrow">
-          <span className="eir-eyebrow-dot" />
-          Entrepreneurs in Residence
-        </span> */}
 
         <h3 className="eir-heading">
           Become an <span className="eir-highlight">EIR</span> at 8thGear
@@ -70,27 +43,8 @@ export const EIRApplySection = () => (
           <i className="bi bi-arrow-up-right eir-cta-icon-right" />
         </a>
       </div>
-
-      {/* Right: perk cards */}
-      {/* <div className="eir-right">
-        {PERKS.map((p, i) => (
-          <PerkCard key={i} {...p} />
-        ))}
-      </div> */}
     </div>
   </section>
 );
-
-// const PerkCard = ({ icon, title, body }) => (
-//   <div className="eir-card">
-//     <div className="eir-card-icon">
-//       <i className={`${icon} eir-card-icon-i`} />
-//     </div>
-//     <div>
-//       <p className="eir-card-title">{title}</p>
-//       <p className="eir-card-body">{body}</p>
-//     </div>
-//   </div>
-// );
 
 export default EIRApplySection;

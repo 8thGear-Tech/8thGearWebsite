@@ -3,7 +3,6 @@ export const FILTER_TABS = [
   { key: "capacity", label: "Capacity Building" },
   { key: "digital", label: "Digital Skills" },
   { key: "employ", label: "Employability" },
-  { key: "venture", label: "Venture Studio" },
 ];
 
 export const PROGRAMMES = [
@@ -44,7 +43,7 @@ export const PROGRAMMES = [
     cat: "digital",
     col: "purple",
     badge: "Oct 17 – Nov 7, 2025",
-    title: "Digital Skills for Entrepreneurs(DSE)",
+    title: "Digital Skills for Entrepreneurs (DSE)",
     body: "Trained 89 MSMEs across Ogun and Lagos states. Covered digital marketing, e-commerce, financial literacy, and Digital Transformation Roadmaps.",
     images: [
       require("../../assets/images/tech-marketplace/DSE Lagos 1.jpeg"),
@@ -210,7 +209,7 @@ export const COMPETENCIES = [
     title: "Business Enterprise Support and Mentorship",
     desc: "We have a range of support services and programs designed to assist MSMEs. We also have experienced advisors and mentors who can guide startups.",
     tags: ["MSME Support", "Advisory", "Mentorship"],
-    icon: (col) => (
+    icon: (col = "currentColor") => (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
         <path
           d="M13 3L3 8v10l10 5 10-5V8L13 3z"
@@ -232,7 +231,7 @@ export const COMPETENCIES = [
     title: "Talent Development and Employment",
     desc: "At 8thGear, we are committed to providing exceptional Talent Management to individuals and organizations alike.",
     tags: ["Talent Development", "Employment", "Training"],
-    icon: (col) => (
+    icon: (col = "currentColor") => (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
         <circle cx="13" cy="13" r="9" stroke={col} strokeWidth="1.7" />
         <path
