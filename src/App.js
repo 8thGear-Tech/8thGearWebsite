@@ -18,7 +18,7 @@ import OurModelPage from "./pages/Studio/ourModel";
 import VentureStudio from "./pages/ventureStudio/ventureStudio";
 
 //Project Delivery
-import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
+// import ProjectDeliveryPage from "./pages/ProjectDelivery/projectDelivery";
 import ProjectDeliveryGalleryPage from "./pages/ProjectDelivery/projectDeliveryGallery";
 import GIZPage from "./pages/ProjectDelivery/employabilityGIZgallery";
 import PiggeryTrainingPage from "./pages/ProjectDelivery/piggeryTrainingGallery";
