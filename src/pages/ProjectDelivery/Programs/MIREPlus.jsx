@@ -63,7 +63,7 @@ const MIREPlus = () => {
             Secure your spot in our next MIRE cohort and transform your
             business.
           </h2>
-          <p className="lead" style={{ fontSize: "1rem" }}>
+          <p className="lead text-white" style={{ fontSize: "1rem" }}>
             Grant-Ready | Loan-Ready | Investor-Ready
           </p>
 
@@ -163,6 +163,7 @@ const MIREPlus = () => {
                   Who is this for?
                 </h5>
                 <div
+                className="text-white"
                   style={{
                     display: "flex",
                     flexDirection: "column",
@@ -178,6 +179,7 @@ const MIREPlus = () => {
                     <div
                       key={idx}
                       style={{ display: "flex", alignItems: "flex-start" }}
+                      className="text-white"
                     >
                       <svg
                         width="20"
@@ -244,6 +246,7 @@ const MIREPlus = () => {
                       fontStyle: "italic",
                       margin: "1rem 0 0 0",
                     }}
+                    className="text-white"
                   >
                     Limited slots for high-potential entrepreneurs.
                   </p>

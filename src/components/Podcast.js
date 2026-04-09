@@ -9,7 +9,7 @@ const Podcast = () => {
       <Container className="hero-content position-relative text-center z-1">
         <Row className="justify-content-center row-content w-100 d-flex align-items-center">
           <Col md={8} className="hero-column text-center w-100">
-            <h5 className="display-5 hero-title fs-1 fw-bold">
+            <h5 className="display-5 hero-title fs-1 fw-bold text-white" >
               WANT TO CREATE A PODCAST?
             </h5>
             <a

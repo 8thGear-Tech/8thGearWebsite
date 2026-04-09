@@ -84,7 +84,7 @@ const CoreValue = () => {
           </div>
 
           {/* Summary intro */}
-          <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.75)", lineHeight: "1.7", fontStyle: "italic", marginBottom: "20px" }}>
+          <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.75)", lineHeight: "1.7", fontStyle: "italic", marginBottom: "20px",  }}>
            We think like owners; deliver like professionals; care like humans; innovate like pioneers, and do it with joy, maturity, courage, and excellence. Select any value below to learn more.
           </p>
 

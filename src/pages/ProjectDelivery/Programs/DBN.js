@@ -57,7 +57,7 @@ const DBNHero = () => {
             >
               DBN Entrepreneurship Training Programme 2026
             </h3>
-            <p style={{ marginBottom: 24, lineHeight: "1.8" }}>
+            <p style={{ marginBottom: 24, lineHeight: "1.8" }} className="text-white">
               Calling all Entrepreneurs and Business Owners in South West
               Nigeria! Join the Development Bank of Nigeria's flagship training,
               designed to empower MSMEs with skills for growth and funding
@@ -72,7 +72,7 @@ const DBNHero = () => {
                 backdropFilter: "blur(10px)",
               }}
             >
-              <p className="mb-0 fw-semibold" style={{ fontSize: "0.9rem" }}>
+              <p className="mb-0 fw-semibold text-white" style={{ fontSize: "0.9rem" }}>
                 PROGRAMME STARTS
               </p>
               <h3 className="mb-0 fw-bold" style={{ fontSize: "1.8rem" }}>
@@ -103,7 +103,7 @@ const DBNHero = () => {
                 >
                   Apply Now →
                 </Button>
-                <p className="mt-2 mb-0" style={{ fontSize: "0.78rem", opacity: 0.75 }}>
+                <p className="mt-2 mb-0 text-white" style={{ fontSize: "0.78rem", opacity: 0.75 }}>
                   For entrepreneurs &amp; MSMEs
                 </p>
               </div>
@@ -129,7 +129,7 @@ const DBNHero = () => {
                 >
                   Apply Now →
                 </Button>
-                <p className="mt-2 mb-0" style={{ fontSize: "0.78rem", opacity: 0.75 }}>
+                <p className="mt-2 mb-0 text-white" style={{ fontSize: "0.78rem", opacity: 0.75 }}>
                   For students &amp; corp members
                 </p>
               </div>
@@ -276,7 +276,7 @@ const DBNProgramHighlights = () => {
             >
               <Card.Body className="py-5 px-3">
                 <h3 className="fw-bold mb-3 text-center">Who Should Join?</h3>
-                <p className="mb-0 text-center">
+                <p className="mb-0 text-center text-white">
                   <strong>
                     MSMEs, startups and operators across all sectors
                   </strong>{" "}
@@ -292,7 +292,7 @@ const DBNProgramHighlights = () => {
                 />
 
                 <p
-                  className="text-center mb-4"
+                  className="text-center mb-4 text-white"
                   style={{ fontSize: "0.88rem", opacity: 0.85 }}
                 >
                   This programme is open to all. Select what describes you to apply:
@@ -309,7 +309,7 @@ const DBNProgramHighlights = () => {
                       }}
                     >
                       <div className="mb-3">
-                        <p className="fw-bold mb-1" style={{ fontSize: "0.95rem" }}>
+                        <p className="fw-bold mb-1 text-white" style={{ fontSize: "0.95rem" }}>
                           💼 Entrepreneurs &amp; MSMEs
                         </p>
                         <p
@@ -318,7 +318,9 @@ const DBNProgramHighlights = () => {
                             opacity: 0.88,
                             lineHeight: 1.5,
                             marginBottom: 0,
+                          
                           }}
+                          className="text-white"
                         >
                           Business owners and operators running an existing
                           enterprise or startup
@@ -355,7 +357,7 @@ const DBNProgramHighlights = () => {
                       }}
                     >
                       <div className="mb-3">
-                        <p className="fw-bold mb-1" style={{ fontSize: "0.95rem" }}>
+                        <p className="fw-bold mb-1 text-white" style={{ fontSize: "0.95rem" }}>
                           🎓 Students &amp; Corp Members
                         </p>
                         <p
@@ -365,6 +367,7 @@ const DBNProgramHighlights = () => {
                             lineHeight: 1.5,
                             marginBottom: 0,
                           }}
+                          className="text-white"
                         >
                           Nigerian university, polytechnic, college of education
                           students, or serving corps members with a business or
@@ -555,12 +558,12 @@ const DBNCTA = () => {
         <Row className="justify-content-center text-center">
           <Col lg={8}>
             <h3 className="fw-bold mb-4">Ready to Transform Your Business?</h3>
-            <p className="mb-4" style={{ lineHeight: "1.8" }}>
+            <p className="mb-4 text-white" style={{ lineHeight: "1.8" }}>
               Join MSMEs across Ondo and Lagos States in building financial
               readiness, operational capacity, and sustainable growth pathways.
             </p>
             <div className="mb-5">
-              <p className="mb-0 fw-semibold" style={{ opacity: 0.95 }}>
+              <p className="mb-0 fw-semibold text-white" style={{ opacity: 0.95 }}>
                 Programme starts: <strong>February 2026</strong>
               </p>
             </div>
@@ -578,7 +581,7 @@ const DBNCTA = () => {
                 }}
               >
                 <p
-                  className="mb-1 fw-semibold text-uppercase"
+                  className="mb-1 fw-semibold text-uppercase text-white"
                   style={{
                     fontSize: "0.72rem",
                     opacity: 0.8,
@@ -588,7 +591,7 @@ const DBNCTA = () => {
                   Entrepreneurs &amp; MSME<span style={{ textTransform: "lowercase", fontWeight: "normal", fontSize: "0.7rem"}}>s</span>
                 </p>
                 <p
-                  className="mb-3"
+                  className="mb-3 text-white"
                   style={{ fontSize: "0.85rem", opacity: 0.9 }}
                 >
                   Business owners &amp; operators in Ondo and Lagos States
@@ -623,7 +626,7 @@ const DBNCTA = () => {
                 }}
               >
                 <p
-                  className="mb-1 fw-semibold text-uppercase"
+                  className="mb-1 fw-semibold text-uppercase text-white"
                   style={{
                     fontSize: "0.72rem",
                     opacity: 0.8,
@@ -633,7 +636,7 @@ const DBNCTA = () => {
                   Students &amp; Corp Members
                 </p>
                 <p
-                  className="mb-3"
+                  className="mb-3 text-white"
                   style={{ fontSize: "0.85rem", opacity: 0.9 }}
                 >
                   University, polytechnic students &amp; serving corps members

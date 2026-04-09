@@ -512,7 +512,7 @@ const OurSuccess = () => {
                 {/* // Ensure text is responsive */}
                 <h5 className="fw-bold">{story.title}</h5>{" "}
                 {/* // Added Bootstrap class for bold text */}
-                <p className="text-wrap pe-lg-5">{story.description}</p>{" "}
+                <p className="text-wrap pe-lg-5" style={{color: "white"}}>{story.description}</p>{" "}
                 {/* // Added text-wrap class for responsive text */}
               </div>
               <div className="col-md-6 col-sm-12 mb-4">
@@ -532,7 +532,7 @@ const OurSuccess = () => {
                 {/* <div className="col-md-6 col-sm-12 mb-4 order-md-2 ps-lg-5"> */}
                 <h5 className="fw-bold ">{story.title}</h5>{" "}
                 {/* // Added Bootstrap class for bold text */}
-                <p className="text-wrap mx-auto">{story.description}</p>{" "}
+                <p className="text-wrap mx-auto" style={{color: "white"}}>{story.description}</p>{" "}
                 {/* // Added text-wrap class for responsive text */}
               </div>
               {/* <div className="col-md-6 col-sm-12 mb-4 order-md-1">

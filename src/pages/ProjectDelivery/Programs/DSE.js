@@ -37,7 +37,7 @@ const DSEHero = () => {
             Digital Skills for{" "}
             <span style={{ color: "#00d2ff" }}>Entrepreneurs</span>
           </h3>
-          <p className="mb-4" style={{ lineHeight: "1.8" }}>
+          <p className="mb-4 text-white" style={{ lineHeight: "1.8" }}>
             A three-week, blended capacity-building program designed to close
             the digital literacy gap and empower MSMEs for sustainable growth.
           </p>
@@ -447,7 +447,7 @@ const DSECallToAction = () => {
             <h3 className="fw-bold mb-4">
               Ready to Transform Your Business?
             </h3>
-            <p className="mb-4" style={{ lineHeight: "1.8" }}>
+            <p className="mb-4 text-white" style={{ lineHeight: "1.8" }}>
               Join 50 forward-thinking entrepreneurs in building sustainable
               digital skills for long-term growth and competitiveness.
             </p>

@@ -612,7 +612,7 @@ const MeristemImpact = () => {
               <h3 className="fw-bold mb-4">
                 Building Investment-Ready Businesses
               </h3>
-              <p style={{ lineHeight: "1.8", opacity: 0.95, maxWidth: "800px", margin: "0 auto" }}>
+              <p style={{ lineHeight: "1.8", opacity: 0.95, maxWidth: "800px", margin: "0 auto" }} className="text-white">
                 More Lagos Green represents the partnership between 8thGear and More by Meristem 
                 to nurture Nigeria's next generation of successful entrepreneurs through structured 
                 acceleration and direct investment pathways.
@@ -638,7 +638,7 @@ const MeristemImpact = () => {
                     🚀
                   </div>
                   <h5 className="fw-bold mb-2">Accelerated Growth</h5>
-                  <p className="mb-0" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
+                  <p className="mb-0 text-white" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
                     30-week intensive program compressing years of learning
                   </p>
                 </div>
@@ -662,7 +662,7 @@ const MeristemImpact = () => {
                     🎓
                   </div>
                   <h5 className="fw-bold mb-2">Expert Guidance</h5>
-                  <p className="mb-0" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
+                  <p className="mb-0 text-white" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
                     Mentorship from successful founders and industry leaders
                   </p>
                 </div>
@@ -686,7 +686,7 @@ const MeristemImpact = () => {
                     💎
                   </div>
                   <h5 className="fw-bold mb-2">Investment Pipeline</h5>
-                  <p className="mb-0" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
+                  <p className="mb-0 text-white" style={{ opacity: 0.9, fontSize: "0.95rem" }}>
                     Direct access to More by Meristem funding opportunities
                   </p>
                 </div>

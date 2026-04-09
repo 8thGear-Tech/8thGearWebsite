@@ -77,10 +77,10 @@ const HeroSection = () => {
               Welcome to the GearUp <br />
               Incubation Program
             </h3>
-            <p style={subHeadingStyle}>
+            <p style={subHeadingStyle} className="text-white">
               <b> Your Launchpad to Building a Globally Relevant Business</b>
             </p>
-            <p style={{ fontSize: "0.9rem", marginBottom: "2rem" }}>
+            <p style={{ fontSize: "0.9rem", marginBottom: "2rem" }} className="text-white">
               Powered by 8thGear Hub & Venture Studio, the GearUp Incubation
               Program is the first phase of a bold, multi-country initiative
               designed to spotlight and scale businesses with health-related
