@@ -1,18 +1,3 @@
-/* .about-hero-background {
-  background-image: url("../About/image/about-img.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.about-layout {
-  background: linear-gradient(to top, rgba(0, 0, 0), transparent);
-  min-height: 100vh;
-}
-
-.heroAbout {
-  margin-top: 300px;
-} */
-
 /* ── Hero Section ─────────────────────────────── */
 .heroAbout-wrapper {
   position: relative;
@@ -148,7 +133,6 @@
   letter-spacing: -0.02em;
 }
 
-/* Remove the block display — let it flow inline */
 .hero-heading--block {
   display: inline;
 }
@@ -157,7 +141,6 @@
   color: #821e6b;
 }
 
-/* Dream. — styled as outlined text, inline not block */
 .hero-highlight-3 {
   color: transparent;
   -webkit-text-stroke: 2px #821e6b;
@@ -258,7 +241,6 @@
   color: rgba(15, 32, 32, 0.5);
   font-weight: 500;
   margin-top: 4px;
-  /* text-transform: uppercase; */
   letter-spacing: 0.1em;
 }
 
@@ -301,7 +283,6 @@
   color: rgba(15, 32, 32, 0.5);
   font-weight: 500;
   margin-top: 4px;
-  /* text-transform: uppercase; */
   letter-spacing: 0.08em;
   text-align: center;
 }
@@ -375,7 +356,6 @@
 .homeHeroBig::before {
   content: "";
   background: url("../About/image/HomepageHero.jpeg");
-
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -384,18 +364,14 @@
   left: 0px;
 }
 
-.homeHeroBig h1 {
-  position: relative;
-}
-.homeHeroBig h3 {
-  position: relative;
-}
-.homeHeroBig p {
-  position: relative;
-}
+.homeHeroBig h1 { position: relative; }
+.homeHeroBig h3 { position: relative; }
+.homeHeroBig p  { position: relative; }
+
 .gradientBgg {
   background: rgba(0, 0, 0, 0.678);
 }
+
 .overlayBgg {
   position: absolute;
   height: 80vh;
@@ -413,6 +389,7 @@
     rgb(255, 253, 253)
   );
 }
+
 .homeHeroSmall {
   position: relative;
   background-repeat: no-repeat;
@@ -422,8 +399,6 @@
 
 .homeHeroSmall::before {
   content: "";
-  /* background: url("../About/image/HomepageHero\ -\ Copy\ \(2\).jpeg"); */
-  /* background: url("../About/image/HomepageHeroCopy.jpeg"); */
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -433,15 +408,10 @@
   opacity: 0.8;
 }
 
-.homeHeroSmall h1 {
-  position: relative;
-}
-.homeHeroSmall h3 {
-  position: relative;
-}
-.homeHeroSmall p {
-  position: relative;
-}
+.homeHeroSmall h1 { position: relative; }
+.homeHeroSmall h3 { position: relative; }
+.homeHeroSmall p  { position: relative; }
+
 .gradientBggg {
   background: rgba(0, 0, 0, 0.678);
 }
@@ -455,12 +425,8 @@
   left: 0;
   margin-top: -15px;
 }
-/* CoreValue */
-/* .valueCard {
-  width: 320px !important;
-  height: 430px;
-} */
 
+/* CoreValue */
 .core-accordion-button {
   height: 20px;
 }
@@ -470,39 +436,19 @@
 }
 
 @media (max-width: 1024px) {
-  .CoreCard {
-    margin-right: 30px;
-  }
+  .CoreCard { margin-right: 30px; }
 }
 
 @media (max-width: 425px) {
-  .CoreCard {
-    margin-left: 30px;
-  }
+  .CoreCard { margin-left: 30px; }
 }
 
 @media (max-width: 375px) {
-  .CoreCard {
-    margin-left: 30px !important;
-  }
+  .CoreCard { margin-left: 30px !important; }
 }
 
 @media (max-width: 320px) {
-  .CoreCard {
-    margin-left: 10px;
-  }
-}
-
-.accordion-button {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-}
-
-.accordion-body {
-  font-size: 1rem;
-  font-weight: 300;
-  font-family: "Open Sans", sans-serif;
+  .CoreCard { margin-left: 10px; }
 }
 
 .accordion-button {
@@ -516,7 +462,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* Slider Card Start*/
+/* Slider Card */
 .slideCard {
   width: 267px !important;
 }
@@ -541,15 +487,9 @@
 }
 
 @keyframes scrollSlider {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
-
-/* Slider Card End*/
 
 .ImgCard {
   height: 255px;
@@ -558,7 +498,6 @@
 .bodyBG {
   background: #152425 !important;
 }
-
 
 /* ============================================
    JOIN THE TEAM SECTION
@@ -688,7 +627,7 @@
 
 .join-team-text {
   flex: 1;
-  min-width: 0; /* Prevents overflow */
+  min-width: 0;
 }
 
 .join-body {
@@ -704,19 +643,263 @@
   gap: 1.2rem;
 }
 
-/* Stack on tablets and mobile */
 @media (max-width: 768px) {
   .join-team-inner {
     flex-direction: column;
-    align-items: stretch;  /* Full width on mobile */
+    align-items: stretch;
     gap: 2.5rem;
   }
 
-  .join-team-text {
-    order: 1;  /* Text section appears first */
+  .join-team-text { order: 1; }
+  .join-resources  { order: 2; }
+}
+
+/* ============================================
+   EIR APPLY SECTION
+   ============================================ */
+
+.eir-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(150deg, #fdf4ff 0%, #f0fdfc 60%, #fff8f5 100%);
+  padding: 5rem 0;
+}
+
+/* Ambient blobs */
+.eir-blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.eir-blob--pink {
+  width: 440px;
+  height: 440px;
+  background: radial-gradient(circle, rgba(130, 30, 107, 0.09) 0%, transparent 70%);
+  top: -120px;
+  left: -100px;
+}
+
+.eir-blob--teal {
+  width: 360px;
+  height: 360px;
+  background: radial-gradient(circle, rgba(26, 152, 143, 0.08) 0%, transparent 70%);
+  bottom: -80px;
+  right: -80px;
+}
+
+/* Layout */
+.eir-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.eir-left {
+  flex: 1 1 340px;
+  min-width: 0;
+}
+
+.eir-right {
+  flex: 1 1 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-self: center;
+}
+
+/* Eyebrow */
+.eir-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #1a988f;
+  margin-bottom: 1.2rem;
+}
+
+.eir-eyebrow-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #821e6b;
+}
+
+/* Heading */
+.eir-heading {
+  /* font-size: 2rem; */
+  font-weight: 500;
+  line-height: 1.2;
+  color: #0f1f20;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.2rem;
+}
+
+.eir-highlight {
+  color: #821e6b;
+}
+
+/* Body text */
+.eir-body {
+  font-size: 0.95rem;
+  color: rgba(15, 32, 32, 0.65);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.eir-body--last {
+  margin-bottom: 0;
+}
+
+
+.eir-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.8rem;
+  height: 2.5rem;
+   font-family: "Rubik";
+  font-style: normal;
+  padding: 0.85rem 1rem;
+  background: #821e6b;
+  color: #fff !important;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 20px rgba(130, 30, 107, 0.25);
+  transition: all 0.25s ease;
+  border: none;
+}
+
+.eir-cta:hover {
+  background: #6b1858;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(130, 30, 107, 0.35);
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.eir-cta-icon-left {
+  margin-right: 8px;
+}
+
+.eir-cta-icon-right {
+  margin-left: 10px;
+  font-size: 0.85rem;
+}
+
+/* Perk cards */
+.eir-card {
+  background: #fff;
+  border: 1px solid rgba(130, 30, 107, 0.1);
+  border-radius: 16px;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.eir-card:hover {
+  border-color: #821e6b;
+  box-shadow: 0 6px 24px rgba(130, 30, 107, 0.14);
+  transform: translateY(-3px);
+}
+
+.eir-card-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #c0258f, #821e6b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.eir-card-icon-i {
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.eir-card-title {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: #0f1f20;
+  margin: 0;
+}
+
+.eir-card-body {
+  font-size: 0.78rem;
+  color: rgba(15, 32, 32, 0.55);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── EIR "Apply as EIR Mentor" button in Hero ── */
+.eir-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  height: 2.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  padding: 0.65rem 1.35rem;
+  background: #f2f1f1;
+  border: 2px solid #821e6b;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+ 
+
+
+
+
+.eir-hero-btn:hover {
+  background: #821e6b;
+  color: #fff;
+  box-shadow: 0 4px 18px rgba(130, 30, 107, 0.25);
+}
+
+.eir-hero-btn-icon {
+  margin-right: 7px;
+  font-size: 0.8rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .eir-inner {
+    flex-direction: column;
+    gap: 2.5rem;
   }
 
-  .join-resources {
-    order: 2;  /* Resources appear second */
+  .eir-right {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .eir-right {
+    grid-template-columns: 1fr;
+  }
+
+  .eir-heading {
+    font-size: 1.6rem;
   }
 }
