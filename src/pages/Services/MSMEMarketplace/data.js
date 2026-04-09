@@ -9,18 +9,21 @@ import legalmologo from "../../../assets/images/tech-marketplace/legalmo-logo.pn
 import trulancelogo from "../../../assets/images/tech-marketplace/trulance-logo.png";
 import mtnlogo from "../../../assets/images/tech-marketplace/mtn-logo.png";
 import zohologo from "../../../assets/images/tech-marketplace/zoho-logo.png";
+import talenmologo from "../../../assets/images/tech-marketplace/talenmologo.png";
+import digipluslogo from "../../../assets/images/tech-marketplace/digipluslogo.png";
+import finamologo from "../../../assets/images/tech-marketplace/finamologo.jpeg";
 import partnerwithus from "../../../assets/images/tech-marketplace/partnerwithus.png";
 import tailoredsolution from "../../../assets/images/tech-marketplace/tailoredsolution.png";
 import digiplus from "../../../assets/images/tech-marketplace/digiplus.png";
 
 export const SOLUTIONS = [
-  {img:legalmo,title:"LegalMo",desc:"Legal document automation and management for seamless compliance.",link:"https://www.legalmo.biz/",btnText:"Learn More",accent:"#00a495"},
-  {img:trulance,title:"Trulance",desc:"Financial tracking and reporting tools for better business insights.",link:"https://www.trulance.io/",btnText:"Learn More",accent:"#821e6b"},
-  {img:finamo,title:"Finamo",desc:"Accounting and invoicing solutions tailored for growing businesses.",link:"https://www.finamo.biz/",btnText:"Learn More",accent:"#0ea5a4"},
-  {img:talenmo,title:"TalenMo",desc:"HR and talent management platform for modern businesses.",link:"https://www.talenmo.biz/",btnText:"Learn More",accent:"#7c3aed"},
-  {img:mtn,title:"MTN Business",desc:"Connectivity and telecom solutions for enterprise needs.",link:"https://shop.mtn.ng/category/shop?affiliate_code=8thGearHub",btnText:"Learn More",accent:"#14b8a6"},
-  {img:zoho,title:"Zoho Suite",desc:"Comprehensive business software for CRM, HR, and operations.",link:"/msme-marketplace/zoho",btnText:"Learn More",accent:"#821e6b", internal:true},
-  {img:digiplus,title:"DigiPlus",desc:"Partner-powered digital solutions to help businesses scale.",link:"https://docs.google.com/forms/d/1agXtoUszfyAQuIXG12bUhbrY8Etub8-TRkn_F1vtGns/edit",btnText:"Learn More",accent:"#7c3aed"}
+  {img:legalmo,title:"LegalMo",desc:"Legal document automation and management for seamless compliance.",link:"https://www.legalmo.biz/",btnText:"Learn More",accent:"var(--teal)"},
+  {img:trulance,title:"Trulance",desc:"Financial tracking and reporting tools for better business insights.",link:"https://www.trulance.io/",btnText:"Learn More",accent:"var(--purple)"},
+  {img:finamo,title:"Finamo",desc:"Accounting and invoicing solutions tailored for growing businesses.",link:"https://www.finamo.biz/",btnText:"Learn More",accent:"var(--teal)"},
+  {img:talenmo,title:"TalenMo",desc:"HR and talent management platform for modern businesses.",link:"https://www.talenmo.biz/",btnText:"Learn More",accent:"var(--purple)"},
+  {img:mtn,title:"MTN Business",desc:"Connectivity and telecom solutions for enterprise needs.",link:"https://shop.mtn.ng/category/shop?affiliate_code=8thGearHub",btnText:"Learn More",accent:"var(--teal)"},
+  {img:zoho,title:"Zoho Suite",desc:"Comprehensive business software for CRM, HR, and operations.",link:"/msme-marketplace/zoho",btnText:"Learn More",accent:"var(--purple)", internal:true},
+  {img:digiplus,title:"DigiPlus Starter kit",desc:"Partner-powered digital solutions to help businesses scale.",link:"https://docs.google.com/forms/d/1agXtoUszfyAQuIXG12bUhbrY8Etub8-TRkn_F1vtGns/edit",btnText:"Learn More",accent:"var(--purple)", alignRight:true}
 ];
 
 export const FEATURES = [
@@ -33,7 +36,7 @@ export const FEATURES = [
     ),
     title: "Save Time & Resources",
     desc: "Skip the endless vendor research and demos. Our pre-vetted solutions are ready to implement immediately.",
-    color: "#00a495"
+    color: "var(--teal)"
   },
   {
     number: "02",
@@ -44,7 +47,7 @@ export const FEATURES = [
     ),
     title: "Expert-Vetted Quality",
     desc: "Every solution undergoes rigorous evaluation to ensure reliability, security, and proven business impact.",
-    color: "#821e6b"
+    color: "var(--purple)"
   },
   {
     number: "03",
@@ -55,7 +58,7 @@ export const FEATURES = [
     ),
     title: "Transparent Pricing",
     desc: "No hidden fees or surprise costs. Clear pricing structures with dedicated support for implementation.",
-    color: "#00a495"
+    color: "var(--teal)"
   },
   {
     number: "04",
@@ -66,7 +69,7 @@ export const FEATURES = [
     ),
     title: "Scale with Confidence",
     desc: "Solutions that grow with your business, from startup to enterprise, with ongoing support and updates.",
-    color: "#821e6b"
+    color: "var(--purple)"
   }
 ];
 
@@ -74,7 +77,11 @@ export const PARTNERS = [
   {logo: legalmologo, name: "LegalMo"},
   {logo: trulancelogo, name: "Trulance"},
   {logo: mtnlogo, name: "MTN"},
-  {logo: zohologo, name: "Zoho"},
+  {logo: zohologo, name: "Zoho"}, 
+  {logo: talenmologo, name: "Talenmo"}, 
+  {logo: digipluslogo, name: "DigiPlus"}, 
+  {logo: finamologo, name: "Finamo"}, 
+
 ];
 
 export { b2bImage, tailoredsolution, partnerwithus };

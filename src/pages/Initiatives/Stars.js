@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { C, F, bodyTxt, label, accentColors, Icon } from "../../Tokens";
+import { Icon } from "../../components/GlobalUI";
 
 const Stars = ({ n = 5 }) => (
   <div style={{ display: "flex", gap: 2 }}>

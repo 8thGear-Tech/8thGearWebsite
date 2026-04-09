@@ -106,71 +106,61 @@ import Peiges from "../../assets/images/projectdelivery/Peiges.PNG";
 //   </>
 // );
 
-const LogoScroll = () => (
-  <>
-    <div>
-      <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
-        <div className="slide-track2">
-          {[
-            gizlogo,
-            itflogo,
-            lsetflogo,
-            usadflogo,
-            s4plogo,
-            fcmblogo,
-            Afrilab,
-            leadAfrica,
-            Peiges,
-          ].map((src, index) => (
-            <div
-              className="slide2"
-              key={index}
-              style={index === 0 ? { marginLeft: "0px" } : undefined}
-            >
-              <img
-                src={src}
-                alt={`Logo ${index + 1}`}
-                className="carousel-logo"
-                style={{
-                  width: "130px",
-                  height: "100px",
-                  margin: "0 30px",
-                }}
-              />
-            </div>
-          ))}
-          {[
-            gizlogo,
-            itflogo,
-            lsetflogo,
-            usadflogo,
-            s4plogo,
-            fcmblogo,
-            Afrilab,
-            leadAfrica,
-            Peiges,
-          ].map((src, index) => (
-            <div
-              className="slide2"
-              key={index}
-              style={index === 0 ? { marginLeft: "0px" } : undefined}
-            >
-              <img
-                src={src}
-                alt={`Logo ${index + 1}`}
-                className="carousel-logo"
-                style={{
-                  width: "130px",
-                  height: "100px",
-                  margin: "0 30px",
-                }}
-              />
-            </div>
-          ))}
-        </div>
+const DEFAULT_LOGOS = [
+  gizlogo,
+  itflogo,
+  lsetflogo,
+  usadflogo,
+  s4plogo,
+  fcmblogo,
+  Afrilab,
+  leadAfrica,
+  Peiges,
+];
+
+const LogoScroll = ({ logos = DEFAULT_LOGOS }) => (
+  <div>
+    <div className="slider2" style={{ position: "relative", zIndex: 1 }}>
+      <div className="slide-track2">
+        {logos.map((src, index) => (
+          <div
+            className="slide2"
+            key={`logo-a-${index}`}
+            style={index === 0 ? { marginLeft: "0px" } : undefined}
+          >
+            <img
+              src={src}
+              alt={`Logo ${index + 1}`}
+              className="carousel-logo"
+              style={{
+                width: "130px",
+                height: "100px",
+                margin: "0 30px",
+              }}
+            />
+          </div>
+        ))}
+        {logos.map((src, index) => (
+          <div
+            className="slide2"
+            key={`logo-b-${index}`}
+            style={index === 0 ? { marginLeft: "0px" } : undefined}
+          >
+            <img
+              src={src}
+              alt={`Logo ${index + 1}`}
+              className="carousel-logo"
+              style={{
+                width: "130px",
+                height: "100px",
+                margin: "0 30px",
+              }}
+            />
+          </div>
+        ))}
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default LogoScroll;
