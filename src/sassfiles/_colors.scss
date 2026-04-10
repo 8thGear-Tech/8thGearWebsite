@@ -29,32 +29,6 @@ $shadow-lg: 0 16px 44px rgba(0,0,0,0.14);
 $radius: 12px;
 $radius-sm: 8px;
 
-// CSS custom properties so JavaScript inline styles can consume the same palette.
-:root {
-  --white: #ffffff;
-  --teal: #00a495;
-  --teal-dark: #007d71;
-  --teal-light: rgba(0, 164, 149, 0.07);
-  --teal-border: rgba(0, 164, 149, 0.25);
-  --teal-border-2: rgba(0, 164, 149, 0.20);
-  --teal-mid: rgba(0, 164, 149, 0.13);
-
-  --purple: #821e6b;
-  --purple-hover: #6b185a;
-  --purple-light: rgba(130, 30, 107, 0.07);
-  --purple-border: rgba(130, 30, 107, 0.20);
-  --mint: #b2f5ea;
-
-  --dark: #0f172a;
-  --slate: #1e293b;
-  --text-pri: #0f172a;
-  --text-sec: #475569;
-  --text-light: #94a3b8;
-
-  --grey-bg: #f4f6f8;
-  --grey-border: #e2e8f0;
-}
-
 // Legacy variable names kept as aliases for existing Sass files.
 $prybgcolor: $white;
 $lightgreenbg: $teal-light;

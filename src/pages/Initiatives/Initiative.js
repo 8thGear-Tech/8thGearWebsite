@@ -12,7 +12,8 @@ import { TestiCard, TestimonialLink } from "./TestimonialComponents";
 export default function InitiativesPage() {
   const [filter, setFilter] = useState("all");
 
-  const filtered = filter === "all" ? PROGRAMMES : PROGRAMMES.filter((p) => p.cat === filter);
+  const filtered =
+    filter === "all" ? PROGRAMMES : PROGRAMMES.filter((p) => p.cat === filter);
 
   return (
     <div className="ig8-page">
@@ -28,13 +29,20 @@ export default function InitiativesPage() {
               <h1 className="ig8-hero__title">
                 Building Resilient
                 <br />
-                <span className="ig8-hero__title-accent">MSMEs &amp; Entrepreneurs</span>
+                <span className="ig8-hero__title-accent">
+                  MSMEs &amp; Entrepreneurs
+                </span>
                 <br />
                 Across Nigeria
               </h1>
 
-              <p className="ig8-hero__copy ig8-hero__copy--light" style={{ maxWidth: 520, marginBottom: 36 }}>
-                From enterprise support to talent development initiatives, 8thGear Hub is driving measurable impact across Southwest Nigeria and beyond
+              <p
+                className="ig8-hero__copy ig8-hero__copy--light"
+                style={{ maxWidth: 520, marginBottom: 36 }}
+              >
+                From enterprise support to talent development initiatives,
+                8thGear Hub is driving measurable impact across Southwest
+                Nigeria and beyond
               </p>
 
               <div className="ig8-hero__actions">
@@ -72,7 +80,9 @@ export default function InitiativesPage() {
 
                 <div className="pt-3">
                   <div className="d-flex justify-content-between mb-2">
-                    <span className="ig8-hero__satisfaction">Satisfaction Rate</span>
+                    <span className="ig8-hero__satisfaction">
+                      Satisfaction Rate
+                    </span>
                     <span className="ig8-hero__percent">95%</span>
                   </div>
                   <div className="ig8-hero__progress">
@@ -91,10 +101,13 @@ export default function InitiativesPage() {
             <div className="ig8-section__eyebrow">Our Partners</div>
             <div className="ig8-section__divider" />
             <h2 className="ig8-section__title">
-              Trusted by Leading <span className="ig8-section__accent">Institutions</span>
+              Trusted by Leading{" "}
+              <span className="ig8-section__accent">Institutions</span>
             </h2>
             <p className="ig8-section__copy ig8-section__copy--narrow">
-              We collaborate with development agencies, Corporate CSR units and Philanthropies to design and deliver on Social Impact driven initiatves.
+              We collaborate with development agencies, Corporate CSR units and
+              Philanthropies to design and deliver on Social Impact driven
+              initiatves.
             </p>
           </div>
         </div>
@@ -110,7 +123,8 @@ export default function InitiativesPage() {
               Our Core <span className="ig8-section__accent">Competencies</span>
             </h2>
             <p className="ig8-section__copy">
-              We are keeping this section focused on two core areas where 8thGear delivers the strongest value.
+              We are keeping this section focused on two core areas where
+              8thGear delivers the strongest value.
             </p>
           </div>
 
@@ -133,10 +147,15 @@ export default function InitiativesPage() {
               <div className="ig8-section__eyebrow">Impact Reports</div>
               <div className="ig8-section__divider ig8-section__divider--left" />
               <h2 className="ig8-section__title">
-                Initiatives &amp; <span className="ig8-section__accent">Impact Evidence</span>
+                Initiatives &amp;{" "}
+                <span className="ig8-section__accent">Impact Evidence</span>
               </h2>
-              <p className="ig8-section__copy ig8-section__copy--left" style={{ maxWidth: 500 }}>
-                Fueling Innovation, Empowering Entrepreneurs and Transforming Communities.
+              <p
+                className="ig8-section__copy ig8-section__copy--left"
+                style={{ maxWidth: 500 }}
+              >
+                Fueling Innovation, Empowering Entrepreneurs and Transforming
+                Communities.
               </p>
             </div>
 
@@ -167,7 +186,9 @@ export default function InitiativesPage() {
 
           {filtered.length === 0 && (
             <div className="text-center mt-4">
-              <p className="ig8-section__copy">No programmes found for this category.</p>
+              <p className="ig8-section__copy">
+                No programmes found for this category.
+              </p>
             </div>
           )}
         </div>
@@ -176,20 +197,25 @@ export default function InitiativesPage() {
       <section className="ig8-section ig8-section--muted" id="testimonials">
         <div className="container">
           <div className="text-center mb-5">
-            <div className="ig8-section__eyebrow">Testimonials &amp; Reviews</div>
+            <div className="ig8-section__eyebrow">
+              Testimonials &amp; Reviews
+            </div>
             <div className="ig8-section__divider" />
             <h2 className="ig8-section__title">
-              What Participants <span className="ig8-section__accent">Are Saying</span>
+              What Participants{" "}
+              <span className="ig8-section__accent">Are Saying</span>
             </h2>
             <p className="ig8-section__copy">
-              Our programmes earn consistently high ratings across delivery sites.
+              Our programmes earn consistently high ratings across delivery
+              sites.
             </p>
           </div>
 
-          <div className="row g-4">
-            <div className="col-lg-7">
+          <div className="row g-4 justify-content-center">
+            <div className="col-lg-6 col-xl-8">
               <div className="ig8-testimonials__panel">
                 <p className="ig8-testimonials__label">Review Snapshot</p>
+
                 {[
                   { val: "4.4/5", label: "DBN Ibadan" },
                   { val: "4.46/5", label: "DBN Lagos" },
@@ -197,17 +223,13 @@ export default function InitiativesPage() {
                   { val: "96.3%", label: "Networking" },
                 ].map((r) => (
                   <div key={r.label} className="ig8-testimonials__item">
-                    <span className="ig8-testimonials__item-copy">{r.label}</span>
-                    <span className="ig8-testimonials__item-value">{r.val}</span>
+                    <span className="ig8-testimonials__item-copy">
+                      {r.label}
+                    </span>
+                    <span className="ig8-testimonials__item-value">
+                      {r.val}
+                    </span>
                   </div>
-                ))}
-              </div>
-              <div className="d-flex flex-wrap gap-2 mt-3">
-                {[
-                  { label: "View Testimonials", href: "#testimonials" },
-                  { label: "View Programmes & Reports", href: "#programmes" },
-                ].map((lnk) => (
-                  <TestimonialLink key={lnk.label} lnk={lnk} />
                 ))}
               </div>
             </div>
@@ -222,6 +244,15 @@ export default function InitiativesPage() {
               </div>
             ))}
           </div>
+
+          <div className="d-flex flex-wrap gap-2 mt-3">
+              {[
+                { label: "View Testimonials", href: "#testimonials" },
+                { label: "View Programmes & Reports", href: "#programmes" },
+              ].map((lnk) => (
+                <TestimonialLink key={lnk.label} lnk={lnk} />
+              ))}
+          </div>
         </div>
       </section>
 
@@ -233,16 +264,25 @@ export default function InitiativesPage() {
                 Get Involved
               </div>
               <h2 className="ig8-cta__title">
-                Ready to Partner with <span className="ig8-cta__accent">8thGear Hub?</span>
+                Ready to Partner with{" "}
+                <span className="ig8-cta__accent">8thGear Hub?</span>
               </h2>
               <p className="ig8-cta__copy">
-                We collaborate with development agencies, Corporate CSR units and Philanthropies to design and deliver on Social Impact driven initiatves.
+                We collaborate with development agencies, Corporate CSR units
+                and Philanthropies to design and deliver on Social Impact driven
+                initiatves.
               </p>
 
               <ul className="ig8-check-list mt-4">
-                {["Access to a broad network of MSMEs", "Expert-led programme design and delivery", "Measurable impact reporting"].map((item) => (
+                {[
+                  "Access to a broad network of MSMEs",
+                  "Expert-led programme design and delivery",
+                  "Measurable impact reporting",
+                ].map((item) => (
                   <li key={item} className="ig8-check-list__item">
-                    <span className="ig8-check-list__icon">{Icon.check("currentColor")}</span>
+                    <span className="ig8-check-list__icon">
+                      {Icon.check("currentColor")}
+                    </span>
                     {item}
                   </li>
                 ))}
@@ -253,7 +293,8 @@ export default function InitiativesPage() {
               <div className="ig8-cta__card">
                 <p className="ig8-cta__card-title">What We Deliver</p>
                 <p className="ig8-cta__card-copy">
-                  Structured support for innovation, enterprise development, community activation and measurable programme delivery.
+                  Structured support for innovation, enterprise development,
+                  community activation and measurable programme delivery.
                 </p>
 
                 <div className="mt-4">

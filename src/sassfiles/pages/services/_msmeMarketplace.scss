@@ -1,7 +1,20 @@
-@import "../../_colors.scss";
+@use "../../colors" as *;
 
 .msm-page {
-  background: var(--white);
+
+  --white: #{$white};
+
+  --teal: #{$teal};
+  --teal-dark: #{$teal-dark};
+  --teal-light: #{$teal-light};
+
+  --purple: #{$purple};
+
+  --text-pri: #{$text-pri};
+  --text-sec: #{$text-sec};
+
+  --grey-bg: #{$grey-bg};
+  --grey-border: #{$grey-border};
 }
 
 .msm-hero {
@@ -68,7 +81,6 @@
 
 .msm-hero__title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 3.1rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -86,9 +98,7 @@
 
 .msm-hero__copy {
   font-family: var(--font-body);
-  font-size: 1.1rem;
   font-weight: 300;
-  line-height: 1.6;
   color: rgba(255, 255, 255, 0.78);
   margin-bottom: 32px;
   max-width: 500px;
@@ -195,8 +205,8 @@
 .msm-section__title {
   color: var(--dark);
   margin-bottom: 16px;
-  font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .msm-section__title--solutions {
@@ -213,9 +223,8 @@
 
 .msm-section__copy {
   font-family: var(--font-body);
-  font-size: 0.97rem;
   font-weight: 300;
-  line-height: 1.75rem;
+  font-size: 0.95rem;
   color: var(--text-sec);
   margin-bottom: 0;
 }
@@ -223,8 +232,6 @@
 .msm-section__copy--wide {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
 }
 
 .msm-section__content {
@@ -319,8 +326,8 @@
 .msm-why-card__icon {
   background: rgba(0, 164, 149, 0.15);
   border-radius: 16px;
-  width: 64px;
-  height: 64px;
+  width: 54px;
+  height: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,17 +353,16 @@
 .msm-why-card__title {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 1.25rem;
   color: var(--dark);
+  font-size: 1.1rem;
   margin-bottom: 12px;
   line-height: 1.3;
 }
 
 .msm-why-card__copy {
   font-family: var(--font-body);
-  font-size: 1rem;
   font-weight: 300;
-  line-height: 1.6;
+  font-size: 0.95rem;
   color: var(--text-sec);
   margin: 0;
   flex-grow: 1;
@@ -442,7 +448,6 @@
 
 .msm-sol-card__title {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.2;
   color: var(--white);
@@ -469,9 +474,8 @@
 
 .msm-sol-card__copy {
   font-family: var(--font-body);
-  font-size: 0.92rem;
   font-weight: 300;
-  line-height: 1.65rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.78);
   margin-bottom: 18px;
   flex-grow: 1;

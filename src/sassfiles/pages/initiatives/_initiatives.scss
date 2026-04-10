@@ -1,22 +1,51 @@
-@import "../../_colors.scss";
+@use "../../colors" as *;
 
 .ig8-page {
+  /* scoped CSS variables */
+  --white: #{$white};
+
+  --teal: #{$teal};
+  --teal-dark: #{$teal-dark};
+  --teal-light: #{$teal-light};
+  --teal-border: #{$teal-border};
+  --teal-border-2: #{$teal-border-2};
+
+  --purple: #{$purple};
+  --purple-hover: #{$purple-hover};
+  --purple-light: #{$purple-light};
+  --purple-border: #{$purple-border};
+
+  --mint: #{$mint};
+
+  --dark: #{$dark};
+  --slate: #{$slate};
+
+  --text-pri: #{$text-pri};
+  --text-sec: #{$text-sec};
+  --text-light: #{$text-light};
+
+  --grey-bg: #{$grey-bg};
+  --grey-border: #{$grey-border};
+
   background: var(--white);
 }
 
 .ig8-hero {
-  background: linear-gradient(140deg, var(--teal-dark) 0%, var(--teal) 55%, var(--teal-dark) 100%);
-  padding: 108px 0 100px;
+  background: linear-gradient(
+    140deg,
+    var(--teal-dark) 0%,
+    var(--teal) 55%,
+    var(--teal-dark) 100%
+  );
+  padding: 80px 0 60px;
   position: relative;
   overflow: hidden;
 }
-
 .ig8-hero__orb {
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
 }
-
 .ig8-hero__orb--top {
   top: -80px;
   right: -100px;
@@ -24,7 +53,6 @@
   height: 420px;
   border: 60px solid rgba(255, 255, 255, 0.07);
 }
-
 .ig8-hero__orb--bottom {
   bottom: -110px;
   left: -90px;
@@ -32,14 +60,12 @@
   height: 360px;
   border: 50px solid rgba(255, 255, 255, 0.05);
 }
-
 .ig8-hero__card {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: $radius;
   padding: 30px 26px;
 }
-
 .ig8-hero__eyebrow,
 .ig8-section__eyebrow,
 .ig8-cta__eyebrow {
@@ -57,105 +83,93 @@
   text-transform: uppercase;
   color: var(--teal);
 }
-
 .ig8-hero__eyebrow {
   color: rgba(255, 255, 255, 0.72);
   margin-bottom: 22px;
 }
-
 .ig8-cta__eyebrow {
   color: var(--teal);
   margin-bottom: 22px;
 }
-
 .ig8-hero__stat-label,
 .ig8-hero__satisfaction,
 .ig8-hero__stat-copy {
   font-family: var(--font-body);
 }
-
 .ig8-hero__stat-label {
   font-size: 13px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.72);
 }
-
 .ig8-hero__stat-value {
   font-family: var(--font-heading);
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--white);
 }
-
 .ig8-hero__satisfaction {
   font-size: 12px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .ig8-hero__percent {
   font-family: var(--font-heading);
   font-size: 13px;
   font-weight: 700;
   color: var(--white);
 }
-
 .ig8-hero__progress {
   height: 6px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 999px;
   overflow: hidden;
 }
-
 .ig8-hero__progress-bar {
   width: 95%;
   height: 100%;
   background: var(--mint);
   border-radius: 999px;
 }
-
 .ig8-hero__title,
 .ig8-section__title,
 .ig8-cta__title {
   font-family: var(--font-heading);
   letter-spacing: -0.02em;
 }
-
 .ig8-hero__title {
-  font-size: clamp(2rem, 5vw, 3.1rem);
   font-weight: 800;
   line-height: 1.1;
   color: var(--white);
   margin-bottom: 18px;
 }
-
 .ig8-hero__title-accent {
   color: var(--mint);
 }
-
-.ig8-hero__copy,
+.ig8-hero__copy {
+  font-family: var(--font-body);
+  font-weight: 300;
+  color: var(--text-sec);
+  margin-bottom: 0;
+}
 .ig8-section__copy,
 .ig8-cta__copy {
   font-family: var(--font-body);
-  font-size: 0.97rem;
+  font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.75rem;
   color: var(--text-sec);
   margin-bottom: 0;
 }
-
 .ig8-hero__copy--light,
 .ig8-cta__copy--light {
   color: rgba(255, 255, 255, 0.78);
 }
-
 .ig8-hero__actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }
-
 .ig8-btn {
   display: inline-flex;
   align-items: center;
@@ -167,68 +181,59 @@
   font-weight: 600;
   text-decoration: none;
   border: none;
-  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition:
+  transform 0.2s ease,
+  background 0.2s ease,
+  color 0.2s ease,
+  border-color 0.2s ease;
 }
-
 .ig8-btn:hover,
 .ig8-btn:focus-visible {
   transform: translateY(-1px);
 }
-
 .ig8-btn--purple {
   background: var(--purple);
   color: var(--white);
 }
-
 .ig8-btn--purple:hover,
 .ig8-btn--purple:focus-visible {
   background: var(--purple-hover);
   color: var(--white);
 }
-
 .ig8-btn--outline {
   background: transparent;
   color: var(--white);
   border: 1.5px solid rgba(255, 255, 255, 0.5);
 }
-
 .ig8-btn--outline:hover,
 .ig8-btn--outline:focus-visible {
   background: rgba(255, 255, 255, 0.13);
   color: var(--white);
 }
-
 .ig8-section {
   padding: 88px 0;
 }
-
 .ig8-section--white {
   background: var(--white);
 }
-
 .ig8-section--muted {
   background: var(--grey-bg);
 }
-
 .ig8-section__title,
 .ig8-cta__title {
   color: var(--dark);
   margin-bottom: 10px;
 }
-
 .ig8-section__title {
-  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-size: 1.5rem;
   font-weight: 700;
 }
-
 .ig8-section__title--light {
   color: var(--white);
 }
-
 .ig8-section__accent {
   color: var(--teal);
 }
-
 .ig8-section__divider {
   width: 44px;
   height: 3px;
@@ -236,30 +241,24 @@
   background: var(--teal);
   margin: 10px auto 18px;
 }
-
 .ig8-section__divider--left {
   margin: 10px 0 18px;
 }
-
 .ig8-section__copy {
   max-width: 620px;
   margin: 0 auto;
 }
-
 .ig8-section__copy--left {
   margin-left: 0;
   margin-right: auto;
 }
-
 .ig8-section__copy--narrow {
   max-width: 460px;
 }
-
 .ig8-section__content {
   position: relative;
   z-index: 1;
 }
-
 .ig8-filterbar {
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +269,6 @@
   border-radius: $radius-sm;
   flex-shrink: 0;
 }
-
 .ig8-filterbar__button {
   display: inline-flex;
   align-items: center;
@@ -284,37 +282,33 @@
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
-
 .ig8-filterbar__button:hover,
 .ig8-filterbar__button:focus-visible {
   background: var(--white);
   color: var(--teal);
 }
-
 .ig8-filterbar__button.is-active {
   background: var(--teal);
   color: var(--white);
 }
-
 .ig8-grid-gap {
   gap: 24px;
 }
-
 .ig8-testimonials__panel {
   background: var(--teal);
   border-radius: $radius;
   padding: 26px 28px;
 }
-
 .ig8-testimonials__label {
   font-family: var(--font-body);
   font-size: 12px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .ig8-testimonials__value {
   font-family: var(--font-heading);
   font-size: 1.7rem;
@@ -322,7 +316,6 @@
   line-height: 1;
   color: var(--white);
 }
-
 .ig8-testimonials__item {
   display: flex;
   align-items: center;
@@ -331,11 +324,9 @@
   padding: 12px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
-
 .ig8-testimonials__item:last-child {
   border-bottom: 0;
 }
-
 .ig8-testimonials__item-copy {
   font-family: var(--font-body);
   font-size: 13px;
@@ -428,7 +419,10 @@
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .ig8-link-btn:hover,
@@ -497,7 +491,11 @@
   border: 1px solid var(--grey-border);
   border-radius: $radius;
   box-shadow: $shadow;
-  transition: transform 0.26s ease, box-shadow 0.26s ease, background 0.26s ease, border-color 0.26s ease;
+  transition:
+    transform 0.26s ease,
+    box-shadow 0.26s ease,
+    background 0.26s ease,
+    border-color 0.26s ease;
   overflow: hidden;
   height: 100%;
   display: flex;
@@ -617,7 +615,10 @@
   border: 1px solid var(--grey-border);
   border-radius: $radius;
   box-shadow: $shadow;
-  transition: transform 0.26s ease, box-shadow 0.26s ease, border-color 0.26s ease;
+  transition:
+    transform 0.26s ease,
+    box-shadow 0.26s ease,
+    border-color 0.26s ease;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -806,7 +807,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  
 }
 
 .ig8-programme-card__metric {
@@ -863,21 +863,17 @@
   font-size: 0.82rem;
   line-height: 1.5rem;
 }
-
 .ig8-programme-card__list li {
   font-size: 0.82rem;
 }
-
 .ig8-programme-card__list li + li {
   margin-top: 4px;
 }
-
 .ig8-programme-card__pills {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
 }
-
 .ig8-programme-card__pill {
   display: inline-flex;
   align-items: center;
@@ -897,11 +893,9 @@
     min-height: 0;
   }
 }
-
 .ig8-mq {
   animation: ig8mq 38s linear infinite;
 }
-
 .ig8-mq:hover {
   animation-play-state: paused;
 }
