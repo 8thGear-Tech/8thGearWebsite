@@ -758,7 +758,7 @@ export const Gerians = () => {
   return (
     <div className="container">
       <div className="row justify-content-center mt-5 mb-3">
-        <h3 className="text-center">OUR CORE TEAM</h3>
+        <h3 className="text-center" style={{color: "#821E6B"}}>OUR CORE TEAM</h3>
         <div className="col-lg-4 col-md-6 mt-5">
           {" "}
           {/* {data.teamcardone.map((card) => {

@@ -26,9 +26,8 @@ export default function MSMEMarketplace() {
             <div className="col-lg-6">
               <FadeUp>
                 <div className="msm-hero__eyebrow">MSME Marketplace</div>
-                <h1 className="msm-hero__title">
-                  Transform Your Business with
-                  <span className="msm-hero__title-accent">Cutting-Edge Solutions</span>
+                <h1 className="msm-hero__title-accent">
+                  Transform Your Business with Cutting-Edge Solutions
                 </h1>
                 <p className="msm-hero__copy">
                   Discover vetted B2B tools and services that drive growth, streamline operations, and give you a competitive edge in today's digital marketplace.

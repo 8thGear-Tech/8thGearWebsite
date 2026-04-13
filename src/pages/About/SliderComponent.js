@@ -76,7 +76,7 @@ const SliderComponent = () => {
                       <Card.Title className="fs-5 mb-0 text-white text-center">
                         {slide.title}
                       </Card.Title>
-                      <Card.Text className="fs-6 mb-1 text-center">
+                      <Card.Text className="fs-6 mb-1 text-center text-white">
                         {slide.staff}
                       </Card.Text>
                       <a href={slide.link}>
@@ -105,7 +105,7 @@ const SliderComponent = () => {
                       <Card.Title className="fs-5 mb-0 text-white text-center">
                         {slide.title}
                       </Card.Title>
-                      <Card.Text className="fs-6 mb-1 text-center">
+                      <Card.Text className="fs-6 mb-1 text-center text-white">
                         {slide.staff}
                       </Card.Text>
                       <a href={slide.link}>
