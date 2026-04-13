@@ -13,16 +13,22 @@ const slidesData = [
     link: "https://www.linkedin.com/in/damilolaobidairo/",
   },
   {
-    image: "/images/team/omowunmi.png",
-    title: "Omowunmi Obidairo",
-    staff: "Executive Director",
-    link: "https://www.linkedin.com/in/omowunmiobidairo/",
+    image: "/images/advisoryImage/Sholeye.jpg",
+    title: "Olatutu Soleye",
+    staff: "Governance & Ethics Advisor",
+    link: "https://www.linkedin.com/in/olatutu-sholeye-470a9948/",
   },
   {
     image: "/images/team/rotimi.png",
     title: "Rotimi Owowa",
     staff: "Board Chairman",
     link: "https://www.linkedin.com/in/rotimi-owowa-bab8b113/",
+  },
+  {
+    image: "/images/team/habeeb.png",
+    title: "Habeeb Gbenle",
+    staff: "Non-Executive Director",
+    link: "https://www.linkedin.com/in/gbenle-habeeb-aca-cife-653aaa92/",
   },
   {
     image: "/images/advisoryImage/sutinyang.png",
@@ -37,10 +43,10 @@ const slidesData = [
     link: "https://www.linkedin.com/in/seyi-bioku-870539116/",
   },
   {
-    image: "/images/advisoryImage/Sholeye.jpg",
-    title: "Olatutu Soleye",
-    staff: "Governance & Ethics Advisor",
-    link: "https://www.linkedin.com/in/olatutu-sholeye-470a9948/",
+    image: "/images/team/omowunmi.png",
+    title: "Omowunmi Obidairo",
+    staff: "Executive Director",
+    link: "https://www.linkedin.com/in/omowunmiobidairo/",
   },
   {
     image: "/images/advisoryImage/yinkaogunleye.png",
@@ -53,7 +59,7 @@ const slidesData = [
 const SliderComponent = () => {
   return (
     <Container className="py-3">
-      <h3 className="text-center mt-5 mb-5 purple-text">ADVISORY BOARD</h3>
+      <h3 className="text-center mt-5 mb-5 purple-text">BOARD OF DIRECTORS & ADVISORS</h3>
       <Row className="justify-content-center">
         <Col xs={12} md={12} lg={12}>
           <div className="scroll-container">

@@ -163,8 +163,8 @@ const JointheTeam = () => {
               <i className="bi bi-people-fill"></i>
             </div>
             <div className="join-resource-info">
-              <span className="join-resource-title">Culture Deck</span>
-              <span className="join-resource-sub">How we work & what we value</span>
+              <span className="join-resource-title">View Our Culture Deck</span>
+              <span className="join-resource-sub">Learn how we work and what we value</span>
             </div>
             <i className="bi bi-arrow-up-right join-resource-arrow"></i>
           </a>
@@ -179,8 +179,8 @@ const JointheTeam = () => {
               <i className="bi bi-journal-text"></i>
             </div>
             <div className="join-resource-info">
-              <span className="join-resource-title">Employee Handbook</span>
-              <span className="join-resource-sub">Policies, perks & expectations</span>
+              <span className="join-resource-title">View our Employee Handbook</span>
+              <span className="join-resource-sub">Get familiar with our policies, perks and general expectations</span>
             </div>
             <i className="bi bi-arrow-up-right join-resource-arrow"></i>
           </a>
