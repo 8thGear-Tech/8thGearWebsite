@@ -88,19 +88,20 @@
       "id": "1",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     },
+     {
+      "image1": "../../images/team/titilayo.png",
+      "name1": "TITILAYO EKUNDAYO",
+      "title1": "EIR",
+      "id": "2",
+      "link": "https://www.linkedin.com/in/titilayo-ekundayo-833336a1/"
+    },
     {
       "image1": "../../images/team/sunkanmiolarewaju.png",
       "name1": "SUNKANMI OLAREWAJU",
       "title1": "EIR",
-      "id": "2",
-      "link": "https://www.linkedin.com/in/olarewaju-olasunkanmi/"
-    },
-    {
-      "image1": "../../images/team/titilayo.png",
-      "name1": "TITILAYO EKUNDAYO",
-      "title1": "EIR",
       "id": "3",
-      "link": "https://www.linkedin.com/in/titilayo-ekundayo-833336a1/"
+      "link": "https://www.linkedin.com/in/olarewaju-olasunkanmi/"
     }
+   
   ]
 }
