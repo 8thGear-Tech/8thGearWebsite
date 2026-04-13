@@ -66,7 +66,7 @@ const HeroSection = () => {
             </div>
             <div className="visual-divider" />
             <div className="visual-stat">
-              <span className="stat-number">6+</span>
+              <span className="stat-number">7+</span>
               <span className="stat-label">Years of Impact</span>
             </div>
           </div>
