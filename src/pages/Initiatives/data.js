@@ -1,14 +1,13 @@
 export const FILTER_TABS = [
   { key: "all", label: "All" },
-  { key: "capacity", label: "Capacity Building" },
-  { key: "digital", label: "Digital Skills" },
-  { key: "employ", label: "Employability" },
+  { key: "enterprise", label: "Enterprise Support" },
+  { key: "talent", label: "Talent Development" },
 ];
 
 export const PROGRAMMES = [
   {
     id: 1,
-    cat: "capacity",
+    cat: "enterprise",
     col: "teal",
     badge: "Ibadan · Oct 2–4, 2025",
     title: "DBN Capacity Building Workshop — Ibadan",
@@ -40,7 +39,7 @@ export const PROGRAMMES = [
   },
   {
     id: 2,
-    cat: "digital",
+    cat: "talent",
     col: "purple",
     badge: "Oct 17 – Nov 7, 2025",
     title: "Digital Skills for Entrepreneurs (DSE)",
@@ -73,8 +72,8 @@ export const PROGRAMMES = [
   },
   {
     id: 3,
-    cat: "capacity",
-    col: "teal",
+    cat: "enterprise",
+    col: "purple",
     badge: "Lagos · Nov 26–28, 2025",
     title: "DBN Capacity Building Workshop — Lagos",
     body: "Built on Ibadan learnings with sharper sessions on pitch-deck preparation, advanced money management, legal protection, and sales strategies.",
@@ -106,8 +105,8 @@ export const PROGRAMMES = [
   },
   {
     id: 4,
-    cat: "digital",
-    col: "purple",
+    cat: "enterprise",
+    col: "teal",
     badge: "GIZ-DTC · EU Funded",
     title: "GIZ-DTC / EU Digital Innovation Hub",
     body: "Leading a consortium driving digital transformation for MSMEs across Trade, Transport & Logistics, and Education in Southwest Nigeria, co-funded by GIZ and the European Union.",
@@ -134,7 +133,7 @@ export const PROGRAMMES = [
   },
   {
     id: 5,
-    cat: "digital",
+    cat: "enterprise",
     col: "teal",
     badge: "April 15 – April 26, 2024",
     title: "Get Online with DigiPlus Training",
@@ -172,7 +171,7 @@ export const PROGRAMMES = [
   },
     {
     id: 6,
-    cat: "employ",
+    cat: "talent",
     col: "purple",
     badge: "Dec 11, 2023 – Aug 16, 2024",
     title: "USADF/LSETF Fully Funded Scholarship",
@@ -206,7 +205,7 @@ export const PROGRAMMES = [
 
 export const COMPETENCIES = [
   {
-    title: "Business Enterprise Support and Mentorship",
+    title: "Enterprise Support",
     desc: "We have a range of support services and programs designed to assist MSMEs. We also have experienced advisors and mentors who can guide startups.",
     tags: ["MSME Support", "Advisory", "Mentorship"],
     icon: (col = "currentColor") => (
@@ -228,9 +227,9 @@ export const COMPETENCIES = [
     ),
   },
   {
-    title: "Talent Development and Employment",
+    title: "Talent Development and Employability",
     desc: "At 8thGear, we are committed to providing exceptional Talent Management to individuals and organizations alike.",
-    tags: ["Talent Development", "Employment", "Training"],
+    tags: ["Talent Development", "Employability", "Training"],
     icon: (col = "currentColor") => (
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
         <circle cx="13" cy="13" r="9" stroke={col} strokeWidth="1.7" />
