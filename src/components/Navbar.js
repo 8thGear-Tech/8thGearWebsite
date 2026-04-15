@@ -908,10 +908,10 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item
-                      href="/DSE"
+                      href="/entrepreneurs-growth-lab"
                       className="dropdown-item-separated"
                     >
-                    DSE (Digital Skills for Entrepreneurs)
+                    EGL (Entrepreneurs Growth Lab)
                     </NavDropdown.Item>
                       <NavDropdown.Item href="/hub-membership"  className="dropdown-item-separated">
                       Hub Membership
@@ -1030,10 +1030,10 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item
-                      href="/DSE"
+                      href="/entrepreneurs-growth-lab"
                       className="dropdown-item-separated"
                     >
-                    DSE (Digital Skills for Entrepreneurs)
+                  EGL (Entrepreneurs Growth Lab)
                     </NavDropdown.Item>
                       <NavDropdown.Item href="/hub-membership" className="dropdown-item-separated">
                       Hub Membership

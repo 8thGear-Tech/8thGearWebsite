@@ -94,7 +94,7 @@ import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
 import ESP from "./pages/ProjectDelivery/Programs/ESP";
-import DSE from "./pages/ProjectDelivery/Programs/DSE";
+import EGL from "./pages/ProjectDelivery/Programs/EGL";
 import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
 import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
 import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
@@ -121,7 +121,7 @@ function App() {
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="ESP" element={<ESP />} />
-          <Route path="DSE" element={<DSE />} />
+          <Route path="entrepreneurs-growth-lab" element={<EGL />} />
           <Route path="DeepTech_DSN_Google" element={<ThreeMTT/>} />
           <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
           <Route path="meristem-lagos-green" element={<MeristemGreenLagos />} />

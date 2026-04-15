@@ -24,92 +24,6 @@ const MeristemGreenLagos = () => {
   );
 };
 
-// const MeristemHero = () => {
-//   return (
-//     <div 
-//       className="position-relative overflow-hidden"
-//       style={{ 
-//         background: `linear-gradient(135deg, ${PRIMARY_PURPLE} 0%, ${MERISTEM_GREEN} 100%)`,
-//         minHeight: "85vh",
-//         display: "flex",
-//         alignItems: "center"
-//       }} 
-//       id="meristem-green-lagos"
-//     >
-//       {/* Decorative elements */}
-//       <div
-//         className="position-absolute"
-//         style={{
-//           width: "500px",
-//           height: "500px",
-//           background: "rgba(255, 255, 255, 0.03)",
-//           borderRadius: "50%",
-//           top: "-100px",
-//           right: "-100px",
-//         }}
-//       ></div>
-//       <div
-//         className="position-absolute"
-//         style={{
-//           width: "300px",
-//           height: "300px",
-//           background: "rgba(244, 164, 96, 0.1)",
-//           borderRadius: "50%",
-//           bottom: "-50px",
-//           left: "-50px",
-//         }}
-//       ></div>
-
-//       <Container>
-//         <Row className="align-items-center">
-//           <Col lg={7}>
-//            <Badge 
-//               className="mb-4" 
-//               style={{ 
-//                 backgroundColor: MERISTEM_GREEN,
-//                 color: "#fff",
-//                 fontSize: "0.95rem",
-//                 padding: "10px 20px",
-//                 fontWeight: "600"
-//               }}
-//             >
-//               Phase 1 Accelerator Program
-//             </Badge>
-            
-//             <h1 className="display-3 fw-bold text-white mb-4">
-//               More Lagos Green
-//             </h1>
-
-//             <p className="lead text-white mb-5" style={{ fontSize: "1.3rem", lineHeight: "1.6", maxWidth: "600px" }}>
-//               Transforming 30 entrepreneurs into investment-ready founders through milestone-driven acceleration.
-//             </p>
-
-//           </Col>
-
-//           <Col lg={5}>
-//             <div className="position-relative mt-5 mt-lg-0">
-//               <div
-//                 className="p-4 rounded-4"
-//                 style={{
-//                   background: "rgba(255, 255, 255, 0.95)",
-//                   backdropFilter: "blur(20px)",
-//                   boxShadow: "0 20px 60px rgba(0, 0, 0, 0.3)"
-//                 }}
-//               >
-//                 <img
-//                   src={meristemLogo}
-//                   className="img-fluid"
-//                   alt="More Lagos Green"
-//                   style={{ maxWidth: "100%", height: "auto" }}
-//                 />
-//               </div>
-//             </div>
-//           </Col>
-//         </Row>
-//       </Container>
-//     </div>
-//   );
-// };
 const MeristemHero = () => {
   return (
     <section
@@ -150,11 +64,11 @@ const MeristemHero = () => {
             <h1
               className="fw-bold text-white mb-4"
               style={{
-                fontSize: "clamp(2.2rem, 5vw, 3.5rem)",
+                fontSize: "clamp(2rem, 5vw, 3.5rem)",
                 lineHeight: "1.2"
               }}
             >
-              More Lagos Green
+               MIRE Meristem
             </h1>
 
             <p
@@ -440,7 +354,7 @@ const MeristemDeliverables = () => {
                   }}
                 >
                   <h3 className="fw-bold mb-1">100%</h3>
-                  <p className="mb-0" style={{ fontSize: "0.85rem" }}>Completion Rate</p>
+                  <p className="mb-0 text-white" style={{ fontSize: "0.85rem" }}>Completion Rate</p>
                 </Card>
               </Col>
               <Col xs={6}>
@@ -452,7 +366,7 @@ const MeristemDeliverables = () => {
                   }}
                 >
                   <h3 className="fw-bold mb-1">56.5%</h3>
-                  <p className="mb-0" style={{ fontSize: "0.85rem" }}>Investment Track</p>
+                  <p className="mb-0 text-white" style={{ fontSize: "0.85rem" }}>Investment Track</p>
                 </Card>
               </Col>
             </Row>

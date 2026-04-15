@@ -43,7 +43,7 @@ const GaaSNew = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn btn-outline-light mt-4 py-2 fs-5 rounded-pill px-lg-3 w-md-50 ms-md-5 mb-4">
+            <button className="btn btn-outline-light mt-4 py-2 fs-5 rounded-3 px-lg-3 w-md-50 ms-md-5 mb-4">
               Book a Growth Session
             </button>
           </a>
@@ -258,7 +258,7 @@ const WhatWeDo = () => {
       >
         {" "}
         <button
-          className="btn btn-primary mt-4 rounded-pill py-2 px-4 fs-5 whatButton"
+          className="btn btn-primary mt-4 rounded-3 py-2 px-4 fs-5 whatButton"
           style={{ color: "#D3D3D3" }}
         >
           Book a Growth Session
@@ -280,11 +280,11 @@ const OurGrowthPrograms = () => {
       icon: "💼",
     },
     {
-      title: "DSE",
-      subtitle: "Digital Skills for Entrepreneurs",
+      title: "EGL",
+      subtitle: "Entrepreneurs Growth Lab",
       description:
-        "3-week intensive program in Digital Marketing, E-Commerce, Financial Management and AI for MSMEs. Build your Digital Transformation Roadmap and scale sustainably.",
-      link: "/DSE",
+        "Live quarterly masterclasses featuring hands-on digital tools and practical strategies for sales and marketing, accounting and bookkeeping, business IP protection, and team optimization.",
+      link: "/entrepreneurs-growth-lab",
       accentColor: "#6E006A", // Main brand purple
       icon: "🚀",
     },
@@ -673,7 +673,7 @@ const GaasReady = () => {
         >
           {" "}
           <button
-            className="btn btn-primary rounded-pill py-2 px-4 fs-5 whatButton"
+            className="btn btn-primary rounded-3 py-2 px-4 fs-5 whatButton"
             // className="btn btn-outline-light rounded-pill px-3 px-md-4 py-2 fs-5 readyButton"
             // style={{
             //   borderColor: "#D3D3D3",
