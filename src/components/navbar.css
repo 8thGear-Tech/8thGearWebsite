@@ -8,3 +8,28 @@
   border-bottom: 1px solid #e9ecef; /* A very light gray border to separate items */
   font-size: 0.7rem;
 }
+
+/* navbar.css */
+/* .NavBar,
+.bg-white.top-0 {
+  top: var(--banner-height, 0px);
+} */
+
+.NavBar,
+.bg-white.top-0 {
+  position: relative; /* or remove position entirely */
+  top: unset;
+  z-index: 1;  /* well below the fixed banner */
+}
+
+.custom-sticky-nav {
+  position: sticky;
+  top: var(--banner-height, 0px);
+  z-index: 999;
+  width: 100%;
+}
+
+.custom-sticky-nav .container {
+  padding-top: 16px;
+  /* padding-bottom: 16px; */
+}

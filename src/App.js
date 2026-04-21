@@ -98,10 +98,12 @@ import EGL from "./pages/ProjectDelivery/Programs/EGL";
 import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
 import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
 import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
+import SurveyBanner from "./components/SurveyBanner";
 
 function App() {
   return (
     <BrowserRouter>
+    <SurveyBanner />
     {/* <TasterSessionModal/> */}
       <FooterItemToTop>
         <Routes>

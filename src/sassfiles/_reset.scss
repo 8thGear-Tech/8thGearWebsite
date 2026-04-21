@@ -5,7 +5,10 @@
 
 body {
   margin: 0;
-  padding: 0 !important;
+  // padding: 0 !important;
+  body {
+  padding-top: var(--banner-height, 40px); /* only account for the fixed banner */
+}
   // overflow: visible !important;
   // overflow: auto !important;
   overflow-x: hidden;

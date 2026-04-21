@@ -827,7 +827,9 @@ export const ProjectNav = () => {
 export const HomepageNav = () => {
   return (
     <>
-      <Navbar expand="sm" className="bg-white top-0 m-0">
+      {/* <Navbar expand="sm" className="bg-white top-0 m-0"> */}
+      <Navbar expand="sm" className="bg-white m-0 custom-sticky-nav">
+      {/* <Navbar expand="sm" className="bg-white sticky-top m-0" style={{ top: 'var(--banner-height, 0px)' }}> */}
         <div className="container">
           <Row className="w-100">
             <div className="d-flex align-items-center justify-content-between">
