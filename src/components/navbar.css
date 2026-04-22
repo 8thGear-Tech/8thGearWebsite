@@ -1,35 +1,66 @@
-.custom-dropdown-item {
-  white-space: normal; 
-  word-break: break-word; 
-}
-
-.dropdown-item-separated {
-  background-color: #f8f9fa; /* A light gray background */
-  border-bottom: 1px solid #e9ecef; /* A very light gray border to separate items */
-  font-size: 0.7rem;
-}
-
-/* navbar.css */
-/* .NavBar,
-.bg-white.top-0 {
-  top: var(--banner-height, 0px);
-} */
-
-.NavBar,
-.bg-white.top-0 {
-  position: relative; /* or remove position entirely */
-  top: unset;
-  z-index: 1;  /* well below the fixed banner */
-}
-
+/* ─── STICKY NAVBAR ─────────────────────────────────────────── */
 .custom-sticky-nav {
   position: sticky;
-  top: var(--banner-height, 0px);
+  top: 0;
   z-index: 999;
   width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.custom-sticky-nav .container {
-  padding-top: 16px;
-  /* padding-bottom: 16px; */
+/* ─── OFFCANVAS Z-INDEX (scoped to main nav only) ───────────── */
+.main-nav-wrapper .offcanvas {
+  z-index: 1200 !important;
+}
+.main-nav-wrapper .offcanvas-backdrop {
+  z-index: 1199 !important;
+}
+
+/* ─── DESKTOP DROPDOWN FONT SIZES ───────────────────────────── */
+.main-nav-wrapper .dropdown-menu .dropdown-item {
+  font-size: 13px !important;
+}
+
+.main-nav-wrapper .Nav-Dropdown-Items {
+  font-size: 13px !important;
+}
+
+.main-nav-wrapper .nav-link,
+.main-nav-wrapper .dropdown-toggle {
+  font-size: 14px !important;
+}
+
+/* ─── DESKTOP DROPDOWN SEPARATORS ───────────────────────────── */
+.dropdown-item-separated {
+  font-size: 13px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  padding-bottom: 8px !important;
+}
+
+/* ─── MOBILE OFFCANVAS Z-INDEX FIX ──────────────────────────── */
+#offcanvasNavbar-expand-sm {
+  z-index: 1200 !important;
+}
+
+/* ─── MOBILE OFFCANVAS FONT SIZES ───────────────────────────── */
+#offcanvasNavbar-expand-sm .dropdown-item {
+  font-size: 13px !important;
+}
+
+#offcanvasNavbar-expand-sm .Nav-Dropdown-Items {
+  font-size: 13px !important;
+}
+
+#offcanvasNavbar-expand-sm .dropdown-item-separated {
+  font-size: 13px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  padding-bottom: 8px !important;
+}
+
+#offcanvasNavbar-expand-sm .nav-link {
+  font-size: 13px !important;
+}
+
+#offcanvasNavbar-expand-sm .dropdown-toggle {
+  font-size: 13px !important;
 }

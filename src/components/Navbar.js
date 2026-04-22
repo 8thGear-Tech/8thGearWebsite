@@ -828,6 +828,8 @@ export const HomepageNav = () => {
   return (
     <>
       {/* <Navbar expand="sm" className="bg-white top-0 m-0"> */}
+      <div className="main-nav-wrapper">
+
       <Navbar expand="sm" className="bg-white m-0 custom-sticky-nav">
       {/* <Navbar expand="sm" className="bg-white sticky-top m-0" style={{ top: 'var(--banner-height, 0px)' }}> */}
         <div className="container">
@@ -862,7 +864,7 @@ export const HomepageNav = () => {
                 >
                   <Offcanvas.Header closeButton></Offcanvas.Header>
                   <Offcanvas.Body>
-                    <Nav className="Nav-OffCanvas ">
+                    <Nav className="Nav-OffCanvas">
                       <NavDropdown
                         title="Hub Services"
                         id={`offcanvasNavbarDropdown-expand-${"sm"}`}
@@ -1078,7 +1080,7 @@ export const HomepageNav = () => {
                       className="dropdown-item-separated"
                       href="/ESP"
                     >
-                      Employability Support Project
+                    Employability Support Project 
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
@@ -1113,6 +1115,7 @@ export const HomepageNav = () => {
           </Row>
         </div>
       </Navbar>
+      </div>
     </>
   );
 };

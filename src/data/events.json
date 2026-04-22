@@ -43,19 +43,11 @@
   "newFutureEvents": [
     {
       "id": 1,
-      "date": "April 1, 2026",
-      "event": "Meristem/MIRE Demo Day",
-      "link": "https://forms.gle/pbQJkS2beDCE4HtW7",
+      "date": "TBD",
+      "event": "...",
+      "link": "...",
       "format": "Hybrid",
-      "time": "11AM WAT"
-    },
-    {
-      "id": 2,
-      "date": "April 9, 2026",
-      "event": "Connecta Africa/MIRE Demo Day",
-      "link": "https://forms.gle/pbQJkS2beDCE4HtW7",
-      "format": "Hybrid",
-      "time": "11AM WAT"
+      "time": "..."
     }
   ]
 }

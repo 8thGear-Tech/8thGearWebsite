@@ -70,7 +70,7 @@ const DemoHero = () => {
         <h3 className="fw-bold fs-4 mb-3 text-white">
           Showcasing Innovation and Excellence
         </h3>
-        <p className="mb-4 mx-3 mx-md-5">
+        <p className="mb-4 mx-3 mx-md-5 text-white">
           From time to time 8thGear Hub hosts Demo days for all its portfolio
           and select companies
         </p>
@@ -87,75 +87,150 @@ const DemoHero = () => {
   );
 };
 
+// const EventsSection = () => {
+//   const events = [
+//     {
+//       id: 1,
+//       name: "Meristem/MIRE Demo Day",
+//       date: "April 1, 2026",
+//       time: "11 AM WAT",
+//       registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
+//       icon: "bi-star",
+//     },
+//     {
+//       id: 2,
+//       name: "Connecta Africa/MIRE Demo Day",
+//       date: "April 9, 2026",
+//       time: "11 AM WAT",
+//       registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
+//       icon: "bi-rocket",
+//     },
+//   ];
+
+//   return (
+//     <section className="events-section" id="events-section">
+//       <div className="container">
+//         <div className="events-header">
+//           <h3 className="">Upcoming Demo Days</h3>
+//         </div>
+
+//         <div className="events-grid">
+//           {events.map((event) => (
+//             <div key={event.id} className="event-item">
+//               <div className="event-info">
+//                 <div className="event-icon-box">
+//                   <i className={`bi ${event.icon}`}></i>
+//                 </div>
+//                 <h3 className="event-name">{event.name}</h3>
+//                 <div className="event-meta">
+//                   <span className="meta-item">
+//                     <i className="bi bi-calendar3"></i>
+//                     {event.date}
+//                   </span>
+//                   <span className="meta-item">
+//                     <i className="bi bi-clock"></i>
+//                     {event.time}
+//                   </span>
+//                 </div>
+//               </div>
+//               <a
+//                 href={event.registrationLink}
+//                 target="_blank"
+//                 rel="noopener noreferrer"
+//                 className="event-link"
+//               >
+//                 Register Interest
+//                 <i className="bi bi-arrow-right"></i>
+//               </a>
+//             </div>
+//           ))}
+//         </div>
+
+//         <div className="programs-note">
+//           <p>
+//             <strong>To pitch at Demo Day:</strong> You must have completed any of 8thGear's Programs (MIRE, DSE, or DBN Workshop)
+//           </p>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
 const EventsSection = () => {
   const events = [
-    {
-      id: 1,
-      name: "Meristem/MIRE Demo Day",
-      date: "April 1, 2026",
-      time: "11 AM WAT",
-      registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
-      icon: "bi-star",
-    },
-    {
-      id: 2,
-      name: "Connecta Africa/MIRE Demo Day",
-      date: "April 9, 2026",
-      time: "11 AM WAT",
-      registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
-      icon: "bi-rocket",
-    },
+    // No active demo days right now — add new ones here when scheduled
+    // {
+    //   id: 1,
+    //   name: "Meristem/MIRE Demo Day",
+    //   date: "April 1, 2026",
+    //   time: "11 AM WAT",
+    //   registrationLink: "https://forms.gle/pbQJkS2beDCE4HtW7",
+    //   icon: "bi-star",
+    // },
   ];
 
   return (
     <section className="events-section" id="events-section">
       <div className="container">
-        <div className="events-header">
-          <h3 className="">Upcoming Demo Days</h3>
-        </div>
+        {/* <div className="events-header">
+          <h3>Upcoming Demo Days</h3>
+        </div> */}
 
-        <div className="events-grid">
-          {events.map((event) => (
-            <div key={event.id} className="event-item">
-              <div className="event-info">
-                <div className="event-icon-box">
-                  <i className={`bi ${event.icon}`}></i>
+        {events.length > 0 ? (
+          <>
+            <div className="events-grid">
+              {events.map((event) => (
+                <div key={event.id} className="event-item">
+                  <div className="event-info">
+                    <div className="event-icon-box">
+                      <i className={`bi ${event.icon}`}></i>
+                    </div>
+                    <h3 className="event-name">{event.name}</h3>
+                    <div className="event-meta">
+                      <span className="meta-item">
+                        <i className="bi bi-calendar3"></i>
+                        {event.date}
+                      </span>
+                      <span className="meta-item">
+                        <i className="bi bi-clock"></i>
+                        {event.time}
+                      </span>
+                    </div>
+                  </div>
+                  <a
+                    href={event.registrationLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="event-link"
+                  >
+                    Register Interest
+                    <i className="bi bi-arrow-right"></i>
+                  </a>
                 </div>
-                <h3 className="event-name">{event.name}</h3>
-                <div className="event-meta">
-                  <span className="meta-item">
-                    <i className="bi bi-calendar3"></i>
-                    {event.date}
-                  </span>
-                  <span className="meta-item">
-                    <i className="bi bi-clock"></i>
-                    {event.time}
-                  </span>
-                </div>
-              </div>
-              <a
-                href={event.registrationLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="event-link"
-              >
-                Register Interest
-                <i className="bi bi-arrow-right"></i>
-              </a>
+              ))}
             </div>
-          ))}
-        </div>
 
-        <div className="programs-note">
-          <p>
-            <strong>To pitch at Demo Day:</strong> You must have completed any of 8thGear's Programs (MIRE, DSE, or DBN Workshop)
-          </p>
-        </div>
+            <div className="programs-note">
+              <p>
+                <strong>To pitch at Demo Day:</strong> You must have completed
+                any of 8thGear's Programs (MIRE, DSE, or DBN Workshop)
+              </p>
+            </div>
+          </>
+        ) : (
+          <div className="no-events-notice">
+            <i className="bi bi-calendar-x"></i>
+            <h4>No Upcoming Demo Days</h4>
+            <p>
+              There are no demo days scheduled at the moment. Check back or follow us on social media to be the first to know when the
+              next one is announced.
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
 };
-
 const DemoSection = () => {
   return (
     <div className="container mt-5 mb-5">

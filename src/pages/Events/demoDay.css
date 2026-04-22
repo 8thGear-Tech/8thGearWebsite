@@ -148,7 +148,7 @@
 
 .events-header {
   text-align: center;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   position: relative;
   z-index: 2;
 }
@@ -389,6 +389,32 @@
    DEMO SECTION
    ============================================ */
 
+   .no-events-notice {
+  text-align: center;
+  padding: 5px 20px;
+  color: #666;
+}
+
+.no-events-notice i {
+  font-size: 48px;
+  color: #821e6b;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.no-events-notice h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.no-events-notice p {
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 15px;
+}
 
 
 .content-text {

@@ -1,14 +1,28 @@
-/* Survey Banner Styling - Compact Brand Aligned */
-.survey-banner {
-    position: fixed;   /* instead of sticky */
+/* Survey Banner Styling - Dark Background for Universal Compatibility */
+/* .survey-banner {
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1100;
-  background: linear-gradient(90deg, #1a4d4d 0%, #2d6b6b 100%);
-  border-bottom: 2px solid #821e6b;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #2c2c2c;
+  border-bottom: 1px solid #1a1a1a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   animation: slideDown 0.4s ease-out;
+} */
+
+/* Replace the .survey-banner rule */
+.survey-banner {
+  position: relative;       
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+  background: #2c2c2c;
+  border-bottom: 1px solid #1a1a1a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.4s ease-out;
+  width: 100%;
 }
 
 @keyframes slideDown {
@@ -31,6 +45,7 @@
   justify-content: space-between;
   gap: 12px;
   flex-wrap: nowrap;
+  position: relative;
 }
 
 .survey-banner-text {
@@ -43,7 +58,7 @@
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.5px;
-   color:#c3ca18;
+  color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 1px;
 }
@@ -52,7 +67,7 @@
   margin: 0;
   font-size: 12px;
   line-height: 1.3;
-  color: #ffffff;
+  color: #e0e0e0;
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
@@ -78,13 +93,13 @@
   font-size: 12px;
   white-space: nowrap;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 6px rgba(130, 30, 107, 0.3);
+  box-shadow: 0 2px 6px rgba(130, 30, 107, 0.2);
   flex-shrink: 0;
 }
 
 .survey-banner-cta:hover {
   background: #a92353;
-  box-shadow: 0 4px 10px rgba(130, 30, 107, 0.4);
+  box-shadow: 0 4px 10px rgba(130, 30, 107, 0.3);
   transform: translateY(-1px);
 }
 
@@ -109,7 +124,7 @@
 }
 
 .survey-banner-close:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.1);
   color: #c3ca18;
 }
 
@@ -136,60 +151,118 @@
 }
 
 @media (max-width: 768px) {
+  .survey-banner {
+    /* Ensure banner doesn't collapse */
+    min-height: auto;
+    width: 100vw;
+    left: 0;
+    right: 0;
+  }
+
   .survey-banner-content {
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 8px 12px;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    padding-right: 44px;
+    align-items: stretch;
+  }
+
+  .survey-banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .survey-banner-title {
     width: 100%;
     font-size: 10px;
+    margin: 0;
     margin-bottom: 2px;
   }
 
   .survey-banner-description {
-    flex: 1;
+    width: 100%;
     font-size: 11px;
     white-space: normal;
     overflow: visible;
     text-overflow: clip;
+    line-height: 1.4;
+    word-wrap: break-word;
+    margin: 0;
   }
 
   .survey-banner-cta {
-    padding: 6px 14px;
+    width: 100%;
+    padding: 10px 16px;
     font-size: 11px;
+    font-weight: 600;
+    text-align: center;
   }
 
   .survey-banner-close {
-    width: 22px;
-    height: 22px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .survey-banner-close:active {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
 @media (max-width: 480px) {
   .survey-banner-content {
-    padding: 8px 12px;
-    gap: 8px;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+    padding-right: 44px;
+    align-items: stretch;
+  }
+
+  .survey-banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .survey-banner-title {
     font-size: 10px;
+    margin: 0;
+    margin-bottom: 2px;
   }
 
   .survey-banner-description {
+    width: 100%;
     font-size: 10px;
-    line-height: 1.3;
+    line-height: 1.4;
+    white-space: normal;
+    overflow: visible;
+    margin: 0;
   }
 
   .survey-banner-cta {
     width: 100%;
-    padding: 6px 12px;
-    font-size: 10px;
+    padding: 10px 16px;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
   }
 
   .survey-banner-close {
-    width: 24px;
-    height: 24px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 26px;
+    height: 26px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .survey-banner-close:active {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
