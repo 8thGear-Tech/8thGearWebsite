@@ -3937,4 +3937,7 @@ header {
     right: 10px;
     font-size: 22px;
   }
+}
+body {
+  padding-top: var(--banner-height, 0px);
 }/*# sourceMappingURL=styles.css.map */
