@@ -1,8 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 import eightgearlogo from "../../../assets/images/projectdelivery/ESP/logo.png";
-import lsetf from "../../../assets/images/projectdelivery/ESP/lsetf.png";
-import swissagency from "../../../assets/images/projectdelivery/ESP/swiss-agency.jpg";
 import germancooperation from "../../../assets/images/projectdelivery/ESP/german-cooperation.png";
 import giz from "../../../assets/images/projectdelivery/ESP/giz.png";
 import ngc from "../../../assets/images/projectdelivery/ESP/ngc.png";
