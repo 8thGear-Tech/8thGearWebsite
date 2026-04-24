@@ -124,7 +124,7 @@ function App() {
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
-          <Route path="GIZ/ZME-Upskilling-Project" element={<UpskillingProject />} />
+          <Route path="GIZ-ZME-Upskilling-Project" element={<UpskillingProject />} />
           <Route path="entrepreneurs-growth-lab" element={<EGL />} />
           <Route path="DeepTech_DSN_Google" element={<ThreeMTT/>} />
           <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
