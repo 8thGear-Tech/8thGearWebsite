@@ -5,8 +5,10 @@ import lsetf from "../../../assets/images/projectdelivery/ESP/lsetf.png";
 import swissagency from "../../../assets/images/projectdelivery/ESP/swiss-agency.jpg";
 import germancooperation from "../../../assets/images/projectdelivery/ESP/german-cooperation.png";
 import giz from "../../../assets/images/projectdelivery/ESP/giz.png";
+import ngc from "../../../assets/images/projectdelivery/ESP/ngc.png";
+import mrc from "../../../assets/images/projectdelivery/ESP/mrc.png";
 
-const ESP = () => {
+const EmployabilityProject = () => {
   return (
     <div
       style={{
@@ -27,21 +29,17 @@ const ESP = () => {
           <Row className="justify-content-center">
             <Col lg={8}>
               <h4 className="fw-bold mb-3" style={{ color: "#000000" }}>
-                Looking for Skilled Tech Talent to Power Your Business?
+               Build Your Workforce with Skilled Tech Talent
               </h4>
               <p className="fs-6 mb-4 text-muted">
-                Through the LSETF Employability Project, executed by 8thGear, we
-                are bridging the gap between entrepreneurs who need talent and
-                young people eager to build careers in tech. This initiative
-                ensures your business can access job-ready digital talent
-                trained in the exact skills needed to thrive in today’s market.
+             Through the GIZ/ZME Upskilling Programme, implemented by 8thGear, we are equipping young people in Lagos with in-demand digital skills and preparing them for real-world work environments. This programme creates a pipeline of job-ready tech talents that businesses can engage, train further, and integrate into their teams.
               </p>
               <div className="d-flex justify-content-center gap-3 flex-wrap">
                 <Button
                   variant="primary"
                   size="md"
                   className="px-4 py-2 fw-bold"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/formResponse?pli=1"
+                  href="https://talenmo.biz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -93,8 +91,9 @@ const ESP = () => {
             className="fw-bold mb-3 d-flex align-items-center justify-content-center"
             style={{ color: "#000000", fontSize: "1.3rem" }}
           >
-            Why Entrepreneurs Should Care
+            Why This Programme Matters
           </h3>
+          <p className="text-center">The GIZ/ZME Upskilling Programme goes beyond training, it is a structured talent development pipeline designed to help businesses access pre-trained, work-ready individuals equipped with practical digital skills.</p>
 
           <Row className="g-4 justify-content-center">
             <Col md={6}>
@@ -121,14 +120,15 @@ const ESP = () => {
                   className="fw-bold d-flex align-items-center mb-3"
                   style={{ color: "#8B005D" }}
                 >
-                  Key Benefits for Your Business
+                  What Your Business Gains
                 </h5>
                 <ul className="list-unstyled mb-0">
                   {[
-                    "Access a pipeline of pre-vetted, trained tech talent",
-                    "Save time & resources on recruitment and onboarding",
-                    "Get support from 8thGear’s talent placement services",
-                    "Contribute to youth empowerment while growing your business",
+                    "Access to trained and pre-vetted tech talent",
+                    "Opportunity to host interns and assess potential hires",
+                    "Reduced cost and time spent on recruitment and training",
+                    "Talent equipped with hands-on, practical experience",
+                    "Exposure to candidates aligned with global workforce standards",
                   ].map((item, idx) => (
                     <li key={idx} className="mb-3 d-flex align-items-start">
                       <span
@@ -184,34 +184,29 @@ const ESP = () => {
                 <p className="text-muted small mb-3">
                   Our program is developing young professionals skilled in:
                 </p>
-                <ul className="list-unstyled mb-3">
-                  {[
-                    "Digital Marketing",
-                    "Data Analytics",
-                    "Web Design",
-                    "Content Creation",
-                  ].map((skill, idx) => (
-                    <li key={idx} className="mb-2 d-flex align-items-start">
-                      <span
-                        className="me-2 mt-1"
-                        style={{
-                          color: "#888",
-                          fontSize: "1.1rem",
-                        }}
-                      >
-                        ✓
-                      </span>
-                      <span style={{ fontSize: "0.95rem", color: "#555" }}>
-                        {skill}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <p className="text-muted small fst-italic mb-0">
-                  These talents are equipped not just with technical know-how,
-                  but also with mentorship and career readiness to deliver value
-                  from Day One.
-                </p>
+                <div className="row g-2 mb-3">
+  {[
+    "Data Analytics",
+    "Software Development",
+    "Cybersecurity",
+    "Product Management",
+    "Digital Marketing",
+    "Graphics Design",
+    "Vibe Coding",
+  ].map((skill, idx) => (
+    <div key={idx} className="col-6">
+      <div className="d-flex align-items-start">
+        <span className="me-2 mt-1" style={{ color: "#888", fontSize: "1.1rem" }}>
+          ✓
+        </span>
+        <span style={{ fontSize: "0.95rem", color: "#555" }}>
+          {skill}
+        </span>
+      </div>
+    </div>
+  ))}
+</div>
+               
               </div>
             </Col>
           </Row>
@@ -230,7 +225,7 @@ const ESP = () => {
           >
             Looking to hire or collaborate with tech talent for your business?
             <br />
-            Tap into our pipeline of skilled professionals and let 8thGear help
+            Tap into our pipeline of skilled professionals and let's help
             you find the right fit.
           </p>
           <Button
@@ -259,7 +254,7 @@ const ESP = () => {
               e.currentTarget.style.boxShadow =
                 "0 6px 20px rgba(139, 0, 93, 0.2)";
             }}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeyPXUNmhKOpIUyAYhQyBmWCHZh8IEpaBfrHivyaIO2XzmFVg/formResponse?pli=1"
+            href="https://talenmo.biz/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -267,6 +262,8 @@ const ESP = () => {
           </Button>
         </Container>
       </section>
+
+
 
       {/* For Young People Section */}
       <section
@@ -304,7 +301,7 @@ const ESP = () => {
                 variant="outline-dark"
                 size="sm"
                 className="px-3 py-2 fw-bold"
-                href="https://forms.gle/fugPZxhZixdWmHcA9"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf87ZyRtzb3IGflTxcT7oiy2ToOY3HeMldEprq6wj5Y6icDcA/viewform?usp=dialog"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -334,7 +331,7 @@ const ESP = () => {
                 variant="outline-secondary"
                 size="sm"
                 className="px-3 py-2 fw-bold"
-                href="https://chat.whatsapp.com/Kz1Kd2T0bkE5Kzo8hyVHQl?mode=ems_wa_t"
+                href="https://luma.com/1pjiis7v"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -358,15 +355,9 @@ const ESP = () => {
                   e.currentTarget.style.color = "#6c757d";
                 }}
               >
-                Join WhatsApp Group
+                Join Info Session →
               </Button>
             </div>
-            <p
-              className="mt-3 small fst-italic text-muted"
-              style={{ fontSize: "0.75rem" }}
-            >
-              Training Location: 8thGear Hub, 41, CMD Road, Magodo, Lagos
-            </p>
           </div>
         </Container>
       </section>
@@ -390,7 +381,7 @@ const ESP = () => {
                 src={eightgearlogo}
                 alt="8thGear Hub"
                 style={{
-                  height: "32px",
+                  height: "70px",
                   objectFit: "contain",
                 }}
               />
@@ -398,30 +389,14 @@ const ESP = () => {
 
             <span className="text-muted d-none d-md-inline">|</span>
 
-            {/* Supported by: LSETF & GIZ (with logos) */}
+            {/* Supported by */}
             <div className="d-flex align-items-center gap-2">
               <span className="text-muted small">Supported by:</span>
-              <img
-                src={lsetf}
-                alt="Lagos State Employment Trust Fund (LSETF)"
-                style={{
-                  height: "28px",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={swissagency}
-                alt="Swiss Agency for Development and Cooperation (SDC)"
-                style={{
-                  height: "28px",
-                  objectFit: "contain",
-                }}
-              />
               <img
                 src={germancooperation}
                 alt="German Cooperation"
                 style={{
-                  height: "28px",
+                  height: "70px",
                   objectFit: "contain",
                 }}
               />
@@ -429,7 +404,23 @@ const ESP = () => {
                 src={giz}
                 alt="GIZ"
                 style={{
-                  height: "28px",
+                  height: "70px",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={ngc}
+                alt="NGC"
+                style={{
+                  height: "70px",
+                  objectFit: "contain",
+                }}
+              />
+              <img
+                src={mrc}
+                alt="MRC"
+                style={{
+                  height: "70px",
                   objectFit: "contain",
                 }}
               />
@@ -441,4 +432,4 @@ const ESP = () => {
   );
 };
 
-export default ESP;
+export default EmployabilityProject;

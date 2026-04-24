@@ -956,9 +956,9 @@ export const HomepageNav = () => {
                     
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/ESP"
+                      href="/GIZ/ZME-Upskilling-Project"
                     >
-                      Employability Support Project
+                      GIZ/ZME Upskilling Project
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
@@ -1078,9 +1078,9 @@ export const HomepageNav = () => {
                     
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/ESP"
+                      href="/GIZ/ZME-Upskilling-Project"
                     >
-                    Employability Support Project 
+                GIZ/ZME Upskilling Project
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"

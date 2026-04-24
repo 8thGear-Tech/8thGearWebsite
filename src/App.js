@@ -93,7 +93,7 @@ import DBN from "./pages/ProjectDelivery/Programs/DBN";
 import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
-import ESP from "./pages/ProjectDelivery/Programs/ESP";
+import UpskillingProject from "./pages/ProjectDelivery/Programs/UpskillingProject";
 import EGL from "./pages/ProjectDelivery/Programs/EGL";
 import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
 import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
@@ -124,7 +124,7 @@ function App() {
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
-          <Route path="ESP" element={<ESP />} />
+          <Route path="GIZ/ZME-Upskilling-Project" element={<UpskillingProject />} />
           <Route path="entrepreneurs-growth-lab" element={<EGL />} />
           <Route path="DeepTech_DSN_Google" element={<ThreeMTT/>} />
           <Route path="migrant-advisory-desk" element={<MigrantAdvisoryDesk  />} />
