@@ -1,5 +1,5 @@
 .survey-banner {
-  position: relative;       
+  position: sticky;  /* WAS relative — this is the fix */
   top: 0;
   left: 0;
   right: 0;
@@ -7,11 +7,11 @@
   background: #2c2c2c;
   border-bottom: 1px solid #1a1a1a;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  animation: slideDown 0.4s ease-out;
   width: 100%;
+    animation: bannerEaseIn 0.6s ease forwards;
 }
 
-@keyframes slideDown {
+/* @keyframes slideDown {
   from {
     transform: translateY(-100%);
     opacity: 0;
@@ -20,7 +20,20 @@
     transform: translateY(0);
     opacity: 1;
   }
+} */
+
+
+@keyframes bannerEaseIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 
 .survey-banner-content {
   max-width: 1400px;
@@ -250,5 +263,146 @@
 
   .survey-banner-close:active {
     background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* modal */
+
+/* ── MODAL OVERLAY ─────────────────────────────────────────── */
+.survey-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── MODAL BOX ─────────────────────────────────────────────── */
+.survey-modal {
+  position: relative;
+  /* background: linear-gradient(135deg, #1a4d4d 0%, #2d6b6b 100%); */
+  background-color: #2c2c2c;
+  border: 2px solid #821e6b;
+  border-radius: 12px;
+  padding: 40px 36px 32px;
+  max-width: 520px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  animation: slideUp 0.35s ease;
+   overflow: visible;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.survey-modal-close {
+  position: absolute;
+  top: -14px;      /* pull it above the modal border */
+  right: -14px;    /* pull it outside the modal */
+  background: #821e6b;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 10;
+}
+
+.survey-modal-close:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.survey-modal-badge {
+ display: block;
+  text-align: center;
+  background: #821e6b;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.survey-modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.survey-modal-body {
+  font-size: 14px;
+  font-weight: 500;
+  color: #d0e8e8;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.survey-modal-title,
+.survey-modal-body {
+  text-align: left;
+}
+
+.survey-modal-actions {
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.survey-modal-cta {
+  font-size: 14px !important;
+  padding: 10px 24px !important;
+}
+
+.survey-modal-skip {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  transition: color 0.2s;
+}
+.survey-modal-skip:hover {
+  color: #ffffff;
+}
+
+/* ── RESPONSIVE ────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .survey-modal {
+    padding: 32px 20px 24px;
+  }
+  .survey-modal-title {
+    font-size: 17px;
+  }
+  .survey-modal-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .survey-modal-cta {
+    text-align: center;
   }
 }
