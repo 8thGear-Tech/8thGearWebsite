@@ -17,12 +17,12 @@ import tailoredsolution from "../../../assets/images/tech-marketplace/tailoredso
 import digiplus from "../../../assets/images/tech-marketplace/digiplus.png";
 
 export const SOLUTIONS = [
-  {img:legalmo,title:"LegalMo",desc:"Legal document automation and management for seamless compliance.",link:"https://www.legalmo.biz/",btnText:"Learn More",accent:"var(--teal)"},
-  {img:trulance,title:"Trulance",desc:"Financial tracking and reporting tools for better business insights.",link:"https://www.trulance.io/",btnText:"Learn More",accent:"var(--purple)"},
-  {img:finamo,title:"Finamo",desc:"Accounting and invoicing solutions tailored for growing businesses.",link:"https://www.finamo.biz/",btnText:"Learn More",accent:"var(--teal)"},
-  {img:talenmo,title:"TalenMo",desc:"HR and talent management platform for modern businesses.",link:"https://www.talenmo.biz/",btnText:"Learn More",accent:"var(--purple)"},
+  {img:legalmo,title:"LegalMo",desc:"Access reliable legal services designed for businesses, contract creation, compliance, IP protection, and more.",link:"https://www.legalmo.biz/",btnText:"Learn More",accent:"var(--teal)"},
+  {img:trulance,title:"Trulance",desc:"Launch and scale your online footprint with expert support in web development, content creation, digital marketing, and data analysis.",link:"https://www.trulance.io/",btnText:"Learn More",accent:"var(--purple)"},
+  {img:finamo,title:"Finamo",desc:"Access reliable financial services for bookkeeping, tax compliance, reporting, budgeting, and business structuring.",link:"https://www.finamo.biz/",btnText:"Learn More",accent:"var(--teal)"},
+  {img:talenmo,title:"TalenMo",desc:" Access end-to-end talent sourcing, screening, training, and placement for internships, contract, and full-time roles.",link:"https://www.talenmo.biz/",btnText:"Learn More",accent:"var(--purple)"},
   {img:mtn,title:"MTN Business",desc:"Connectivity and telecom solutions for enterprise needs.",link:"https://shop.mtn.ng/category/shop?affiliate_code=8thGearHub",btnText:"Learn More",accent:"var(--teal)"},
-  {img:zoho,title:"Zoho Suite",desc:"Comprehensive business software for CRM, HR, and operations.",link:"/msme-marketplace/zoho",btnText:"Learn More",accent:"var(--purple)", internal:true},
+  {img:zoho,title:"Zoho Suite",desc:"Comprehensive business software for CRM, HR, operations and more",link:"/msme-marketplace/zoho",btnText:"Learn More",accent:"var(--purple)", internal:true},
   {img:digiplus,title:"DigiPlus Starter kit",desc:"Partner-powered digital solutions to help businesses scale.",link:"https://docs.google.com/forms/d/1agXtoUszfyAQuIXG12bUhbrY8Etub8-TRkn_F1vtGns/edit",btnText:"Learn More",accent:"var(--purple)", alignRight:true}
 ];
 

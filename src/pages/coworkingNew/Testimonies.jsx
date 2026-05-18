@@ -64,7 +64,7 @@ export const Testimonials = () => {
 
   return (
     <div
-      className="container-fluid"
+      className="container-fluid pb-5"
     >
       <h3 className="pt-5 mt-5 text-center">
        TESTIMONIALS

@@ -123,7 +123,7 @@ function HeroCarousel() {
           />
         </div>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <div
           className="d-block w-100"
           style={{
@@ -179,8 +179,8 @@ function HeroCarousel() {
             className="overlay-image2"
           />
         </div>
-      </Carousel.Item>
-      <Carousel.Item>
+      </Carousel.Item> */}
+      {/* <Carousel.Item>
         <div
           className="d-block w-100"
           style={{
@@ -233,7 +233,7 @@ function HeroCarousel() {
             className="overlay-image2"
           />
         </div>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

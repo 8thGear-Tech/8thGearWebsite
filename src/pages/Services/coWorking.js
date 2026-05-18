@@ -17,7 +17,7 @@ const CoWorking = () => {
       <Voucher />
       <OurPriceRange />
       <Testimonials />
-      <Podcast />
+      {/* <Podcast /> */}
     </div>
   );
 };
