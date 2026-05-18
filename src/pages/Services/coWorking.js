@@ -3,7 +3,7 @@ import { Testimonials } from "../coworkingNew/Testimonies";
 import { Voucher } from "../coworkingNew/Voucher";
 import { Hero } from "../coworkingNew/Hero";
 import OurPriceRange from "../../components/OurPriceRange";
-import Podcast from "../../components/Podcast";
+// import Podcast from "../../components/Podcast";
 import { OurNewSpaces } from "../coworkingNew/OurNewSpaces";
 import { HomepageNav } from "../../components/Navbar";
 
