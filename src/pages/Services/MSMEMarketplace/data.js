@@ -23,7 +23,7 @@ export const SOLUTIONS = [
   {img:talenmo,title:"TalenMo",desc:" Access end-to-end talent sourcing, screening, training, and placement for internships, contract, and full-time roles.",link:"https://www.talenmo.biz/",btnText:"Learn More",accent:"var(--purple)"},
   {img:mtn,title:"MTN Business",desc:"Connectivity and telecom solutions for enterprise needs.",link:"https://shop.mtn.ng/category/shop?affiliate_code=8thGearHub",btnText:"Learn More",accent:"var(--teal)"},
   {img:zoho,title:"Zoho Suite",desc:"Comprehensive business software for CRM, HR, operations and more",link:"/msme-marketplace/zoho",btnText:"Learn More",accent:"var(--purple)", internal:true},
-  {img:digiplus,title:"DigiPlus Starter kit",desc:"Partner-powered digital solutions to help businesses scale.",link:"https://docs.google.com/forms/d/1agXtoUszfyAQuIXG12bUhbrY8Etub8-TRkn_F1vtGns/edit",btnText:"Learn More",accent:"var(--purple)", alignRight:true}
+  {img:digiplus,title:"DigiPlus Starter kit",desc:"Partner-powered digital solutions to help businesses scale.",link:"https://docs.google.com/forms/d/e/1FAIpQLScTuz38R6HSJM6VP0474TN5h5XF2uQyUlXVaqn0815K5osPvA/viewform",btnText:"Learn More",accent:"var(--purple)", alignRight:true}
 ];
 
 export const FEATURES = [
