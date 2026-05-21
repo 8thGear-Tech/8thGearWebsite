@@ -481,70 +481,69 @@ const EmployabilityProject = () => {
 
       {/* Footer — Border Removed */}
       {/* Footer */}
+      {/*  */}
+
       <footer
-        style={{
-          backgroundColor: "#ffffff",
-          marginTop: "auto",
-          paddingTop: "3rem",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Container className="text-center">
-          <div className="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
-            {/* Executed by: 8thGear Hub (with logo) */}
-            <div className="d-flex align-items-center gap-2">
-              <span className="text-muted small">Executed by:</span>
-              <img
-                src={eightgearlogo}
-                alt="8thGear Hub"
-                style={{
-                  height: "70px",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
+  style={{
+    backgroundColor: "#ffffff",
+    marginTop: "auto",
+    paddingTop: "3rem",
+    paddingBottom: "1rem",
+  }}
+>
+  <Container className="text-center">
+    <div className="d-flex flex-column align-items-center gap-4">
+      
+      {/* Executed by: 8thGear Hub */}
+      <div className="d-flex align-items-center gap-2">
+        <span className="text-muted small">Executed by:</span>
+        <img
+          src={eightgearlogo}
+          alt="8thGear Hub"
+          style={{ height: "70px", objectFit: "contain" }}
+        />
+      </div>
 
-            <span className="text-muted d-none d-md-inline">|</span>
+      <span className="text-muted">|</span>
 
-            {/* Supported by */}
-            <div className="d-flex align-items-center gap-2">
-              <span className="text-muted small">Supported by:</span>
-              <img
-                src={germancooperation}
-                alt="German Cooperation"
-                style={{
-                  height: "70px",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={giz}
-                alt="GIZ"
-                style={{
-                  height: "70px",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={ngc}
-                alt="NGC"
-                style={{
-                  height: "70px",
-                  objectFit: "contain",
-                }}
-              />
-              <img
-                src={mrc}
-                alt="MRC"
-                style={{
-                  height: "70px",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
-          </div>
-        </Container>
-      </footer>
+      {/* Supported by */}
+      <div className="d-flex flex-column align-items-center gap-2">
+        <span className="text-muted small">Supported by:</span>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "16px",
+          }}
+        >
+          <img
+            src={germancooperation}
+            alt="German Cooperation"
+            style={{ height: "55px", objectFit: "contain" }}
+          />
+          <img
+            src={giz}
+            alt="GIZ"
+            style={{ height: "55px", objectFit: "contain" }}
+          />
+          <img
+            src={ngc}
+            alt="NGC"
+            style={{ height: "55px", objectFit: "contain" }}
+          />
+          <img
+            src={mrc}
+            alt="MRC"
+            style={{ height: "55px", objectFit: "contain" }}
+          />
+        </div>
+      </div>
+
+    </div>
+  </Container>
+</footer>
     </div>
   );
 };
