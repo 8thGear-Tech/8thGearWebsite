@@ -19,68 +19,187 @@ const EmployabilityProject = () => {
       <HomepageNav />
 
       {/* Hero Section — Border Removed */}
-      <section
-        className="py-5 text-center"
-        style={{ backgroundColor: "#f8f2f8" }}
-      >
-        <Container>
-          <Row className="justify-content-center">
-            <Col lg={8}>
-              <h4 className="fw-bold mb-3" style={{ color: "#000000" }}>
-               Build Your Workforce with Skilled Tech Talent
-              </h4>
-              <p className="fs-6 mb-4 text-muted">
-             Through the GIZ/ZME Upskilling Programme, implemented by 8thGear, we are equipping young people in Lagos with in-demand digital skills and preparing them for real-world work environments. This programme creates a pipeline of job-ready tech talents that businesses can engage, train further, and integrate into their teams.
-              </p>
-              <div className="d-flex justify-content-center gap-3 flex-wrap">
-                <Button
-                  variant="primary"
-                  size="md"
-                  className="px-4 py-2 fw-bold"
-                  href="https://talenmo.biz/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    backgroundColor: "#8B005D",
-                    borderColor: "#8B005D",
-                    color: "white",
-                    borderRadius: "12px",
-                    fontSize: "1rem",
-                    boxShadow: "0 4px 12px rgba(139, 0, 93, 0.15)",
-                    transition: "all 0.3s ease",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = "#7a004d";
-                    e.currentTarget.style.boxShadow =
-                      "0 6px 16px rgba(139, 0, 93, 0.25)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = "#8B005D";
-                    e.currentTarget.style.boxShadow =
-                      "0 4px 12px rgba(139, 0, 93, 0.15)";
-                  }}
-                >
-                  Request Talent
-                </Button>
-              </div>
-              <p className="mt-3 text-muted small">
-                <em>
-                  <a
-                    href="#applicant-section"
-                    style={{
-                      color: "#6c757d",
-                      textDecoration: "none",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Individuals: Apply for free training below ↴
-                  </a>
-                </em>
-              </p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+
+      {/* Hero Section */}
+<section className="py-5 text-center" style={{ backgroundColor: "#f8f2f8" }}>
+  <Container>
+    <Row className="justify-content-center">
+      <Col lg={8}>
+        <h4 className="fw-bold mb-3" style={{ color: "#000000" }}>
+          Build Your Workforce with Skilled Tech Talent
+        </h4>
+        <p className="fs-6 mb-4 text-muted">
+          Through the GIZ/ZME Upskilling Programme, implemented by 8thGear,
+          we are equipping young people in Lagos with in-demand digital skills
+          and preparing them for real-world work environments. This programme
+          creates a pipeline of job-ready tech talents that businesses can
+          engage, train further, and integrate into their teams.
+        </p>
+
+       
+        <div className="d-flex justify-content-center gap-3 flex-wrap">
+  <Button
+    variant="primary"
+    size="md"
+    className="px-4 py-2 fw-bold"
+    href="https://talenmo.biz/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      backgroundColor: "#8B005D",
+      borderColor: "#8B005D",
+      color: "white",
+      borderRadius: "12px",
+      fontSize: "1rem",
+      boxShadow: "0 4px 12px rgba(139, 0, 93, 0.15)",
+      transition: "all 0.3s ease",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.backgroundColor = "#7a004d";
+      e.currentTarget.style.boxShadow = "0 6px 16px rgba(139, 0, 93, 0.25)";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.backgroundColor = "#8B005D";
+      e.currentTarget.style.boxShadow = "0 4px 12px rgba(139, 0, 93, 0.15)";
+    }}
+  >
+    Request Talent
+  </Button>
+</div>
+{/*  */}
+
+{/* Split CTA Cards */}
+{/* Split CTA Cards */}
+<div
+  className="mx-auto mt-4"
+  style={{
+    display: "flex",
+    gap: "16px",
+    maxWidth: "640px",
+    width: "100%",
+    flexWrap: "wrap",
+  }}
+>
+  {/* Business owners card */}
+  <div
+    style={{
+      flex: 1,
+      minWidth: "260px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      gap: "12px",
+      padding: "20px",
+      backgroundColor: "#ffffff",
+      border: "1px solid #e0cce0",
+      borderRadius: "14px",
+      textAlign: "left",
+    }}
+  >
+    <div>
+      <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
+        <span style={{ fontSize: "18px" }}>💼</span>
+        <p style={{ margin: 0, fontSize: "12px", color: "#888", fontWeight: "500" }}>
+          For Business Owners
+        </p>
+      </div>
+      <p style={{ margin: 0, fontSize: "14px", fontWeight: "400", color: "#222", lineHeight: "1.5" }}>
+        Enrol your employees in fully funded tech training at no cost to your business.
+      </p>
+    </div>
+    <a
+      href="#applicant-section"
+      style={{
+        display: "inline-block",
+        backgroundColor: "transparent",
+        color: "#8B005D",
+        border: "1.5px solid #8B005D",
+        padding: "10px 18px",
+        borderRadius: "10px",
+        fontSize: "13px",
+        fontWeight: "700",
+        textDecoration: "none",
+        width: "fit-content",
+        transition: "background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = "#8B005D";
+        e.currentTarget.style.color = "#ffffff";
+        e.currentTarget.style.boxShadow = "0 4px 14px rgba(139, 0, 93, 0.35)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = "transparent";
+        e.currentTarget.style.color = "#8B005D";
+        e.currentTarget.style.boxShadow = "none";
+      }}
+    >
+      Upskill your staff →
+    </a>
+  </div>
+
+  {/* Individuals card */}
+  <div
+    style={{
+      flex: 1,
+      minWidth: "260px",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+      gap: "12px",
+      padding: "20px",
+      backgroundColor: "#ffffff",
+      border: "1px solid #e0cce0",
+      borderRadius: "14px",
+      textAlign: "left",
+    }}
+  >
+    <div>
+      <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
+        <span style={{ fontSize: "18px" }}>🎓</span>
+        <p style={{ margin: 0, fontSize: "12px", color: "#888", fontWeight: "500" }}>
+          For Individuals
+        </p>
+      </div>
+      <p style={{ margin: 0, fontSize: "14px", fontWeight: "400", color: "#222", lineHeight: "1.5" }}>
+        Get job-ready digital skills through a fully funded programme.
+      </p>
+    </div>
+    <a
+      href="#applicant-section"
+      style={{
+        display: "inline-block",
+        backgroundColor: "transparent",
+        color: "#8B005D",
+        border: "1.5px solid #8B005D",
+        padding: "10px 18px",
+        borderRadius: "10px",
+        fontSize: "13px",
+        fontWeight: "700",
+        textDecoration: "none",
+        width: "fit-content",
+        transition: "background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease",
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.backgroundColor = "#8B005D";
+        e.currentTarget.style.color = "#ffffff";
+        e.currentTarget.style.boxShadow = "0 4px 14px rgba(139, 0, 93, 0.35)";
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.backgroundColor = "transparent";
+        e.currentTarget.style.color = "#8B005D";
+        e.currentTarget.style.boxShadow = "none";
+      }}
+    >
+      Apply for free training →
+    </a>
+  </div>
+</div>
+
+      </Col>
+    </Row>
+  </Container>
+</section>
+
 
       {/* Why Entrepreneurs Should Care - Two Equal Height Cards */}
       <section className="py-5" style={{ backgroundColor: "#fafafa" }}>
@@ -221,10 +340,9 @@ const EmployabilityProject = () => {
             className="mb-3"
             style={{ fontSize: "1rem", color: "#555", lineHeight: "1.6" }}
           >
-            Looking to hire or collaborate with tech talent for your business?
+           Looking to hire or collaborate with tech talent for your business? Tap into our pipeline of skilled professionals and let's help you find the right fit.
             <br />
-            Tap into our pipeline of skilled professionals and let's help
-            you find the right fit.
+           You can also enrol your existing staff in the programme to upskill them, scroll down to see how.
           </p>
           <Button
             variant="primary"
@@ -282,14 +400,14 @@ const EmployabilityProject = () => {
               className="fw-bold mb-3 d-flex align-items-center justify-content-center"
               style={{ fontSize: "1.3rem" }}
             >
-              For Young People
+              For Individuals: Start Your Tech Journey here
             </h3>
 
             <p
               className="mb-3"
               style={{ fontSize: "1rem", color: "#555", lineHeight: "1.6" }}
             >
-              Are you between 18–35, a Lagos resident with LASSRA ID, and ready
+              Are you between 18-40, and ready
               to build a career in tech? Apply for the fully funded training
               program today and start your journey into tech.
             </p>
@@ -299,7 +417,7 @@ const EmployabilityProject = () => {
                 variant="outline-dark"
                 size="sm"
                 className="px-3 py-2 fw-bold"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSf87ZyRtzb3IGflTxcT7oiy2ToOY3HeMldEprq6wj5Y6icDcA/viewform?usp=dialog"
+                href="https://chat.whatsapp.com/HDLz4wKecgt19Cl3oSAW1O"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -323,13 +441,13 @@ const EmployabilityProject = () => {
                   e.currentTarget.style.color = "#8B005D";
                 }}
               >
-                Apply as Trainee →
+                Join Whatsapp Group →
               </Button>
               <Button
                 variant="outline-secondary"
                 size="sm"
                 className="px-3 py-2 fw-bold"
-                href="https://luma.com/1pjiis7v"
+               href="https://docs.google.com/forms/d/e/1FAIpQLSf87ZyRtzb3IGflTxcT7oiy2ToOY3HeMldEprq6wj5Y6icDcA/viewform?usp=dialog"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -353,7 +471,8 @@ const EmployabilityProject = () => {
                   e.currentTarget.style.color = "#6c757d";
                 }}
               >
-                Join Info Session →
+                 Apply as Trainee →
+               
               </Button>
             </div>
           </div>

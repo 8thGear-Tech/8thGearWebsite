@@ -954,12 +954,12 @@ export const HomepageNav = () => {
                    8thGear Job Center (Advisory Desk)
                     </NavDropdown.Item>
                     
-                    <NavDropdown.Item
+                    {/* <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/GIZ-ZME-Upskilling-Project"
                     >
                       GIZ/ZME Upskilling Project
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/DeepTech_DSN_Google"
@@ -1076,12 +1076,12 @@ export const HomepageNav = () => {
                    8thGear Job Center (Advisory Desk)
                     </NavDropdown.Item>
                     
-                    <NavDropdown.Item
+                    {/* <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/GIZ-ZME-Upskilling-Project"
                     >
                 GIZ/ZME Upskilling Project
-                    </NavDropdown.Item>
+                    </NavDropdown.Item> */}
                     <NavDropdown.Item
                       className="dropdown-item-separated"
                       href="/DeepTech_DSN_Google"
