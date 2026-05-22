@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { HomepageNav } from "../../../components/Navbar";
 import eightgearlogo from "../../../assets/images/projectdelivery/ESP/logo.png";
+import intellex from "../../../assets/images/projectdelivery/ESP/intellex.png";
 import germancooperation from "../../../assets/images/projectdelivery/ESP/german-cooperation.png";
 import giz from "../../../assets/images/projectdelivery/ESP/giz.png";
 import ngc from "../../../assets/images/projectdelivery/ESP/ngc.png";
@@ -482,8 +483,9 @@ const EmployabilityProject = () => {
       {/* Footer — Border Removed */}
       {/* Footer */}
       {/*  */}
+{/*  */}
 
-      <footer
+<footer
   style={{
     backgroundColor: "#ffffff",
     marginTop: "auto",
@@ -492,23 +494,31 @@ const EmployabilityProject = () => {
   }}
 >
   <Container className="text-center">
-    <div className="d-flex flex-column align-items-center gap-4">
-      
-      {/* Executed by: 8thGear Hub */}
-      <div className="d-flex align-items-center gap-2">
+    <div className="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+
+      {/* Executed by */}
+      <div className="d-flex flex-column flex-md-row align-items-center gap-2">
         <span className="text-muted small">Executed by:</span>
-        <img
-          src={eightgearlogo}
-          alt="8thGear Hub"
-          style={{ height: "70px", objectFit: "contain" }}
-        />
+        <div className="d-flex align-items-center gap-2">
+          <img
+            src={eightgearlogo}
+            alt="8thGear Hub"
+            style={{ height: "70px", objectFit: "contain" }}
+          />
+          <img
+            src={intellex}
+            alt="Intellex"
+            style={{ height: "70px", objectFit: "contain" }}
+          />
+        </div>
       </div>
 
-      <span className="text-muted">|</span>
+      {/* Divider — desktop only */}
+      <span className="text-muted d-none d-md-inline">|</span>
 
       {/* Supported by */}
-      <div className="d-flex flex-column align-items-center gap-2">
-        <span className="text-muted small">Supported by:</span>
+      <div className="d-flex flex-column flex-md-row align-items-center gap-2">
+        <span className="text-muted small" style={{ whiteSpace: "nowrap" }}>Supported by:</span>
         <div
           style={{
             display: "flex",
