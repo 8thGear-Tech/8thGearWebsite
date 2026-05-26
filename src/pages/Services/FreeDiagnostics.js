@@ -1,4 +1,4 @@
-export default function Businessgrowth() {
+export default function FreeDiagnostics() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       <iframe
@@ -8,7 +8,7 @@ export default function Businessgrowth() {
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
-        title="Registration Form"
+        title="Free Diagnostics form"
       >
         Loading…
       </iframe>

@@ -38,6 +38,7 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
+import FreeDiagnostics from "./pages/Services/FreeDiagnostics";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
@@ -90,7 +91,6 @@ import FAQ from "./components/FAQ";
 import { Insights } from "./pages/Insights/insights";
 import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
 import DBN from "./pages/ProjectDelivery/Programs/DBN";
-import Businessgrowth from "./pages/ProjectDelivery/Programs/Businessgrowth";
 import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
@@ -124,7 +124,6 @@ function App() {
           {/* <Route path="initiatives" element={<ProjectDeliveryPage />} /> */}
           <Route path="initiatives" element={<InitiativesSection />} />
           <Route path="DBN" element={<DBN />} />
-          <Route path="Businessgrowth" element={<Businessgrowth />} />
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
@@ -164,6 +163,7 @@ function App() {
           {/* <Route path="product-development" element={<HubServicesTech />} /> */}
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
+          <Route path="FreeDiagnostics" element={<FreeDiagnostics />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
           <Route path="hub-membership" element={<HubMembership />} />
           <Route path="msme-marketplace" element={<MSMEMarketplace />} />
