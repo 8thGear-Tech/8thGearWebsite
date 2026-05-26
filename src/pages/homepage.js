@@ -6,8 +6,6 @@ import hubservices from "../assets/images/Homepageassets/HubServices.jpg";
 import projects from "../assets/images/Homepageassets/Projects.jpg";
 import venture from "../assets/images/Homepageassets/VentureStudio.jpg";
 
-import aboutusimg from "../assets/images/Homepageassets/aboutImg.png";
-import groupimg from "../assets/images/Homepageassets/groupimg.png";
 import accountsteamimg from "../assets/images/Homepageassets/accountsteam.png";
 
 import { Partners } from "./WhoWeAre/aboutUs";
