@@ -13,6 +13,7 @@ import {
 import demoday from "../../assets/images/events/demoday.JPG";
 import gearup from "../../assets/images/events/gearup.png";
 import foundersmeetup from "../../assets/images/events/foundersmeetup.jpg";
+import graduatetrainees from "../../assets/images/events/graduatetraineesimg.png";
 import { Navbar14 } from "../../components/Navbar";
 import { SinglegalleryCards } from "../../components/AllCards/MediaCards";
 import eventsGallery from "../../data/gallerycards.json";

@@ -38,6 +38,7 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
+import FreeDiagnostics from "./pages/Services/FreeDiagnostics";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
@@ -100,6 +101,8 @@ import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisor
 import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
 import SurveyBanner from "./components/SurveyBanner";
 
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -160,6 +163,7 @@ function App() {
           {/* <Route path="product-development" element={<HubServicesTech />} /> */}
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
+          <Route path="FreeDiagnostics" element={<FreeDiagnostics />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
           <Route path="hub-membership" element={<HubMembership />} />
           <Route path="msme-marketplace" element={<MSMEMarketplace />} />

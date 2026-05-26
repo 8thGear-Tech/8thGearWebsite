@@ -7,6 +7,8 @@ import projects from "../assets/images/Homepageassets/Projects.jpg";
 import venture from "../assets/images/Homepageassets/VentureStudio.jpg";
 
 import aboutusimg from "../assets/images/Homepageassets/aboutImg.png";
+import groupimg from "../assets/images/Homepageassets/groupimg.png";
+import accountsteamimg from "../assets/images/Homepageassets/accountsteam.png";
 
 import { Partners } from "./WhoWeAre/aboutUs";
 import "./homePage.css";
@@ -233,7 +235,7 @@ const AboutSection = () => {
         </div>
         <div className="col-lg-5 col-md-5 col-sm-12">
           <img
-            src={aboutusimg}
+            src={accountsteamimg}
             className="d-block mx-lg-auto img-fluid"
             alt=""
             loading=""
