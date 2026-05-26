@@ -90,6 +90,7 @@ import FAQ from "./components/FAQ";
 import { Insights } from "./pages/Insights/insights";
 import { ReadMoreInsights } from "./pages/Insights/readMoreInsights";
 import DBN from "./pages/ProjectDelivery/Programs/DBN";
+import Businessgrowth from "./pages/ProjectDelivery/Programs/Businessgrowth";
 import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
@@ -99,6 +100,8 @@ import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
 import MigrantAdvisoryDesk from "./pages/ProjectDelivery/Programs/MigrantAdvisoryDesk";
 import MeristemGreenLagos from "./pages/ProjectDelivery/Programs/Meristem";
 import SurveyBanner from "./components/SurveyBanner";
+
+
 
 function App() {
   return (
@@ -121,6 +124,7 @@ function App() {
           {/* <Route path="initiatives" element={<ProjectDeliveryPage />} /> */}
           <Route path="initiatives" element={<InitiativesSection />} />
           <Route path="DBN" element={<DBN />} />
+          <Route path="Businessgrowth" element={<Businessgrowth />} />
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="GearUp" element={<GearUp />} />
