@@ -1,0 +1,409 @@
+@use "../../colors" as *;
+@use "../../font" as *;
+
+.freeDiagnosticsPage {
+  background: $white;
+  color: $text-pri;
+  font-family: var(--font-open);
+  font-size: 1rem;
+
+  .freeDiagnosticsHero {
+    background: linear-gradient(135deg, $teal-dark 0%, #024b30 100%);
+    color: $white;
+    padding: 100px 0 60px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle at 15% 40%, rgba(255, 255, 255, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.08) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .heroBadge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      color: $white;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 1.75rem;
+      padding: 0.75rem 1.2rem;
+      text-transform: uppercase;
+    }
+
+    .heroHeading {
+      line-height: 1.05;
+      margin-bottom: 1.6rem;
+      max-width: 660px;
+    }
+
+    .heroAccent {
+      color: $teal;
+    }
+
+    .heroDivider {
+      width: 70px;
+      height: 4px;
+      margin-bottom: 1.75rem;
+      background: linear-gradient(90deg, $teal, $purple);
+      border-radius: 999px;
+    }
+
+    .heroParagraph {
+      font-size: 1.03rem;
+      line-height: 1.8;
+      color: rgba(255, 255, 255, 0.84);
+      max-width: 640px;
+      margin-bottom: 1rem;
+    }
+
+    .heroParagraphAccent {
+      font-weight: 600;
+      color: $white;
+      max-width: 620px;
+    }
+
+    .heroCtaWrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      align-items: center;
+      margin-top: 2.2rem;
+    }
+
+    .heroMeta {
+      color: rgba(255, 255, 255, 0.62);
+      font-size: 0.88rem;
+    }
+  }
+
+  .noteCard {
+    background: #fff7e8;
+    border-radius: 24px;
+    padding: 36px 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    transform: rotate(-0.7deg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .notePinOuter {
+    width: 22px;
+    height: 22px;
+    background: #d4333f;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 14px rgba(212, 51, 63, 0.3);
+  }
+
+  .noteTitle {
+    font-family: var(--font-rubik);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: $text-pri;
+    margin-bottom: 1.4rem;
+  }
+
+  .noteItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    font-family: var(--font-open);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $text-pri;
+    margin-bottom: 1rem;
+    line-height: 1.55;
+  }
+
+  .noteCheckIcon {
+    min-width: 24px;
+    min-height: 24px;
+    background: $teal;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .brokenSection {
+    background: $grey-bg;
+    padding: 80px 0;
+  }
+
+  .sectionLabel {
+    font-family: var(--font-rubik);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: $teal;
+    margin-bottom: 1rem;
+  }
+
+  .sectionHeading {
+    color: $text-pri;
+    margin-bottom: 1.25rem;
+    line-height: 1.15;
+  }
+
+  .sectionBody {
+    font-family: var(--font-open);
+    font-size: 1rem;
+    line-height: 1.75;
+    color: $text-sec;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .brokenCard {
+    background: $white;
+    border-radius: 24px;
+    padding: 28px;
+    display: flex;
+    gap: 1rem;
+    border: 1px solid $grey-border;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .brokenCard:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-md;
+  }
+
+  .brokenCardIconWrap {
+    font-size: 2rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .brokenCardTitle {
+    font-family: var(--font-rubik);
+    font-size: 1rem;
+    font-weight: 700;
+    color: $text-pri;
+    margin-bottom: 0.55rem;
+  }
+
+  .brokenCardDesc {
+    font-family: var(--font-open);
+    font-size: 0.95rem;
+    color: $text-sec;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .stepsSection {
+    background: $white;
+    padding: 80px 0;
+  }
+
+  .stepCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $white;
+    border-radius: 24px;
+    padding: 34px 28px;
+    border: 1px solid $grey-border;
+    box-shadow: 0 12px 40px rgba(3, 160, 98, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    min-height: 320px;
+  }
+
+  .stepCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 46px rgba(3, 160, 98, 0.14);
+  }
+
+  .stepNumber {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $teal;
+    color: $white;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+  }
+
+  .stepIconWrap {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .stepTitle {
+    font-family: var(--font-rubik);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: $text-pri;
+    margin-bottom: 0.75rem;
+  }
+
+  .stepDesc {
+    font-family: var(--font-open);
+    font-size: 0.95rem;
+    color: $text-sec;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .freeBadge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, $teal, $teal-dark);
+    color: $white;
+    border-radius: 999px;
+    padding: 0.45rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-left: 0.85rem;
+  }
+
+  .ctaSection {
+    background: linear-gradient(135deg, $teal-dark 0%, #024b30 100%);
+    color: $white;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ctaBgAccent {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle at 80% 20%, rgba(255,255,255,0.12) 0%, transparent 55%);
+    pointer-events: none;
+  }
+
+  .ctaHeading {
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  .ctaSubtext {
+    font-family: var(--font-open);
+    font-size: 1rem;
+    line-height: 1.85;
+    color: rgba(255, 255, 255, 0.82);
+    max-width: 640px;
+    margin: 0 auto 2rem;
+  }
+
+  .ctaNote {
+    font-family: var(--font-open);
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 1.25rem;
+  }
+
+  .freeDiagnosticsBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: $purple;
+    color: $white;
+    border: none;
+    border-radius: 999px;
+    padding: 0.95rem 2.1rem;
+    font-family: var(--font-rubik);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  }
+
+  .freeDiagnosticsBtn:hover {
+    background: $purple-hover;
+    transform: translateY(-2px);
+  }
+
+  .formSection {
+    background: $white;
+    padding: 80px 0;
+  }
+
+  .formInner {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .formIntro {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .formIntro h3 {
+    color: $text-pri;
+    margin-bottom: 1rem;
+  }
+
+  .formIntro p {
+    font-family: var(--font-open);
+    font-size: 1rem;
+    color: $text-sec;
+    line-height: 1.75;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .formWrapper {
+    background: $grey-bg;
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid $grey-border;
+    box-shadow: $shadow;
+  }
+
+  .formWrapper iframe {
+    min-height: 760px;
+    width: 100%;
+    border: 0;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .freeDiagnosticsHero {
+      padding-top: 70px;
+      padding-bottom: 50px;
+    }
+
+    .heroHeading {
+      font-size: 2.4rem;
+    }
+
+    .heroCtaWrap {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .noteCard {
+      transform: none;
+      padding: 28px 22px;
+    }
+
+    .brokenCard {
+      flex-direction: column;
+      padding: 22px;
+    }
+  }
+}
