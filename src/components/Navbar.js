@@ -83,17 +83,16 @@ const NavBar = (props) => {
                 id="basic-nav-dropdown"
                 className="h5 mx-3 mb-4"
               >
-                <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
-                <NavDropdown.Item href="/talent-placement">
-                  Talent Placement
+                <NavDropdown.Item href="/free-diagnostics">
+                  Free Diagnostics
                 </NavDropdown.Item>
-                {/* <NavDropdown.Item href="#">Tech Marketplace</NavDropdown.Item> */}
-                <NavDropdown.Item href="/growth-as-a-service">
+                <NavDropdown.Item href="/msme-marketplace">
+                  MSME Marketplace
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/growth-advisory">
                   Growth Advisory
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/tech-marketplace">
-                  Tech Marketplace
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
               </NavDropdown>{" "}
               <Nav.Link
                 href="/initiatives"
@@ -872,7 +871,14 @@ export const HomepageNav = () => {
                       >
                         {/* DROPDOWN MENU */}
                         <div className="Nav-Dropdown rounded-3">
-                            <NavDropdown.Item
+                                <NavDropdown.Item
+                            href="/free-diagnostics"
+                            className="Nav-Dropdown-Items"
+                          >
+                            Free Diagnostics
+                            <hr className="w-75 m-auto" />
+                          </NavDropdown.Item>
+                          <NavDropdown.Item
                             href="/msme-marketplace"
                             className="Nav-Dropdown-Items"
                           >
@@ -1010,7 +1016,10 @@ export const HomepageNav = () => {
                     id="basic-nav-dropdown"
                     className="text-black"
                   >
-                    <NavDropdown.Item href="/msme-marketplace">
+                    <NavDropdown.Item href="/free-diagnostics">
+                     Free Diagnostics
+                    </NavDropdown.Item>
+                  <NavDropdown.Item href="/msme-marketplace">
                      MSME Marketplace
                     </NavDropdown.Item>
                       <NavDropdown.Item href="/growth-advisory">
