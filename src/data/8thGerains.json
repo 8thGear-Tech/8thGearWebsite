@@ -22,7 +22,7 @@
        {
       "image1": "../../images/team/opeyemi.png",
       "name1": "OPEYEMI BIOKU",
-      "title1": "IT SUPPORT ASSOCIATE",
+      "title1": "TECHNICAL SALES LEAD",
       "id": "staticBackdrop4",
       "link": "https://www.linkedin.com/in/opeyemi-bioku"
     }
@@ -48,11 +48,11 @@
   ],
   "teamcardsix": [
     {
-     "image1": "../../images/team/boluwatife.png",
-      "name1": "BOLUWATIFE ADEKOYA",
-      "title1": "SALES ANALYST",
+     "image1": "../../images/team/olatokunbo.png",
+      "name1": "OLATOKUNBO AIYENIMELO",
+      "title1": "HR & SHARED SERVICES LEAD",
       "id": "staticBackdrop7",
-      "link": "https://www.linkedin.com/in/boluwatife-adenike-adekoya-10a605284/"
+      "link": "https://www.linkedin.com/in/olatokunbo-aiyenimelo-2880277b/"
     }
   ],
   "teamcardseven": [
@@ -78,6 +78,15 @@
       "title1": "HR ANALYST",
       "id": "staticBackdrop6",
       "link": "https://www.linkedin.com/in/boluwatife-mercy/"
+    }
+  ],
+  "teamcardten": [
+     {
+     "image1": "../../images/team/paradise.png",
+      "name1": "PARADISE OKORONKWO",
+      "title1": "PROGRAMS ASSOCIATE",
+      "id": "staticBackdrop6",
+      "link": "https://www.linkedin.com/in/paradise-okoronkwo-249736143/"
     }
   ],
   "EIRcard": [
