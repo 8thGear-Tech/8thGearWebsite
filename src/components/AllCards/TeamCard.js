@@ -425,30 +425,20 @@ export const TeamCardSix = (props) => {
 };
 
 export const TeamCardSeven = (props) => {
-  const { image1, name1, id, image, name, position, text } = props;
+  const { image1, name1, title1, id, image, name, position, text, link, imageHeight } = props;
   return (
     <>
       <div className="card-deck">
         <div className="card w-100 mx-auto ">
-          <img src={image1} className="card-img-top Teampic " alt="Teamimage" />
+          <img src={image1} className="card-img-top Teampic " alt="Teamimage" style={{ height: imageHeight }} />
           <div className="card-body teamcardbody">
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
-              <a
-                href="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn rounded-pill mt-3"
-                style={{
-                  color: "#821e6b",
-                  fontSize: "0.9rem",
-                  padding: "0.4rem 0.75rem",
-                  boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
-                  border: "1px solid rgba(0,0,0,0.08)",
-                }}
-              >
-                <i className="bi bi-chat-dots-fill me-2" />
-                Talk to Big Fay
+              <p className="Text mb-3 mt-3">{title1}</p>
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <div className="text-center">
+                  <LinkedInIcon />
+                </div>
               </a>
             </figure>
 
@@ -660,13 +650,23 @@ export const TeamCardTen = (props) => {
             <figure className="text-center">
               <figcaption className="card-text mt-1">{name1}</figcaption>
               <p className="Text mb-3 mt-3">{title1}</p>
+              <a
+                href="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn rounded-pill"
+                style={{
+                  color: "#821e6b",
+                  fontSize: "0.9rem",
+                  padding: "0.4rem 0.75rem",
+                  boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
+                  border: "1px solid rgba(0,0,0,0.08)",
+                }}
+              >
+                <i className="bi bi-chat-dots-fill me-2" />
+                Talk to Big Fay
+              </a>
             </figure>
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <div className="text-center">
-                {" "}
-                <LinkedInIcon />
-              </div>
-            </a>
 
             <div
               className="modal fade"

@@ -57,9 +57,12 @@
   ],
   "teamcardseven": [
      {
-      "image1": "../../images/team/ai-frontdesk.png",
-      "name1": "AI FRONTDESK",
-      "id": "staticBackdrop8"
+     "image1": "../../images/team/paradise.png",
+      "name1": "PARADISE OKORONKWO",
+      "title1": "PROGRAMS ASSOCIATE",
+      "id": "staticBackdrop6",
+      "link": "https://www.linkedin.com/in/paradise-okoronkwo-249736143/",
+      "imageHeight": "317px"
     }
   ],
   "teamcardeight": [
@@ -82,11 +85,9 @@
   ],
   "teamcardten": [
      {
-     "image1": "../../images/team/paradise.png",
-      "name1": "PARADISE OKORONKWO",
-      "title1": "PROGRAMS ASSOCIATE",
-      "id": "staticBackdrop6",
-      "link": "https://www.linkedin.com/in/paradise-okoronkwo-249736143/"
+      "image1": "../../images/team/ai-frontdesk.png",
+      "name1": "AI FRONTDESK",
+      "id": "staticBackdrop8"
     }
   ],
   "EIRcard": [
