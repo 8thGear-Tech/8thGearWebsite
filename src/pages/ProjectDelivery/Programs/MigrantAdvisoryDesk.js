@@ -151,7 +151,7 @@ const MADHero = () => {
               <div className="d-flex gap-3 flex-wrap mb-4">
                 <Button
                   className="aboutbtn"
-                  href="https://chat.whatsapp.com/IntMLN10e5mIkzxW9BqRq2"
+                  href="https://chat.whatsapp.com/HDLz4wKecgt19Cl3oSAW1O"
                   target="_blank"
                   rel="noopener noreferrer"
                   onMouseEnter={(e) => {
@@ -167,7 +167,7 @@ const MADHero = () => {
                     color: PRIMARY_PURPLE,
                   }}
                 >
-                  Get Counselling →
+                  Join Applicants Group →
                 </Button>
 
                 <Button
