@@ -319,31 +319,31 @@ const EGLModules = () => {
 };
 
 const EGLSchedule = () => {
-  const [activeQuarter, setActiveQuarter] = useState("q2");
+  const [activeQuarter, setActiveQuarter] = useState("q3");
 
   const quarters = [
-    { id: "q2", label: "Q2 · May-Jun" },
+    // { id: "q2", label: "Q2 · May-Jun" },
     { id: "q3", label: "Q3 · Jul-Sep" },
     { id: "q4", label: "Q4 · Oct-Dec" },
   ];
 
   const sessions = {
-    q2: [
-      {
-        date: "May 15",
-        year: "2026",
-        module: "Business Protection & Team Growth",
-        badge: "Module 3",
-        badgeType: "protect",
-      },
-      {
-        date: "Jun 4-5",
-        year: "2026",
-        module: "Digital Tools for Sales & Finance",
-        badge: "Module 1 & 2",
-        badgeType: "sales",
-      },
-    ],
+    // q2: [
+    //   {
+    //     date: "May 15",
+    //     year: "2026",
+    //     module: "Business Protection & Team Growth",
+    //     badge: "Module 3",
+    //     badgeType: "protect",
+    //   },
+    //   {
+    //     date: "Jun 4-5",
+    //     year: "2026",
+    //     module: "Digital Tools for Sales & Finance",
+    //     badge: "Module 1 & 2",
+    //     badgeType: "sales",
+    //   },
+    // ],
     q3: [
       {
         date: "Jul 17",
