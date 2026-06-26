@@ -78,7 +78,7 @@ export default function IDICEFoundersLab() {
             <div className="idice-hero-content">
               <div className="idice-hero-eyebrow">
                 <span className="idice-hero-eyebrow-dot" />
-                Applications Ongoing · Closes April 20, 2026
+                Applications Ongoing · Closes July 26, 2026
               </div>
 
               <h1 className="idice-hero-title">
@@ -109,9 +109,9 @@ export default function IDICEFoundersLab() {
               <div className="idice-hero-stats">
                 {[
                   { val: "12 Weeks",   label: "Programme Duration"  },
-                  { val: "Apr 20",     label: "Closes"              },
+                  { val: "Jul 26",     label: "Closes"              },
                   { val: "36+ States", label: "Nigeria-Wide"        },
-                  { val: "18–35",      label: "Age Requirement"     },
+                  { val: "18-35",      label: "Age Requirement"     },
                 ].map((s) => (
                   <div className="idice-hero-stat" key={s.label}>
                     <div className="idice-hero-stat-val">{s.val}</div>
