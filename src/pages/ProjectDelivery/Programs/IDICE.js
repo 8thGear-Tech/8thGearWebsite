@@ -44,7 +44,7 @@ const ELIGIBILITY = [
   "Ready to take part in evaluations and Demo Day activities",
 ];
 
-const APPLY_URL = "https://accelerator.vester.ai/apply/start?code=Ght8ZplI";
+const APPLY_URL = "https://accelerator.vester.ai/apply/start?code=nDC1MhZl";
 
 export default function IDICEFoundersLab() {
   useEffect(() => {
@@ -169,7 +169,7 @@ export default function IDICEFoundersLab() {
               <div className="idice-about-card-meta">
                 <div className="idice-meta-item">
                   <span className="idice-meta-icon">📅</span>
-                  <span>Closes <strong>April 20, 2026</strong></span>
+                  <span>Closes <strong>July 26, 2026</strong></span>
                 </div>
                 <div className="idice-meta-item">
                   <span className="idice-meta-icon">📍</span>
@@ -245,7 +245,7 @@ export default function IDICEFoundersLab() {
               Ready to Build Your Business?
             </h2>
             <p className="idice-cta-sub idice-reveal idice-reveal-delay-2">
-              Applications are ongoing and close on <strong>April 20, 2026</strong>.
+              Applications are ongoing and close on <strong>July 26, 2026</strong>.
               If you have an idea, prototype, or early MVP — apply today and get the
               guidance, structure and funding to start strong.
             </p>
@@ -260,7 +260,7 @@ export default function IDICEFoundersLab() {
               </a>
             </div>
             <p className="idice-cta-note idice-reveal idice-reveal-delay-4">
-              Closes April 20, 2026 · Ages 18–35 · Open to all 36 states + FCT Abuja
+              Closes July 26, 2026 · Ages 18–35 · Open to all 36 states + FCT Abuja
             </p>
           </div>
         </div>
