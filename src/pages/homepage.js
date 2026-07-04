@@ -55,7 +55,7 @@ const BigHeroSection = () => {
             >
               <span className="blurred-text homedesktophero">
                 {" "}
-                Developing a Thriving Ecosystem for Enterpreneurs
+                Developing a Thriving Ecosystem for Entrepreneurs
               </span>
             </p>
           </div>
@@ -92,7 +92,7 @@ const SmallHeroSection = () => {
           >
             <span className="blurred-text homedesktophero">
               {" "}
-              Developing a Thriving Ecosystem for Enterpreneurs
+              Developing a Thriving Ecosystem for Entrepreneurs
             </span>
           </p>
         </div>

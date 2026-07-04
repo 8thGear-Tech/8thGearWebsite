@@ -57,7 +57,7 @@ const CheckIcon = () => (
 );
 // ─── Component ────────────────────────────────────────────────────────────
 const FounderAssessmentLanding = () => {
-  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfE3pz94JLInXlUkXAHKL_ldaxHD54JoZDgOOeLzwsE0aLQOw/viewform?embedded=true";
+  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSe5l7kRjJTfdzKAAhff_VXCoihQUFwkEaUFZOkx3m5hyHUOpA/viewform?embedded=true";
 
   const handleStartAssessment = () => {
     // Open the form in a new tab instead of embedding it

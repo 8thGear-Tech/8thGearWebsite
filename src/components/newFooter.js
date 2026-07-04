@@ -63,6 +63,7 @@ export const NewFooter = () => (
           <p className="ft-col-head">Explore</p>
           <Link to="/about" className="ft-nav-link">About Us</Link>
           <Link to="/initiatives" className="ft-nav-link">Initiatives</Link>
+          <Link to="/venture-studio" className="ft-nav-link">Venture Studio</Link>
           <Link to="/resources" className="ft-nav-link">Resources &amp; Materials</Link>
           <Link to="/insights" className="ft-nav-link">Insights &amp; Publications</Link>
           <Link to="/events" className="ft-nav-link">Events</Link>
@@ -70,11 +71,11 @@ export const NewFooter = () => (
 
         {/* Col 4 – Venture Studio + Legal */}
         <div>
-          <p className="ft-col-head">Venture Studio</p>
+          {/* <p className="ft-col-head">Venture Studio</p>
           <Link to="/portfolio" className="ft-nav-link">Portfolio</Link>
           <Link to="/hub-membership" className="ft-nav-link">Hub Membership</Link>
           <a href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer" className="ft-nav-link">Community</a>
-          <hr className="ft-inner-divider" />
+          <hr className="ft-inner-divider" /> */}
           <p className="ft-col-head">Legal</p>
           <Link to="/privacy-policy" className="ft-nav-link">Privacy Policy</Link>
           <Link to="/terms-and-conditions" className="ft-nav-link">Terms &amp; Conditions</Link>
@@ -113,8 +114,8 @@ export const NewFooter = () => (
         <Accordion>
           {[
             { key: "0", label: "Hub Services", links: [{ to: "/msme-marketplace", l: "MSME Marketplace" }, { to: "/growth-advisory", l: "Growth Advisory" }, { to: "/coworking", l: "Co-working" }] },
-            { key: "1", label: "Explore", links: [{ to: "/about", l: "About Us" }, { to: "/initiatives", l: "Initiatives" }, { to: "/resources", l: "Resources & Materials" }, { to: "/insights", l: "Insights & Publications" }, { to: "/events", l: "Events" }] },
-            { key: "2", label: "Venture Studio", links: [{ to: "/portfolio", l: "Portfolio" }, { to: "/hub-membership", l: "Hub Membership" }] },
+            { key: "1", label: "Explore", links: [{ to: "/about", l: "About Us" }, { to: "/initiatives", l: "Initiatives" }, { to: "/venture-studio", l: "Venture Studio" }, { to: "/resources", l: "Resources & Materials" }, { to: "/insights", l: "Insights & Publications" }, { to: "/events", l: "Events" }] },
+            // { key: "2", label: "Venture Studio", links: [{ to: "/portfolio", l: "Portfolio" }, { to: "/hub-membership", l: "Hub Membership" }] },
             { key: "3", label: "Legal", links: [{ to: "/privacy-policy", l: "Privacy Policy" }, { to: "/terms-and-conditions", l: "Terms & Conditions" }, { to: "/refund-policy", l: "Refund Policy" }, { to: "/genderpolicy", l: "Gender Policy" }] },
           ].map(({ key, label, links }) => (
             <Accordion.Item key={key} eventKey={key}>

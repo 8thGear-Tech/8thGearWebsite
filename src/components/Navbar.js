@@ -93,6 +93,9 @@ const NavBar = (props) => {
                   Growth Advisory
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/coworking">Coworking</NavDropdown.Item>
+                <NavDropdown.Item href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer">
+                  Community
+                </NavDropdown.Item>
               </NavDropdown>{" "}
               <Nav.Link
                 href="/initiatives"
@@ -899,6 +902,9 @@ export const HomepageNav = () => {
                             Coworking
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
+                           <NavDropdown.Item href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer">
+                  Community
+                </NavDropdown.Item>
                         </div>
                       </NavDropdown>
                       <Nav.Link href="/initiatives" className="Nav-item">
@@ -974,28 +980,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                         </div>
                       </NavDropdown>
-                      <NavDropdown
-                        title="Venture Studio"
-                        id={`offcanvasNavbarDropdown-expand-${"sm"}`}
-                        className="Nav-item w-75"
-                      >
-                        <div className="Nav-Dropdown rounded-3">
-                          <NavDropdown.Item
-                            href="/portfolio"
-                            className="Nav-Dropdown-Items"
-                          >
-                            Portfolio
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                          <NavDropdown.Item
-                            href="/hub-membership"
-                            className="Nav-Dropdown-Items dropdown-item-separated"
-                          >
-                            Hub Membership
-                            <hr className="w-75 m-auto" />
-                          </NavDropdown.Item>
-                        </div>
-                      </NavDropdown>
+                       <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
 
                       <Nav.Link href="/about" className="Nav-item">
                         About Us
@@ -1028,6 +1013,9 @@ export const HomepageNav = () => {
                        <NavDropdown.Item href="/coworking">
                       Coworking
                     </NavDropdown.Item>
+                     <NavDropdown.Item href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank" rel="noopener noreferrer">
+                  Community
+                </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="/initiatives">Initiatives</Nav.Link>
                   <NavDropdown
@@ -1099,23 +1087,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     
                   </NavDropdown>
-                  <NavDropdown
-                    title="Venture Studio"
-                    id="basic-nav-dropdown"
-                    className="text-black"
-                  >
-                    <NavDropdown.Item href="/portfolio">
-                      Portfolio
-                    </NavDropdown.Item>
-                     <NavDropdown.Item href="/hub-membership">
-                      Hub Membership
-                    </NavDropdown.Item>
-                     <NavDropdown.Item href="https://chat.whatsapp.com/JAKxj7Jv07W5r6Q0JQSbXK" target="_blank">
-                     Community
-                    </NavDropdown.Item>
-                   
-                  </NavDropdown>
-
+                     <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
                   <Nav.Link href="/events">Events</Nav.Link>
                 </Nav>

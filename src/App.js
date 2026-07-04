@@ -153,7 +153,7 @@ function App() {
           {/* <Route path="digiplus" element={<DigiPlus />} /> */}
 
           {/* New ventureStudio  */}
-          <Route path="portfolio" element={<VentureStudio />} />
+          <Route path="venture-studio" element={<VentureStudio />} />
 
           {/* <Route
             path="digitalmarketing"
