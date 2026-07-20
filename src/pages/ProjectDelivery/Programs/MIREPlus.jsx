@@ -6,6 +6,7 @@ import { HomepageNav } from "../../../components/Navbar";
 import trainingsHero from "../../../assets/images/projectdelivery/trainingsHero.jpg";
 import digiplusalliance from "../../../assets/images/projectdelivery/MIREPlus/digiplusalliance.png";
 import avonafrica from "../../../assets/images/projectdelivery/MIREPlus/avonafrica.png";
+import meristem from "../../../assets/images/projectdelivery/meristem/meristem.svg";
 
 
 
@@ -171,14 +172,14 @@ const MIREPlus = () => {
                   }}
                 >
                   {[
-                    "CAC-certified business owners (1 year+ in operation)",
-                    "Based in Lagos, Ibadan, or Southwest Nigeria",
+                    "Owners looking to raise funding, equity, loan or grant, professional governance or both",
+                    "Based in Lagos, Ibadan, or southwest Nigeria and available to attend physical sessions in Lagos",
                     "Entrepreneurs seeking funding and digital business growth",
                     "Founders ready to invest ₦200,000 in scaling their business",
                   ].map((item, idx) => (
                     <div
                       key={idx}
-                      style={{ display: "flex", alignItems: "flex-start" }}
+                      style={{ display: "flex", alignItems: "flex-start"}}
                       className="text-white"
                     >
                       <svg
@@ -201,7 +202,7 @@ const MIREPlus = () => {
                           strokeLinejoin="round"
                         />
                       </svg>
-                      <p style={{ margin: 0, lineHeight: "1.5" }}>{item}</p>
+                      <p style={{ margin: 0, lineHeight: "1.5", color: "#fff" }}>{item}</p>
                     </div>
                   ))}
                 </div>
@@ -241,7 +242,7 @@ const MIREPlus = () => {
                     style={{
                       // textAlign: "center",
                       fontSize: "0.875rem",
-                    
+                      color: "#fff",
                       marginTop: "0.75rem",
                       fontStyle: "italic",
                       margin: "1rem 0 0 0",
@@ -299,8 +300,8 @@ const MIREPlus = () => {
                     }}
                   >
                     {[
-                      "Hands-on workshop on cash flow projection,business & revenue models",
-                      "Access to Debt & Equity Funding (T & C applies)",
+                      "Hands on workshop on positioning and marketing essentials, supply chain cooperate governance funding and pitch readiness",
+                      "Access to Debt & Equity Funding (T&C applies)",
                       "Post-program mentorship (1 Month)",
                       "Demo Day - Opportunity to Pitch to Investors",
                     ].map((item, idx) => (
@@ -347,14 +348,17 @@ const MIREPlus = () => {
                   {/* NEW FLEX CONTAINER for Application Fee and Training Fee */}
                   <div
                     style={{
-                      display: "flex",
                       gap: "5em",
                       // justifyContent: "space-between", // Space items out nicely
-                      paddingBottom: "1rem",
                       borderBottom: "2px solid #f0f0f0",
                       marginBottom: "1rem",
-                    }}
-                  >
+                    }}>
+                    <div
+                    style={{
+                      display: "flex",
+                      gap: "5em",
+                      marginBottom: "1rem",
+                    }}>
                     {/* Application Fee */}
                     <div>
                       <h5> Application Fee</h5>
@@ -375,10 +379,19 @@ const MIREPlus = () => {
 
                       <p className="m-0 p-0">₦200,000</p>
                     </div>
+                    </div>
+                  <p style={{
+                          fontSize: "0.7rem", lineHeight: "1", marginTop: "0.2rem"
+                        }}>Pay ₦200,000 upfront and get 10% discount.</p>
+                  <p style={{
+                          fontSize: "0.7rem",
+                          lineHeight: "1",
+                          marginTop: "0.2rem"
+                        }}>Note that the application fee is non-refundable and is included in the ₦200,000 training fee.</p>
                   </div>
 
                   <div style={{}}>
-                    <h5>Program Duration</h5>
+                    <h5 style={{ fontSize: "1rem", fontWeight: "bold" }}>Program Duration</h5>
                     <p className="m-0 p-0">4 Weeks</p>
                     <p
                       style={{
@@ -453,6 +466,24 @@ const MIREPlus = () => {
                 <img
                   src={avonafrica}
                   alt="Avon Africa"
+                  style={{
+                    maxHeight: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  // minWidth: "140px",
+                  height: "42px",
+                }}
+                className="py-2"
+              >
+                <img
+                  src={meristem}
+                  alt="Meristem"
                   style={{
                     maxHeight: "100%",
                     maxWidth: "100%",
