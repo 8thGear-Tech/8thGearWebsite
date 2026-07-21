@@ -1,93 +1,52 @@
 {
-  "teamcardone": [
-
-     {
-       "image1": "../../images/team/basiratabdullahi.png",
+  "team": [
+    {
+      "image1": "../../images/team/basiratabdullahi.png",
       "name1": "BASIRAT ABDULLAHI",
       "title1": "VENTURE STUDIO & BUSINESS DEV. LEAD",
       "id": "staticBackdrop2",
       "link": "https://www.linkedin.com/in/basirat-arike-abdullahi/"
-    }
-  ],
-  "teamcardtwo": [
-   {
+    },
+    {
       "image1": "../../images/team/seunoladele.jpg",
       "name1": "DR. SEUN OLADELE",
       "title1": "PROJECT DEV. CONSULTANT",
       "id": "staticBackdrop1",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
-    }
-  ],
-  "teamcardthree": [
-       {
-      "image1": "../../images/team/opeyemi.png",
-      "name1": "OPEYEMI BIOKU",
-      "title1": "SALES & MARKETING LEAD",
-      "id": "staticBackdrop4",
-      "link": "https://www.linkedin.com/in/opeyemi-bioku"
-    }
-    
-  ],
-  "teamcardfour": [
+    },
     {
-     "image1": "../../images/team/oluwatobi.png",
-      "name1": "OLUWATOBILOBA ADEBOLA",
-      "title1": "SENIOR PROGRAMS ANALYST",
-      "id": "staticBackdrop5",
-      "link": "https://www.linkedin.com/in/oluwatobiloba-adebola/"
-    }
-  ],
-  "teamcardfive": [
-     {
       "image1": "../../images/team/adam.png",
       "name1": "ADAM YAKUB",
       "title1": "FINANCE & ACC. CONSULTANT",
       "id": "staticBackdrop3",
       "link": "https://www.linkedin.com/in/adam-yakub-aca-2848a2170/"
-    }
-  ],
-  "teamcardsix": [
+    },
     {
-     "image1": "../../images/team/olatokunbo.png",
+      "image1": "../../images/team/olatokunbo.png",
       "name1": "OLATOKUNBO AIYENIMELO",
       "title1": "HR & SHARED SERVICES LEAD",
       "id": "staticBackdrop7",
       "link": "https://www.linkedin.com/in/olatokunbo-aiyenimelo-2880277b/"
-    }
-  ],
-  "teamcardseven": [
-     {
-     "image1": "../../images/team/paradise.png",
+    },
+    {
+      "image1": "../../images/team/paradise.png",
       "name1": "PARADISE OKORONKWO",
       "title1": "PROGRAMS ASSOCIATE",
       "id": "staticBackdrop6",
-      "link": "https://www.linkedin.com/in/paradise-okoronkwo-249736143/",
-      "imageHeight": "317px"
-    }
-  ],
-  "teamcardeight": [
+      "link": "https://www.linkedin.com/in/paradise-okoronkwo-249736143/"
+    },
     {
-     "image1": "../../images/team/chris.png",
+      "image1": "../../images/team/chris.png",
       "name1": "CHRIS EHIDIAMEN",
       "title1": "HR CONSULTANT",
       "id": "staticBackdrop6",
       "link": "https://www.linkedin.com/in/christopher-ehidiamen-5873b734/"
-    }
-  ],
-  "teamcardnine": [
-     {
-     "image1": "../../images/team/mercy.png",
-      "name1": "MERCY ADEGEYE",
-      "title1": "HR ANALYST",
-      "id": "staticBackdrop6",
-      "link": "https://www.linkedin.com/in/boluwatife-mercy/"
-    }
-  ],
-  "teamcardten": [
-     {
+    },
+    {
       "image1": "../../images/team/ai-frontdesk.png",
       "name1": "AI FRONTDESK",
-      "id": "staticBackdrop8"
+      "id": "staticBackdrop8",
+      "chatLink": "https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/25/10/20250725100304-T7H5G9CU.json"
     }
   ],
   "EIRcard": [
@@ -98,7 +57,7 @@
       "id": "1",
       "link": "https://www.linkedin.com/in/seun-oladele-676b7623b/"
     },
-     {
+    {
       "image1": "../../images/team/titilayo.png",
       "name1": "TITILAYO EKUNDAYO",
       "title1": "EIR",
@@ -112,6 +71,5 @@
       "id": "3",
       "link": "https://www.linkedin.com/in/olarewaju-olasunkanmi/"
     }
-   
   ]
 }
