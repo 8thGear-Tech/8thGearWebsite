@@ -352,7 +352,6 @@ const YDOS = () => {
 
             {/* FLYER SHOWCASE SECTION */}
             <div className="text-center my-5">
-              <h5 className="fw-bold mb-3">Program Flyer</h5>
               <div 
                 style={{ 
                   cursor: "pointer", 
