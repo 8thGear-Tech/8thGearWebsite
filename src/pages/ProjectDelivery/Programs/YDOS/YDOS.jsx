@@ -1,7 +1,7 @@
 import "../Programs.css";
 
 import React, { useState } from "react";
-import { Container, Row, Col, Button, Modal } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 import { HomepageNav } from "../../../../components/Navbar";
 
 // Asset imports (adjust paths as necessary for your project layout)
