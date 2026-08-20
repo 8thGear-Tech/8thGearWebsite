@@ -95,6 +95,7 @@ import DBN from "./pages/ProjectDelivery/Programs/DBN";
 import IDICE from "./pages/ProjectDelivery/Programs/IDICE";
 import MIREPlus from "./pages/ProjectDelivery/Programs/MIREPlus";
 import GearUp from "./pages/ProjectDelivery/Programs/GearUp";
+import YDOS from "./pages/ProjectDelivery/Programs/YDOS/YDOS.jsx";
 import UpskillingProject from "./pages/ProjectDelivery/Programs/UpskillingProject";
 import EGL from "./pages/ProjectDelivery/Programs/EGL";
 import ThreeMTT from "./pages/ProjectDelivery/Programs/3MTT";
@@ -127,6 +128,7 @@ function App() {
           <Route path="DBN" element={<DBN />} />
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
+          <Route path="YDOS" element={<YDOS />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="GIZ-ZME-Upskilling-Project" element={<UpskillingProject />} />
           <Route path="entrepreneurs-growth-lab" element={<EGL />} />

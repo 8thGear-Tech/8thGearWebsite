@@ -1085,7 +1085,12 @@ export const HomepageNav = () => {
                     >
                  DeepTech Upskiling (DSN/Google)
                     </NavDropdown.Item>
-                    
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/ydos"
+                    >
+                 Youth Day of Service (YDOS)
+                    </NavDropdown.Item>
                   </NavDropdown>
                      <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
