@@ -1,5 +1,6 @@
 import React from "react";
 import { HomepageNav } from "../../components/Navbar";
+import { FreeDiagnosticsHero, startFreeDiagnosticsAssessment } from "../../components/Hero/FreeDiagnosticsHero";
 import "../../sassfiles/_colors.scss";
 import "../../sassfiles/pages/services/_freeDiagnostics.scss";
 
@@ -49,79 +50,13 @@ const steps = [
   },
 ];
 
-// ─── SVG Check Icon ────────────────────────────────────────────────────────
-const CheckIcon = () => (
-  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-    <path d="M2 6l3 3 5-5" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
 // ─── Component ────────────────────────────────────────────────────────────
 const FounderAssessmentLanding = () => {
-  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSe5l7kRjJTfdzKAAhff_VXCoihQUFwkEaUFZOkx3m5hyHUOpA/viewform?embedded=true";
-
-  const handleStartAssessment = () => {
-    // Open the form in a new tab instead of embedding it
-    window.open(formUrl, "_blank", "noopener,noreferrer");
-  };
-
   return (
     <div className="freeDiagnosticsPage">
       <HomepageNav />
 
-      <section className="freeDiagnosticsHero">
-        <div className="container" style={{ position: "relative", zIndex: 1 }}>
-          <div className="row align-items-center gy-5">
-            <div className="col-lg-6">
-              <div className="heroBadge">For Founders Ready to Diagnose the Real Problem</div>
-
-              <h1 className="heroHeading">
-                Most Founders Think <span className="heroAccent">Money</span> Is Always What They Need
-              </h1>
-
-              <div className="heroDivider" />
-
-              <p className="heroParagraph">
-                When growth slows, the instinct is to raise more capital. But founders who've worked with us reveal something different, their real constraints aren't financial. They're operational, strategic, or systemic.
-              </p>
-
-              <p className="heroParagraph heroParagraphAccent">
-                Money alone won't fix what's actually broken.
-              </p>
-
-              <div className="heroCtaWrap">
-                <button type="button" className="freeDiagnosticsBtn" onClick={handleStartAssessment}>
-                  Take the Free Assessment
-                  <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
-                    <path d="M3 8h10M9 4l4 4-4 4" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </button>
-                <span className="heroMeta">Takes only 5 minutes</span>
-              </div>
-            </div>
-
-            <div className="col-lg-5 offset-lg-1">
-              <div className="noteCard">
-                <div className="notePinOuter" />
-                <p className="noteTitle">What's Actually Slowing Growth</p>
-                {[
-                  "No Operational Structure",
-                  "Weak Decision-Making Data",
-                  "Customer Retention Gaps",
-                  "Pricing Misalignment",
-                  "Scaling Too Early",
-                ].map((item) => (
-                  <div key={item} className="noteItem">
-                    <div className="noteCheckIcon">
-                      <CheckIcon />
-                    </div>
-                    <span>{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <FreeDiagnosticsHero />
 
       <section className="brokenSection">
         <div className="container">
@@ -196,7 +131,7 @@ const FounderAssessmentLanding = () => {
             Take the 5-minute founder diagnostic and walk away knowing exactly which operational constraint is slowing your growth and what to do about it.
           </p>
 
-          <button type="button" className="freeDiagnosticsBtn" onClick={handleStartAssessment}>
+          <button type="button" className="freeDiagnosticsBtn" onClick={startFreeDiagnosticsAssessment}>
             Get Started — It's Free
             <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />

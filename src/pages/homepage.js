@@ -12,12 +12,16 @@ import { Partners } from "./WhoWeAre/aboutUs";
 import "./homePage.css";
 import { useState } from "react";
 
+import { FreeDiagnosticsHero } from "../components/Hero/FreeDiagnosticsHero";
+
+
 const Home = () => {
   return (
     <>
       <HomepageNav />
       {/* <Navbar0 /> */}
-      <BigHeroSection />
+      {/* <BigHeroSection /> */}
+      <FreeDiagnosticsHero />
       <SmallHeroSection />
       <Service />
       {/* <Line /> */}
@@ -66,8 +70,6 @@ const BigHeroSection = () => {
 };
 
 // ABOUT US
-
-
 const SmallHeroSection = () => {
   return (
     <div className="d-lg-none d-md-none d-sm-block d-xs-block">
