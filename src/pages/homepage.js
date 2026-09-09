@@ -34,40 +34,40 @@ const Home = () => {
 };
 
 // HERO SECTION
-const BigHeroSection = () => {
-  return (
-    <>
-      {/* <div className=""> */}
-      <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-        {/* <div className=""> */}
-        <div className="px-4 container-fluid homeHeroBig d-flex pt-3 pb-4 align-items-center ">
-          <div className="gradientBgg overlayBgg"></div>
-          <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5">
-            <h1
-              className="blurred-text-container homedesktophero"
-              style={{ fontSize: "2.8rem", color: "#fff" }}
-            >
-              <span className="blurred-text homedesktophero">
-                {" "}
-                Great people building enduring ventures
-              </span>
-            </h1>
+// const BigHeroSection = () => {
+//   return (
+//     <>
+//       {/* <div className=""> */}
+//       <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none">
+//         {/* <div className=""> */}
+//         <div className="px-4 container-fluid homeHeroBig d-flex pt-3 pb-4 align-items-center ">
+//           <div className="gradientBgg overlayBgg"></div>
+//           <div className="col-lg-8 col-md-8 col-sm-12 px-lg-5">
+//             <h1
+//               className="blurred-text-container homedesktophero"
+//               style={{ fontSize: "2.8rem", color: "#fff" }}
+//             >
+//               <span className="blurred-text homedesktophero">
+//                 {" "}
+//                 Great people building enduring ventures
+//               </span>
+//             </h1>
 
-            <p
-              className="blurred-text-container homedesktophero"
-              style={{ fontSize: "1.2rem", color: "#fff" }}
-            >
-              <span className="blurred-text homedesktophero">
-                {" "}
-                Developing a Thriving Ecosystem for Entrepreneurs
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+//             <p
+//               className="blurred-text-container homedesktophero"
+//               style={{ fontSize: "1.2rem", color: "#fff" }}
+//             >
+//               <span className="blurred-text homedesktophero">
+//                 {" "}
+//                 Developing a Thriving Ecosystem for Entrepreneurs
+//               </span>
+//             </p>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
 // ABOUT US
 const SmallHeroSection = () => {
