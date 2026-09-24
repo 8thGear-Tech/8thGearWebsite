@@ -130,7 +130,7 @@ function App() {
           <Route path="IDICE" element={<IDICE />} />
           <Route path="MIREPlus" element={<MIREPlus />} />
           <Route path="YDOS" element={<YDOS />} />
-          <Route path="lsetf-giz-esp" element={<LSETF />} />
+          <Route path="esp" element={<LSETF />} />
           <Route path="GearUp" element={<GearUp />} />
           <Route path="GIZ-ZME-Upskilling-Project" element={<UpskillingProject />} />
           <Route path="entrepreneurs-growth-lab" element={<EGL />} />

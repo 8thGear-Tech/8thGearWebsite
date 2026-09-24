@@ -1093,7 +1093,7 @@ export const HomepageNav = () => {
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       className="dropdown-item-separated"
-                      href="/lsetf-giz-esp"
+                      href="/esp"
                     >
                  LSETF ESP
                     </NavDropdown.Item>
