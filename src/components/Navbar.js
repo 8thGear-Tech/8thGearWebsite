@@ -1091,6 +1091,12 @@ export const HomepageNav = () => {
                     >
                  Youth Day of Service (YDOS)
                     </NavDropdown.Item>
+                    <NavDropdown.Item
+                      className="dropdown-item-separated"
+                      href="/lsetf-giz-esp"
+                    >
+                 LSETF ESP
+                    </NavDropdown.Item>
                   </NavDropdown>
                      <Nav.Link href="/venture-studio">Venture Studio</Nav.Link>
                   <Nav.Link href="/about">About Us</Nav.Link>
