@@ -81,6 +81,9 @@ export const NewFooter = () => (
           <Link to="/terms-and-conditions" className="ft-nav-link">Terms &amp; Conditions</Link>
           <Link to="/refund-policy" className="ft-nav-link">Refund Policy</Link>
           <Link to="/genderpolicy" className="ft-nav-link">Gender Policy</Link>
+          <hr className="ft-inner-divider" />
+          <p className="ft-col-head">Internal Tools</p>
+          <Link to="https://internal.8thgearpartners.com" className="ft-nav-link" target="_blank" rel="noopener noreferrer">Internal Tools</Link>
         </div>
 
       </div>
@@ -117,6 +120,7 @@ export const NewFooter = () => (
             { key: "1", label: "Explore", links: [{ to: "/about", l: "About Us" }, { to: "/initiatives", l: "Initiatives" }, { to: "/venture-studio", l: "Venture Studio" }, { to: "/resources", l: "Resources & Materials" }, { to: "/insights", l: "Insights & Publications" }, { to: "/events", l: "Events" }] },
             // { key: "2", label: "Venture Studio", links: [{ to: "/portfolio", l: "Portfolio" }, { to: "/hub-membership", l: "Hub Membership" }] },
             { key: "3", label: "Legal", links: [{ to: "/privacy-policy", l: "Privacy Policy" }, { to: "/terms-and-conditions", l: "Terms & Conditions" }, { to: "/refund-policy", l: "Refund Policy" }, { to: "/genderpolicy", l: "Gender Policy" }] },
+            { key: "4", label: "Internal Tools", links: [{ to: "https://internal.8thgearpartners.com", l: "Internal Tools" }] },
           ].map(({ key, label, links }) => (
             <Accordion.Item key={key} eventKey={key}>
               <Accordion.Header>{label}</Accordion.Header>
