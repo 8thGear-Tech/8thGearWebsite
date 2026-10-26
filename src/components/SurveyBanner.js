@@ -113,6 +113,7 @@
 // }
 
 import { useState, useEffect, useRef } from "react";
+import { FORM_URL } from "./Hero/FreeDiagnosticsHero";
 import "./SurveyBanner.css";
 
 export default function SurveyBanner() {
@@ -122,7 +123,7 @@ export default function SurveyBanner() {
 
   // Launch modal only if user hasn't seen it in this session
   useEffect(() => {
-    const modalShown = sessionStorage.getItem("surveyModalShown");
+    const modalShown = sessionStorage.getItem("diagnosticsModalShown");
     
     if (!modalShown) {
       const timer = setTimeout(() => setShowModal(true), 2000);
@@ -158,7 +159,7 @@ export default function SurveyBanner() {
 
   const handleModalClose = () => {
     // Mark that modal has been shown in this session
-    sessionStorage.setItem("surveyModalShown", "true");
+    sessionStorage.setItem("diagnosticsModalShown", "true");
     setShowModal(false);
     setTimeout(() => setShowBanner(true), 2000);
   };
@@ -178,26 +179,25 @@ export default function SurveyBanner() {
                 <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
-            <div className="survey-modal-badge">MSME Survey 2026</div>
+            <div className="survey-modal-badge">Free MSME Diagnostic</div>
             <p className="survey-modal-body">
-              We're collecting honest feedback to understand the real impact of
-              sponsored talent and MSME development programmes in Nigeria.
+              When growth slows, the instinct is to raise more capital. But the
+              real constraints are often operational, strategic, or systemic.
+              Find out what's actually slowing your business down.
               <br /><br />
               <span style={{ fontSize: "12px", opacity: 0.85 }}>
-                ⏱ Takes <strong>5–7 minutes</strong> &nbsp;·&nbsp; 🔒 Fully Anonymous
-                <br />
-                📊 Findings published <strong>December 2026</strong>
+                ⏱ Takes only <strong>5 minutes</strong> &nbsp;·&nbsp; 💸 100% Free
               </span>
             </p>
             <div className="survey-modal-actions">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe7FjSTjyCKAZQooBHyxkOGWTXx3z_uc-bDn3K8zfhsvcCpsA/viewform?usp=sharing&ouid=115803220851822061793"
+                href={FORM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="survey-banner-cta survey-modal-cta"
                 onClick={handleModalClose}
               >
-                Take the Survey →
+                Take the Free Diagnostic →
               </a>
             </div>
           </div>
@@ -208,21 +208,20 @@ export default function SurveyBanner() {
         <div className="survey-banner" ref={bannerRef}>
           <div className="survey-banner-content">
             <div className="survey-banner-text">
-              <h3 className="survey-banner-title">MSME Survey 2026</h3>
+              <h3 className="survey-banner-title">Free MSME Diagnostic</h3>
               <p className="survey-banner-description">
-                Does sponsored talent &amp; MSME development programmes{" "}
-                <span className="survey-time">actually move the needle</span>{" "}
-                for your business? Tell us in 5–7 mins · Fully Anonymous ·
-                Findings will be published in December 2026.
+                Is it really money your business needs? Find out{" "}
+                <span className="survey-time">what's actually slowing growth</span>{" "}
+                with our free diagnostic · Takes only 5 mins.
               </p>
             </div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe7FjSTjyCKAZQooBHyxkOGWTXx3z_uc-bDn3K8zfhsvcCpsA/viewform?usp=sharing&ouid=115803220851822061793"
+              href={FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="survey-banner-cta"
             >
-              Take Survey
+              Take Diagnostic
             </a>
             <button onClick={handleBannerClose} className="survey-banner-close">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">

@@ -8,7 +8,7 @@ const CheckIcon = () => (
   </svg>
 );
 
-const FORM_URL =
+export const FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSe5l7kRjJTfdzKAAhff_VXCoihQUFwkEaUFZOkx3m5hyHUOpA/viewform?embedded=true";
 
 export const startFreeDiagnosticsAssessment = () => {

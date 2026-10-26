@@ -1,8 +1,10 @@
+import { FORM_URL } from "../../components/Hero/FreeDiagnosticsHero";
+
 export default function FreeDiagnostics() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfE3pz94JLInXlUkXAHKL_ldaxHD54JoZDgOOeLzwsE0aLQOw/viewform?embedded=true"
+        src={FORM_URL}
         width="100%"
         height="100%"
         frameBorder="0"
