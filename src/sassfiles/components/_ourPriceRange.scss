@@ -1,0 +1,124 @@
+@use "../colors" as *;
+
+.ourPriceRange {
+  .rateLocation {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $text-sec;
+  }
+
+  .rateCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: $radius;
+    border: 2px solid $purple-border;
+    background: $white;
+    box-shadow: $shadow;
+
+    &--pink {
+      border-color: transparent;
+      background: rgba(130, 30, 107, 0.08);
+    }
+  }
+
+  .rateCardTitle {
+    margin: 0;
+    font-weight: 700;
+    color: $text-pri;
+  }
+
+  .ratePill {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background: $purple;
+    color: $white;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  .rateBadge {
+    font-size: 0.75rem;
+  }
+
+  .rateLabel {
+    margin: 0.75rem 0 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $text-sec;
+  }
+
+  .ratePrices {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    margin-top: 0.5rem;
+  }
+
+  .ratePriceLine {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $purple;
+  }
+
+  .ratePriceLabel {
+    font-weight: 400;
+    color: $text-sec;
+  }
+
+  .ratePriceNote {
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: $text-light;
+  }
+
+  .ratePerksLabel {
+    margin: 1rem 0 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-sec;
+  }
+
+  .ratePerks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+      font-size: 0.875rem;
+      line-height: 1.375;
+      color: $text-sec;
+    }
+  }
+
+  .ratePerkCheck {
+    color: $teal;
+  }
+
+  .rateEnquiries {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    color: $text-sec;
+
+    a {
+      color: $purple;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

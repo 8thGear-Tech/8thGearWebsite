@@ -1,378 +1,155 @@
-import React, { useState } from "react";
-import {
-  Button,
-  Card,
-  Container,
-  Dropdown,
-  DropdownButton,
-} from "react-bootstrap";
+import React from "react";
+import { Button, Container } from "react-bootstrap";
 import "./css/CoWorking.css";
+import "../sassfiles/components/_ourPriceRange.scss";
 
-const OurPriceRange = () => {
-  const [currentPlan, setCurrentPlan] = useState("1");
-  const [currentPackage, setCurrentPackage] = useState("Quarterly/Monthly/Yearly Plan"); // Default package for 8thG
+// Mirrors the "8thGear Co-Working Rate Card" flyer: six standalone cards, no tabs.
+const officePerks = [
+  "Fast, Reliable Internet Access",
+  "Uninterrupted Power Supply",
+  "Meeting Room 3hrs Free Per Month",
+  "Kitchenette",
+  "Tea / Coffee",
+  "Community Events",
+  "5% Discount on Hub Services",
+  "2 pages free printing service daily",
+  "Table water daily",
+  "Lounge Area",
+];
 
-  const plans = [
-    {
-      id: "1",
-      planTitle: "Location: 41 CMD Road",
-      packages: {
-        "Quarterly/Monthly/Yearly Plan": [
-          {
-            title: "VIRTUAL OFFICE",
-            price: "₦150,000 Per Quarter",
-            features: [
-              "Verified Official Business Address",
-              "Logo displayed at the 8thGear Hub",
-              "Address Verification Documents",
-              "Mail & Parcel Handling",
-              "Guest Reception",
-              "10hrs Meeting Room per quarter",
-              "Professional recognition and credibility for your busines",
-            ],
+const rateCards = [
+  {
+    title: "Meeting Room",
+    prices: [{ amount: "₦15,000", label: "Per Hour" }],
+    perks: [
+      "Fast, Reliable Internet Access",
+      "Uninterrupted Power Supply",
+      "Kitchenette",
+      "Community events",
+      "Sits up to 8 persons",
+      "Coffee and Tea",
+      "Table water for 8",
+    ],
+  },
+  {
+    title: "Event/Training Hall",
+    pink: true,
+    ratesLabel: "Rates",
+    prices: [
+      { amount: "₦180,000", label: "Per Day" },
+      { amount: "₦100,000", label: "Half Day", note: "(9am-1pm / 1pm-5pm)" },
+      { amount: "₦240,000", label: "Per day with Rollup Banner" },
+    ],
+    perks: [
+      "Uninterrupted Power Supply",
+      "Good Sound System",
+      "Sits up to 50 persons",
+      "Interactive Screens",
+      "White Board & Marker",
+      "3 Stick note of different colours",
+      "Banner printing (Event planning services available on request)",
+    ],
+  },
+  {
+    title: "Private Office",
+    prices: [{ amount: "₦350,000", label: "Per Month" }],
+    perks: officePerks,
+  },
+  {
+    title: "Virtual Office",
+    pink: true,
+    prices: [{ amount: "₦150,000", label: "Per Quarter" }],
+    perks: ["Corporate Address", "Mail Handling", "Community Events", "In-Room Signage (Logo in Hub)"],
+  },
+  {
+    title: "Flexi Plan",
+    badge: "Weekdays 9am-5pm",
+    prices: [
+      { amount: "₦12,000", label: "1 Day" },
+      { amount: "₦55,000", label: "5 Days" },
+      { amount: "₦105,000", label: "10 Days" },
+      { amount: "₦15,000", label: "Saturdays", note: "(10:00am-3:00pm)" },
+      { amount: "₦25,000", label: "Night Plan", note: "(6:00pm-6:00am)" },
+    ],
+    perks: [
+      "Fast, Reliable Internet Access",
+      "Uninterrupted Power Supply",
+      "Kitchenette",
+      "Water (bottle water) per day",
+      "Lunch (Rice + Chicken)",
+      "Coffee & Tea per day",
+    ],
+  },
+  {
+    title: "Dedicated Desk",
+    pink: true,
+    prices: [{ amount: "₦100,000", label: "Per Month" }],
+    perks: officePerks,
+  },
+];
 
+const RateCard = ({ card }) => (
+  <div className={`rateCard ${card.pink ? "rateCard--pink" : ""}`}>
+    <h5 className="rateCardTitle">{card.title}</h5>
 
-          },
-          {
-            title: "DEDICATED DESK",
-            price: "₦50,000 Per Month",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Meeting Room - 3hr Free/Month",
-              "Kitchenette",
-              "Lounge Area",
-              "Community Events",
-              "5% Discount on Hub Services",
-            ],
-          },
-        ],
-        "Flexi Plan": [
-          {
-            title: "REGULAR",
-            price: "₦5,000 Per Day",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-            ],
-          },
-          {
-            title: "CLASSIC",
-            price: "₦18,000 (5 Days)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-            ],
-          },
-          {
-            title: "DELUXE",
-            price: "₦35,000 (10 Days)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-            ],
-          },
-          {
-            title: "SATURDAYS",
-            price: "₦8,000 Per Day",
-            timeRange: "(10am-3pm)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-            ],
-          },
-          {
-            title: "NIGHT PLAN",
-            price: "₦15,000",
-            timeRange: "(6pm-6am)",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-            ],
-          },
-          {
-            title: "MEETING ROOM",
-            price: "₦10,000 Per Hour",
-            features: [
-              "Fast, Reliable Internet Access",
-              "Uninterrupted Power Supply",
-              "Kitchenette",
-              "Community Events",
-              "Sits up to 8 persons",
-            ],
-          },
-        ],
-        "Event/Training Hall": [
-          {
-            title: "CLASSIC - Per Hour",
-            price: "₦20,000",
-            features: [
-              "Uninterrupted Power Supply",
-              "Screen",
-              "Good Sound System",
-              "Sits up to 50 persons",
-            ],
-          },
-          {
-            title: "CLASSIC - Half Day",
-            price: "₦60,000 ",
-            timeRange: "(9am-1pm)/(1pm-5pm)",
-            features: [
-              "Uninterrupted Power Supply",
-              "Screen",
-              "Good Sound System",
-              "Sits up to 50 persons",
-            ],
-          },
-          {
-            title: "CLASSIC - Per Day",
-            price: "₦100,000 ",
-            timeRange: "(9am-5pm)",
-            features: [
-              "Uninterrupted Power Supply",
-              "Screen",
-              "Good Sound System",
-              "Sits up to 50 persons",
-            ],
-          },
-          {
-            title: "PREMIUM - Per Hour",
-            price: "₦35,000",
-            features: [
-              "Uninterrupted Power Supply",
-              "Interactive Screen & White Board",
-              "Good Sound System",
-              "Sits up to 35 persons",
-            ],
-          },
-          {
-            title: "PREMIUM - Half Day",
-            price: "₦95,000 ",
-            timeRange: "(9am-1pm)/(1pm-5pm)",
-            features: [
-              "Uninterrupted Power Supply",
-              "Interactive Screen & White Board",
-              "Good Sound System",
-              "Sits up to 35 persons",
-            ],
-          },
-          {
-            title: "PREMIUM - Per Day",
-            price: "₦160,000 ",
-            timeRange: "(9am-5pm)",
-            features: [
-              "Uninterrupted Power Supply",
-              "Interactive Screen & White Board",
-              "Good Sound System",
-              "Sits up to 35 persons",
-            ],
-          },
-        ],
-      },
-    },
-    // {
-    //   id: "2",
-    //   planTitle: "Location 2, Yaba",
-    //   packages: {
-    //     "Flexi Plan": [
-    //       {
-    //         title: "DAILY PLAN",
-    //         price: "₦4,500 Per Day",
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Kitchenette & Lounge Area",
-    //         ],
-    //       },
-    //       {
-    //         title: "WEEKLY PLAN",
-    //         price: "₦15,000 (5 Days)",
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Kitchenette, Print & Lounge Area",
-    //           "Meeting Room (Free for 1 hour)",
-    //         ],
-    //       },
-    //       {
-    //         title: "MEETING ROOM",
-    //         price: "₦5,500 (Per Hour)",
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Projectors & Sound System ",
-    //           "Kitchenette, Printer",
-    //         ],
-    //       },
-    //       {
-    //         title: "EVENT/TRAINING HALL",
-    //         price: "₦16,000 Per Hour",
+    {card.badge && <span className="ratePill rateBadge">{card.badge}</span>}
+    {card.ratesLabel && <p className="rateLabel">{card.ratesLabel}</p>}
 
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Projectors & Sound System",
-    //         ],
-    //       },
-    //     ],
-    //     "Monthly/Yearly Plan": [
-    //       {
-    //         title: "FLEXI PLAN",
-    //         price: "₦33,500 (12 days)",
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Kitchenette, printer, locker & Lounge",
-    //           "Meeting Room (Free for 2 Hours)",
-    //           "Lounge Area",
-    //           "Community Events",
-    //         ],
-    //       },
-    //       {
-    //         title: "DEDICATED DESK",
-    //         price: "₦45,000 (20 days)",
-    //         features: [
-    //           "Fast, Reliable Internet Access",
-    //           "Uninterrupted Power Supply",
-    //           "Kitchenette, printer, locker & Lounge",
-    //           "Meeting Room (Free for 2 Hours)",
-    //           "Lounge Area",
-    //           "Community Events",
-    //         ],
-    //       },
-    //       {
-    //         title: "VIRTUAL LITE",
-    //         price: "₦65,000 Per Year",
-    //         timeRange: "(9am-5pm)",
-    //         features: [
-    //           "Corporate Address",
-    //           "Mail Handling",
-    //           "Community Events",
-    //           "Meeting Room (50 hours per year / 4 hours per month)",
-    //         ],
-    //       },
-    //       {
-    //         title: "VIRTUAL OFFICE",
-    //         price: "₦150,000 Per Year",
-    //         features: [
-    //           "Corporate Address",
-    //           "Mail Handling",
-    //           "Community Events",
-    //           "Meeting Room (4 hours free / month)",
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
-  ];
-
-  const handlePlanClick = (planId) => {
-    setCurrentPlan(planId);
-    const defaultPackage = Object.keys(
-      plans.find((plan) => plan.id === planId).packages
-    )[0];
-    setCurrentPackage(defaultPackage);
-  };
-
-  const handlePackageChange = (packageType) => {
-    setCurrentPackage(packageType);
-  };
-
-  const currentPackages = plans.find(
-    (plan) => plan.id === currentPlan
-  ).packages;
-  const currentCards = currentPackages[currentPackage];
-
-  return (
-    <Container className="mt-5">
-      <div className="text-center mb-4 text-uppercase">
-        <h3>Our Price Range</h3>
-      </div>
-
-      <div className="button-group text-center mb-1">
-        {plans.map((plan) => (
-          <Button
-            key={plan.id}
-            className={` ${
-              currentPlan === plan.id ? "active" : ""
-            } mt-4 px-2 py-2 rounded-pill fs-6 fw-semibold lh-base text-center me-2 `}
-            onClick={() => handlePlanClick(plan.id)}
-          >
-            {plan.planTitle}
-          </Button>
-        ))}
-      </div>
-      {Object.keys(currentPackages).length > 1 && (
-        <div className="d-flex justify-content-center my-3">
-          {" "}
-          <DropdownButton
-            id="dropdown-basic-button"
-            title={currentPackage}
-            onSelect={handlePackageChange}
-          >
-            {Object.keys(currentPackages).map((packageType, index) => (
-              <Dropdown.Item key={index} eventKey={packageType}>
-                {packageType}
-              </Dropdown.Item>
-            ))}
-          </DropdownButton>
-        </div>
+    <div className="ratePrices">
+      {card.prices.length === 1 ? (
+        <span className="ratePill">
+          {card.prices[0].amount} {card.prices[0].label}
+        </span>
+      ) : (
+        card.prices.map((p) => (
+          <p key={p.label} className="ratePriceLine">
+            {p.amount}
+            <span className="ratePriceLabel"> - {p.label}</span>
+            {p.note && <span className="ratePriceNote">{p.note}</span>}
+          </p>
+        ))
       )}
-      <div className="container">
-        <div className="row justify-content-center">
-          {currentCards.map((card, index) => (
-            <div key={index} className="col-lg-4 col-md-6 mb-4 d-flex">
-              <Card className="new-tab-card w-100 overflow-hidden text-center mt-5 rounded-3 shadow border-0 text-center">
-                <Card.Body className="price-body flex-column d-flex justify-content-center align-items-center align-content-center">
-                  <Card.Title>{card.title}</Card.Title>
-                  {card.timeRange && (
-                    <Card.Text className="time-range">
-                      {card.timeRange}
-                    </Card.Text>
-                  )}
-                  <hr className="mt-0 pt-0 w-50" />
-                  <Card.Text>
-                    <ul className="m-0 position-relative start-0 p-0">
-                      {card.features.map((feature, i) => (
-                        <li
-                          key={i}
-                          className="py-1 fw-normal mb-0 list-unstyled lh-lg text-center fs-6"
-                        >
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </Card.Text>
-                  <Card.Subtitle className="totalprice text-center fs-5 fw-bold lh-base mt-2">
-                    {card.price}
-                  </Card.Subtitle>
-                </Card.Body>
-              </Card>
-            </div>
-          ))}
+    </div>
+
+    <p className="ratePerksLabel">Perks</p>
+    <ul className="ratePerks">
+      {card.perks.map((perk) => (
+        <li key={perk}>
+          <span aria-hidden="true" className="ratePerkCheck">
+            ✓
+          </span>
+          {perk}
+        </li>
+      ))}
+    </ul>
+  </div>
+);
+
+const OurPriceRange = () => (
+  <Container className="ourPriceRange mt-5">
+    <div className="text-center mb-5">
+      <h3 className="text-uppercase">8thGear Co-Working Rate Card</h3>
+      <p className="rateLocation">8thGear Hub HQ: 41 CMD Road, Secretariat/Magodo, Lagos</p>
+    </div>
+
+    <div className="row g-4">
+      {rateCards.map((card) => (
+        <div key={card.title} className="col-lg-4 col-sm-6 d-flex">
+          <RateCard card={card} />
         </div>
-      </div>
-      <div className="text-center mt-3">
-        <a
-          href="https://forms.gle/pjR1os5hN6WnbzFa9"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button>Book a Space</Button>
-        </a>
-      </div>
-    </Container>
-  );
-};
+      ))}
+    </div>
+
+    <div className="text-center mt-5">
+      <p className="rateEnquiries">
+        For more inquiries: 0913 246 2410 | 0809 481 8883 |{" "}
+        <a href="mailto:info@8thgearpartners.com">info@8thgearpartners.com</a>
+      </p>
+      <a href="https://forms.gle/pjR1os5hN6WnbzFa9" target="_blank" rel="noopener noreferrer">
+        <Button>Book a Space</Button>
+      </a>
+    </div>
+  </Container>
+);
 
 export default OurPriceRange;
