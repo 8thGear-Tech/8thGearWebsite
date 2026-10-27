@@ -83,8 +83,8 @@ const NavBar = (props) => {
                 id="basic-nav-dropdown"
                 className="h5 mx-3 mb-4"
               >
-                <NavDropdown.Item href="/free-diagnostics">
-                  Free Diagnostics
+                <NavDropdown.Item href="/business-checkup">
+                  Full Business Checkup
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/msme-marketplace">
                   MSME Marketplace
@@ -875,10 +875,10 @@ export const HomepageNav = () => {
                         {/* DROPDOWN MENU */}
                         <div className="Nav-Dropdown rounded-3">
                                 <NavDropdown.Item
-                            href="/free-diagnostics"
+                            href="/business-checkup"
                             className="Nav-Dropdown-Items"
                           >
-                            Free Diagnostics
+                            Full Business Checkup
                             <hr className="w-75 m-auto" />
                           </NavDropdown.Item>
                           <NavDropdown.Item
@@ -1001,8 +1001,8 @@ export const HomepageNav = () => {
                     id="basic-nav-dropdown"
                     className="text-black"
                   >
-                    <NavDropdown.Item href="/free-diagnostics">
-                     Free Diagnostics
+                    <NavDropdown.Item href="/business-checkup">
+                     Full Business Checkup
                     </NavDropdown.Item>
                   <NavDropdown.Item href="/msme-marketplace">
                      MSME Marketplace

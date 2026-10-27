@@ -1,8 +1,8 @@
 import React from "react";
 import { HomepageNav } from "../../components/Navbar";
-import { FreeDiagnosticsHero, startFreeDiagnosticsAssessment } from "../../components/Hero/FreeDiagnosticsHero";
+import { BusinessCheckupHero, startBusinessCheckup } from "../../components/Hero/BusinessCheckupHero";
 import "../../sassfiles/_colors.scss";
-import "../../sassfiles/pages/services/_freeDiagnostics.scss";
+import "../../sassfiles/pages/services/_businessCheckup.scss";
 
 const brokenItems = [
   {
@@ -35,7 +35,7 @@ const brokenItems = [
 const steps = [
   {
     icon: "⏱️",
-    title: "5-Minute Diagnostic",
+    title: "5-Minute Business Checkup",
     desc: "Answer focused questions designed to surface your real operational constraints not the symptoms.",
   },
   {
@@ -51,12 +51,12 @@ const steps = [
 ];
 
 // ─── Component ────────────────────────────────────────────────────────────
-const FounderAssessmentLanding = () => {
+const BusinessCheckupPage = () => {
   return (
-    <div className="freeDiagnosticsPage">
+    <div className="businessCheckupPage">
       <HomepageNav />
 
-      <FreeDiagnosticsHero />
+      <BusinessCheckupHero />
 
       <section className="brokenSection">
         <div className="container">
@@ -94,13 +94,13 @@ const FounderAssessmentLanding = () => {
       <section className="stepsSection">
         <div className="container">
           <div className="text-center mb-5">
-            <p className="sectionLabel">Diagnose the Real Problem</p>
+            <p className="sectionLabel">Full Business Checkup</p>
             <h2 className="sectionHeading">
               Three Steps to Clarity 
               <span className="freeBadge">Free</span>
             </h2>
             <p className="sectionBody">
-              No fluff. No sales pitch. Just a focused diagnostic that tells you exactly where to look.
+              No fluff. No sales pitch. Just a focused business checkup that tells you exactly where to look.
             </p>
           </div>
 
@@ -123,15 +123,15 @@ const FounderAssessmentLanding = () => {
       <section className="ctaSection">
         <div className="ctaBgAccent" />
         <div className="container text-center" style={{ position: "relative", zIndex: 1 }}>
-          <p className="sectionLabel">The Free Assessment</p>
+          <p className="sectionLabel">The Full Business Checkup</p>
           <h2 className="ctaHeading">
             Stop Guessing. Start <span className="heroAccent">Growing</span>.
           </h2>
           <p className="ctaSubtext">
-            Take the 5-minute founder diagnostic and walk away knowing exactly which operational constraint is slowing your growth and what to do about it.
+            Take the 5-minute Full Business Checkup and walk away knowing exactly which operational constraint is slowing your growth and what to do about it.
           </p>
 
-          <button type="button" className="freeDiagnosticsBtn" onClick={startFreeDiagnosticsAssessment}>
+          <button type="button" className="businessCheckupBtn" onClick={startBusinessCheckup}>
             Get Started — It's Free
             <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
@@ -146,4 +146,4 @@ const FounderAssessmentLanding = () => {
   );
 };
 
-export default FounderAssessmentLanding;
+export default BusinessCheckupPage;

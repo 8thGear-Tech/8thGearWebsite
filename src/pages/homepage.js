@@ -12,7 +12,7 @@ import { Partners } from "./WhoWeAre/aboutUs";
 import "./homePage.css";
 import { useState } from "react";
 
-import { FreeDiagnosticsHero } from "../components/Hero/FreeDiagnosticsHero";
+import { BusinessCheckupHero } from "../components/Hero/BusinessCheckupHero";
 
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
       <HomepageNav />
       {/* <Navbar0 /> */}
       {/* <BigHeroSection /> */}
-      <FreeDiagnosticsHero />
+      <BusinessCheckupHero />
       <SmallHeroSection />
       <Service />
       {/* <Line /> */}

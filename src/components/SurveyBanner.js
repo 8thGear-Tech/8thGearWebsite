@@ -113,7 +113,7 @@
 // }
 
 import { useState, useEffect, useRef } from "react";
-import { FORM_URL } from "./Hero/FreeDiagnosticsHero";
+import { FORM_URL } from "./Hero/BusinessCheckupHero";
 import "./SurveyBanner.css";
 
 export default function SurveyBanner() {
@@ -123,7 +123,7 @@ export default function SurveyBanner() {
 
   // Launch modal only if user hasn't seen it in this session
   useEffect(() => {
-    const modalShown = sessionStorage.getItem("diagnosticsModalShown");
+    const modalShown = sessionStorage.getItem("businessCheckupModalShown");
     
     if (!modalShown) {
       const timer = setTimeout(() => setShowModal(true), 2000);
@@ -159,7 +159,7 @@ export default function SurveyBanner() {
 
   const handleModalClose = () => {
     // Mark that modal has been shown in this session
-    sessionStorage.setItem("diagnosticsModalShown", "true");
+    sessionStorage.setItem("businessCheckupModalShown", "true");
     setShowModal(false);
     setTimeout(() => setShowBanner(true), 2000);
   };

@@ -1,7 +1,7 @@
 @use "../../colors" as *;
 @use "../../font" as *;
 
-.freeDiagnosticsHero {
+.businessCheckupHero {
   background: linear-gradient(135deg, $teal-dark 0%, #024b30 100%);
   color: $white;
   padding: 100px 0 60px;
@@ -153,7 +153,7 @@
   }
 }
 
-.freeDiagnosticsBtn {
+.businessCheckupBtn {
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;

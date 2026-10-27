@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/homepage";
 import { PrivacyAndPolicy } from "./pages/privacyandPolicy";
 import { GenderPolicy } from "./pages/genderPolicy";
@@ -38,8 +38,8 @@ import TalentDevelopment from "./components/AllCards/TalentsDevelopment";
 // import HubServicesTech from "./pages/Services/HubServicesTech";
 import GrowthAsAservice from "./pages/Services/GaaS";
 import CoWorking from "./pages/Services/coWorking";
-import FreeDiagnosticsPage from "./pages/Services/FreeDiagnosticsPage.js";
-import FreeDiagnosticsForm from "./pages/Services/FreeDiagnosticsForm.jsx";
+import BusinessCheckupPage from "./pages/Services/BusinessCheckupPage.js";
+import BusinessCheckupForm from "./pages/Services/BusinessCheckupForm.jsx";
 import TalentPlacement from "./pages/Services/TalentPlacement";
 import HubMembership from "./pages/Services/HubMembership";
 import MSMEMarketplace from "./pages/Services/MSMEMarketplace/MSMEMarketplace";
@@ -168,8 +168,11 @@ function App() {
           {/* <Route path="product-development" element={<HubServicesTech />} /> */}
           <Route path="growth-advisory" element={<GrowthAsAservice />} />
           <Route path="coworking" element={<CoWorking />} />
-          <Route path="free-diagnostics" element={<FreeDiagnosticsPage />} />
-          <Route path="FreeDiagnostics" element= {<FreeDiagnosticsForm />} />
+          <Route path="business-checkup" element={<BusinessCheckupPage />} />
+          <Route path="business-checkup-form" element={<BusinessCheckupForm />} />
+          {/* Old free diagnostics URLs, kept so shared links still work */}
+          <Route path="free-diagnostics" element={<Navigate to="/business-checkup" replace />} />
+          <Route path="FreeDiagnostics" element={<Navigate to="/business-checkup-form" replace />} />
           <Route path="talent-placement" element={<TalentPlacement />} />
           <Route path="hub-membership" element={<HubMembership />} />
           <Route path="msme-marketplace" element={<MSMEMarketplace />} />

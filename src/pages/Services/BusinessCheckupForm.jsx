@@ -1,6 +1,6 @@
-import { FORM_URL } from "../../components/Hero/FreeDiagnosticsHero";
+import { FORM_URL } from "../../components/Hero/BusinessCheckupHero";
 
-export default function FreeDiagnostics() {
+export default function BusinessCheckupForm() {
   return (
     <div style={{ width: "100%", height: "100vh" }}>
       <iframe
@@ -10,7 +10,7 @@ export default function FreeDiagnostics() {
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
-        title="FreeDiagnostics"
+        title="Full Business Checkup"
       >
         Loading…
       </iframe>
