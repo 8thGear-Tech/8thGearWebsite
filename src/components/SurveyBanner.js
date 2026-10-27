@@ -179,7 +179,7 @@ export default function SurveyBanner() {
                 <path d="M12 4L4 12M4 4L12 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </button>
-            <div className="survey-modal-badge">Free MSME Diagnostic</div>
+            <div className="survey-modal-badge">Full Business Checkup</div>
             <p className="survey-modal-body">
               When growth slows, the instinct is to raise more capital. But the
               real constraints are often operational, strategic, or systemic.
@@ -197,7 +197,7 @@ export default function SurveyBanner() {
                 className="survey-banner-cta survey-modal-cta"
                 onClick={handleModalClose}
               >
-                Take the Free Diagnostic →
+                Take the Full Business Checkup →
               </a>
             </div>
           </div>
@@ -208,11 +208,11 @@ export default function SurveyBanner() {
         <div className="survey-banner" ref={bannerRef}>
           <div className="survey-banner-content">
             <div className="survey-banner-text">
-              <h3 className="survey-banner-title">Free MSME Diagnostic</h3>
+              <h3 className="survey-banner-title">Full Business Checkup</h3>
               <p className="survey-banner-description">
                 Is it really money your business needs? Find out{" "}
                 <span className="survey-time">what's actually slowing growth</span>{" "}
-                with our free diagnostic · Takes only 5 mins.
+                with our Full Business Checkup · Takes only 5 mins.
               </p>
             </div>
             <a
@@ -221,7 +221,7 @@ export default function SurveyBanner() {
               rel="noopener noreferrer"
               className="survey-banner-cta"
             >
-              Take Diagnostic
+              Take the Checkup
             </a>
             <button onClick={handleBannerClose} className="survey-banner-close">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
